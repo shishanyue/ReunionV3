@@ -1,23 +1,29 @@
-plugins { id 'java' }
+plugins {
+    id 'java'
+    id 'maven-publish'
+}
 
 java {
     sourceCompatibility = JavaVersion.VERSION_11
     targetCompatibility = JavaVersion.VERSION_11
 }
 
-dependencies { implementation 'org.ow2.asm:asm:9.7' }
+dependencies { implementation 'org.ow2.asm:asm:9.9.1' }
 
 def rootDir = project.rootDir.absolutePath
+
+def patchedJar = layout.buildDirectory.file('tmp/base-patched.jar')
+def aarFile = layout.buildDirectory.file('aar/base-patched.aar')
 
 tasks.register('patchJar', JavaExec) {
     group = 'patcher'
     classpath = sourceSets.main.runtimeClasspath
     mainClass = 'cn.tesseract.patcher.JarPatcher'
     def rFile = "$rootDir/libs/build-r.txt"
-    args = ["$rootDir/libs/base.jar", "$rootDir/app/libs/base-patched.jar",
-            '--remap-ids', rFile]
+    args = ["$rootDir/libs/base.jar", patchedJar.get().asFile.absolutePath, '--remap-ids', rFile]
     workingDir = rootDir
     doFirst {
+        patchedJar.get().asFile.parentFile.mkdirs()
         def srcR = file("$rootDir/app/build/intermediates/runtime_symbol_list/debug/processDebugResources/R.txt")
         def dstR = file(rFile)
         if (srcR.exists() && (!dstR.exists() || srcR.lastModified() > dstR.lastModified())) {
@@ -30,12 +36,24 @@ tasks.register('patchJar', JavaExec) {
 tasks.register('buildAar', Zip) {
     group = 'patcher'
     def baseApkDir = "$rootDir/libs/base_apk"
-    def outputAar = project.findProperty('outputAar') ?: "$rootDir/app/libs/base-patched.aar"
-    archiveFileName = new File(outputAar).name
-    destinationDirectory = new File(outputAar).parentFile
-    from("$rootDir/app/libs/base-patched.jar") { rename { 'classes.jar' } }
+    archiveFileName = aarFile.get().asFile.name
+    destinationDirectory = aarFile.get().asFile.parentFile
+    from(patchedJar) { rename { 'classes.jar' } }
     from("$baseApkDir/res") { into 'res'; exclude 'values/public.xml' }
     from("$baseApkDir/assets") { into 'assets' }
     from("$rootDir/libs/aar") { include 'AndroidManifest.xml' }
     dependsOn 'patchJar'
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'cn.tesseract.soviet'
+            artifactId = 'base-patched'
+            version = '1.0'
+            artifact(aarFile) { builtBy buildAar }
+            pom { packaging = 'aar' }
+        }
+    }
+    repositories { mavenLocal() }
 }
