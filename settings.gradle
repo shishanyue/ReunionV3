@@ -25,5 +25,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "soviet"
 include ':app'
-include ':jar-patcher'
-project(':jar-patcher').projectDir = file('tools/jar-patcher')
+include ':patcher'
+project(':patcher').projectDir = file('patcher')

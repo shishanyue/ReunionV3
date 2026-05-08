@@ -19,7 +19,7 @@ tasks.register('patchJar', JavaExec) {
     group = 'patcher'
     classpath = sourceSets.main.runtimeClasspath
     mainClass = 'cn.tesseract.patcher.JarPatcher'
-    def rFile = "$rootDir/libs/build-r.txt"
+    def rFile = "$rootDir/build/build-r.txt"
     args = ["$rootDir/libs/base.jar", patchedJar.get().asFile.absolutePath, '--remap-ids', rFile]
     workingDir = rootDir
     doFirst {
@@ -35,7 +35,7 @@ tasks.register('patchJar', JavaExec) {
 
 tasks.register('buildAar', Zip) {
     group = 'patcher'
-    def baseApkDir = "$rootDir/libs/base_apk"
+    def baseApkDir = "$rootDir/build/apk"
     archiveFileName = aarFile.get().asFile.name
     destinationDirectory = aarFile.get().asFile.parentFile
     from(patchedJar) { rename { 'classes.jar' } }
