@@ -1,0 +1,41 @@
+plugins { id 'java' }
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
+dependencies { implementation 'org.ow2.asm:asm:9.7' }
+
+def rootDir = project.rootDir.absolutePath
+
+tasks.register('patchJar', JavaExec) {
+    group = 'patcher'
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'cn.tesseract.patcher.JarPatcher'
+    def rFile = "$rootDir/libs/build-r.txt"
+    args = ["$rootDir/libs/base.jar", "$rootDir/app/libs/base-patched.jar",
+            '--remap-ids', rFile]
+    workingDir = rootDir
+    doFirst {
+        def srcR = file("$rootDir/app/build/intermediates/runtime_symbol_list/debug/processDebugResources/R.txt")
+        def dstR = file(rFile)
+        if (srcR.exists() && (!dstR.exists() || srcR.lastModified() > dstR.lastModified())) {
+            dstR.bytes = srcR.bytes
+            println "Synced R.txt (${srcR.readLines().size()} entries)"
+        }
+    }
+}
+
+tasks.register('buildAar', Zip) {
+    group = 'patcher'
+    def baseApkDir = "$rootDir/libs/base_apk"
+    def outputAar = project.findProperty('outputAar') ?: "$rootDir/app/libs/base-patched.aar"
+    archiveFileName = new File(outputAar).name
+    destinationDirectory = new File(outputAar).parentFile
+    from("$rootDir/app/libs/base-patched.jar") { rename { 'classes.jar' } }
+    from("$baseApkDir/res") { into 'res'; exclude 'values/public.xml' }
+    from("$baseApkDir/assets") { into 'assets' }
+    from("$rootDir/libs/aar") { include 'AndroidManifest.xml' }
+    dependsOn 'patchJar'
+}
