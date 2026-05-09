@@ -11,19 +11,21 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+
 plugins {
     id 'org.gradle.toolchains.foojay-resolver-convention' version '1.0.0'
 }
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
         mavenLocal()
+        maven { url 'https://maven.aliucord.com/releases' }
     }
 }
 
 rootProject.name = "soviet"
 include ':app'
 include ':patcher'
-project(':patcher').projectDir = file('patcher')
