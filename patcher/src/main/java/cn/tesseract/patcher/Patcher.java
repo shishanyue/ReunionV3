@@ -1,5 +1,11 @@
 package cn.tesseract.patcher;
 
+import org.objectweb.asm.ClassReader;
+import org.objectweb.asm.ClassVisitor;
+import org.objectweb.asm.ClassWriter;
+import org.objectweb.asm.MethodVisitor;
+import org.objectweb.asm.Opcodes;
+
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.ByteArrayOutputStream;
@@ -53,6 +59,26 @@ public class Patcher {
             if (rFile != null) {
                 patches.add(new ResourceIdRemapPatch(ResourceIdRemapPatch.buildIdMapFromJar(rFile, inputJar)));
             }
+        } else if (platform == Platform.DESKTOP) {
+            patches.add((className, classBytes) -> {
+                if (!"com/corrodinggames/rts/java/Main".equals(className)) return null;
+                ClassWriter cw = new ClassWriter(ClassWriter.COMPUTE_MAXS);
+                new ClassReader(classBytes).accept(new ClassVisitor(Opcodes.ASM9, cw) {
+                    @Override
+                    public MethodVisitor visitMethod(int access, String name, String descriptor, String signature, String[] exceptions) {
+                        MethodVisitor mv = super.visitMethod(access, name, descriptor, signature, exceptions);
+                        if ("<clinit>".equals(name))
+                            return new MethodVisitor(Opcodes.ASM9, mv) {
+                                @Override
+                                public void visitLdcInsn(Object value) {
+                                    super.visitLdcInsn("Rusted Warfare".equals(value) ? "Mindustry" : value);
+                                }
+                            };
+                        return mv;
+                    }
+                }, 0);
+                return cw.toByteArray();
+            });
         }
 
         int total = 0, patched = 0;
@@ -87,7 +113,7 @@ public class Patcher {
         DESKTOP
     }
 
-    private static byte[] readAllBytes(InputStream in) throws IOException {
+    public static byte[] readAllBytes(InputStream in) throws IOException {
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
         byte[] buf = new byte[8192];
         int n;

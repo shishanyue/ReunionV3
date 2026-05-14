@@ -20,6 +20,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import cn.tesseract.patcher.Patch;
+import cn.tesseract.patcher.Patcher;
 
 /**
  * Remaps resource IDs in R classes from old (APK) values to new (build) values.
@@ -88,7 +89,7 @@ public class ResourceIdRemapPatch implements Patch {
         Map<String, Integer> nameToOld = scanJarRClasses(jarFile);
 
         Map<Integer, Integer> map = new HashMap<>();
-        for (var e : nameToOld.entrySet()) {
+        for (Map.Entry<String, Integer> e : nameToOld.entrySet()) {
             Integer newId = nameToNew.get(e.getKey());
             if (newId != null && !newId.equals(e.getValue())) map.put(e.getValue(), newId);
         }
@@ -114,7 +115,7 @@ public class ResourceIdRemapPatch implements Patch {
                 String name = e.getName();
                 if (name.startsWith("com/corrodinggames/rts/R$") && name.endsWith(".class")) {
                     String type = name.substring(name.lastIndexOf('$') + 1, name.lastIndexOf('.'));
-                    parseRFields(jis.readAllBytes(), type, out);
+                    parseRFields(Patcher.readAllBytes(jis), type, out);
                 }
             }
         }

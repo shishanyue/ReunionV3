@@ -3,8 +3,8 @@ plugins {
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_11
-    targetCompatibility = JavaVersion.VERSION_11
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
 }
 
 configurations.configureEach {
@@ -19,39 +19,13 @@ dependencies {
     runtimeOnly libs.crosshook.desktop
 }
 
-// ---- Game directory ----
-// Default: run/ subdirectory (dev setup). Override via -PgameDir=... or in gradle.properties.
 ext.gameDir = project.findProperty('gameDir') ?: layout.projectDirectory.dir('run').asFile.absolutePath
-def patchedGameLib = file("$gameDir/game-lib.patched.jar")
 
-tasks.register('patchRunGameLib', JavaExec) {
-    group = 'soviet'
-    description = 'Patch the local game-lib.jar before launching the desktop build'
-
-    dependsOn ':patcher:classes'
-    classpath = files(
-        project(':patcher').sourceSets.main.output,
-        project(':patcher').configurations.compileClasspath,
-    )
-    mainClass = 'cn.tesseract.patcher.Patcher'
-    workingDir = file(gameDir)
-
-    args = [
-        file("$gameDir/game-lib.jar").absolutePath,
-        patchedGameLib.absolutePath,
-        '--platform', 'desktop',
-    ]
-}
-
-
-// ---- One-click run (dev) ----
-// Usage: ./gradlew :desktop:runDesktop
-//        ./gradlew :desktop:runDesktop -PgameDir="D:/MyGame"
 tasks.register('runDesktop', JavaExec) {
     group = 'soviet'
-    description = 'Launch Rusted Warfare with Soviet mod (one-click dev run)'
+    description = 'Launch modded desktop Rusted Warfare'
 
-    dependsOn jar, ':core:jar', patchRunGameLib, ':patcher:publishDesktopPublicationToMavenLocal'
+    dependsOn jar, ':core:jar', ':patcher:publishDesktopPublicationToMavenLocal'
 
     def gamePath = file(gameDir).absolutePath
     workingDir = file(gameDir)
@@ -60,7 +34,6 @@ tasks.register('runDesktop', JavaExec) {
         jar.archiveFile,
         project(':core').jar.archiveFile,
         configurations.runtimeClasspath,
-        patchedGameLib,
         fileTree("$gameDir/libs") { include '*.jar' },
     )
 
@@ -78,11 +51,6 @@ tasks.register('runDesktop', JavaExec) {
         args project.gameArgs.split(' ')
     }
 }
-
-// ---- Distribution ----
-// Builds a ZIP containing only the mod + dependencies (no game files).
-// User extracts into their Rusted Warfare game directory.
-// Usage: ./gradlew :desktop:distZip
 
 def distDir = layout.buildDirectory.dir('production-dist')
 
