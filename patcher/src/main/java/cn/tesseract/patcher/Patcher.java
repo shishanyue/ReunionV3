@@ -1,5 +1,10 @@
 package cn.tesseract.patcher;
 
+import cn.tesseract.patcher.patches.Dex2JarFixPatch;
+import cn.tesseract.patcher.patches.ResourceIdRemapPatch;
+import net.fabricmc.tinyremapper.OutputConsumerPath;
+import net.fabricmc.tinyremapper.TinyRemapper;
+import net.fabricmc.tinyremapper.TinyUtils;
 import org.objectweb.asm.ClassReader;
 import org.objectweb.asm.ClassVisitor;
 import org.objectweb.asm.ClassWriter;
@@ -21,19 +26,16 @@ import java.util.jar.JarEntry;
 import java.util.jar.JarInputStream;
 import java.util.jar.JarOutputStream;
 
-import cn.tesseract.patcher.patches.Dex2JarFixPatch;
-import cn.tesseract.patcher.patches.ResourceIdRemapPatch;
-
 /**
- * Applies a pipeline of patches to class entries in a JAR.
- * Usage: Patcher &lt;input&gt; &lt;output&gt; --remap-ids &lt;rFile&gt;
- * Pipeline: fixDex2JMethods (always), remapResourceIds (if --remap-ids given)
+ * Applies a small patch pipeline to game jars.
+ * Android path: Dex2Jar fixes -> optional resource ID remap -> optional tiny remap.
+ * Desktop path: only the existing desktop launcher name tweak.
  */
 public class Patcher {
 
     public static void main(String[] args) throws Exception {
         if (args.length < 2) {
-            System.out.println("Usage: Patcher <input> <output> [--platform android|desktop] [--remap-ids <rFile>]");
+            System.out.println("Usage: Patcher <input> <output> [--platform android|desktop] [--remap-ids <rFile>] [--tiny-mappings <tinyFile>]");
             System.exit(1);
         }
 
@@ -42,10 +44,15 @@ public class Patcher {
 
         Platform platform = Platform.ANDROID;
         Path rFile = null;
+        Path tinyMappings = null;
         for (int i = 2; i < args.length; i++) {
-            if ("--platform".equals(args[i]) && i + 1 < args.length)
+            if ("--platform".equals(args[i]) && i + 1 < args.length) {
                 platform = Platform.valueOf(args[++i].trim().toUpperCase(Locale.ROOT));
-            if ("--remap-ids".equals(args[i]) && i + 1 < args.length) rFile = Paths.get(args[++i]);
+            } else if ("--remap-ids".equals(args[i]) && i + 1 < args.length) {
+                rFile = Paths.get(args[++i]);
+            } else if ("--tiny-mappings".equals(args[i]) && i + 1 < args.length) {
+                tinyMappings = Paths.get(args[++i]);
+            }
         }
 
         System.out.println("=== Patcher ===");
@@ -59,53 +66,92 @@ public class Patcher {
             if (rFile != null) {
                 patches.add(new ResourceIdRemapPatch(ResourceIdRemapPatch.buildIdMapFromJar(rFile, inputJar)));
             }
-        } else if (platform == Platform.DESKTOP) {
+        } else {
             patches.add((className, classBytes) -> {
-                if (!"com/corrodinggames/rts/java/Main".equals(className)) return null;
+                if (!"com/corrodinggames/rts/java/Main".equals(className)) {
+                    return null;
+                }
+
                 ClassWriter cw = new ClassWriter(ClassWriter.COMPUTE_MAXS);
                 new ClassReader(classBytes).accept(new ClassVisitor(Opcodes.ASM9, cw) {
                     @Override
                     public MethodVisitor visitMethod(int access, String name, String descriptor, String signature, String[] exceptions) {
                         MethodVisitor mv = super.visitMethod(access, name, descriptor, signature, exceptions);
-                        if ("<clinit>".equals(name))
-                            return new MethodVisitor(Opcodes.ASM9, mv) {
-                                @Override
-                                public void visitLdcInsn(Object value) {
-                                    super.visitLdcInsn("Rusted Warfare".equals(value) ? "Mindustry" : value);
-                                }
-                            };
-                        return mv;
+                        if (!"<clinit>".equals(name)) {
+                            return mv;
+                        }
+                        return new MethodVisitor(Opcodes.ASM9, mv) {
+                            @Override
+                            public void visitLdcInsn(Object value) {
+                                super.visitLdcInsn("Rusted Warfare".equals(value) ? "Mindustry" : value);
+                            }
+                        };
                     }
                 }, 0);
                 return cw.toByteArray();
             });
         }
 
-        int total = 0, patched = 0;
-        try (JarInputStream jis = new JarInputStream(new BufferedInputStream(Files.newInputStream(inputJar)));
-             JarOutputStream jos = new JarOutputStream(new BufferedOutputStream(Files.newOutputStream(outputJar)))) {
+        int total = 0;
+        int patched = 0;
+        boolean needsTinyRemap = platform == Platform.ANDROID && tinyMappings != null;
+        Path stagedOutputJar = needsTinyRemap
+                ? Files.createTempFile(outputJar.toAbsolutePath().getParent(), outputJar.getFileName().toString(), ".staged.jar")
+                : outputJar;
 
+        try (JarInputStream jis = new JarInputStream(new BufferedInputStream(Files.newInputStream(inputJar)));
+             JarOutputStream jos = new JarOutputStream(new BufferedOutputStream(Files.newOutputStream(stagedOutputJar)))) {
             JarEntry entry;
             while ((entry = jis.getNextJarEntry()) != null) {
-                byte[] data = readAllBytes(jis);
+                if (entry.isDirectory()) {
+                    continue;
+                }
 
-                if (entry.getName().endsWith(".class")) {
+                byte[] data = readAllBytes(jis);
+                String entryName = entry.getName();
+
+                if (entryName.endsWith(".class")) {
                     total++;
-                    String cn = entry.getName().replace(".class", "");
-                    for (Patch p : patches) {
-                        byte[] result = p.transform(cn, data);
-                        if (result != null) { data = result; patched++; break; }
+                    String className = entryName.substring(0, entryName.length() - ".class".length());
+                    for (Patch patch : patches) {
+                        byte[] result = patch.transform(className, data);
+                        if (result != null) {
+                            data = result;
+                            patched++;
+                            break;
+                        }
                     }
                 }
 
-                JarEntry out = new JarEntry(new ClassReader(data).getClassName() + ".class");
+                JarEntry out = new JarEntry(entryName);
                 out.setTime(entry.getTime());
                 jos.putNextEntry(out);
                 jos.write(data);
                 jos.closeEntry();
             }
         }
+
+        if (needsTinyRemap) {
+            System.out.println("Remapping Android jar to intermediary names: " + tinyMappings);
+            remapJar(stagedOutputJar, outputJar, tinyMappings);
+            Files.deleteIfExists(stagedOutputJar);
+        }
+
         System.out.println("Done. " + patched + " patched, " + total + " total.");
+    }
+
+    private static void remapJar(Path inputJar, Path outputJar, Path tinyMappings) throws IOException {
+        TinyRemapper remapper = TinyRemapper.newRemapper()
+                .withMappings(TinyUtils.createTinyMappingProvider(tinyMappings, "official", "intermediary"))
+                .build();
+
+        try (OutputConsumerPath outputConsumer = new OutputConsumerPath.Builder(outputJar).build()) {
+            outputConsumer.addNonClassFiles(inputJar);
+            remapper.readInputs(inputJar);
+            remapper.apply(outputConsumer);
+        } finally {
+            remapper.finish();
+        }
     }
 
     private enum Platform {
@@ -117,7 +163,9 @@ public class Patcher {
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
         byte[] buf = new byte[8192];
         int n;
-        while ((n = in.read(buf)) != -1) bos.write(buf, 0, n);
+        while ((n = in.read(buf)) != -1) {
+            bos.write(buf, 0, n);
+        }
         return bos.toByteArray();
     }
 }

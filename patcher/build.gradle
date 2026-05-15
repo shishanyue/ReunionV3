@@ -11,7 +11,10 @@ java {
     targetCompatibility = JavaVersion.VERSION_1_8
 }
 
-dependencies { implementation libs.asm }
+dependencies {
+    implementation libs.asm
+    implementation 'net.fabricmc:tiny-remapper:0.10.4'
+}
 
 def rootDir = project.rootDir.absolutePath
 def androidPatchedJar = layout.buildDirectory.file('tmp/android/base-patched.jar')
@@ -23,7 +26,8 @@ tasks.register('patchAndroidJar', JavaExec) {
     classpath = sourceSets.main.runtimeClasspath
     mainClass = 'cn.tesseract.patcher.Patcher'
     def rFile = "$rootDir/build/build-r.txt"
-    args = ["$rootDir/libs/base.jar", androidPatchedJar.get().asFile.absolutePath, '--platform', 'android', '--remap-ids', rFile]
+    def tinyMappings = "$rootDir/libs/android.tiny"
+    args = ["$rootDir/libs/base.jar", androidPatchedJar.get().asFile.absolutePath, '--platform', 'android', '--remap-ids', rFile, '--tiny-mappings', tinyMappings]
     workingDir = rootDir
     doFirst {
         androidPatchedJar.get().asFile.parentFile.mkdirs()

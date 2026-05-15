@@ -21,6 +21,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url = uri("https://maven.fabricmc.net/") }
         mavenLocal()
         maven { url 'https://maven.aliucord.com/releases' }
     }
