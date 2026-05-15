@@ -98,7 +98,7 @@ public class Patcher {
                     }
                 }
 
-                JarEntry out = new JarEntry(entry.getName());
+                JarEntry out = new JarEntry(new ClassReader(data).getClassName() + ".class");
                 out.setTime(entry.getTime());
                 jos.putNextEntry(out);
                 jos.write(data);
