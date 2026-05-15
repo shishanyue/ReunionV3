@@ -1,59 +1,34 @@
 package cn.tesseract.soviet;
 
-/**
- * Platform-agnostic logging.
- * On Android, delegates to android.util.Log via reflection.
- * On JVM, uses System.out.
- */
+import java.util.Iterator;
+import java.util.ServiceLoader;
+
 public final class SovietLogger {
 
-    private static final boolean IS_ANDROID;
-
-    static {
-        boolean android;
-        try {
-            Class.forName("android.util.Log");
-            android = true;
-        } catch (ClassNotFoundException e) {
-            android = false;
-        }
-        IS_ANDROID = android;
-    }
+    private static final LoggerService SERVICE = loadService();
 
     private SovietLogger() {}
 
     public static void i(String tag, String msg) {
-        if (IS_ANDROID) {
-            try {
-                Class<?> log = Class.forName("android.util.Log");
-                log.getMethod("i", String.class, String.class).invoke(null, tag, msg);
-                return;
-            } catch (Exception ignored) {}
-        }
-        System.out.println("[Soviet/" + tag + "] " + msg);
+        SERVICE.i(tag, msg);
     }
 
     public static void w(String tag, String msg) {
-        if (IS_ANDROID) {
-            try {
-                Class<?> log = Class.forName("android.util.Log");
-                log.getMethod("w", String.class, String.class).invoke(null, tag, msg);
-                return;
-            } catch (Exception ignored) {}
-        }
-        System.out.println("[Soviet/" + tag + "] WARN: " + msg);
+        SERVICE.w(tag, msg);
     }
 
     public static void e(String tag, String msg, Throwable t) {
-        if (IS_ANDROID) {
-            try {
-                Class<?> log = Class.forName("android.util.Log");
-                log.getMethod("e", String.class, String.class, Throwable.class)
-                        .invoke(null, tag, msg, t);
-                return;
-            } catch (Exception ignored) {}
+        SERVICE.e(tag, msg, t);
+    }
+
+    private static LoggerService loadService() {
+        ServiceLoader<LoggerService> loader = ServiceLoader.load(LoggerService.class);
+        Iterator<LoggerService> it = loader.iterator();
+        LoggerService fallback = new ConsoleLoggerService();
+        if (it.hasNext()) {
+            LoggerService s = it.next();
+            if (s != null && s.isAvailable()) return s;
         }
-        System.out.println("[Soviet/" + tag + "] ERROR: " + msg);
-        if (t != null) t.printStackTrace(System.out);
+        return fallback;
     }
 }
