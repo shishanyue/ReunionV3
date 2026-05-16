@@ -73,18 +73,7 @@ tasks.register('patchDesktopJar', JavaExec) {
     }
 }
 
-
-tasks.register('buildAndroidClassesJar', Copy) {
-    group = 'patcher'
-    inputs.file(androidPatchedJar)
-    outputs.file(androidClassesJar)
-    from(androidPatchedJar)
-    into(androidClassesJar.get().asFile.parentFile)
-    rename { 'classes.jar' }
-    dependsOn 'patchAndroidJar'
-}
-
 artifacts {
-    androidPatchedElements(androidClassesJar) { builtBy buildAndroidClassesJar }
+    androidPatchedElements(androidClassesJar) { builtBy patchAndroidJar }
     desktopPatchedElements(desktopPatchedJar) { builtBy patchDesktopJar }
 }

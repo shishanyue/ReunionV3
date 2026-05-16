@@ -50,6 +50,6 @@ dependencies {
 }
 
 tasks.named('preBuild').configure {
-    dependsOn ':patcher:buildAndroidClassesJar'
+    dependsOn ':patcher:patchAndroidJar'
 }
 
