@@ -60,22 +60,6 @@ public class InGameActivity extends class_1 {
     public final Handler uiHandler = new Handler(Looper.getMainLooper());
     public boolean test = true;
 
-    public void makeExportMapPopup(String str) {
-        $invoke$special$makeExportMapPopup(str);
-    }
-
-    public void makeSaveGamePopup(String str) {
-        $invoke$special$makeSaveGamePopup(str);
-    }
-
-    public void makeSendMessagePopup(boolean z) {
-        $invoke$special$makeSendMessagePopup(z);
-    }
-
-    public void openMarketLinkInternal() {
-        $invoke$special$openMarketLinkInternal();
-    }
-
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
@@ -130,7 +114,7 @@ public class InGameActivity extends class_1 {
         super.onPause();
     }
 
-    @Override, android.view.Window.Callback
+    @Override
     public void onWindowFocusChanged(boolean z) {
         super.onWindowFocusChanged(z);
         if (z) {
@@ -271,7 +255,7 @@ public class InGameActivity extends class_1 {
                 }
                 break;
             case 13:
-                $invoke$special$makeSendMessagePopup(false);
+                makeSendMessagePopup(false);
                 break;
             case 14:
                 if (class_1061.method_3076().field_6352 != null) {
@@ -282,11 +266,11 @@ public class InGameActivity extends class_1 {
                 new AlertDialog.Builder(this).setIcon(android.R.drawable.ic_dialog_alert).setTitle("Exit?").setMessage("Are you sure you want to exit this game?").setPositiveButton("Yes", new class_34(this)).setNegativeButton("No", (DialogInterface.OnClickListener) null).show();
                 break;
             case 16:
-                $invoke$special$makeSendMessagePopup(true);
+                makeSendMessagePopup(true);
                 break;
             case 18:
                 if (class_84.method_137(this)) {
-                    $invoke$special$makeExportMapPopup(null);
+                    makeExportMapPopup(null);
                 }
                 break;
             case 19:
@@ -311,7 +295,7 @@ public class InGameActivity extends class_1 {
         }
     }
 
-    @Override, android.view.KeyEvent.Callback
+    @Override
     public boolean onKeyDown(int i, KeyEvent keyEvent) {
         if (i == 82) {
             return super.onKeyDown(i, keyEvent);
@@ -344,7 +328,7 @@ public class InGameActivity extends class_1 {
         return class_1061.method_3076().method_2992(i, keyEvent);
     }
 
-    @Override, android.view.KeyEvent.Callback
+    @Override
     public boolean onKeyUp(int i, KeyEvent keyEvent) {
         if (i == 4 && keyEvent.getSource() == 8194) {
             class_1061.method_3043("onKeyUp from mouse: KEYCODE_BACK");
@@ -365,7 +349,7 @@ public class InGameActivity extends class_1 {
         return (motionEvent.getAction() == 0 || motionEvent.getAction() == 1) ? false : true;
     }
 
-    private /* synthetic */ void $invoke$special$makeSendMessagePopup(boolean z) {
+    private void makeSendMessagePopup(boolean z) {
         class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         if (!z) {
@@ -386,8 +370,7 @@ public class InGameActivity extends class_1 {
         builder.show();
     }
 
-    /* JADX INFO: Access modifiers changed from: private */
-    public /* synthetic */ void $invoke$special$makeExportMapPopup(String str) {
+    public /* synthetic */ void makeExportMapPopup(String str) {
         class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Export Map");
@@ -403,8 +386,7 @@ public class InGameActivity extends class_1 {
         builder.show();
     }
 
-    /* JADX INFO: Access modifiers changed from: private */
-    public /* synthetic */ void $invoke$special$makeSaveGamePopup(String str) {
+    public /* synthetic */ void makeSaveGamePopup(String str) {
         class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Save Game");
@@ -463,8 +445,7 @@ public class InGameActivity extends class_1 {
         this.uiHandler.post(new class_26(this));
     }
 
-    /* JADX INFO: Access modifiers changed from: private */
-    public /* synthetic */ void $invoke$special$openMarketLinkInternal() {
+    public /* synthetic */ void openMarketLinkInternal() {
         try {
             startActivity(new Intent("android.intent.action.VIEW", Uri.parse("market://details?id=com.corrodinggames.rts")));
         } catch (ActivityNotFoundException e) {

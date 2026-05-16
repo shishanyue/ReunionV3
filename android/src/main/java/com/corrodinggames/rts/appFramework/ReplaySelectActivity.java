@@ -150,7 +150,7 @@ public class ReplaySelectActivity extends class_1 {
         }
     }
 
-    @Override, android.view.View.OnCreateContextMenuListener
+    @Override
     public void onCreateContextMenu(ContextMenu contextMenu, View view, ContextMenu.ContextMenuInfo contextMenuInfo) {
         super.onCreateContextMenu(contextMenu, view, contextMenuInfo);
         contextMenu.setHeaderTitle(((Button) view).getText());

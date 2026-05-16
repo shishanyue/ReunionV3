@@ -69,10 +69,6 @@ public class LevelSelectActivity extends class_1 {
     public Handler refreshLevelsHandler = new Handler();
     public Runnable refreshLevelsRunnable = new class_47(this);
 
-    public void showFileChooserForImport() {
-        $invoke$special$showFileChooserForImport();
-    }
-
     @Override
     public void finish() {
         super.finish();
@@ -495,8 +491,7 @@ public class LevelSelectActivity extends class_1 {
         }
     }
 
-    /* JADX INFO: Access modifiers changed from: private */
-    public /* synthetic */ void $invoke$special$showFileChooserForImport() {
+    public void showFileChooserForImport() {
         class_84.method_138(this);
     }
 
@@ -512,7 +507,7 @@ public class LevelSelectActivity extends class_1 {
         }
     }
 
-    @Override, android.view.View.OnCreateContextMenuListener
+    @Override
     public void onCreateContextMenu(ContextMenu contextMenu, View view, ContextMenu.ContextMenuInfo contextMenuInfo) {
         class_992 class_992VarMethod_2671;
         super.onCreateContextMenu(contextMenu, view, contextMenuInfo);

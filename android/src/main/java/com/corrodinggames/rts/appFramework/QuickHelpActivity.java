@@ -36,7 +36,7 @@ public class QuickHelpActivity extends Activity {
     public void setup() {
     }
 
-    @Override, android.view.Window.Callback
+    @Override
     public void onWindowFocusChanged(boolean z) {
         if (this.currentImage == -1) {
             this.gallery.setSelection(0);

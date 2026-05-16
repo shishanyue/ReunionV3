@@ -36,10 +36,6 @@ public class GLSurfaceViewShared extends SurfaceView implements SurfaceHolder.Ca
     public class_261 mRenderer;
     public final WeakReference mThisWeakRef;
 
-    public void checkRenderThreadState() {
-        $invoke$special$checkRenderThreadState();
-    }
-
 
     public GLSurfaceViewShared(Context context) {
         super(context);
@@ -89,7 +85,7 @@ public class GLSurfaceViewShared extends SurfaceView implements SurfaceHolder.Ca
     }
 
     public void setRenderer(class_261 class_261Var) {
-        $invoke$special$checkRenderThreadState();
+        checkRenderThreadState();
         if (this.mEGLConfigChooser == null) {
             this.mEGLConfigChooser = new class_4(this, true);
         }
@@ -107,17 +103,17 @@ public class GLSurfaceViewShared extends SurfaceView implements SurfaceHolder.Ca
     }
 
     public void setEGLContextFactory(class_254 class_254Var) {
-        $invoke$special$checkRenderThreadState();
+        checkRenderThreadState();
         this.mEGLContextFactory = class_254Var;
     }
 
     public void setEGLWindowSurfaceFactory(class_255 class_255Var) {
-        $invoke$special$checkRenderThreadState();
+        checkRenderThreadState();
         this.mEGLWindowSurfaceFactory = class_255Var;
     }
 
     public void setEGLConfigChooser(class_253 class_253Var) {
-        $invoke$special$checkRenderThreadState();
+        checkRenderThreadState();
         this.mEGLConfigChooser = class_253Var;
     }
 
@@ -130,7 +126,7 @@ public class GLSurfaceViewShared extends SurfaceView implements SurfaceHolder.Ca
     }
 
     public void setEGLContextClientVersion(int i) {
-        $invoke$special$checkRenderThreadState();
+        checkRenderThreadState();
         this.mEGLContextClientVersion = i;
     }
 
@@ -266,7 +262,7 @@ public class GLSurfaceViewShared extends SurfaceView implements SurfaceHolder.Ca
         throw new IllegalArgumentException("r must not be null");
     }
 
-    @Override // android.view.SurfaceView, android.view.View
+    @Override
     public void onAttachedToWindow() {
         int iMethod_177;
         super.onAttachedToWindow();
@@ -287,7 +283,7 @@ public class GLSurfaceViewShared extends SurfaceView implements SurfaceHolder.Ca
         this.mDetached = false;
     }
 
-    @Override // android.view.SurfaceView, android.view.View
+    @Override
     public void onDetachedFromWindow() {
         class_257 class_257Var = this.mGLThread;
         if (class_257Var != null) {
@@ -297,7 +293,7 @@ public class GLSurfaceViewShared extends SurfaceView implements SurfaceHolder.Ca
         super.onDetachedFromWindow();
     }
 
-    private /* synthetic */ void $invoke$special$checkRenderThreadState() {
+    private /* synthetic */ void checkRenderThreadState() {
         if (this.mGLThread != null) {
             throw new IllegalStateException("setRenderer has already been called for this instance.");
         }

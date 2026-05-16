@@ -24,19 +24,15 @@ public class IntroScreenView extends View implements SurfaceHolder.Callback {
     public SurfaceHolder surfaceHolder;
     public Paint tempPaint;
 
-    public void init(Context context) {
-        $invoke$special$init(context);
-    }
-
     public IntroScreenView(Context context, AttributeSet attributeSet) {
         super(context, attributeSet);
         this.loadingPaint = new Paint();
         this.tempPaint = new Paint();
         Log.e(AndroidSAF.TAG, "IntroScreenView()");
-        $invoke$special$init(context);
+        init(context);
     }
 
-    private /* synthetic */ void $invoke$special$init(Context context) {
+    private  void init(Context context) {
         this.logo = BitmapFactory.decodeResource(getResources(), R.drawable.logo);
         this.loadingPaint.setTextAlign(Paint.Align.CENTER);
         this.loadingPaint.setTextSize(class_907.method_2255(context));

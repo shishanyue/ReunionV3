@@ -49,14 +49,6 @@ public class ModsActivity extends class_1 {
     public class_246 linkModFolder = new class_115(this);
     public Runnable fileAddedCallback = new class_116(this);
 
-    public void showFileChooserForImport() {
-        $invoke$special$showFileChooserForImport();
-    }
-
-    public void showFolderChooserForModLink() {
-        $invoke$special$showFolderChooserForModLink();
-    }
-
     @Override
     public void finish() {
         super.finish();
@@ -196,15 +188,15 @@ public class ModsActivity extends class_1 {
         }
     }
 
-    public boolean modsSave(ArrayList arrayList, boolean z) {
+    public boolean modsSave(ArrayList<class_120> arrayList, boolean z) {
         class_1061.method_3043("Saving mods");
-        Iterator it = arrayList.iterator();
+        Iterator<class_120> it = arrayList.iterator();
         while (true) {
             boolean z2 = false;
             if (!it.hasNext()) {
                 break;
             }
-            class_120 class_120Var = (class_120) it.next();
+            class_120 class_120Var = it.next();
             class_992 class_992Var = class_120Var.field_325;
             class_992Var.field_5810 = !class_120Var.field_324.isChecked();
             StringBuilder sbAppend = new StringBuilder("mod: ").append(class_992Var.field_5807).append(" - ");
@@ -298,13 +290,11 @@ public class ModsActivity extends class_1 {
         new Thread(new class_122(this)).start();
     }
 
-    /* JADX INFO: Access modifiers changed from: private */
-    public /* synthetic */ void $invoke$special$showFolderChooserForModLink() {
+    public void showFolderChooserForModLink() {
         class_84.method_107(this, 6, false, "Select a Rusted Warfare Mod Folder to Import", null);
     }
 
-    /* JADX INFO: Access modifiers changed from: private */
-    public /* synthetic */ void $invoke$special$showFileChooserForImport() {
+    public void showFileChooserForImport() {
         class_84.method_138(this);
     }
 
@@ -709,7 +699,7 @@ public class ModsActivity extends class_1 {
     }
 
     /* JADX WARN: Removed duplicated region for block: B:19:0x006e  */
-    @Override, android.view.View.OnCreateContextMenuListener
+    @Override
     /*
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences

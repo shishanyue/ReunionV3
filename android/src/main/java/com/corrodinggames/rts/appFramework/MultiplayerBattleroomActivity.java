@@ -83,22 +83,6 @@ public class MultiplayerBattleroomActivity extends class_1 {
     public ArrayList deletedTextViews = new ArrayList();
     public Runnable startGameRunnable = new class_146(this);
 
-    public void checkForDelayedAskPassword() {
-        $invoke$special$checkForDelayedAskPassword();
-    }
-
-    public void refreshMapThumbnail() {
-        $invoke$special$refreshMapThumbnail();
-    }
-
-    public void refreshServerInfo() {
-        $invoke$special$refreshServerInfo();
-    }
-
-    public void setMapDropdownFromServer() {
-        $invoke$special$setMapDropdownFromServer();
-    }
-
     public void setupPlayerColorDropDown(Spinner spinner, boolean z, boolean z2, class_324 class_324Var) {
         String upperCase;
         int i;
@@ -167,19 +151,6 @@ public class MultiplayerBattleroomActivity extends class_1 {
         spinner.setAdapter((SpinnerAdapter) class_166Var);
     }
 
-
-    public void showPlayerEditPopup(class_324 class_324Var) {
-        $invoke$special$showPlayerEditPopup(class_324Var);
-    }
-
-    public void updateControlVisibility() {
-        $invoke$special$updateControlVisibility();
-    }
-
-    public void updatePlayerList() {
-        $invoke$special$updatePlayerList();
-    }
-
     public static boolean isActivityVisible() {
         MultiplayerBattleroomActivity multiplayerBattleroomActivity = lastLoaded;
         if (multiplayerBattleroomActivity == null) {
@@ -213,10 +184,10 @@ public class MultiplayerBattleroomActivity extends class_1 {
             finish();
         }
         this.hadProxyControl = false;
-        $invoke$special$refreshServerInfo();
+        refreshServerInfo();
         missedStartGame = false;
         class_84.method_115(this, false);
-        $invoke$special$checkForDelayedAskPassword();
+        checkForDelayedAskPassword();
         reshowAskPassword();
         super.onResume();
     }
@@ -235,7 +206,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
             this.playersAdapter = arrayAdapter;
             this.networkPlayerList.setAdapter((ListAdapter) arrayAdapter);
             this.playerListTable = (TableLayout) findViewById(R.id.battleroom_playerTable);
-            $invoke$special$updatePlayerList();
+            updatePlayerList();
             this.onCreateFinished = false;
             lastLoaded = this;
             this.status_info = (TextView) findViewById(R.id.battleroom_status_info);
@@ -251,7 +222,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
             this.mapDropdown = (Spinner) findViewById(R.id.battleroom_map);
             updateMapDropdown(true);
             this.mapDropdown.setOnItemSelectedListener(new class_145(this));
-            $invoke$special$setMapDropdownFromServer();
+            setMapDropdownFromServer();
             this.gameSummary = (TextView) findViewById(R.id.battleroom_game_summary);
             this.mapLayout = (LinearLayout) findViewById(R.id.battleroom_mapLayout);
             this.typeLayout = (LinearLayout) findViewById(R.id.battleroom_typeLayout);
@@ -261,7 +232,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
             this.addAI = (Button) findViewById(R.id.battleroom_addAI);
             this.startNetButton = (Button) findViewById(R.id.battleroom_startNetButton);
             this.startBluetoothButton = (Button) findViewById(R.id.battleroom_startBluetoothButton);
-            $invoke$special$updateControlVisibility();
+            updateControlVisibility();
             this.startBluetoothButton.setOnClickListener(new class_156(this));
             this.changeTeam.setOnClickListener(new class_157(this));
             this.gameOptions.setOnClickListener(new class_158(this));
@@ -276,7 +247,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
             this.chatMessage = (EditText) findViewById(R.id.battleroom_text);
             ((Button) findViewById(R.id.battleroom_send)).setOnClickListener(new class_164(this));
             this.chatMessage.setOnKeyListener(new class_130(this));
-            $invoke$special$refreshServerInfo();
+            refreshServerInfo();
             getWindow().setSoftInputMode(2);
             this.onCreateFinished = true;
         }
@@ -350,7 +321,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
         arrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         this.mapDropdown.setAdapter((SpinnerAdapter) arrayAdapter);
         if (z) {
-            $invoke$special$setMapDropdownFromServer();
+            setMapDropdownFromServer();
         }
         gameInfoChanged();
         class_1061.method_3043("updateMapDropdown end");
@@ -388,7 +359,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
                 class_1047.method_2949();
             }
             class_1061VarMethod_3076.field_6352.method_2821();
-            $invoke$special$refreshMapThumbnail();
+            refreshMapThumbnail();
         }
     }
 
@@ -468,7 +439,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
         }
     }
 
-    private /* synthetic */ void $invoke$special$checkForDelayedAskPassword() {
+    private  void checkForDelayedAskPassword() {
         synchronized (this) {
             class_1061 class_1061VarMethod_3037 = class_1061.method_3037(this);
             if (class_1061VarMethod_3037.field_6352.field_5849) {
@@ -478,8 +449,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
         }
     }
 
-    /* JADX INFO: Access modifiers changed from: private */
-    public /* synthetic */ void $invoke$special$updateControlVisibility() {
+    public  void updateControlVisibility() {
         class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
         if (class_1061VarMethod_3076.field_6352.field_5851 || class_1061VarMethod_3076.field_6352.field_5856) {
             this.mapLayout.setVisibility(0);
@@ -516,7 +486,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
         }
     }
 
-    private /* synthetic */ void $invoke$special$setMapDropdownFromServer() {
+    private /* synthetic */ void setMapDropdownFromServer() {
         class_1061.method_3043("Battleroom: setMapDropdownFromServer");
         class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
         if (class_1061VarMethod_3076.field_6352 == null) {
@@ -555,7 +525,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
         }
     }
 
-    private /* synthetic */ void $invoke$special$refreshMapThumbnail() {
+    private /* synthetic */ void refreshMapThumbnail() {
         Bitmap bitmapMethod_136;
         class_1061.method_3076();
         String strMethod_2705 = class_1001.method_2705();
@@ -569,18 +539,17 @@ public class MultiplayerBattleroomActivity extends class_1 {
         }
     }
 
-    /* JADX INFO: Access modifiers changed from: private */
     /* JADX WARN: Removed duplicated region for block: B:43:0x013a  */
     /*
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public /* synthetic */ void $invoke$special$refreshServerInfo() {
+    public /* synthetic */ void refreshServerInfo() {
         /*
             Method dump skipped, instruction units count: 1049
             To view this dump change 'Code comments level' option to 'DEBUG'
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.corrodinggames.rts.appFramework.MultiplayerBattleroomActivity.$invoke$special$refreshServerInfo():void");
+        throw new UnsupportedOperationException("Method not decompiled: com.corrodinggames.rts.appFramework.MultiplayerBattleroomActivity.refreshServerInfo():void");
     }
 
     public void markAllActiveCellsDeleted() {
@@ -627,8 +596,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
         return textView;
     }
 
-    /* JADX INFO: Access modifiers changed from: private */
-    public /* synthetic */ void $invoke$special$showPlayerEditPopup(class_324 class_324Var) {
+    public /* synthetic */ void showPlayerEditPopup(class_324 class_324Var) {
         String str;
         class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
         if (class_1061VarMethod_3076.field_6352.method_2706() || (class_1061VarMethod_3076.field_6352.field_5848 == class_324Var && !class_1061VarMethod_3076.field_6352.field_5874.field_6024)) {
@@ -710,8 +678,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
         }
     }
 
-    /* JADX INFO: Access modifiers changed from: private */
-    public /* synthetic */ void $invoke$special$updatePlayerList() {
+    public /* synthetic */ void updatePlayerList() {
         String str;
         String strValueOf;
         int iMethod_520;
