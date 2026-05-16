@@ -45,7 +45,6 @@ import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/* JADX INFO: loaded from: classes.dex */
 public class LevelSelectActivity extends class_1 {
     public static final int LOADING_DIALOG = 0;
     public static class_1189 missingMapThumb;
@@ -74,13 +73,13 @@ public class LevelSelectActivity extends class_1 {
         $invoke$special$showFileChooserForImport();
     }
 
-    @Override // android.app.Activity
+    @Override
     public void finish() {
         super.finish();
         class_84.method_133(this, true);
     }
 
-    @Override // com.corrodinggames.rts.appFramework.class_1, android.app.Activity
+    @Override
     public void onResume() {
         super.onResume();
         setup();
@@ -93,7 +92,7 @@ public class LevelSelectActivity extends class_1 {
         class_84.method_115(this, true);
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onStart() {
         super.onStart();
         class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
@@ -102,7 +101,7 @@ public class LevelSelectActivity extends class_1 {
         }
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onStop() {
         this.wasHidden = true;
         super.onStop();
@@ -112,7 +111,7 @@ public class LevelSelectActivity extends class_1 {
         }
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onPause() {
         super.onPause();
         class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
@@ -131,7 +130,8 @@ public class LevelSelectActivity extends class_1 {
         if (str.contains("/NEW_PATH|")) {
             return str.substring(str.indexOf("/NEW_PATH|"));
         }
-        return str.split("/")[r2.length - 1];
+        String[] parts = str.split("/");
+        return parts[parts.length - 1];
     }
 
     public static boolean isAvailableInDemo(String str, String str2) {
@@ -332,7 +332,7 @@ public class LevelSelectActivity extends class_1 {
         return linearLayout;
     }
 
-    @Override // android.app.Activity
+    @Override
     public Dialog onCreateDialog(int i) {
         switch (i) {
             case 0:
@@ -479,7 +479,7 @@ public class LevelSelectActivity extends class_1 {
         }
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         setTitle("Levels");
@@ -500,7 +500,7 @@ public class LevelSelectActivity extends class_1 {
         class_84.method_138(this);
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onActivityResult(int i, int i2, Intent intent) {
         switch (i) {
             case 5:
@@ -512,7 +512,7 @@ public class LevelSelectActivity extends class_1 {
         }
     }
 
-    @Override // android.app.Activity, android.view.View.OnCreateContextMenuListener
+    @Override, android.view.View.OnCreateContextMenuListener
     public void onCreateContextMenu(ContextMenu contextMenu, View view, ContextMenu.ContextMenuInfo contextMenuInfo) {
         class_992 class_992VarMethod_2671;
         super.onCreateContextMenu(contextMenu, view, contextMenuInfo);
@@ -548,7 +548,7 @@ public class LevelSelectActivity extends class_1 {
         }
     }
 
-    @Override // android.app.Activity
+    @Override
     public boolean onContextItemSelected(MenuItem menuItem) {
         String str = this.lastContextMenu;
         if (str == null) {

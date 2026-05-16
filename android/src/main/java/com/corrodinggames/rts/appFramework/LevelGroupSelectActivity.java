@@ -14,20 +14,19 @@ import com.corrodinggames.rts.R;
 import com.corrodinggames.rts.gameFramework.class_1061;
 import com.corrodinggames.rts.gameFramework.h.class_988;
 
-/* JADX INFO: loaded from: classes.dex */
 public class LevelGroupSelectActivity extends class_1 {
     public static final String customLevelsDir = "/SD/rusted_warfare_maps";
     public static final String customLevelsDir2 = "/SD/rustedWarfare/maps";
     public static final String skirmishLevelsDir = "maps/skirmish";
     public class_5 gameView;
 
-    @Override // android.app.Activity
+    @Override
     public void finish() {
         super.finish();
         class_84.method_133(this, true);
     }
 
-    @Override // com.corrodinggames.rts.appFramework.class_1, android.app.Activity
+    @Override
     public void onResume() {
         super.onResume();
         setup();
@@ -40,7 +39,7 @@ public class LevelGroupSelectActivity extends class_1 {
         class_84.method_115(this, true);
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onStart() {
         super.onStart();
         class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
@@ -49,7 +48,7 @@ public class LevelGroupSelectActivity extends class_1 {
         }
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onStop() {
         super.onStop();
         class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
@@ -58,7 +57,7 @@ public class LevelGroupSelectActivity extends class_1 {
         }
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onPause() {
         super.onPause();
         class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
@@ -110,7 +109,7 @@ public class LevelGroupSelectActivity extends class_1 {
         button.setLayoutParams(layoutParams);
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         setTitle("Mode");

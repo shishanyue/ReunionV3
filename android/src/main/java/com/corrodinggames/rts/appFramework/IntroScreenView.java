@@ -17,7 +17,6 @@ import com.corrodinggames.rts.game.units.custom.logicBooleans.VariableScope;
 import com.corrodinggames.rts.gameFramework.class_1061;
 import com.corrodinggames.rts.gameFramework.class_907;
 
-/* JADX INFO: loaded from: classes.dex */
 public class IntroScreenView extends View implements SurfaceHolder.Callback {
     public Paint loadingPaint;
     public int loadingTimerCount;

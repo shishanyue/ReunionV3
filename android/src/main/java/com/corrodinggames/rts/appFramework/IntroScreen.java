@@ -9,14 +9,13 @@ import com.corrodinggames.rts.appFramework.android.AndroidSAF;
 import com.corrodinggames.rts.gameFramework.class_1061;
 import java.util.Timer;
 
-/* JADX INFO: loaded from: classes.dex */
 public class IntroScreen extends Activity {
     public static Timer timer;
     public boolean alreadyLoaded;
     public boolean loadingComplete;
     public boolean timerComplete;
 
-    @Override // android.app.Activity
+    @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         class_1061.method_2981();
@@ -49,7 +48,7 @@ public class IntroScreen extends Activity {
     public void showMenuIfReady() {
         synchronized (this) {
             if (this.loadingComplete && this.timerComplete) {
-                startActivity(new Intent(getBaseContext(), (Class<?>) MainMenuActivity.class));
+                startActivity(new Intent(getBaseContext(), MainMenuActivity.class));
                 timer = null;
                 finish();
             }
@@ -70,7 +69,7 @@ public class IntroScreen extends Activity {
         }
     }
 
-    @Override // android.app.Activity
+    @Override
     public void finish() {
         synchronized (this) {
             Timer timer2 = timer;
@@ -82,7 +81,7 @@ public class IntroScreen extends Activity {
         }
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onPause() {
         synchronized (this) {
             Timer timer2 = timer;
@@ -94,7 +93,7 @@ public class IntroScreen extends Activity {
         }
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onResume() {
         synchronized (this) {
             startTimer();

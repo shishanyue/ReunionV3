@@ -4,7 +4,6 @@ import android.app.Application;
 import com.corrodinggames.rts.gameFramework.class_1061;
 import com.corrodinggames.rts.gameFramework.m.class_1236;
 
-/* JADX INFO: loaded from: classes.dex */
 public class RWApplication extends Application {
     @Override // android.app.Application, android.content.ComponentCallbacks2
     public void onTrimMemory(int i) {

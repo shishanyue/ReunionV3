@@ -18,7 +18,6 @@ import java.io.IOException;
 import java.util.HashMap;
 import org.xmlpull.v1.XmlPullParserException;
 
-/* JADX INFO: loaded from: classes.dex */
 public class GenericFileProvider extends ContentProvider {
     public static final String[] field_130 = {"_display_name", "_size"};
     public static final File field_131 = new File("/");

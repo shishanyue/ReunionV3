@@ -30,7 +30,6 @@ import com.corrodinggames.rts.gameFramework.h.class_988;
 import com.corrodinggames.rts.gameFramework.j.class_1001;
 import com.corrodinggames.rts.gameFramework.o.class_1282;
 
-/* JADX INFO: loaded from: classes.dex */
 public class InGameActivity extends class_1 {
     public static final int DISCONNECT_ID = 10;
     public static final int EXIT_GAME_ID = 15;
@@ -77,7 +76,7 @@ public class InGameActivity extends class_1 {
         $invoke$special$openMarketLinkInternal();
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         if (class_1061.method_3076() == null) {
@@ -93,14 +92,14 @@ public class InGameActivity extends class_1 {
         }
     }
 
-    @Override // android.app.Activity
+    @Override
     public void finish() {
         class_1061.method_3043("IngameActivity: finish");
         super.finish();
         class_84.method_133(this, true);
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onStart() {
         super.onStart();
         Log.e(AndroidSAF.TAG, "Ingame:onStart");
@@ -110,7 +109,7 @@ public class InGameActivity extends class_1 {
         }
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onStop() {
         super.onStop();
         Log.e(AndroidSAF.TAG, "Ingame:onStop");
@@ -120,7 +119,7 @@ public class InGameActivity extends class_1 {
         }
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onPause() {
         Log.e(AndroidSAF.TAG, "Ingame:onPause");
         class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
@@ -131,7 +130,7 @@ public class InGameActivity extends class_1 {
         super.onPause();
     }
 
-    @Override // android.app.Activity, android.view.Window.Callback
+    @Override, android.view.Window.Callback
     public void onWindowFocusChanged(boolean z) {
         super.onWindowFocusChanged(z);
         if (z) {
@@ -140,7 +139,7 @@ public class InGameActivity extends class_1 {
         this.gameViewCommon.onParentWindowFocusChanged(z);
     }
 
-    @Override // com.corrodinggames.rts.appFramework.class_1, android.app.Activity
+    @Override
     public void onResume() {
         Log.e(AndroidSAF.TAG, "Ingame:onResume");
         super.onResume();
@@ -154,14 +153,14 @@ public class InGameActivity extends class_1 {
         class_84.method_116(this, false, true);
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onDestroy() {
         Log.e(AndroidSAF.TAG, "InGameActivity:onDestroy");
         class_1061.method_3076();
         super.onDestroy();
     }
 
-    @Override // android.app.Activity
+    @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
         super.onPrepareOptionsMenu(menu);
         menu.clear();
@@ -205,7 +204,7 @@ public class InGameActivity extends class_1 {
         return true;
     }
 
-    @Override // android.app.Activity
+    @Override
     public boolean onOptionsItemSelected(MenuItem menuItem) {
         selectMenuOptionInternal(menuItem.getItemId());
         return super.onOptionsItemSelected(menuItem);
@@ -312,7 +311,7 @@ public class InGameActivity extends class_1 {
         }
     }
 
-    @Override // android.app.Activity, android.view.KeyEvent.Callback
+    @Override, android.view.KeyEvent.Callback
     public boolean onKeyDown(int i, KeyEvent keyEvent) {
         if (i == 82) {
             return super.onKeyDown(i, keyEvent);
@@ -345,7 +344,7 @@ public class InGameActivity extends class_1 {
         return class_1061.method_3076().method_2992(i, keyEvent);
     }
 
-    @Override // android.app.Activity, android.view.KeyEvent.Callback
+    @Override, android.view.KeyEvent.Callback
     public boolean onKeyUp(int i, KeyEvent keyEvent) {
         if (i == 4 && keyEvent.getSource() == 8194) {
             class_1061.method_3043("onKeyUp from mouse: KEYCODE_BACK");
@@ -358,7 +357,7 @@ public class InGameActivity extends class_1 {
         return class_1061.method_3076().method_3027(i, keyEvent);
     }
 
-    @Override // android.app.Activity
+    @Override
     public boolean onTrackballEvent(MotionEvent motionEvent) {
         class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
         class_1061VarMethod_3076.field_6466 += motionEvent.getX();
@@ -422,7 +421,7 @@ public class InGameActivity extends class_1 {
         builder.show();
     }
 
-    @Override // android.app.Activity
+    @Override
     public Dialog onCreateDialog(int i) {
         switch (i) {
             case 0:
@@ -444,7 +443,7 @@ public class InGameActivity extends class_1 {
         new Thread(class_36Var).start();
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onBackPressed() {
         if (class_1061.method_3076().field_6352.field_5850) {
             AlertDialog.Builder builder = new AlertDialog.Builder(this);

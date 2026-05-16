@@ -28,7 +28,6 @@ import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.egl.EGLContext;
 import javax.microedition.khronos.opengles.GL10;
 
-/* JADX INFO: loaded from: classes.dex */
 public class GameViewOpenGL extends GLSurfaceViewShared implements class_5, class_126, class_261 {
     public static final int EGL_CONTEXT_CLIENT_VERSION_VALUE = 2;
     public static class_9 renderManagerThread = null;
@@ -375,7 +374,7 @@ public class GameViewOpenGL extends GLSurfaceViewShared implements class_5, clas
         setRenderMode(0);
     }
 
-    @Override // com.corrodinggames.rts.appFramework.class_261
+    @Override
     public void onSurfaceCreated(GL10 gl10, EGLConfig eGLConfig) {
         class_1061.method_3043("GameViewOpenGL onSurfaceCreated");
         if (retainedCanvas == null) {
@@ -384,7 +383,7 @@ public class GameViewOpenGL extends GLSurfaceViewShared implements class_5, clas
         this.mCanvas = retainedCanvas;
     }
 
-    @Override // com.corrodinggames.rts.appFramework.class_261
+    @Override
     public void onSurfaceChanged(GL10 gl10, int i, int i2) {
         class_1061.method_3043("GameViewOpenGL onSurfaceChanged");
         if (lastHeldSurfaceView == this) {
@@ -394,7 +393,7 @@ public class GameViewOpenGL extends GLSurfaceViewShared implements class_5, clas
         }
     }
 
-    @Override // com.corrodinggames.rts.appFramework.class_261
+    @Override
     public void onDrawFrame(GL10 gl10) {
         this.field_129 = gl10;
         this.mCanvas.method_1918();

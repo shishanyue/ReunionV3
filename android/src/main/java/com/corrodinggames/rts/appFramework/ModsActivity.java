@@ -37,7 +37,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Locale;
 
-/* JADX INFO: loaded from: classes.dex */
 public class ModsActivity extends class_1 {
     public static final int FILE_SELECT_CODE = 5;
     public static final int LOADING_DIALOG = 0;
@@ -58,13 +57,13 @@ public class ModsActivity extends class_1 {
         $invoke$special$showFolderChooserForModLink();
     }
 
-    @Override // android.app.Activity
+    @Override
     public void finish() {
         super.finish();
         class_84.method_133(this, false);
     }
 
-    @Override // com.corrodinggames.rts.appFramework.class_1, android.app.Activity
+    @Override
     public void onResume() {
         super.onResume();
         setup(false);
@@ -72,12 +71,12 @@ public class ModsActivity extends class_1 {
         class_84.method_115(this, false);
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onPause() {
         super.onPause();
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         setTitle("Mods");
@@ -114,7 +113,8 @@ public class ModsActivity extends class_1 {
         LinearLayout linearLayout = (LinearLayout) findViewById(R.id.modsContainer);
         class_991 class_991Var = class_1061VarMethod_3037.field_6354;
         linearLayout.removeAllViews();
-        for (class_992 class_992Var : class_991Var.method_2677()) {
+        for (Object modObj : class_991Var.method_2677()) {
+            class_992 class_992Var = (class_992) modObj;
             LinearLayout linearLayout2 = new LinearLayout(getBaseContext());
             linearLayout2.setOrientation(1);
             linearLayout2.setGravity(17);
@@ -278,7 +278,7 @@ public class ModsActivity extends class_1 {
         class_1061VarMethod_3076.method_3056("Mod path exist but is not a directory: ".concat(String.valueOf(strMethod_2176)));
     }
 
-    @Override // android.app.Activity
+    @Override
     public Dialog onCreateDialog(int i) {
         switch (i) {
             case 0:
@@ -308,7 +308,7 @@ public class ModsActivity extends class_1 {
         class_84.method_138(this);
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onActivityResult(int i, int i2, Intent intent) {
         switch (i) {
             case 5:
@@ -383,22 +383,22 @@ public class ModsActivity extends class_1 {
                         if (string != null) {
                             class_119Var.field_319 = string;
                             class_119Var.field_320 = j;
-                            class_994 class_994Var = class_994.unknown;
+                            class_994 class_994Var = class_994.field_5835;
                             if (string != null) {
                                 if (string.toLowerCase(Locale.ROOT).endsWith(".zip") || string.toLowerCase(Locale.ROOT).endsWith(".rwmod")) {
-                                    class_994Var = class_994.mod;
+                                    class_994Var = class_994.field_5836;
                                 }
                                 if (string.toLowerCase(Locale.ROOT).endsWith(".tmx")) {
-                                    class_994Var = class_994.map;
+                                    class_994Var = class_994.field_5837;
                                 }
                                 if (string.toLowerCase(Locale.ROOT).endsWith(".replay")) {
-                                    class_994Var = class_994.replay;
+                                    class_994Var = class_994.field_5838;
                                 }
                                 if (string.toLowerCase(Locale.ROOT).endsWith(".rwsave")) {
-                                    class_994Var = class_994.save;
+                                    class_994Var = class_994.field_5839;
                                 }
                                 if (string.endsWith("_map.png")) {
-                                    class_994Var = class_994.mapThumbnail;
+                                    class_994Var = class_994.field_5840;
                                 }
                             }
                             class_119Var.field_321 = class_994Var;
@@ -427,7 +427,7 @@ public class ModsActivity extends class_1 {
         class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
         Uri uri = class_119Var.field_322;
         if (class_119Var.field_322 != null) {
-            if (class_119Var.field_321 != class_994.unknown) {
+            if (class_119Var.field_321 != class_994.field_5835) {
                 try {
                     FileDescriptor fileDescriptor = activity.getContentResolver().openFileDescriptor(uri, "r").getFileDescriptor();
                     String str = class_119Var.field_319;
@@ -513,12 +513,12 @@ public class ModsActivity extends class_1 {
             class_1061VarMethod_3076.method_3056("Cannot import no files");
             return;
         }
-        class_994 class_994Var = class_994.unknown;
+        class_994 class_994Var = class_994.field_5835;
         Iterator it = arrayList.iterator();
         int i = 0;
         while (it.hasNext()) {
             class_119 class_119Var = (class_119) it.next();
-            if (class_119Var.field_321 == class_994.mapThumbnail) {
+            if (class_119Var.field_321 == class_994.field_5840) {
                 if (class_119Var.field_319.endsWith("_map.png")) {
                     String str2 = class_119Var.field_319.substring(0, class_119Var.field_319.length() - 8) + ".tmx";
                     Iterator it2 = arrayList.iterator();
@@ -543,7 +543,7 @@ public class ModsActivity extends class_1 {
                     class_1061.method_3031("Unknown map thumbnail name: " + class_119Var.field_319);
                 }
             }
-            if (class_119Var.field_321 == class_994.unknown) {
+            if (class_119Var.field_321 == class_994.field_5835) {
                 class_119Var.field_323 = true;
             }
         }
@@ -554,30 +554,30 @@ public class ModsActivity extends class_1 {
             class_119 class_119Var2 = (class_119) it3.next();
             if (!class_119Var2.field_323) {
                 i2++;
-            } else if (class_119Var2.field_321 != class_994.mapThumbnail) {
+            } else if (class_119Var2.field_321 != class_994.field_5840) {
                 i3++;
             }
         }
         if (arrayList.size() == 1) {
             class_119 class_119Var3 = (class_119) arrayList.get(0);
-            if (class_119Var3.field_321 == class_994.unknown) {
+            if (class_119Var3.field_321 == class_994.field_5835) {
                 class_1061VarMethod_3076.method_3056("Cannot import file: " + class_119Var3.field_319 + " - Expected a .zip, .rwmod or .tmx files");
                 return;
             }
-            if (class_119Var3.field_321 == class_994.mapThumbnail) {
+            if (class_119Var3.field_321 == class_994.field_5840) {
                 class_1061VarMethod_3076.method_3032("Cannot import thumbnail: " + class_119Var3.field_319, "When importing a thumbnail also include it's map");
                 return;
             }
             String str3 = class_119Var3.field_319;
             class_994Var = class_119Var3.field_321;
-            String str4 = class_994Var == class_994.mod ? "Import mod?" : "Import";
-            if (class_994Var == class_994.map) {
+            String str4 = class_994Var == class_994.field_5836 ? "Import mod?" : "Import";
+            if (class_994Var == class_994.field_5837) {
                 str4 = "Import map?";
             }
-            if (class_994Var == class_994.replay) {
+            if (class_994Var == class_994.field_5838) {
                 str4 = "Import replay?";
             }
-            if (class_994Var == class_994.save) {
+            if (class_994Var == class_994.field_5839) {
                 str4 = "Import save?";
             }
             String str5 = str4;
@@ -619,7 +619,7 @@ public class ModsActivity extends class_1 {
             class_1061VarMethod_3076.method_3056("Cannot import any selected files - Expected a .zip, .rwmod or .tmx files");
             return;
         }
-        if (!class_1061.method_2982() || class_994Var != class_994.mod || (class_1061VarMethod_3076.field_6345.storageType != 2 && class_1061VarMethod_3076.field_6345.storageType != 1)) {
+        if (!class_1061.method_2982() || class_994Var != class_994.field_5836 || (class_1061VarMethod_3076.field_6345.storageType != 2 && class_1061VarMethod_3076.field_6345.storageType != 1)) {
             class_84.method_114(activity, str, strConcat, "Import", new class_101(activity, arrayList, runnable), null, null);
         } else {
             class_84.method_114(activity, str, strConcat + "\n\nInternal storage is recommended for faster mod loading (but is deleted by OS on uninstall)", "Import (external)", new class_100(activity, arrayList, runnable), "Import (internal)", new class_118(activity, arrayList, runnable));
@@ -656,7 +656,7 @@ public class ModsActivity extends class_1 {
                     if (importFileData(activity, class_119Var, num)) {
                         i++;
                     }
-                } catch (IOException e) {
+                } catch (Exception e) {
                     class_1061.method_3076().method_3056("Error importing file: " + class_119Var + " - " + e.getMessage() + " (Hint: check permissions and disk space)");
                     e.printStackTrace();
                     return;
@@ -699,7 +699,7 @@ public class ModsActivity extends class_1 {
                 }
                 askBeforeImportingFiles(activity, arrayList, runnable);
                 return;
-            } catch (IOException e) {
+            } catch (Exception e) {
                 class_1061.method_3076().method_3056("Error importing file: " + e.getMessage() + " (Hint: check permissions and disk space)");
                 e.printStackTrace();
                 return;
@@ -709,7 +709,7 @@ public class ModsActivity extends class_1 {
     }
 
     /* JADX WARN: Removed duplicated region for block: B:19:0x006e  */
-    @Override // android.app.Activity, android.view.View.OnCreateContextMenuListener
+    @Override, android.view.View.OnCreateContextMenuListener
     /*
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
@@ -722,7 +722,7 @@ public class ModsActivity extends class_1 {
         throw new UnsupportedOperationException("Method not decompiled: com.corrodinggames.rts.appFramework.ModsActivity.onCreateContextMenu(android.view.ContextMenu, android.view.View, android.view.ContextMenu$ContextMenuInfo):void");
     }
 
-    @Override // android.app.Activity
+    @Override
     public boolean onContextItemSelected(MenuItem menuItem) {
         class_992 class_992Var;
         class_991 class_991Var = class_1061.method_3076().field_6354;

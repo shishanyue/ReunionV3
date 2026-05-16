@@ -16,7 +16,6 @@ import java.lang.reflect.Field;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 
-/* JADX INFO: loaded from: classes.dex */
 public class GameViewThreaded extends SurfaceView implements SurfaceHolder.Callback, class_5, class_126 {
     public static final int BUFFER_SIZE = 1;
     public static int canvasBuffers_nextDraw;
@@ -305,16 +304,18 @@ public class GameViewThreaded extends SurfaceView implements SurfaceHolder.Callb
     }
 
     public boolean lockLock(ReentrantLock reentrantLock) {
-        while (!reentrantLock.tryLock(250L, TimeUnit.MILLISECONDS)) {
+        while (true) {
             try {
-                class_1061.method_3043("getLock: timeout getting lock");
-                class_1061.method_2969();
-                return false;
+                if (!reentrantLock.tryLock(250L, TimeUnit.MILLISECONDS)) {
+                    class_1061.method_3043("getLock: timeout getting lock");
+                    class_1061.method_2969();
+                    return false;
+                }
+                return true;
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }
-        return true;
     }
 
     @Override
@@ -388,7 +389,11 @@ public class GameViewThreaded extends SurfaceView implements SurfaceHolder.Callb
                     synchronized (this.updateNotifier) {
                         class_10VarFindFreeCanvasBuffer = findFreeCanvasBuffer(z);
                         if (class_10VarFindFreeCanvasBuffer == null || class_10VarFindFreeCanvasBuffer.field_151 != z) {
-                            this.updateNotifier.wait(500L);
+                            try {
+                                this.updateNotifier.wait(500L);
+                            } catch (InterruptedException e) {
+                                Thread.currentThread().interrupt();
+                            }
                         }
                     }
                 }

@@ -6,7 +6,6 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import java.lang.ref.WeakReference;
 
-/* JADX INFO: loaded from: classes.dex */
 public class GLSurfaceViewShared extends SurfaceView implements SurfaceHolder.Callback2 {
     public static final int CONFIG_CHECK_GL_ERROR = 1;
     public static final int DEBUG_CHECK_GL_ERROR = 1;
@@ -24,7 +23,7 @@ public class GLSurfaceViewShared extends SurfaceView implements SurfaceHolder.Ca
     public static final int RENDERMODE_WHEN_DIRTY = 0;
     public static final String TAG = "GLSurfaceView";
     public static final long Trace_TRACE_TAG_VIEW = 8;
-    public static final class_258 sGLThreadManager = new class_258(0);
+    public static final class_258 sGLThreadManager = new class_258();
     public int mDebugFlags;
     public boolean mDetached;
     public class_253 mEGLConfigChooser;
@@ -96,10 +95,10 @@ public class GLSurfaceViewShared extends SurfaceView implements SurfaceHolder.Ca
         }
         byte b = 0;
         if (this.mEGLContextFactory == null) {
-            this.mEGLContextFactory = new class_251(this, b);
+            this.mEGLContextFactory = new class_251(this);
         }
         if (this.mEGLWindowSurfaceFactory == null) {
-            this.mEGLWindowSurfaceFactory = new class_252((byte) 0);
+            this.mEGLWindowSurfaceFactory = new class_252();
         }
         this.mRenderer = class_261Var;
         class_257 class_257Var = new class_257(this.mThisWeakRef);
@@ -218,7 +217,7 @@ public class GLSurfaceViewShared extends SurfaceView implements SurfaceHolder.Ca
         }
     }
 
-    @Override2
+    @Override
     @Deprecated
     public void surfaceRedrawNeeded(SurfaceHolder surfaceHolder) {
     }

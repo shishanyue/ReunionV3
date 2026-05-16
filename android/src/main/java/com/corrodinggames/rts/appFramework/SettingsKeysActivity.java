@@ -7,7 +7,6 @@ import com.corrodinggames.rts.R;
 import com.corrodinggames.rts.gameFramework.SettingsEngine;
 import java.util.ArrayList;
 
-/* JADX INFO: loaded from: classes.dex */
 public class SettingsKeysActivity extends Activity {
     public String[] mKeyLabels;
     public SettingsEngine settings;
@@ -24,7 +23,7 @@ public class SettingsKeysActivity extends Activity {
         finish();
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onPause() {
         if (this.saveChanges && isFinishing()) {
             saveSettings();
@@ -32,7 +31,7 @@ public class SettingsKeysActivity extends Activity {
         super.onPause();
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         setTitle("Keyboard");
@@ -65,7 +64,8 @@ public class SettingsKeysActivity extends Activity {
             class_239Var5.field_580 = "Down";
             class_239Var5.field_581 = this.settings.keyDown;
             this.buttons.add(class_239Var5);
-            for (class_239 class_239Var6 : this.buttons) {
+            for (Object btnObj : this.buttons) {
+                class_239 class_239Var6 = (class_239) btnObj;
                 class_239Var6.method_160();
                 class_239Var6.field_579.setOnClickListener(new class_240(this, class_239Var6));
             }

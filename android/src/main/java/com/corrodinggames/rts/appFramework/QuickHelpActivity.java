@@ -11,7 +11,6 @@ import android.widget.SpinnerAdapter;
 import com.corrodinggames.rts.R;
 import com.corrodinggames.rts.gameFramework.SettingsEngine;
 
-/* JADX INFO: loaded from: classes.dex */
 public class QuickHelpActivity extends Activity {
     public Bitmap[] bitmaps;
     public Gallery gallery;
@@ -21,14 +20,14 @@ public class QuickHelpActivity extends Activity {
     public int currentImage = -1;
     public Integer[] Imgid = {Integer.valueOf(R.drawable.help1), Integer.valueOf(R.drawable.help2), Integer.valueOf(R.drawable.help3), Integer.valueOf(R.drawable.help4)};
 
-    @Override // android.app.Activity
+    @Override
     public void onResume() {
         super.onResume();
         setup();
         class_84.method_115(this, false);
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onStop() {
         finish();
         super.onStop();
@@ -37,7 +36,7 @@ public class QuickHelpActivity extends Activity {
     public void setup() {
     }
 
-    @Override // android.app.Activity, android.view.Window.Callback
+    @Override, android.view.Window.Callback
     public void onWindowFocusChanged(boolean z) {
         if (this.currentImage == -1) {
             this.gallery.setSelection(0);
@@ -46,7 +45,7 @@ public class QuickHelpActivity extends Activity {
         super.onWindowFocusChanged(z);
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         int i = 0;
@@ -87,11 +86,12 @@ public class QuickHelpActivity extends Activity {
         this.imageView.setImageBitmap(this.bitmaps[i]);
         int width = this.outerlayout.getWidth();
         int height = this.outerlayout.getHeight();
+        android.graphics.Bitmap bitmap = this.bitmaps[i];
         float f = width;
-        if (((int) (r6.getHeight() * (f / r6.getWidth()))) < height) {
-            height = (int) (f * (r6.getHeight() / r6.getWidth()));
+        if (((int) (bitmap.getHeight() * (f / bitmap.getWidth()))) < height) {
+            height = (int) (f * (bitmap.getHeight() / bitmap.getWidth()));
         } else {
-            width = (int) ((r6.getWidth() / r6.getHeight()) * height);
+            width = (int) ((bitmap.getWidth() / bitmap.getHeight()) * height);
         }
         LinearLayout.LayoutParams layoutParams = (LinearLayout.LayoutParams) this.imageView.getLayoutParams();
         layoutParams.width = width;

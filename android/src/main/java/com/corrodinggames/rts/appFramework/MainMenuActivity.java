@@ -10,7 +10,6 @@ import android.util.Log;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
-import cn.tesseract.union.hook.LayoutHook;
 import com.corrodinggames.rts.R;
 import com.corrodinggames.rts.appFramework.android.AndroidSAF;
 import com.corrodinggames.rts.game.units.custom.logicBooleans.VariableScope;
@@ -20,17 +19,16 @@ import com.corrodinggames.rts.gameFramework.h.class_988;
 import com.corrodinggames.rts.gameFramework.i.class_991;
 import java.lang.reflect.Method;
 
-/* JADX INFO: loaded from: classes.dex */
 public class MainMenuActivity extends class_1 {
     public class_5 gameView;
 
-    @Override // android.app.Activity
+    @Override
     public void finish() {
         super.finish();
         class_84.method_133(this, true);
     }
 
-    @Override // com.corrodinggames.rts.appFramework.class_1, android.app.Activity
+    @Override
     public void onResume() {
         super.onResume();
         setup();
@@ -45,7 +43,7 @@ public class MainMenuActivity extends class_1 {
         setButtonText();
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onStart() {
         super.onStart();
         class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
@@ -54,7 +52,7 @@ public class MainMenuActivity extends class_1 {
         }
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onStop() {
         super.onStop();
         class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
@@ -63,7 +61,7 @@ public class MainMenuActivity extends class_1 {
         }
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onPause() {
         super.onPause();
         class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
@@ -106,10 +104,9 @@ public class MainMenuActivity extends class_1 {
         ((Button) findViewById(R.id.helpButton)).setText(class_988.method_2636("menus.front.help", new Object[0]));
         ((Button) findViewById(R.id.modsButton)).setText(class_988.method_2636("menus.front.mods", new Object[0]));
         ((Button) findViewById(R.id.exitgameButton)).setText(class_988.method_2636("menus.front.exit", new Object[0]));
-        LayoutHook.setButtonText(this);
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         try {
@@ -212,7 +209,6 @@ public class MainMenuActivity extends class_1 {
 
     public void warnAboutBugs() {
         boolean z;
-        LayoutHook.warnAboutBugs(this);
         if (!SettingsEngine.getInstance(this).shownAudioWarning) {
             if (!Build.MODEL.toUpperCase().contains("GT-I9100")) {
                 z = false;

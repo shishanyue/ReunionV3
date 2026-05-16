@@ -14,7 +14,6 @@ import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.Spinner;
 import android.widget.TextView;
-import cn.tesseract.union.packet.PacketType;
 import com.corrodinggames.rts.R;
 import com.corrodinggames.rts.appFramework.android.AndroidSAF;
 import com.corrodinggames.rts.game.b.class_299;
@@ -38,7 +37,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-/* JADX INFO: loaded from: classes.dex */
 public class SettingsActivity extends class_1 {
     public static final int SETUP_EXTERNAL_FOLDER = 9;
     public static boolean debugWasSetOrAskedThisSession = false;
@@ -105,10 +103,10 @@ public class SettingsActivity extends class_1 {
     public CheckBox useMinimapAllyColors;
     public CheckBox zoomButton;
     public boolean saveChanges = true;
-    public int[] unitCapOptions = {100, 250, 500, 1000, PacketType.PACKET_SERVER_DEBUG, 5000, 10000};
+    public int[] unitCapOptions = {100, 250, 500, 1000, 2000, 5000, 10000};
     public class_246 linkExternalFolder = new class_225(this);
 
-    @Override // com.corrodinggames.rts.appFramework.class_1, android.app.Activity
+    @Override
     public void onResume() {
         super.onResume();
         class_84.method_115(this, false);
@@ -164,7 +162,7 @@ public class SettingsActivity extends class_1 {
         }
         if (this.settings.networkPort < 1024 || this.settings.networkPort > 65535) {
             class_1061.method_3043("networkPort out of range");
-            this.settings.networkPort = PacketType.PACKET_STORAGE_DATA;
+            this.settings.networkPort = 2000;
         }
         this.settings.showMapPingsOnBattlefield = this.showMapPingsOnBattlefield.isChecked();
         this.settings.showMapPingsOnMinimap = this.showMapPingsOnMinimap.isChecked();
@@ -177,7 +175,7 @@ public class SettingsActivity extends class_1 {
         finish();
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onPause() {
         if (this.saveChanges && isFinishing()) {
             saveSettings();
@@ -185,7 +183,7 @@ public class SettingsActivity extends class_1 {
         super.onPause();
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         setTitle("Settings");
@@ -805,7 +803,7 @@ public class SettingsActivity extends class_1 {
         class_84.method_107(this, 9, true, "Select a Rusted Warfare Folder to use", Uri.parse("content://com.android.externalstorage.documents/document/primary%3A".concat(String.valueOf("rustedWarfare".replace("//", "%2F")))));
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onActivityResult(int i, int i2, Intent intent) {
         switch (i) {
             case 9:

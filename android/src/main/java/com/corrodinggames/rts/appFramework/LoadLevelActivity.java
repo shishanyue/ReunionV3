@@ -16,7 +16,6 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
-import cn.tesseract.union.hook.ExtractMapHook;
 import com.corrodinggames.rts.R;
 import com.corrodinggames.rts.game.units.custom.logicBooleans.VariableScope;
 import com.corrodinggames.rts.gameFramework.class_1061;
@@ -26,7 +25,6 @@ import com.corrodinggames.rts.gameFramework.e.class_899;
 import java.util.ArrayList;
 import java.util.Collections;
 
-/* JADX INFO: loaded from: classes.dex */
 public class LoadLevelActivity extends class_1 {
     public static final int LOADING_DIALOG = 0;
     public static final String currentSavePath = "/SD/rustedWarfare/saves/";
@@ -44,13 +42,13 @@ public class LoadLevelActivity extends class_1 {
         $invoke$special$showFileChooserForImport();
     }
 
-    @Override // android.app.Activity
+    @Override
     public void finish() {
         super.finish();
         class_84.method_133(this, true);
     }
 
-    @Override // com.corrodinggames.rts.appFramework.class_1, android.app.Activity
+    @Override
     public void onResume() {
         super.onResume();
         setup(false);
@@ -63,7 +61,7 @@ public class LoadLevelActivity extends class_1 {
         class_84.method_115(this, true);
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onStart() {
         super.onStart();
         class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
@@ -72,7 +70,7 @@ public class LoadLevelActivity extends class_1 {
         }
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onStop() {
         super.onStop();
         class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
@@ -81,7 +79,7 @@ public class LoadLevelActivity extends class_1 {
         }
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onPause() {
         super.onPause();
         class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
@@ -179,7 +177,7 @@ public class LoadLevelActivity extends class_1 {
         }
     }
 
-    @Override // android.app.Activity, android.view.View.OnCreateContextMenuListener
+    @Override, android.view.View.OnCreateContextMenuListener
     public void onCreateContextMenu(ContextMenu contextMenu, View view, ContextMenu.ContextMenuInfo contextMenuInfo) {
         super.onCreateContextMenu(contextMenu, view, contextMenuInfo);
         contextMenu.setHeaderTitle(((Button) view).getText());
@@ -195,7 +193,7 @@ public class LoadLevelActivity extends class_1 {
         }
     }
 
-    @Override // android.app.Activity
+    @Override
     public boolean onContextItemSelected(MenuItem menuItem) {
         String str = this.levels[menuItem.getItemId()];
         if (menuItem.getGroupId() == 0) {
@@ -235,7 +233,7 @@ public class LoadLevelActivity extends class_1 {
         new AlertDialog.Builder(this).setIcon(android.R.drawable.ic_dialog_alert).setTitle("Are you sure?").setMessage("Delete saved game '" + str + "'?").setPositiveButton("Delete", new class_68(this, str)).setNegativeButton("Keep", new class_67(this)).show();
     }
 
-    @Override // android.app.Activity
+    @Override
     public Dialog onCreateDialog(int i) {
         switch (i) {
             case 0:
@@ -258,7 +256,7 @@ public class LoadLevelActivity extends class_1 {
         new Thread(class_73Var).start();
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         setTitle("Load");
@@ -281,7 +279,7 @@ public class LoadLevelActivity extends class_1 {
         class_84.method_138(this);
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onActivityResult(int i, int i2, Intent intent) {
         switch (i) {
             case 5:

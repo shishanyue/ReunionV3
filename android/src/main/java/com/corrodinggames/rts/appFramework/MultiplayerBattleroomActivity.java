@@ -27,8 +27,6 @@ import android.widget.SpinnerAdapter;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
-import cn.tesseract.union.hook.PlatformHook;
-import cn.tesseract.union.hook.SpawnPositionHook;
 import com.corrodinggames.rts.R;
 import com.corrodinggames.rts.game.class_324;
 import com.corrodinggames.rts.game.units.class_426;
@@ -43,9 +41,8 @@ import com.corrodinggames.rts.gameFramework.j.class_1016;
 import com.corrodinggames.rts.gameFramework.j.class_1047;
 import java.util.ArrayList;
 import java.util.Arrays;
-import org.apache.fory.shaded.org.codehaus.janino.Descriptor;
+import java.util.Locale;
 
-/* JADX INFO: loaded from: classes.dex */
 public class MultiplayerBattleroomActivity extends class_1 {
     public static final int REQUEST_ENABLE_BT_CLIENT = 2;
     public static final int REQUEST_ENABLE_BT_SERVER = 1;
@@ -103,16 +100,73 @@ public class MultiplayerBattleroomActivity extends class_1 {
     }
 
     public void setupPlayerColorDropDown(Spinner spinner, boolean z, boolean z2, class_324 class_324Var) {
-        PlatformHook.setupPlayerColorDropDown(this, spinner, z, z2, class_324Var);
+        String upperCase;
+        int i;
+        int i2;
+        class_1061.method_3076();
+        ArrayList arrayList = new ArrayList();
+        if (z) {
+            arrayList.add(new class_167("-99", class_988.method_2636("menus.settings.option.default", new Object[0]), null));
+        }
+        for (int i3 = 0; i3 < 10; i3++) {
+            boolean z3 = z2 && class_1001.method_2728(i3, class_324Var);
+            String strMethod_524 = class_324.method_524(i3);
+            if (strMethod_524 == null) {
+                upperCase = null;
+            } else if (strMethod_524.length() <= 0) {
+                upperCase = strMethod_524.toUpperCase();
+            } else {
+                upperCase = strMethod_524.substring(0, 1).toUpperCase(Locale.ROOT) + strMethod_524.substring(1).toLowerCase(Locale.ROOT);
+            }
+            if (z3) {
+                upperCase = upperCase + " (used)";
+                i2 = -7829368;
+                i = -99;
+            } else {
+                i = i3;
+                i2 = i3;
+            }
+            arrayList.add(new class_167(String.valueOf(i), upperCase, Integer.valueOf(class_324.method_522(i2))));
+        }
+        class_166 class_166Var = new class_166(this, arrayList);
+        class_166Var.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner.setAdapter((SpinnerAdapter) class_166Var);
     }
+
 
     public void setupSpawnPositionDropDown(Spinner spinner, boolean z) {
-        SpawnPositionHook.setupSpawnPositionDropDown(this, spinner, z);
+        int i = 0;
+        ArrayList arrayList = new ArrayList();
+        if (z) {
+            arrayList.add(new class_167("-99", class_988.method_2636("menus.settings.option.default", new Object[0]), null));
+        }
+        while (i <= 1) {
+            String str = " - Side " + (i == 0 ? "A" : "B");
+            for (int i2 = i; i2 <= 9; i2 += 2) {
+                arrayList.add(new class_167(String.valueOf(i2), (i2 + 1) + str, Integer.valueOf(class_324.method_522(i))));
+            }
+            i++;
+        }
+        arrayList.add(new class_167("-3", "Spectator", -1));
+        class_166 class_166Var = new class_166(this, arrayList);
+        class_166Var.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner.setAdapter((SpinnerAdapter) class_166Var);
     }
 
+
     public void setupTeamAllyDropDown(Spinner spinner, boolean z) {
-        SpawnPositionHook.setupTeamAllyDropDown(this, spinner, z);
+        ArrayList arrayList = new ArrayList();
+        if (z) {
+            arrayList.add(new class_167("0", "auto", -1));
+        }
+        for (int i = 0; i <= 9; i++) {
+            arrayList.add(new class_167(new StringBuilder().append(i + 1).toString(), "Side " + class_324.method_467(i), Integer.valueOf(class_324.method_522(i))));
+        }
+        class_166 class_166Var = new class_166(this, arrayList);
+        class_166Var.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner.setAdapter((SpinnerAdapter) class_166Var);
     }
+
 
     public void showPlayerEditPopup(class_324 class_324Var) {
         $invoke$special$showPlayerEditPopup(class_324Var);
@@ -134,14 +188,14 @@ public class MultiplayerBattleroomActivity extends class_1 {
         return multiplayerBattleroomActivity.activityVisible;
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onPause() {
         this.activityVisible = false;
         class_1061.method_3076().field_6352.method_2701();
         super.onPause();
     }
 
-    @Override // com.corrodinggames.rts.appFramework.class_1, android.app.Activity
+    @Override
     public void onResume() {
         this.activityVisible = true;
         class_1061 class_1061VarMethod_3037 = class_1061.method_3037(this);
@@ -167,7 +221,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
         super.onResume();
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         if (class_84.method_127(this, false)) {
@@ -669,7 +723,8 @@ public class MultiplayerBattleroomActivity extends class_1 {
             }
         }
         markAllActiveCellsDeleted();
-        for (class_324 class_324Var : class_324.method_485()) {
+        for (Object playerObj : class_324.method_485()) {
+            class_324 class_324Var = (class_324) playerObj;
             if (class_324Var != null) {
                 if (class_324Var.field_1468 == null) {
                     str = "unnamed";
@@ -708,7 +763,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
                 String string = Integer.toString(class_324Var.field_1457 + 1);
                 boolean zMethod_464 = class_324Var.method_464();
                 if (zMethod_464) {
-                    string = Descriptor.SHORT;
+                    string = "S";
                 }
                 if (!zMethod_464 && class_324Var.field_1399 != null && class_324Var.field_1399.intValue() != class_1061VarMethod_3076.field_6352.field_5874.field_6018) {
                     string = string + " - " + class_1001.method_2774(class_324Var.field_1399.intValue());
@@ -749,7 +804,8 @@ public class MultiplayerBattleroomActivity extends class_1 {
         class_168 class_168Var = new class_168("Starting unit count");
         class_168 class_168Var2 = new class_168("Total unit HP");
         class_168 class_168Var3 = new class_168("Team Credits");
-        for (class_324 class_324Var : class_324.method_499()) {
+        for (Object teamObj : class_324.method_499()) {
+            class_324 class_324Var = (class_324) teamObj;
             class_426[] class_426VarArr = class_426.field_1908.field_7339;
             int size = class_426.field_1908.size();
             int i = 0;
@@ -803,7 +859,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
         class_1061VarMethod_3076.method_3013(true, class_768.field_4200);
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onBackPressed() {
         if (class_1061.method_3076().field_6352.field_5854) {
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -888,7 +944,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
         }
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onActivityResult(int i, int i2, Intent intent) {
         class_1061.method_3043("bluetooth: onActivityResult");
         if (i == 1) {
@@ -939,7 +995,8 @@ public class MultiplayerBattleroomActivity extends class_1 {
         if (z) {
             arrayList.add(new class_167("-99", class_988.method_2636("menus.settings.option.default", new Object[0]), null));
         }
-        for (Integer num : class_1001.method_2783()) {
+        for (Object numObj : class_1001.method_2783()) {
+            Integer num = (Integer) numObj;
             arrayList.add(new class_167(num.toString(), class_1001.method_2774(num.intValue())));
         }
         class_166 class_166Var = new class_166(this, arrayList);

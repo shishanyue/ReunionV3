@@ -18,7 +18,6 @@ import android.widget.ListAdapter;
 import android.widget.ScrollView;
 import android.widget.TableLayout;
 import android.widget.TextView;
-import cn.tesseract.union.hook.game.LobbyHook;
 import com.corrodinggames.rts.R;
 import com.corrodinggames.rts.game.units.custom.logicBooleans.VariableScope;
 import com.corrodinggames.rts.gameFramework.class_1061;
@@ -32,7 +31,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 
-/* JADX INFO: loaded from: classes.dex */
 public class MultiplayerLobbyActivity extends class_1 {
     public static final int LOADING_DIALOG = 0;
     public static final int REQUEST_ENABLE_BT_CLIENT = 2;
@@ -66,12 +64,12 @@ public class MultiplayerLobbyActivity extends class_1 {
     public void addDebugTextInternal(String str) {
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onPause() {
         super.onPause();
     }
 
-    @Override // com.corrodinggames.rts.appFramework.class_1, android.app.Activity
+    @Override
     public void onResume() {
         class_1061 class_1061VarMethod_3037 = class_1061.method_3037(this);
         if (class_1061VarMethod_3037 != null) {
@@ -85,7 +83,7 @@ public class MultiplayerLobbyActivity extends class_1 {
         super.onResume();
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         if (class_84.method_127(this, false)) {
@@ -185,7 +183,7 @@ public class MultiplayerLobbyActivity extends class_1 {
             }
             Collections.sort(arrayList, new class_173());
         }
-        return LobbyHook.getSortedDiscoveredServers(null, arrayList);
+        return  arrayList;
     }
 
     public static TextView getCellTextView(Context context, class_1323 class_1323Var) {
@@ -325,7 +323,7 @@ public class MultiplayerLobbyActivity extends class_1 {
         throw new UnsupportedOperationException("Method not decompiled: com.corrodinggames.rts.appFramework.MultiplayerLobbyActivity.addCell(com.corrodinggames.rts.gameFramework.j.class_1040, android.widget.TableRow, java.lang.String, com.corrodinggames.rts.gameFramework.utility.class_1323):android.widget.TextView");
     }
 
-    @Override // android.app.Activity
+    @Override
     public Dialog onCreateDialog(int i) {
         switch (i) {
             case 0:
@@ -340,7 +338,7 @@ public class MultiplayerLobbyActivity extends class_1 {
         }
     }
 
-    @Override // android.app.Activity
+    @Override
     public void onActivityResult(int i, int i2, Intent intent) {
         class_1061.method_3043("bluetooth: onActivityResult");
         if (i != 1) {
