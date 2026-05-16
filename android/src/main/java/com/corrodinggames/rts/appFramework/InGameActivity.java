@@ -21,6 +21,7 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import com.corrodinggames.rts.R;
 import com.corrodinggames.rts.appFramework.android.AndroidSAF;
 import com.corrodinggames.rts.game.units.custom.logicBooleans.VariableScope;
@@ -55,16 +56,16 @@ public class InGameActivity extends class_1 {
     public static final int SKIP_ID = 3;
     public static final int STEAM_REINVITE_ID = 17;
     public static final int SURRENDER_ID = 19;
+    public final Handler uiHandler = new Handler(Looper.getMainLooper());
     public class_5 gameViewCommon;
     public ProgressDialog progressDialog;
-    public final Handler uiHandler = new Handler(Looper.getMainLooper());
     public boolean test = true;
 
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         if (class_1061.method_3076() == null) {
-            startActivity(new Intent(getBaseContext(), (Class<?>) IntroScreen.class));
+            startActivity(new Intent(getBaseContext(), IntroScreen.class));
             finish();
         }
         if (class_84.method_127(this, true)) {
@@ -149,34 +150,34 @@ public class InGameActivity extends class_1 {
         super.onPrepareOptionsMenu(menu);
         menu.clear();
         class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
-        menu.add(0, 12, 0, class_988.method_2636("menus.ingame.save", new Object[0])).setIcon(android.R.drawable.ic_menu_save);
+        menu.add(0, 12, 0, class_988.method_2636("menus.ingame.save")).setIcon(android.R.drawable.ic_menu_save);
         if (class_1061VarMethod_3076.field_6376 && !class_1061.field_6309) {
-            menu.add(0, 18, 0, class_988.method_2636("menus.ingame.exportMap", new Object[0])).setIcon(android.R.drawable.ic_menu_save);
+            menu.add(0, 18, 0, class_988.method_2636("menus.ingame.exportMap")).setIcon(android.R.drawable.ic_menu_save);
         }
-        menu.add(0, 2, 0, class_988.method_2636("menus.ingame.settings", new Object[0])).setIcon(android.R.drawable.ic_menu_preferences);
+        menu.add(0, 2, 0, class_988.method_2636("menus.ingame.settings")).setIcon(android.R.drawable.ic_menu_preferences);
         class_1061VarMethod_3076.method_2963();
         if (class_1061VarMethod_3076.field_6356 != null && class_1061VarMethod_3076.field_6356.method_2036()) {
-            menu.add(0, 22, 0, class_988.method_2636("menus.ingame.hideInterface", new Object[0])).setIcon(android.R.drawable.ic_menu_send);
+            menu.add(0, 22, 0, class_988.method_2636("menus.ingame.hideInterface")).setIcon(android.R.drawable.ic_menu_send);
         }
         if (class_1061VarMethod_3076.method_2963()) {
-            menu.add(0, 13, 0, class_988.method_2636("menus.ingame.chat", new Object[0])).setIcon(android.R.drawable.ic_menu_send);
-            menu.add(0, 14, 0, class_988.method_2636("menus.ingame.players", new Object[0])).setIcon(android.R.drawable.ic_menu_sort_by_size);
+            menu.add(0, 13, 0, class_988.method_2636("menus.ingame.chat")).setIcon(android.R.drawable.ic_menu_send);
+            menu.add(0, 14, 0, class_988.method_2636("menus.ingame.players")).setIcon(android.R.drawable.ic_menu_sort_by_size);
             if (class_1061VarMethod_3076.field_6352.field_5851) {
                 class_1282.method_3463();
             }
             if (!(class_1061VarMethod_3076.field_6373 != null && class_1061VarMethod_3076.field_6373.field_1407) && !class_1061VarMethod_3076.field_6475) {
-                menu.add(0, 19, 0, class_988.method_2636("menus.ingame.surrender", new Object[0])).setIcon(android.R.drawable.ic_lock_power_off);
+                menu.add(0, 19, 0, class_988.method_2636("menus.ingame.surrender")).setIcon(android.R.drawable.ic_lock_power_off);
             }
             if (!class_1061VarMethod_3076.field_6352.field_5851) {
-                menu.add(0, 10, 0, class_988.method_2636("menus.ingame.disconnect", new Object[0])).setIcon(android.R.drawable.ic_lock_power_off);
+                menu.add(0, 10, 0, class_988.method_2636("menus.ingame.disconnect")).setIcon(android.R.drawable.ic_lock_power_off);
             } else {
-                menu.add(0, 10, 0, class_988.method_2636("menus.ingame.exitGame", new Object[0])).setIcon(android.R.drawable.ic_lock_power_off);
+                menu.add(0, 10, 0, class_988.method_2636("menus.ingame.exitGame")).setIcon(android.R.drawable.ic_lock_power_off);
             }
         } else {
             if (class_1061VarMethod_3076.field_6411 != null && class_1061VarMethod_3076.field_6411.field_7102 != null) {
-                menu.add(0, 11, 0, class_988.method_2636("menus.ingame.briefing", new Object[0])).setIcon(android.R.drawable.ic_dialog_info);
+                menu.add(0, 11, 0, class_988.method_2636("menus.ingame.briefing")).setIcon(android.R.drawable.ic_dialog_info);
             }
-            menu.add(0, 15, 0, class_988.method_2636("menus.ingame.exitGame", new Object[0])).setIcon(android.R.drawable.ic_lock_power_off);
+            menu.add(0, 15, 0, class_988.method_2636("menus.ingame.exitGame")).setIcon(android.R.drawable.ic_lock_power_off);
         }
         if (class_1061VarMethod_3076 != null && class_1061VarMethod_3076.field_6345.allowGameRecording) {
             if (!class_1061VarMethod_3076.field_6369) {
@@ -202,42 +203,38 @@ public class InGameActivity extends class_1 {
     public void selectMenuOptionInternal(int i) {
         switch (i) {
             case 2:
-                startActivityForResult(new Intent(getBaseContext(), (Class<?>) SettingsActivity.class), 0);
+                startActivityForResult(new Intent(getBaseContext(), SettingsActivity.class), 0);
                 break;
             case 3:
-                new AlertDialog.Builder(this).setIcon(android.R.drawable.ic_dialog_alert).setTitle("Skip?").setMessage("Are you sure you want to skip this level?").setPositiveButton("Yes", new class_27(this)).setNegativeButton("No", (DialogInterface.OnClickListener) null).show();
+                new AlertDialog.Builder(this).setIcon(android.R.drawable.ic_dialog_alert).setTitle("Skip?").setMessage("Are you sure you want to skip this level?").setPositiveButton("Yes", new class_27(this)).setNegativeButton("No", null).show();
                 break;
             case 4:
-                class_1061.method_3076().field_6414 = class_1061.method_3076().field_6414 ? false : true;
+                class_1061.method_3076().field_6414 = !class_1061.method_3076().field_6414;
                 break;
             case 5:
-                new AlertDialog.Builder(this).setIcon(android.R.drawable.ic_dialog_alert).setTitle("Restart?").setMessage("Are you sure you want to restart this level?").setPositiveButton("Yes", new class_28(this)).setNegativeButton("No", (DialogInterface.OnClickListener) null).show();
+                new AlertDialog.Builder(this).setIcon(android.R.drawable.ic_dialog_alert).setTitle("Restart?").setMessage("Are you sure you want to restart this level?").setPositiveButton("Yes", new class_28(this)).setNegativeButton("No", null).show();
                 break;
             case 6:
                 class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
-                class_1061VarMethod_3076.field_6366 = class_1061VarMethod_3076.field_6366 ? false : true;
+                class_1061VarMethod_3076.field_6366 = !class_1061VarMethod_3076.field_6366;
                 break;
             case 9:
                 class_1061 class_1061VarMethod_30762 = class_1061.method_3076();
-                if (!class_1061VarMethod_30762.field_6369) {
-                    class_1061VarMethod_30762.field_6369 = true;
-                } else {
-                    class_1061VarMethod_30762.field_6369 = false;
-                }
+                class_1061VarMethod_30762.field_6369 = !class_1061VarMethod_30762.field_6369;
                 break;
             case 10:
                 class_1061 class_1061VarMethod_30763 = class_1061.method_3076();
-                String strMethod_2636 = class_988.method_2636("menus.ingame.multiplayerClose.titleDisconnect", new Object[0]);
-                String strMethod_26362 = class_988.method_2636("menus.ingame.multiplayerClose.messageDisconnect", new Object[0]);
-                String strMethod_26363 = class_988.method_2636("menus.ingame.multiplayerClose.disconnectButton", new Object[0]);
+                String strMethod_2636 = class_988.method_2636("menus.ingame.multiplayerClose.titleDisconnect");
+                String strMethod_26362 = class_988.method_2636("menus.ingame.multiplayerClose.messageDisconnect");
+                String strMethod_26363 = class_988.method_2636("menus.ingame.multiplayerClose.disconnectButton");
                 if (class_1061VarMethod_30763.field_6352.field_5851) {
-                    strMethod_2636 = class_988.method_2636("menus.ingame.multiplayerClose.title", new Object[0]);
-                    strMethod_26362 = class_988.method_2636("menus.ingame.multiplayerClose.messageEndGame", new Object[0]);
-                    strMethod_26363 = class_988.method_2636("menus.ingame.exitGame", new Object[0]);
+                    strMethod_2636 = class_988.method_2636("menus.ingame.multiplayerClose.title");
+                    strMethod_26362 = class_988.method_2636("menus.ingame.multiplayerClose.messageEndGame");
+                    strMethod_26363 = class_988.method_2636("menus.ingame.exitGame");
                 }
-                AlertDialog.Builder negativeButton = new AlertDialog.Builder(this).setIcon(android.R.drawable.ic_dialog_alert).setTitle(strMethod_2636).setMessage(strMethod_26362).setPositiveButton(strMethod_26363, new class_32(this)).setNegativeButton(class_988.method_2636("menus.common.back", new Object[0]), (DialogInterface.OnClickListener) null);
+                AlertDialog.Builder negativeButton = new AlertDialog.Builder(this).setIcon(android.R.drawable.ic_dialog_alert).setTitle(strMethod_2636).setMessage(strMethod_26362).setPositiveButton(strMethod_26363, new class_32(this)).setNegativeButton(class_988.method_2636("menus.common.back"), null);
                 if (class_1061VarMethod_30763.field_6352.field_5851) {
-                    negativeButton.setNeutralButton(class_988.method_2636("menus.ingame.multiplayerClose.returnToBattleroom", new Object[0]), new class_33(this));
+                    negativeButton.setNeutralButton(class_988.method_2636("menus.ingame.multiplayerClose.returnToBattleroom"), new class_33(this));
                 }
                 negativeButton.show();
                 break;
@@ -263,7 +260,7 @@ public class InGameActivity extends class_1 {
                 }
                 break;
             case 15:
-                new AlertDialog.Builder(this).setIcon(android.R.drawable.ic_dialog_alert).setTitle("Exit?").setMessage("Are you sure you want to exit this game?").setPositiveButton("Yes", new class_34(this)).setNegativeButton("No", (DialogInterface.OnClickListener) null).show();
+                new AlertDialog.Builder(this).setIcon(android.R.drawable.ic_dialog_alert).setTitle("Exit?").setMessage("Are you sure you want to exit this game?").setPositiveButton("Yes", new class_34(this)).setNegativeButton("No", null).show();
                 break;
             case 16:
                 makeSendMessagePopup(true);
@@ -274,7 +271,7 @@ public class InGameActivity extends class_1 {
                 }
                 break;
             case 19:
-                new AlertDialog.Builder(this).setIcon(android.R.drawable.ic_dialog_alert).setTitle("Disconnect?").setMessage("Are you sure you want to surrender this game?").setPositiveButton("Surrender", new class_31(this)).setNegativeButton("No", (DialogInterface.OnClickListener) null).show();
+                new AlertDialog.Builder(this).setIcon(android.R.drawable.ic_dialog_alert).setTitle("Disconnect?").setMessage("Are you sure you want to surrender this game?").setPositiveButton("Surrender", new class_31(this)).setNegativeButton("No", null).show();
                 break;
             case 20:
                 finish();
@@ -346,7 +343,7 @@ public class InGameActivity extends class_1 {
         class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
         class_1061VarMethod_3076.field_6466 += motionEvent.getX();
         class_1061VarMethod_3076.field_6467 += motionEvent.getY();
-        return (motionEvent.getAction() == 0 || motionEvent.getAction() == 1) ? false : true;
+        return motionEvent.getAction() != 0 && motionEvent.getAction() != 1;
     }
 
     private void makeSendMessagePopup(boolean z) {
@@ -357,10 +354,10 @@ public class InGameActivity extends class_1 {
         } else {
             builder.setTitle("Send Team Message");
         }
-        View viewInflate = LayoutInflater.from(this).inflate(R.layout.alert_chat, (ViewGroup) null);
+        View viewInflate = LayoutInflater.from(this).inflate(R.layout.alert_chat, null);
         builder.setView(viewInflate);
-        TextView textView = (TextView) viewInflate.findViewById(R.id.chat_messages);
-        EditText editText = (EditText) viewInflate.findViewById(R.id.chat_text);
+        TextView textView = viewInflate.findViewById(R.id.chat_messages);
+        EditText editText = viewInflate.findViewById(R.id.chat_text);
         textView.setText(class_1061VarMethod_3076.field_6352.field_5878.method_2695());
         editText.setText(VariableScope.nullOrMissingString);
         editText.requestFocus();
@@ -430,11 +427,11 @@ public class InGameActivity extends class_1 {
         if (class_1061.method_3076().field_6352.field_5850) {
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setIcon(android.R.drawable.ic_dialog_info);
-            builder.setTitle(class_988.method_2636("menus.ingame.multiplayerClose.title", new Object[0]));
-            builder.setMessage(class_988.method_2636("menus.ingame.multiplayerClose.message", new Object[0]));
-            builder.setPositiveButton(class_988.method_2636("menus.ingame.multiplayerClose.disconnectButton", new Object[0]), new class_23(this));
-            builder.setNeutralButton(class_988.method_2636("menus.ingame.multiplayerClose.minimizeButton", new Object[0]), new class_24(this));
-            builder.setNegativeButton(class_988.method_2636("menus.ingame.multiplayerClose.stayButton", new Object[0]), new class_25(this));
+            builder.setTitle(class_988.method_2636("menus.ingame.multiplayerClose.title"));
+            builder.setMessage(class_988.method_2636("menus.ingame.multiplayerClose.message"));
+            builder.setPositiveButton(class_988.method_2636("menus.ingame.multiplayerClose.disconnectButton"), new class_23(this));
+            builder.setNeutralButton(class_988.method_2636("menus.ingame.multiplayerClose.minimizeButton"), new class_24(this));
+            builder.setNegativeButton(class_988.method_2636("menus.ingame.multiplayerClose.stayButton"), new class_25(this));
             builder.show();
             return;
         }

@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+
 import com.corrodinggames.rts.appFramework.android.AndroidSAF;
 import com.corrodinggames.rts.gameFramework.b.class_807;
 import com.corrodinggames.rts.gameFramework.b.class_813;
@@ -21,18 +22,26 @@ import com.corrodinggames.rts.gameFramework.m.class_1236;
 import com.corrodinggames.rts.gameFramework.m.class_1239;
 import com.corrodinggames.rts.gameFramework.m.class_1241;
 import com.corrodinggames.rts.gameFramework.m.class_1242;
+
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.concurrent.locks.ReentrantLock;
+
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.egl.EGLContext;
 import javax.microedition.khronos.opengles.GL10;
 
 public class GameViewOpenGL extends GLSurfaceViewShared implements class_5, class_126, class_261 {
     public static final int EGL_CONTEXT_CLIENT_VERSION_VALUE = 2;
-    public static class_9 renderManagerThread = null;
     public static final boolean retainGlContext = true;
+    public static class_9 renderManagerThread = null;
     public static class_828 retainedCanvas;
+    public static int numberOfNonRenderedCanvas = 0;
+    public static Object renderManagerLock = new Object();
+    public static boolean requestRenderQueued = false;
+    public static Object makeActiveLock = new Object();
+    public static EGLContext retainedGlContext = null;
+    public static GameViewOpenGL lastHeldSurfaceView = null;
     public class_1236 canvasDirectGL;
     public class_1242 canvasProxy;
     public Context context;
@@ -56,12 +65,31 @@ public class GameViewOpenGL extends GLSurfaceViewShared implements class_5, clas
     public class_1081 renderer;
     public volatile boolean surfaceExists;
     public SurfaceHolder surfaceHolderOnLock;
-    public static int numberOfNonRenderedCanvas = 0;
-    public static Object renderManagerLock = new Object();
-    public static boolean requestRenderQueued = false;
-    public static Object makeActiveLock = new Object();
-    public static EGLContext retainedGlContext = null;
-    public static GameViewOpenGL lastHeldSurfaceView = null;
+
+    public GameViewOpenGL(Context context, AttributeSet attributeSet) {
+        super(context, attributeSet);
+        this.surfaceExists = false;
+        this.gameThreadSync = new Object();
+        this.fullWidth = -1;
+        this.fullHeight = -1;
+        this.hasCanvasRendered = false;
+        this.paused = false;
+        this.canvasProxy = new class_1242();
+        this.drawDone = new Object();
+        this.drawTimeouts = 0;
+        this.loggedDrawTimeout = false;
+        this.canvasDirectGL = new class_1236();
+        this.isActive = true;
+        Log.e(AndroidSAF.TAG, "GameView:GameViewOpenGL()");
+        this.multiTouchController = new class_125(this);
+        this.currTouchPoint = new class_127();
+        init(context);
+    }
+
+    public static void clearRetainedGLContext() {
+        retainedGlContext = null;
+        retainedCanvas = null;
+    }
 
     public void requestRenderNonBlocking() {
         requestRender();
@@ -104,26 +132,6 @@ public class GameViewOpenGL extends GLSurfaceViewShared implements class_5, clas
 
     @Override
     public void onParentWindowFocusChanged(boolean z) {
-    }
-
-    public GameViewOpenGL(Context context, AttributeSet attributeSet) {
-        super(context, attributeSet);
-        this.surfaceExists = false;
-        this.gameThreadSync = new Object();
-        this.fullWidth = -1;
-        this.fullHeight = -1;
-        this.hasCanvasRendered = false;
-        this.paused = false;
-        this.canvasProxy = new class_1242();
-        this.drawDone = new Object();
-        this.drawTimeouts = 0;
-        this.loggedDrawTimeout = false;
-        this.canvasDirectGL = new class_1236();
-        this.isActive = true;
-        Log.e(AndroidSAF.TAG, "GameView:GameViewOpenGL()");
-        this.multiTouchController = new class_125(this);
-        this.currTouchPoint = new class_127();
-        init(context);
     }
 
     public void init(Context context) {
@@ -341,11 +349,6 @@ public class GameViewOpenGL extends GLSurfaceViewShared implements class_5, clas
     }
 
     public void onNewWindow() {
-    }
-
-    public static void clearRetainedGLContext() {
-        retainedGlContext = null;
-        retainedCanvas = null;
     }
 
     public void makeActive() {

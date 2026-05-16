@@ -16,27 +16,58 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
+
 import com.corrodinggames.rts.R;
 import com.corrodinggames.rts.game.units.custom.logicBooleans.VariableScope;
 import com.corrodinggames.rts.gameFramework.class_1061;
 import com.corrodinggames.rts.gameFramework.class_775;
 import com.corrodinggames.rts.gameFramework.class_866;
 import com.corrodinggames.rts.gameFramework.e.class_899;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
 public class LoadLevelActivity extends class_1 {
     public static final int LOADING_DIALOG = 0;
     public static final String currentSavePath = "/SD/rustedWarfare/saves/";
+    public final Handler uiHandler = new Handler();
     public class_5 gameView;
     public String[] levels;
     public TextView messageInfo;
     public Button modsImportMod;
     public ProgressDialog progressDialog;
-    public final Handler uiHandler = new Handler();
     public Runnable fileAddedCallback = new class_70(this);
     public Handler refreshLevelsHandler = new Handler();
     public Runnable refreshLevelsRunnable = new class_72(this);
+
+    public static String[] getGameSaves() {
+        String[] strArrMethod_2168 = class_899.method_2168(currentSavePath, false);
+        if (strArrMethod_2168 == null) {
+            return null;
+        }
+        ArrayList arrayList = new ArrayList();
+        for (String str : strArrMethod_2168) {
+            if (!str.endsWith(".map") && !str.endsWith(".tmp")) {
+                arrayList.add(str);
+            }
+        }
+        Collections.sort(arrayList, new class_74());
+        return (String[]) arrayList.toArray(new String[0]);
+    }
+
+    public static String convertDataFileNameForDisplay(String str) {
+        class_899.method_2192(str);
+        if (str.contains("/")) {
+            str = str.substring(str.lastIndexOf("/") + 1);
+        }
+        if (str.endsWith(".rwsave")) {
+            str = str.replace(".rwsave", VariableScope.nullOrMissingString);
+        }
+        if (str.endsWith(".replay")) {
+            return str.replace(".replay", VariableScope.nullOrMissingString);
+        }
+        return str;
+    }
 
     @Override
     public void finish() {
@@ -84,39 +115,10 @@ public class LoadLevelActivity extends class_1 {
         }
     }
 
-    public static String[] getGameSaves() {
-        String[] strArrMethod_2168 = class_899.method_2168(currentSavePath, false);
-        if (strArrMethod_2168 == null) {
-            return null;
-        }
-        ArrayList arrayList = new ArrayList();
-        for (String str : strArrMethod_2168) {
-            if (!str.endsWith(".map") && !str.endsWith(".tmp")) {
-                arrayList.add(str);
-            }
-        }
-        Collections.sort(arrayList, new class_74());
-        return (String[]) arrayList.toArray(new String[0]);
-    }
-
-    public static String convertDataFileNameForDisplay(String str) {
-        class_899.method_2192(str);
-        if (str.contains("/")) {
-            str = str.substring(str.lastIndexOf("/") + 1);
-        }
-        if (str.endsWith(".rwsave")) {
-            str = str.replace(".rwsave", VariableScope.nullOrMissingString);
-        }
-        if (str.endsWith(".replay")) {
-            return str.replace(".replay", VariableScope.nullOrMissingString);
-        }
-        return str;
-    }
-
     public void setup(boolean z) {
         class_1061.method_3037(this);
         findViewById(R.id.levelButtonBack).setOnClickListener(new class_62(this));
-        LinearLayout linearLayout = (LinearLayout) findViewById(R.id.levelHolder);
+        LinearLayout linearLayout = findViewById(R.id.levelHolder);
         linearLayout.removeAllViews();
         if (!class_84.method_137(this)) {
             finish();
@@ -259,10 +261,10 @@ public class LoadLevelActivity extends class_1 {
         if (class_84.method_127(this, true)) {
             setContentView(R.layout.level_select);
             class_84.method_120(getWindow().getDecorView().findViewById(android.R.id.content));
-            ((Spinner) findViewById(R.id.aiDifficulty)).setVisibility(8);
+            findViewById(R.id.aiDifficulty).setVisibility(8);
             this.gameView = class_84.method_125(this);
-            this.messageInfo = (TextView) findViewById(R.id.messageInfo);
-            Button button = (Button) findViewById(R.id.modsImportMod);
+            this.messageInfo = findViewById(R.id.messageInfo);
+            Button button = findViewById(R.id.modsImportMod);
             this.modsImportMod = button;
             button.setVisibility(0);
             this.modsImportMod.setOnClickListener(new class_69(this));

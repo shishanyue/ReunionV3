@@ -3,8 +3,8 @@ package com.corrodinggames.rts.appFramework;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.os.Bundle;
-import android.widget.Button;
 import android.widget.TextView;
+
 import com.corrodinggames.rts.R;
 import com.corrodinggames.rts.gameFramework.h.class_988;
 

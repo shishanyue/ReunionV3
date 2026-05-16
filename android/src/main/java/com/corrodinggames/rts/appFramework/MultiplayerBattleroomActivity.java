@@ -27,6 +27,7 @@ import android.widget.SpinnerAdapter;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
+
 import com.corrodinggames.rts.R;
 import com.corrodinggames.rts.game.class_324;
 import com.corrodinggames.rts.game.units.class_426;
@@ -39,6 +40,7 @@ import com.corrodinggames.rts.gameFramework.j.class_1001;
 import com.corrodinggames.rts.gameFramework.j.class_1011;
 import com.corrodinggames.rts.gameFramework.j.class_1016;
 import com.corrodinggames.rts.gameFramework.j.class_1047;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Locale;
@@ -50,6 +52,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
     public static class_1011 currentAskPasswordCallBack;
     public static MultiplayerBattleroomActivity lastLoaded;
     public static boolean missedStartGame = false;
+    public final Handler uiHandler = new Handler();
     public Button addAI;
     public Button changeTeam;
     public TextView chatLog;
@@ -73,7 +76,6 @@ public class MultiplayerBattleroomActivity extends class_1 {
     public Spinner typeDropdown;
     public LinearLayout typeLayout;
     public boolean onCreateFinished = false;
-    public final Handler uiHandler = new Handler();
     public boolean activityVisible = true;
     public String mapThumbnailLastLoaded = VariableScope.nullOrMissingString;
     public int currentDropdownMapType = -1;
@@ -83,6 +85,179 @@ public class MultiplayerBattleroomActivity extends class_1 {
     public ArrayList deletedTextViews = new ArrayList();
     public Runnable startGameRunnable = new class_146(this);
 
+    public static boolean isActivityVisible() {
+        MultiplayerBattleroomActivity multiplayerBattleroomActivity = lastLoaded;
+        if (multiplayerBattleroomActivity == null) {
+            return false;
+        }
+        return multiplayerBattleroomActivity.activityVisible;
+    }
+
+    public static void refreshChatLog() {
+        MultiplayerBattleroomActivity multiplayerBattleroomActivity = lastLoaded;
+        if (multiplayerBattleroomActivity != null) {
+            lastLoaded.uiHandler.post(new class_131(multiplayerBattleroomActivity));
+        }
+    }
+
+    public static void addMessageToChatLog(String str) {
+        MultiplayerBattleroomActivity multiplayerBattleroomActivity = lastLoaded;
+        if (multiplayerBattleroomActivity != null) {
+            Message messageObtainMessage = multiplayerBattleroomActivity.handler.obtainMessage();
+            messageObtainMessage.getData().putString("text", str);
+            multiplayerBattleroomActivity.handler.sendMessage(messageObtainMessage);
+        }
+    }
+
+    public static void closeIfOpen(String str, String str2) {
+        MultiplayerBattleroomActivity multiplayerBattleroomActivity = lastLoaded;
+        if (multiplayerBattleroomActivity != null) {
+            lastLoaded.uiHandler.post(new class_133(multiplayerBattleroomActivity, str2));
+        }
+    }
+
+    public static void updateUI() {
+        class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
+        if (class_1061VarMethod_3076.field_6352 != null) {
+            class_1061VarMethod_3076.field_6352.method_2823();
+        }
+        if (!class_1061.field_6304) {
+            if (class_1061VarMethod_3076.field_6352 == null || !class_1061VarMethod_3076.field_6352.field_5898) {
+                MultiplayerBattleroomActivity multiplayerBattleroomActivity = lastLoaded;
+                if (multiplayerBattleroomActivity != null) {
+                    multiplayerBattleroomActivity.uiHandler.post(multiplayerBattleroomActivity.updateRunnable);
+                } else {
+                    class_1061.method_3031("MultiplayerBattleroomActivity:updateUI() lastLoaded==null");
+                }
+            }
+        }
+    }
+
+    public static void startGame() {
+        MultiplayerBattleroomActivity multiplayerBattleroomActivity = lastLoaded;
+        if (multiplayerBattleroomActivity != null) {
+            multiplayerBattleroomActivity.uiHandler.post(multiplayerBattleroomActivity.startGameRunnable);
+            missedStartGame = false;
+        } else {
+            class_1061.method_3031("MultiplayerBattleroomActivity:startGame() lastLoaded==null");
+            class_1061.method_2969();
+            missedStartGame = true;
+        }
+    }
+
+    public static void warnIfTeamsUneven() {
+        class_168 class_168Var = new class_168("Starting unit count");
+        class_168 class_168Var2 = new class_168("Total unit HP");
+        class_168 class_168Var3 = new class_168("Team Credits");
+        for (Object teamObj : class_324.method_499()) {
+            class_324 class_324Var = (class_324) teamObj;
+            class_426[] class_426VarArr = class_426.field_1908.field_7339;
+            int size = class_426.field_1908.size();
+            int i = 0;
+            int i2 = 0;
+            for (int i3 = 0; i3 < size; i3++) {
+                class_426 class_426Var = class_426VarArr[i3];
+                if (class_426Var.field_1927 == class_324Var) {
+                    i++;
+                    i2 = (int) (i2 + class_426Var.field_1983);
+                }
+            }
+            if (i != 0) {
+                class_168Var.method_157(class_324Var, i);
+                class_168Var2.method_157(class_324Var, i2);
+                class_168Var3.method_157(class_324Var, (int) class_324Var.field_1461);
+            }
+        }
+        if (!class_168Var.method_156()) {
+            class_168Var2.method_156();
+        }
+        class_168Var3.method_156();
+    }
+
+    public static void startGameCommon() {
+        class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
+        class_1061VarMethod_3076.field_6471 = null;
+        if (class_1061VarMethod_3076.field_6352.field_5874.field_6012 == class_1016.field_6031) {
+            if (!class_1061VarMethod_3076.field_6352.field_5851) {
+                class_1061VarMethod_3076.field_6355.method_1780(class_1061VarMethod_3076.field_6352.field_5876, true, false);
+                class_1061VarMethod_3076.field_6347.field_5600.method_2596(null, "Note: Game was started from a saved game.");
+            } else {
+                class_1061VarMethod_3076.field_6355.method_1787(class_1061VarMethod_3076.field_6352.field_5874.field_6013, true);
+            }
+            warnIfTeamsUneven();
+            return;
+        }
+        if (class_1061VarMethod_3076.field_6352.field_5874.field_6012 == class_1016.field_6030) {
+            if (!class_1061VarMethod_3076.field_6352.field_5851) {
+                class_1061VarMethod_3076.field_6470 = VariableScope.nullOrMissingString;
+                class_1061VarMethod_3076.field_6471 = class_1061VarMethod_3076.field_6352.field_5877;
+                class_1061VarMethod_3076.method_3013(true, class_768.field_4200);
+                class_1061VarMethod_3076.field_6347.field_5600.method_2596(null, "Note: Game was started from a custom map on server.");
+            } else {
+                class_1061VarMethod_3076.field_6470 = class_1061VarMethod_3076.field_6352.field_5875;
+                class_1061VarMethod_3076.method_3013(true, class_768.field_4200);
+            }
+            warnIfTeamsUneven();
+            return;
+        }
+        class_1061VarMethod_3076.field_6470 = class_1061VarMethod_3076.field_6352.field_5875;
+        class_1061VarMethod_3076.method_3013(true, class_768.field_4200);
+    }
+
+    public static void reshowAskPassword() {
+        class_1011 class_1011Var = currentAskPasswordCallBack;
+        if (class_1011Var == null) {
+            return;
+        }
+        Context context = class_1061.method_3076().field_6316;
+        AlertDialog alertDialog = currentAskPasswordAlert;
+        if (alertDialog != null && alertDialog.getContext() == context) {
+            class_1061.method_3043("reshowAskPassword: skipping, same context");
+        } else {
+            askPasswordInternal(class_1011Var);
+        }
+    }
+
+    public static void askPasswordInternal(class_1011 class_1011Var) {
+        String str;
+        String strMethod_2638;
+        AlertDialog.Builder builder = new AlertDialog.Builder(class_1061.method_3076().field_6316);
+        if (class_1011Var.field_6001 == null) {
+            str = "Password Required";
+            strMethod_2638 = "This server requires a password to join";
+        } else {
+            strMethod_2638 = class_988.method_2638(class_1011Var.field_6001);
+            str = "Server Question";
+        }
+        if (class_1011Var.field_6004 != null) {
+            str = class_1011Var.field_6004;
+        }
+        builder.setTitle(str);
+        builder.setMessage(strMethod_2638);
+        EditText editText = new EditText(builder.getContext());
+        builder.setView(editText);
+        if (class_1011Var.field_6001 != null) {
+            editText.setHint("Enter text...");
+        } else {
+            editText.setHint("Enter password...");
+        }
+        builder.setPositiveButton(class_1011Var.field_6005 != null ? class_1011Var.field_6005 : "Submit", new class_152(editText, class_1011Var));
+        builder.setNegativeButton(class_1011Var.field_6006 != null ? class_1011Var.field_6006 : "Disconnect", new class_153(class_1011Var));
+        builder.setOnCancelListener(new class_154(class_1011Var));
+        AlertDialog alertDialog = currentAskPasswordAlert;
+        if (alertDialog != null) {
+            try {
+                alertDialog.dismiss();
+            } catch (IllegalArgumentException e) {
+                e.printStackTrace();
+            }
+        }
+        AlertDialog alertDialogShow = builder.show();
+        currentAskPasswordCallBack = class_1011Var;
+        currentAskPasswordAlert = alertDialogShow;
+        editText.requestFocus();
+    }
+
     public void setupPlayerColorDropDown(Spinner spinner, boolean z, boolean z2, class_324 class_324Var) {
         String upperCase;
         int i;
@@ -90,7 +265,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
         class_1061.method_3076();
         ArrayList arrayList = new ArrayList();
         if (z) {
-            arrayList.add(new class_167("-99", class_988.method_2636("menus.settings.option.default", new Object[0]), null));
+            arrayList.add(new class_167("-99", class_988.method_2636("menus.settings.option.default"), null));
         }
         for (int i3 = 0; i3 < 10; i3++) {
             boolean z3 = z2 && class_1001.method_2728(i3, class_324Var);
@@ -114,15 +289,14 @@ public class MultiplayerBattleroomActivity extends class_1 {
         }
         class_166 class_166Var = new class_166(this, arrayList);
         class_166Var.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner.setAdapter((SpinnerAdapter) class_166Var);
+        spinner.setAdapter(class_166Var);
     }
-
 
     public void setupSpawnPositionDropDown(Spinner spinner, boolean z) {
         int i = 0;
         ArrayList arrayList = new ArrayList();
         if (z) {
-            arrayList.add(new class_167("-99", class_988.method_2636("menus.settings.option.default", new Object[0]), null));
+            arrayList.add(new class_167("-99", class_988.method_2636("menus.settings.option.default"), null));
         }
         while (i <= 1) {
             String str = " - Side " + (i == 0 ? "A" : "B");
@@ -134,9 +308,8 @@ public class MultiplayerBattleroomActivity extends class_1 {
         arrayList.add(new class_167("-3", "Spectator", -1));
         class_166 class_166Var = new class_166(this, arrayList);
         class_166Var.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner.setAdapter((SpinnerAdapter) class_166Var);
+        spinner.setAdapter(class_166Var);
     }
-
 
     public void setupTeamAllyDropDown(Spinner spinner, boolean z) {
         ArrayList arrayList = new ArrayList();
@@ -144,19 +317,11 @@ public class MultiplayerBattleroomActivity extends class_1 {
             arrayList.add(new class_167("0", "auto", -1));
         }
         for (int i = 0; i <= 9; i++) {
-            arrayList.add(new class_167(new StringBuilder().append(i + 1).toString(), "Side " + class_324.method_467(i), Integer.valueOf(class_324.method_522(i))));
+            arrayList.add(new class_167(String.valueOf(i + 1), "Side " + class_324.method_467(i), Integer.valueOf(class_324.method_522(i))));
         }
         class_166 class_166Var = new class_166(this, arrayList);
         class_166Var.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner.setAdapter((SpinnerAdapter) class_166Var);
-    }
-
-    public static boolean isActivityVisible() {
-        MultiplayerBattleroomActivity multiplayerBattleroomActivity = lastLoaded;
-        if (multiplayerBattleroomActivity == null) {
-            return false;
-        }
-        return multiplayerBattleroomActivity.activityVisible;
+        spinner.setAdapter(class_166Var);
     }
 
     @Override
@@ -200,51 +365,51 @@ public class MultiplayerBattleroomActivity extends class_1 {
             setContentView(R.layout.multiplayer_battleroom);
             class_84.method_120(getWindow().getDecorView().findViewById(android.R.id.content));
             getWindow().setBackgroundDrawable(null);
-            this.mainScrollView = (ScrollView) findViewById(R.id.mainScrollView);
-            this.networkPlayerList = (ExpandedListView) findViewById(R.id.networkPlayerList);
+            this.mainScrollView = findViewById(R.id.mainScrollView);
+            this.networkPlayerList = findViewById(R.id.networkPlayerList);
             ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1);
             this.playersAdapter = arrayAdapter;
-            this.networkPlayerList.setAdapter((ListAdapter) arrayAdapter);
-            this.playerListTable = (TableLayout) findViewById(R.id.battleroom_playerTable);
+            this.networkPlayerList.setAdapter(arrayAdapter);
+            this.playerListTable = findViewById(R.id.battleroom_playerTable);
             updatePlayerList();
             this.onCreateFinished = false;
             lastLoaded = this;
-            this.status_info = (TextView) findViewById(R.id.battleroom_status_info);
-            ImageView imageView = (ImageView) findViewById(R.id.battleroom_thumbnail);
+            this.status_info = findViewById(R.id.battleroom_status_info);
+            ImageView imageView = findViewById(R.id.battleroom_thumbnail);
             this.mapThumbnail = imageView;
             imageView.setVisibility(8);
-            this.typeDropdown = (Spinner) findViewById(R.id.battleroom_type);
+            this.typeDropdown = findViewById(R.id.battleroom_type);
             ArrayAdapter arrayAdapter2 = new ArrayAdapter(this, android.R.layout.simple_spinner_item, class_1016.method_2840());
             arrayAdapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-            this.typeDropdown.setAdapter((SpinnerAdapter) arrayAdapter2);
+            this.typeDropdown.setAdapter(arrayAdapter2);
             this.typeDropdown.setSelection(class_1061VarMethod_3037.field_6352.field_5874.field_6012.ordinal());
             this.typeDropdown.setOnItemSelectedListener(new class_129(this));
-            this.mapDropdown = (Spinner) findViewById(R.id.battleroom_map);
+            this.mapDropdown = findViewById(R.id.battleroom_map);
             updateMapDropdown(true);
             this.mapDropdown.setOnItemSelectedListener(new class_145(this));
             setMapDropdownFromServer();
-            this.gameSummary = (TextView) findViewById(R.id.battleroom_game_summary);
-            this.mapLayout = (LinearLayout) findViewById(R.id.battleroom_mapLayout);
-            this.typeLayout = (LinearLayout) findViewById(R.id.battleroom_typeLayout);
-            this.chatLogWrap = (LinearLayout) findViewById(R.id.chatLogWrap);
-            this.changeTeam = (Button) findViewById(R.id.battleroom_changeTeam);
-            this.gameOptions = (Button) findViewById(R.id.battleroom_otherGameOptions);
-            this.addAI = (Button) findViewById(R.id.battleroom_addAI);
-            this.startNetButton = (Button) findViewById(R.id.battleroom_startNetButton);
-            this.startBluetoothButton = (Button) findViewById(R.id.battleroom_startBluetoothButton);
+            this.gameSummary = findViewById(R.id.battleroom_game_summary);
+            this.mapLayout = findViewById(R.id.battleroom_mapLayout);
+            this.typeLayout = findViewById(R.id.battleroom_typeLayout);
+            this.chatLogWrap = findViewById(R.id.chatLogWrap);
+            this.changeTeam = findViewById(R.id.battleroom_changeTeam);
+            this.gameOptions = findViewById(R.id.battleroom_otherGameOptions);
+            this.addAI = findViewById(R.id.battleroom_addAI);
+            this.startNetButton = findViewById(R.id.battleroom_startNetButton);
+            this.startBluetoothButton = findViewById(R.id.battleroom_startBluetoothButton);
             updateControlVisibility();
             this.startBluetoothButton.setOnClickListener(new class_156(this));
             this.changeTeam.setOnClickListener(new class_157(this));
             this.gameOptions.setOnClickListener(new class_158(this));
             this.addAI.setOnClickListener(new class_161(this));
             this.startNetButton.setOnClickListener(new class_162(this));
-            CheckBox checkBox = (CheckBox) findViewById(R.id.battleroom_ready);
+            CheckBox checkBox = findViewById(R.id.battleroom_ready);
             this.readyCheckbox = checkBox;
             checkBox.setOnCheckedChangeListener(new class_163(this));
-            TextView textView = (TextView) findViewById(R.id.chatLog);
+            TextView textView = findViewById(R.id.chatLog);
             this.chatLog = textView;
             textView.setText(Html.fromHtml(class_1061VarMethod_3037.field_6352.field_5878.method_2698()));
-            this.chatMessage = (EditText) findViewById(R.id.battleroom_text);
+            this.chatMessage = findViewById(R.id.battleroom_text);
             ((Button) findViewById(R.id.battleroom_send)).setOnClickListener(new class_164(this));
             this.chatMessage.setOnKeyListener(new class_130(this));
             refreshServerInfo();
@@ -319,7 +484,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
         }
         ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_spinner_item, arrayList);
         arrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        this.mapDropdown.setAdapter((SpinnerAdapter) arrayAdapter);
+        this.mapDropdown.setAdapter(arrayAdapter);
         if (z) {
             setMapDropdownFromServer();
         }
@@ -343,7 +508,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
                 mapDropdownSelected = "<No Map>";
             }
             if (class_1061VarMethod_3076.field_6352.field_5874.field_6013 == null || !class_1061VarMethod_3076.field_6352.field_5874.field_6013.equals(mapDropdownSelected)) {
-                class_1061.method_3043("Changing map to:".concat(String.valueOf(mapDropdownSelected)));
+                class_1061.method_3043("Changing map to:".concat(mapDropdownSelected));
             }
             class_1061VarMethod_3076.field_6352.field_5874.field_6013 = mapDropdownSelected;
             int selectedItemPosition = this.typeDropdown.getSelectedItemPosition();
@@ -370,22 +535,6 @@ public class MultiplayerBattleroomActivity extends class_1 {
             class_1061VarMethod_3076.field_6352.method_2816(string);
         }
         this.chatMessage.setText(VariableScope.nullOrMissingString);
-    }
-
-    public static void refreshChatLog() {
-        MultiplayerBattleroomActivity multiplayerBattleroomActivity = lastLoaded;
-        if (multiplayerBattleroomActivity != null) {
-            lastLoaded.uiHandler.post(new class_131(multiplayerBattleroomActivity));
-        }
-    }
-
-    public static void addMessageToChatLog(String str) {
-        MultiplayerBattleroomActivity multiplayerBattleroomActivity = lastLoaded;
-        if (multiplayerBattleroomActivity != null) {
-            Message messageObtainMessage = multiplayerBattleroomActivity.handler.obtainMessage();
-            messageObtainMessage.getData().putString("text", str);
-            multiplayerBattleroomActivity.handler.sendMessage(messageObtainMessage);
-        }
     }
 
     public void addMessageToChatLogInternal(String str) {
@@ -415,31 +564,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
         }
     }
 
-    public static void closeIfOpen(String str, String str2) {
-        MultiplayerBattleroomActivity multiplayerBattleroomActivity = lastLoaded;
-        if (multiplayerBattleroomActivity != null) {
-            lastLoaded.uiHandler.post(new class_133(multiplayerBattleroomActivity, str2));
-        }
-    }
-
-    public static void updateUI() {
-        class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
-        if (class_1061VarMethod_3076.field_6352 != null) {
-            class_1061VarMethod_3076.field_6352.method_2823();
-        }
-        if (!class_1061.field_6304) {
-            if (class_1061VarMethod_3076.field_6352 == null || !class_1061VarMethod_3076.field_6352.field_5898) {
-                MultiplayerBattleroomActivity multiplayerBattleroomActivity = lastLoaded;
-                if (multiplayerBattleroomActivity != null) {
-                    multiplayerBattleroomActivity.uiHandler.post(multiplayerBattleroomActivity.updateRunnable);
-                } else {
-                    class_1061.method_3031("MultiplayerBattleroomActivity:updateUI() lastLoaded==null");
-                }
-            }
-        }
-    }
-
-    private  void checkForDelayedAskPassword() {
+    private void checkForDelayedAskPassword() {
         synchronized (this) {
             class_1061 class_1061VarMethod_3037 = class_1061.method_3037(this);
             if (class_1061VarMethod_3037.field_6352.field_5849) {
@@ -449,7 +574,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
         }
     }
 
-    public  void updateControlVisibility() {
+    public void updateControlVisibility() {
         class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
         if (class_1061VarMethod_3076.field_6352.field_5851 || class_1061VarMethod_3076.field_6352.field_5856) {
             this.mapLayout.setVisibility(0);
@@ -500,7 +625,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
             return;
         }
         String lowerCase = class_899.method_2194(str).replaceAll("\\.tmx$", VariableScope.nullOrMissingString).replaceAll("\\\\", "/").toLowerCase();
-        class_1061.method_3043("Battleroom: setMapDropdownFromServer: ".concat(String.valueOf(lowerCase)));
+        class_1061.method_3043("Battleroom: setMapDropdownFromServer: ".concat(lowerCase));
         boolean z = false;
         int i = 0;
         while (true) {
@@ -511,7 +636,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
             if (lowerCase2 != null) {
                 lowerCase2 = class_899.method_2194(lowerCase2).replaceAll("\\.tmx$", VariableScope.nullOrMissingString).replaceAll("\\\\", "/").toLowerCase();
             }
-            if (!"/".concat(String.valueOf(lowerCase)).endsWith("/".concat(String.valueOf(lowerCase2)))) {
+            if (!"/".concat(lowerCase).endsWith("/".concat(String.valueOf(lowerCase2)))) {
                 i++;
             } else {
                 class_1061.method_3043("Found map in dropdown index:" + i + " map:" + lowerCase2);
@@ -521,7 +646,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
             }
         }
         if (!z) {
-            class_1061.method_3043("Could not find map in dropdown: ".concat(String.valueOf(lowerCase)));
+            class_1061.method_3043("Could not find map in dropdown: ".concat(lowerCase));
         }
     }
 
@@ -608,25 +733,25 @@ public class MultiplayerBattleroomActivity extends class_1 {
             Dialog dialog = new Dialog(this);
             dialog.setContentView(R.layout.multiplayer_battleroom_playerpopup);
             class_84.method_120(dialog.getWindow().getDecorView().findViewById(android.R.id.content));
-            dialog.setTitle("Player: ".concat(String.valueOf(str)));
+            dialog.setTitle("Player: ".concat(str));
             dialog.getWindow().setSoftInputMode(2);
-            Spinner spinner = (Spinner) dialog.findViewById(R.id.teamId);
-            Spinner spinner2 = (Spinner) dialog.findViewById(R.id.teamAllyGroup);
-            LinearLayout linearLayout = (LinearLayout) dialog.findViewById(R.id.teamAllyGroupWrap);
-            LinearLayout linearLayout2 = (LinearLayout) dialog.findViewById(R.id.aiDifficultyWrap);
-            LinearLayout linearLayout3 = (LinearLayout) dialog.findViewById(R.id.playerOverridesSection);
-            Spinner spinner3 = (Spinner) dialog.findViewById(R.id.aiDifficulty);
-            Spinner spinner4 = (Spinner) dialog.findViewById(R.id.startingUnits);
-            Spinner spinner5 = (Spinner) dialog.findViewById(R.id.playerColor);
+            Spinner spinner = dialog.findViewById(R.id.teamId);
+            Spinner spinner2 = dialog.findViewById(R.id.teamAllyGroup);
+            LinearLayout linearLayout = dialog.findViewById(R.id.teamAllyGroupWrap);
+            LinearLayout linearLayout2 = dialog.findViewById(R.id.aiDifficultyWrap);
+            LinearLayout linearLayout3 = dialog.findViewById(R.id.playerOverridesSection);
+            Spinner spinner3 = dialog.findViewById(R.id.aiDifficulty);
+            Spinner spinner4 = dialog.findViewById(R.id.startingUnits);
+            Spinner spinner5 = dialog.findViewById(R.id.playerColor);
             setupSpawnPositionDropDown(spinner, false);
             if (class_324Var.method_464()) {
                 class_166.method_154(spinner, "-3");
             } else {
-                class_166.method_154(spinner, new StringBuilder().append(class_324Var.field_1457).toString());
+                class_166.method_154(spinner, String.valueOf(class_324Var.field_1457));
             }
             setupTeamAllyDropDown(spinner2, true);
             if (class_324Var.field_1457 % 2 != class_324Var.field_1464) {
-                class_166.method_154(spinner2, new StringBuilder().append(class_324Var.field_1464 + 1).toString());
+                class_166.method_154(spinner2, String.valueOf(class_324Var.field_1464 + 1));
             } else {
                 class_166.method_154(spinner2, "0");
             }
@@ -634,19 +759,19 @@ public class MultiplayerBattleroomActivity extends class_1 {
             if (class_324Var.field_1398 == null) {
                 class_166.method_154(spinner3, "-99");
             } else {
-                class_166.method_154(spinner3, new StringBuilder().append(class_324Var.field_1398).toString());
+                class_166.method_154(spinner3, String.valueOf(class_324Var.field_1398));
             }
             setupStartingUnitsDropDown(spinner4, true);
             if (class_324Var.field_1399 == null) {
                 class_166.method_154(spinner4, "-99");
             } else {
-                class_166.method_154(spinner4, new StringBuilder().append(class_324Var.field_1399).toString());
+                class_166.method_154(spinner4, String.valueOf(class_324Var.field_1399));
             }
             setupPlayerColorDropDown(spinner5, true, true, class_324Var);
             if (class_324Var.field_1401 == null) {
                 class_166.method_154(spinner5, "-99");
             } else {
-                class_166.method_154(spinner5, new StringBuilder().append(class_324Var.field_1401).toString());
+                class_166.method_154(spinner5, String.valueOf(class_324Var.field_1401));
             }
             if (!class_1061VarMethod_3076.field_6352.field_5851) {
                 linearLayout3.setVisibility(8);
@@ -658,7 +783,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
             if (!class_1061VarMethod_3076.field_6352.method_2706() && class_1061VarMethod_3076.field_6352.field_5874.field_6025) {
                 linearLayout.setVisibility(8);
             }
-            Button button = (Button) dialog.findViewById(R.id.battleroom_playerpopup_give);
+            Button button = dialog.findViewById(R.id.battleroom_playerpopup_give);
             if (class_1061VarMethod_3076.field_6352.field_5856 && class_1061VarMethod_3076.field_6352.field_5848 != class_324Var) {
                 button.setVisibility(0);
             } else {
@@ -667,7 +792,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
             button.setOnClickListener(new class_135(this, dialog, str, class_324Var));
             ((Button) dialog.findViewById(R.id.battleroom_playerpopup_cancel)).setOnClickListener(new class_139(this, dialog));
             ((Button) dialog.findViewById(R.id.battleroom_playerpopup_apply)).setOnClickListener(new class_140(this, spinner3, class_324Var, spinner4, spinner5, spinner, spinner2, dialog));
-            Button button2 = (Button) dialog.findViewById(R.id.battleroom_playerpopup_kick);
+            Button button2 = dialog.findViewById(R.id.battleroom_playerpopup_kick);
             if (class_1061VarMethod_3076.field_6352.field_5848 == class_324Var) {
                 button2.setVisibility(8);
             } else {
@@ -755,151 +880,26 @@ public class MultiplayerBattleroomActivity extends class_1 {
         }
     }
 
-    public static void startGame() {
-        MultiplayerBattleroomActivity multiplayerBattleroomActivity = lastLoaded;
-        if (multiplayerBattleroomActivity != null) {
-            multiplayerBattleroomActivity.uiHandler.post(multiplayerBattleroomActivity.startGameRunnable);
-            missedStartGame = false;
-        } else {
-            class_1061.method_3031("MultiplayerBattleroomActivity:startGame() lastLoaded==null");
-            class_1061.method_2969();
-            missedStartGame = true;
-        }
-    }
-
-    public static void warnIfTeamsUneven() {
-        class_168 class_168Var = new class_168("Starting unit count");
-        class_168 class_168Var2 = new class_168("Total unit HP");
-        class_168 class_168Var3 = new class_168("Team Credits");
-        for (Object teamObj : class_324.method_499()) {
-            class_324 class_324Var = (class_324) teamObj;
-            class_426[] class_426VarArr = class_426.field_1908.field_7339;
-            int size = class_426.field_1908.size();
-            int i = 0;
-            int i2 = 0;
-            for (int i3 = 0; i3 < size; i3++) {
-                class_426 class_426Var = class_426VarArr[i3];
-                if (class_426Var.field_1927 == class_324Var) {
-                    i++;
-                    i2 = (int) (i2 + class_426Var.field_1983);
-                }
-            }
-            if (i != 0) {
-                class_168Var.method_157(class_324Var, i);
-                class_168Var2.method_157(class_324Var, i2);
-                class_168Var3.method_157(class_324Var, (int) class_324Var.field_1461);
-            }
-        }
-        if (!class_168Var.method_156()) {
-            class_168Var2.method_156();
-        }
-        class_168Var3.method_156();
-    }
-
-    public static void startGameCommon() {
-        class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
-        class_1061VarMethod_3076.field_6471 = null;
-        if (class_1061VarMethod_3076.field_6352.field_5874.field_6012 == class_1016.field_6031) {
-            if (!class_1061VarMethod_3076.field_6352.field_5851) {
-                class_1061VarMethod_3076.field_6355.method_1780(class_1061VarMethod_3076.field_6352.field_5876, true, false);
-                class_1061VarMethod_3076.field_6347.field_5600.method_2596(null, "Note: Game was started from a saved game.");
-            } else {
-                class_1061VarMethod_3076.field_6355.method_1787(class_1061VarMethod_3076.field_6352.field_5874.field_6013, true);
-            }
-            warnIfTeamsUneven();
-            return;
-        }
-        if (class_1061VarMethod_3076.field_6352.field_5874.field_6012 == class_1016.field_6030) {
-            if (!class_1061VarMethod_3076.field_6352.field_5851) {
-                class_1061VarMethod_3076.field_6470 = VariableScope.nullOrMissingString;
-                class_1061VarMethod_3076.field_6471 = class_1061VarMethod_3076.field_6352.field_5877;
-                class_1061VarMethod_3076.method_3013(true, class_768.field_4200);
-                class_1061VarMethod_3076.field_6347.field_5600.method_2596(null, "Note: Game was started from a custom map on server.");
-            } else {
-                class_1061VarMethod_3076.field_6470 = class_1061VarMethod_3076.field_6352.field_5875;
-                class_1061VarMethod_3076.method_3013(true, class_768.field_4200);
-            }
-            warnIfTeamsUneven();
-            return;
-        }
-        class_1061VarMethod_3076.field_6470 = class_1061VarMethod_3076.field_6352.field_5875;
-        class_1061VarMethod_3076.method_3013(true, class_768.field_4200);
-    }
-
     @Override
     public void onBackPressed() {
         if (class_1061.method_3076().field_6352.field_5854) {
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setIcon(android.R.drawable.ic_dialog_info);
-            builder.setTitle(class_988.method_2636("menus.ingame.multiplayerClose.title", new Object[0]));
+            builder.setTitle(class_988.method_2636("menus.ingame.multiplayerClose.title"));
             builder.setMessage("What would you like to do?");
-            builder.setPositiveButton(class_988.method_2636("menus.ingame.exitGame", new Object[0]), new class_147(this));
-            builder.setNegativeButton(class_988.method_2636("menus.ingame.multiplayerClose.stayButton", new Object[0]), new class_148(this));
+            builder.setPositiveButton(class_988.method_2636("menus.ingame.exitGame"), new class_147(this));
+            builder.setNegativeButton(class_988.method_2636("menus.ingame.multiplayerClose.stayButton"), new class_148(this));
             builder.show();
             return;
         }
         AlertDialog.Builder builder2 = new AlertDialog.Builder(this);
         builder2.setIcon(android.R.drawable.ic_dialog_info);
-        builder2.setTitle(class_988.method_2636("menus.ingame.multiplayerClose.title", new Object[0]));
-        builder2.setMessage(class_988.method_2636("menus.ingame.multiplayerClose.message", new Object[0]));
-        builder2.setPositiveButton(class_988.method_2636("menus.ingame.multiplayerClose.disconnectButton", new Object[0]), new class_149(this));
-        builder2.setNeutralButton(class_988.method_2636("menus.ingame.multiplayerClose.minimizeButton", new Object[0]), new class_150(this));
-        builder2.setNegativeButton(class_988.method_2636("menus.ingame.multiplayerClose.stayButton", new Object[0]), new class_151(this));
+        builder2.setTitle(class_988.method_2636("menus.ingame.multiplayerClose.title"));
+        builder2.setMessage(class_988.method_2636("menus.ingame.multiplayerClose.message"));
+        builder2.setPositiveButton(class_988.method_2636("menus.ingame.multiplayerClose.disconnectButton"), new class_149(this));
+        builder2.setNeutralButton(class_988.method_2636("menus.ingame.multiplayerClose.minimizeButton"), new class_150(this));
+        builder2.setNegativeButton(class_988.method_2636("menus.ingame.multiplayerClose.stayButton"), new class_151(this));
         builder2.show();
-    }
-
-    public static void reshowAskPassword() {
-        class_1011 class_1011Var = currentAskPasswordCallBack;
-        if (class_1011Var == null) {
-            return;
-        }
-        Context context = class_1061.method_3076().field_6316;
-        AlertDialog alertDialog = currentAskPasswordAlert;
-        if (alertDialog != null && alertDialog.getContext() == context) {
-            class_1061.method_3043("reshowAskPassword: skipping, same context");
-        } else {
-            askPasswordInternal(class_1011Var);
-        }
-    }
-
-    public static void askPasswordInternal(class_1011 class_1011Var) {
-        String str;
-        String strMethod_2638;
-        AlertDialog.Builder builder = new AlertDialog.Builder(class_1061.method_3076().field_6316);
-        if (class_1011Var.field_6001 == null) {
-            str = "Password Required";
-            strMethod_2638 = "This server requires a password to join";
-        } else {
-            strMethod_2638 = class_988.method_2638(class_1011Var.field_6001);
-            str = "Server Question";
-        }
-        if (class_1011Var.field_6004 != null) {
-            str = class_1011Var.field_6004;
-        }
-        builder.setTitle(str);
-        builder.setMessage(strMethod_2638);
-        EditText editText = new EditText(builder.getContext());
-        builder.setView(editText);
-        if (class_1011Var.field_6001 != null) {
-            editText.setHint("Enter text...");
-        } else {
-            editText.setHint("Enter password...");
-        }
-        builder.setPositiveButton(class_1011Var.field_6005 != null ? class_1011Var.field_6005 : "Submit", new class_152(editText, class_1011Var));
-        builder.setNegativeButton(class_1011Var.field_6006 != null ? class_1011Var.field_6006 : "Disconnect", new class_153(class_1011Var));
-        builder.setOnCancelListener(new class_154(class_1011Var));
-        AlertDialog alertDialog = currentAskPasswordAlert;
-        if (alertDialog != null) {
-            try {
-                alertDialog.dismiss();
-            } catch (IllegalArgumentException e) {
-                e.printStackTrace();
-            }
-        }
-        AlertDialog alertDialogShow = builder.show();
-        currentAskPasswordCallBack = class_1011Var;
-        currentAskPasswordAlert = alertDialogShow;
-        editText.requestFocus();
     }
 
     public void startBluetoothServerSetup() {
@@ -924,7 +924,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
     }
 
     public void startBluetoothServerReady() {
-        class_1061.method_3076().method_3056(class_988.method_2636("menus.battleroom.message.bluetoothReady", new Object[0]));
+        class_1061.method_3076().method_3056(class_988.method_2636("menus.battleroom.message.bluetoothReady"));
         class_1061.method_3043("bluetooth: startBluetoothServerReady");
     }
 
@@ -960,7 +960,7 @@ public class MultiplayerBattleroomActivity extends class_1 {
         class_1061.method_3076();
         ArrayList arrayList = new ArrayList();
         if (z) {
-            arrayList.add(new class_167("-99", class_988.method_2636("menus.settings.option.default", new Object[0]), null));
+            arrayList.add(new class_167("-99", class_988.method_2636("menus.settings.option.default"), null));
         }
         for (Object numObj : class_1001.method_2783()) {
             Integer num = (Integer) numObj;
@@ -968,19 +968,19 @@ public class MultiplayerBattleroomActivity extends class_1 {
         }
         class_166 class_166Var = new class_166(this, arrayList);
         class_166Var.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner.setAdapter((SpinnerAdapter) class_166Var);
+        spinner.setAdapter(class_166Var);
     }
 
     public void setupAIDifficultyDropDown(Spinner spinner, boolean z) {
         ArrayList arrayList = new ArrayList();
         if (z) {
-            arrayList.add(new class_167("-99", class_988.method_2636("menus.settings.option.default", new Object[0]), null));
+            arrayList.add(new class_167("-99", class_988.method_2636("menus.settings.option.default"), null));
         }
         for (int i = -2; i <= 3; i++) {
-            arrayList.add(new class_167(String.valueOf(i), class_988.method_2636("menus.settings.option.ai.".concat(String.valueOf(i)), new Object[0]), null));
+            arrayList.add(new class_167(String.valueOf(i), class_988.method_2636("menus.settings.option.ai.".concat(String.valueOf(i))), null));
         }
         class_166 class_166Var = new class_166(this, arrayList);
         class_166Var.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner.setAdapter((SpinnerAdapter) class_166Var);
+        spinner.setAdapter(class_166Var);
     }
 }

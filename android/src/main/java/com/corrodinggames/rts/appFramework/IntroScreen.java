@@ -4,9 +4,11 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+
 import com.corrodinggames.rts.R;
 import com.corrodinggames.rts.appFramework.android.AndroidSAF;
 import com.corrodinggames.rts.gameFramework.class_1061;
+
 import java.util.Timer;
 
 public class IntroScreen extends Activity {

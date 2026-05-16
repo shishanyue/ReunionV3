@@ -8,6 +8,7 @@ import android.widget.Gallery;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.SpinnerAdapter;
+
 import com.corrodinggames.rts.R;
 import com.corrodinggames.rts.gameFramework.SettingsEngine;
 
@@ -65,13 +66,13 @@ public class QuickHelpActivity extends Activity {
                     i++;
                 } else {
                     setup();
-                    Gallery gallery = (Gallery) findViewById(R.id.quickhelp_gallery);
+                    Gallery gallery = findViewById(R.id.quickhelp_gallery);
                     this.gallery = gallery;
-                    gallery.setAdapter((SpinnerAdapter) new class_196(this, this));
-                    ImageView imageView = (ImageView) findViewById(R.id.quickhelp_image);
+                    gallery.setAdapter(new class_196(this, this));
+                    ImageView imageView = findViewById(R.id.quickhelp_image);
                     this.imageView = imageView;
                     imageView.setScaleType(ImageView.ScaleType.FIT_XY);
-                    this.outerlayout = (LinearLayout) findViewById(R.id.quickhelp_outerlayout);
+                    this.outerlayout = findViewById(R.id.quickhelp_outerlayout);
                     this.lockTouchTill = System.currentTimeMillis() + 500;
                     this.imageView.setOnClickListener(new class_194(this));
                     this.gallery.setOnItemClickListener(new class_195(this));
@@ -91,7 +92,7 @@ public class QuickHelpActivity extends Activity {
         if (((int) (bitmap.getHeight() * (f / bitmap.getWidth()))) < height) {
             height = (int) (f * (bitmap.getHeight() / bitmap.getWidth()));
         } else {
-            width = (int) ((bitmap.getWidth() / bitmap.getHeight()) * height);
+            width = (bitmap.getWidth() / bitmap.getHeight()) * height;
         }
         LinearLayout.LayoutParams layoutParams = (LinearLayout.LayoutParams) this.imageView.getLayoutParams();
         layoutParams.width = width;

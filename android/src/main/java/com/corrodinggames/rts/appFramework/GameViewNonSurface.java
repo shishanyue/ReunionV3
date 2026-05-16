@@ -137,7 +137,7 @@ public class GameViewNonSurface extends View implements class_5, class_126 {
         class_1061.method_3037(context);
     }
 
-    public void finalize() throws Throwable {
+    protected void finalize() throws Throwable {
         Log.e(AndroidSAF.TAG, "GameView:finalize()");
         super.finalize();
     }

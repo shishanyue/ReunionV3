@@ -2,6 +2,7 @@ package com.corrodinggames.rts.appFramework;
 
 import android.app.Activity;
 import android.os.Bundle;
+
 import com.corrodinggames.rts.gameFramework.class_1061;
 
 public class ClosingActivity extends Activity {

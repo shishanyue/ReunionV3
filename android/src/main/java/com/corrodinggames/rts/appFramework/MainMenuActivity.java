@@ -10,6 +10,7 @@ import android.util.Log;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import com.corrodinggames.rts.R;
 import com.corrodinggames.rts.appFramework.android.AndroidSAF;
 import com.corrodinggames.rts.game.units.custom.logicBooleans.VariableScope;
@@ -17,10 +18,55 @@ import com.corrodinggames.rts.gameFramework.SettingsEngine;
 import com.corrodinggames.rts.gameFramework.class_1061;
 import com.corrodinggames.rts.gameFramework.h.class_988;
 import com.corrodinggames.rts.gameFramework.i.class_991;
+
 import java.lang.reflect.Method;
 
 public class MainMenuActivity extends class_1 {
     public class_5 gameView;
+
+    public static boolean showUpdateMessagePopup(Context context, boolean z) {
+        String str = class_243.field_589;
+        if (str == null) {
+            return false;
+        }
+        int i = class_243.field_588;
+        boolean z2 = class_243.field_587;
+        SettingsEngine settingsEngine = SettingsEngine.getInstance(context);
+        class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
+        if (class_1061VarMethod_3076 == null) {
+            class_1061.method_3031("showUpdateMessagePopup: game==null");
+            return false;
+        }
+        boolean z3 = i == -1 || i != settingsEngine.lastSeenMessageId;
+        if (class_1061VarMethod_3076.field_6321 && settingsEngine.lastSeenMessageId == -1) {
+            z3 = false;
+        }
+        if (z) {
+            z3 = true;
+        }
+        settingsEngine.lastSeenMessageId = i;
+        if (!z3) {
+            return false;
+        }
+        String str2 = settingsEngine.lastSeenMessageIds;
+        if (str2 == null) {
+            str2 = VariableScope.nullOrMissingString;
+        }
+        if (str2.contains(",".concat(String.valueOf(i)))) {
+            return false;
+        }
+        if (str2.length() > 100) {
+            str2 = VariableScope.nullOrMissingString;
+        }
+        settingsEngine.lastSeenMessageIds = str2 + "," + i;
+        settingsEngine.save();
+        if (!z2) {
+            Toast.makeText(context, str, 1).show();
+        } else {
+            new AlertDialog.Builder(context).setIcon(android.R.drawable.ic_dialog_alert).setTitle(VariableScope.nullOrMissingString).setMessage(str).setPositiveButton("Ok", new class_97()).show();
+        }
+        return true;
+    }
 
     @Override
     public void finish() {
@@ -73,18 +119,14 @@ public class MainMenuActivity extends class_1 {
     public void setup() {
         boolean z;
         class_1061 class_1061VarMethod_3037 = class_1061.method_3037(this);
-        Button button = (Button) findViewById(R.id.startgameButton);
-        if (class_1061VarMethod_3037 != null && class_1061VarMethod_3037.field_6334 && !class_1061VarMethod_3037.field_6335) {
-            z = true;
-        } else {
-            z = false;
-        }
+        Button button = findViewById(R.id.startgameButton);
+        z = class_1061VarMethod_3037 != null && class_1061VarMethod_3037.field_6334 && !class_1061VarMethod_3037.field_6335;
         if (z) {
             button.setVisibility(0);
         } else {
             button.setVisibility(8);
         }
-        Button button2 = (Button) findViewById(R.id.buyButton);
+        Button button2 = findViewById(R.id.buyButton);
         if (!class_1061VarMethod_3037.field_6321) {
             button2.setVisibility(8);
         }
@@ -96,14 +138,14 @@ public class MainMenuActivity extends class_1 {
     }
 
     public void setButtonText() {
-        ((Button) findViewById(R.id.buyButton)).setText(class_988.method_2636("menus.front.buyNow", new Object[0]));
-        ((Button) findViewById(R.id.startgameButton)).setText(class_988.method_2636("menus.front.continue", new Object[0]));
-        ((Button) findViewById(R.id.menuCustomButton)).setText(class_988.method_2636("menus.front.singlePlayer", new Object[0]));
-        ((Button) findViewById(R.id.multiplayerButton)).setText(class_988.method_2636("menus.front.multiplayer", new Object[0]));
-        ((Button) findViewById(R.id.settingsButton)).setText(class_988.method_2636("menus.front.settings", new Object[0]));
-        ((Button) findViewById(R.id.helpButton)).setText(class_988.method_2636("menus.front.help", new Object[0]));
-        ((Button) findViewById(R.id.modsButton)).setText(class_988.method_2636("menus.front.mods", new Object[0]));
-        ((Button) findViewById(R.id.exitgameButton)).setText(class_988.method_2636("menus.front.exit", new Object[0]));
+        ((Button) findViewById(R.id.buyButton)).setText(class_988.method_2636("menus.front.buyNow"));
+        ((Button) findViewById(R.id.startgameButton)).setText(class_988.method_2636("menus.front.continue"));
+        ((Button) findViewById(R.id.menuCustomButton)).setText(class_988.method_2636("menus.front.singlePlayer"));
+        ((Button) findViewById(R.id.multiplayerButton)).setText(class_988.method_2636("menus.front.multiplayer"));
+        ((Button) findViewById(R.id.settingsButton)).setText(class_988.method_2636("menus.front.settings"));
+        ((Button) findViewById(R.id.helpButton)).setText(class_988.method_2636("menus.front.help"));
+        ((Button) findViewById(R.id.modsButton)).setText(class_988.method_2636("menus.front.mods"));
+        ((Button) findViewById(R.id.exitgameButton)).setText(class_988.method_2636("menus.front.exit"));
     }
 
     @Override
@@ -113,7 +155,7 @@ public class MainMenuActivity extends class_1 {
             Method method = IntroScreen.class.getMethod("overridePendingTransition", Integer.TYPE, Integer.TYPE);
             if (method != null) {
                 try {
-                    method.invoke(this, Integer.valueOf(R.anim.mainfadein), Integer.valueOf(R.anim.splashfadeout));
+                    method.invoke(this, R.anim.mainfadein, R.anim.splashfadeout);
                     Log.e(AndroidSAF.TAG, "overridePendingTransition done");
                 } catch (Exception e) {
                     Log.e(AndroidSAF.TAG, "overridePendingTransition invoke:", e);
@@ -128,14 +170,14 @@ public class MainMenuActivity extends class_1 {
             setup();
             class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
             setButtonText();
-            Button button = (Button) findViewById(R.id.buyButton);
+            Button button = findViewById(R.id.buyButton);
             button.getBackground().setColorFilter(new LightingColorFilter(-1, -13434880));
             button.setOnClickListener(new class_76(this));
             ((Button) findViewById(R.id.startgameButton)).setOnClickListener(new class_82(this));
             ((Button) findViewById(R.id.menuCustomButton)).setOnClickListener(new class_83(this));
             ((Button) findViewById(R.id.multiplayerButton)).setOnClickListener(new class_88(this));
             ((Button) findViewById(R.id.helpButton)).setOnClickListener(new class_93(this));
-            Button button2 = (Button) findViewById(R.id.modsButton);
+            Button button2 = findViewById(R.id.modsButton);
             if (class_1061VarMethod_3076.field_6321) {
                 button2.setVisibility(8);
             } else {
@@ -154,67 +196,19 @@ public class MainMenuActivity extends class_1 {
         }
     }
 
-    public static boolean showUpdateMessagePopup(Context context, boolean z) {
-        String str = class_243.field_589;
-        if (str == null) {
-            return false;
-        }
-        int i = class_243.field_588;
-        boolean z2 = class_243.field_587;
-        SettingsEngine settingsEngine = SettingsEngine.getInstance(context);
-        class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
-        if (class_1061VarMethod_3076 == null) {
-            class_1061.method_3031("showUpdateMessagePopup: game==null");
-            return false;
-        }
-        boolean z3 = i == -1 || i != settingsEngine.lastSeenMessageId;
-        if (class_1061VarMethod_3076.field_6321 && settingsEngine.lastSeenMessageId == -1) {
-            z3 = false;
-        }
-        if (z) {
-            z3 = true;
-        }
-        settingsEngine.lastSeenMessageId = i;
-        if (!z3) {
-            return false;
-        }
-        String str2 = settingsEngine.lastSeenMessageIds;
-        if (str2 == null) {
-            str2 = VariableScope.nullOrMissingString;
-        }
-        if (str2.contains(",".concat(String.valueOf(i)))) {
-            return false;
-        }
-        if (str2.length() > 100) {
-            str2 = VariableScope.nullOrMissingString;
-        }
-        settingsEngine.lastSeenMessageIds = str2 + "," + i;
-        settingsEngine.save();
-        if (!z2) {
-            Toast.makeText(context, str, 1).show();
-        } else {
-            new AlertDialog.Builder(context).setIcon(android.R.drawable.ic_dialog_alert).setTitle(VariableScope.nullOrMissingString).setMessage(str).setPositiveButton("Ok", new class_97()).show();
-        }
-        return true;
-    }
-
     public void resumeMultiplayer() {
         class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
         if (class_1061VarMethod_3076.field_6352 != null && !class_1061VarMethod_3076.field_6352.field_5898) {
-            startActivityForResult(new Intent(getApplicationContext(), (Class<?>) MultiplayerBattleroomActivity.class), 0);
+            startActivityForResult(new Intent(getApplicationContext(), MultiplayerBattleroomActivity.class), 0);
         } else {
-            startActivityForResult(new Intent(getApplicationContext(), (Class<?>) InGameActivity.class), 0);
+            startActivityForResult(new Intent(getApplicationContext(), InGameActivity.class), 0);
         }
     }
 
     public void warnAboutBugs() {
         boolean z;
         if (!SettingsEngine.getInstance(this).shownAudioWarning) {
-            if (!Build.MODEL.toUpperCase().contains("GT-I9100")) {
-                z = false;
-            } else {
-                z = true;
-            }
+            z = Build.MODEL.toUpperCase().contains("GT-I9100");
             if (z) {
                 new AlertDialog.Builder(this).setIcon(android.R.drawable.ic_dialog_alert).setTitle("Bugs in Samsung Galaxy S2's audio may cause crashes and freezes.").setMessage("Would you like to disable sound?").setPositiveButton("Disable sound", new class_79(this)).setNeutralButton("Remind me", new class_78(this)).setNegativeButton("Risk it", new class_77(this)).show();
             }

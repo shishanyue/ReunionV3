@@ -1,6 +1,7 @@
 package com.corrodinggames.rts.appFramework;
 
 import android.util.Log;
+
 import javax.microedition.khronos.egl.EGL10;
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.egl.EGLContext;
@@ -8,7 +9,7 @@ import javax.microedition.khronos.egl.EGLDisplay;
 
 public class class_251 implements class_254 {
     final GLSurfaceViewShared field_609;
-    private int field_610;
+    private final int field_610;
 
     public class_251(GLSurfaceViewShared var1) {
         this.field_609 = var1;

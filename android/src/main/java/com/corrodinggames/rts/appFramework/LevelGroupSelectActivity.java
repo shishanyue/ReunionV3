@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
+
 import com.corrodinggames.rts.R;
 import com.corrodinggames.rts.gameFramework.class_1061;
 import com.corrodinggames.rts.gameFramework.h.class_988;
@@ -69,16 +70,16 @@ public class LevelGroupSelectActivity extends class_1 {
     public void setup() {
         class_1061.method_3037(this);
         findViewById(R.id.levelButtonBack).setOnClickListener(new class_39(this));
-        LinearLayout linearLayout = (LinearLayout) findViewById(R.id.levelHolder);
+        LinearLayout linearLayout = findViewById(R.id.levelHolder);
         linearLayout.removeAllViews();
-        onCreateMode(linearLayout, class_988.method_2636("menus.singlePlayer.campaign", new Object[0]), "maps/normal", true);
-        onCreateMode(linearLayout, class_988.method_2636("menus.singlePlayer.skirmish", new Object[0]), skirmishLevelsDir, true);
-        onCreateMode(linearLayout, class_988.method_2636("menus.singlePlayer.challenge", new Object[0]), "maps/challenge", false);
-        onCreateMode(linearLayout, class_988.method_2636("menus.singlePlayer.survival", new Object[0]), "maps/survival", false);
-        onCreateMode(linearLayout, class_988.method_2636("menus.singlePlayer.sandbox", new Object[0]), (View.OnClickListener) new class_40(this), false);
-        onCreateMode(linearLayout, class_988.method_2636("menus.singlePlayer.custom", new Object[0]), customLevelsDir, false);
-        onCreateMode(linearLayout, class_988.method_2636("menus.singlePlayer.loadSave", new Object[0]), (View.OnClickListener) new class_41(this), true);
-        ((TextView) findViewById(R.id.LevelTextTop)).setText(class_988.method_2636("menus.singlePlayer.title", new Object[0]));
+        onCreateMode(linearLayout, class_988.method_2636("menus.singlePlayer.campaign"), "maps/normal", true);
+        onCreateMode(linearLayout, class_988.method_2636("menus.singlePlayer.skirmish"), skirmishLevelsDir, true);
+        onCreateMode(linearLayout, class_988.method_2636("menus.singlePlayer.challenge"), "maps/challenge", false);
+        onCreateMode(linearLayout, class_988.method_2636("menus.singlePlayer.survival"), "maps/survival", false);
+        onCreateMode(linearLayout, class_988.method_2636("menus.singlePlayer.sandbox"), (View.OnClickListener) new class_40(this), false);
+        onCreateMode(linearLayout, class_988.method_2636("menus.singlePlayer.custom"), customLevelsDir, false);
+        onCreateMode(linearLayout, class_988.method_2636("menus.singlePlayer.loadSave"), (View.OnClickListener) new class_41(this), true);
+        ((TextView) findViewById(R.id.LevelTextTop)).setText(class_988.method_2636("menus.singlePlayer.title"));
     }
 
     public void onCreateMode(LinearLayout linearLayout, String str, String str2, boolean z) {
@@ -115,7 +116,7 @@ public class LevelGroupSelectActivity extends class_1 {
         setTitle("Mode");
         if (class_84.method_127(this, true)) {
             setContentView(R.layout.level_select);
-            ((Spinner) findViewById(R.id.aiDifficulty)).setVisibility(8);
+            findViewById(R.id.aiDifficulty).setVisibility(8);
             this.gameView = class_84.method_125(this);
             setup();
         }
@@ -129,6 +130,6 @@ public class LevelGroupSelectActivity extends class_1 {
         class_1061VarMethod_3076.field_6352.field_5975 = true;
         class_1061VarMethod_3076.field_6352.method_2826();
         class_1061.method_3043("started startSinglePlayerServer (sandbox)");
-        startActivityForResult(new Intent(getApplicationContext(), (Class<?>) MultiplayerBattleroomActivity.class), 0);
+        startActivityForResult(new Intent(getApplicationContext(), MultiplayerBattleroomActivity.class), 0);
     }
 }

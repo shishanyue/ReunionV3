@@ -3,8 +3,10 @@ package com.corrodinggames.rts.appFramework;
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.Button;
+
 import com.corrodinggames.rts.R;
 import com.corrodinggames.rts.gameFramework.SettingsEngine;
+
 import java.util.ArrayList;
 
 public class SettingsKeysActivity extends Activity {
@@ -40,27 +42,27 @@ public class SettingsKeysActivity extends Activity {
             this.settings = SettingsEngine.getInstance(getBaseContext());
             this.buttons = new ArrayList();
             class_239 class_239Var = new class_239(this);
-            class_239Var.field_579 = (Button) findViewById(R.id.settingsKAction);
+            class_239Var.field_579 = findViewById(R.id.settingsKAction);
             class_239Var.field_580 = "Action";
             class_239Var.field_581 = this.settings.keyAction;
             this.buttons.add(class_239Var);
             class_239 class_239Var2 = new class_239(this);
-            class_239Var2.field_579 = (Button) findViewById(R.id.settingsKJump);
+            class_239Var2.field_579 = findViewById(R.id.settingsKJump);
             class_239Var2.field_580 = "Jump";
             class_239Var2.field_581 = this.settings.keyJump;
             this.buttons.add(class_239Var2);
             class_239 class_239Var3 = new class_239(this);
-            class_239Var3.field_579 = (Button) findViewById(R.id.settingsKLeft);
+            class_239Var3.field_579 = findViewById(R.id.settingsKLeft);
             class_239Var3.field_580 = "Left";
             class_239Var3.field_581 = this.settings.keyLeft;
             this.buttons.add(class_239Var3);
             class_239 class_239Var4 = new class_239(this);
-            class_239Var4.field_579 = (Button) findViewById(R.id.settingsKRight);
+            class_239Var4.field_579 = findViewById(R.id.settingsKRight);
             class_239Var4.field_580 = "Right";
             class_239Var4.field_581 = this.settings.keyRight;
             this.buttons.add(class_239Var4);
             class_239 class_239Var5 = new class_239(this);
-            class_239Var5.field_579 = (Button) findViewById(R.id.settingsKDown);
+            class_239Var5.field_579 = findViewById(R.id.settingsKDown);
             class_239Var5.field_580 = "Down";
             class_239Var5.field_581 = this.settings.keyDown;
             this.buttons.add(class_239Var5);

@@ -18,6 +18,7 @@ import android.widget.ListAdapter;
 import android.widget.ScrollView;
 import android.widget.TableLayout;
 import android.widget.TextView;
+
 import com.corrodinggames.rts.R;
 import com.corrodinggames.rts.game.units.custom.logicBooleans.VariableScope;
 import com.corrodinggames.rts.gameFramework.class_1061;
@@ -27,6 +28,7 @@ import com.corrodinggames.rts.gameFramework.j.class_1001;
 import com.corrodinggames.rts.gameFramework.j.class_1040;
 import com.corrodinggames.rts.gameFramework.j.class_1047;
 import com.corrodinggames.rts.gameFramework.utility.class_1323;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
@@ -35,8 +37,9 @@ public class MultiplayerLobbyActivity extends class_1 {
     public static final int LOADING_DIALOG = 0;
     public static final int REQUEST_ENABLE_BT_CLIENT = 2;
     public static final int REQUEST_ENABLE_BT_SERVER = 1;
-    public static MultiplayerLobbyActivity lastLoaded = null;
     public static final String normalServerCell = "nsc";
+    public static MultiplayerLobbyActivity lastLoaded = null;
+    public final Handler uiHandler = new Handler();
     public ExpandedListView foundServersList;
     public TableLayout gameListTable;
     public Button joinBluetoothButton;
@@ -49,121 +52,10 @@ public class MultiplayerLobbyActivity extends class_1 {
     public boolean showLimitedRows;
     public String textRefreshButton;
     public String textRefreshingButton;
-    public final Handler uiHandler = new Handler();
     public class_1323 activityRecycledTextViews = new class_1323();
     public Handler handler = new class_170(this);
     public Runnable refreshListCallback = new class_180(this);
     public Runnable refreshServerListRunnable = new class_174(this);
-
-    public void addDebugText(String str) {
-        Message messageObtainMessage = this.handler.obtainMessage();
-        messageObtainMessage.getData().putString("text", str);
-        this.handler.sendMessage(messageObtainMessage);
-    }
-
-    public void addDebugTextInternal(String str) {
-    }
-
-    @Override
-    public void onPause() {
-        super.onPause();
-    }
-
-    @Override
-    public void onResume() {
-        class_1061 class_1061VarMethod_3037 = class_1061.method_3037(this);
-        if (class_1061VarMethod_3037 != null) {
-            class_1061VarMethod_3037.method_2995(this);
-        }
-        if (class_1061VarMethod_3037.method_2963()) {
-            finish();
-        }
-        class_1047.method_2936(this.refreshListCallback);
-        class_84.method_115(this, false);
-        super.onResume();
-    }
-
-    @Override
-    public void onCreate(Bundle bundle) {
-        super.onCreate(bundle);
-        if (class_84.method_127(this, false)) {
-            class_1061 class_1061VarMethod_3037 = class_1061.method_3037(this);
-            setContentView(R.layout.multiplayer_lobby);
-            class_84.method_120(getWindow().getDecorView().findViewById(android.R.id.content));
-            this.textRefreshButton = class_988.method_2636("menus.lobby.button.refresh", new Object[0]);
-            this.textRefreshingButton = class_988.method_2636("menus.lobby.button.refreshing", new Object[0]);
-            getWindow().setBackgroundDrawable(null);
-            for (int i = 0; i < 10; i++) {
-                for (int i2 = 0; i2 < 6; i2++) {
-                    this.activityRecycledTextViews.add(getCellTextView(this, null));
-                }
-            }
-            if (class_1061VarMethod_3037.field_6345.saveMultiplayerReplays && !class_84.method_129(this)) {
-                new AlertDialog.Builder(this).setIcon(android.R.drawable.ic_dialog_alert).setTitle("Cannot enable replays").setMessage("You have requested replays but file write permission is required to save them. Do you want to enable it now?").setPositiveButton("Ok", new class_181(this)).setNegativeButton("No", new class_182(this)).show();
-            }
-            this.foundServersList = (ExpandedListView) findViewById(R.id.foundServersList);
-            ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, new ArrayList());
-            this.lanServersAdapter = arrayAdapter;
-            this.foundServersList.setAdapter((ListAdapter) arrayAdapter);
-            this.foundServersList.setOnItemClickListener(new class_183(this));
-            this.joinBluetoothButton = (Button) findViewById(R.id.battleroom_joinBluetoothButton);
-            if (!class_1001.field_5899) {
-                this.joinBluetoothButton.setVisibility(8);
-            }
-            this.joinBluetoothButton.setOnClickListener(new class_184(this));
-            refreshServerList();
-            class_1001.method_2788("network: load lobby");
-            this.networkPlayerName = (EditText) findViewById(R.id.networkPlayerName);
-            if (class_1061VarMethod_3037.field_6345.lastNetworkPlayerName == null) {
-                this.networkPlayerName.setText("Unnamed" + class_907.method_2249(0, 999));
-            } else {
-                this.networkPlayerName.setText(class_1061VarMethod_3037.field_6352.method_2749(class_1061VarMethod_3037.field_6345.lastNetworkPlayerName));
-            }
-            this.joinIpAddress = (EditText) findViewById(R.id.joinIpAddress);
-            if (class_1061VarMethod_3037.field_6345.lastNetworkIP != null) {
-                this.joinIpAddress.setText(class_1061VarMethod_3037.field_6345.lastNetworkIP);
-            }
-            ((Button) findViewById(R.id.hostButton)).setOnClickListener(new class_185(this));
-            ((Button) findViewById(R.id.watchReplayButton)).setOnClickListener(new class_188(this));
-            ((Button) findViewById(R.id.joinButton)).setOnClickListener(new class_189(this));
-            ScrollView scrollView = (ScrollView) findViewById(R.id.mainScrollView);
-            this.mainScrollView = scrollView;
-            ViewTreeObserver viewTreeObserver = scrollView.getViewTreeObserver();
-            if (viewTreeObserver.isAlive()) {
-                this.showLimitedRows = true;
-                viewTreeObserver.addOnScrollChangedListener(new class_171(this, class_1061VarMethod_3037));
-            } else {
-                this.showLimitedRows = false;
-            }
-            Button button = (Button) findViewById(R.id.refreshServersButton);
-            this.refreshButton = button;
-            button.setOnClickListener(new class_172(this, class_1061VarMethod_3037));
-            this.gameListTable = (TableLayout) findViewById(R.id.gameListTable);
-            getWindow().setSoftInputMode(2);
-            addDebugText("ready..");
-            lastLoaded = this;
-        }
-    }
-
-    public void joinServerFromList(class_1040 class_1040Var, String str) {
-        class_1061.method_3076().field_6352.field_5961 = class_1040Var.field_6201;
-        joinServer(str, false);
-    }
-
-    public void joinServer(String str) {
-        class_1061.method_3076().field_6352.field_5961 = null;
-        joinServer(str, false);
-    }
-
-    public void joinServer(String str, boolean z) {
-        class_1061.method_3076().field_6352.method_2749(this.networkPlayerName.getText().toString());
-        if (str != null && !str.trim().equals(VariableScope.nullOrMissingString)) {
-            showDialog(0);
-            class_190 class_190Var = new class_190(this, str);
-            class_190Var.field_514 = z;
-            new Thread(class_190Var).start();
-        }
-    }
 
     public static void refreshServerList() {
         MultiplayerLobbyActivity multiplayerLobbyActivity = lastLoaded;
@@ -179,11 +71,11 @@ public class MultiplayerLobbyActivity extends class_1 {
             arrayList = new ArrayList();
             Iterator it = class_1061VarMethod_3076.field_6352.field_5947.iterator();
             while (it.hasNext()) {
-                arrayList.add((class_1040) it.next());
+                arrayList.add(it.next());
             }
             Collections.sort(arrayList, new class_173());
         }
-        return  arrayList;
+        return arrayList;
     }
 
     public static TextView getCellTextView(Context context, class_1323 class_1323Var) {
@@ -321,6 +213,116 @@ public class MultiplayerLobbyActivity extends class_1 {
             return r14
         */
         throw new UnsupportedOperationException("Method not decompiled: com.corrodinggames.rts.appFramework.MultiplayerLobbyActivity.addCell(com.corrodinggames.rts.gameFramework.j.class_1040, android.widget.TableRow, java.lang.String, com.corrodinggames.rts.gameFramework.utility.class_1323):android.widget.TextView");
+    }
+
+    public void addDebugText(String str) {
+        Message messageObtainMessage = this.handler.obtainMessage();
+        messageObtainMessage.getData().putString("text", str);
+        this.handler.sendMessage(messageObtainMessage);
+    }
+
+    public void addDebugTextInternal(String str) {
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+    }
+
+    @Override
+    public void onResume() {
+        class_1061 class_1061VarMethod_3037 = class_1061.method_3037(this);
+        if (class_1061VarMethod_3037 != null) {
+            class_1061VarMethod_3037.method_2995(this);
+        }
+        if (class_1061VarMethod_3037.method_2963()) {
+            finish();
+        }
+        class_1047.method_2936(this.refreshListCallback);
+        class_84.method_115(this, false);
+        super.onResume();
+    }
+
+    @Override
+    public void onCreate(Bundle bundle) {
+        super.onCreate(bundle);
+        if (class_84.method_127(this, false)) {
+            class_1061 class_1061VarMethod_3037 = class_1061.method_3037(this);
+            setContentView(R.layout.multiplayer_lobby);
+            class_84.method_120(getWindow().getDecorView().findViewById(android.R.id.content));
+            this.textRefreshButton = class_988.method_2636("menus.lobby.button.refresh");
+            this.textRefreshingButton = class_988.method_2636("menus.lobby.button.refreshing");
+            getWindow().setBackgroundDrawable(null);
+            for (int i = 0; i < 10; i++) {
+                for (int i2 = 0; i2 < 6; i2++) {
+                    this.activityRecycledTextViews.add(getCellTextView(this, null));
+                }
+            }
+            if (class_1061VarMethod_3037.field_6345.saveMultiplayerReplays && !class_84.method_129(this)) {
+                new AlertDialog.Builder(this).setIcon(android.R.drawable.ic_dialog_alert).setTitle("Cannot enable replays").setMessage("You have requested replays but file write permission is required to save them. Do you want to enable it now?").setPositiveButton("Ok", new class_181(this)).setNegativeButton("No", new class_182(this)).show();
+            }
+            this.foundServersList = findViewById(R.id.foundServersList);
+            ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, new ArrayList());
+            this.lanServersAdapter = arrayAdapter;
+            this.foundServersList.setAdapter(arrayAdapter);
+            this.foundServersList.setOnItemClickListener(new class_183(this));
+            this.joinBluetoothButton = findViewById(R.id.battleroom_joinBluetoothButton);
+            if (!class_1001.field_5899) {
+                this.joinBluetoothButton.setVisibility(8);
+            }
+            this.joinBluetoothButton.setOnClickListener(new class_184(this));
+            refreshServerList();
+            class_1001.method_2788("network: load lobby");
+            this.networkPlayerName = findViewById(R.id.networkPlayerName);
+            if (class_1061VarMethod_3037.field_6345.lastNetworkPlayerName == null) {
+                this.networkPlayerName.setText("Unnamed" + class_907.method_2249(0, 999));
+            } else {
+                this.networkPlayerName.setText(class_1061VarMethod_3037.field_6352.method_2749(class_1061VarMethod_3037.field_6345.lastNetworkPlayerName));
+            }
+            this.joinIpAddress = findViewById(R.id.joinIpAddress);
+            if (class_1061VarMethod_3037.field_6345.lastNetworkIP != null) {
+                this.joinIpAddress.setText(class_1061VarMethod_3037.field_6345.lastNetworkIP);
+            }
+            ((Button) findViewById(R.id.hostButton)).setOnClickListener(new class_185(this));
+            ((Button) findViewById(R.id.watchReplayButton)).setOnClickListener(new class_188(this));
+            ((Button) findViewById(R.id.joinButton)).setOnClickListener(new class_189(this));
+            ScrollView scrollView = findViewById(R.id.mainScrollView);
+            this.mainScrollView = scrollView;
+            ViewTreeObserver viewTreeObserver = scrollView.getViewTreeObserver();
+            if (viewTreeObserver.isAlive()) {
+                this.showLimitedRows = true;
+                viewTreeObserver.addOnScrollChangedListener(new class_171(this, class_1061VarMethod_3037));
+            } else {
+                this.showLimitedRows = false;
+            }
+            Button button = findViewById(R.id.refreshServersButton);
+            this.refreshButton = button;
+            button.setOnClickListener(new class_172(this, class_1061VarMethod_3037));
+            this.gameListTable = findViewById(R.id.gameListTable);
+            getWindow().setSoftInputMode(2);
+            addDebugText("ready..");
+            lastLoaded = this;
+        }
+    }
+
+    public void joinServerFromList(class_1040 class_1040Var, String str) {
+        class_1061.method_3076().field_6352.field_5961 = class_1040Var.field_6201;
+        joinServer(str, false);
+    }
+
+    public void joinServer(String str) {
+        class_1061.method_3076().field_6352.field_5961 = null;
+        joinServer(str, false);
+    }
+
+    public void joinServer(String str, boolean z) {
+        class_1061.method_3076().field_6352.method_2749(this.networkPlayerName.getText().toString());
+        if (str != null && !str.trim().equals(VariableScope.nullOrMissingString)) {
+            showDialog(0);
+            class_190 class_190Var = new class_190(this, str);
+            class_190Var.field_514 = z;
+            new Thread(class_190Var).start();
+        }
     }
 
     @Override

@@ -8,11 +8,13 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+
 import com.corrodinggames.rts.appFramework.android.AndroidSAF;
 import com.corrodinggames.rts.gameFramework.class_1061;
 import com.corrodinggames.rts.gameFramework.m.class_1081;
 import com.corrodinggames.rts.gameFramework.m.class_1235;
 import com.corrodinggames.rts.gameFramework.m.class_1239;
+
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.concurrent.locks.ReentrantLock;
@@ -29,6 +31,19 @@ public class GameView extends SurfaceView implements SurfaceHolder.Callback, cla
     public volatile boolean paused;
     public volatile boolean surfaceExists;
     public SurfaceHolder surfaceHolderOnLock;
+
+    public GameView(Context context, AttributeSet attributeSet) {
+        super(context, attributeSet);
+        this.surfaceExists = false;
+        this.gameThreadSync = new Object();
+        this.fullWidth = -1;
+        this.fullHeight = -1;
+        this.paused = false;
+        Log.e(AndroidSAF.TAG, "GameView:GameView()");
+        this.multiTouchController = new class_125(this);
+        this.currTouchPoint = new class_127();
+        init(context);
+    }
 
     public String getStats() {
         return "NO STATS";
@@ -67,25 +82,12 @@ public class GameView extends SurfaceView implements SurfaceHolder.Callback, cla
         this.paused = false;
     }
 
-    public GameView(Context context, AttributeSet attributeSet) {
-        super(context, attributeSet);
-        this.surfaceExists = false;
-        this.gameThreadSync = new Object();
-        this.fullWidth = -1;
-        this.fullHeight = -1;
-        this.paused = false;
-        Log.e(AndroidSAF.TAG, "GameView:GameView()");
-        this.multiTouchController = new class_125(this);
-        this.currTouchPoint = new class_127();
-        init(context);
-    }
-
     public void init(Context context) {
         getHolder().addCallback(this);
         class_1061.method_3037(context);
     }
 
-    public void finalize() throws Throwable {
+    protected void finalize() throws Throwable {
         Log.e(AndroidSAF.TAG, "GameView:finalize()");
         super.finalize();
     }
@@ -253,7 +255,7 @@ public class GameView extends SurfaceView implements SurfaceHolder.Callback, cla
         if (Build.VERSION.SDK_INT >= 26) {
             if (this.lockHardwareCanvasMethod == null) {
                 try {
-                    this.lockHardwareCanvasMethod = SurfaceHolder.class.getMethod("lockHardwareCanvas", new Class[0]);
+                    this.lockHardwareCanvasMethod = SurfaceHolder.class.getMethod("lockHardwareCanvas");
                 } catch (NoSuchMethodException | SecurityException e) {
                     throw new RuntimeException(e);
                 }

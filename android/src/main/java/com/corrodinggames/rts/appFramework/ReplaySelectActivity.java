@@ -14,10 +14,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
 import com.corrodinggames.rts.R;
 import com.corrodinggames.rts.gameFramework.class_1061;
 import com.corrodinggames.rts.gameFramework.class_866;
 import com.corrodinggames.rts.gameFramework.e.class_899;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -30,6 +32,22 @@ public class ReplaySelectActivity extends class_1 {
     public Handler refreshLevelsHandler = new Handler();
     public Runnable refreshLevelsRunnable = new class_207(this);
     public Runnable resumeActivityRunnable = new class_198(this);
+
+    public static String[] getGameSaves() {
+        String[] strArrMethod_2184 = class_899.method_2184(currentReplayPath);
+        if (strArrMethod_2184 == null) {
+            class_1061.method_3043("failed to find replay folder");
+            return null;
+        }
+        ArrayList arrayList = new ArrayList();
+        for (String str : strArrMethod_2184) {
+            if (!str.endsWith(".map")) {
+                arrayList.add(str);
+            }
+        }
+        Collections.sort(arrayList, new class_209());
+        return (String[]) arrayList.toArray(new String[0]);
+    }
 
     @Override
     public void finish() {
@@ -77,22 +95,6 @@ public class ReplaySelectActivity extends class_1 {
         }
     }
 
-    public static String[] getGameSaves() {
-        String[] strArrMethod_2184 = class_899.method_2184(currentReplayPath);
-        if (strArrMethod_2184 == null) {
-            class_1061.method_3043("failed to find replay folder");
-            return null;
-        }
-        ArrayList arrayList = new ArrayList();
-        for (String str : strArrMethod_2184) {
-            if (!str.endsWith(".map")) {
-                arrayList.add(str);
-            }
-        }
-        Collections.sort(arrayList, new class_209());
-        return (String[]) arrayList.toArray(new String[0]);
-    }
-
     public void setup(boolean z) {
         class_1061.method_3037(this);
         if (!class_84.method_137(this)) {
@@ -100,7 +102,7 @@ public class ReplaySelectActivity extends class_1 {
             return;
         }
         findViewById(R.id.levelButtonBack).setOnClickListener(new class_197(this));
-        LinearLayout linearLayout = (LinearLayout) findViewById(R.id.replayHolder);
+        LinearLayout linearLayout = findViewById(R.id.replayHolder);
         linearLayout.removeAllViews();
         if (!class_84.method_137(this)) {
             finish();

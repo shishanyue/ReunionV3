@@ -14,6 +14,7 @@ import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.Spinner;
 import android.widget.TextView;
+
 import com.corrodinggames.rts.R;
 import com.corrodinggames.rts.appFramework.android.AndroidSAF;
 import com.corrodinggames.rts.game.b.class_299;
@@ -27,6 +28,7 @@ import com.corrodinggames.rts.gameFramework.e.class_901;
 import com.corrodinggames.rts.gameFramework.e.class_905;
 import com.corrodinggames.rts.gameFramework.h.class_988;
 import com.corrodinggames.rts.gameFramework.j.class_1047;
+
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
 import java.io.File;
@@ -39,8 +41,8 @@ import java.util.Locale;
 
 public class SettingsActivity extends class_1 {
     public static final int SETUP_EXTERNAL_FOLDER = 9;
-    public static boolean debugWasSetOrAskedThisSession = false;
     public static final String intentMode = "mode";
+    public static boolean debugWasSetOrAskedThisSession = false;
     public Spinner aiDifficulty;
     public CheckBox allowGameRecording;
     public CheckBox autoSaveEnabled;
@@ -106,273 +108,15 @@ public class SettingsActivity extends class_1 {
     public int[] unitCapOptions = {100, 250, 500, 1000, 2000, 5000, 10000};
     public class_246 linkExternalFolder = new class_225(this);
 
-    @Override
-    public void onResume() {
-        super.onResume();
-        class_84.method_115(this, false);
-    }
-
-    public void saveSettings() {
-        this.settings.enableSounds = true;
-        this.settings.musicVolume = this.musicVolume.getProgress() / 100.0f;
-        this.settings.gameVolume = this.gameVolume.getProgress() / 100.0f;
-        this.settings.interfaceVolume = this.interfaceVolume.getProgress() / 100.0f;
-        this.settings.scrollSpeed = (this.scrollSpeed.getProgress() + 20.0f) / 100.0f;
-        this.settings.batterySaving = this.batterySaving.isChecked();
-        this.settings.highRefreshRate = this.highRefreshRate.isChecked();
-        this.settings.unlockedScreenRotation = this.unlockedScreenRotation.isChecked();
-        this.settings.renderBackground = this.renderBackground.isChecked();
-        this.settings.renderExtraLayers = this.renderExtraLayers.isChecked();
-        this.settings.immersiveFullScreen = this.immersiveFullScreen.isChecked();
-        this.settings.renderDoubleScale = this.renderDoubleScale.isChecked();
-        this.settings.renderClouds = this.renderClouds.isChecked();
-        this.settings.showWarLogOnScreen = this.showWarLogOnScreen.isChecked();
-        this.settings.classicInterface = this.classicInterface.isChecked();
-        this.settings.showUnitWaypoints = this.showUnitWaypoints.isChecked();
-        this.settings.useMinimapAllyColors = this.useMinimapAllyColors.isChecked();
-        this.settings.showUnitGroups = this.showUnitGroups.isChecked();
-        this.settings.allowGameRecording = this.allowGameRecording.isChecked();
-        this.settings.showFps = this.showFps.isChecked();
-        this.settings.newRender = this.newRender.isChecked();
-        this.settings.shaderEffects = this.shaderEffects.isChecked();
-        this.settings.teamShaders = this.teamShaders.isChecked();
-        this.settings.sendReports = this.sendReports.isChecked();
-        this.settings.showHp = this.showHp.isChecked();
-        this.settings.showUnitIcons = this.showUnitIcons.isChecked();
-        this.settings.gestureZoom = this.gestureZoom.isChecked();
-        this.settings.useCircleSelect = this.useCircleSelect.isChecked();
-        this.settings.smartSelection_v2 = this.smartSelection.isChecked();
-        this.settings.quickRally = this.quickRally.isChecked();
-        this.settings.doubleClickToAttackMove = this.doubleClickToAttackMove.isChecked();
-        this.settings.showZoomButton = this.zoomButton.isChecked();
-        this.settings.mouseSupport = this.mouseSupport.isChecked();
-        this.settings.keyboardSupport = this.keyboardSupport.isChecked();
-        this.settings.forceEnglish = this.forceEnglish.isChecked();
-        this.settings.teamUnitCapSinglePlayer = getSpinnerByValue(this.teamUnitCapSinglePlayer, this.unitCapOptions);
-        this.settings.teamUnitCapHostedGame = getSpinnerByValue(this.teamUnitCapHostedGame, this.unitCapOptions);
-        if (!this.replaysDisabledByPermission || this.saveMultiplayerReplays.isChecked()) {
-            this.settings.saveMultiplayerReplays = this.saveMultiplayerReplays.isChecked();
-        }
-        this.settings.replaysShowRecordedChat = this.replaysShowRecordedChat.isChecked();
-        this.settings.udpInMultiplayer = this.udpInMultiplayer.isChecked();
-        try {
-            this.settings.networkPort = Integer.valueOf(this.networkPort.getText().toString()).intValue();
-        } catch (NumberFormatException e) {
-            e.printStackTrace();
-        }
-        if (this.settings.networkPort < 1024 || this.settings.networkPort > 65535) {
-            class_1061.method_3043("networkPort out of range");
-            this.settings.networkPort = 2000;
-        }
-        this.settings.showMapPingsOnBattlefield = this.showMapPingsOnBattlefield.isChecked();
-        this.settings.showMapPingsOnMinimap = this.showMapPingsOnMinimap.isChecked();
-        this.settings.showPlayerChatInGame = this.showPlayerChatInGame.isChecked();
-        this.settings.autosaving = this.autoSaveEnabled.isChecked();
-        this.settings.aiDifficulty = this.aiDifficulty.getSelectedItemPosition() - 2;
-        saveStorageType();
-        this.settings.save();
-        class_988.method_2639();
-        finish();
-    }
-
-    @Override
-    public void onPause() {
-        if (this.saveChanges && isFinishing()) {
-            saveSettings();
-        }
-        super.onPause();
-    }
-
-    @Override
-    public void onCreate(Bundle bundle) {
-        super.onCreate(bundle);
-        setTitle("Settings");
-        if (class_84.method_127(this, false)) {
-            class_1061.method_3037(this);
-            setContentView(R.layout.settings);
-            class_84.method_120(getWindow().getDecorView().findViewById(android.R.id.content));
-            String string = null;
-            getWindow().setBackgroundDrawable(null);
-            this.settings = SettingsEngine.getInstance(getBaseContext());
-            this.enableSounds = (CheckBox) findViewById(R.id.SettingsEnableSounds);
-            this.musicVolumeText = (TextView) findViewById(R.id.musicVolumeText);
-            this.musicVolume = (SeekBar) findViewById(R.id.musicVolume);
-            this.gameVolumeText = (TextView) findViewById(R.id.gameVolumeText);
-            this.gameVolume = (SeekBar) findViewById(R.id.gameVolume);
-            this.interfaceVolumeText = (TextView) findViewById(R.id.interfaceVolumeText);
-            this.interfaceVolume = (SeekBar) findViewById(R.id.interfaceVolume);
-            this.scrollSpeedText = (TextView) findViewById(R.id.scrollSpeedText);
-            this.scrollSpeed = (SeekBar) findViewById(R.id.scrollSpeed);
-            this.batterySaving = (CheckBox) findViewById(R.id.settingsBatterySaving);
-            this.highRefreshRate = (CheckBox) findViewById(R.id.settingsHighRefreshRate);
-            this.unlockedScreenRotation = (CheckBox) findViewById(R.id.settingsUnlockedScreenRotation);
-            this.renderBackground = (CheckBox) findViewById(R.id.settingsRenderBackground);
-            this.renderExtraLayers = (CheckBox) findViewById(R.id.settingsRenderExtraLayers);
-            this.immersiveFullScreen = (CheckBox) findViewById(R.id.settingsImmersiveFullScreen);
-            this.renderDoubleScale = (CheckBox) findViewById(R.id.settingsRenderDoubleScale);
-            this.renderClouds = (CheckBox) findViewById(R.id.settingsRenderClouds);
-            this.showWarLogOnScreen = (CheckBox) findViewById(R.id.settingsShowWarLogOnScreen);
-            this.classicInterface = (CheckBox) findViewById(R.id.settingsClassicInterface);
-            this.useMinimapAllyColors = (CheckBox) findViewById(R.id.settingsUseMinimapAllyColors);
-            this.showUnitWaypoints = (CheckBox) findViewById(R.id.settingsShowUnitWaypoints);
-            this.showUnitGroups = (CheckBox) findViewById(R.id.settingsShowUnitGroups);
-            this.gestureZoom = (CheckBox) findViewById(R.id.settingsGestureZoom);
-            this.useCircleSelect = (CheckBox) findViewById(R.id.settingsUseCircleSelect);
-            this.smartSelection = (CheckBox) findViewById(R.id.settingsSmartSelection);
-            this.quickRally = (CheckBox) findViewById(R.id.settingsQuickRally);
-            this.doubleClickToAttackMove = (CheckBox) findViewById(R.id.settingsDoubleClickToAttackMove);
-            this.zoomButton = (CheckBox) findViewById(R.id.settingsZoomButton);
-            this.mouseSupport = (CheckBox) findViewById(R.id.settingsMouseSupport);
-            this.keyboardSupport = (CheckBox) findViewById(R.id.settingsKeyboardSupport);
-            this.forceEnglish = (CheckBox) findViewById(R.id.settingsForceEnglish);
-            this.teamUnitCapSinglePlayer = (Spinner) findViewById(R.id.teamUnitCapSinglePlayer);
-            this.teamUnitCapHostedGame = (Spinner) findViewById(R.id.teamUnitCapHostedGame);
-            this.saveMultiplayerReplays = (CheckBox) findViewById(R.id.settingsSaveMultiplayerReplays);
-            this.replaysShowRecordedChat = (CheckBox) findViewById(R.id.settingsReplaysShowRecordedChat);
-            this.allowGameRecording = (CheckBox) findViewById(R.id.settingsAllowGameRecording);
-            this.showHp = (CheckBox) findViewById(R.id.settingsShowHp);
-            this.showFps = (CheckBox) findViewById(R.id.settingsShowFps);
-            this.newRender = (CheckBox) findViewById(R.id.settingsNewRender);
-            this.shaderEffects = (CheckBox) findViewById(R.id.settingsShaderEffects);
-            this.teamShaders = (CheckBox) findViewById(R.id.settingsTeamShaders);
-            this.sendReports = (CheckBox) findViewById(R.id.settingsSendReports);
-            this.showUnitIcons = (CheckBox) findViewById(R.id.settingsShowUnitIcons);
-            this.debugOptions = (Button) findViewById(R.id.settingsDebugOptions);
-            this.confKeys = (Button) findViewById(R.id.settingsConfKeys);
-            this.aiDifficulty = (Spinner) findViewById(R.id.aiDifficulty);
-            this.storageType = (Spinner) findViewById(R.id.storageType);
-            this.networkPort = (EditText) findViewById(R.id.settingsNetworkPort);
-            this.udpInMultiplayer = (CheckBox) findViewById(R.id.settingsUdpInMultiplayer);
-            this.showMapPingsOnBattlefield = (CheckBox) findViewById(R.id.settingsShowMapPingsOnBattlefield);
-            this.showMapPingsOnMinimap = (CheckBox) findViewById(R.id.settingsShowMapPingsOnMinimap);
-            this.showPlayerChatInGame = (CheckBox) findViewById(R.id.settingsShowPlayerChatInGame);
-            this.autoSaveEnabled = (CheckBox) findViewById(R.id.settingsAutoSaveEnabled);
-            this.storageLayout = findViewById(R.id.settingsStorageLayout);
-            this.setupExternalFolder = (Button) findViewById(R.id.settingsSetupExternalFolder);
-            this.externalFolderInfo = (TextView) findViewById(R.id.settingsExternalFolderInfo);
-            this.enableSounds.setChecked(this.settings.enableSounds);
-            this.musicVolume.setProgress((int) (this.settings.musicVolume * 100.0f));
-            this.musicVolumeText.setText(this.musicVolume.getProgress() + "%");
-            this.gameVolume.setProgress((int) (this.settings.gameVolume * 100.0f));
-            this.gameVolumeText.setText(this.gameVolume.getProgress() + "%");
-            this.interfaceVolume.setProgress((int) (this.settings.interfaceVolume * 100.0f));
-            this.interfaceVolumeText.setText(this.interfaceVolume.getProgress() + "%");
-            this.scrollSpeed.setProgress((int) ((this.settings.scrollSpeed * 100.0f) - 20.0f));
-            this.scrollSpeedText.setText((this.scrollSpeed.getProgress() + 20) + "%");
-            this.batterySaving.setChecked(this.settings.batterySaving);
-            this.highRefreshRate.setChecked(this.settings.highRefreshRate);
-            this.unlockedScreenRotation.setChecked(this.settings.unlockedScreenRotation);
-            this.renderBackground.setChecked(this.settings.renderBackground);
-            this.renderExtraLayers.setChecked(this.settings.renderExtraLayers);
-            this.immersiveFullScreen.setChecked(this.settings.immersiveFullScreen);
-            this.renderDoubleScale.setChecked(this.settings.renderDoubleScale);
-            this.renderClouds.setChecked(this.settings.renderClouds);
-            this.showWarLogOnScreen.setChecked(this.settings.showWarLogOnScreen);
-            this.classicInterface.setChecked(this.settings.classicInterface);
-            this.showUnitWaypoints.setChecked(this.settings.showUnitWaypoints);
-            this.useMinimapAllyColors.setChecked(this.settings.useMinimapAllyColors);
-            this.showUnitGroups.setChecked(this.settings.showUnitGroups);
-            this.allowGameRecording.setChecked(this.settings.allowGameRecording);
-            this.allowGameRecording.setVisibility(8);
-            this.showHp.setChecked(this.settings.showHp);
-            this.showUnitIcons.setChecked(this.settings.showUnitIcons);
-            this.gestureZoom.setChecked(this.settings.gestureZoom);
-            this.useCircleSelect.setChecked(this.settings.useCircleSelect);
-            this.smartSelection.setChecked(this.settings.smartSelection_v2);
-            this.quickRally.setChecked(this.settings.quickRally);
-            this.doubleClickToAttackMove.setChecked(this.settings.doubleClickToAttackMove);
-            this.zoomButton.setChecked(this.settings.showZoomButton);
-            this.mouseSupport.setChecked(this.settings.mouseSupport);
-            this.keyboardSupport.setChecked(this.settings.keyboardSupport);
-            this.forceEnglish.setChecked(this.settings.forceEnglish);
-            setSpinnerByValue(this.teamUnitCapSinglePlayer, this.unitCapOptions, this.settings.teamUnitCapSinglePlayer, 1);
-            setSpinnerByValue(this.teamUnitCapHostedGame, this.unitCapOptions, this.settings.teamUnitCapHostedGame, 1);
-            this.saveMultiplayerReplays.setChecked(this.settings.saveMultiplayerReplays);
-            this.replaysShowRecordedChat.setChecked(this.settings.replaysShowRecordedChat);
-            if (!class_1061.field_6312) {
-                this.saveMultiplayerReplays.setVisibility(8);
-                this.replaysShowRecordedChat.setVisibility(8);
-            }
-            if (this.settings.saveMultiplayerReplays && !class_84.method_129(this)) {
-                this.saveMultiplayerReplays.setChecked(false);
-                this.replaysDisabledByPermission = true;
-            }
-            this.saveMultiplayerReplays.setOnCheckedChangeListener(new class_211(this));
-            this.showFps.setChecked(this.settings.showFps);
-            this.newRender.setChecked(this.settings.newRender);
-            this.shaderEffects.setChecked(this.settings.shaderEffects);
-            this.teamShaders.setChecked(this.settings.teamShaders);
-            this.sendReports.setChecked(this.settings.sendReports);
-            this.networkPort.setText(Integer.toString(this.settings.networkPort));
-            this.udpInMultiplayer.setChecked(this.settings.udpInMultiplayer);
-            this.showMapPingsOnBattlefield.setChecked(this.settings.showMapPingsOnBattlefield);
-            this.showMapPingsOnMinimap.setChecked(this.settings.showMapPingsOnMinimap);
-            this.showPlayerChatInGame.setChecked(this.settings.showPlayerChatInGame);
-            this.autoSaveEnabled.setChecked(this.settings.autosaving);
-            this.aiDifficulty.setSelection(this.settings.aiDifficulty + 2);
-            class_900 class_900VarMethod_2173 = class_899.method_2173();
-            this.setupExternalFolder.setOnClickListener(new class_228(this));
-            if (!class_900VarMethod_2173.field_5114) {
-                this.setupExternalFolder.setVisibility(8);
-            }
-            this.storageType.setOnItemSelectedListener(new class_229(this));
-            updateStorageFields();
-            this.musicVolume.setOnSeekBarChangeListener(new class_230(this));
-            this.gameVolume.setOnSeekBarChangeListener(new class_231(this));
-            this.interfaceVolume.setOnSeekBarChangeListener(new class_232(this));
-            this.scrollSpeed.setOnSeekBarChangeListener(new class_233(this));
-            ((Button) findViewById(R.id.settingsDone)).setOnClickListener(new class_234(this));
-            ((Button) findViewById(R.id.settingsCancel)).setOnClickListener(new class_235(this));
-            ((Button) findViewById(R.id.settingsCredits)).setOnClickListener(new class_214(this));
-            Button button = (Button) findViewById(R.id.settingsMods);
-            if (class_1061.method_3076().field_6321) {
-                button.setVisibility(8);
-            } else {
-                button.setOnClickListener(new class_215(this));
-            }
-            this.confKeys.setOnClickListener(new class_216(this));
-            this.debugOptions.setOnClickListener(new class_217(this));
-            if (getIntent() != null && getIntent().getExtras() != null) {
-                string = getIntent().getExtras().getString(intentMode);
-            }
-            if (string != null) {
-                if (string.equals("setupExternalFolder")) {
-                    this.setupExternalFolderOnly = true;
-                    setupExternalSAFFolder();
-                } else {
-                    class_1061.method_3031("Unknown setup mode: ".concat(String.valueOf(string)));
-                }
-            }
-            this.newRender.setOnCheckedChangeListener(new class_222(this));
-            updateHiddenFields();
-        }
-    }
-
-    public boolean allowExternalStorageType() {
-        if (class_1061.method_2982() && !class_1061.method_3076().field_6345.externalSAFWorking) {
-            return false;
-        }
-        return true;
-    }
-
-    public void saveStorageType() {
-        this.settings.storageType = this.storageType.getSelectedItemPosition();
-        class_899.method_2169();
-    }
-
     public static String getStorageInfoAndWarnings(String str) {
         boolean z;
         class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
-        if (class_1061VarMethod_3076.field_6345.externalSAFPathShown != null && class_1061VarMethod_3076.field_6345.externalSAFWorking) {
-            z = true;
-        } else {
-            z = false;
-        }
+        z = class_1061VarMethod_3076.field_6345.externalSAFPathShown != null && class_1061VarMethod_3076.field_6345.externalSAFWorking;
         if (!class_1061VarMethod_3076.field_6345.hasSelectedAStorageType) {
-            return class_988.method_2636("menus.storage.notSetupInfo", new Object[0]);
+            return class_988.method_2636("menus.storage.notSetupInfo");
         }
         if (z && class_1061VarMethod_3076.field_6345.storageType == 0) {
-            return class_988.method_2636("menus.storage.noExternalRead", new Object[0]);
+            return class_988.method_2636("menus.storage.noExternalRead");
         }
         return getStorageExternalFolderInfo(str);
     }
@@ -381,21 +125,21 @@ public class SettingsActivity extends class_1 {
         String strMethod_2636;
         class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
         if (class_1061VarMethod_3076.field_6345.externalSAFPathShown == null) {
-            strMethod_2636 = class_988.method_2636("menus.externalStorage.inactive", new Object[0]);
+            strMethod_2636 = class_988.method_2636("menus.externalStorage.inactive");
         } else if (!class_1061VarMethod_3076.field_6345.externalSAFWorking) {
-            strMethod_2636 = class_988.method_2636("menus.externalStorage.failed", new Object[0]) + class_1061VarMethod_3076.field_6345.externalSAFPathShown + " (Please setup again)";
+            strMethod_2636 = class_988.method_2636("menus.externalStorage.failed") + class_1061VarMethod_3076.field_6345.externalSAFPathShown + " (Please setup again)";
         } else {
-            strMethod_2636 = class_988.method_2636("menus.externalStorage.active", new Object[0]) + class_1061VarMethod_3076.field_6345.externalSAFPathShown + str;
+            strMethod_2636 = class_988.method_2636("menus.externalStorage.active") + class_1061VarMethod_3076.field_6345.externalSAFPathShown + str;
         }
         class_900 class_900VarMethod_2173 = class_899.method_2173();
         if (!class_900VarMethod_2173.field_5114) {
             if (class_900VarMethod_2173.field_5115) {
-                strMethod_2636 = class_988.method_2636("menus.externalStorage.legacy", new Object[0]);
+                strMethod_2636 = class_988.method_2636("menus.externalStorage.legacy");
                 if (Build.VERSION.SDK_INT >= 30) {
                     strMethod_2636 = strMethod_2636 + " (will have problems in Android 11 or higher!)";
                 }
             } else {
-                strMethod_2636 = class_988.method_2636("menus.externalStorage.disabled", new Object[0]);
+                strMethod_2636 = class_988.method_2636("menus.externalStorage.disabled");
             }
         }
         String strMethod_2159 = class_899.method_2159();
@@ -403,13 +147,6 @@ public class SettingsActivity extends class_1 {
             return strMethod_2636 + " " + strMethod_2159;
         }
         return strMethod_2636;
-    }
-
-    public void updateStorageFields() {
-        class_1061.method_3043("updateStorageFields()");
-        this.storageType.setSelection(this.settings.storageType);
-        class_1061.method_3076();
-        this.externalFolderInfo.setText(getStorageExternalFolderInfo(VariableScope.nullOrMissingString));
     }
 
     public static String setDebugOption(String str) {
@@ -498,11 +235,11 @@ public class SettingsActivity extends class_1 {
                 class_901 class_901VarMethod_2160 = class_899.field_5109;
                 if (zStartsWith) {
                     class_901VarMethod_2160 = class_899.method_2160(0);
-                    file = new File(class_901VarMethod_2160.method_2212("/SD/rustedWarfare/".concat(String.valueOf(str3))));
+                    file = new File(class_901VarMethod_2160.method_2212("/SD/rustedWarfare/".concat(str3)));
                     file.createNewFile();
                     file.deleteOnExit();
                 } else {
-                    file = new File(class_901VarMethod_2160.method_2212("/SD/rustedWarfare/".concat(String.valueOf(str3))));
+                    file = new File(class_901VarMethod_2160.method_2212("/SD/rustedWarfare/".concat(str3)));
                 }
                 PrintWriter printWriter = new PrintWriter(new BufferedOutputStream(class_901VarMethod_2160.method_2208(file.getAbsolutePath(), false)));
                 BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(Runtime.getRuntime().exec("logcat -d").getInputStream()));
@@ -511,11 +248,11 @@ public class SettingsActivity extends class_1 {
                     if (line == null) {
                         break;
                     }
-                    printWriter.append((CharSequence) line);
-                    printWriter.append((CharSequence) "\n");
+                    printWriter.append(line);
+                    printWriter.append("\n");
                 }
                 printWriter.close();
-                String strConcat2 = "Saved game logs to: ".concat(String.valueOf(str3));
+                String strConcat2 = "Saved game logs to: ".concat(str3);
                 if (zStartsWith) {
                     Context context = class_1061VarMethod_3076.field_6316;
                     if (context instanceof Activity) {
@@ -544,16 +281,16 @@ public class SettingsActivity extends class_1 {
                     class_901 class_901VarMethod_21602 = class_899.field_5109;
                     if (zStartsWith2) {
                         class_901VarMethod_21602 = class_899.method_2160(0);
-                        file2 = new File(class_901VarMethod_21602.method_2212("/SD/rustedWarfare/".concat(String.valueOf(str5))));
+                        file2 = new File(class_901VarMethod_21602.method_2212("/SD/rustedWarfare/".concat(str5)));
                         file2.createNewFile();
                         file2.deleteOnExit();
                     } else {
-                        file2 = new File(class_901VarMethod_21602.method_2212("/SD/rustedWarfare/".concat(String.valueOf(str5))));
+                        file2 = new File(class_901VarMethod_21602.method_2212("/SD/rustedWarfare/".concat(str5)));
                     }
                     PrintWriter printWriter2 = new PrintWriter(new BufferedOutputStream(class_901VarMethod_21602.method_2208(file2.getAbsolutePath(), false)));
-                    printWriter2.append((CharSequence) str4);
+                    printWriter2.append(str4);
                     printWriter2.close();
-                    String strConcat3 = "Saved bad header data to: ".concat(String.valueOf(str5));
+                    String strConcat3 = "Saved bad header data to: ".concat(str5);
                     if (zStartsWith2) {
                         Context context2 = class_1061VarMethod_3076.field_6316;
                         if (context2 instanceof Activity) {
@@ -659,7 +396,7 @@ public class SettingsActivity extends class_1 {
             } else if (lowerCase.equals("off")) {
                 bool3 = Boolean.FALSE;
             } else {
-                strConcat = "Unknown option - ".concat(String.valueOf(strTrim));
+                strConcat = "Unknown option - ".concat(strTrim);
                 bool3 = null;
             }
             if (bool3 != null) {
@@ -676,7 +413,7 @@ public class SettingsActivity extends class_1 {
             } else if (lowerCase2.equals("off")) {
                 bool2 = Boolean.FALSE;
             } else {
-                strConcat = "Unknown option - ".concat(String.valueOf(strTrim));
+                strConcat = "Unknown option - ".concat(strTrim);
                 bool2 = null;
             }
             if (bool2 != null) {
@@ -693,7 +430,7 @@ public class SettingsActivity extends class_1 {
             } else if (lowerCase3.equals("off")) {
                 bool = Boolean.FALSE;
             } else {
-                strConcat = "Unknown option - ".concat(String.valueOf(strTrim));
+                strConcat = "Unknown option - ".concat(strTrim);
                 bool = null;
             }
             if (bool != null) {
@@ -713,7 +450,7 @@ public class SettingsActivity extends class_1 {
             String lowerCase4 = strTrim.substring(9).trim().toLowerCase();
             Float fMethod_2348 = class_907.method_2348(lowerCase4);
             if (fMethod_2348 == null) {
-                strConcat = "Not float - ".concat(String.valueOf(lowerCase4));
+                strConcat = "Not float - ".concat(lowerCase4);
                 z2 = z;
             } else {
                 if (fMethod_2348.floatValue() < 0.3f) {
@@ -733,7 +470,7 @@ public class SettingsActivity extends class_1 {
             String lowerCase5 = strTrim.substring(14).trim().toLowerCase();
             Float fMethod_23482 = class_907.method_2348(lowerCase5);
             if (fMethod_23482 == null) {
-                strConcat = "Not float - ".concat(String.valueOf(lowerCase5));
+                strConcat = "Not float - ".concat(lowerCase5);
             } else {
                 int iFloatValue = (int) fMethod_23482.floatValue();
                 String strConcat4 = "Ban time after kick now ".concat(String.valueOf(iFloatValue));
@@ -746,7 +483,7 @@ public class SettingsActivity extends class_1 {
             strConcat = class_1061VarMethod_3076.field_6352.field_5945;
         }
         if (strConcat == null) {
-            return "Unknown option - ".concat(String.valueOf(strTrim));
+            return "Unknown option - ".concat(strTrim);
         }
         debugWasSetOrAskedThisSession = true;
         if (z2) {
@@ -778,6 +515,274 @@ public class SettingsActivity extends class_1 {
         return z;
     }
 
+    public static void setupInternalFolder() {
+    }
+
+    public static void updatedLinkedExternalSAFFolder() {
+    }
+
+    public static double benchmarkSafFolder(String str) {
+        return 0.0d;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        class_84.method_115(this, false);
+    }
+
+    public void saveSettings() {
+        this.settings.enableSounds = true;
+        this.settings.musicVolume = this.musicVolume.getProgress() / 100.0f;
+        this.settings.gameVolume = this.gameVolume.getProgress() / 100.0f;
+        this.settings.interfaceVolume = this.interfaceVolume.getProgress() / 100.0f;
+        this.settings.scrollSpeed = (this.scrollSpeed.getProgress() + 20.0f) / 100.0f;
+        this.settings.batterySaving = this.batterySaving.isChecked();
+        this.settings.highRefreshRate = this.highRefreshRate.isChecked();
+        this.settings.unlockedScreenRotation = this.unlockedScreenRotation.isChecked();
+        this.settings.renderBackground = this.renderBackground.isChecked();
+        this.settings.renderExtraLayers = this.renderExtraLayers.isChecked();
+        this.settings.immersiveFullScreen = this.immersiveFullScreen.isChecked();
+        this.settings.renderDoubleScale = this.renderDoubleScale.isChecked();
+        this.settings.renderClouds = this.renderClouds.isChecked();
+        this.settings.showWarLogOnScreen = this.showWarLogOnScreen.isChecked();
+        this.settings.classicInterface = this.classicInterface.isChecked();
+        this.settings.showUnitWaypoints = this.showUnitWaypoints.isChecked();
+        this.settings.useMinimapAllyColors = this.useMinimapAllyColors.isChecked();
+        this.settings.showUnitGroups = this.showUnitGroups.isChecked();
+        this.settings.allowGameRecording = this.allowGameRecording.isChecked();
+        this.settings.showFps = this.showFps.isChecked();
+        this.settings.newRender = this.newRender.isChecked();
+        this.settings.shaderEffects = this.shaderEffects.isChecked();
+        this.settings.teamShaders = this.teamShaders.isChecked();
+        this.settings.sendReports = this.sendReports.isChecked();
+        this.settings.showHp = this.showHp.isChecked();
+        this.settings.showUnitIcons = this.showUnitIcons.isChecked();
+        this.settings.gestureZoom = this.gestureZoom.isChecked();
+        this.settings.useCircleSelect = this.useCircleSelect.isChecked();
+        this.settings.smartSelection_v2 = this.smartSelection.isChecked();
+        this.settings.quickRally = this.quickRally.isChecked();
+        this.settings.doubleClickToAttackMove = this.doubleClickToAttackMove.isChecked();
+        this.settings.showZoomButton = this.zoomButton.isChecked();
+        this.settings.mouseSupport = this.mouseSupport.isChecked();
+        this.settings.keyboardSupport = this.keyboardSupport.isChecked();
+        this.settings.forceEnglish = this.forceEnglish.isChecked();
+        this.settings.teamUnitCapSinglePlayer = getSpinnerByValue(this.teamUnitCapSinglePlayer, this.unitCapOptions);
+        this.settings.teamUnitCapHostedGame = getSpinnerByValue(this.teamUnitCapHostedGame, this.unitCapOptions);
+        if (!this.replaysDisabledByPermission || this.saveMultiplayerReplays.isChecked()) {
+            this.settings.saveMultiplayerReplays = this.saveMultiplayerReplays.isChecked();
+        }
+        this.settings.replaysShowRecordedChat = this.replaysShowRecordedChat.isChecked();
+        this.settings.udpInMultiplayer = this.udpInMultiplayer.isChecked();
+        try {
+            this.settings.networkPort = Integer.valueOf(this.networkPort.getText().toString()).intValue();
+        } catch (NumberFormatException e) {
+            e.printStackTrace();
+        }
+        if (this.settings.networkPort < 1024 || this.settings.networkPort > 65535) {
+            class_1061.method_3043("networkPort out of range");
+            this.settings.networkPort = 2000;
+        }
+        this.settings.showMapPingsOnBattlefield = this.showMapPingsOnBattlefield.isChecked();
+        this.settings.showMapPingsOnMinimap = this.showMapPingsOnMinimap.isChecked();
+        this.settings.showPlayerChatInGame = this.showPlayerChatInGame.isChecked();
+        this.settings.autosaving = this.autoSaveEnabled.isChecked();
+        this.settings.aiDifficulty = this.aiDifficulty.getSelectedItemPosition() - 2;
+        saveStorageType();
+        this.settings.save();
+        class_988.method_2639();
+        finish();
+    }
+
+    @Override
+    public void onPause() {
+        if (this.saveChanges && isFinishing()) {
+            saveSettings();
+        }
+        super.onPause();
+    }
+
+    @Override
+    public void onCreate(Bundle bundle) {
+        super.onCreate(bundle);
+        setTitle("Settings");
+        if (class_84.method_127(this, false)) {
+            class_1061.method_3037(this);
+            setContentView(R.layout.settings);
+            class_84.method_120(getWindow().getDecorView().findViewById(android.R.id.content));
+            String string = null;
+            getWindow().setBackgroundDrawable(null);
+            this.settings = SettingsEngine.getInstance(getBaseContext());
+            this.enableSounds = findViewById(R.id.SettingsEnableSounds);
+            this.musicVolumeText = findViewById(R.id.musicVolumeText);
+            this.musicVolume = findViewById(R.id.musicVolume);
+            this.gameVolumeText = findViewById(R.id.gameVolumeText);
+            this.gameVolume = findViewById(R.id.gameVolume);
+            this.interfaceVolumeText = findViewById(R.id.interfaceVolumeText);
+            this.interfaceVolume = findViewById(R.id.interfaceVolume);
+            this.scrollSpeedText = findViewById(R.id.scrollSpeedText);
+            this.scrollSpeed = findViewById(R.id.scrollSpeed);
+            this.batterySaving = findViewById(R.id.settingsBatterySaving);
+            this.highRefreshRate = findViewById(R.id.settingsHighRefreshRate);
+            this.unlockedScreenRotation = findViewById(R.id.settingsUnlockedScreenRotation);
+            this.renderBackground = findViewById(R.id.settingsRenderBackground);
+            this.renderExtraLayers = findViewById(R.id.settingsRenderExtraLayers);
+            this.immersiveFullScreen = findViewById(R.id.settingsImmersiveFullScreen);
+            this.renderDoubleScale = findViewById(R.id.settingsRenderDoubleScale);
+            this.renderClouds = findViewById(R.id.settingsRenderClouds);
+            this.showWarLogOnScreen = findViewById(R.id.settingsShowWarLogOnScreen);
+            this.classicInterface = findViewById(R.id.settingsClassicInterface);
+            this.useMinimapAllyColors = findViewById(R.id.settingsUseMinimapAllyColors);
+            this.showUnitWaypoints = findViewById(R.id.settingsShowUnitWaypoints);
+            this.showUnitGroups = findViewById(R.id.settingsShowUnitGroups);
+            this.gestureZoom = findViewById(R.id.settingsGestureZoom);
+            this.useCircleSelect = findViewById(R.id.settingsUseCircleSelect);
+            this.smartSelection = findViewById(R.id.settingsSmartSelection);
+            this.quickRally = findViewById(R.id.settingsQuickRally);
+            this.doubleClickToAttackMove = findViewById(R.id.settingsDoubleClickToAttackMove);
+            this.zoomButton = findViewById(R.id.settingsZoomButton);
+            this.mouseSupport = findViewById(R.id.settingsMouseSupport);
+            this.keyboardSupport = findViewById(R.id.settingsKeyboardSupport);
+            this.forceEnglish = findViewById(R.id.settingsForceEnglish);
+            this.teamUnitCapSinglePlayer = findViewById(R.id.teamUnitCapSinglePlayer);
+            this.teamUnitCapHostedGame = findViewById(R.id.teamUnitCapHostedGame);
+            this.saveMultiplayerReplays = findViewById(R.id.settingsSaveMultiplayerReplays);
+            this.replaysShowRecordedChat = findViewById(R.id.settingsReplaysShowRecordedChat);
+            this.allowGameRecording = findViewById(R.id.settingsAllowGameRecording);
+            this.showHp = findViewById(R.id.settingsShowHp);
+            this.showFps = findViewById(R.id.settingsShowFps);
+            this.newRender = findViewById(R.id.settingsNewRender);
+            this.shaderEffects = findViewById(R.id.settingsShaderEffects);
+            this.teamShaders = findViewById(R.id.settingsTeamShaders);
+            this.sendReports = findViewById(R.id.settingsSendReports);
+            this.showUnitIcons = findViewById(R.id.settingsShowUnitIcons);
+            this.debugOptions = findViewById(R.id.settingsDebugOptions);
+            this.confKeys = findViewById(R.id.settingsConfKeys);
+            this.aiDifficulty = findViewById(R.id.aiDifficulty);
+            this.storageType = findViewById(R.id.storageType);
+            this.networkPort = findViewById(R.id.settingsNetworkPort);
+            this.udpInMultiplayer = findViewById(R.id.settingsUdpInMultiplayer);
+            this.showMapPingsOnBattlefield = findViewById(R.id.settingsShowMapPingsOnBattlefield);
+            this.showMapPingsOnMinimap = findViewById(R.id.settingsShowMapPingsOnMinimap);
+            this.showPlayerChatInGame = findViewById(R.id.settingsShowPlayerChatInGame);
+            this.autoSaveEnabled = findViewById(R.id.settingsAutoSaveEnabled);
+            this.storageLayout = findViewById(R.id.settingsStorageLayout);
+            this.setupExternalFolder = findViewById(R.id.settingsSetupExternalFolder);
+            this.externalFolderInfo = findViewById(R.id.settingsExternalFolderInfo);
+            this.enableSounds.setChecked(this.settings.enableSounds);
+            this.musicVolume.setProgress((int) (this.settings.musicVolume * 100.0f));
+            this.musicVolumeText.setText(this.musicVolume.getProgress() + "%");
+            this.gameVolume.setProgress((int) (this.settings.gameVolume * 100.0f));
+            this.gameVolumeText.setText(this.gameVolume.getProgress() + "%");
+            this.interfaceVolume.setProgress((int) (this.settings.interfaceVolume * 100.0f));
+            this.interfaceVolumeText.setText(this.interfaceVolume.getProgress() + "%");
+            this.scrollSpeed.setProgress((int) ((this.settings.scrollSpeed * 100.0f) - 20.0f));
+            this.scrollSpeedText.setText((this.scrollSpeed.getProgress() + 20) + "%");
+            this.batterySaving.setChecked(this.settings.batterySaving);
+            this.highRefreshRate.setChecked(this.settings.highRefreshRate);
+            this.unlockedScreenRotation.setChecked(this.settings.unlockedScreenRotation);
+            this.renderBackground.setChecked(this.settings.renderBackground);
+            this.renderExtraLayers.setChecked(this.settings.renderExtraLayers);
+            this.immersiveFullScreen.setChecked(this.settings.immersiveFullScreen);
+            this.renderDoubleScale.setChecked(this.settings.renderDoubleScale);
+            this.renderClouds.setChecked(this.settings.renderClouds);
+            this.showWarLogOnScreen.setChecked(this.settings.showWarLogOnScreen);
+            this.classicInterface.setChecked(this.settings.classicInterface);
+            this.showUnitWaypoints.setChecked(this.settings.showUnitWaypoints);
+            this.useMinimapAllyColors.setChecked(this.settings.useMinimapAllyColors);
+            this.showUnitGroups.setChecked(this.settings.showUnitGroups);
+            this.allowGameRecording.setChecked(this.settings.allowGameRecording);
+            this.allowGameRecording.setVisibility(8);
+            this.showHp.setChecked(this.settings.showHp);
+            this.showUnitIcons.setChecked(this.settings.showUnitIcons);
+            this.gestureZoom.setChecked(this.settings.gestureZoom);
+            this.useCircleSelect.setChecked(this.settings.useCircleSelect);
+            this.smartSelection.setChecked(this.settings.smartSelection_v2);
+            this.quickRally.setChecked(this.settings.quickRally);
+            this.doubleClickToAttackMove.setChecked(this.settings.doubleClickToAttackMove);
+            this.zoomButton.setChecked(this.settings.showZoomButton);
+            this.mouseSupport.setChecked(this.settings.mouseSupport);
+            this.keyboardSupport.setChecked(this.settings.keyboardSupport);
+            this.forceEnglish.setChecked(this.settings.forceEnglish);
+            setSpinnerByValue(this.teamUnitCapSinglePlayer, this.unitCapOptions, this.settings.teamUnitCapSinglePlayer, 1);
+            setSpinnerByValue(this.teamUnitCapHostedGame, this.unitCapOptions, this.settings.teamUnitCapHostedGame, 1);
+            this.saveMultiplayerReplays.setChecked(this.settings.saveMultiplayerReplays);
+            this.replaysShowRecordedChat.setChecked(this.settings.replaysShowRecordedChat);
+            if (!class_1061.field_6312) {
+                this.saveMultiplayerReplays.setVisibility(8);
+                this.replaysShowRecordedChat.setVisibility(8);
+            }
+            if (this.settings.saveMultiplayerReplays && !class_84.method_129(this)) {
+                this.saveMultiplayerReplays.setChecked(false);
+                this.replaysDisabledByPermission = true;
+            }
+            this.saveMultiplayerReplays.setOnCheckedChangeListener(new class_211(this));
+            this.showFps.setChecked(this.settings.showFps);
+            this.newRender.setChecked(this.settings.newRender);
+            this.shaderEffects.setChecked(this.settings.shaderEffects);
+            this.teamShaders.setChecked(this.settings.teamShaders);
+            this.sendReports.setChecked(this.settings.sendReports);
+            this.networkPort.setText(Integer.toString(this.settings.networkPort));
+            this.udpInMultiplayer.setChecked(this.settings.udpInMultiplayer);
+            this.showMapPingsOnBattlefield.setChecked(this.settings.showMapPingsOnBattlefield);
+            this.showMapPingsOnMinimap.setChecked(this.settings.showMapPingsOnMinimap);
+            this.showPlayerChatInGame.setChecked(this.settings.showPlayerChatInGame);
+            this.autoSaveEnabled.setChecked(this.settings.autosaving);
+            this.aiDifficulty.setSelection(this.settings.aiDifficulty + 2);
+            class_900 class_900VarMethod_2173 = class_899.method_2173();
+            this.setupExternalFolder.setOnClickListener(new class_228(this));
+            if (!class_900VarMethod_2173.field_5114) {
+                this.setupExternalFolder.setVisibility(8);
+            }
+            this.storageType.setOnItemSelectedListener(new class_229(this));
+            updateStorageFields();
+            this.musicVolume.setOnSeekBarChangeListener(new class_230(this));
+            this.gameVolume.setOnSeekBarChangeListener(new class_231(this));
+            this.interfaceVolume.setOnSeekBarChangeListener(new class_232(this));
+            this.scrollSpeed.setOnSeekBarChangeListener(new class_233(this));
+            ((Button) findViewById(R.id.settingsDone)).setOnClickListener(new class_234(this));
+            ((Button) findViewById(R.id.settingsCancel)).setOnClickListener(new class_235(this));
+            ((Button) findViewById(R.id.settingsCredits)).setOnClickListener(new class_214(this));
+            Button button = findViewById(R.id.settingsMods);
+            if (class_1061.method_3076().field_6321) {
+                button.setVisibility(8);
+            } else {
+                button.setOnClickListener(new class_215(this));
+            }
+            this.confKeys.setOnClickListener(new class_216(this));
+            this.debugOptions.setOnClickListener(new class_217(this));
+            if (getIntent() != null && getIntent().getExtras() != null) {
+                string = getIntent().getExtras().getString(intentMode);
+            }
+            if (string != null) {
+                if (string.equals("setupExternalFolder")) {
+                    this.setupExternalFolderOnly = true;
+                    setupExternalSAFFolder();
+                } else {
+                    class_1061.method_3031("Unknown setup mode: ".concat(string));
+                }
+            }
+            this.newRender.setOnCheckedChangeListener(new class_222(this));
+            updateHiddenFields();
+        }
+    }
+
+    public boolean allowExternalStorageType() {
+        return !class_1061.method_2982() || class_1061.method_3076().field_6345.externalSAFWorking;
+    }
+
+    public void saveStorageType() {
+        this.settings.storageType = this.storageType.getSelectedItemPosition();
+        class_899.method_2169();
+    }
+
+    public void updateStorageFields() {
+        class_1061.method_3043("updateStorageFields()");
+        this.storageType.setSelection(this.settings.storageType);
+        class_1061.method_3076();
+        this.externalFolderInfo.setText(getStorageExternalFolderInfo(VariableScope.nullOrMissingString));
+    }
+
     public void setSpinnerByValue(Spinner spinner, int[] iArr, int i, int i2) {
         for (int i3 = 0; i3 < iArr.length; i3++) {
             if (iArr[i3] == i) {
@@ -796,11 +801,8 @@ public class SettingsActivity extends class_1 {
         return iArr[selectedItemPosition];
     }
 
-    public static void setupInternalFolder() {
-    }
-
     public void setupExternalSAFFolder() {
-        class_84.method_107(this, 9, true, "Select a Rusted Warfare Folder to use", Uri.parse("content://com.android.externalstorage.documents/document/primary%3A".concat(String.valueOf("rustedWarfare".replace("//", "%2F")))));
+        class_84.method_107(this, 9, true, "Select a Rusted Warfare Folder to use", Uri.parse("content://com.android.externalstorage.documents/document/primary%3A".concat("rustedWarfare".replace("//", "%2F"))));
     }
 
     @Override
@@ -817,13 +819,6 @@ public class SettingsActivity extends class_1 {
                 super.onActivityResult(i, i2, intent);
                 break;
         }
-    }
-
-    public static void updatedLinkedExternalSAFFolder() {
-    }
-
-    public static double benchmarkSafFolder(String str) {
-        return 0.0d;
     }
 
     public void updateHiddenFields() {

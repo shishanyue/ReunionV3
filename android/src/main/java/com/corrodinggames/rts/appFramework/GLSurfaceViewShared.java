@@ -4,6 +4,7 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+
 import java.lang.ref.WeakReference;
 
 public class GLSurfaceViewShared extends SurfaceView implements SurfaceHolder.Callback2 {
@@ -24,6 +25,7 @@ public class GLSurfaceViewShared extends SurfaceView implements SurfaceHolder.Ca
     public static final String TAG = "GLSurfaceView";
     public static final long Trace_TRACE_TAG_VIEW = 8;
     public static final class_258 sGLThreadManager = new class_258();
+    public final WeakReference mThisWeakRef;
     public int mDebugFlags;
     public boolean mDetached;
     public class_253 mEGLConfigChooser;
@@ -34,7 +36,6 @@ public class GLSurfaceViewShared extends SurfaceView implements SurfaceHolder.Ca
     public class_259 mGLWrapper;
     public boolean mPreserveEGLContextOnPause;
     public class_261 mRenderer;
-    public final WeakReference mThisWeakRef;
 
 
     public GLSurfaceViewShared(Context context) {
@@ -49,7 +50,7 @@ public class GLSurfaceViewShared extends SurfaceView implements SurfaceHolder.Ca
         init();
     }
 
-    public void finalize() throws Throwable {
+    protected void finalize() throws Throwable {
         try {
             class_257 class_257Var = this.mGLThread;
             if (class_257Var != null) {
@@ -68,20 +69,20 @@ public class GLSurfaceViewShared extends SurfaceView implements SurfaceHolder.Ca
         this.mGLWrapper = class_259Var;
     }
 
-    public void setDebugFlags(int i) {
-        this.mDebugFlags = i;
-    }
-
     public int getDebugFlags() {
         return this.mDebugFlags;
     }
 
-    public void setPreserveEGLContextOnPause(boolean z) {
-        this.mPreserveEGLContextOnPause = z;
+    public void setDebugFlags(int i) {
+        this.mDebugFlags = i;
     }
 
     public boolean getPreserveEGLContextOnPause() {
         return this.mPreserveEGLContextOnPause;
+    }
+
+    public void setPreserveEGLContextOnPause(boolean z) {
+        this.mPreserveEGLContextOnPause = z;
     }
 
     public void setRenderer(class_261 class_261Var) {
@@ -130,12 +131,12 @@ public class GLSurfaceViewShared extends SurfaceView implements SurfaceHolder.Ca
         this.mEGLContextClientVersion = i;
     }
 
-    public void setRenderMode(int i) {
-        this.mGLThread.method_175(i);
-    }
-
     public int getRenderMode() {
         return this.mGLThread.method_177();
+    }
+
+    public void setRenderMode(int i) {
+        this.mGLThread.method_175(i);
     }
 
     public boolean isSurfaceBadHack() {

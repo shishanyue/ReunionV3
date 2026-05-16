@@ -79,7 +79,7 @@ public class FlowLayout extends ViewGroup {
         }
     }
 
-    @Override 
+    @Override
     public boolean drawChild(Canvas canvas, View view, long j) {
         boolean zDrawChild = super.drawChild(canvas, view, j);
         LayoutParams layoutParams = (LayoutParams) view.getLayoutParams();
@@ -96,12 +96,12 @@ public class FlowLayout extends ViewGroup {
         return zDrawChild;
     }
 
-    @Override 
+    @Override
     public boolean checkLayoutParams(ViewGroup.LayoutParams layoutParams) {
         return layoutParams instanceof LayoutParams;
     }
 
-    @Override 
+    @Override
     public LayoutParams generateDefaultLayoutParams() {
         return new LayoutParams(-2, -2);
     }

@@ -17,6 +17,7 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
 import com.corrodinggames.rts.R;
 import com.corrodinggames.rts.appFramework.android.AndroidSAF;
 import com.corrodinggames.rts.game.units.custom.class_472;
@@ -28,6 +29,7 @@ import com.corrodinggames.rts.gameFramework.i.class_991;
 import com.corrodinggames.rts.gameFramework.i.class_992;
 import com.corrodinggames.rts.gameFramework.i.class_994;
 import com.corrodinggames.rts.gameFramework.utility.a.class_1290;
+
 import java.io.File;
 import java.io.FileDescriptor;
 import java.io.FileInputStream;
@@ -44,274 +46,10 @@ public class ModsActivity extends class_1 {
     public static final String progressDialogBaseMessage = "Loading selected mod data...";
     public static boolean refreshButtonBlocked = false;
     public static Object refreshLock = new Object();
-    public ProgressDialog progressDialog;
     public final Handler uiHandler = new Handler();
+    public ProgressDialog progressDialog;
     public class_246 linkModFolder = new class_115(this);
     public Runnable fileAddedCallback = new class_116(this);
-
-    @Override
-    public void finish() {
-        super.finish();
-        class_84.method_133(this, false);
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-        setup(false);
-        class_1061.method_3076();
-        class_84.method_115(this, false);
-    }
-
-    @Override
-    public void onPause() {
-        super.onPause();
-    }
-
-    @Override
-    public void onCreate(Bundle bundle) {
-        super.onCreate(bundle);
-        setTitle("Mods");
-        if (class_84.method_127(this, false)) {
-            setContentView(R.layout.mods);
-            class_84.method_120(getWindow().getDecorView().findViewById(android.R.id.content));
-            setup(true);
-        }
-    }
-
-    public void setup(boolean z) {
-        String str;
-        String str2;
-        class_1061 class_1061VarMethod_3037 = class_1061.method_3037(this);
-        if (!class_84.method_135(this)) {
-            finish();
-            return;
-        }
-        if (z) {
-            class_84.method_132(this);
-        }
-        ((TextView) findViewById(R.id.messageInfo)).setVisibility(8);
-        TextView textView = (TextView) findViewById(R.id.modExtraTextInfo);
-        if (class_1061VarMethod_3037.field_6345.storageType != 0) {
-            str = VariableScope.nullOrMissingString;
-        } else {
-            str = "Note: Using internal game storage only (Switch to external storage in game settings)";
-        }
-        if (class_991.field_5779 != null) {
-            str = str + "\n" + class_991.field_5779;
-        }
-        textView.setText(str);
-        ArrayList arrayList = new ArrayList();
-        LinearLayout linearLayout = (LinearLayout) findViewById(R.id.modsContainer);
-        class_991 class_991Var = class_1061VarMethod_3037.field_6354;
-        linearLayout.removeAllViews();
-        for (Object modObj : class_991Var.method_2677()) {
-            class_992 class_992Var = (class_992) modObj;
-            LinearLayout linearLayout2 = new LinearLayout(getBaseContext());
-            linearLayout2.setOrientation(1);
-            linearLayout2.setGravity(17);
-            linearLayout2.setBackgroundColor(Color.argb(30, 0, 0, 0));
-            linearLayout2.setPadding(2, 7, 2, 7);
-            LinearLayout linearLayout3 = new LinearLayout(getBaseContext());
-            linearLayout3.setOrientation(1);
-            linearLayout3.setGravity(17);
-            linearLayout3.setBackgroundColor(Color.argb(40, 255, 255, 255));
-            linearLayout3.setMinimumHeight(2);
-            linearLayout2.addView(linearLayout3);
-            class_1061.method_3043("found mod: " + class_992Var.field_5807 + " - " + (!class_992Var.field_5810));
-            CheckBox checkBox = new CheckBox(getBaseContext());
-            checkBox.setChecked(!class_992Var.field_5810);
-            checkBox.setText(class_992Var.method_2679());
-            checkBox.setTextSize(1, 22.0f);
-            checkBox.setTextColor(-1);
-            linearLayout2.addView(checkBox);
-            checkBox.setTag(class_992Var.field_5809);
-            linearLayout2.setTag(class_992Var.field_5809);
-            registerForContextMenu(checkBox);
-            registerForContextMenu(linearLayout2);
-            class_120 class_120Var = new class_120(this);
-            class_120Var.field_324 = checkBox;
-            class_120Var.field_325 = class_992Var;
-            arrayList.add(class_120Var);
-            if (class_992Var.field_5823 != null) {
-                StringBuilder sb = new StringBuilder("  ");
-                if (class_992Var.field_5823 == null) {
-                    str2 = VariableScope.nullOrMissingString;
-                } else {
-                    str2 = VariableScope.nullOrMissingString + class_992Var.field_5823;
-                }
-                String str3 = "RAM:" + class_992Var.method_2692();
-                if (class_992Var.field_5816 != null) {
-                    str3 = str3 + " Storage: slow external unpacked";
-                }
-                if (class_1061.method_2982() && class_992Var.field_5819 != null && class_899.method_2165(class_992Var.field_5819) && !class_992Var.field_5812) {
-                    str3 = str3 + " Warning: slow external storage";
-                }
-                String string = sb.append(str2 + "\n (" + str3 + ")").toString();
-                TextView textView2 = new TextView(getBaseContext());
-                textView2.setText(string);
-                textView2.setTextSize(1, 14.0f);
-                textView2.setTextColor(-1);
-                linearLayout2.addView(textView2);
-            }
-            if (class_992Var.field_5800 != null) {
-                TextView textView3 = new TextView(getBaseContext());
-                textView3.setText(class_992Var.field_5800);
-                textView3.setTextSize(1, 14.0f);
-                textView3.setTextColor(Color.argb(255, 219, 143, 143));
-                textView3.setBackgroundColor(Color.argb(108, 0, 0, 0));
-                linearLayout2.addView(textView3);
-            }
-            String strMethod_2689 = class_992Var.method_2689();
-            if (strMethod_2689 != null) {
-                TextView textView4 = new TextView(getBaseContext());
-                textView4.setText(strMethod_2689);
-                textView4.setTextSize(1, 14.0f);
-                textView4.setTextColor(-16711936);
-                linearLayout2.addView(textView4);
-            }
-            linearLayout.addView(linearLayout2);
-        }
-        ((Button) findViewById(R.id.modsClose)).setOnClickListener(new class_99(this));
-        ((Button) findViewById(R.id.modsSave)).setOnClickListener(new class_107(this, arrayList));
-        ((Button) findViewById(R.id.modsCreateFolder)).setOnClickListener(new class_108(this));
-        ((Button) findViewById(R.id.modsImportMod)).setOnClickListener(new class_109(this));
-        ((Button) findViewById(R.id.modsLinkModFolder)).setOnClickListener(new class_110(this));
-        ((Button) findViewById(R.id.modsReload)).setOnClickListener(new class_114(this, arrayList));
-        ProgressDialog progressDialog = this.progressDialog;
-        if (progressDialog != null && progressDialog.isShowing()) {
-            try {
-                dismissDialog(0);
-            } catch (IllegalArgumentException e) {
-                class_1061.method_3010("dismissDialog failed", e);
-            }
-        }
-    }
-
-    public boolean modsSave(ArrayList<class_120> arrayList, boolean z) {
-        class_1061.method_3043("Saving mods");
-        Iterator<class_120> it = arrayList.iterator();
-        while (true) {
-            boolean z2 = false;
-            if (!it.hasNext()) {
-                break;
-            }
-            class_120 class_120Var = it.next();
-            class_992 class_992Var = class_120Var.field_325;
-            class_992Var.field_5810 = !class_120Var.field_324.isChecked();
-            StringBuilder sbAppend = new StringBuilder("mod: ").append(class_992Var.field_5807).append(" - ");
-            if (!class_992Var.field_5810) {
-                z2 = true;
-            }
-            class_1061.method_3043(sbAppend.append(z2).toString());
-        }
-        class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
-        class_1061VarMethod_3076.field_6354.method_2666();
-        class_1061VarMethod_3076.field_6345.save();
-        int iMethod_2649 = class_1061VarMethod_3076.field_6354.method_2649();
-        if (class_1061VarMethod_3076.field_6352.field_5850) {
-            class_1061.method_3043("savesMods: in network game");
-            class_1061VarMethod_3076.method_3056("You are currently in a network game, mods changes will be remembered and applied on next game");
-        } else if (class_472.method_1148(true)) {
-            if (iMethod_2649 == 0) {
-                int iMethod_2662 = class_1061VarMethod_3076.field_6354.method_2662();
-                if (z) {
-                    class_1061VarMethod_3076.method_3056("Mod changes saved. " + iMethod_2662 + " selected mods will be used in the next game.");
-                }
-            } else {
-                if (!z) {
-                    return false;
-                }
-                class_1061VarMethod_3076.method_3056("Mod changes saved. But " + iMethod_2649 + " mods are not loaded. Click 'Reload Mod Data' or restart the game to use these mods.");
-                return false;
-            }
-        } else {
-            if (!z) {
-                return false;
-            }
-            class_1061VarMethod_3076.method_3056("Mods errors found");
-            return false;
-        }
-        return true;
-    }
-
-    public void createAndShowFolder(String str) {
-        class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
-        String strMethod_2178 = class_899.method_2178(str);
-        if (!strMethod_2178.endsWith(File.separator)) {
-            new StringBuilder().append(strMethod_2178).append(File.separator);
-        }
-        String strMethod_2176 = class_899.method_2176(strMethod_2178);
-        File file = new File(strMethod_2178);
-        if (!class_899.method_2186(file.getAbsolutePath())) {
-            if (class_899.method_2190(file.getAbsolutePath())) {
-                if (class_899.method_2186(file.getAbsolutePath()) && class_899.method_2180(file.getAbsolutePath())) {
-                    if (!class_1061VarMethod_3076.field_6345.externalSAFWorking) {
-                        class_1061VarMethod_3076.method_3056("Created folder: " + strMethod_2176 + ". (Note: " + ("Failed to read: " + class_1061VarMethod_3076.field_6345.externalSAFPathShown + " - Folder might have moved or permission expired. Please setup again under in-game settings.") + ")");
-                        return;
-                    }
-                    class_1061VarMethod_3076.method_3056("Created folder: ".concat(String.valueOf(strMethod_2176)));
-                    return;
-                }
-                class_1061VarMethod_3076.method_3056("Error creating folder: ".concat(String.valueOf(strMethod_2176)));
-                return;
-            }
-            class_1061VarMethod_3076.method_3056("Failed to create: ".concat(String.valueOf(strMethod_2176)));
-            return;
-        }
-        if (class_899.method_2180(file.getAbsolutePath())) {
-            if (!class_1061VarMethod_3076.field_6345.externalSAFWorking) {
-                class_1061VarMethod_3076.method_3056("Note: " + ("Failed to read: " + class_1061VarMethod_3076.field_6345.externalSAFPathShown + " - Folder might have moved or permission expired. Please setup again under in-game settings.") + ". Folder already created: " + strMethod_2176);
-                return;
-            }
-            class_1061VarMethod_3076.method_3056("Folder already created: ".concat(String.valueOf(strMethod_2176)));
-            return;
-        }
-        class_1061VarMethod_3076.method_3056("Mod path exist but is not a directory: ".concat(String.valueOf(strMethod_2176)));
-    }
-
-    @Override
-    public Dialog onCreateDialog(int i) {
-        switch (i) {
-            case 0:
-                ProgressDialog progressDialog = new ProgressDialog(this);
-                this.progressDialog = progressDialog;
-                progressDialog.setProgressStyle(0);
-                this.progressDialog.setMessage(progressDialogBaseMessage);
-                this.progressDialog.setCancelable(false);
-                return this.progressDialog;
-            default:
-                return null;
-        }
-    }
-
-    public void refreshModsInBackground() {
-        showDialog(0);
-        new Thread(new class_122(this)).start();
-    }
-
-    public void showFolderChooserForModLink() {
-        class_84.method_107(this, 6, false, "Select a Rusted Warfare Mod Folder to Import", null);
-    }
-
-    public void showFileChooserForImport() {
-        class_84.method_138(this);
-    }
-
-    @Override
-    public void onActivityResult(int i, int i2, Intent intent) {
-        switch (i) {
-            case 5:
-                onFileSelectResult(this, i, i2, intent, this.fileAddedCallback);
-                break;
-            case 6:
-                class_84.method_106(this, i, i2, intent, this.linkModFolder);
-                break;
-            default:
-                super.onActivityResult(i, i2, intent);
-                break;
-        }
-    }
 
     public static void addSafModUriString(String str) throws IOException {
         addSafModUri(Uri.parse(str));
@@ -326,7 +64,7 @@ public class ModsActivity extends class_1 {
         Iterator it = androidSAF.listByName(contextMethod_104, uriBuildDocumentUriUsingTree).iterator();
         boolean z = false;
         while (it.hasNext()) {
-            if ("mod-info.txt".equals((String) it.next())) {
+            if ("mod-info.txt".equals(it.next())) {
                 z = true;
             }
         }
@@ -340,7 +78,7 @@ public class ModsActivity extends class_1 {
         if (strMethod_3477 == null) {
             throw new IOException("Failed to link folder: " + strMethod_3476 + " - Check permissions.");
         }
-        class_1061.method_3043("safVirualPath: ".concat(String.valueOf(strMethod_3477)));
+        class_1061.method_3043("safVirualPath: ".concat(strMethod_3477));
         String strMethod_2328 = class_907.method_2328(uri.toString());
         if (name.contains("/")) {
             strSubstring = name.substring(name.lastIndexOf("/") + 1);
@@ -359,7 +97,7 @@ public class ModsActivity extends class_1 {
             class_119 class_119Var = new class_119();
             class_119Var.field_322 = uri;
             try {
-                class_1061.method_3043("File Uri: " + uri.toString());
+                class_1061.method_3043("File Uri: " + uri);
                 class_1061.method_3043("mimeType: ".concat(String.valueOf(activity.getContentResolver().getType(uri))));
                 Cursor cursorQuery = activity.getContentResolver().query(uri, null, null, null, null);
                 if (cursorQuery != null) {
@@ -696,6 +434,270 @@ public class ModsActivity extends class_1 {
             }
         }
         class_1061.method_3043("FILE_SELECT_CODE resultCode:".concat(String.valueOf(i2)));
+    }
+
+    @Override
+    public void finish() {
+        super.finish();
+        class_84.method_133(this, false);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        setup(false);
+        class_1061.method_3076();
+        class_84.method_115(this, false);
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+    }
+
+    @Override
+    public void onCreate(Bundle bundle) {
+        super.onCreate(bundle);
+        setTitle("Mods");
+        if (class_84.method_127(this, false)) {
+            setContentView(R.layout.mods);
+            class_84.method_120(getWindow().getDecorView().findViewById(android.R.id.content));
+            setup(true);
+        }
+    }
+
+    public void setup(boolean z) {
+        String str;
+        String str2;
+        class_1061 class_1061VarMethod_3037 = class_1061.method_3037(this);
+        if (!class_84.method_135(this)) {
+            finish();
+            return;
+        }
+        if (z) {
+            class_84.method_132(this);
+        }
+        findViewById(R.id.messageInfo).setVisibility(8);
+        TextView textView = findViewById(R.id.modExtraTextInfo);
+        if (class_1061VarMethod_3037.field_6345.storageType != 0) {
+            str = VariableScope.nullOrMissingString;
+        } else {
+            str = "Note: Using internal game storage only (Switch to external storage in game settings)";
+        }
+        if (class_991.field_5779 != null) {
+            str = str + "\n" + class_991.field_5779;
+        }
+        textView.setText(str);
+        ArrayList arrayList = new ArrayList();
+        LinearLayout linearLayout = findViewById(R.id.modsContainer);
+        class_991 class_991Var = class_1061VarMethod_3037.field_6354;
+        linearLayout.removeAllViews();
+        for (Object modObj : class_991Var.method_2677()) {
+            class_992 class_992Var = (class_992) modObj;
+            LinearLayout linearLayout2 = new LinearLayout(getBaseContext());
+            linearLayout2.setOrientation(1);
+            linearLayout2.setGravity(17);
+            linearLayout2.setBackgroundColor(Color.argb(30, 0, 0, 0));
+            linearLayout2.setPadding(2, 7, 2, 7);
+            LinearLayout linearLayout3 = new LinearLayout(getBaseContext());
+            linearLayout3.setOrientation(1);
+            linearLayout3.setGravity(17);
+            linearLayout3.setBackgroundColor(Color.argb(40, 255, 255, 255));
+            linearLayout3.setMinimumHeight(2);
+            linearLayout2.addView(linearLayout3);
+            class_1061.method_3043("found mod: " + class_992Var.field_5807 + " - " + (!class_992Var.field_5810));
+            CheckBox checkBox = new CheckBox(getBaseContext());
+            checkBox.setChecked(!class_992Var.field_5810);
+            checkBox.setText(class_992Var.method_2679());
+            checkBox.setTextSize(1, 22.0f);
+            checkBox.setTextColor(-1);
+            linearLayout2.addView(checkBox);
+            checkBox.setTag(class_992Var.field_5809);
+            linearLayout2.setTag(class_992Var.field_5809);
+            registerForContextMenu(checkBox);
+            registerForContextMenu(linearLayout2);
+            class_120 class_120Var = new class_120(this);
+            class_120Var.field_324 = checkBox;
+            class_120Var.field_325 = class_992Var;
+            arrayList.add(class_120Var);
+            if (class_992Var.field_5823 != null) {
+                StringBuilder sb = new StringBuilder("  ");
+                if (class_992Var.field_5823 == null) {
+                    str2 = VariableScope.nullOrMissingString;
+                } else {
+                    str2 = VariableScope.nullOrMissingString + class_992Var.field_5823;
+                }
+                String str3 = "RAM:" + class_992Var.method_2692();
+                if (class_992Var.field_5816 != null) {
+                    str3 = str3 + " Storage: slow external unpacked";
+                }
+                if (class_1061.method_2982() && class_992Var.field_5819 != null && class_899.method_2165(class_992Var.field_5819) && !class_992Var.field_5812) {
+                    str3 = str3 + " Warning: slow external storage";
+                }
+                String string = sb.append(str2 + "\n (" + str3 + ")").toString();
+                TextView textView2 = new TextView(getBaseContext());
+                textView2.setText(string);
+                textView2.setTextSize(1, 14.0f);
+                textView2.setTextColor(-1);
+                linearLayout2.addView(textView2);
+            }
+            if (class_992Var.field_5800 != null) {
+                TextView textView3 = new TextView(getBaseContext());
+                textView3.setText(class_992Var.field_5800);
+                textView3.setTextSize(1, 14.0f);
+                textView3.setTextColor(Color.argb(255, 219, 143, 143));
+                textView3.setBackgroundColor(Color.argb(108, 0, 0, 0));
+                linearLayout2.addView(textView3);
+            }
+            String strMethod_2689 = class_992Var.method_2689();
+            if (strMethod_2689 != null) {
+                TextView textView4 = new TextView(getBaseContext());
+                textView4.setText(strMethod_2689);
+                textView4.setTextSize(1, 14.0f);
+                textView4.setTextColor(-16711936);
+                linearLayout2.addView(textView4);
+            }
+            linearLayout.addView(linearLayout2);
+        }
+        ((Button) findViewById(R.id.modsClose)).setOnClickListener(new class_99(this));
+        ((Button) findViewById(R.id.modsSave)).setOnClickListener(new class_107(this, arrayList));
+        ((Button) findViewById(R.id.modsCreateFolder)).setOnClickListener(new class_108(this));
+        ((Button) findViewById(R.id.modsImportMod)).setOnClickListener(new class_109(this));
+        ((Button) findViewById(R.id.modsLinkModFolder)).setOnClickListener(new class_110(this));
+        ((Button) findViewById(R.id.modsReload)).setOnClickListener(new class_114(this, arrayList));
+        ProgressDialog progressDialog = this.progressDialog;
+        if (progressDialog != null && progressDialog.isShowing()) {
+            try {
+                dismissDialog(0);
+            } catch (IllegalArgumentException e) {
+                class_1061.method_3010("dismissDialog failed", e);
+            }
+        }
+    }
+
+    public boolean modsSave(ArrayList<class_120> arrayList, boolean z) {
+        class_1061.method_3043("Saving mods");
+        Iterator<class_120> it = arrayList.iterator();
+        while (true) {
+            boolean z2 = false;
+            if (!it.hasNext()) {
+                break;
+            }
+            class_120 class_120Var = it.next();
+            class_992 class_992Var = class_120Var.field_325;
+            class_992Var.field_5810 = !class_120Var.field_324.isChecked();
+            StringBuilder sbAppend = new StringBuilder("mod: ").append(class_992Var.field_5807).append(" - ");
+            if (!class_992Var.field_5810) {
+                z2 = true;
+            }
+            class_1061.method_3043(sbAppend.append(z2).toString());
+        }
+        class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
+        class_1061VarMethod_3076.field_6354.method_2666();
+        class_1061VarMethod_3076.field_6345.save();
+        int iMethod_2649 = class_1061VarMethod_3076.field_6354.method_2649();
+        if (class_1061VarMethod_3076.field_6352.field_5850) {
+            class_1061.method_3043("savesMods: in network game");
+            class_1061VarMethod_3076.method_3056("You are currently in a network game, mods changes will be remembered and applied on next game");
+        } else if (class_472.method_1148(true)) {
+            if (iMethod_2649 == 0) {
+                int iMethod_2662 = class_1061VarMethod_3076.field_6354.method_2662();
+                if (z) {
+                    class_1061VarMethod_3076.method_3056("Mod changes saved. " + iMethod_2662 + " selected mods will be used in the next game.");
+                }
+            } else {
+                if (!z) {
+                    return false;
+                }
+                class_1061VarMethod_3076.method_3056("Mod changes saved. But " + iMethod_2649 + " mods are not loaded. Click 'Reload Mod Data' or restart the game to use these mods.");
+                return false;
+            }
+        } else {
+            if (!z) {
+                return false;
+            }
+            class_1061VarMethod_3076.method_3056("Mods errors found");
+            return false;
+        }
+        return true;
+    }
+
+    public void createAndShowFolder(String str) {
+        class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
+        String strMethod_2178 = class_899.method_2178(str);
+        if (!strMethod_2178.endsWith(File.separator)) {
+            new StringBuilder().append(strMethod_2178).append(File.separator);
+        }
+        String strMethod_2176 = class_899.method_2176(strMethod_2178);
+        File file = new File(strMethod_2178);
+        if (!class_899.method_2186(file.getAbsolutePath())) {
+            if (class_899.method_2190(file.getAbsolutePath())) {
+                if (class_899.method_2186(file.getAbsolutePath()) && class_899.method_2180(file.getAbsolutePath())) {
+                    if (!class_1061VarMethod_3076.field_6345.externalSAFWorking) {
+                        class_1061VarMethod_3076.method_3056("Created folder: " + strMethod_2176 + ". (Note: " + ("Failed to read: " + class_1061VarMethod_3076.field_6345.externalSAFPathShown + " - Folder might have moved or permission expired. Please setup again under in-game settings.") + ")");
+                        return;
+                    }
+                    class_1061VarMethod_3076.method_3056("Created folder: ".concat(String.valueOf(strMethod_2176)));
+                    return;
+                }
+                class_1061VarMethod_3076.method_3056("Error creating folder: ".concat(String.valueOf(strMethod_2176)));
+                return;
+            }
+            class_1061VarMethod_3076.method_3056("Failed to create: ".concat(String.valueOf(strMethod_2176)));
+            return;
+        }
+        if (class_899.method_2180(file.getAbsolutePath())) {
+            if (!class_1061VarMethod_3076.field_6345.externalSAFWorking) {
+                class_1061VarMethod_3076.method_3056("Note: " + ("Failed to read: " + class_1061VarMethod_3076.field_6345.externalSAFPathShown + " - Folder might have moved or permission expired. Please setup again under in-game settings.") + ". Folder already created: " + strMethod_2176);
+                return;
+            }
+            class_1061VarMethod_3076.method_3056("Folder already created: ".concat(String.valueOf(strMethod_2176)));
+            return;
+        }
+        class_1061VarMethod_3076.method_3056("Mod path exist but is not a directory: ".concat(String.valueOf(strMethod_2176)));
+    }
+
+    @Override
+    public Dialog onCreateDialog(int i) {
+        switch (i) {
+            case 0:
+                ProgressDialog progressDialog = new ProgressDialog(this);
+                this.progressDialog = progressDialog;
+                progressDialog.setProgressStyle(0);
+                this.progressDialog.setMessage(progressDialogBaseMessage);
+                this.progressDialog.setCancelable(false);
+                return this.progressDialog;
+            default:
+                return null;
+        }
+    }
+
+    public void refreshModsInBackground() {
+        showDialog(0);
+        new Thread(new class_122(this)).start();
+    }
+
+    public void showFolderChooserForModLink() {
+        class_84.method_107(this, 6, false, "Select a Rusted Warfare Mod Folder to Import", null);
+    }
+
+    public void showFileChooserForImport() {
+        class_84.method_138(this);
+    }
+
+    @Override
+    public void onActivityResult(int i, int i2, Intent intent) {
+        switch (i) {
+            case 5:
+                onFileSelectResult(this, i, i2, intent, this.fileAddedCallback);
+                break;
+            case 6:
+                class_84.method_106(this, i, i2, intent, this.linkModFolder);
+                break;
+            default:
+                super.onActivityResult(i, i2, intent);
+                break;
+        }
     }
 
     /* JADX WARN: Removed duplicated region for block: B:19:0x006e  */

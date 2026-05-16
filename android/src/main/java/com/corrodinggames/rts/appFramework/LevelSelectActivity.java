@@ -24,6 +24,7 @@ import android.widget.LinearLayout;
 import android.widget.ListAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
+
 import com.corrodinggames.rts.R;
 import com.corrodinggames.rts.game.a.class_263;
 import com.corrodinggames.rts.game.class_313;
@@ -37,6 +38,7 @@ import com.corrodinggames.rts.gameFramework.h.class_988;
 import com.corrodinggames.rts.gameFramework.i.class_992;
 import com.corrodinggames.rts.gameFramework.j.class_1001;
 import com.corrodinggames.rts.gameFramework.m.class_1189;
+
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
@@ -49,6 +51,7 @@ public class LevelSelectActivity extends class_1 {
     public static final int LOADING_DIALOG = 0;
     public static class_1189 missingMapThumb;
     public static class_1189 toolargethumb;
+    public final Handler uiHandler = new Handler();
     public Spinner aiCountSpinner;
     public Spinner aiDifficulty;
     public String currentMapPath;
@@ -62,12 +65,120 @@ public class LevelSelectActivity extends class_1 {
     public Button modsImportMod;
     public ProgressDialog progressDialog;
     public boolean skirmish;
-    public final Handler uiHandler = new Handler();
     public class_59 levelAdapter = new class_59(this);
     public boolean wasHidden = true;
     public Runnable fileAddedCallback = new class_55(this);
     public Handler refreshLevelsHandler = new Handler();
     public Runnable refreshLevelsRunnable = new class_47(this);
+
+    public static String convertFilePathToFileName(String str) {
+        if (str == null) {
+            return null;
+        }
+        if (str.contains("/MOD|")) {
+            return str.substring(str.indexOf("/MOD|"));
+        }
+        if (str.contains("/NEW_PATH|")) {
+            return str.substring(str.indexOf("/NEW_PATH|"));
+        }
+        String[] parts = str.split("/");
+        return parts[parts.length - 1];
+    }
+
+    public static boolean isAvailableInDemo(String str, String str2) {
+        Matcher matcher = Pattern.compile(".*\\[(.*)\\].*").matcher(str);
+        if (matcher.matches()) {
+            if ((matcher.group(1).toLowerCase(Locale.ENGLISH) + "|").contains("demo|")) {
+                return true;
+            }
+        }
+        return class_899.method_2186(str2.replace(".tmx", VariableScope.nullOrMissingString) + "_demo");
+    }
+
+    public static String convertLevelFileNameForDisplay(String str) {
+        return class_84.method_131(str);
+    }
+
+    public static boolean isCustomMapOrFolder(String str) {
+        return str != null && str.contains("/SD/");
+    }
+
+    public static boolean isMapSkirmish(String str) {
+        return str.contains("skirmish/");
+    }
+
+    public static boolean isMapCustom(String str) {
+        return str.contains("SD/");
+    }
+
+    public static void loadSinglePlayerMapRaw(String str, boolean z, int i, int i2, boolean z2, boolean z3) {
+        int i3;
+        class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
+        class_1061VarMethod_3076.field_6347.method_2551();
+        if (z || z3) {
+            class_1061VarMethod_3076.method_2961();
+            synchronized (class_1061VarMethod_3076) {
+                class_1061VarMethod_3076.field_6471 = null;
+                class_1061VarMethod_3076.field_6470 = str;
+                int i4 = class_324.field_1448 - 1;
+                int iMethod_123 = class_84.method_123(str);
+                class_1061.method_3043("Max teams on map: " + str + " = " + iMethod_123);
+                if (iMethod_123 > 0 && (i3 = iMethod_123 - 1) < i4) {
+                    i4 = i3;
+                }
+                class_324.method_543();
+                class_1061VarMethod_3076.field_6373 = new class_313(0);
+                class_1061VarMethod_3076.field_6373.field_1468 = "Player";
+                int i5 = 0;
+                int i6 = 0;
+                while (i5 <= 1) {
+                    for (int i7 = 1; i7 <= i4; i7++) {
+                        boolean z4 = i7 % 2 == 0 || i5 == 1;
+                        if (i6 < i2 && z4 && class_324.method_526(i7) == null) {
+                            class_263 class_263Var = new class_263(i7);
+                            class_263Var.field_1468 = "AI";
+                            class_263Var.field_1464 = 0;
+                            i6++;
+                        }
+                    }
+                    i5++;
+                }
+                class_1061.method_3043("Allies: " + i6 + "/" + i2);
+                int i8 = 0;
+                int i9 = 0;
+                while (i8 <= 1) {
+                    for (int i10 = 1; i10 <= i4; i10++) {
+                        boolean z5 = i10 % 2 == 1 || i8 == 1;
+                        if (!z2) {
+                            z5 = true;
+                        }
+                        if (i9 < i - i2 && z5 && class_324.method_526(i10) == null) {
+                            class_263 class_263Var2 = new class_263(i10);
+                            class_263Var2.field_1468 = "AI";
+                            i9++;
+                            if (z2) {
+                                class_263Var2.field_1464 = 1;
+                            }
+                        }
+                    }
+                    i8++;
+                }
+                class_1061VarMethod_3076.field_6352.method_2700();
+                if (!z3) {
+                    class_1061VarMethod_3076.method_3013(false, class_768.field_4200);
+                }
+            }
+            return;
+        }
+        class_1061VarMethod_3076.method_2961();
+        synchronized (class_1061VarMethod_3076) {
+            class_1061VarMethod_3076.field_6471 = null;
+            class_1061VarMethod_3076.field_6470 = str;
+        }
+        if (!z3) {
+            class_1061VarMethod_3076.method_3013(true, class_768.field_4200);
+        }
+    }
 
     @Override
     public void finish() {
@@ -116,41 +227,6 @@ public class LevelSelectActivity extends class_1 {
         }
     }
 
-    public static String convertFilePathToFileName(String str) {
-        if (str == null) {
-            return null;
-        }
-        if (str.contains("/MOD|")) {
-            return str.substring(str.indexOf("/MOD|"));
-        }
-        if (str.contains("/NEW_PATH|")) {
-            return str.substring(str.indexOf("/NEW_PATH|"));
-        }
-        String[] parts = str.split("/");
-        return parts[parts.length - 1];
-    }
-
-    public static boolean isAvailableInDemo(String str, String str2) {
-        Matcher matcher = Pattern.compile(".*\\[(.*)\\].*").matcher(str);
-        if (matcher.matches()) {
-            if ((matcher.group(1).toLowerCase(Locale.ENGLISH) + "|").contains("demo|")) {
-                return true;
-            }
-        }
-        return class_899.method_2186(new StringBuilder().append(str2.replace(".tmx", VariableScope.nullOrMissingString)).append("_demo").toString());
-    }
-
-    public static String convertLevelFileNameForDisplay(String str) {
-        return class_84.method_131(str);
-    }
-
-    public static boolean isCustomMapOrFolder(String str) {
-        if (str != null && str.contains("/SD/")) {
-            return true;
-        }
-        return false;
-    }
-
     public void setup() {
         String string;
         this.wasHidden = false;
@@ -174,7 +250,7 @@ public class LevelSelectActivity extends class_1 {
         }
         if (zIsCustomMapOrFolder) {
             this.modsImportMod.setVisibility(0);
-            TextView textView = (TextView) findViewById(R.id.messageInfo);
+            TextView textView = findViewById(R.id.messageInfo);
             String storageInfoAndWarnings = SettingsActivity.getStorageInfoAndWarnings("/maps");
             if (storageInfoAndWarnings != null) {
                 textView.setVisibility(0);
@@ -194,7 +270,7 @@ public class LevelSelectActivity extends class_1 {
             this.gameModeSpinner.setVisibility(0);
             this.aiCountSpinner.setSelection(3);
         }
-        GridView gridView = (GridView) findViewById(R.id.levelHolder);
+        GridView gridView = findViewById(R.id.levelHolder);
         if (isCustomMapOrFolder(string) && !class_84.method_135(this)) {
             finish();
             return;
@@ -215,7 +291,7 @@ public class LevelSelectActivity extends class_1 {
             this.levelPaths.add(str);
             this.levelViews.add(null);
         }
-        gridView.setAdapter((ListAdapter) this.levelAdapter);
+        gridView.setAdapter(this.levelAdapter);
         gridView.setOnItemClickListener(new class_48(this));
         if (zIsCustomMapOrFolder) {
             registerForContextMenu(gridView);
@@ -245,8 +321,8 @@ public class LevelSelectActivity extends class_1 {
     }
 
     public void setupViewForLevel(View view, String str) {
-        Button button = (Button) view.findViewById(R.id.reservedNamedId1);
-        DynamicImageView dynamicImageView = (DynamicImageView) view.findViewById(R.id.reservedNamedId2);
+        Button button = view.findViewById(R.id.reservedNamedId1);
+        DynamicImageView dynamicImageView = view.findViewById(R.id.reservedNamedId2);
         String strMethod_2632 = class_988.method_2632(convertLevelFileNameForDisplay(str));
         boolean zIsAvailableInDemo = isAvailableInDemo(str, this.currentMapPath + str);
         button.setTag(this.currentMapPath + str);
@@ -254,7 +330,7 @@ public class LevelSelectActivity extends class_1 {
         class_866.method_2048(getApplicationContext()).method_2047(this.currentMapPath + str);
         String strValueOf = String.valueOf(strMethod_2632);
         if (class_1061.method_3076().field_6321 && !zIsAvailableInDemo) {
-            strValueOf = "[LOCKED] ".concat(String.valueOf(strValueOf));
+            strValueOf = "[LOCKED] ".concat(strValueOf);
             if (dynamicImageView != null) {
                 dynamicImageView.setColorFilter(new LightingColorFilter(Color.argb(255, 60, 60, 60), 0));
             }
@@ -392,89 +468,6 @@ public class LevelSelectActivity extends class_1 {
         return this.gameModeSpinner.getSelectedItemPosition() != 4;
     }
 
-    public static boolean isMapSkirmish(String str) {
-        if (str.contains("skirmish/")) {
-            return true;
-        }
-        return false;
-    }
-
-    public static boolean isMapCustom(String str) {
-        if (str.contains("SD/")) {
-            return true;
-        }
-        return false;
-    }
-
-    public static void loadSinglePlayerMapRaw(String str, boolean z, int i, int i2, boolean z2, boolean z3) {
-        int i3;
-        class_1061 class_1061VarMethod_3076 = class_1061.method_3076();
-        class_1061VarMethod_3076.field_6347.method_2551();
-        if (z || z3) {
-            class_1061VarMethod_3076.method_2961();
-            synchronized (class_1061VarMethod_3076) {
-                class_1061VarMethod_3076.field_6471 = null;
-                class_1061VarMethod_3076.field_6470 = str;
-                int i4 = class_324.field_1448 - 1;
-                int iMethod_123 = class_84.method_123(str);
-                class_1061.method_3043("Max teams on map: " + str + " = " + iMethod_123);
-                if (iMethod_123 > 0 && (i3 = iMethod_123 - 1) < i4) {
-                    i4 = i3;
-                }
-                class_324.method_543();
-                class_1061VarMethod_3076.field_6373 = new class_313(0);
-                class_1061VarMethod_3076.field_6373.field_1468 = "Player";
-                int i5 = 0;
-                int i6 = 0;
-                while (i5 <= 1) {
-                    for (int i7 = 1; i7 <= i4; i7++) {
-                        boolean z4 = i7 % 2 == 0 || i5 == 1;
-                        if (i6 < i2 && z4 && class_324.method_526(i7) == null) {
-                            class_263 class_263Var = new class_263(i7);
-                            class_263Var.field_1468 = "AI";
-                            class_263Var.field_1464 = 0;
-                            i6++;
-                        }
-                    }
-                    i5++;
-                }
-                class_1061.method_3043("Allies: " + i6 + "/" + i2);
-                int i8 = 0;
-                int i9 = 0;
-                while (i8 <= 1) {
-                    for (int i10 = 1; i10 <= i4; i10++) {
-                        boolean z5 = i10 % 2 == 1 || i8 == 1;
-                        if (!z2) {
-                            z5 = true;
-                        }
-                        if (i9 < i - i2 && z5 && class_324.method_526(i10) == null) {
-                            class_263 class_263Var2 = new class_263(i10);
-                            class_263Var2.field_1468 = "AI";
-                            i9++;
-                            if (z2) {
-                                class_263Var2.field_1464 = 1;
-                            }
-                        }
-                    }
-                    i8++;
-                }
-                class_1061VarMethod_3076.field_6352.method_2700();
-                if (!z3) {
-                    class_1061VarMethod_3076.method_3013(false, class_768.field_4200);
-                }
-            }
-            return;
-        }
-        class_1061VarMethod_3076.method_2961();
-        synchronized (class_1061VarMethod_3076) {
-            class_1061VarMethod_3076.field_6471 = null;
-            class_1061VarMethod_3076.field_6470 = str;
-        }
-        if (!z3) {
-            class_1061VarMethod_3076.method_3013(true, class_768.field_4200);
-        }
-    }
-
     @Override
     public void onCreate(Bundle bundle) {
         super.onCreate(bundle);
@@ -482,10 +475,10 @@ public class LevelSelectActivity extends class_1 {
         if (class_84.method_127(this, true)) {
             setContentView(R.layout.level_select_grid);
             class_84.method_120(getWindow().getDecorView().findViewById(android.R.id.content));
-            this.aiDifficulty = (Spinner) findViewById(R.id.aiDifficulty);
-            this.aiCountSpinner = (Spinner) findViewById(R.id.aiCount);
-            this.gameModeSpinner = (Spinner) findViewById(R.id.gameMode);
-            this.modsImportMod = (Button) findViewById(R.id.modsImportMod);
+            this.aiDifficulty = findViewById(R.id.aiDifficulty);
+            this.aiCountSpinner = findViewById(R.id.aiCount);
+            this.gameModeSpinner = findViewById(R.id.gameMode);
+            this.modsImportMod = findViewById(R.id.modsImportMod);
             this.gameView = class_84.method_125(this);
             this.modsImportMod.setOnClickListener(new class_54(this));
         }

@@ -8,10 +8,12 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+
 import com.corrodinggames.rts.appFramework.android.AndroidSAF;
 import com.corrodinggames.rts.gameFramework.class_1061;
 import com.corrodinggames.rts.gameFramework.m.class_1081;
 import com.corrodinggames.rts.gameFramework.m.class_1239;
+
 import java.lang.reflect.Field;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
@@ -19,6 +21,9 @@ import java.util.concurrent.locks.ReentrantLock;
 public class GameViewThreaded extends SurfaceView implements SurfaceHolder.Callback, class_5, class_126 {
     public static final int BUFFER_SIZE = 1;
     public static int canvasBuffers_nextDraw;
+    public static GameViewThreaded staticGameView = null;
+    public static Object bufferChangeLock = new Object();
+    public static class_10[] canvasBuffers = null;
     public Object canvasSync;
     public Context context;
     public Resources contextResources;
@@ -36,9 +41,27 @@ public class GameViewThreaded extends SurfaceView implements SurfaceHolder.Callb
     public volatile boolean surfaceExists;
     public volatile SurfaceHolder surfaceHolder;
     public Object updateNotifier;
-    public static GameViewThreaded staticGameView = null;
-    public static Object bufferChangeLock = new Object();
-    public static class_10[] canvasBuffers = null;
+
+    public GameViewThreaded(Context context, AttributeSet attributeSet) {
+        super(context, attributeSet);
+        this.surfaceExists = false;
+        this.gameThreadSync = new Object();
+        this.canvasSync = new Object();
+        this.lastDeltaSpeed = 1.0f;
+        this.drawNotifier = new Object();
+        this.updateNotifier = new Object();
+        this.fullWidth = -1;
+        this.fullHeight = -1;
+        this.paused = false;
+        Log.e(AndroidSAF.TAG, "GameView:GameView()");
+        this.multiTouchController = new class_125(this);
+        this.currTouchPoint = new class_127();
+        init(context);
+    }
+
+    public static GameViewThreaded getMainView() {
+        return staticGameView;
+    }
 
     @Override
     public void onParentStop() {
@@ -83,27 +106,6 @@ public class GameViewThreaded extends SurfaceView implements SurfaceHolder.Callb
     public void onParentWindowFocusChanged(boolean z) {
     }
 
-    public static GameViewThreaded getMainView() {
-        return staticGameView;
-    }
-
-    public GameViewThreaded(Context context, AttributeSet attributeSet) {
-        super(context, attributeSet);
-        this.surfaceExists = false;
-        this.gameThreadSync = new Object();
-        this.canvasSync = new Object();
-        this.lastDeltaSpeed = 1.0f;
-        this.drawNotifier = new Object();
-        this.updateNotifier = new Object();
-        this.fullWidth = -1;
-        this.fullHeight = -1;
-        this.paused = false;
-        Log.e(AndroidSAF.TAG, "GameView:GameView()");
-        this.multiTouchController = new class_125(this);
-        this.currTouchPoint = new class_127();
-        init(context);
-    }
-
     public void init(Context context) {
         if (canvasBuffers == null) {
             canvasBuffers = new class_10[1];
@@ -126,7 +128,7 @@ public class GameViewThreaded extends SurfaceView implements SurfaceHolder.Callb
         class_1061.method_3037(context);
     }
 
-    public void finalize() throws Throwable {
+    protected void finalize() throws Throwable {
         Log.e(AndroidSAF.TAG, "GameView:finalize()");
         super.finalize();
     }
