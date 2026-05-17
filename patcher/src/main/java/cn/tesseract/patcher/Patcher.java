@@ -76,9 +76,6 @@ public class Patcher {
                 if (entry.isDirectory()) {
                     continue;
                 }
-                if (entry.getName().equals("com/corrodinggames/rts/appFramework/IntroScreen.class")) {
-                    continue;
-                }
 
                 byte[] data = readAllBytes(jis);
                 String entryName = entry.getName();

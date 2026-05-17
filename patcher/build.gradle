@@ -38,6 +38,7 @@ def androidPatchedJar = layout.buildDirectory.file('tmp/android/base-patched.jar
 def desktopPatchedJar = layout.buildDirectory.file('tmp/desktop/base-patched.jar')
 
 tasks.register('patchAndroidJar', JavaExec) {
+    dependsOn 'patchDesktopJar'
     group = 'patcher'
     classpath = sourceSets.main.runtimeClasspath
     mainClass = 'cn.tesseract.patcher.Patcher'
