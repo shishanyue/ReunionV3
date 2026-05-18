@@ -29,4 +29,3 @@ CLASS com/corrodinggames/rts/gameFramework/j/n com/corrodinggames/rts/gameFramew
 		FIELD b field_6258 Ljava/util/List;
 		FIELD c field_6259 Z
 		FIELD d field_6260 Z
-		METHOD a method_2953 ()Lcom/corrodinggames/rts/gameFramework/j/t;

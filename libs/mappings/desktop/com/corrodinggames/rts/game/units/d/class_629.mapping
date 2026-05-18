@@ -11,29 +11,5 @@ CLASS com/corrodinggames/rts/game/units/d/e com/corrodinggames/rts/game/units/d/
 	FIELD j field_3720 F
 	FIELD k field_3721 F
 	FIELD l field_3722 I
-	METHOD a method_1764 (F)V
-	METHOD a method_713 (I)V
-	METHOD a method_910 (Lcom/corrodinggames/rts/game/units/am;FLcom/corrodinggames/rts/game/f;)F
-	METHOD a method_728 (Lcom/corrodinggames/rts/game/units/am;I)V
-	METHOD a method_2069 (Lcom/corrodinggames/rts/gameFramework/j/as;)V
-	METHOD a method_1768 (Lcom/corrodinggames/rts/gameFramework/j/k;)V
 	METHOD a method_1574 (Ljava/util/ArrayList;I)V
 	METHOD b method_1573 ()V
-	METHOD b method_794 (I)F
-	METHOD b method_795 (IF)Z
-	METHOD bJ method_968 ()Z
-	METHOD bp method_764 ()I
-	METHOD c method_813 (I)F
-	METHOD cF method_1008 ()Landroid/graphics/RectF;
-	METHOD cy method_1001 ()F
-	METHOD d method_810 ()Lcom/corrodinggames/rts/gameFramework/m/e;
-	METHOD e method_1773 (F)V
-	METHOD k method_846 ()Lcom/corrodinggames/rts/gameFramework/m/e;
-	METHOD l method_1046 ()Z
-	METHOD L method_1563 ()Z
-	METHOD m method_853 ()F
-	METHOD N method_895 ()Ljava/util/ArrayList;
-	METHOD q method_854 (I)F
-	METHOD r method_1059 ()Lcom/corrodinggames/rts/game/units/as;
-	METHOD s method_801 ()I
-	METHOD S method_696 ()V

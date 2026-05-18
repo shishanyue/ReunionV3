@@ -87,7 +87,6 @@ CLASS com/corrodinggames/rts/gameFramework/f/a com/corrodinggames/rts/gameFramew
 	METHOD a method_2365 (Lcom/corrodinggames/rts/game/units/am;Ljava/util/ArrayList;)Ljava/util/ArrayList;
 	METHOD a method_2366 (Lcom/corrodinggames/rts/game/units/am;ZZZ)Ljava/lang/String;
 	METHOD a method_2362 (Lcom/corrodinggames/rts/game/units/c;)Z
-	METHOD a method_2069 (Lcom/corrodinggames/rts/gameFramework/j/as;)V
 	METHOD a method_2368 (Ljava/lang/String;I)V
 	METHOD b method_2380 ()V
 	METHOD b method_2370 (F)V

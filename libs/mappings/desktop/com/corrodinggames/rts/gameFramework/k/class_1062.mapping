@@ -4,7 +4,6 @@ CLASS com/corrodinggames/rts/gameFramework/k/a com/corrodinggames/rts/gameFramew
 	FIELD c field_6502 [Lcom/corrodinggames/rts/gameFramework/k/n;
 	METHOD a method_3085 (II)Ljava/lang/IndexOutOfBoundsException;
 	METHOD a method_3086 (Lcom/corrodinggames/rts/gameFramework/k/a;)I
-	METHOD a method_3087 (Lcom/corrodinggames/rts/gameFramework/k/n;)Z
 	METHOD b method_3083 ()Lcom/corrodinggames/rts/gameFramework/k/n;
 	METHOD b method_3088 (Lcom/corrodinggames/rts/gameFramework/k/a;)I
 	METHOD b method_3089 (Lcom/corrodinggames/rts/gameFramework/k/n;)V

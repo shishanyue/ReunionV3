@@ -29,7 +29,6 @@ CLASS android/graphics/Paint
 	FIELD z shadowScaleX F
 	METHOD a reset ()V
 	METHOD a getTextWidths ([CII[F)I
-	METHOD a breakText ([CIIFF[F)I
 	METHOD a breakTextInternal ([CIIFI[F)I
 	METHOD a setStrokeWidth (F)V
 	METHOD a setFlags (I)V

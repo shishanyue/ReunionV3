@@ -11,9 +11,5 @@ CLASS com/corrodinggames/rts/gameFramework/m/h com/corrodinggames/rts/gameFramew
 	FIELD x field_6799 Lcom/corrodinggames/rts/gameFramework/m/ae;
 	FIELD y field_6800 Lcom/corrodinggames/rts/gameFramework/m/ae;
 	FIELD z field_6801 Lcom/corrodinggames/rts/gameFramework/m/ae;
-	METHOD a method_3200 ()Ljava/lang/String;
-	METHOD b method_3209 ()Landroid/graphics/Bitmap;
 	METHOD c method_3223 (Z)V
 	METHOD C method_3224 ()V
-	METHOD u method_3220 ()I
-	METHOD w method_3221 ()V

@@ -5,8 +5,5 @@ CLASS com/corrodinggames/rts/gameFramework/j/ai com/corrodinggames/rts/gameFrame
 	FIELD d field_6032 [Lcom/corrodinggames/rts/gameFramework/j/ai;
 	METHOD a method_2839 ()Ljava/lang/String;
 	CLASS 1 class_1017
-		METHOD a method_2839 ()Ljava/lang/String;
 	CLASS 2 class_1018
-		METHOD a method_2839 ()Ljava/lang/String;
 	CLASS 3 class_1019
-		METHOD a method_2839 ()Ljava/lang/String;

@@ -5,4 +5,3 @@ CLASS com/corrodinggames/rts/game/units/f/g com/corrodinggames/rts/game/units/f/
 	FIELD d field_4011 F
 	FIELD e field_4012 F
 	METHOD a method_1715 (FFFF)V
-	METHOD a method_1713 (Lcom/corrodinggames/rts/game/units/am;)Z

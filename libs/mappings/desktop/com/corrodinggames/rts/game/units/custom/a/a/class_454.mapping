@@ -16,5 +16,4 @@ CLASS com/corrodinggames/rts/game/units/custom/a/a/j com/corrodinggames/rts/game
 	FIELD o field_2209 Lcom/corrodinggames/rts/gameFramework/utility/ai;
 	FIELD p field_2210 Z
 	FIELD q field_2211 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/VariableScope$CachedWriter;
-	METHOD a method_1093 (Lcom/corrodinggames/rts/game/units/custom/j;Lcom/corrodinggames/rts/game/units/a/s;Landroid/graphics/PointF;Lcom/corrodinggames/rts/game/units/am;I)Z
 	METHOD a method_1102 (Lcom/corrodinggames/rts/game/units/custom/l;Lcom/corrodinggames/rts/gameFramework/utility/ab;Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/a/d;Ljava/lang/String;Z)V

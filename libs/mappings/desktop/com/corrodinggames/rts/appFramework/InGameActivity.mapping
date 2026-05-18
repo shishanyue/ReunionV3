@@ -1,7 +1,5 @@
 CLASS com/corrodinggames/rts/appFramework/g com/corrodinggames/rts/appFramework/InGameActivity
-	METHOD a onPrepareOptionsMenu (Landroid/view/Menu;)Z
 	METHOD a makeSendMessagePopup (Z)V
-	METHOD b finish ()V
 	METHOD d saveGame (Ljava/lang/String;)V
 	METHOD e makeExportMapPopup (Ljava/lang/String;)V
 	METHOD f makeSaveGamePopup (Ljava/lang/String;)V
@@ -28,7 +26,6 @@ CLASS com/corrodinggames/rts/appFramework/g com/corrodinggames/rts/appFramework/
 	CLASS 9 class_27
 	CLASS 10 class_28
 	CLASS 11 class_29
-		FIELD a field_186 Lb/android/app/Activity;
 	CLASS 12 class_31
 	CLASS 13 class_23
 	CLASS 14 class_33

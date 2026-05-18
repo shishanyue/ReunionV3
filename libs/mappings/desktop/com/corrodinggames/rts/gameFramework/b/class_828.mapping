@@ -13,4 +13,3 @@ CLASS com/corrodinggames/rts/gameFramework/b/f com/corrodinggames/rts/gameFramew
 	METHOD e method_1919 ()V
 	CLASS 1 class_831
 		FIELD a field_4594 Lcom/corrodinggames/rts/gameFramework/b/f;
-		METHOD a method_1928 (Lcom/corrodinggames/rts/gameFramework/b/b;Lcom/corrodinggames/rts/gameFramework/b/af;Z)V

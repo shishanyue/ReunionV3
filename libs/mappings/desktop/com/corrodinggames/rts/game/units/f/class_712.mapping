@@ -7,4 +7,3 @@ CLASS com/corrodinggames/rts/game/units/f/d com/corrodinggames/rts/game/units/f/
 	FIELD f field_4003 F
 	FIELD g field_4004 F
 	FIELD h field_4005 F
-	METHOD a method_1713 (Lcom/corrodinggames/rts/game/units/am;)Z

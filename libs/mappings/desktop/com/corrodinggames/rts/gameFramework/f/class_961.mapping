@@ -142,7 +142,6 @@ CLASS com/corrodinggames/rts/gameFramework/f/g com/corrodinggames/rts/gameFramew
 	METHOD a method_2523 (Lcom/corrodinggames/rts/gameFramework/e;Lcom/corrodinggames/rts/game/units/a/s;)V
 	METHOD a method_2524 (Lcom/corrodinggames/rts/gameFramework/e;Lcom/corrodinggames/rts/game/units/a/s;Z)V
 	METHOD a method_2525 (Lcom/corrodinggames/rts/gameFramework/f/a/f;)V
-	METHOD a method_2069 (Lcom/corrodinggames/rts/gameFramework/j/as;)V
 	METHOD a method_2526 (Lcom/corrodinggames/rts/gameFramework/l;)Z
 	METHOD a method_2528 (Lcom/corrodinggames/rts/gameFramework/l;Lcom/corrodinggames/rts/game/n;ZLcom/corrodinggames/rts/game/units/custom/e/a;DLcom/corrodinggames/rts/game/units/custom/e/f;ILcom/corrodinggames/rts/game/units/custom/e/a;)Z
 	METHOD a method_2529 (Lcom/corrodinggames/rts/gameFramework/l;Lcom/corrodinggames/rts/game/n;ZLcom/corrodinggames/rts/game/units/custom/e/f;)V

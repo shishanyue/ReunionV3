@@ -77,7 +77,6 @@ CLASS com/corrodinggames/rts/game/n com/corrodinggames/rts/game/class_324
 	METHOD a method_473 (Lcom/corrodinggames/rts/game/units/custom/e/a;)I
 	METHOD a method_474 (Lcom/corrodinggames/rts/game/units/custom/g;ZZ)I
 	METHOD a method_471 (Lcom/corrodinggames/rts/game/units/y;)V
-	METHOD a method_2069 (Lcom/corrodinggames/rts/gameFramework/j/as;)V
 	METHOD a method_477 (Lcom/corrodinggames/rts/gameFramework/j/k;Z)V
 	METHOD a method_478 (Lcom/corrodinggames/rts/gameFramework/m/e;)[Lcom/corrodinggames/rts/gameFramework/m/e;
 	METHOD a method_481 (Lcom/corrodinggames/rts/gameFramework/m/e;[Lcom/corrodinggames/rts/gameFramework/m/e;[I)V

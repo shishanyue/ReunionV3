@@ -1,2 +1,2 @@
-CLASS android/view/KeyEvent
+CLASS android/view/KeyEvent android/view/KeyEvent
 	METHOD a getMaxKeyCode ()I

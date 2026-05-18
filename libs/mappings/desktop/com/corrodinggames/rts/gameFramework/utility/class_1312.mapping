@@ -13,8 +13,6 @@ CLASS com/corrodinggames/rts/gameFramework/utility/d com/corrodinggames/rts/game
 	METHOD a method_3635 (Lcom/corrodinggames/rts/gameFramework/utility/d;)I
 	METHOD a method_3636 (Lcom/corrodinggames/rts/gameFramework/utility/d;I)I
 	CLASS 1 class_1313
-		METHOD a method_3637 (Lcom/corrodinggames/rts/gameFramework/utility/a;)V
 	CLASS 2 class_1314
-		METHOD a method_3638 (Ljava/lang/InterruptedException;)V
 	CLASS 3 class_1315
 		FIELD a field_7292 Lcom/corrodinggames/rts/gameFramework/utility/d;

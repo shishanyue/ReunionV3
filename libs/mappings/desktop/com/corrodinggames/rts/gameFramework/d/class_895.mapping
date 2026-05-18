@@ -23,18 +23,9 @@ CLASS com/corrodinggames/rts/gameFramework/d/f com/corrodinggames/rts/gameFramew
 	FIELD v field_5059 Lcom/corrodinggames/rts/gameFramework/d/e;
 	FIELD w field_5060 Lcom/corrodinggames/rts/gameFramework/d/e;
 	FIELD x field_5061 Lcom/corrodinggames/rts/gameFramework/d/c;
-	METHOD a method_1764 (F)V
 	METHOD a method_2124 (FF)Lcom/corrodinggames/rts/gameFramework/d/f;
 	METHOD a method_2125 (FFLcom/corrodinggames/rts/gameFramework/d/e;)Lcom/corrodinggames/rts/gameFramework/d/f;
-	METHOD a method_1765 (FZ)V
 	METHOD a method_2126 (Lcom/corrodinggames/rts/gameFramework/d/e;Z)V
-	METHOD a method_2069 (Lcom/corrodinggames/rts/gameFramework/j/as;)V
-	METHOD a method_1768 (Lcom/corrodinggames/rts/gameFramework/j/k;)V
-	METHOD a method_1769 (Lcom/corrodinggames/rts/gameFramework/l;)Z
 	METHOD b method_2127 ()V
 	METHOD b method_2128 (FF)Lcom/corrodinggames/rts/gameFramework/d/f;
 	METHOD b method_2129 (Lcom/corrodinggames/rts/gameFramework/d/e;Z)V
-	METHOD c method_1770 (F)Z
-	METHOD d method_1772 (F)V
-	METHOD e method_1773 (F)V
-	METHOD f method_1776 (F)Z

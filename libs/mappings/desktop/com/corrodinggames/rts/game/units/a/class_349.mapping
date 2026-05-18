@@ -4,7 +4,6 @@ CLASS com/corrodinggames/rts/game/units/a/s com/corrodinggames/rts/game/units/a/
 	FIELD h field_1554 Lcom/corrodinggames/rts/game/units/a/a;
 	FIELD i field_1555 Lcom/corrodinggames/rts/game/units/a/c;
 	METHOD a method_588 ()Ljava/lang/String;
-	METHOD a method_589 (Lcom/corrodinggames/rts/game/units/a/s;)I
 	METHOD a method_590 (Lcom/corrodinggames/rts/game/units/a/s;Lcom/corrodinggames/rts/game/units/a/s;)Z
 	METHOD a method_592 (Lcom/corrodinggames/rts/game/units/am;)Z
 	METHOD a method_593 (Lcom/corrodinggames/rts/game/units/am;Lcom/corrodinggames/rts/game/n;)Z

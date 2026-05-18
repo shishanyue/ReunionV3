@@ -314,4 +314,3 @@ CLASS com/corrodinggames/rts/gameFramework/l com/corrodinggames/rts/gameFramewor
 	CLASS 3 class_1284
 		FIELD a field_7153 Lcom/corrodinggames/rts/gameFramework/l;
 	CLASS 4 class_1285
-		METHOD a method_3637 (Lcom/corrodinggames/rts/gameFramework/utility/a;)V

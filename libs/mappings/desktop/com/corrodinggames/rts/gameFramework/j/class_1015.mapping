@@ -17,4 +17,3 @@ CLASS com/corrodinggames/rts/gameFramework/j/ah com/corrodinggames/rts/gameFrame
 	FIELD p field_6027 Z
 	FIELD q field_6028 I
 	METHOD a method_2837 ()V
-	METHOD c method_2838 ()Lcom/corrodinggames/rts/gameFramework/j/ah;

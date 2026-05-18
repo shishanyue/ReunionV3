@@ -15,7 +15,6 @@ CLASS com/corrodinggames/rts/gameFramework/w com/corrodinggames/rts/gameFramewor
 	METHOD a method_1765 (FZ)V
 	METHOD a method_1766 (JLjava/lang/Class;Z)Lcom/corrodinggames/rts/gameFramework/w;
 	METHOD a method_1767 (JZ)Lcom/corrodinggames/rts/game/units/am;
-	METHOD a method_2069 (Lcom/corrodinggames/rts/gameFramework/j/as;)V
 	METHOD a method_1768 (Lcom/corrodinggames/rts/gameFramework/j/k;)V
 	METHOD a method_1769 (Lcom/corrodinggames/rts/gameFramework/l;)Z
 	METHOD b method_1771 (JZ)Lcom/corrodinggames/rts/game/units/y;

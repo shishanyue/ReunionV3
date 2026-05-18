@@ -5,7 +5,6 @@ CLASS com/corrodinggames/rts/gameFramework/utility/s com/corrodinggames/rts/game
 	FIELD d field_7332 Ljava/lang/String;
 	METHOD a method_3670 (II)Ljava/lang/IndexOutOfBoundsException;
 	METHOD a method_3672 (Lcom/corrodinggames/rts/gameFramework/utility/s;)I
-	METHOD a method_3671 (Lcom/corrodinggames/rts/gameFramework/w;)Z
 	METHOD b method_3668 ()V
 	METHOD c method_3669 (I)I
 	METHOD d method_3675 (Lcom/corrodinggames/rts/gameFramework/utility/s;)I

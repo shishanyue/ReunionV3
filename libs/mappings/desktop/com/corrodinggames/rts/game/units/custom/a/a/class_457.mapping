@@ -20,5 +20,4 @@ CLASS com/corrodinggames/rts/game/units/custom/a/a/m com/corrodinggames/rts/game
 	FIELD s field_2237 Z
 	FIELD t field_2238 Lcom/corrodinggames/rts/gameFramework/utility/m;
 	FIELD u field_2239 Lcom/corrodinggames/rts/game/units/custom/a/a/n;
-	METHOD a method_1093 (Lcom/corrodinggames/rts/game/units/custom/j;Lcom/corrodinggames/rts/game/units/a/s;Landroid/graphics/PointF;Lcom/corrodinggames/rts/game/units/am;I)Z
 	METHOD a method_1105 (Lcom/corrodinggames/rts/game/units/custom/l;Lcom/corrodinggames/rts/gameFramework/utility/ab;Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/a/d;Ljava/lang/String;Z)V

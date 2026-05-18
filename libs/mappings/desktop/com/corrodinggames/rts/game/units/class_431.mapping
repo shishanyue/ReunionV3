@@ -60,9 +60,6 @@ CLASS com/corrodinggames/rts/game/units/ar com/corrodinggames/rts/game/units/cla
 	FIELD Y field_2084 Lcom/corrodinggames/rts/game/units/ar;
 	FIELD z field_2120 Lcom/corrodinggames/rts/game/units/ar;
 	FIELD Z field_2085 Lcom/corrodinggames/rts/game/units/ar;
-	METHOD a method_1649 ()Lcom/corrodinggames/rts/game/units/am;
-	METHOD a method_1650 (I)Ljava/util/ArrayList;
-	METHOD a method_1651 (Lcom/corrodinggames/rts/game/units/am;)I
 	METHOD a method_1081 (Lcom/corrodinggames/rts/game/units/as;FFFFLcom/corrodinggames/rts/game/n;)Z
 	METHOD a method_1079 (Lcom/corrodinggames/rts/game/units/as;FFFFLcom/corrodinggames/rts/game/n;FFZZILcom/corrodinggames/rts/game/units/am;)V
 	METHOD a method_1080 (Lcom/corrodinggames/rts/game/units/as;FFFFLcom/corrodinggames/rts/game/n;FFZZIZLcom/corrodinggames/rts/game/units/am;)V
@@ -74,405 +71,60 @@ CLASS com/corrodinggames/rts/game/units/ar com/corrodinggames/rts/game/units/cla
 	METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
 	METHOD A method_1077 ()Z
 	METHOD b method_1088 ()V
-	METHOD b method_1652 (I)I
-	METHOD B method_1646 ()Lcom/corrodinggames/rts/game/units/custom/d/b;
-	METHOD c method_1653 ()I
 	METHOD c method_1089 (I)I
-	METHOD d method_1654 ()Lcom/corrodinggames/rts/game/units/a/z;
-	METHOD d method_1655 (I)Lcom/corrodinggames/rts/game/units/custom/d/b;
-	METHOD e method_1656 ()Ljava/lang/String;
-	METHOD f method_1657 ()Ljava/lang/String;
-	METHOD g method_1658 ()I
-	METHOD h method_1659 ()V
-	METHOD i method_1660 ()Ljava/lang/String;
-	METHOD j method_1661 ()Z
-	METHOD k method_1662 ()Z
-	METHOD l method_1663 ()Z
-	METHOD m method_1664 ()Z
-	METHOD n method_1665 ()Z
-	METHOD o method_1666 ()Lcom/corrodinggames/rts/game/units/ao;
-	METHOD p method_1667 ()Z
-	METHOD q method_1668 ()Lcom/corrodinggames/rts/game/units/custom/be;
 	METHOD r method_1090 ()V
 	METHOD s method_1091 ()V
 	METHOD t method_1092 ()V
-	METHOD u method_1669 ()Lcom/corrodinggames/rts/game/units/custom/d/b;
-	METHOD v method_1670 ()Ljava/lang/String;
-	METHOD w method_1671 ()Z
-	METHOD x method_1672 ()Lcom/corrodinggames/rts/game/units/custom/h;
-	METHOD y method_1673 ()Z
-	METHOD z method_1674 ()Lcom/corrodinggames/rts/gameFramework/m/e;
 	CLASS 1 class_432
-		METHOD a method_1651 (Lcom/corrodinggames/rts/game/units/am;)I
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD c method_1089 (I)I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD j method_1661 ()Z
-		METHOD p method_1667 ()Z
 	CLASS 2 class_433
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
 	CLASS 3 class_434
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
 	CLASS 4 class_435
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
 	CLASS 5 class_436
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
 	CLASS 6 class_437
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD g method_1658 ()I
 	CLASS 7 class_438
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
 	CLASS 8 class_439
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
 	CLASS 9 class_440
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
 	CLASS 10 class_441
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD g method_1658 ()I
 	CLASS 11 class_442
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
 	CLASS 12 class_596
-		METHOD a method_1086 (Ljava/util/ArrayList;I)V
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD c method_1089 (I)I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD j method_1661 ()Z
 	CLASS 13 class_597
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
 	CLASS 14 class_598
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
 	CLASS 15 class_599
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
 	CLASS 16 class_600
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD g method_1658 ()I
 	CLASS 17 class_649
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD g method_1658 ()I
 	CLASS 18 class_650
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD c method_1089 (I)I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD j method_1661 ()Z
 	CLASS 19 class_651
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD g method_1658 ()I
 	CLASS 20 class_652
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
 	CLASS 21 class_653
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD j method_1661 ()Z
 	CLASS 22 class_654
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD j method_1661 ()Z
 	CLASS 23 class_655
-		METHOD a method_1086 (Ljava/util/ArrayList;I)V
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD c method_1089 (I)I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD j method_1661 ()Z
 	CLASS 24 class_656
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD j method_1661 ()Z
 	CLASS 25 class_657
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD g method_1658 ()I
 	CLASS 26 class_658
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD g method_1658 ()I
 	CLASS 27 class_659
-		METHOD a method_1086 (Ljava/util/ArrayList;I)V
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD j method_1661 ()Z
 	CLASS 28 class_660
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD j method_1661 ()Z
 	CLASS 29 class_661
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD j method_1661 ()Z
 	CLASS 30 class_662
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD c method_1089 (I)I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD j method_1661 ()Z
 	CLASS 31 class_663
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
 	CLASS 32 class_664
-		METHOD a method_1086 (Ljava/util/ArrayList;I)V
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD l method_1663 ()Z
-		METHOD m method_1664 ()Z
 	CLASS 33 class_665
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD g method_1658 ()I
 	CLASS 34 class_666
-		METHOD a method_1651 (Lcom/corrodinggames/rts/game/units/am;)I
-		METHOD a method_1086 (Ljava/util/ArrayList;I)V
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD c method_1089 (I)I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD j method_1661 ()Z
 	CLASS 35 class_667
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD j method_1661 ()Z
 	CLASS 36 class_668
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD g method_1658 ()I
 	CLASS 37 class_669
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD j method_1661 ()Z
 	CLASS 38 class_670
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD j method_1661 ()Z
 	CLASS 39 class_671
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
 	CLASS 40 class_672
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
 	CLASS 41 class_673
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD j method_1661 ()Z
 	CLASS 42 class_674
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD j method_1661 ()Z
 	CLASS 43 class_693
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD j method_1661 ()Z
 	CLASS 44 class_694
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD A method_1077 ()Z
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
 	CLASS 45 class_695
-		METHOD a method_1086 (Ljava/util/ArrayList;I)V
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD j method_1661 ()Z
 	CLASS 46 class_696
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD A method_1077 ()Z
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
 	CLASS 47 class_697
-		METHOD a method_1086 (Ljava/util/ArrayList;I)V
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD A method_1077 ()Z
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD l method_1663 ()Z
-		METHOD m method_1664 ()Z
-		METHOD n method_1665 ()Z
 	CLASS 48 class_698
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD A method_1077 ()Z
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD e method_1656 ()Ljava/lang/String;
-		METHOD i method_1660 ()Ljava/lang/String;
 	CLASS 49 class_699
 	CLASS 50 class_700
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD j method_1661 ()Z
 	CLASS 51 class_701
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD j method_1661 ()Z
 	CLASS 52 class_702
-		METHOD a method_1086 (Ljava/util/ArrayList;I)V
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F
-		METHOD l method_1663 ()Z
-		METHOD m method_1664 ()Z
-		METHOD n method_1665 ()Z
 	CLASS 53 class_703
-		METHOD a method_1087 (Z)Lcom/corrodinggames/rts/game/units/am;
-		METHOD b method_1088 ()V
-		METHOD c method_1653 ()I
-		METHOD C method_1647 ()Z
-		METHOD D method_1648 ()F

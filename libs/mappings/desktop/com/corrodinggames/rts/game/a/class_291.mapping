@@ -9,5 +9,4 @@ CLASS com/corrodinggames/rts/game/a/h com/corrodinggames/rts/game/a/class_291
 	METHOD c method_261 (F)V
 	METHOD m method_263 ()Z
 	METHOD n method_264 ()V
-	METHOD p method_240 ()V
 	METHOD q method_265 ()V

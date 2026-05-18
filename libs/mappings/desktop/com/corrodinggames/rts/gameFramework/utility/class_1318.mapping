@@ -4,6 +4,5 @@ CLASS com/corrodinggames/rts/gameFramework/utility/g com/corrodinggames/rts/game
 	METHOD a method_3640 (I)Z
 	METHOD a method_3641 (Lcom/corrodinggames/rts/gameFramework/utility/g;)I
 	METHOD a method_3642 (Lcom/corrodinggames/rts/gameFramework/utility/g;I)Z
-	METHOD b method_3639 ()Lcom/corrodinggames/rts/gameFramework/utility/g;
 	METHOD b method_3644 (Lcom/corrodinggames/rts/gameFramework/utility/g;)I
 	METHOD c method_3645 (Lcom/corrodinggames/rts/gameFramework/utility/g;)[Ljava/lang/Object;

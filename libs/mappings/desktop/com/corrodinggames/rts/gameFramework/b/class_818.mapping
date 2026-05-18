@@ -2,4 +2,3 @@ CLASS com/corrodinggames/rts/gameFramework/b/ai com/corrodinggames/rts/gameFrame
 	FIELD a field_4528 Z
 	FIELD b field_4529 Landroid/graphics/Bitmap$Config;
 	FIELD c field_4530 I
-	METHOD a method_1878 ()Lcom/corrodinggames/rts/gameFramework/b/ai;

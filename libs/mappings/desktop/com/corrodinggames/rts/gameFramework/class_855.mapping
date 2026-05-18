@@ -9,8 +9,5 @@ CLASS com/corrodinggames/rts/gameFramework/at com/corrodinggames/rts/gameFramewo
 	METHOD c method_2008 ()V
 	METHOD d method_2010 ()Ljava/lang/String;
 	CLASS 1 class_856
-		METHOD d method_2010 ()Ljava/lang/String;
 	CLASS 2 class_857
-		METHOD d method_2010 ()Ljava/lang/String;
 	CLASS 3 class_858
-		METHOD d method_2010 ()Ljava/lang/String;

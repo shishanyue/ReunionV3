@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/game/a/a/b com/corrodinggames/rts/game/ai/behaviors/AIBehaviorType
+	CLASS 1 AnonymousClass1
+	CLASS 2 AnonymousClass2

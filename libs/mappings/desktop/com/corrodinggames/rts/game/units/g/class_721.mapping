@@ -4,6 +4,4 @@ CLASS com/corrodinggames/rts/game/units/g/b com/corrodinggames/rts/game/units/g/
 	FIELD c field_4031 [Lcom/corrodinggames/rts/game/units/g/b;
 	METHOD a method_1720 ()Lcom/corrodinggames/rts/game/units/g/a;
 	CLASS 1 class_722
-		METHOD a method_1720 ()Lcom/corrodinggames/rts/game/units/g/a;
 	CLASS 2 class_723
-		METHOD a method_1720 ()Lcom/corrodinggames/rts/game/units/g/a;

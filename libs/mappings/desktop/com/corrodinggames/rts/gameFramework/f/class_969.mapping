@@ -77,4 +77,3 @@ CLASS com/corrodinggames/rts/gameFramework/f/o com/corrodinggames/rts/gameFramew
 	METHOD h method_2618 ()V
 	CLASS 1 class_970
 		FIELD a field_5712 Lcom/corrodinggames/rts/gameFramework/f/o;
-		METHOD a method_3405 (Lcom/corrodinggames/rts/gameFramework/m/y;)V

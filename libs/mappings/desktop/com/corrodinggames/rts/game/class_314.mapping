@@ -117,26 +117,16 @@ CLASS com/corrodinggames/rts/game/f com/corrodinggames/rts/game/class_314
 	FIELD Y field_1097 F
 	FIELD z field_1190 Z
 	FIELD Z field_1098 F
-	METHOD a method_1763 ()V
-	METHOD a method_1764 (F)V
 	METHOD a method_395 (FFLcom/corrodinggames/rts/game/units/custom/h;)V
 	METHOD a method_405 (FLcom/corrodinggames/rts/game/units/am;F)V
-	METHOD a method_1765 (FZ)V
 	METHOD a method_396 (I)Lcom/corrodinggames/rts/gameFramework/m/ag;
 	METHOD a method_397 (Lcom/corrodinggames/rts/game/f;)Lcom/corrodinggames/rts/game/f;
 	METHOD a method_398 (Lcom/corrodinggames/rts/game/units/am;)V
 	METHOD a method_400 (Lcom/corrodinggames/rts/game/units/am;FF)Lcom/corrodinggames/rts/game/f;
 	METHOD a method_401 (Lcom/corrodinggames/rts/game/units/am;FFF)V
 	METHOD a method_402 (Lcom/corrodinggames/rts/game/units/am;FFFI)Lcom/corrodinggames/rts/game/f;
-	METHOD a method_2069 (Lcom/corrodinggames/rts/gameFramework/j/as;)V
-	METHOD a method_1768 (Lcom/corrodinggames/rts/gameFramework/j/k;)V
-	METHOD a method_1769 (Lcom/corrodinggames/rts/gameFramework/l;)Z
 	METHOD b method_408 (F)V
 	METHOD b method_399 (Lcom/corrodinggames/rts/game/units/am;FF)V
 	METHOD c method_404 ()V
-	METHOD c method_1770 (F)Z
-	METHOD d method_1772 (F)V
 	METHOD e method_406 ()F
-	METHOD e method_1773 (F)V
 	METHOD f method_407 ()Landroid/graphics/Paint;
-	METHOD f method_1776 (F)Z

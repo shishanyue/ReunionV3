@@ -37,7 +37,6 @@ CLASS com/corrodinggames/rts/gameFramework/n/f com/corrodinggames/rts/gameFramew
 	FIELD x field_7118 I
 	FIELD y field_7119 I
 	FIELD z field_7120 F
-	METHOD a method_2069 (Lcom/corrodinggames/rts/gameFramework/j/as;)V
 	METHOD a method_3443 (Lcom/corrodinggames/rts/gameFramework/n/i;IF)V
 	METHOD a method_3445 (Ljava/util/ArrayList;Lcom/corrodinggames/rts/game/units/as;F)V
 	METHOD a method_3446 (Ljava/util/ArrayList;Ljava/lang/String;F)V

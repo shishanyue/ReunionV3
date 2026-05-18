@@ -233,12 +233,8 @@ CLASS com/corrodinggames/rts/gameFramework/j/ad com/corrodinggames/rts/gameFrame
 	METHOD Z method_2717 ()Ljava/lang/String;
 	CLASS 1 class_1002
 		FIELD a field_5987 Ljava/lang/Object;
-		METHOD a method_2835 ()V
-		METHOD a method_2836 (Ljava/lang/String;)V
 	CLASS 2 class_1003
 		FIELD d field_5988 Ljava/lang/Object;
-		METHOD a method_2957 (Ljava/lang/String;)V
-		METHOD a method_2958 (Ljava/lang/String;Lcom/corrodinggames/rts/gameFramework/j/x;Ljava/lang/Exception;)V
 	CLASS 3 class_1004
 		FIELD a field_5989 Lcom/corrodinggames/rts/gameFramework/f/a/f;
 		FIELD b field_5990 Lcom/corrodinggames/rts/gameFramework/j/ad;

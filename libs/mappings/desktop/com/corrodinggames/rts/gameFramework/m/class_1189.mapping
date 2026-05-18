@@ -35,7 +35,6 @@ CLASS com/corrodinggames/rts/gameFramework/m/e com/corrodinggames/rts/gameFramew
 	METHOD b method_3209 ()Landroid/graphics/Bitmap;
 	METHOD B method_3222 ()Lcom/corrodinggames/rts/gameFramework/m/ae;
 	METHOD g method_3211 ()V
-	METHOD h method_3212 ()Lcom/corrodinggames/rts/gameFramework/m/e;
 	METHOD i method_3213 ()V
 	METHOD j method_3214 ()V
 	METHOD l method_3215 ()I

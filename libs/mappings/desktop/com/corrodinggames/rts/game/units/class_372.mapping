@@ -10,16 +10,8 @@ CLASS com/corrodinggames/rts/game/units/n com/corrodinggames/rts/game/units/clas
 	METHOD a method_648 (Lcom/corrodinggames/rts/game/units/as;)Z
 	METHOD b method_646 ()Z
 	CLASS 1 class_373
-		METHOD a method_648 (Lcom/corrodinggames/rts/game/units/as;)Z
 	CLASS 2 class_374
-		METHOD a method_648 (Lcom/corrodinggames/rts/game/units/as;)Z
 	CLASS 3 class_375
-		METHOD a method_648 (Lcom/corrodinggames/rts/game/units/as;)Z
-		METHOD b method_646 ()Z
 	CLASS 4 class_376
-		METHOD a method_648 (Lcom/corrodinggames/rts/game/units/as;)Z
 	CLASS 5 class_377
-		METHOD a method_648 (Lcom/corrodinggames/rts/game/units/as;)Z
-		METHOD b method_646 ()Z
 	CLASS 6 class_378
-		METHOD a method_648 (Lcom/corrodinggames/rts/game/units/as;)Z

@@ -17,7 +17,5 @@ CLASS com/corrodinggames/rts/gameFramework/f/f com/corrodinggames/rts/gameFramew
 	METHOD b method_2485 ()Z
 	CLASS 1 class_959
 		FIELD b field_5449 Lcom/corrodinggames/rts/gameFramework/f/f;
-		METHOD b method_2469 ()V
 	CLASS 2 class_960
 		FIELD b field_5450 Lcom/corrodinggames/rts/gameFramework/f/f;
-		METHOD b method_2469 ()V

@@ -42,43 +42,19 @@ CLASS com/corrodinggames/rts/game/i com/corrodinggames/rts/game/class_317
 	FIELD Y field_1332 Landroid/graphics/Matrix;
 	FIELD z field_1367 Landroid/graphics/Paint;
 	FIELD Z field_1333 Ljava/util/ArrayList;
-	METHOD a method_2985 ()Z
 	METHOD a method_425 (F)V
 	METHOD a method_413 (FFFF)Z
-	METHOD a method_2988 (FI)V
-	METHOD a method_2997 (Landroid/app/Activity;Lcom/corrodinggames/rts/appFramework/f;Z)V
-	METHOD a method_2998 (Landroid/content/Context;)V
 	METHOD a method_414 (Lcom/corrodinggames/rts/game/j;)V
 	METHOD a method_415 (Lcom/corrodinggames/rts/game/n;)Lcom/corrodinggames/rts/game/units/am;
 	METHOD a method_416 (Lcom/corrodinggames/rts/gameFramework/m/l;F)V
-	METHOD a method_3013 (ZLcom/corrodinggames/rts/gameFramework/s;)V
-	METHOD a method_3014 (ZZLcom/corrodinggames/rts/gameFramework/s;)V
 	METHOD aG method_417 ()V
-	METHOD b method_3023 ()I
-	METHOD b method_2990 (II)V
 	METHOD b method_426 (Lcom/corrodinggames/rts/game/j;)V
 	METHOD b method_427 (Lcom/corrodinggames/rts/gameFramework/m/l;F)V
 	METHOD b method_430 (Z)V
-	METHOD c method_3040 ()Z
-	METHOD c method_3012 (Z)I
-	METHOD d method_3045 ()Z
-	METHOD e method_3050 ()V
-	METHOD g method_3054 ()V
 	METHOD i method_418 ()Z
 	METHOD j method_419 ()Z
 	METHOD k method_421 ()V
-	METHOD l method_3057 ()Ljava/lang/String;
-	METHOD m method_3059 ()Ljava/lang/String;
-	METHOD n method_3061 ()Z
-	METHOD p method_3063 ()Z
 	METHOD q method_423 ()Z
-	METHOD r method_3065 ()Ljava/lang/String;
-	METHOD s method_3067 ()V
-	METHOD t method_3069 ()Ljava/lang/String;
-	METHOD u method_3071 ()Ljava/lang/String;
-	METHOD v method_3072 ()Ljava/lang/String;
 	METHOD w method_424 ()V
-	METHOD x method_3073 ()V
-	METHOD z method_3074 ()I
 	CLASS a class_319
 		FIELD a field_1370 Lcom/corrodinggames/rts/game/i;

@@ -9,6 +9,5 @@ CLASS com/corrodinggames/rts/gameFramework/f/am com/corrodinggames/rts/gameFrame
 	FIELD h field_5392 Z
 	FIELD i field_5393 Lcom/corrodinggames/rts/gameFramework/f/a;
 	METHOD a method_2448 ()V
-	METHOD a method_2069 (Lcom/corrodinggames/rts/gameFramework/j/as;)V
 	METHOD c method_2449 ()V
 	METHOD d method_2450 ()V

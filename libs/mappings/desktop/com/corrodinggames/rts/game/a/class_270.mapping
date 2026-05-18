@@ -18,9 +18,6 @@ CLASS com/corrodinggames/rts/game/a/n com/corrodinggames/rts/game/a/class_270
 	FIELD r field_739 F
 	FIELD s field_740 F
 	METHOD a method_230 (FZ)V
-	METHOD a method_2069 (Lcom/corrodinggames/rts/gameFramework/j/as;)V
-	METHOD a method_237 (Lcom/corrodinggames/rts/gameFramework/j/k;)V
 	METHOD a method_231 (Z)Lcom/corrodinggames/rts/game/a/i;
-	METHOD c method_261 (F)V
 	METHOD d method_233 ()Z
 	METHOD f method_232 ()V
