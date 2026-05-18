@@ -1,0 +1,13 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_543 com/corrodinggames/rts/game/units/custom/SpawnProjectileArgs
+	FIELD field_2789 spawnChance F
+	FIELD field_2790 maxSpawnLimit I
+	FIELD field_2791 offsetX F
+	FIELD field_2792 offsetY F
+	FIELD field_2793 offsetHeight F
+	FIELD field_2794 offsetDir F
+	FIELD field_2795 xOffsetRelative F
+	FIELD field_2796 yOffsetRelative F
+	FIELD field_2797 offsetRandomX F
+	FIELD field_2798 offsetRandomY F
+	FIELD field_2799 offsetRandomDir F
+	FIELD field_2800 recursionLimit I

@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/d/class_640
+	FIELD field_3780 queueItems Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	METHOD method_1591 alsoQueueAction (Lcom/corrodinggames/rts/game/units/a/class_353;ZLandroid/graphics/PointF;Lcom/corrodinggames/rts/game/units/class_426;)Lcom/corrodinggames/rts/game/units/d/class_639;
+	METHOD method_1600 removeAllQueuedItems (Z)V
+	METHOD method_1602 returnResources (Lcom/corrodinggames/rts/game/units/d/class_639;)V

@@ -1,0 +1,13 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/class_461
+	FIELD field_2255 isVisible Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_2256 isLocked Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_2257 isLockedMessage Lcom/corrodinggames/rts/game/units/custom/class_475;
+	FIELD field_2258 isLockedAlt Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_2259 isLockedAltMessage Lcom/corrodinggames/rts/game/units/custom/class_475;
+	FIELD field_2260 isLockedAlt2 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_2261 isLockedAlt2Message Lcom/corrodinggames/rts/game/units/custom/class_475;
+	FIELD field_2262 canLocked Z
+	FIELD field_2263 isGuiBlinking Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_2264 price Lcom/corrodinggames/rts/game/units/custom/d/class_552;
+	FIELD field_2265 addResources Lcom/corrodinggames/rts/game/units/custom/d/class_552;
+	FIELD field_2266 streamingCost Lcom/corrodinggames/rts/game/units/custom/d/class_552;

@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/gameFramework/d/class_897 com/corrodinggames/rts/gameFramework/emitter/EffectPriority
+	METHOD method_2132 isLowerThan (Lcom/corrodinggames/rts/gameFramework/d/class_897;)Z

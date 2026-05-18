@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/class_322 com/corrodinggames/rts/game/ScorchMark
+	METHOD method_441 load ()V

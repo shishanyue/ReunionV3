@@ -13,9 +13,9 @@ CLASS com/corrodinggames/rts/game/units/am com/corrodinggames/rts/game/units/Bas
 	FIELD bt unitTarget1 Lcom/corrodinggames/rts/game/units/am;
 	FIELD bT isAttacking Z
 	FIELD bu unitTarget2 Lcom/corrodinggames/rts/game/units/am;
-	FIELD bU attackCooldown I
+	FIELD bU cooldown I
 	FIELD bv unitTarget3 Lcom/corrodinggames/rts/game/units/am;
-	FIELD bV isDestroyed Z
+	FIELD bV destroyed Z
 	FIELD bw unitVariables Lcom/corrodinggames/rts/game/units/custom/logicBooleans/VariableScope;
 	FIELD bW unitCreationTime J
 	FIELD bx unitData1 Lcom/corrodinggames/rts/game/units/custom/d/b;

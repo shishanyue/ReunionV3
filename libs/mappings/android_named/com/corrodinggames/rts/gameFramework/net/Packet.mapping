@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/j/class_1032 com/corrodinggames/rts/gameFramework/net/Packet
+	FIELD field_6123 playerConnect Lcom/corrodinggames/rts/gameFramework/j/class_1037;
+	FIELD field_6124 type I
+	FIELD field_6125 bytes [B
+	FIELD field_6126 f753d I

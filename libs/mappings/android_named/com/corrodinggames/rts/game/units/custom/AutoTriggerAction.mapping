@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_587 com/corrodinggames/rts/game/units/custom/AutoTriggerAction
+	FIELD field_3578 autoTrigger Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_3579 autoTriggerString Ljava/lang/String;
+	FIELD field_3580 autoTriggerCheckRate Lcom/corrodinggames/rts/game/units/custom/class_588;
+	FIELD field_3581 customActionConfig Lcom/corrodinggames/rts/game/units/custom/a/class_465;

@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/class_1300 com/corrodinggames/rts/gameFramework/utility/RwAndroidSAFServerManager
+	FIELD field_7261 managerLock Ljava/lang/Object;
+	FIELD field_7262 rwModRwAndroidSAFServer Lcom/corrodinggames/rts/gameFramework/utility/class_1302;
+	FIELD field_7263 rwAndroidSAF Lcom/corrodinggames/rts/gameFramework/utility/class_1301;
+	METHOD method_3591 getSAFServer (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1301;
+	METHOD method_3592 shouldUseSAF ()Z
+	METHOD method_3593 getRWSAFServer (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1301;

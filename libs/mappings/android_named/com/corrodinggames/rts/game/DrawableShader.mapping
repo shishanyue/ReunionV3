@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/class_320 com/corrodinggames/rts/game/DrawableShader
+	FIELD field_1371 screenBase Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1373 paint Lcom/corrodinggames/rts/gameFramework/m/class_1233;
+	FIELD field_1374 shader Lcom/corrodinggames/rts/gameFramework/m/class_1231;

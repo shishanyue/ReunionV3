@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/game/units/custom/b/class_495 com/corrodinggames/rts/game/units/custom/b/DecalSectionParser
+	FIELD field_2490 shadowLayerDecals Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_2491 onTopLayerDecals Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_2492 beforeBodyLayerDecals Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_2493 afterBodyLayerDecals Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_2494 beforeUILayerDecals Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	METHOD method_1192 parse (Lcom/corrodinggames/rts/game/units/custom/class_581;Lcom/corrodinggames/rts/gameFramework/utility/class_1297;)V

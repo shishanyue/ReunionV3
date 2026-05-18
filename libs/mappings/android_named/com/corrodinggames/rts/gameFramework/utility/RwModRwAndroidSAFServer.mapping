@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/class_1302 com/corrodinggames/rts/gameFramework/utility/RwModRwAndroidSAFServer
+	FIELD field_7264 zipFileCache Ljava/util/HashMap;
+	METHOD method_3609 logZipMessage (Ljava/lang/String;)V
+	METHOD method_3610 isRwMod (Ljava/lang/String;)Z

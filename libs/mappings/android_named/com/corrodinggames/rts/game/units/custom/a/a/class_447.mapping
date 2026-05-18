@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/a/class_447
+	FIELD field_2154 addWaypointTargetMapMustBeReachable Z
+	FIELD field_2155 addWaypointTargetRandomUnitTagged Lcom/corrodinggames/rts/game/units/custom/class_577;
+	FIELD field_2156 addWaypointTargetRandomUnitMaxRange F
+	FIELD field_2158 addWaypointTargetRandomUnitTeam Lcom/corrodinggames/rts/game/class_327;

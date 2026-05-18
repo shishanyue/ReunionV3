@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/class_792 com/corrodinggames/rts/gameFramework/CollisionHashMap
+	FIELD field_4372 currentByte B
+	FIELD field_4373 hashMap Ljava/util/HashMap;
+	METHOD method_1833 add (Lcom/corrodinggames/rts/gameFramework/class_792;)V

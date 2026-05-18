@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/d/class_628 com/corrodinggames/rts/game/units/buildings/BuildingUnitBase
+	FIELD field_3704 imageBack Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3705 footprint Landroid/graphics/Rect;
+	FIELD field_3706 constructionFootprint Landroid/graphics/Rect;

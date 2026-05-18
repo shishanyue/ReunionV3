@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/game/units/d/class_629 com/corrodinggames/rts/game/units/buildings/CommandCenter
+	FIELD field_3711 baseTexture Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3712 baseTextureWithTeamColor [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3713 deadTexture Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3714 backTexture Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3721 fogOfWarSightRange F

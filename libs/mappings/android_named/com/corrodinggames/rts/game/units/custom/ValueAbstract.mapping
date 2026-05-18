@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_519 com/corrodinggames/rts/game/units/custom/ValueAbstract
+	FIELD field_2652 index I
+	FIELD field_2653 type Ljava/lang/String;

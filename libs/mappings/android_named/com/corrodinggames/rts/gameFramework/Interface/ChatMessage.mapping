@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/f/class_968 com/corrodinggames/rts/gameFramework/Interface/ChatMessage
+	FIELD field_5651 delayPerChar I
+	FIELD field_5652 textColor I

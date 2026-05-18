@@ -1,6 +1,7 @@
 package cn.tesseract.patcher;
 
 import net.fabricmc.mappingio.format.enigma.EnigmaDirReader;
+import net.fabricmc.mappingio.format.enigma.EnigmaDirWriter;
 import net.fabricmc.mappingio.tree.MemoryMappingTree;
 import net.fabricmc.tinyremapper.OutputConsumerPath;
 import net.fabricmc.tinyremapper.TinyRemapper;
@@ -118,6 +119,7 @@ public class Patcher {
 
         TinyRemapper remapper = TinyRemapper.newRemapper()
                 .withMappings(TinyUtils.createMappingProvider(mappingTree, "obf", "named"))
+                .rebuildSourceFilenames(true)
                 .build();
 
         try (OutputConsumerPath outputConsumer = new OutputConsumerPath.Builder(outputJar).build()) {

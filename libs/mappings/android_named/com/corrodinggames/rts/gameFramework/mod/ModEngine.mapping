@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/i/class_991 com/corrodinggames/rts/gameFramework/mod/ModEngine
+	FIELD field_5783 enableModArray Ljava/util/ArrayList;
+	METHOD method_2659 loadCustomMods (Ljava/lang/String;ZZ)V
+	METHOD method_2663 getModByHash (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/i/class_992;

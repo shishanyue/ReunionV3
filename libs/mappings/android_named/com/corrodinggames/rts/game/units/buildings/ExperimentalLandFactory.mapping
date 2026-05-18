@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/d/class_630 com/corrodinggames/rts/game/units/buildings/ExperimentalLandFactory
+	FIELD field_3723 frontTexture Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3724 baseTexture Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3727 deadTexture Lcom/corrodinggames/rts/gameFramework/m/class_1189;

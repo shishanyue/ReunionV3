@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_524 com/corrodinggames/rts/game/units/custom/Effect
+	METHOD method_1214 random (F)F
+	METHOD method_1215 randomRange (FF)F
+	METHOD method_1216 InitEffectEmitter (FFFFLcom/corrodinggames/rts/gameFramework/class_773;IS)Lcom/corrodinggames/rts/gameFramework/d/class_894;

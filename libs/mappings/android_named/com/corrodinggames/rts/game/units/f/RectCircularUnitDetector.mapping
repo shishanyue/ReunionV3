@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/game/units/f/class_712 com/corrodinggames/rts/game/units/f/RectCircularUnitDetector
+	FIELD field_3998 rect Landroid/graphics/RectF;
+	FIELD field_3999 rectLeft F
+	FIELD field_4000 rectRight F
+	FIELD field_4001 rectTop F
+	FIELD field_4002 rectBottom F
+	FIELD field_4003 circleCenterX F
+	FIELD field_4004 circleCenterY F
+	FIELD field_4005 squaredRadius F

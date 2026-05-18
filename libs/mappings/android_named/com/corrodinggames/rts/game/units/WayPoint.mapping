@@ -1,0 +1,19 @@
+CLASS com/corrodinggames/rts/game/units/class_706 com/corrodinggames/rts/game/units/WayPoint
+	FIELD field_3927 type Lcom/corrodinggames/rts/game/units/class_707;
+	FIELD field_3931 PositionX F
+	FIELD field_3932 PositionY F
+	FIELD field_3934 activeWaypointTarget Lcom/corrodinggames/rts/game/units/class_426;
+	METHOD method_1676 move (FF)V
+	METHOD method_1677 build (FFLcom/corrodinggames/rts/game/units/class_704;I)V
+	METHOD method_1678 attack (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_1682 setDefault ()V
+	METHOD method_1683 attackMove (FF)V
+	METHOD method_1684 repair (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_1686 hasActiveWaypointTarget ()Z
+	METHOD method_1687 guard (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_1689 getTargetPositionX ()F
+	METHOD method_1690 reclaim (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_1691 getTargetPositionY ()F
+	METHOD method_1692 loadInto (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_1693 getActiveWaypointTarget ()Lcom/corrodinggames/rts/game/units/class_426;
+	METHOD method_1694 loadUp (Lcom/corrodinggames/rts/game/units/class_426;)V

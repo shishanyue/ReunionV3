@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_595
+	FIELD field_3601 effects Lcom/corrodinggames/rts/game/units/custom/class_581;
+	METHOD method_1514 createEffectEmitter (FFFFLcom/corrodinggames/rts/gameFramework/class_773;)Lcom/corrodinggames/rts/gameFramework/d/class_894;
+	METHOD method_1515 createEffectEmitter (FFFFLcom/corrodinggames/rts/gameFramework/class_773;IS)Lcom/corrodinggames/rts/gameFramework/d/class_894;

@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/class_862 com/corrodinggames/rts/gameFramework/ReplayEngine
+	METHOD method_2031 recordReplayLog (Ljava/lang/String;)V
+	METHOD method_2032 close ()V

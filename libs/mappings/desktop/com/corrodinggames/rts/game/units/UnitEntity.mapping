@@ -45,7 +45,7 @@ CLASS com/corrodinggames/rts/game/units/y com/corrodinggames/rts/game/units/Unit
 	FIELD p lastPathTargetY F
 	FIELD P attackMode Lcom/corrodinggames/rts/game/units/a;
 	FIELD q pathRetryCount B
-	FIELD Q cooldown I
+	FIELD Q attackCooldown I
 	FIELD r repathDistanceThreshold I
 	FIELD R attackTarget Lcom/corrodinggames/rts/game/units/am;
 	FIELD S turretRotation F

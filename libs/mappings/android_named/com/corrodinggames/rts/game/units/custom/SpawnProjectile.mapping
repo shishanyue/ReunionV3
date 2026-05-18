@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_541 com/corrodinggames/rts/game/units/custom/SpawnProjectile
+	FIELD field_2780 args Lcom/corrodinggames/rts/gameFramework/utility/class_1323;

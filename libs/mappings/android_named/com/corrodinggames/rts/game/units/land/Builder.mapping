@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/e/class_677 com/corrodinggames/rts/game/units/land/Builder
+	FIELD field_3821 builderTexture Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3822 builderDeadTexture Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3834 reclaimBuildingTargetAction Lcom/corrodinggames/rts/game/units/a/class_349;

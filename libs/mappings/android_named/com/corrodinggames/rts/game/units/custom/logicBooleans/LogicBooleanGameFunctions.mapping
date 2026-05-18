@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/game/units/custom/logicBooleans/LogicBooleanGameFunctions
+	CLASS EventTagsBoolean
+		FIELD includesTag includesTagList Lcom/corrodinggames/rts/game/units/custom/class_576;

@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/game/units/d/class_647 com/corrodinggames/rts/game/units/buildings/NukeLaucher
+	FIELD field_3804 baseTexture [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3805 deadTexture Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3811 launchNukeAction Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_3812 buildNukeAction Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_3813 actionList Ljava/util/ArrayList;
+	METHOD method_1620 getNukeProjectile (Lcom/corrodinggames/rts/game/units/class_426;FFFF)Lcom/corrodinggames/rts/game/class_314;

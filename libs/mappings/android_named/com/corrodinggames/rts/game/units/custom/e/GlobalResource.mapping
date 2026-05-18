@@ -1,0 +1,14 @@
+CLASS com/corrodinggames/rts/game/units/custom/e/class_565 com/corrodinggames/rts/game/units/custom/e/GlobalResource
+	FIELD field_3008 iconImage Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3016 displayName Lcom/corrodinggames/rts/game/units/custom/class_527;
+	FIELD field_3017 displayNameShort Lcom/corrodinggames/rts/game/units/custom/class_527;
+	FIELD field_3018 displayNameHideWhenIconShownInHUD Z
+	FIELD field_3019 displayNameHideWhenIconShownInText Z
+	FIELD field_3021 hidden Z
+	FIELD field_3022 valueInStats F
+	FIELD field_3023 displayWithRounding Z
+	FIELD field_3026 displayInHud Z
+	FIELD field_3029 displayTextPrefix Lcom/corrodinggames/rts/game/units/custom/class_527;
+	FIELD field_3030 displayTextPostfix Lcom/corrodinggames/rts/game/units/custom/class_527;
+	FIELD field_3031 displayTextAppendResource Ljava/lang/String;
+	FIELD field_3035 equivalentGlobalResourceForAI Ljava/lang/String;

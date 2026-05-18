@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/class_860 com/corrodinggames/rts/gameFramework/UnitTextureImplement
+	METHOD method_2012 textureWidth (I)V
+	METHOD method_2013 textureHeight (I)V

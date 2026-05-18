@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/game/b/class_304 com/corrodinggames/rts/game/maps/Layer
+	FIELD field_995 width I
+	FIELD field_996 height I

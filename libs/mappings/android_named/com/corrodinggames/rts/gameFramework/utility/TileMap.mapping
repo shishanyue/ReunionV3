@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/class_1294 com/corrodinggames/rts/gameFramework/utility/TileMap
+	METHOD method_3496 update (F)V
+	METHOD method_3497 inMap (FF)Z
+	METHOD method_3498 canPassable (FFLcom/corrodinggames/rts/game/units/class_428;)Z
+	METHOD method_3511 unloadUpToUnitFromSource (Lcom/corrodinggames/rts/game/units/class_426;Lcom/corrodinggames/rts/game/units/class_409;)V

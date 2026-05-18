@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/game/units/a/class_333 com/corrodinggames/rts/game/units/actions/ActionId
+	FIELD field_1519 allActions Lcom/corrodinggames/rts/game/units/a/class_333;
+	METHOD method_560 create (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/a/class_333;

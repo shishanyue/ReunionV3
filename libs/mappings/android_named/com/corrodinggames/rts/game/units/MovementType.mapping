@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/game/units/class_428 com/corrodinggames/rts/game/units/MovementType
+	FIELD field_2028 NONE Lcom/corrodinggames/rts/game/units/class_428;
+	FIELD field_2029 LAND Lcom/corrodinggames/rts/game/units/class_428;
+	FIELD field_2030 BUILDING Lcom/corrodinggames/rts/game/units/class_428;
+	FIELD field_2031 AIR Lcom/corrodinggames/rts/game/units/class_428;
+	FIELD field_2032 WATER Lcom/corrodinggames/rts/game/units/class_428;
+	FIELD field_2033 HOVER Lcom/corrodinggames/rts/game/units/class_428;
+	FIELD field_2034 OVER_CLIFF Lcom/corrodinggames/rts/game/units/class_428;
+	FIELD field_2035 OVER_CLIFF_WATER Lcom/corrodinggames/rts/game/units/class_428;
+	METHOD method_1069 parse (Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/class_428;

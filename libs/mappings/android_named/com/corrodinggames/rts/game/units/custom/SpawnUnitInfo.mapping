@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_548 com/corrodinggames/rts/game/units/custom/SpawnUnitInfo
+	FIELD field_2897 units Lcom/corrodinggames/rts/gameFramework/utility/class_1323;

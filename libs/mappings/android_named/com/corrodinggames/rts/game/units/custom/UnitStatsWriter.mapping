@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_520 com/corrodinggames/rts/game/units/custom/UnitStatsWriter
+	FIELD field_2654 unitTypeRefBase Lcom/corrodinggames/rts/game/units/custom/class_581;

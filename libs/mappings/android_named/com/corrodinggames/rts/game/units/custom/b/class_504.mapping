@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/custom/b/class_504
+	FIELD field_2606 enabled Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_2607 speed F
+	FIELD field_2608 maxSpeed F
+	FIELD field_2609 awayFromEdge I

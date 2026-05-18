@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/j/class_1026 com/corrodinggames/rts/gameFramework/net/ServerAcceptRunnable
+	FIELD field_6079 serverSocket Ljava/net/ServerSocket;
+	FIELD field_6080 port I
+	FIELD field_6093 netEngine Lcom/corrodinggames/rts/gameFramework/j/class_1001;
+	METHOD method_2846 startServerSocket (Z)V

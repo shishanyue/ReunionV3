@@ -1,0 +1,18 @@
+CLASS com/corrodinggames/rts/game/units/custom/logicBooleans/LogicNumberFunction
+	CLASS FunctionDirectionBetween
+		FIELD unit1 from Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD unit2 to Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	CLASS FunctionDistanceBetween
+		FIELD unit1 from Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD unit2 to Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	CLASS FunctionDistanceBetweenSquared
+		FIELD unit1 from Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD unit2 to Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	CLASS FunctionLength
+		FIELD a logicValue Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	CLASS FunctionMax
+		FIELD a first Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD b second Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	CLASS FunctionMin
+		FIELD a first Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD b second Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;

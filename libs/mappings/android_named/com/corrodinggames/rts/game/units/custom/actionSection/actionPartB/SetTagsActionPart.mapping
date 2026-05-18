@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/a/class_456 com/corrodinggames/rts/game/units/custom/actionSection/actionPartB/SetTagsActionPart
+	FIELD field_2214 resetToDefaultTags Z
+	FIELD field_2215 temporarilyAddTags Lcom/corrodinggames/rts/game/units/custom/class_577;
+	FIELD field_2216 temporarilyRemoveTags Lcom/corrodinggames/rts/game/units/custom/class_577;
+	FIELD field_2217 addGlobalTeamTags Lcom/corrodinggames/rts/game/units/custom/class_577;
+	FIELD field_2218 f789e Lcom/corrodinggames/rts/game/units/custom/class_577;

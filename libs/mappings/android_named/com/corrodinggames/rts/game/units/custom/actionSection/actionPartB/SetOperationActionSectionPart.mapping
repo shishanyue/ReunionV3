@@ -1,0 +1,18 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/a/class_454 com/corrodinggames/rts/game/units/custom/actionSection/actionPartB/SetOperationActionSectionPart
+	FIELD field_2195 deleteSelf Z
+	FIELD field_2196 switchToNeutralTeam Z
+	FIELD field_2197 switchToAggressiveTeam Z
+	FIELD field_2198 switchToTeam Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_2199 setBodyRotation Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_2200 setHeight Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_2201 teleportTo Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_2202 clearAllActionCooldowns Z
+	FIELD field_2203 addAllActionCooldownsTime F
+	FIELD field_2204 addActionCooldownTime F
+	FIELD field_2205 addActionCooldownApplyToActions Lcom/corrodinggames/rts/game/units/custom/class_590;
+	FIELD field_2206 removeAllQueuedItemsWithoutRefund Z
+	FIELD field_2207 refundAllQueuedItems Z
+	FIELD field_2208 setBuilt F
+	FIELD field_2209 offsetSelfAbsolute Lcom/corrodinggames/rts/gameFramework/utility/class_1305;
+	FIELD field_2210 resetUnitStats Z
+	FIELD field_2211 setUnitStats Lcom/corrodinggames/rts/game/units/custom/logicBooleans/VariableScope$CachedWriter;

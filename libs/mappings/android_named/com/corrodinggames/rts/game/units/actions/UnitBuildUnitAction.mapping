@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/a/class_352 com/corrodinggames/rts/game/units/actions/UnitBuildUnitAction
+	FIELD field_1581 buildUnit Lcom/corrodinggames/rts/game/units/class_704;

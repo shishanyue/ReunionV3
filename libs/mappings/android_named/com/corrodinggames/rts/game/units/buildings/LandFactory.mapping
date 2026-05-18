@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/d/class_642 com/corrodinggames/rts/game/units/buildings/LandFactory
+	METHOD method_1616 getCanBuildList (Ljava/util/ArrayList;I)V

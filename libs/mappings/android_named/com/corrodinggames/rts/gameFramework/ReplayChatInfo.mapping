@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/class_864 com/corrodinggames/rts/gameFramework/ReplayChatInfo
+	FIELD field_4757 header Ljava/lang/String;
+	FIELD field_4758 message Ljava/lang/String;

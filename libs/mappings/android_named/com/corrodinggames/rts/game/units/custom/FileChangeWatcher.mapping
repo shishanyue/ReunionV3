@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_466 com/corrodinggames/rts/game/units/custom/FileChangeWatcher
+	FIELD field_2375 filePath Ljava/lang/String;

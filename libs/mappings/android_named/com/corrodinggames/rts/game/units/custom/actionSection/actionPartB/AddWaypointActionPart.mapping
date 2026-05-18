@@ -1,0 +1,17 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/a/class_446 com/corrodinggames/rts/game/units/custom/actionSection/actionPartB/AddWaypointActionPart
+	FIELD field_2135 addWaypointPrepend Z
+	FIELD field_2136 addWaypointTargetNearestUnitTagged Lcom/corrodinggames/rts/game/units/custom/class_577;
+	FIELD field_2137 addWaypointTargetNearestUnitTeam Lcom/corrodinggames/rts/game/class_327;
+	FIELD field_2138 addWaypointTargetNearestUnitMaxRange F
+	FIELD field_2140 addWaypointTargetRandomUnitTagged Lcom/corrodinggames/rts/game/units/custom/class_577;
+	FIELD field_2141 addWaypointTargetRandomUnitTeam Lcom/corrodinggames/rts/game/class_327;
+	FIELD field_2142 addWaypointTargetRandomUnitMaxRange F
+	FIELD field_2143 addWaypointTargetMapMustBeReachable Z
+	FIELD field_2144 addWaypointPositionFromAction Z
+	FIELD field_2145 addWaypointPositionOffsetFromSelf Landroid/graphics/PointF;
+	FIELD field_2146 addWaypointPositionRelativeOffsetFromSelf Landroid/graphics/PointF;
+	FIELD field_2147 addWaypointPositionRandomOffsetFromSelf Landroid/graphics/PointF;
+	FIELD field_2148 addWaypointTargetFromReference Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_2149 addWaypointMaxTime F
+	FIELD field_2150 addWaypointTriggerActionIfFailed Lcom/corrodinggames/rts/game/units/custom/class_590;
+	FIELD field_2151 addWaypointTriggerActionIfMatched Lcom/corrodinggames/rts/game/units/custom/class_590;

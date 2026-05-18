@@ -1,0 +1,21 @@
+CLASS com/corrodinggames/rts/gameFramework/j/class_1030 com/corrodinggames/rts/gameFramework/net/GameOutputStream
+	FIELD field_6112 byteStream Ljava/io/ByteArrayOutputStream;
+	FIELD field_6113 useStream Ljava/io/DataOutputStream;
+	FIELD field_6114 packet Ljava/io/DataOutputStream;
+	METHOD method_2853 flashAll ()V
+	METHOD method_2854 writeDouble (D)V
+	METHOD method_2855 writeFloat (F)V
+	METHOD method_2856 getPacket (I)Lcom/corrodinggames/rts/gameFramework/j/class_1032;
+	METHOD method_2858 writeLong (J)V
+	METHOD method_2859 writeIsPointF (Landroid/graphics/PointF;)V
+	METHOD method_2869 writeEnum (Ljava/lang/Enum;)V
+	METHOD method_2870 writeIsInt (Ljava/lang/Integer;)V
+	METHOD method_2871 writeIsString (Ljava/lang/String;)V
+	METHOD method_2872 startBlock (Ljava/lang/String;Z)V
+	METHOD method_2874 writeBoolean (Z)V
+	METHOD method_2877 writeByte (I)V
+	METHOD method_2880 writeUTF (Ljava/lang/String;)V
+	METHOD method_2882 toString ()Ljava/lang/String;
+	METHOD method_2883 writeInt (I)V
+	METHOD method_2885 toByteArray ()[B
+	METHOD method_2888 endBlock (Ljava/lang/String;)V

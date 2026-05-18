@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/gameFramework/j/class_1044 com/corrodinggames/rts/gameFramework/net/GameInputStream
+	FIELD field_6237 byteStream Ljava/io/ByteArrayInputStream;
+	FIELD field_6242 useStream Ljava/io/DataInputStream;
+	METHOD method_2924 getBytesAndCheckMark (Ljava/lang/String;)[B
+	METHOD method_2926 endBlock (Ljava/lang/String;)V
+	METHOD method_2929 readBytes ()[B
+	METHOD method_2931 setMainStream ()V

@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/gameFramework/d/class_896 com/corrodinggames/rts/gameFramework/emitter/EffectObject
+	FIELD field_5062 effectName Ljava/lang/String;
+	FIELD field_5063 staticFrameWidth I
+	FIELD field_5064 staticFrameHeight I
+	FIELD field_5070 image Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_5071 imageShadow Lcom/corrodinggames/rts/gameFramework/m/class_1189;

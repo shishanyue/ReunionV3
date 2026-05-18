@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/j/class_1016 com/corrodinggames/rts/gameFramework/net/MapType
+	FIELD field_6029 skirmishMap Lcom/corrodinggames/rts/gameFramework/j/class_1016;
+	FIELD field_6030 customMap Lcom/corrodinggames/rts/gameFramework/j/class_1016;
+	FIELD field_6031 savedGame Lcom/corrodinggames/rts/gameFramework/j/class_1016;

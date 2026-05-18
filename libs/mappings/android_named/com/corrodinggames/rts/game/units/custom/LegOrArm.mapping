@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_526 com/corrodinggames/rts/game/units/custom/LegOrArm
+	FIELD field_2677 explodeOnDeath Z
+	FIELD field_2678 holdDisMin F
+	FIELD field_2700 estimatingPositionMultiplier F
+	METHOD method_1218 cloneFrom (Lcom/corrodinggames/rts/game/units/custom/class_526;)V

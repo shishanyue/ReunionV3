@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/game/class_327 com/corrodinggames/rts/game/Relation
+	FIELD field_1483 own Lcom/corrodinggames/rts/game/class_327;
+	FIELD field_1484 ally Lcom/corrodinggames/rts/game/class_327;
+	FIELD field_1485 allyNotOwn Lcom/corrodinggames/rts/game/class_327;
+	FIELD field_1486 enemy Lcom/corrodinggames/rts/game/class_327;
+	FIELD field_1487 neutral Lcom/corrodinggames/rts/game/class_327;
+	FIELD field_1488 any Lcom/corrodinggames/rts/game/class_327;
+	FIELD field_1489 notOwn Lcom/corrodinggames/rts/game/class_327;

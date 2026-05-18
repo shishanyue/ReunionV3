@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_588 com/corrodinggames/rts/game/units/custom/AutoTriggerCheckRate
+	FIELD field_3582 everyFrame Lcom/corrodinggames/rts/game/units/custom/class_588;
+	FIELD field_3583 every4Frames Lcom/corrodinggames/rts/game/units/custom/class_588;
+	FIELD field_3584 every8Frames Lcom/corrodinggames/rts/game/units/custom/class_588;

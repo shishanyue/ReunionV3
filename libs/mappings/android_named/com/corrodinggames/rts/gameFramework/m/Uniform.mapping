@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/gameFramework/m/class_1232 com/corrodinggames/rts/gameFramework/m/Uniform
+	FIELD field_6887 uniformName Ljava/lang/String;
+	FIELD field_6889 hasParameter Z
+	FIELD field_6891 value [F
+	FIELD field_6892 unitTexture Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_6893 alsoSetSomthing Z
+	METHOD method_3327 setUniformVec2 (FF)V
+	METHOD method_3328 setColor (FFFF)V
+	METHOD method_3329 setUnitTexture (Lcom/corrodinggames/rts/gameFramework/m/class_1189;)V
+	METHOD method_3330 setUnitTextureWithSomething (Lcom/corrodinggames/rts/gameFramework/m/class_1189;)V

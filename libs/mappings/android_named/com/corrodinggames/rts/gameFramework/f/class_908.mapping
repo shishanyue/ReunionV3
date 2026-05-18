@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/gameFramework/f/class_908
+	FIELD field_5170 zoomButton Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_5182 interfaceEngine Lcom/corrodinggames/rts/gameFramework/f/class_961;
+	FIELD field_5209 gameEngine Lcom/corrodinggames/rts/gameFramework/class_1061;
+	METHOD method_2368 showTipOnCenter (Ljava/lang/String;I)V
+	METHOD method_2375 updateTipOnCenter (F)V

@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/game/units/class_398 com/corrodinggames/rts/game/units/AbstractTerrainDefinition
+	FIELD field_1686 grass Lcom/corrodinggames/rts/game/units/class_398;
+	FIELD field_1687 sea Lcom/corrodinggames/rts/game/units/class_398;
+	FIELD field_1688 sand Lcom/corrodinggames/rts/game/units/class_398;
+	FIELD field_1689 dust Lcom/corrodinggames/rts/game/units/class_398;
+	FIELD field_1690 terrains [Lcom/corrodinggames/rts/game/units/class_398;

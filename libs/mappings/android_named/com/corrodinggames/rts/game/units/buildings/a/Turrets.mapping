@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/d/a/class_605 com/corrodinggames/rts/game/units/buildings/a/Turrets
+	METHOD method_1533 init ()V

@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/gameFramework/class_865 com/corrodinggames/rts/gameFramework/ReplayInfo
+	FIELD field_4765 replayChatInfo Lcom/corrodinggames/rts/gameFramework/class_864;

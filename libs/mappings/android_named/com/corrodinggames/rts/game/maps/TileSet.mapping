@@ -1,0 +1,14 @@
+CLASS com/corrodinggames/rts/game/b/class_309 com/corrodinggames/rts/game/maps/TileSet
+	FIELD field_1042 name Ljava/lang/String;
+	FIELD field_1043 bitmap Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1045 tileWidth I
+	FIELD field_1046 tileHeight I
+	FIELD field_1049 textureOffsetX I
+	FIELD field_1050 textureOffsetY I
+	FIELD field_1051 tilesPerRow I
+	FIELD field_1052 inverseTilesPerRow F
+	FIELD field_1053 firstTileId I
+	FIELD field_1062 embedString Ljava/lang/String;
+	FIELD field_1063 bitmaps Ljava/util/ArrayList;
+	METHOD method_389 getTileRect (ILandroid/graphics/Rect;)V
+	METHOD method_393 tryLoadTilesetBitmap (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/m/class_1189;

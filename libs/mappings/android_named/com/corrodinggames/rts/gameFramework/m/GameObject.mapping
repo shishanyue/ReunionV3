@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/m/class_1225 com/corrodinggames/rts/gameFramework/m/GameObject
+	METHOD method_3239 drawLine (FFFFLandroid/graphics/Paint;)V
+	METHOD method_3240 draw (FFFLandroid/graphics/Paint;)V
+	METHOD method_3261 draw (Lcom/corrodinggames/rts/gameFramework/m/class_1189;Landroid/graphics/Rect;Landroid/graphics/RectF;Landroid/graphics/Paint;)V
+	METHOD method_3266 loadTexture (Ljava/io/InputStream;Z)Lcom/corrodinggames/rts/gameFramework/m/class_1189;
