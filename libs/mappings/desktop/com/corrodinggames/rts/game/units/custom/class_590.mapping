@@ -3,6 +3,8 @@ CLASS com/corrodinggames/rts/game/units/custom/u com/corrodinggames/rts/game/uni
 	FIELD b field_3587 Lcom/corrodinggames/rts/gameFramework/utility/m;
 	FIELD c field_3588 Ljava/lang/String;
 	FIELD d field_3589 Ljava/lang/String;
+	METHOD a method_4692 ()Lcom/corrodinggames/rts/gameFramework/utility/m;
 	METHOD a method_1506 (Lcom/corrodinggames/rts/game/units/custom/j;Landroid/graphics/PointF;Lcom/corrodinggames/rts/game/units/am;)V
 	METHOD a method_1507 (Lcom/corrodinggames/rts/game/units/custom/j;Landroid/graphics/PointF;Lcom/corrodinggames/rts/game/units/am;II)V
+	METHOD a method_4693 (Lcom/corrodinggames/rts/game/units/custom/l;)V
 	METHOD b method_1508 (Lcom/corrodinggames/rts/game/units/custom/l;)V

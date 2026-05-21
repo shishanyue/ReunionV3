@@ -1,2 +1,2 @@
 CLASS android/util/Log
-	METHOD d d (Ljava/lang/String;Ljava/lang/String;)I
+	METHOD method_3994 d (Ljava/lang/String;Ljava/lang/String;)I

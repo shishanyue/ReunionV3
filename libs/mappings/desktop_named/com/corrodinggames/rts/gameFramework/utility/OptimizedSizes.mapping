@@ -1,6 +1,6 @@
-CLASS com/a/a/a/a com/corrodinggames/rts/gameFramework/utility/OptimizedSizes
-	FIELD a EMPTY_OBJECT_ARRAY [Ljava/lang/Object;
-	FIELD b S_OBJECT_ARRAY [Ljava/lang/Object;
-	METHOD a growSize (I)I
-	METHOD b growSizeByTwo (I)I
-	METHOD c growSizeByFour (I)I
+CLASS com/a/a/a/class_1370 com/corrodinggames/rts/gameFramework/utility/OptimizedSizes
+	FIELD field_7629 EMPTY_OBJECT_ARRAY [Ljava/lang/Object;
+	FIELD field_7630 S_OBJECT_ARRAY [Ljava/lang/Object;
+	METHOD method_4013 growSize (I)I
+	METHOD method_4014 growSizeByTwo (I)I
+	METHOD method_4015 growSizeByFour (I)I

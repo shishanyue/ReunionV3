@@ -3,7 +3,9 @@ CLASS com/corrodinggames/rts/game/units/custom/bq com/corrodinggames/rts/game/un
 	FIELD b field_2899 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
 	FIELD c field_2900 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
 	FIELD d field_2901 I
+	FIELD e field_8022 Z
 	FIELD f field_2903 Z
+	FIELD g field_8023 Z
 	FIELD h field_2905 F
 	FIELD i field_2906 I
 	FIELD j field_2907 Z

@@ -1,0 +1,37 @@
+CLASS android/graphics/Canvas
+	METHOD a method_3887 ()I
+	METHOD a method_3904 ([CIIFFLandroid/graphics/Paint;)V
+	METHOD a method_3905 ([FIILandroid/graphics/Paint;)V
+	METHOD a method_3888 (FF)V
+	METHOD a method_3889 (FFF)V
+	METHOD a method_3890 (FFFF)V
+	METHOD a method_3891 (FFFFLandroid/graphics/Paint;)V
+	METHOD a method_3892 (FFFLandroid/graphics/Paint;)V
+	METHOD a method_3893 (I)V
+	METHOD a method_3894 (ILandroid/graphics/PorterDuff$Mode;)V
+	METHOD a method_3895 (Landroid/graphics/Bitmap;)V
+	METHOD a method_3896 (Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
+	METHOD a method_3897 (Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Paint;)V
+	METHOD a method_3898 (Landroid/graphics/Bitmap;Landroid/graphics/Rect;Landroid/graphics/RectF;Landroid/graphics/Paint;)V
+	METHOD a method_3899 (Landroid/graphics/Rect;)Z
+	METHOD a method_3900 (Landroid/graphics/Rect;Landroid/graphics/Paint;)V
+	METHOD a method_3901 (Landroid/graphics/RectF;)Z
+	METHOD a method_3902 (Landroid/graphics/RectF;Landroid/graphics/Paint;)V
+	METHOD a method_3903 (Ljava/lang/String;FFLandroid/graphics/Paint;)V
+	METHOD b method_3906 ()V
+	METHOD b method_3907 (FF)V
+	CLASS EdgeType
+		FIELD a field_7499 Landroid/graphics/Canvas$EdgeType;
+		FIELD b field_7500 Landroid/graphics/Canvas$EdgeType;
+		FIELD c field_7501 I
+		FIELD d field_7502 [Landroid/graphics/Canvas$EdgeType;
+		METHOD valueOf valueOf (Ljava/lang/String;)Landroid/graphics/Canvas$EdgeType;
+		METHOD values values ()[Landroid/graphics/Canvas$EdgeType;
+	CLASS VertexMode
+		FIELD a field_7503 Landroid/graphics/Canvas$VertexMode;
+		FIELD b field_7504 Landroid/graphics/Canvas$VertexMode;
+		FIELD c field_7505 Landroid/graphics/Canvas$VertexMode;
+		FIELD d field_7506 I
+		FIELD e field_7507 [Landroid/graphics/Canvas$VertexMode;
+		METHOD valueOf valueOf (Ljava/lang/String;)Landroid/graphics/Canvas$VertexMode;
+		METHOD values values ()[Landroid/graphics/Canvas$VertexMode;

@@ -33,6 +33,9 @@ CLASS com/corrodinggames/rts/gameFramework/k/o com/corrodinggames/rts/gameFramew
 	METHOD a method_3158 (BSS)Ljava/util/LinkedList;
 	METHOD a method_3159 (II)I
 	METHOD a method_3160 (Lcom/corrodinggames/rts/game/b/b;)V
+	METHOD a method_5569 (Lcom/corrodinggames/rts/game/units/ao;Lcom/corrodinggames/rts/gameFramework/k/k;)V
+	METHOD a method_5570 (Lcom/corrodinggames/rts/game/units/ao;SSLjava/lang/Float;)V
+	METHOD a method_5571 (Lcom/corrodinggames/rts/gameFramework/k/k;)V
 	METHOD a method_3162 (Ljava/util/LinkedList;)Ljava/util/LinkedList;
 	METHOD a method_3164 (SSS)V
 	METHOD b method_3165 ()V
@@ -41,4 +44,6 @@ CLASS com/corrodinggames/rts/gameFramework/k/o com/corrodinggames/rts/gameFramew
 	METHOD c method_3168 (II)I
 	METHOD d method_3169 ()V
 	METHOD e method_3170 ()Ljava/util/LinkedList;
+	METHOD f method_5572 ()V
 	METHOD g method_3171 ()V
+	METHOD run run ()V

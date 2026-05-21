@@ -21,5 +21,6 @@ CLASS com/corrodinggames/rts/gameFramework/j/ao com/corrodinggames/rts/gameFrame
 	METHOD a method_2845 (Ljava/net/InetAddress;Z)Z
 	METHOD a method_2846 (Z)V
 	METHOD b method_2844 ()V
+	METHOD run run ()V
 	CLASS 1 class_1027
 		FIELD a field_6094 Lcom/corrodinggames/rts/gameFramework/j/ao;

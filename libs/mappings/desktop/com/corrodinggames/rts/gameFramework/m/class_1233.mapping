@@ -1,2 +1,11 @@
 CLASS com/corrodinggames/rts/gameFramework/m/ag com/corrodinggames/rts/gameFramework/m/class_1233
+	FIELD r field_8662 Lcom/corrodinggames/rts/gameFramework/m/ag;
 	FIELD s field_6897 Z
+	FIELD t field_8663 Lcom/corrodinggames/rts/gameFramework/m/ae;
+	FIELD u field_8664 Z
+	METHOD a method_5648 (Lcom/corrodinggames/rts/gameFramework/m/ae;)V
+	METHOD b method_5649 (Landroid/graphics/Paint;)V
+	METHOD c method_5650 (F)V
+	METHOD o method_5651 ()V
+	METHOD p method_5652 ()Z
+	METHOD q method_5653 ()Lcom/corrodinggames/rts/gameFramework/m/ae;

@@ -1,5 +1,1 @@
-CLASS com/corrodinggames/rts/game/units/h/c com/corrodinggames/rts/game/units/sea/GunBoat
-	FIELD a gunBoatTexture_dead Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD b gunBoatTexture Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD c gunBoatShadowTexture Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD d gunBoatTextures_teamColors [Lcom/corrodinggames/rts/gameFramework/m/e;
+CLASS com/corrodinggames/rts/game/units/h/class_730 com/corrodinggames/rts/game/units/sea/GunBoat

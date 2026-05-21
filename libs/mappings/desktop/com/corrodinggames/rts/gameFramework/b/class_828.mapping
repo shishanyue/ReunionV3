@@ -1,6 +1,13 @@
 CLASS com/corrodinggames/rts/gameFramework/b/f com/corrodinggames/rts/gameFramework/b/class_828
+	FIELD a field_8254 Lcom/corrodinggames/rts/gameFramework/b/k;
+	FIELD b field_8255 Ljava/util/Map;
+	FIELD c field_8256 Lcom/corrodinggames/rts/gameFramework/b/a;
+	FIELD d field_8257 Lcom/corrodinggames/rts/gameFramework/b/g;
+	FIELD e field_8258 Lcom/corrodinggames/rts/gameFramework/b/af;
 	METHOD a method_1906 ()V
 	METHOD a method_1916 ([FIILcom/corrodinggames/rts/gameFramework/b/v;)V
+	METHOD a method_4985 (FFFFLcom/corrodinggames/rts/gameFramework/b/v;)V
+	METHOD a method_4986 (FFFLcom/corrodinggames/rts/gameFramework/b/v;)V
 	METHOD a method_1910 (IIII)V
 	METHOD a method_1911 (Landroid/graphics/Bitmap;)V
 	METHOD a method_1912 (Landroid/graphics/Bitmap;Lcom/corrodinggames/rts/gameFramework/m/e;)Lcom/corrodinggames/rts/gameFramework/b/b;
@@ -11,5 +18,6 @@ CLASS com/corrodinggames/rts/gameFramework/b/f com/corrodinggames/rts/gameFramew
 	METHOD c method_1922 ()V
 	METHOD d method_1923 ()V
 	METHOD e method_1919 ()V
+	METHOD finalize finalize ()V
 	CLASS 1 class_831
 		FIELD a field_4594 Lcom/corrodinggames/rts/gameFramework/b/f;

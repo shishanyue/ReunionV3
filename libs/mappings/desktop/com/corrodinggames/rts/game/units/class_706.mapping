@@ -13,18 +13,25 @@ CLASS com/corrodinggames/rts/game/units/au com/corrodinggames/rts/game/units/cla
 	FIELD l field_3938 F
 	FIELD m field_3939 Z
 	FIELD n field_3940 Z
+	METHOD a method_4516 ()Lcom/corrodinggames/rts/game/units/as;
 	METHOD a method_1676 (FF)V
 	METHOD a method_1677 (FFLcom/corrodinggames/rts/game/units/as;I)V
 	METHOD a method_1678 (Lcom/corrodinggames/rts/game/units/am;)V
 	METHOD a method_1679 (Lcom/corrodinggames/rts/game/units/au;)Z
 	METHOD a method_1680 (Lcom/corrodinggames/rts/gameFramework/j/as;)V
+	METHOD a method_4517 (Lcom/corrodinggames/rts/gameFramework/j/k;)V
+	METHOD b method_4518 ()I
 	METHOD b method_1683 (FF)V
 	METHOD b method_1684 (Lcom/corrodinggames/rts/game/units/am;)V
 	METHOD b method_1685 (Lcom/corrodinggames/rts/game/units/au;)Z
 	METHOD c method_1675 ()V
+	METHOD c method_4519 (FF)V
 	METHOD c method_1687 (Lcom/corrodinggames/rts/game/units/am;)V
 	METHOD c method_1688 (Lcom/corrodinggames/rts/game/units/au;)V
+	METHOD d method_4520 ()Lcom/corrodinggames/rts/game/units/av;
+	METHOD d method_4521 (Lcom/corrodinggames/rts/game/units/am;)V
 	METHOD e method_1682 ()V
+	METHOD e method_4522 (Lcom/corrodinggames/rts/game/units/am;)V
 	METHOD f method_1686 ()Z
 	METHOD f method_1690 (Lcom/corrodinggames/rts/game/units/am;)V
 	METHOD g method_1689 ()F
@@ -33,3 +40,5 @@ CLASS com/corrodinggames/rts/game/units/au com/corrodinggames/rts/game/units/cla
 	METHOD h method_1694 (Lcom/corrodinggames/rts/game/units/am;)V
 	METHOD i method_1693 ()Lcom/corrodinggames/rts/game/units/am;
 	METHOD j method_1695 ()J
+	METHOD k method_4523 ()V
+	METHOD l method_4524 ()Lcom/corrodinggames/rts/game/units/am;

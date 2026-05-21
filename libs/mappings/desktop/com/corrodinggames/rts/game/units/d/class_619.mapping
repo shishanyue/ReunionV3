@@ -5,5 +5,6 @@ CLASS com/corrodinggames/rts/game/units/d/t com/corrodinggames/rts/game/units/d/
 	FIELD d field_3674 [Lcom/corrodinggames/rts/gameFramework/m/e;
 	FIELD e field_3675 [Lcom/corrodinggames/rts/gameFramework/m/e;
 	FIELD f field_3676 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD g field_8107 Lcom/corrodinggames/rts/game/units/a/c;
 	METHOD a method_1559 (Ljava/util/ArrayList;I)V
 	METHOD b method_1558 ()V

@@ -1,5 +1,3 @@
-CLASS com/corrodinggames/rts/gameFramework/i/c com/corrodinggames/rts/gameFramework/mod/LegacyDisabledMod
-	FIELD a modId Ljava/lang/String;
-	FIELD b modPath Ljava/lang/String;
-	FIELD c modInfo Lcom/corrodinggames/rts/gameFramework/i/b;
-	FIELD d modManager Lcom/corrodinggames/rts/gameFramework/i/a;
+CLASS com/corrodinggames/rts/gameFramework/i/class_993 com/corrodinggames/rts/gameFramework/mod/LegacyDisabledMod
+	FIELD field_5831 modId Ljava/lang/String;
+	FIELD field_5832 modPath Ljava/lang/String;

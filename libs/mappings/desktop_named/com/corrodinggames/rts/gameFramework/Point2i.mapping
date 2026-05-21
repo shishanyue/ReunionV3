@@ -1,3 +1,3 @@
-CLASS com/corrodinggames/rts/gameFramework/bh com/corrodinggames/rts/gameFramework/Point2i
-	FIELD a x I
-	FIELD b y I
+CLASS com/corrodinggames/rts/gameFramework/class_869 com/corrodinggames/rts/gameFramework/Point2i
+	FIELD field_4791 x I
+	FIELD field_4792 y I

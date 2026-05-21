@@ -6,4 +6,6 @@ CLASS com/corrodinggames/rts/gameFramework/d/b com/corrodinggames/rts/gameFramew
 	FIELD e field_4924 F
 	FIELD f field_4925 F
 	METHOD a method_2086 ()Z
+	METHOD a method_5084 (F)V
 	METHOD b method_2087 ()V
+	METHOD b method_5085 (F)V

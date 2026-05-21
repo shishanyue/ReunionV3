@@ -1,22 +1,14 @@
-CLASS com/corrodinggames/rts/game/units/custom/a/a/b com/corrodinggames/rts/game/units/custom/logic/actions/WaypointAction
-	FIELD a clearAllWaypoints Z
-	FIELD b clearActiveWaypoint Z
-	FIELD c waypointType Lcom/corrodinggames/rts/game/units/av;
-	FIELD d waypointUnitType Lcom/corrodinggames/rts/game/units/custom/v;
-	FIELD e prependWaypoint Z
-	FIELD f nearestUnitTagged Lcom/corrodinggames/rts/game/units/custom/h;
-	FIELD g nearestUnitTeam Lcom/corrodinggames/rts/game/q;
-	FIELD h nearestUnitMaxRange F
-	FIELD i targetRandomUnit Z
-	FIELD j randomUnitTagged Lcom/corrodinggames/rts/game/units/custom/h;
-	FIELD k randomUnitTeam Lcom/corrodinggames/rts/game/q;
-	FIELD l randomUnitMaxRange F
-	FIELD m mapMustBeReachable Z
-	FIELD n positionFromAction Z
-	FIELD o positionOffsetFromSelf Landroid/graphics/PointF;
-	FIELD p positionRelativeOffsetFromSelf Landroid/graphics/PointF;
-	FIELD q positionRandomOffsetFromSelf Landroid/graphics/PointF;
-	FIELD r targetFromReference Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
-	FIELD s waypointMaxTime F
-	FIELD t triggerActionIfFailed Lcom/corrodinggames/rts/game/units/custom/u;
-	FIELD u triggerActionIfMatched Lcom/corrodinggames/rts/game/units/custom/u;
+CLASS com/corrodinggames/rts/game/units/custom/a/a/class_446 com/corrodinggames/rts/game/units/custom/logic/actions/WaypointAction
+	FIELD field_2131 clearAllWaypoints Z
+	FIELD field_2132 clearActiveWaypoint Z
+	FIELD field_2135 prependWaypoint Z
+	FIELD field_2138 nearestUnitMaxRange F
+	FIELD field_2139 targetRandomUnit Z
+	FIELD field_2142 randomUnitMaxRange F
+	FIELD field_2143 mapMustBeReachable Z
+	FIELD field_2144 positionFromAction Z
+	FIELD field_2145 positionOffsetFromSelf Landroid/graphics/PointF;
+	FIELD field_2146 positionRelativeOffsetFromSelf Landroid/graphics/PointF;
+	FIELD field_2147 positionRandomOffsetFromSelf Landroid/graphics/PointF;
+	FIELD field_2148 targetFromReference Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_2149 waypointMaxTime F

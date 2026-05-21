@@ -1,8 +1,3 @@
-CLASS com/corrodinggames/rts/game/units/h/a com/corrodinggames/rts/game/units/sea/BattleShip
-	FIELD a battleShipTexture Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD b battleShipTexture_alive Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD c battleShipTurretTexture Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD d battleShipShadowTexture Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD e battleShipTextures_teamColors [Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD f boundingRect Landroid/graphics/Rect;
-	METHOD f loadTextures ()V
+CLASS com/corrodinggames/rts/game/units/h/class_728 com/corrodinggames/rts/game/units/sea/BattleShip
+	FIELD field_4077 boundingRect Landroid/graphics/Rect;
+	METHOD method_1733 loadTextures ()V

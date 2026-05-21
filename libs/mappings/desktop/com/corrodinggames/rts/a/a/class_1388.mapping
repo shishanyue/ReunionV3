@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/a/a/m com/corrodinggames/rts/a/a/class_1388
+	METHOD a method_4106 ()V
+	METHOD a method_4107 (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/UnitReference;)V
+	METHOD a method_4108 (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/UnitReference;Lcom/corrodinggames/rts/game/units/am;)V
+	METHOD a method_4109 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/logicBooleans/UnitReference;
+	METHOD a method_4110 (Ljava/lang/String;Z)V

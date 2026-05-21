@@ -1,0 +1,20 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/l com/corrodinggames/rts/gameFramework/utility/class_1422
+	FIELD a field_8816 Ljava/io/Reader;
+	FIELD b field_8817 [C
+	FIELD c field_8818 I
+	FIELD d field_8819 I
+	FIELD e field_8820 I
+	FIELD f field_8821 I
+	METHOD a method_5837 ()Ljava/lang/String;
+	METHOD a method_5838 (III)V
+	METHOD b method_5839 ()I
+	METHOD c method_5840 ()Z
+	METHOD close close ()V
+	METHOD d method_5841 ()V
+	METHOD mark mark (I)V
+	METHOD markSupported markSupported ()Z
+	METHOD read read ()I
+	METHOD read read ([CII)I
+	METHOD ready ready ()Z
+	METHOD reset reset ()V
+	METHOD skip skip (J)J

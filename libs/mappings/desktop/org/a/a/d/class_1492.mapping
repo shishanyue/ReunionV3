@@ -1,0 +1,5 @@
+CLASS org/a/a/d/a org/a/a/d/class_1492
+	METHOD listIterator listIterator ()Ljava/util/ListIterator;
+	METHOD listIterator listIterator (I)Ljava/util/ListIterator;
+	METHOD remove remove (I)Ljava/lang/Object;
+	METHOD subList subList (II)Ljava/util/List;

@@ -13,3 +13,4 @@ CLASS com/corrodinggames/rts/game/units/d/j com/corrodinggames/rts/game/units/d/
 	FIELD l field_3775 Z
 	FIELD m field_3776 F
 	FIELD n field_3777 D
+	METHOD a method_4730 (Lcom/corrodinggames/rts/gameFramework/j/k;)V

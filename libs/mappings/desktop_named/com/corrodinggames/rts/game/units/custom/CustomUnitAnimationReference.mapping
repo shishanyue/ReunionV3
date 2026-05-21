@@ -1,4 +1,2 @@
-CLASS com/corrodinggames/rts/game/units/custom/o com/corrodinggames/rts/game/units/custom/CustomUnitAnimationReference
-	FIELD a animationName Ljava/lang/String;
-	FIELD b animationConfig Lcom/corrodinggames/rts/game/units/custom/f;
-	FIELD c customUnitConfig Lcom/corrodinggames/rts/game/units/custom/l;
+CLASS com/corrodinggames/rts/game/units/custom/class_584 com/corrodinggames/rts/game/units/custom/CustomUnitAnimationReference
+	FIELD field_3568 animationName Ljava/lang/String;

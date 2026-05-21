@@ -1,7 +1,7 @@
-CLASS com/corrodinggames/rts/a/a/f com/corrodinggames/rts/debug/test/PerformanceTests
-	FIELD a assertionCounter I
-	FIELD b testCounter I
-	FIELD c testRect Landroid/graphics/Rect;
-	FIELD d testPointF Landroid/graphics/PointF;
-	FIELD e testPoint Landroid/graphics/Point;
-	METHOD a runPerformanceTests ()V
+CLASS com/corrodinggames/rts/a/a/class_1382 com/corrodinggames/rts/debug/test/PerformanceTests
+	FIELD field_7696 assertionCounter I
+	FIELD field_7697 testCounter I
+	FIELD field_7698 testRect Landroid/graphics/Rect;
+	FIELD field_7699 testPointF Landroid/graphics/PointF;
+	FIELD field_7700 testPoint Landroid/graphics/Point;
+	METHOD method_4100 runPerformanceTests ()V

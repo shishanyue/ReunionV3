@@ -4,5 +4,9 @@ CLASS com/corrodinggames/rts/gameFramework/k/m com/corrodinggames/rts/gameFramew
 	FIELD c field_6606 I
 	FIELD d field_6607 Lcom/corrodinggames/rts/gameFramework/k/a;
 	FIELD e field_6608 Lcom/corrodinggames/rts/gameFramework/k/e;
+	METHOD a method_5562 ()Lcom/corrodinggames/rts/gameFramework/k/n;
+	METHOD a method_5563 (II)V
+	METHOD a method_5564 (ISS)V
 	METHOD a method_3156 (Lcom/corrodinggames/rts/gameFramework/k/n;)V
+	METHOD b method_5565 ()V
 	METHOD c method_3153 ()Lcom/corrodinggames/rts/gameFramework/k/n;

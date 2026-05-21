@@ -3,3 +3,5 @@ CLASS com/corrodinggames/rts/game/units/custom/c/a com/corrodinggames/rts/game/u
 	FIELD b field_2755 Z
 	FIELD c field_2756 Z
 	FIELD d field_2757 I
+	FIELD e field_8024 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD f field_8025 Landroid/graphics/Paint;

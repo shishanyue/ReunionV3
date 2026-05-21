@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/java/c/i com/corrodinggames/rts/java/c/class_1455
+	FIELD a field_8986 Lcom/codedisaster/steamworks/SteamPublishedFileID;
+	FIELD b field_8987 Ljava/lang/Runnable;
+	METHOD a method_5997 (Lcom/codedisaster/steamworks/SteamResult;)V

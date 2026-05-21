@@ -2,5 +2,16 @@ CLASS com/corrodinggames/rts/game/units/aq com/corrodinggames/rts/game/units/cla
 	FIELD a field_2050 Landroid/graphics/Paint;
 	FIELD b field_2051 Landroid/graphics/Point;
 	FIELD c field_2052 Landroid/graphics/Rect;
+	FIELD d field_7963 Landroid/graphics/PointF;
+	FIELD e field_7964 Landroid/graphics/PointF;
+	FIELD f field_7965 Landroid/graphics/PointF;
+	FIELD g field_7966 Landroid/graphics/PointF;
+	FIELD h field_7967 Landroid/graphics/PointF;
+	FIELD i field_7968 Landroid/graphics/PointF;
+	FIELD j field_7969 Landroid/graphics/PointF;
+	METHOD a method_4509 (Lcom/corrodinggames/rts/game/units/ao;FFFFIII)Z
+	METHOD a method_4510 (Lcom/corrodinggames/rts/game/units/ao;FFFFIIZ)Landroid/graphics/PointF;
+	METHOD a method_4511 (Lcom/corrodinggames/rts/game/units/ao;IIIIIII)Landroid/graphics/Point;
 	METHOD a method_1073 (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/am;)Z
+	METHOD b method_4512 (Lcom/corrodinggames/rts/game/units/ao;FFFFIII)Z
 	METHOD b method_1076 (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/am;)Z

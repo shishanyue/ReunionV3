@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/java/c com/corrodinggames/rts/java/class_1447
+	FIELD a field_8942 Lcom/corrodinggames/rts/java/b;
+	METHOD run run ()V

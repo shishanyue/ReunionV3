@@ -1,2 +1,5 @@
 CLASS com/corrodinggames/rts/game/units/g/c com/corrodinggames/rts/game/units/g/class_724
+	METHOD a method_4793 (Lcom/corrodinggames/rts/game/units/y;F)V
 	METHOD a method_1721 (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/g/a;)V
+	METHOD a method_4794 (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/gameFramework/j/as;)V
+	METHOD a method_4795 (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/gameFramework/j/k;)V

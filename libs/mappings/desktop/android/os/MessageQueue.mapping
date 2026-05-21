@@ -1,0 +1,19 @@
+CLASS android/os/MessageQueue
+	FIELD a field_7594 Landroid/os/Message;
+	FIELD b field_7595 Ljava/lang/Object;
+	FIELD c field_7596 Z
+	FIELD d field_7597 J
+	FIELD e field_7598 Ljava/util/ArrayList;
+	FIELD f field_7599 [Landroid/os/MessageQueue$IdleHandler;
+	FIELD g field_7600 Z
+	FIELD h field_7601 Z
+	METHOD a method_3973 ()Landroid/os/Message;
+	METHOD a method_3974 (J)V
+	METHOD a method_3975 (JI)V
+	METHOD a method_3976 (Landroid/os/Message;J)Z
+	METHOD b method_3977 ()J
+	METHOD b method_3978 (J)V
+	METHOD c method_3979 ()V
+	METHOD finalize finalize ()V
+	CLASS IdleHandler
+		METHOD a method_3980 ()Z

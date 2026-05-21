@@ -37,6 +37,7 @@ CLASS com/corrodinggames/rts/gameFramework/k/l com/corrodinggames/rts/gameFramew
 	FIELD y field_6602 Lcom/corrodinggames/rts/gameFramework/k/i;
 	FIELD z field_6603 Lcom/corrodinggames/rts/gameFramework/k/i;
 	METHOD a method_3149 ()V
+	METHOD a method_5554 (F)V
 	METHOD a method_3129 (II)Z
 	METHOD a method_3130 (Lcom/corrodinggames/rts/game/b/b;Z)V
 	METHOD a method_3132 (Lcom/corrodinggames/rts/game/units/ao;)Lcom/corrodinggames/rts/gameFramework/k/i;
@@ -51,9 +52,16 @@ CLASS com/corrodinggames/rts/gameFramework/k/l com/corrodinggames/rts/gameFramew
 	METHOD a method_3139 (Lcom/corrodinggames/rts/gameFramework/k/o;Lcom/corrodinggames/rts/gameFramework/k/k;)V
 	METHOD a method_3140 (Z)Lcom/corrodinggames/rts/gameFramework/k/k;
 	METHOD b method_3127 ()V
+	METHOD b method_5555 (F)V
+	METHOD b method_5556 (II)Z
 	METHOD b method_3142 (Lcom/corrodinggames/rts/game/units/ao;II)Z
+	METHOD b method_5557 (Lcom/corrodinggames/rts/gameFramework/k/i;II)I
 	METHOD b method_3137 (Lcom/corrodinggames/rts/gameFramework/k/k;)V
 	METHOD c method_3141 ()V
+	METHOD c method_5558 (F)V
+	METHOD c method_5559 (Lcom/corrodinggames/rts/gameFramework/k/i;II)I
+	METHOD d method_5560 ()V
+	METHOD d method_5561 (F)V
 	METHOD e method_3146 ()Z
 	METHOD f method_3147 ()Ljava/lang/String;
 	METHOD g method_3150 ()Lcom/corrodinggames/rts/gameFramework/k/k;

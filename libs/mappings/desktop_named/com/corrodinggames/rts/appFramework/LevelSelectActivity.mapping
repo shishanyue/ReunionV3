@@ -1,9 +1,9 @@
-CLASS com/corrodinggames/rts/appFramework/i com/corrodinggames/rts/appFramework/LevelSelectActivity
-	FIELD c showMapDetails Z
-	FIELD d selectedMap Ljava/lang/String;
-	METHOD a isDemoMap (Ljava/lang/String;Ljava/lang/String;)Z
-	METHOD a startNewGame (Ljava/lang/String;ZIIZZ)V
-	METHOD d getMapNameFromPath (Ljava/lang/String;)Ljava/lang/String;
-	METHOD e getMapName (Ljava/lang/String;)Ljava/lang/String;
-	METHOD f isSkirmishMap (Ljava/lang/String;)Z
-	METHOD g isFromSdCard (Ljava/lang/String;)Z
+CLASS com/corrodinggames/rts/appFramework/LevelSelectActivity
+	FIELD field_7763 showMapDetails Z
+	FIELD field_7764 selectedMap Ljava/lang/String;
+	METHOD convertFilePathToFileName getMapNameFromPath (Ljava/lang/String;)Ljava/lang/String;
+	METHOD convertLevelFileNameForDisplay getMapName (Ljava/lang/String;)Ljava/lang/String;
+	METHOD isAvailableInDemo isDemoMap (Ljava/lang/String;Ljava/lang/String;)Z
+	METHOD isMapCustom isFromSdCard (Ljava/lang/String;)Z
+	METHOD loadSinglePlayerMapRaw startNewGame (Ljava/lang/String;ZIIZZ)V
+	METHOD method_4159 isSkirmishMap (Ljava/lang/String;)Z

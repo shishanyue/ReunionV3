@@ -1,1 +1,3 @@
 CLASS com/corrodinggames/rts/appFramework/q com/corrodinggames/rts/appFramework/ReplaySelectActivity
+	FIELD c field_7828 [Ljava/lang/String;
+	METHOD l method_4180 ()[Ljava/lang/String;

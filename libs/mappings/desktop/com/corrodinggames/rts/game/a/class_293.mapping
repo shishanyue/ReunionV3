@@ -3,3 +3,6 @@ CLASS com/corrodinggames/rts/game/a/j com/corrodinggames/rts/game/a/class_293
 	FIELD b field_850 Lcom/corrodinggames/rts/game/a/j;
 	FIELD c field_851 Lcom/corrodinggames/rts/game/a/j;
 	FIELD d field_852 [Lcom/corrodinggames/rts/game/a/j;
+	METHOD a method_4304 ()I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/a/j;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/a/j;

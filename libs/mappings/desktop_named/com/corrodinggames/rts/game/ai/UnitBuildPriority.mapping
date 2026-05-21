@@ -1,4 +1,2 @@
-CLASS com/corrodinggames/rts/game/a/e com/corrodinggames/rts/game/ai/UnitBuildPriority
-	FIELD a unitType Lcom/corrodinggames/rts/game/units/as;
-	FIELD b priority F
-	FIELD c strategy Lcom/corrodinggames/rts/game/a/d;
+CLASS com/corrodinggames/rts/game/a/class_288 com/corrodinggames/rts/game/ai/UnitBuildPriority
+	FIELD field_772 priority F

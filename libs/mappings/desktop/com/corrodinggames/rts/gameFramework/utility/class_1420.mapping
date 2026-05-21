@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/aj com/corrodinggames/rts/gameFramework/utility/class_1420
+	FIELD a field_8806 Ljava/util/concurrent/ConcurrentLinkedQueue;
+	METHOD a method_5808 ()V
+	METHOD a method_5809 (Ljava/lang/Runnable;)V

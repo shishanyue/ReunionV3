@@ -1,0 +1,17 @@
+CLASS android/util/Log
+	FIELD a field_7602 Ljava/lang/ThreadLocal;
+	METHOD a method_3984 (IILjava/lang/String;Ljava/lang/String;)I
+	METHOD a method_3985 (ILjava/lang/String;Ljava/lang/String;)I
+	METHOD a method_3986 (ILjava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;Z)I
+	METHOD a method_3987 (Ljava/lang/String;Ljava/lang/String;)I
+	METHOD a method_3988 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+	METHOD a method_3989 (Ljava/lang/Throwable;)Ljava/lang/String;
+	METHOD b method_3990 (Ljava/lang/String;Ljava/lang/String;)I
+	METHOD b method_3991 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+	METHOD c method_3992 (Ljava/lang/String;Ljava/lang/String;)I
+	METHOD c method_3993 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
+	METHOD d method_3994 (Ljava/lang/String;Ljava/lang/String;)I
+	METHOD isLoggable isLoggable (Ljava/lang/String;I)Z
+	CLASS 1
+		METHOD initialValue initialValue ()Ljava/lang/Object;
+	CLASS TerribleFailureHandler

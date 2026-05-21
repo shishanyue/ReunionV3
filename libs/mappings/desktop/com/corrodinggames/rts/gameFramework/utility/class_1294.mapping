@@ -10,6 +10,7 @@ CLASS com/corrodinggames/rts/gameFramework/utility/y com/corrodinggames/rts/game
 	METHOD a method_3495 ()Landroid/graphics/Paint;
 	METHOD a method_3496 (F)V
 	METHOD a method_3497 (FF)Z
+	METHOD a method_5862 (FFFFLcom/corrodinggames/rts/game/units/ao;)Z
 	METHOD a method_3498 (FFLcom/corrodinggames/rts/game/units/ao;)Z
 	METHOD a method_3499 (II)Z
 	METHOD a method_3500 (IIIILandroid/graphics/Paint$Style;)Landroid/graphics/Paint;
@@ -20,14 +21,21 @@ CLASS com/corrodinggames/rts/gameFramework/utility/y com/corrodinggames/rts/game
 	METHOD a method_3507 (Lcom/corrodinggames/rts/game/units/am;FF)Z
 	METHOD a method_3508 (Lcom/corrodinggames/rts/game/units/am;FIIZ)V
 	METHOD a method_3518 (Lcom/corrodinggames/rts/game/units/am;FZ)V
+	METHOD a method_5863 (Lcom/corrodinggames/rts/game/units/am;FZLandroid/graphics/Paint;)V
 	METHOD a method_3510 (Lcom/corrodinggames/rts/game/units/am;FZZ)V
 	METHOD a method_3511 (Lcom/corrodinggames/rts/game/units/am;Lcom/corrodinggames/rts/game/units/y;)V
 	METHOD a method_3512 (Lcom/corrodinggames/rts/game/units/am;ZZ)Z
+	METHOD a method_5864 (Lcom/corrodinggames/rts/game/units/y;)V
+	METHOD a method_5865 (Lcom/corrodinggames/rts/game/units/y;I)V
 	METHOD a method_3504 (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/gameFramework/m/e;FI)V
 	METHOD a method_3513 (Lcom/corrodinggames/rts/gameFramework/m/e;FFFFFLandroid/graphics/Paint;III)V
+	METHOD b method_5866 ()Lcom/corrodinggames/rts/gameFramework/m/ag;
+	METHOD b method_5867 (F)V
 	METHOD b method_3515 (FF)Z
 	METHOD b method_3516 (FFLcom/corrodinggames/rts/game/units/ao;)S
 	METHOD b method_3517 (II)Z
+	METHOD b method_5868 (Lcom/corrodinggames/rts/game/units/am;FF)Z
+	METHOD b method_5869 (Lcom/corrodinggames/rts/game/units/am;FZ)V
 	METHOD c method_3521 (FF)Z
 	METHOD c method_3522 (FFLcom/corrodinggames/rts/game/units/ao;)I
 	METHOD d method_3523 (FF)Z

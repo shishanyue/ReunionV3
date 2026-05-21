@@ -1,0 +1,10 @@
+CLASS android/app/Application
+	FIELD b field_7464 Ljava/util/ArrayList;
+	FIELD c field_7465 Ljava/util/ArrayList;
+	FIELD d field_7466 Ljava/util/ArrayList;
+	METHOD a method_3837 ()[Ljava/lang/Object;
+	METHOD onConfigurationChanged onConfigurationChanged (Landroid/content/res/Configuration;)V
+	METHOD onLowMemory onLowMemory ()V
+	METHOD onTrimMemory onTrimMemory (I)V
+	CLASS ActivityLifecycleCallbacks
+	CLASS OnProvideAssistDataListener

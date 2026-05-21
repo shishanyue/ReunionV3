@@ -1,5 +1,3 @@
 CLASS com/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean
-	FIELD activeEvent currentEventContext Lcom/corrodinggames/rts/game/units/custom/k;
 	FIELD booleans booleanRegistry Ljava/util/HashMap;
-	FIELD outerUnitParameterContext externalUnitContext Lcom/corrodinggames/rts/game/units/y;
 	FIELD parameterMappings parameterCache Ljava/util/HashMap;

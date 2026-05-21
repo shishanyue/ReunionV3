@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/java/a com/corrodinggames/rts/java/class_1423
+	FIELD x field_8855 Lcom/corrodinggames/rts/java/s;
+	METHOD toString toString ()Ljava/lang/String;

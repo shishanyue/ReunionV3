@@ -1,3 +1,3 @@
-CLASS com/corrodinggames/rts/game/units/as com/corrodinggames/rts/game/units/UnitType
-	METHOD e getUnitName ()Ljava/lang/String;
-	METHOD i getUnitTypeDescriptionShort ()Ljava/lang/String;
+CLASS com/corrodinggames/rts/game/units/class_704 com/corrodinggames/rts/game/units/UnitType
+	METHOD method_1656 getUnitName ()Ljava/lang/String;
+	METHOD method_1660 getUnitTypeDescriptionShort ()Ljava/lang/String;

@@ -1,5 +1,5 @@
-CLASS com/corrodinggames/rts/game/a com/corrodinggames/rts/game/GameObject
-	FIELD a gameObjectId I
-	FIELD b active Z
-	FIELD c removed Z
-	FIELD d destroyed Z
+CLASS com/corrodinggames/rts/gameFramework/b/class_793 com/corrodinggames/rts/game/GameObject
+	FIELD field_641 gameObjectId I
+	FIELD field_642 active Z
+	FIELD field_643 removed Z
+	FIELD field_644 destroyed Z

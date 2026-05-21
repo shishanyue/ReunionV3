@@ -1,29 +1,28 @@
-CLASS com/corrodinggames/rts/gameFramework/f/f com/corrodinggames/rts/gameFramework/ui/EndGameScreen
-	FIELD a textPaint Landroid/graphics/Paint;
-	FIELD b field_b Z
-	FIELD c timer F
-	FIELD d fireworkTimer F
-	FIELD e textBounds Landroid/graphics/Rect;
-	FIELD f tempRect Landroid/graphics/Rect;
-	FIELD g rateGamePopupRect Landroid/graphics/Rect;
-	FIELD h statsView Lcom/corrodinggames/rts/gameFramework/f/y;
-	FIELD i backgroundTasks Ljava/util/ArrayList;
-	FIELD j buttonHeight I
-	FIELD k buttonWidth I
-	FIELD l buttonSpacing I
-	FIELD m screenBounds Landroid/graphics/Rect;
-	FIELD n field_n Z
-	FIELD o field_o Z
-	FIELD p rateGameText Ljava/lang/String;
-	FIELD q rateGameYesText Ljava/lang/String;
-	FIELD r rateGameNoText Ljava/lang/String;
-	FIELD s showRateGamePopup Z
-	FIELD t field_t F
-	METHOD a setupButtonActions ()V
-	METHOD a update (F)V
-	METHOD b isGameOver ()Z
-	METHOD b draw (F)V
-	METHOD c loadStats ()V
-	METHOD c drawRateGamePopup (F)V
-	CLASS 1 AnonymousClass1
-	CLASS 2 AnonymousClass2
+CLASS com/corrodinggames/rts/gameFramework/f/class_958 com/corrodinggames/rts/gameFramework/ui/EndGameScreen
+	FIELD field_5429 textPaint Landroid/graphics/Paint;
+	FIELD field_5435 rateGamePopupRect Landroid/graphics/Rect;
+	FIELD field_5437 backgroundTasks Ljava/util/ArrayList;
+	FIELD field_5438 buttonHeight I
+	FIELD field_5439 buttonWidth I
+	FIELD field_5440 buttonSpacing I
+	FIELD field_5441 screenBounds Landroid/graphics/Rect;
+	FIELD field_5442 field_n Z
+	FIELD field_5443 field_o Z
+	FIELD field_5444 rateGameText Ljava/lang/String;
+	FIELD field_5445 rateGameYesText Ljava/lang/String;
+	FIELD field_5446 rateGameNoText Ljava/lang/String;
+	FIELD field_5448 field_t F
+	FIELD field_8431 field_b Z
+	FIELD field_8432 timer F
+	FIELD field_8433 fireworkTimer F
+	FIELD field_8434 textBounds Landroid/graphics/Rect;
+	FIELD field_8435 tempRect Landroid/graphics/Rect;
+	FIELD field_8436 showRateGamePopup Z
+	METHOD method_2484 update (F)V
+	METHOD method_2485 isGameOver ()Z
+	METHOD method_5240 setupButtonActions ()V
+	METHOD method_5241 draw (F)V
+	METHOD method_5242 loadStats ()V
+	METHOD method_5243 drawRateGamePopup (F)V
+	CLASS class_959 AnonymousClass1
+	CLASS class_960 AnonymousClass2

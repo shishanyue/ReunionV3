@@ -1,6 +1,6 @@
 CLASS android/graphics/Rect
-	FIELD a left I
-	FIELD b top I
-	FIELD c right I
-	FIELD d bottom I
-	METHOD a isEmpty ()Z
+	FIELD bottom bottom I
+	FIELD left left I
+	FIELD right right I
+	FIELD top top I
+	METHOD isEmpty isEmpty ()Z

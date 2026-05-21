@@ -1,8 +1,7 @@
-CLASS com/corrodinggames/rts/game/units/custom/p com/corrodinggames/rts/game/units/custom/CustomUnitTrigger
-	FIELD a triggerName Ljava/lang/String;
-	FIELD b delay F
-	FIELD c enabled Z
-	FIELD d condition Ljava/lang/String;
-	FIELD e runOnce Z
-	FIELD f logicCondition Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
-	FIELD g action Lcom/corrodinggames/rts/game/units/custom/bb;
+CLASS com/corrodinggames/rts/game/units/custom/class_585 com/corrodinggames/rts/game/units/custom/CustomUnitTrigger
+	FIELD field_3571 triggerName Ljava/lang/String;
+	FIELD field_3572 delay F
+	FIELD field_3573 enabled Z
+	FIELD field_3574 condition Ljava/lang/String;
+	FIELD field_3575 runOnce Z
+	FIELD field_3576 logicCondition Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;

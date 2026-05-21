@@ -19,7 +19,10 @@ CLASS com/corrodinggames/rts/game/units/f/c com/corrodinggames/rts/game/units/f/
 	METHOD a method_1712 (FFFLcom/corrodinggames/rts/gameFramework/utility/u;)V
 	METHOD a method_1707 (Landroid/graphics/RectF;Lcom/corrodinggames/rts/game/units/f/e;Lcom/corrodinggames/rts/game/units/y;FLcom/corrodinggames/rts/game/units/f/i;)V
 	METHOD a method_1708 (Lcom/corrodinggames/rts/game/b/b;)V
+	METHOD a method_4784 (Lcom/corrodinggames/rts/game/n;FFFLcom/corrodinggames/rts/gameFramework/utility/u;)V
 	METHOD a method_1709 (Lcom/corrodinggames/rts/game/units/am;)V
+	METHOD b method_4785 ()V
 	METHOD b method_1710 (F)I
 	METHOD b method_1711 (FFF)Lcom/corrodinggames/rts/game/units/f/f;
 	METHOD b method_1706 (FFFLcom/corrodinggames/rts/gameFramework/utility/u;)V
+	METHOD c method_4786 (F)V

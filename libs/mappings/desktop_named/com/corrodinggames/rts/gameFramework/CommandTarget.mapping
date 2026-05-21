@@ -1,11 +1,7 @@
-CLASS com/corrodinggames/rts/gameFramework/d com/corrodinggames/rts/gameFramework/CommandTarget
-	FIELD a path Lcom/corrodinggames/rts/gameFramework/k/k;
-	FIELD b unitId J
-	FIELD c startX F
-	FIELD d startY F
-	FIELD e targetX F
-	FIELD f targetY F
-	FIELD g createdTick I
-	FIELD h movementType Lcom/corrodinggames/rts/game/units/ao;
-	METHOD a serialize (Lcom/corrodinggames/rts/gameFramework/j/as;)V
-	METHOD a deserialize (Lcom/corrodinggames/rts/gameFramework/j/k;)V
+CLASS com/corrodinggames/rts/gameFramework/class_889 com/corrodinggames/rts/gameFramework/CommandTarget
+	FIELD field_4883 startX F
+	FIELD field_4884 startY F
+	FIELD field_4885 targetX F
+	FIELD field_4886 targetY F
+	FIELD field_4887 createdTick I
+	FIELD field_8353 unitId J

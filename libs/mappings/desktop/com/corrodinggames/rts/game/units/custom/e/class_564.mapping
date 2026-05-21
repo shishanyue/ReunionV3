@@ -1,5 +1,6 @@
 CLASS com/corrodinggames/rts/game/units/custom/e/c com/corrodinggames/rts/game/units/custom/e/class_564
 	FIELD a field_3006 Lcom/corrodinggames/rts/gameFramework/utility/m;
+	METHOD a method_4634 ()V
 	METHOD a method_1335 (Lcom/corrodinggames/rts/game/units/custom/d/b;)Z
 	METHOD a method_1336 (Lcom/corrodinggames/rts/game/units/custom/d/b;Lcom/corrodinggames/rts/game/units/am;D)V
 	METHOD a method_1337 (Lcom/corrodinggames/rts/game/units/custom/e/a;)V

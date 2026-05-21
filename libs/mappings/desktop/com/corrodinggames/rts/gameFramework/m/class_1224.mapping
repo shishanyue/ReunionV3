@@ -19,12 +19,19 @@ CLASS com/corrodinggames/rts/gameFramework/m/x com/corrodinggames/rts/gameFramew
 	FIELD p field_6829 Landroid/graphics/RectF;
 	FIELD q field_6830 Landroid/graphics/Matrix;
 	FIELD r field_6831 Landroid/graphics/RectF;
+	FIELD s field_8711 Lcom/corrodinggames/rts/gameFramework/m/e;
 	FIELD t field_6833 Landroid/graphics/RectF;
 	FIELD u field_6834 Landroid/graphics/RectF;
 	FIELD v field_6835 Lcom/corrodinggames/rts/gameFramework/utility/m;
 	FIELD w field_6836 Landroid/graphics/Rect;
+	FIELD x field_8712 Landroid/content/Context;
 	FIELD y field_6838 Lcom/corrodinggames/rts/gameFramework/m/l;
 	FIELD z field_6839 Lcom/corrodinggames/rts/gameFramework/m/l;
 	METHOD a method_3233 (Landroid/graphics/Bitmap;)Lcom/corrodinggames/rts/gameFramework/m/e;
+	METHOD a method_5688 (Landroid/graphics/Paint;Lcom/corrodinggames/rts/gameFramework/m/e;)V
+	METHOD a method_5689 (Landroid/graphics/Paint;Ljava/lang/String;)V
+	METHOD a method_5690 (Landroid/graphics/Paint;ZLjava/lang/String;Lcom/corrodinggames/rts/gameFramework/m/e;)V
+	METHOD b method_5691 (Landroid/graphics/Paint;)V
+	METHOD c method_5692 ()Z
 	METHOD c method_3234 (Lcom/corrodinggames/rts/gameFramework/m/e;)Landroid/graphics/Bitmap;
 	METHOD t method_3235 ()V

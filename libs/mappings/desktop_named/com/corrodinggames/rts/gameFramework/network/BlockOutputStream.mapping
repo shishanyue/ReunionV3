@@ -1,8 +1,8 @@
-CLASS com/corrodinggames/rts/gameFramework/j/ax com/corrodinggames/rts/gameFramework/network/BlockOutputStream
-	FIELD a bufferedStream Ljava/io/BufferedOutputStream;
-	FIELD b blockName Ljava/lang/String;
-	FIELD c buffer Ljava/io/ByteArrayOutputStream;
-	FIELD d printStream Ljava/io/PrintStream;
-	FIELD e deferClose Z
-	METHOD a flush ()V
-	METHOD b close ()V
+CLASS com/corrodinggames/rts/gameFramework/j/class_1035 com/corrodinggames/rts/gameFramework/network/BlockOutputStream
+	FIELD field_6135 bufferedStream Ljava/io/BufferedOutputStream;
+	FIELD field_6136 blockName Ljava/lang/String;
+	FIELD field_6137 buffer Ljava/io/ByteArrayOutputStream;
+	FIELD field_6138 printStream Ljava/io/PrintStream;
+	FIELD field_8564 deferClose Z
+	METHOD method_2892 flush ()V
+	METHOD method_5472 close ()V

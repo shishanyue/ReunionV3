@@ -3,4 +3,9 @@ CLASS com/corrodinggames/rts/gameFramework/utility/w com/corrodinggames/rts/game
 	FIELD b field_7345 I
 	METHOD a method_3687 ()V
 	METHOD a method_3688 (I)V
+	METHOD a method_5861 (III)V
 	METHOD b method_3689 ()I
+	METHOD close close ()V
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD write write ([BII)V
+	METHOD write write (I)V

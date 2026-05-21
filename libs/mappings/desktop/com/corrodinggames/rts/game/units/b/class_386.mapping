@@ -19,8 +19,11 @@ CLASS com/corrodinggames/rts/game/units/b/c com/corrodinggames/rts/game/units/b/
 	FIELD x field_1647 Landroid/graphics/Rect;
 	FIELD y field_1648 Lcom/corrodinggames/rts/game/units/a/s;
 	FIELD z field_1649 Lcom/corrodinggames/rts/game/units/a/s;
+	METHOD a method_4527 (IZ)Landroid/graphics/PointF;
 	METHOD b method_653 ()Z
+	METHOD ds method_4528 ()I
 	METHOD f method_656 (Z)V
 	METHOD L method_654 ()V
+	METHOD M method_4526 ()V
 	CLASS 1 class_387
 	CLASS 2 class_388

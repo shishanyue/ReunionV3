@@ -12,7 +12,10 @@ CLASS com/corrodinggames/rts/gameFramework/utility/d com/corrodinggames/rts/game
 	FIELD k field_7291 Ljava/lang/Runnable;
 	METHOD a method_3635 (Lcom/corrodinggames/rts/gameFramework/utility/d;)I
 	METHOD a method_3636 (Lcom/corrodinggames/rts/gameFramework/utility/d;I)I
+	METHOD a method_5825 (Lcom/corrodinggames/rts/gameFramework/utility/e;)Lcom/corrodinggames/rts/gameFramework/utility/d;
+	METHOD run run ()V
 	CLASS 1 class_1313
 	CLASS 2 class_1314
 	CLASS 3 class_1315
 		FIELD a field_7292 Lcom/corrodinggames/rts/gameFramework/utility/d;
+		METHOD run run ()V

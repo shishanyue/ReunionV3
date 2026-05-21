@@ -2,3 +2,6 @@ CLASS com/corrodinggames/rts/gameFramework/m/q com/corrodinggames/rts/gameFramew
 	FIELD a field_6674 Lcom/corrodinggames/rts/gameFramework/utility/m;
 	FIELD b field_6675 I
 	FIELD c field_6676 Ljava/lang/Class;
+	METHOD a method_5685 (Landroid/graphics/Paint;)Landroid/graphics/Paint;
+	METHOD a method_5686 (Landroid/graphics/Rect;)Landroid/graphics/Rect;
+	METHOD a method_5687 (Landroid/graphics/RectF;)Landroid/graphics/RectF;

@@ -1,9 +1,6 @@
-CLASS com/corrodinggames/rts/gameFramework/ab com/corrodinggames/rts/gameFramework/FormationGroup
-	FIELD a units Lcom/corrodinggames/rts/gameFramework/utility/m;
-	FIELD b isActive Z
-	FIELD c targetX F
-	FIELD d targetY F
-	FIELD e formationId I
-	FIELD f isQueued Z
-	FIELD g commandTargets Lcom/corrodinggames/rts/gameFramework/utility/m;
-	FIELD h formationEngine Lcom/corrodinggames/rts/gameFramework/aa;
+CLASS com/corrodinggames/rts/gameFramework/class_778 com/corrodinggames/rts/gameFramework/FormationGroup
+	FIELD field_4242 targetX F
+	FIELD field_4243 targetY F
+	FIELD field_4244 formationId I
+	FIELD field_4245 isQueued Z
+	FIELD field_8132 isActive Z

@@ -24,6 +24,9 @@ CLASS com/corrodinggames/rts/gameFramework/d/c com/corrodinggames/rts/gameFramew
 	FIELD w field_4948 Landroid/graphics/Paint;
 	FIELD x field_4949 F
 	FIELD y field_4950 [Z
+	METHOD a method_5086 ()V
+	METHOD a method_5087 (F)V
+	METHOD a method_5088 (FF)F
 	METHOD a method_2091 (FFF)V
 	METHOD a method_2092 (FFFF)Lcom/corrodinggames/rts/gameFramework/d/e;
 	METHOD a method_2093 (FFFFF)V
@@ -31,6 +34,8 @@ CLASS com/corrodinggames/rts/gameFramework/d/c com/corrodinggames/rts/gameFramew
 	METHOD a method_2119 (FFFFI)Lcom/corrodinggames/rts/gameFramework/d/e;
 	METHOD a method_2095 (FFFFII)Lcom/corrodinggames/rts/gameFramework/d/e;
 	METHOD a method_2096 (FFFI)Lcom/corrodinggames/rts/gameFramework/d/e;
+	METHOD a method_5089 (FFFIFF)Lcom/corrodinggames/rts/gameFramework/d/e;
+	METHOD a method_5090 (FFFIFFF)V
 	METHOD a method_2097 (FFFLcom/corrodinggames/rts/gameFramework/d/d;ZLcom/corrodinggames/rts/gameFramework/d/h;)Lcom/corrodinggames/rts/gameFramework/d/e;
 	METHOD a method_2099 (FI)I
 	METHOD a method_2089 (Landroid/content/Context;)V
@@ -38,8 +43,10 @@ CLASS com/corrodinggames/rts/gameFramework/d/c com/corrodinggames/rts/gameFramew
 	METHOD a method_2103 (Lcom/corrodinggames/rts/gameFramework/d/h;)Lcom/corrodinggames/rts/gameFramework/d/e;
 	METHOD a method_2100 (Lcom/corrodinggames/rts/gameFramework/w;I)Lcom/corrodinggames/rts/gameFramework/d/e;
 	METHOD a method_2101 (Lcom/corrodinggames/rts/gameFramework/w;IF)Lcom/corrodinggames/rts/gameFramework/d/e;
+	METHOD a method_5091 (Ljava/lang/String;)I
 	METHOD a method_2105 (Z)V
 	METHOD a method_2106 (ZLcom/corrodinggames/rts/gameFramework/d/h;)Lcom/corrodinggames/rts/gameFramework/d/e;
+	METHOD b method_5092 ()V
 	METHOD b method_2107 (F)I
 	METHOD b method_2108 (FFF)Lcom/corrodinggames/rts/gameFramework/d/e;
 	METHOD b method_2116 (FFFF)Lcom/corrodinggames/rts/gameFramework/d/e;
@@ -47,7 +54,11 @@ CLASS com/corrodinggames/rts/gameFramework/d/c com/corrodinggames/rts/gameFramew
 	METHOD b method_2109 (FFFFI)Lcom/corrodinggames/rts/gameFramework/d/e;
 	METHOD b method_2111 (FFFI)Lcom/corrodinggames/rts/gameFramework/d/e;
 	METHOD b method_2098 (FFFLcom/corrodinggames/rts/gameFramework/d/d;ZLcom/corrodinggames/rts/gameFramework/d/h;)Lcom/corrodinggames/rts/gameFramework/d/e;
+	METHOD b method_5093 (Lcom/corrodinggames/rts/gameFramework/d/h;)V
+	METHOD c method_5094 (FFF)Lcom/corrodinggames/rts/gameFramework/d/e;
 	METHOD c method_2113 (FFFFI)Lcom/corrodinggames/rts/gameFramework/d/e;
 	METHOD c method_2114 (FFFI)Lcom/corrodinggames/rts/gameFramework/d/e;
+	METHOD d method_5095 (FFF)Lcom/corrodinggames/rts/gameFramework/d/e;
 	METHOD d method_2117 (FFFI)Lcom/corrodinggames/rts/gameFramework/d/e;
 	METHOD e method_2118 (FFF)Lcom/corrodinggames/rts/gameFramework/d/e;
+	METHOD f method_5096 (FFF)Lcom/corrodinggames/rts/gameFramework/d/e;

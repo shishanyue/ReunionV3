@@ -1,6 +1,9 @@
 CLASS com/corrodinggames/rts/game/units/custom/b/m com/corrodinggames/rts/game/units/custom/b/class_505
 	FIELD a field_2610 Lcom/corrodinggames/rts/game/units/custom/b/m;
+	METHOD a method_4576 (Lcom/corrodinggames/rts/game/units/custom/b/n;Lcom/corrodinggames/rts/game/units/custom/l;Lcom/corrodinggames/rts/gameFramework/utility/ab;Ljava/lang/String;Ljava/lang/String;)V
 	METHOD a method_1201 (Lcom/corrodinggames/rts/game/units/custom/j;Lcom/corrodinggames/rts/game/units/custom/b/n;)Lcom/corrodinggames/rts/game/units/y;
 	METHOD a method_1202 (Lcom/corrodinggames/rts/game/units/custom/j;Lcom/corrodinggames/rts/game/units/custom/b/n;Lcom/corrodinggames/rts/game/units/y;)Z
 	METHOD a method_1203 (Lcom/corrodinggames/rts/game/units/custom/j;Lcom/corrodinggames/rts/gameFramework/utility/m;Z)V
 	METHOD a method_1204 (Lcom/corrodinggames/rts/game/units/custom/j;S)Lcom/corrodinggames/rts/game/units/custom/b/n;
+	METHOD a method_4577 (Lcom/corrodinggames/rts/game/units/custom/j;Z)V
+	METHOD a method_4578 (Lcom/corrodinggames/rts/game/units/custom/l;Lcom/corrodinggames/rts/gameFramework/utility/ab;)V

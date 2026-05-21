@@ -1,9 +1,9 @@
-CLASS com/corrodinggames/rts/gameFramework/utility/i com/corrodinggames/rts/gameFramework/utility/AssetIndex
-	FIELD b firstLoad Z
-	FIELD c assetList Ljava/util/ArrayList;
-	METHOD a loadIndex ()V
-	METHOD a findIndexFiles (Landroid/content/res/AssetManager;Ljava/lang/String;I)Ljava/util/ArrayList;
-	METHOD a exists (Ljava/lang/String;)Z
-	METHOD b buildIndex ()V
-	METHOD b listDir (Ljava/lang/String;)[Ljava/lang/String;
-	METHOD c getAssetList ()Ljava/util/ArrayList;
+CLASS com/corrodinggames/rts/gameFramework/utility/class_1320 com/corrodinggames/rts/gameFramework/utility/AssetIndex
+	FIELD field_7302 firstLoad Z
+	FIELD field_7303 assetList Ljava/util/ArrayList;
+	METHOD method_3646 buildIndex ()V
+	METHOD method_3647 findIndexFiles (Landroid/content/res/AssetManager;Ljava/lang/String;I)Ljava/util/ArrayList;
+	METHOD method_3648 exists (Ljava/lang/String;)Z
+	METHOD method_3649 getAssetList ()Ljava/util/ArrayList;
+	METHOD method_5832 loadIndex ()V
+	METHOD method_5833 listDir (Ljava/lang/String;)[Ljava/lang/String;

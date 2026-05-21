@@ -1,1 +1,8 @@
 CLASS com/corrodinggames/rts/gameFramework/b/a/c com/corrodinggames/rts/gameFramework/b/a/class_798
+	FIELD a field_8188 C
+	FIELD b field_8189 I
+	FIELD c field_8190 F
+	FIELD d field_8191 F
+	FIELD e field_8192 F
+	FIELD f field_8193 F
+	FIELD g field_8194 F

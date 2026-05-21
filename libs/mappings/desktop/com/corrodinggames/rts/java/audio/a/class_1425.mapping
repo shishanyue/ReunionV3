@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/java/audio/a/a com/corrodinggames/rts/java/audio/a/class_1425
+	FIELD a field_8858 Ljava/io/InputStream;
+	FIELD b field_8859 Ljava/io/File;
+	FIELD c field_8860 Ljava/lang/String;
+	METHOD a method_5891 ()Ljava/io/InputStream;
+	METHOD b method_5892 ()Ljava/lang/String;

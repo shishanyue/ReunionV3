@@ -7,3 +7,5 @@ CLASS com/corrodinggames/rts/game/q com/corrodinggames/rts/game/class_327
 	FIELD f field_1488 Lcom/corrodinggames/rts/game/q;
 	FIELD g field_1489 Lcom/corrodinggames/rts/game/q;
 	FIELD h field_1490 [Lcom/corrodinggames/rts/game/q;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/q;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/q;

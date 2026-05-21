@@ -1,10 +1,8 @@
-CLASS com/corrodinggames/rts/game/units/d/s com/corrodinggames/rts/game/units/buildings/AutoRepairCallback
-	FIELD a searchRangeSquared F
-	FIELD b isEnabled Z
-	FIELD c isReady Z
-	FIELD d searcherTeam Lcom/corrodinggames/rts/game/n;
-	FIELD e bestTarget Lcom/corrodinggames/rts/game/units/am;
-	FIELD f bestTargetHealth F
-	FIELD g bestTargetDistance F
-	FIELD h prioritizeDistance Z
-	METHOD a configure (FZ)V
+CLASS com/corrodinggames/rts/game/units/d/class_618 com/corrodinggames/rts/game/units/buildings/AutoRepairCallback
+	FIELD field_3665 isReady Z
+	FIELD field_3668 bestTargetHealth F
+	FIELD field_3669 bestTargetDistance F
+	FIELD field_8104 searchRangeSquared F
+	FIELD field_8105 isEnabled Z
+	FIELD field_8106 prioritizeDistance Z
+	METHOD method_4751 configure (FZ)V

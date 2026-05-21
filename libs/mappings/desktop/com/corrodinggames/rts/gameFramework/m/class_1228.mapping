@@ -1,1 +1,6 @@
 CLASS com/corrodinggames/rts/gameFramework/m/ab com/corrodinggames/rts/gameFramework/m/class_1228
+	FIELD a field_8633 I
+	FIELD b field_8634 I
+	FIELD c field_8635 Z
+	FIELD d field_8636 Lcom/corrodinggames/rts/gameFramework/m/e;
+	METHOD clone clone ()Ljava/lang/Object;

@@ -1,23 +1,31 @@
 CLASS com/corrodinggames/rts/gameFramework/e/a com/corrodinggames/rts/gameFramework/e/class_899
+	FIELD a field_8388 Lcom/corrodinggames/rts/gameFramework/e/c;
 	FIELD b field_5109 Lcom/corrodinggames/rts/gameFramework/e/c;
 	FIELD c field_5110 Ljava/lang/Boolean;
 	FIELD d field_5111 Ljava/lang/String;
+	FIELD e field_8389 Ljava/lang/String;
 	METHOD a method_2185 ()Ljava/lang/String;
 	METHOD a method_2160 (I)Lcom/corrodinggames/rts/gameFramework/e/c;
 	METHOD a method_2161 (Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;
 	METHOD a method_2162 (Ljava/io/File;)Lcom/corrodinggames/rts/gameFramework/utility/j;
 	METHOD a method_2163 (Ljava/io/File;Ljava/io/File;)Z
 	METHOD a method_2164 (Ljava/io/File;Z)Ljava/io/OutputStream;
+	METHOD a method_5111 (Ljava/lang/String;)Z
+	METHOD a method_5112 (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 	METHOD a method_2167 (Ljava/lang/String;Ljava/lang/String;Z)Ljava/io/File;
 	METHOD a method_2168 (Ljava/lang/String;Z)[Ljava/lang/String;
+	METHOD a method_5113 (Z)Lcom/corrodinggames/rts/gameFramework/e/b;
 	METHOD b method_2169 ()V
 	METHOD b method_2170 (Ljava/io/File;)Z
 	METHOD b method_2171 (Ljava/io/File;Ljava/io/File;)Z
 	METHOD b method_2172 (Ljava/lang/String;)V
+	METHOD b method_5114 (Ljava/lang/String;Z)Ljava/io/OutputStream;
 	METHOD c method_2175 ()Ljava/lang/String;
+	METHOD c method_5115 (Ljava/io/File;)V
 	METHOD c method_2174 (Ljava/lang/String;)Z
 	METHOD d method_2177 ()Ljava/lang/String;
 	METHOD d method_2176 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD e method_5116 ()Ljava/lang/String;
 	METHOD e method_2178 (Ljava/lang/String;)Ljava/lang/String;
 	METHOD f method_2181 ()Z
 	METHOD f method_2180 (Ljava/lang/String;)Z

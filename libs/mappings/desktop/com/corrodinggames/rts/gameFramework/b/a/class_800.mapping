@@ -1,3 +1,20 @@
 CLASS com/corrodinggames/rts/gameFramework/b/a/e com/corrodinggames/rts/gameFramework/b/a/class_800
+	FIELD a field_8203 I
+	FIELD b field_8204 I
+	FIELD c field_8205 Landroid/graphics/Canvas;
+	FIELD d field_8206 Landroid/graphics/Bitmap;
+	FIELD e field_8207 I
+	FIELD f field_8208 I
+	FIELD g field_8209 I
 	FIELD h field_4440 I
 	FIELD i field_4441 I
+	FIELD j field_8210 I
+	FIELD k field_8211 I
+	FIELD l field_8212 I
+	FIELD m field_8213 I
+	FIELD n field_8214 I
+	METHOD a method_4949 ()Z
+	METHOD a method_4950 (CLandroid/graphics/Paint;)Lcom/corrodinggames/rts/gameFramework/b/a/c;
+	METHOD a method_4951 (Lcom/corrodinggames/rts/gameFramework/b/a/c;FFFF)V
+	METHOD b method_4952 ()V
+	METHOD c method_4953 ()V

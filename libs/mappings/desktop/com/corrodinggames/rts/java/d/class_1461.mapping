@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/java/d/a com/corrodinggames/rts/java/d/class_1461
+	FIELD j field_9007 Lorg/newdawn/slick/Graphics;
+	FIELD k field_9008 Lorg/newdawn/slick/opengl/renderer/SGL;
+	METHOD a method_6002 (Lorg/newdawn/slick/Graphics;)V

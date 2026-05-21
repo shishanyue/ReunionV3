@@ -1,13 +1,13 @@
-CLASS com/corrodinggames/rts/a/a com/corrodinggames/rts/debug/DebugSocketServer
-	FIELD a serverSocket Ljava/net/ServerSocket;
-	FIELD b running Z
-	FIELD c enabled Z
-	FIELD d field_d Z
-	FIELD e scriptsToRun Ljava/util/ArrayList;
-	METHOD a isEnabled ()Z
-	METHOD a start (ILjava/lang/String;)V
-	METHOD a addScriptToRun (Ljava/lang/String;)V
-	METHOD b runPendingScripts ()V
-	METHOD b executeCommand (Ljava/lang/String;)Ljava/lang/String;
+CLASS com/corrodinggames/rts/a/class_1376 com/corrodinggames/rts/debug/DebugSocketServer
+	FIELD field_7687 serverSocket Ljava/net/ServerSocket;
+	FIELD field_7688 running Z
+	FIELD field_7689 enabled Z
+	FIELD field_7690 field_d Z
+	FIELD field_7691 scriptsToRun Ljava/util/ArrayList;
+	METHOD method_4071 isEnabled ()Z
+	METHOD method_4072 start (ILjava/lang/String;)V
+	METHOD method_4073 addScriptToRun (Ljava/lang/String;)V
+	METHOD method_4074 runPendingScripts ()V
+	METHOD method_4075 executeCommand (Ljava/lang/String;)Ljava/lang/String;
 	CLASS 1 AnonymousClass1
 	CLASS 2 AnonymousClass2

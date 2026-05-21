@@ -5,7 +5,13 @@ CLASS com/corrodinggames/rts/game/units/o com/corrodinggames/rts/game/units/clas
 	FIELD d field_1608 Lcom/corrodinggames/rts/game/units/o;
 	FIELD e field_1609 Lcom/corrodinggames/rts/game/units/o;
 	FIELD f field_1610 [Lcom/corrodinggames/rts/game/units/o;
+	METHOD a method_4819 ()Ljava/lang/String;
+	METHOD a method_4820 (II)Lcom/corrodinggames/rts/game/units/o;
 	METHOD a method_650 (Lcom/corrodinggames/rts/game/units/as;)Z
+	METHOD a method_4821 (Z)Lcom/corrodinggames/rts/game/units/o;
+	METHOD b method_4822 ()Z
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/o;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/o;
 	CLASS 1 class_380
 	CLASS 2 class_381
 	CLASS 3 class_382

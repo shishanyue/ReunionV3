@@ -1,6 +1,10 @@
 CLASS com/corrodinggames/rts/game/units/d/s com/corrodinggames/rts/game/units/d/class_618
+	FIELD a field_8104 F
+	FIELD b field_8105 Z
 	FIELD c field_3665 Z
 	FIELD d field_3666 Lcom/corrodinggames/rts/game/n;
 	FIELD e field_3667 Lcom/corrodinggames/rts/game/units/am;
 	FIELD f field_3668 F
 	FIELD g field_3669 F
+	FIELD h field_8106 Z
+	METHOD a method_4751 (FZ)V

@@ -19,25 +19,37 @@ CLASS com/corrodinggames/rts/gameFramework/ba com/corrodinggames/rts/gameFramewo
 	FIELD I field_4712 Ljava/io/DataOutputStream;
 	FIELD j field_4728 I
 	FIELD J field_4713 Lcom/corrodinggames/rts/gameFramework/j/as;
+	FIELD k field_8310 Z
 	FIELD K field_4714 Lcom/corrodinggames/rts/gameFramework/bb;
+	FIELD l field_8311 I
 	FIELD L field_4715 Ljava/lang/Thread;
+	FIELD m field_8312 Z
 	FIELD M field_4716 Ljava/lang/Object;
 	FIELD n field_4732 Z
 	FIELD N field_4717 Z
 	FIELD o field_4733 I
 	FIELD O field_4718 Z
+	FIELD p field_8313 I
 	FIELD P field_4738 Z
 	FIELD q field_4735 I
 	FIELD r field_4736 Ljava/lang/String;
+	FIELD s field_8314 Z
 	FIELD t field_4739 Ljava/lang/String;
 	FIELD u field_4740 Z
 	FIELD v field_4741 I
 	FIELD w field_4742 Lcom/corrodinggames/rts/gameFramework/bd;
 	FIELD x field_4743 Lcom/corrodinggames/rts/gameFramework/bd;
+	FIELD y field_8315 I
+	FIELD z field_8316 I
 	METHOD a method_2018 ()V
+	METHOD a method_5029 ([BIIIFF)V
+	METHOD a method_5025 (F)V
+	METHOD a method_5026 (ILjava/lang/String;Ljava/lang/String;I)V
+	METHOD a method_5027 (Landroid/content/Context;)V
 	METHOD a method_2019 (Lcom/corrodinggames/rts/gameFramework/ba;)Z
 	METHOD a method_2028 (Lcom/corrodinggames/rts/gameFramework/ba;Z)Z
 	METHOD a method_2020 (Lcom/corrodinggames/rts/gameFramework/e;I)V
+	METHOD a method_5028 (Lcom/corrodinggames/rts/gameFramework/j/ak;)V
 	METHOD a method_2021 (Lcom/corrodinggames/rts/gameFramework/j/ak;Z)V
 	METHOD a method_2022 (Ljava/lang/String;)V
 	METHOD a method_2023 (Ljava/lang/String;Ljava/io/File;)Z
@@ -45,13 +57,17 @@ CLASS com/corrodinggames/rts/gameFramework/ba com/corrodinggames/rts/gameFramewo
 	METHOD a method_2025 (Ljava/lang/String;Z)Ljava/io/File;
 	METHOD a method_2026 (Z)V
 	METHOD b method_2027 ()V
+	METHOD b method_5030 (Ljava/lang/String;)V
 	METHOD c method_2030 ()V
 	METHOD c method_2029 (Ljava/lang/String;)Z
 	METHOD d method_2038 ()V
 	METHOD d method_2031 (Ljava/lang/String;)V
 	METHOD e method_2032 ()V
+	METHOD e method_5031 (Ljava/lang/String;)V
 	METHOD f method_2039 ()J
 	METHOD g method_2034 ()V
+	METHOD h method_5032 ()Z
+	METHOD i method_5033 ()Z
 	METHOD j method_2036 ()Z
 	METHOD k method_2037 ()Z
 	METHOD l method_2040 ()V

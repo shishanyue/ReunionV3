@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/java/d com/corrodinggames/rts/java/class_1460
+	FIELD a field_9000 I
+	FIELD b field_9001 I
+	FIELD c field_9002 Lcom/corrodinggames/rts/java/h;
+	FIELD d field_9003 Lcom/corrodinggames/rts/appFramework/m;
+	FIELD e field_9004 Ljava/lang/Object;
+	FIELD f field_9005 Ljava/lang/Object;
+	FIELD g field_9006 Lcom/corrodinggames/rts/gameFramework/m/n;
+	METHOD o method_6000 ()I
+	METHOD p method_6001 ()I

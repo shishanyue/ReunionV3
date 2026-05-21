@@ -2,5 +2,7 @@ CLASS com/corrodinggames/rts/game/units/ah com/corrodinggames/rts/game/units/cla
 	FIELD a field_1850 I
 	FIELD b field_1851 [F
 	FIELD c field_1852 [Z
+	FIELD d field_7950 I
 	FIELD e field_1854 Z
 	FIELD f field_1855 Z
+	METHOD a method_4469 (Lcom/corrodinggames/rts/game/units/y;)V

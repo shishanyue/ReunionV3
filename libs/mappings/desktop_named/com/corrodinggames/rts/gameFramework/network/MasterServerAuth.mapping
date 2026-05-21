@@ -1,18 +1,16 @@
-CLASS com/corrodinggames/rts/gameFramework/j/aq com/corrodinggames/rts/gameFramework/network/MasterServerAuth
-	FIELD a instance Lcom/corrodinggames/rts/gameFramework/j/aq;
-	FIELD b saltA I
-	FIELD c saltB I
-	FIELD d saltC I
-	FIELD e saltD I
-	FIELD f authTokenLength I
-	FIELD g secretA Ljava/lang/String;
-	FIELD h secretB Ljava/lang/String;
-	FIELD i minClientVersion I
-	FIELD j minServerVersion I
-	FIELD k handshakeTimeoutSec I
-	FIELD l debugEnabled Z
-	METHOD a lerp (FFF)F
-	METHOD a applyHandshakeTimeoutFlag (Lcom/corrodinggames/rts/gameFramework/j/c;)V
-	METHOD a addAuthParams (Ljava/lang/String;Ljava/util/List;)V
-	METHOD b addTokenHashParam (Ljava/lang/String;Ljava/util/List;)V
-	METHOD c addOptionalTokenHashParam (Ljava/lang/String;Ljava/util/List;)V
+CLASS com/corrodinggames/rts/gameFramework/j/class_1029 com/corrodinggames/rts/gameFramework/network/MasterServerAuth
+	FIELD field_6101 saltA I
+	FIELD field_6102 saltB I
+	FIELD field_6103 saltC I
+	FIELD field_6104 saltD I
+	FIELD field_6105 authTokenLength I
+	FIELD field_6106 secretA Ljava/lang/String;
+	FIELD field_6107 secretB Ljava/lang/String;
+	FIELD field_6108 minClientVersion I
+	FIELD field_6109 minServerVersion I
+	FIELD field_6110 handshakeTimeoutSec I
+	FIELD field_6111 debugEnabled Z
+	METHOD method_2850 addAuthParams (Ljava/lang/String;Ljava/util/List;)V
+	METHOD method_2851 addTokenHashParam (Ljava/lang/String;Ljava/util/List;)V
+	METHOD method_2852 addOptionalTokenHashParam (Ljava/lang/String;Ljava/util/List;)V
+	METHOD method_5464 lerp (FFF)F

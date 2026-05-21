@@ -1,5 +1,6 @@
 CLASS com/corrodinggames/rts/gameFramework/j/w com/corrodinggames/rts/gameFramework/j/class_1058
 	FIELD a field_6280 Ljava/lang/String;
 	FIELD b field_6281 Ljava/lang/String;
+	FIELD c field_8576 Lcom/corrodinggames/rts/gameFramework/j/x;
 	METHOD a method_2957 (Ljava/lang/String;)V
 	METHOD a method_2958 (Ljava/lang/String;Lcom/corrodinggames/rts/gameFramework/j/x;Ljava/lang/Exception;)V

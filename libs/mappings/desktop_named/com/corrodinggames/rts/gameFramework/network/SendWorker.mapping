@@ -1,10 +1,7 @@
-CLASS com/corrodinggames/rts/gameFramework/j/e com/corrodinggames/rts/gameFramework/network/SendWorker
-	FIELD a isRunning Ljava/lang/Boolean;
-	FIELD b socketOutputStream Ljava/io/OutputStream;
-	FIELD c bufOut Ljava/io/BufferedOutputStream;
-	FIELD d dataOut Ljava/io/DataOutputStream;
-	FIELD e scratchBufferHelper Lcom/corrodinggames/rts/gameFramework/utility/w;
-	FIELD f networkConnection Lcom/corrodinggames/rts/gameFramework/j/c;
-	METHOD a notifySendLoop ()V
-	METHOD a enqueueOutgoingPacket (Lcom/corrodinggames/rts/gameFramework/j/au;)V
-	METHOD b waitForPackets ()V
+CLASS com/corrodinggames/rts/gameFramework/j/class_1039 com/corrodinggames/rts/gameFramework/network/SendWorker
+	FIELD field_6193 isRunning Ljava/lang/Boolean;
+	FIELD field_6194 socketOutputStream Ljava/io/OutputStream;
+	FIELD field_6195 bufOut Ljava/io/BufferedOutputStream;
+	FIELD field_6196 dataOut Ljava/io/DataOutputStream;
+	METHOD method_2910 notifySendLoop ()V
+	METHOD method_2912 waitForPackets ()V

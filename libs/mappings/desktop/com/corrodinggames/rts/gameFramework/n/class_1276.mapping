@@ -5,3 +5,4 @@ CLASS com/corrodinggames/rts/gameFramework/n/i com/corrodinggames/rts/gameFramew
 	METHOD a method_3460 (FF)V
 	METHOD a method_3461 (Lcom/corrodinggames/rts/game/units/as;I)V
 	METHOD b method_3462 (Lcom/corrodinggames/rts/game/units/as;I)V
+	METHOD toString toString ()Ljava/lang/String;

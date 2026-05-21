@@ -5,7 +5,10 @@ CLASS com/corrodinggames/rts/gameFramework/c com/corrodinggames/rts/gameFramewor
 	FIELD d field_4803 Ljava/util/ArrayList;
 	FIELD e field_4804 I
 	METHOD a method_2057 ()V
+	METHOD a method_5073 (Lcom/corrodinggames/rts/game/n;)Lcom/corrodinggames/rts/gameFramework/e;
 	METHOD a method_2059 (Ljava/lang/String;)V
 	METHOD b method_2060 ()Lcom/corrodinggames/rts/gameFramework/e;
 	METHOD b method_2058 (Lcom/corrodinggames/rts/game/n;)Lcom/corrodinggames/rts/gameFramework/e;
+	METHOD c method_5074 ()V
+	METHOD d method_5075 ()V
 	METHOD e method_2062 ()V

@@ -1,9 +1,7 @@
-CLASS com/corrodinggames/librocket/c com/corrodinggames/librocket/UITextureHolder
-	FIELD a texturePath Ljava/lang/String;
-	FIELD b lazyLoad Z
-	FIELD c isThumbnail Z
-	FIELD d noColor Z
-	FIELD e alpha F
-	FIELD f unitType Lcom/corrodinggames/rts/game/units/as;
-	FIELD g libRocketManager Lcom/corrodinggames/librocket/b;
-	METHOD a loadTexture ()Z
+CLASS com/corrodinggames/librocket/class_1373 com/corrodinggames/librocket/UITextureHolder
+	FIELD field_7668 texturePath Ljava/lang/String;
+	FIELD field_7669 lazyLoad Z
+	FIELD field_7670 isThumbnail Z
+	FIELD field_7671 noColor Z
+	FIELD field_7672 alpha F
+	METHOD method_4068 loadTexture ()Z

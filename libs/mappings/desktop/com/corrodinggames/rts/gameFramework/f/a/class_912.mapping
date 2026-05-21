@@ -1,1 +1,8 @@
 CLASS com/corrodinggames/rts/gameFramework/f/a/d com/corrodinggames/rts/gameFramework/f/a/class_912
+	FIELD a field_8398 Lcom/corrodinggames/rts/gameFramework/f/a/d;
+	FIELD b field_8399 Lcom/corrodinggames/rts/gameFramework/f/a/d;
+	FIELD c field_8400 Lcom/corrodinggames/rts/gameFramework/f/a/d;
+	FIELD d field_8401 Lcom/corrodinggames/rts/gameFramework/f/a/d;
+	FIELD e field_8402 [Lcom/corrodinggames/rts/gameFramework/f/a/d;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/f/a/d;
+	METHOD values values ()[Lcom/corrodinggames/rts/gameFramework/f/a/d;

@@ -1,3 +1,5 @@
 CLASS com/corrodinggames/rts/game/units/custom/b/k com/corrodinggames/rts/game/units/custom/b/class_503
 	FIELD a field_2604 Lcom/corrodinggames/rts/game/units/custom/b/a;
 	FIELD b field_2605 Landroid/graphics/PointF;
+	METHOD a method_4574 (Lcom/corrodinggames/rts/game/f;)Z
+	METHOD a method_4575 (Lcom/corrodinggames/rts/game/units/custom/j;Lcom/corrodinggames/rts/game/units/custom/bn;)V

@@ -1,2 +1,2 @@
-CLASS com/corrodinggames/rts/game/units/custom/a com/corrodinggames/rts/game/units/custom/CustomUnitData
-	FIELD a value F
+CLASS com/corrodinggames/rts/game/units/custom/class_443 com/corrodinggames/rts/game/units/custom/CustomUnitData
+	FIELD field_2121 value F

@@ -1,2 +1,6 @@
 CLASS com/corrodinggames/rts/gameFramework/j/r com/corrodinggames/rts/gameFramework/j/class_1053
 	FIELD a field_6266 Ljava/util/concurrent/locks/ReentrantLock;
+	METHOD a method_5518 ()Lorg/apache/http/client/HttpClient;
+	METHOD a method_5519 (IZ)Lorg/apache/http/client/HttpClient;
+	METHOD a method_5520 (Lorg/apache/http/client/HttpClient;)V
+	METHOD b method_5521 ()Lorg/apache/http/client/HttpClient;

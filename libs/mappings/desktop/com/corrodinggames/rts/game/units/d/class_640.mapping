@@ -7,12 +7,15 @@ CLASS com/corrodinggames/rts/game/units/d/k com/corrodinggames/rts/game/units/d/
 	FIELD f field_3783 Lcom/corrodinggames/rts/game/units/d/j;
 	METHOD a method_1583 ()Z
 	METHOD a method_1584 (F)V
+	METHOD a method_4731 (Lcom/corrodinggames/rts/game/units/a/c;Z)I
 	METHOD a method_1585 (Lcom/corrodinggames/rts/game/units/a/c;ZZ)I
 	METHOD a method_1586 (Lcom/corrodinggames/rts/game/units/a/s;)V
 	METHOD a method_1587 (Lcom/corrodinggames/rts/game/units/a/s;Z)V
 	METHOD a method_1588 (Lcom/corrodinggames/rts/game/units/a/s;ZLandroid/graphics/PointF;Lcom/corrodinggames/rts/game/units/am;)Lcom/corrodinggames/rts/game/units/d/j;
+	METHOD a method_4732 (Lcom/corrodinggames/rts/game/units/a/w;Z)Lcom/corrodinggames/rts/game/units/d/j;
 	METHOD a method_1591 (Lcom/corrodinggames/rts/game/units/a/w;ZLandroid/graphics/PointF;Lcom/corrodinggames/rts/game/units/am;)Lcom/corrodinggames/rts/game/units/d/j;
 	METHOD a method_1592 (Lcom/corrodinggames/rts/game/units/am;FZ)V
+	METHOD a method_4733 (Lcom/corrodinggames/rts/game/units/as;)I
 	METHOD a method_1597 (Lcom/corrodinggames/rts/game/units/as;FZF)Lcom/corrodinggames/rts/game/units/am;
 	METHOD a method_1593 (Lcom/corrodinggames/rts/game/units/custom/g;)I
 	METHOD a method_1594 (Lcom/corrodinggames/rts/game/units/d/j;)V
@@ -20,8 +23,13 @@ CLASS com/corrodinggames/rts/game/units/d/k com/corrodinggames/rts/game/units/d/
 	METHOD a method_1598 (Lcom/corrodinggames/rts/gameFramework/j/as;)V
 	METHOD a method_1599 (Lcom/corrodinggames/rts/gameFramework/j/k;)V
 	METHOD a method_1600 (Z)V
+	METHOD b method_4734 ()Lcom/corrodinggames/rts/game/units/d/j;
 	METHOD b method_1590 (Lcom/corrodinggames/rts/game/units/a/w;Z)Lcom/corrodinggames/rts/game/units/d/j;
 	METHOD b method_1603 (Lcom/corrodinggames/rts/game/units/as;)Lcom/corrodinggames/rts/game/units/a/s;
 	METHOD b method_1602 (Lcom/corrodinggames/rts/game/units/d/j;)V
 	METHOD c method_1601 ()Lcom/corrodinggames/rts/game/units/custom/d/b;
+	METHOD c method_4735 (Lcom/corrodinggames/rts/game/units/d/j;)V
+	METHOD d method_4736 ()Lcom/corrodinggames/rts/game/units/a/s;
 	METHOD e method_1604 ()V
+	METHOD f method_4737 ()Ljava/util/List;
+	METHOD g method_4738 ()Lcom/corrodinggames/rts/gameFramework/utility/m;

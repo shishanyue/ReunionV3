@@ -1,4 +1,4 @@
-CLASS com/corrodinggames/rts/gameFramework/e/d com/corrodinggames/rts/gameFramework/file/CustomPathFileLoader
-	FIELD g dirPath Ljava/lang/String;
-	FIELD h name Ljava/lang/String;
-	FIELD i mapPath Ljava/lang/String;
+CLASS com/corrodinggames/rts/gameFramework/e/class_902 com/corrodinggames/rts/gameFramework/file/CustomPathFileLoader
+	FIELD field_5122 dirPath Ljava/lang/String;
+	FIELD field_5123 name Ljava/lang/String;
+	FIELD field_5124 mapPath Ljava/lang/String;

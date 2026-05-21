@@ -1,12 +1,12 @@
-CLASS com/corrodinggames/rts/gameFramework/n/e com/corrodinggames/rts/gameFramework/mission/TriggerType
-	CLASS 1 AnonymousClass1
-	CLASS 2 AnonymousClass2
-	CLASS 3 AnonymousClass3
-	CLASS 4 AnonymousClass4
-	CLASS 5 AnonymousClass5
-	CLASS 6 AnonymousClass6
-	CLASS 7 AnonymousClass7
-	CLASS 8 AnonymousClass8
-	CLASS 9 AnonymousClass9
-	CLASS 10 AnonymousClass10
-	CLASS 11 AnonymousClass11
+CLASS com/corrodinggames/rts/gameFramework/n/class_1261 com/corrodinggames/rts/gameFramework/mission/TriggerType
+	CLASS class_1262 AnonymousClass1
+	CLASS class_1263 AnonymousClass2
+	CLASS class_1264 AnonymousClass3
+	CLASS class_1265 AnonymousClass4
+	CLASS class_1266 AnonymousClass5
+	CLASS class_1267 AnonymousClass6
+	CLASS class_1268 AnonymousClass7
+	CLASS class_1269 AnonymousClass8
+	CLASS class_1270 AnonymousClass9
+	CLASS class_1271 AnonymousClass10
+	CLASS class_1272 AnonymousClass11

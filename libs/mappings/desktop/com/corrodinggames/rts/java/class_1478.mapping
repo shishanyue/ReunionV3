@@ -1,0 +1,15 @@
+CLASS com/corrodinggames/rts/java/t com/corrodinggames/rts/java/class_1478
+	FIELD a field_9125 I
+	FIELD b field_9126 Lcom/corrodinggames/rts/java/s;
+	FIELD c field_9127 I
+	FIELD d field_9128 I
+	FIELD e field_9129 I
+	FIELD f field_9130 I
+	FIELD g field_9131 [B
+	METHOD a method_6073 ()[B
+	METHOD getDepth getDepth ()I
+	METHOD getHeight getHeight ()I
+	METHOD getImageBufferData getImageBufferData ()Ljava/nio/ByteBuffer;
+	METHOD getTexHeight getTexHeight ()I
+	METHOD getTexWidth getTexWidth ()I
+	METHOD getWidth getWidth ()I

@@ -8,6 +8,7 @@ CLASS com/corrodinggames/rts/game/units/y com/corrodinggames/rts/game/units/clas
 	FIELD ac field_1744 I
 	FIELD aC field_1717 Lcom/corrodinggames/rts/game/a/i;
 	FIELD ad field_1745 Lcom/corrodinggames/rts/game/units/y;
+	FIELD aD field_8120 Z
 	FIELD ae field_1746 Z
 	FIELD aE field_1719 Lcom/corrodinggames/rts/gameFramework/m/ag;
 	FIELD af field_1747 Z
@@ -27,6 +28,7 @@ CLASS com/corrodinggames/rts/game/units/y com/corrodinggames/rts/game/units/clas
 	FIELD am field_1754 F
 	FIELD aM field_1728 Lcom/corrodinggames/rts/gameFramework/utility/u;
 	FIELD an field_1755 I
+	FIELD aN field_8121 Z
 	FIELD ao field_1756 F
 	FIELD aO field_1730 Z
 	FIELD ap field_1757 Z
@@ -38,6 +40,7 @@ CLASS com/corrodinggames/rts/game/units/y com/corrodinggames/rts/game/units/clas
 	FIELD as field_1760 Z
 	FIELD aS field_1734 Lcom/corrodinggames/rts/game/units/ah;
 	FIELD at field_1761 [Lcom/corrodinggames/rts/game/units/af;
+	FIELD aT field_8122 Lcom/corrodinggames/rts/game/units/ah;
 	FIELD au field_1762 Lcom/corrodinggames/rts/gameFramework/k/c;
 	FIELD aU field_1736 Lcom/corrodinggames/rts/gameFramework/k/k;
 	FIELD av field_1763 [Lcom/corrodinggames/rts/game/units/af;
@@ -78,6 +81,7 @@ CLASS com/corrodinggames/rts/game/units/y com/corrodinggames/rts/game/units/clas
 	FIELD f field_1701 I
 	FIELD g field_1703 [Lcom/corrodinggames/rts/game/units/au;
 	FIELD h field_1789 Z
+	FIELD i field_8123 I
 	FIELD j field_1791 Z
 	FIELD k field_1792 Z
 	FIELD l field_1793 F
@@ -91,6 +95,7 @@ CLASS com/corrodinggames/rts/game/units/y com/corrodinggames/rts/game/units/clas
 	FIELD p field_1797 F
 	FIELD P field_1704 Lcom/corrodinggames/rts/game/units/a;
 	FIELD q field_1798 B
+	FIELD Q field_8118 I
 	FIELD r field_1799 I
 	FIELD R field_1706 Lcom/corrodinggames/rts/game/units/am;
 	FIELD s field_1800 F
@@ -100,6 +105,7 @@ CLASS com/corrodinggames/rts/game/units/y com/corrodinggames/rts/game/units/clas
 	FIELD u field_1802 Z
 	FIELD U field_1709 F
 	FIELD v field_1803 I
+	FIELD V field_8119 F
 	FIELD w field_1804 I
 	FIELD W field_1711 F
 	FIELD x field_1805 Lcom/corrodinggames/rts/gameFramework/m/ag;
@@ -115,7 +121,10 @@ CLASS com/corrodinggames/rts/game/units/y com/corrodinggames/rts/game/units/clas
 	METHOD a method_707 (FFZZ)F
 	METHOD a method_708 (FLcom/corrodinggames/rts/game/units/ad;Lcom/corrodinggames/rts/game/units/au;Z)V
 	METHOD a method_709 (FLcom/corrodinggames/rts/game/units/af;Lcom/corrodinggames/rts/game/units/ad;Lcom/corrodinggames/rts/game/units/au;)V
+	METHOD a method_4834 (FLcom/corrodinggames/rts/game/units/am;I)Z
 	METHOD a method_710 (FLcom/corrodinggames/rts/game/units/am;Lcom/corrodinggames/rts/game/units/ad;Z)V
+	METHOD a method_4835 (FLcom/corrodinggames/rts/game/units/au;Lcom/corrodinggames/rts/game/units/ad;)V
+	METHOD a method_4836 (FLcom/corrodinggames/rts/game/units/au;Lcom/corrodinggames/rts/game/units/ad;Z)V
 	METHOD a method_712 (FLcom/corrodinggames/rts/gameFramework/l;FF)V
 	METHOD a method_713 (I)V
 	METHOD a method_714 (IF)V
@@ -124,33 +133,43 @@ CLASS com/corrodinggames/rts/game/units/y com/corrodinggames/rts/game/units/clas
 	METHOD a method_717 (ILcom/corrodinggames/rts/game/units/am;ZZ)Z
 	METHOD a method_718 (Lcom/corrodinggames/rts/game/units/a/s;FF)Z
 	METHOD a method_719 (Lcom/corrodinggames/rts/game/units/a/s;ZFF)V
+	METHOD a method_4837 (Lcom/corrodinggames/rts/game/units/ab;)V
 	METHOD a method_724 (Lcom/corrodinggames/rts/game/units/ab;Z)V
+	METHOD a method_4838 (Lcom/corrodinggames/rts/game/units/ag;)Z
 	METHOD a method_725 (Lcom/corrodinggames/rts/game/units/am;)Z
 	METHOD a method_726 (Lcom/corrodinggames/rts/game/units/am;FI)V
 	METHOD a method_727 (Lcom/corrodinggames/rts/game/units/am;FZ)V
 	METHOD a method_728 (Lcom/corrodinggames/rts/game/units/am;I)V
 	METHOD a method_729 (Lcom/corrodinggames/rts/game/units/am;Lcom/corrodinggames/rts/game/n;)Z
 	METHOD a method_730 (Lcom/corrodinggames/rts/game/units/am;Z)Z
+	METHOD a method_4839 (Lcom/corrodinggames/rts/game/units/as;FF)Z
 	METHOD a method_732 (Lcom/corrodinggames/rts/game/units/as;IZ)Lcom/corrodinggames/rts/game/units/a/s;
+	METHOD a method_4840 (Lcom/corrodinggames/rts/game/units/as;Z)Lcom/corrodinggames/rts/game/units/a/s;
 	METHOD a method_733 (Lcom/corrodinggames/rts/game/units/au;)V
+	METHOD a method_4841 (Lcom/corrodinggames/rts/game/units/au;Lcom/corrodinggames/rts/game/units/as;IFF)Lcom/corrodinggames/rts/game/units/z;
 	METHOD a method_735 (Lcom/corrodinggames/rts/game/units/au;Z)Z
 	METHOD a method_720 (Lcom/corrodinggames/rts/game/units/y;)V
+	METHOD a method_4842 (Lcom/corrodinggames/rts/game/units/y;FFFLcom/corrodinggames/rts/game/units/custom/h;)Lcom/corrodinggames/rts/game/units/am;
 	METHOD a method_722 (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/am;FZ)V
 	METHOD a method_723 (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/custom/b/n;)Z
 	METHOD a method_721 (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/y;)V
+	METHOD a method_4843 (Lcom/corrodinggames/rts/gameFramework/l;F)V
 	METHOD a method_737 (Lcom/corrodinggames/rts/gameFramework/l;FF)V
 	METHOD a method_738 (Lcom/corrodinggames/rts/gameFramework/l;FLcom/corrodinggames/rts/game/units/au;Lcom/corrodinggames/rts/game/units/ad;)V
 	METHOD a method_739 (Ljava/lang/String;)V
 	METHOD a method_740 (S)Lcom/corrodinggames/rts/game/units/custom/b/n;
 	METHOD a method_821 (Z)Lcom/corrodinggames/rts/gameFramework/m/ag;
+	METHOD a method_4844 (ZLcom/corrodinggames/rts/game/n;)Z
 	METHOD A method_875 ()F
 	METHOD A method_868 (I)F
 	METHOD a_ method_864 (Lcom/corrodinggames/rts/game/units/am;)F
 	METHOD aa method_702 ()Z
+	METHOD aA method_4845 ()V
 	METHOD ab method_767 ()Lcom/corrodinggames/rts/game/units/am;
 	METHOD aB method_786 ()V
 	METHOD ac method_768 ()Z
 	METHOD aC method_822 ()V
+	METHOD ad method_4850 ()Z
 	METHOD aD method_787 ()V
 	METHOD ae method_769 ()Z
 	METHOD aE method_823 ()Lcom/corrodinggames/rts/game/units/af;
@@ -162,6 +181,9 @@ CLASS com/corrodinggames/rts/game/units/y com/corrodinggames/rts/game/units/clas
 	METHOD aH method_788 ()V
 	METHOD ai method_773 ()Z
 	METHOD aI method_826 ()V
+	METHOD aJ method_4846 ()V
+	METHOD aK method_4847 ()Z
+	METHOD al method_4851 ()Z
 	METHOD aL method_789 ()J
 	METHOD am method_775 ()F
 	METHOD aM method_790 ()F
@@ -183,17 +205,25 @@ CLASS com/corrodinggames/rts/game/units/y com/corrodinggames/rts/game/units/clas
 	METHOD aU method_749 ()F
 	METHOD av method_817 ()I
 	METHOD aV method_750 ()Z
+	METHOD aw method_4852 ()Z
+	METHOD aW method_4848 ()V
 	METHOD ax method_818 ()V
 	METHOD aX method_751 ()Ljava/util/ArrayList;
 	METHOD ay method_783 ()V
+	METHOD aY method_4849 ()Z
 	METHOD az method_784 ()V
 	METHOD aZ method_752 ()F
 	METHOD b method_835 (F)V
+	METHOD b method_4853 (FF)V
 	METHOD b method_793 (FFF)F
+	METHOD b method_4854 (FLcom/corrodinggames/rts/game/units/au;Lcom/corrodinggames/rts/game/units/ad;)V
 	METHOD b method_794 (I)F
 	METHOD b method_795 (IF)Z
 	METHOD b method_797 (Lcom/corrodinggames/rts/game/units/am;FI)V
+	METHOD b method_4855 (Lcom/corrodinggames/rts/game/units/am;I)V
 	METHOD b method_798 (Lcom/corrodinggames/rts/game/units/am;Z)Z
+	METHOD b method_4856 (Lcom/corrodinggames/rts/game/units/as;Z)Z
+	METHOD b method_4857 (Lcom/corrodinggames/rts/game/units/au;)V
 	METHOD b method_796 (Lcom/corrodinggames/rts/game/units/y;)Z
 	METHOD b method_800 (Lcom/corrodinggames/rts/gameFramework/l;)V
 	METHOD b method_736 (Lcom/corrodinggames/rts/gameFramework/l;F)V
@@ -208,6 +238,7 @@ CLASS com/corrodinggames/rts/game/units/y com/corrodinggames/rts/game/units/clas
 	METHOD bB method_808 ()I
 	METHOD bc method_754 ()F
 	METHOD bD method_809 ()Lcom/corrodinggames/rts/game/units/custom/d/b;
+	METHOD be method_4858 ()Lcom/corrodinggames/rts/game/units/b;
 	METHOD bE method_831 ()Lcom/corrodinggames/rts/game/units/custom/d/b;
 	METHOD bf method_756 ()Z
 	METHOD bg method_757 ()Z
@@ -220,6 +251,7 @@ CLASS com/corrodinggames/rts/game/units/y com/corrodinggames/rts/game/units/clas
 	METHOD bo method_763 ()V
 	METHOD bp method_764 ()I
 	METHOD bq method_765 ()V
+	METHOD br method_4859 ()V
 	METHOD bs method_830 ()Lcom/corrodinggames/rts/game/units/y;
 	METHOD bx method_804 ()V
 	METHOD by method_805 ()Lcom/corrodinggames/rts/game/units/custom/d/b;
@@ -228,6 +260,7 @@ CLASS com/corrodinggames/rts/game/units/y com/corrodinggames/rts/game/units/clas
 	METHOD c method_734 (FLcom/corrodinggames/rts/game/units/au;Lcom/corrodinggames/rts/game/units/ad;)V
 	METHOD c method_813 (I)F
 	METHOD c method_814 (Lcom/corrodinggames/rts/game/n;)Z
+	METHOD c method_4860 (Lcom/corrodinggames/rts/game/units/au;)V
 	METHOD C method_676 ()F
 	METHOD C method_872 (I)F
 	METHOD d method_810 ()Lcom/corrodinggames/rts/gameFramework/m/e;
@@ -238,29 +271,41 @@ CLASS com/corrodinggames/rts/game/units/y com/corrodinggames/rts/game/units/clas
 	METHOD D method_678 ()F
 	METHOD D method_874 (I)Lcom/corrodinggames/rts/gameFramework/utility/ai;
 	METHOD e method_811 (FF)Lcom/corrodinggames/rts/game/units/au;
+	METHOD e method_4861 (FLcom/corrodinggames/rts/game/units/au;Lcom/corrodinggames/rts/game/units/ad;)V
 	METHOD e method_832 (I)F
 	METHOD E method_680 ()Z
 	METHOD E method_876 (I)Landroid/graphics/PointF;
+	METHOD f method_4862 (FLcom/corrodinggames/rts/game/units/au;Lcom/corrodinggames/rts/game/units/ad;)V
 	METHOD f method_836 (I)F
+	METHOD f method_4863 (Lcom/corrodinggames/rts/game/units/am;)F
 	METHOD F method_682 ()Z
 	METHOD F method_675 (I)Lcom/corrodinggames/rts/gameFramework/utility/ai;
 	METHOD g method_838 (F)V
+	METHOD g method_4864 (FLcom/corrodinggames/rts/game/units/au;Lcom/corrodinggames/rts/game/units/ad;)V
 	METHOD g method_839 (I)F
 	METHOD g method_766 (Lcom/corrodinggames/rts/game/units/am;)Lcom/corrodinggames/rts/game/units/custom/d/b;
 	METHOD G method_684 ()F
 	METHOD G method_677 (I)Landroid/graphics/PointF;
+	METHOD h method_4865 (FLcom/corrodinggames/rts/game/units/au;Lcom/corrodinggames/rts/game/units/ad;)V
+	METHOD h method_4866 (I)F
 	METHOD h method_820 (Lcom/corrodinggames/rts/game/units/am;)Z
 	METHOD H method_686 ()F
 	METHOD H method_679 (I)F
 	METHOD i method_843 (F)V
+	METHOD i method_4867 (FLcom/corrodinggames/rts/game/units/au;Lcom/corrodinggames/rts/game/units/ad;)V
+	METHOD i method_4868 (I)F
 	METHOD i method_833 (Lcom/corrodinggames/rts/game/units/am;)Z
 	METHOD I method_688 ()Z
 	METHOD I method_681 (I)F
 	METHOD j method_847 (F)V
+	METHOD j method_4869 (I)V
 	METHOD j method_867 (Lcom/corrodinggames/rts/game/units/am;)Z
 	METHOD J method_683 (I)F
 	METHOD k method_846 ()Lcom/corrodinggames/rts/gameFramework/m/e;
+	METHOD k method_4870 (F)V
+	METHOD k method_4871 (I)Lcom/corrodinggames/rts/game/units/au;
 	METHOD k method_837 (Lcom/corrodinggames/rts/game/units/am;)Z
+	METHOD K method_4830 (I)Landroid/graphics/PointF;
 	METHOD l method_850 (F)I
 	METHOD l method_841 (I)V
 	METHOD l method_840 (Lcom/corrodinggames/rts/game/units/am;)Z
@@ -270,9 +315,12 @@ CLASS com/corrodinggames/rts/game/units/y com/corrodinggames/rts/game/units/clas
 	METHOD m method_842 (Lcom/corrodinggames/rts/game/units/am;)V
 	METHOD M method_689 (I)V
 	METHOD n method_855 (F)Landroid/graphics/PointF;
+	METHOD n method_4872 (I)V
 	METHOD n method_845 (Lcom/corrodinggames/rts/game/units/am;)Lcom/corrodinggames/rts/game/units/au;
+	METHOD N method_4831 (I)V
 	METHOD o method_695 (I)Lcom/corrodinggames/rts/game/units/af;
 	METHOD o method_869 (Lcom/corrodinggames/rts/game/units/am;)F
+	METHOD p method_4873 (I)F
 	METHOD p method_871 (Lcom/corrodinggames/rts/game/units/am;)F
 	METHOD q method_854 (I)F
 	METHOD q method_849 (Lcom/corrodinggames/rts/game/units/am;)I
@@ -282,6 +330,8 @@ CLASS com/corrodinggames/rts/game/units/y com/corrodinggames/rts/game/units/clas
 	METHOD s method_801 ()I
 	METHOD s method_857 (I)Z
 	METHOD S method_696 ()V
+	METHOD t method_4874 (I)F
+	METHOD T method_4832 ()Lcom/corrodinggames/rts/gameFramework/m/e;
 	METHOD u method_859 (I)Z
 	METHOD U method_697 ()V
 	METHOD v method_860 (I)I
@@ -293,4 +343,5 @@ CLASS com/corrodinggames/rts/game/units/y com/corrodinggames/rts/game/units/clas
 	METHOD Y method_700 ()Z
 	METHOD z method_873 ()F
 	METHOD z method_866 (I)F
+	METHOD Z method_4833 ()Z
 	CLASS 1 class_410

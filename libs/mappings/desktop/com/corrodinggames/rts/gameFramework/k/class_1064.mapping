@@ -1,4 +1,5 @@
 CLASS com/corrodinggames/rts/gameFramework/k/c com/corrodinggames/rts/gameFramework/k/class_1064
 	METHOD a method_3092 (Lcom/corrodinggames/rts/game/units/am;)Lcom/corrodinggames/rts/game/units/af;
 	METHOD b method_3093 (Lcom/corrodinggames/rts/game/units/am;)Lcom/corrodinggames/rts/game/units/af;
+	METHOD c method_5529 (Lcom/corrodinggames/rts/game/units/am;)V
 	METHOD d method_3094 (Lcom/corrodinggames/rts/game/units/am;)V

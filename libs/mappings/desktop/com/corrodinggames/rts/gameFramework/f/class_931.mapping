@@ -15,7 +15,9 @@ CLASS com/corrodinggames/rts/gameFramework/f/ae com/corrodinggames/rts/gameFrame
 	METHOD a method_2433 (Lcom/corrodinggames/rts/gameFramework/m/e;II)V
 	METHOD a method_2434 (Ljava/lang/String;)V
 	METHOD a method_2435 (Ljava/lang/String;I)V
+	METHOD a method_5224 (Ljava/lang/String;IZ)V
 	METHOD a method_2436 (Ljava/lang/String;Landroid/graphics/Paint;)V
 	METHOD a method_2437 (Z)V
+	METHOD b method_5225 ()V
 	METHOD b method_2439 (Ljava/lang/String;)V
 	METHOD c method_2438 ()I

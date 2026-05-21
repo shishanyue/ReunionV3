@@ -1,0 +1,37 @@
+CLASS android/os/Message
+	FIELD a field_7577 I
+	FIELD b field_7578 I
+	FIELD c field_7579 I
+	FIELD d field_7580 Ljava/lang/Object;
+	FIELD e field_7581 Landroid/os/Messenger;
+	FIELD f field_7582 I
+	FIELD g field_7583 I
+	FIELD h field_7584 J
+	FIELD i field_7585 Landroid/os/Bundle;
+	FIELD j field_7586 Landroid/os/Handler;
+	FIELD k field_7587 Ljava/lang/Runnable;
+	FIELD l field_7588 Landroid/os/Message;
+	FIELD m field_7589 Landroid/os/Parcelable$Creator;
+	FIELD n field_7590 Ljava/lang/Object;
+	FIELD o field_7591 Landroid/os/Message;
+	FIELD p field_7592 I
+	FIELD q field_7593 Z
+	METHOD a method_3959 ()Landroid/os/Message;
+	METHOD a method_3960 (J)Ljava/lang/String;
+	METHOD a method_3961 (Landroid/os/Handler;)Landroid/os/Message;
+	METHOD a method_3962 (Landroid/os/Message;Landroid/os/Parcel;)V
+	METHOD a method_3963 (Landroid/os/Parcel;)V
+	METHOD a method_3964 (Z)V
+	METHOD b method_3965 ()V
+	METHOD c method_3966 ()V
+	METHOD d method_3967 ()Landroid/os/Bundle;
+	METHOD describeContents describeContents ()I
+	METHOD e method_3968 ()Z
+	METHOD f method_3969 ()Z
+	METHOD g method_3970 ()V
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD writeToParcel writeToParcel (Landroid/os/Parcel;I)V
+	CLASS 1
+		METHOD a method_3971 (I)[Landroid/os/Message;
+		METHOD createFromParcel createFromParcel (Landroid/os/Parcel;)Ljava/lang/Object;
+		METHOD newArray newArray (I)[Ljava/lang/Object;

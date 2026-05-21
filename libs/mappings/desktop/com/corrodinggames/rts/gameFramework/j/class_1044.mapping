@@ -1,15 +1,46 @@
 CLASS com/corrodinggames/rts/gameFramework/j/k com/corrodinggames/rts/gameFramework/j/class_1044
 	FIELD a field_6237 Ljava/io/ByteArrayInputStream;
+	FIELD b field_8570 I
+	FIELD c field_8571 I
 	FIELD d field_6241 I
 	FIELD e field_6242 Ljava/io/DataInputStream;
+	FIELD f field_8572 Ljava/io/DataInputStream;
 	FIELD g field_6243 Ljava/util/LinkedList;
 	METHOD a method_2931 ()V
+	METHOD a method_5485 (I)V
+	METHOD a method_5486 (Lcom/corrodinggames/rts/gameFramework/j/m;)Lcom/corrodinggames/rts/game/units/am;
+	METHOD a method_5487 (Lcom/corrodinggames/rts/gameFramework/utility/m;Ljava/lang/Class;)V
 	METHOD a method_2918 (Ljava/lang/Class;)Lcom/corrodinggames/rts/gameFramework/w;
+	METHOD a method_5488 (Ljava/lang/String;)V
+	METHOD a method_5489 (Ljava/lang/String;Z)V
+	METHOD a method_5490 (Ljava/lang/String;ZZ)V
+	METHOD a method_5491 (ZZ)Ljava/lang/String;
+	METHOD b method_5492 ()I
+	METHOD b method_5493 (I)V
 	METHOD b method_2923 (Ljava/lang/Class;)Ljava/lang/Enum;
+	METHOD b method_5494 (Ljava/lang/String;)V
+	METHOD c method_5495 ()I
 	METHOD c method_2924 (Ljava/lang/String;)[B
+	METHOD d method_5496 ()B
 	METHOD d method_2926 (Ljava/lang/String;)V
+	METHOD e method_5497 ()Z
+	METHOD f method_5498 ()I
+	METHOD g method_5499 ()F
+	METHOD h method_5500 ()D
+	METHOD i method_5501 ()J
+	METHOD j method_5502 ()Ljava/lang/String;
+	METHOD k method_5503 ()Ljava/lang/Integer;
+	METHOD l method_5504 ()Ljava/lang/String;
+	METHOD m method_5505 ()Lcom/corrodinggames/rts/game/units/custom/g;
+	METHOD n method_5506 ()J
+	METHOD o method_5507 ()Lcom/corrodinggames/rts/game/units/am;
 	METHOD p method_2925 ()Lcom/corrodinggames/rts/game/units/y;
 	METHOD q method_2927 ()Lcom/corrodinggames/rts/game/units/as;
+	METHOD r method_5508 ()Lcom/corrodinggames/rts/game/n;
 	METHOD s method_2928 ()Lcom/corrodinggames/rts/game/n;
 	METHOD t method_2929 ()[B
 	METHOD u method_2930 ()Lcom/corrodinggames/rts/gameFramework/j/k;
+	METHOD v method_5509 ()S
+	METHOD w method_5510 ()Ljava/io/InputStream;
+	METHOD x method_5511 ()Ljava/lang/String;
+	METHOD y method_5512 ()Landroid/graphics/PointF;

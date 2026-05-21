@@ -1,17 +1,17 @@
-CLASS com/corrodinggames/rts/game/units/custom/as com/corrodinggames/rts/game/units/custom/UnitStats
-	FIELD b mass F
-	FIELD c maxHp I
-	FIELD d maxEnergy F
-	FIELD e shootDelayMultiplier F
-	FIELD f shootDamageMultiplier F
-	FIELD g maxShield I
-	FIELD h shieldRegen F
-	FIELD i maxAttackRange F
-	FIELD j moveSpeed F
-	FIELD k maxTurnSpeed F
-	FIELD l armour F
-	FIELD n fogOfWarSightRange I
-	FIELD o nanoRange I
-	FIELD p selfRegenRate F
-	FIELD q targetHeight F
-	FIELD r nanoFactorySpeed F
+CLASS com/corrodinggames/rts/game/units/custom/class_484 com/corrodinggames/rts/game/units/custom/UnitStats
+	FIELD field_2464 mass F
+	FIELD field_2465 maxHp I
+	FIELD field_2466 maxEnergy F
+	FIELD field_2467 shootDelayMultiplier F
+	FIELD field_2468 shootDamageMultiplier F
+	FIELD field_2469 maxShield I
+	FIELD field_2470 shieldRegen F
+	FIELD field_2471 maxAttackRange F
+	FIELD field_2472 moveSpeed F
+	FIELD field_2473 maxTurnSpeed F
+	FIELD field_2474 armour F
+	FIELD field_2476 fogOfWarSightRange I
+	FIELD field_2477 nanoRange I
+	FIELD field_2478 selfRegenRate F
+	FIELD field_2479 targetHeight F
+	FIELD field_2480 nanoFactorySpeed F

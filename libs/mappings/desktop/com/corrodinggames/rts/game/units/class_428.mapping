@@ -9,3 +9,5 @@ CLASS com/corrodinggames/rts/game/units/ao com/corrodinggames/rts/game/units/cla
 	FIELD h field_2035 Lcom/corrodinggames/rts/game/units/ao;
 	FIELD i field_2036 [Lcom/corrodinggames/rts/game/units/ao;
 	METHOD a method_1069 (Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/ao;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/ao;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/ao;

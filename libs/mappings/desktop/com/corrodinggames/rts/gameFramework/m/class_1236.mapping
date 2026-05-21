@@ -1,6 +1,13 @@
 CLASS com/corrodinggames/rts/gameFramework/m/k com/corrodinggames/rts/gameFramework/m/class_1236
+	FIELD a field_8695 Lcom/corrodinggames/rts/gameFramework/b/f;
 	FIELD b field_6903 Lcom/corrodinggames/rts/gameFramework/b/n;
+	FIELD c field_8696 Lcom/corrodinggames/rts/gameFramework/b/v;
 	FIELD d field_6907 Z
+	FIELD e field_8697 Landroid/graphics/Rect;
+	FIELD f field_8698 Landroid/graphics/RectF;
+	FIELD g field_8699 Lcom/corrodinggames/rts/gameFramework/b/c;
+	FIELD h field_8700 Landroid/graphics/RectF;
+	FIELD i field_8701 [F
 	FIELD j field_6917 Lcom/corrodinggames/rts/gameFramework/m/e;
 	FIELD k field_6918 Landroid/graphics/Rect;
 	FIELD l field_6919 Landroid/graphics/Paint;
@@ -8,5 +15,12 @@ CLASS com/corrodinggames/rts/gameFramework/m/k com/corrodinggames/rts/gameFramew
 	FIELD n field_6922 Lcom/corrodinggames/rts/gameFramework/m/e;
 	FIELD o field_6923 Z
 	METHOD a method_3333 (Landroid/graphics/Bitmap;Lcom/corrodinggames/rts/gameFramework/m/e;)Lcom/corrodinggames/rts/gameFramework/b/b;
+	METHOD a method_5681 (Landroid/graphics/Paint;)Lcom/corrodinggames/rts/gameFramework/b/v;
+	METHOD b method_5682 (FFFFLandroid/graphics/Paint;)V
 	METHOD b method_3337 (I)[F
+	METHOD b method_5683 (Lcom/corrodinggames/rts/gameFramework/m/e;)V
 	METHOD b method_3335 (Lcom/corrodinggames/rts/gameFramework/m/e;Landroid/graphics/Rect;Landroid/graphics/RectF;Landroid/graphics/Paint;)V
+	METHOD d method_5684 ()V
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

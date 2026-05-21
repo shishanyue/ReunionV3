@@ -1,0 +1,12 @@
+CLASS com/codedisaster/steamworks/SteamUniverse
+	FIELD $VALUES $VALUES [Lcom/codedisaster/steamworks/SteamUniverse;
+	FIELD Beta Beta Lcom/codedisaster/steamworks/SteamUniverse;
+	FIELD Dev Dev Lcom/codedisaster/steamworks/SteamUniverse;
+	FIELD Internal Internal Lcom/codedisaster/steamworks/SteamUniverse;
+	FIELD Invalid Invalid Lcom/codedisaster/steamworks/SteamUniverse;
+	FIELD Public Public Lcom/codedisaster/steamworks/SteamUniverse;
+	FIELD value value I
+	FIELD values values [Lcom/codedisaster/steamworks/SteamUniverse;
+	METHOD byValue byValue (I)Lcom/codedisaster/steamworks/SteamUniverse;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/codedisaster/steamworks/SteamUniverse;
+	METHOD values values ()[Lcom/codedisaster/steamworks/SteamUniverse;

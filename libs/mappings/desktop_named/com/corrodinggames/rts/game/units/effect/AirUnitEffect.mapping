@@ -1,3 +1,3 @@
-CLASS com/corrodinggames/rts/game/units/g/a com/corrodinggames/rts/game/units/effect/AirUnitEffect
-	FIELD a effectId I
-	METHOD a getEffectId ()I
+CLASS com/corrodinggames/rts/game/units/g/class_720 com/corrodinggames/rts/game/units/effect/AirUnitEffect
+	FIELD field_8116 effectId I
+	METHOD method_4791 getEffectId ()I

@@ -1,102 +1,77 @@
-CLASS com/corrodinggames/rts/gameFramework/j/ad com/corrodinggames/rts/gameFramework/network/NetworkEngine
-	FIELD aC chatLog Lcom/corrodinggames/rts/gameFramework/j/a;
-	FIELD aD connectionAcceptorThread1 Ljava/lang/Thread;
-	FIELD aE connectionAcceptor1 Lcom/corrodinggames/rts/gameFramework/j/ao;
-	FIELD aF connectionAcceptorThread2 Ljava/lang/Thread;
-	FIELD aG connectionAcceptor2 Lcom/corrodinggames/rts/gameFramework/j/ao;
-	FIELD ah lastSyncedTick I
-	FIELD aH generalTimer Ljava/util/Timer;
-	FIELD aI keepAliveTimer Lcom/corrodinggames/rts/gameFramework/j/av;
-	FIELD aj pauseOnDesyncEnabled Z
-	FIELD aJ workerThread Ljava/lang/Thread;
-	FIELD ak pausedOnDesync Z
-	FIELD aK udpDiscoveryHandler Lcom/corrodinggames/rts/gameFramework/j/af;
-	FIELD al gamePaused Z
-	FIELD aL localConnection Lcom/corrodinggames/rts/gameFramework/j/c;
-	FIELD am stateChecksum Lcom/corrodinggames/rts/gameFramework/j/ak;
-	FIELD aM sendQueue Ljava/util/concurrent/ConcurrentLinkedQueue;
-	FIELD an syncChecksumSentForFrame Z
-	FIELD aN recvQueue Ljava/util/concurrent/ConcurrentLinkedQueue;
-	FIELD aQ sessionLock Ljava/lang/Object;
-	FIELD aR sessionToken Ljava/lang/String;
-	FIELD aS masterServerGameId Ljava/lang/String;
-	FIELD aT publicIpAddress Ljava/lang/String;
-	FIELD aU publicPortOpen Ljava/lang/Boolean;
-	FIELD aV publicIpLookupSuccess Ljava/lang/Boolean;
-	FIELD aW gameHasBeenStarted Z
-	FIELD ay roomSettings Lcom/corrodinggames/rts/gameFramework/j/ah;
-	FIELD aY returnToBattleroomPending Z
-	FIELD aZ returnToBattleroomCountdownActive Z
-	FIELD ba returnToBattleroomDelaySeconds F
-	FIELD bA engineInstances Ljava/util/ArrayList;
-	FIELD bC connectionLock Ljava/lang/Object;
-	FIELD bE passwordHandler Lcom/corrodinggames/rts/gameFramework/j/ae;
-	FIELD bF socketConnector Lcom/corrodinggames/rts/gameFramework/j/an;
-	FIELD bh masterServerErrorMessage Ljava/lang/String;
-	FIELD bi discoveredServerList Ljava/util/concurrent/ConcurrentLinkedQueue;
-	FIELD bI currentStepRate F
-	FIELD bs totalBytesSent J
-	FIELD bt totalBytesReceived J
-	FIELD bv socket Ljava/net/Socket;
-	FIELD bw serverAddress Ljava/lang/String;
-	FIELD bz registerConnectionSent Z
-	FIELD C isServer Z
-	FIELD d callbacks Lcom/corrodinggames/rts/gameFramework/j/ac;
-	FIELD H isProxyController Z
-	FIELD M banList Ljava/util/ArrayList;
-	FIELD S serverUuid Ljava/lang/String;
-	FIELD t udpPort I
-	FIELD w nextUnitId J
-	FIELD y playerName Ljava/lang/String;
-	FIELD z localPlayerTeam Lcom/corrodinggames/rts/game/n;
-	METHOD a readSyncHeader ()V
-	METHOD a applyChangedSetup (FLjava/lang/String;)V
-	METHOD a getFogModeString (Lcom/corrodinggames/rts/gameFramework/j/as;)V
-	METHOD a processGamePacket (Lcom/corrodinggames/rts/gameFramework/j/au;)V
-		ARG 1 packet
-	METHOD a setCurrentStepRate (Lcom/corrodinggames/rts/gameFramework/j/c;)Lcom/corrodinggames/rts/gameFramework/j/aj;
-	METHOD a writeSyncHeader (Lcom/corrodinggames/rts/gameFramework/j/c;Ljava/lang/String;I)Z
-	METHOD a applyAIDifficultyOverride (Ljava/lang/String;)Ljava/lang/String;
-	METHOD a setPublicIpInfoResult (ZLjava/lang/String;Ljava/lang/Boolean;)V
-	METHOD A setPlayerName ()V
-	METHOD ac getCurrentServerId ()Ljava/lang/String;
-	METHOD aC queueReturnToBattleroom ()V
-	METHOD aD returnToBattleroom ()V
-	METHOD at getPublicIpStatusText ()Ljava/lang/String;
-	METHOD b applyProxyControl ()V
-	METHOD b getAIDifficultyString (Lcom/corrodinggames/rts/game/n;)Z
-	METHOD b (Lcom/corrodinggames/rts/gameFramework/j/au;)Z
-		ARG 1 packet
-	METHOD b disconnectNetworking (Ljava/lang/String;)V
-	METHOD b startServerHosting (Z)Z
-	METHOD B updatePlayerTeamNameForAI ()I
-	METHOD c getDifficultyString ()F
-	METHOD c update (F)V
-		ARG 1 delta
-	METHOD c handlePreregisterInfo (Lcom/corrodinggames/rts/gameFramework/j/au;)V
-		ARG 1 packet
-	METHOD c ensureKeepAliveTimerStarted (Z)V
-	METHOD C getCurrentStepRate ()I
-	METHOD d resetSyncChecksumState ()V
-	METHOD d scheduleReturnToBattleroom (F)V
-	METHOD D resetSyncState ()I
-	METHOD e updateDesyncResyncTimer (F)V
-	METHOD e setGamePaused (Z)V
-	METHOD E getChangeableRoomSettings ()I
-	METHOD F updateAIDifficulty ()V
-	METHOD G getFogDescription ()V
-	METHOD h sendRegisterConnection (Lcom/corrodinggames/rts/gameFramework/j/c;)V
-	METHOD i sendReturnToBattleroomEvent (Lcom/corrodinggames/rts/gameFramework/j/c;)V
-	METHOD s resetNetworkGameState ()V
-	METHOD X sendRegisterConnectionsToAll ()V
-	METHOD Y regenerateOwnClientId ()V
-	METHOD Z getOwnClientIdHashed ()Ljava/lang/String;
-	CLASS 1 AnonymousClass1
-	CLASS 2 AnonymousClass2
-	CLASS 3 AnonymousClass3
-	CLASS 4 AnonymousClass4
-	CLASS 5 AnonymousClass5
-		CLASS 1 AnonymousClass1
-	CLASS 6 AnonymousClass6
-	CLASS 7 AnonymousClass7
-	CLASS 8 AnonymousClass8
+CLASS com/corrodinggames/rts/gameFramework/j/class_1001 com/corrodinggames/rts/gameFramework/network/NetworkEngine
+	FIELD field_5851 isServer Z
+	FIELD field_5856 isProxyController Z
+	FIELD field_5862 banList Ljava/util/ArrayList;
+	FIELD field_5868 serverUuid Ljava/lang/String;
+	FIELD field_5879 connectionAcceptorThread1 Ljava/lang/Thread;
+	FIELD field_5881 connectionAcceptorThread2 Ljava/lang/Thread;
+	FIELD field_5883 generalTimer Ljava/util/Timer;
+	FIELD field_5885 workerThread Ljava/lang/Thread;
+	FIELD field_5888 sendQueue Ljava/util/concurrent/ConcurrentLinkedQueue;
+	FIELD field_5889 recvQueue Ljava/util/concurrent/ConcurrentLinkedQueue;
+	FIELD field_5892 sessionLock Ljava/lang/Object;
+	FIELD field_5893 sessionToken Ljava/lang/String;
+	FIELD field_5894 masterServerGameId Ljava/lang/String;
+	FIELD field_5895 publicIpAddress Ljava/lang/String;
+	FIELD field_5896 publicPortOpen Ljava/lang/Boolean;
+	FIELD field_5898 gameHasBeenStarted Z
+	FIELD field_5910 lastSyncedTick I
+	FIELD field_5912 pauseOnDesyncEnabled Z
+	FIELD field_5913 pausedOnDesync Z
+	FIELD field_5914 gamePaused Z
+	FIELD field_5916 syncChecksumSentForFrame Z
+	FIELD field_5928 registerConnectionSent Z
+	FIELD field_5931 connectionLock Ljava/lang/Object;
+	FIELD field_5937 returnToBattleroomPending Z
+	FIELD field_5938 returnToBattleroomCountdownActive Z
+	FIELD field_5939 returnToBattleroomDelaySeconds F
+	FIELD field_5946 masterServerErrorMessage Ljava/lang/String;
+	FIELD field_5947 discoveredServerList Ljava/util/concurrent/ConcurrentLinkedQueue;
+	FIELD field_5957 totalBytesSent J
+	FIELD field_5958 totalBytesReceived J
+	FIELD field_5960 socket Ljava/net/Socket;
+	FIELD field_5961 serverAddress Ljava/lang/String;
+	FIELD field_5980 udpPort I
+	FIELD field_5983 nextUnitId J
+	FIELD field_5985 playerName Ljava/lang/String;
+	FIELD field_8542 publicIpLookupSuccess Ljava/lang/Boolean;
+	FIELD field_8546 engineInstances Ljava/util/ArrayList;
+	FIELD field_8550 currentStepRate F
+	METHOD method_2707 readSyncHeader ()V
+	METHOD method_2709 resetNetworkGameState ()V
+	METHOD method_2713 getFogDescription ()V
+	METHOD method_2717 getOwnClientIdHashed ()Ljava/lang/String;
+	METHOD method_2719 getCurrentServerId ()Ljava/lang/String;
+	METHOD method_2724 resetSyncChecksumState ()V
+	METHOD method_2726 applyChangedSetup (FLjava/lang/String;)V
+	METHOD method_2749 applyAIDifficultyOverride (Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_2755 setPublicIpInfoResult (ZLjava/lang/String;Ljava/lang/Boolean;)V
+	METHOD method_2759 updateDesyncResyncTimer (F)V
+	METHOD method_2769 disconnectNetworking (Ljava/lang/String;)V
+	METHOD method_2782 setGamePaused (Z)V
+	METHOD method_2810 resetSyncState ()I
+	METHOD method_2831 sendRegisterConnectionsToAll ()V
+	METHOD method_5368 setPlayerName ()V
+	METHOD method_5369 updatePlayerTeamNameForAI ()I
+	METHOD method_5370 getCurrentStepRate ()I
+	METHOD method_5371 getChangeableRoomSettings ()I
+	METHOD method_5372 updateAIDifficulty ()V
+	METHOD method_5379 regenerateOwnClientId ()V
+	METHOD method_5395 queueReturnToBattleroom ()V
+	METHOD method_5396 returnToBattleroom ()V
+	METHOD method_5410 getPublicIpStatusText ()Ljava/lang/String;
+	METHOD method_5411 applyProxyControl ()V
+	METHOD method_5417 startServerHosting (Z)Z
+	METHOD method_5418 getDifficultyString ()F
+	METHOD method_5419 update (F)V
+	METHOD method_5423 ensureKeepAliveTimerStarted (Z)V
+	METHOD method_5424 scheduleReturnToBattleroom (F)V
+	CLASS class_1002 AnonymousClass1
+	CLASS class_1003 AnonymousClass2
+	CLASS class_1004 AnonymousClass3
+	CLASS class_1005 AnonymousClass4
+	CLASS class_1006 AnonymousClass5
+		CLASS class_1007 AnonymousClass1
+	CLASS class_1008 AnonymousClass6
+	CLASS class_1009 AnonymousClass7
+	CLASS class_1010 AnonymousClass8

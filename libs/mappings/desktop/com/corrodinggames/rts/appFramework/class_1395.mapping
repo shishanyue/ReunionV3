@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/appFramework/e com/corrodinggames/rts/appFramework/class_1395
+	FIELD a field_7731 Lcom/corrodinggames/rts/appFramework/e;
+	FIELD b field_7732 Lcom/corrodinggames/rts/appFramework/e;
+	FIELD c field_7733 Lcom/corrodinggames/rts/appFramework/e;
+	FIELD d field_7734 Lcom/corrodinggames/rts/appFramework/e;
+	FIELD e field_7735 Lcom/corrodinggames/rts/appFramework/e;
+	FIELD f field_7736 Lcom/corrodinggames/rts/appFramework/e;
+	FIELD g field_7737 [Lcom/corrodinggames/rts/appFramework/e;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/appFramework/e;
+	METHOD values values ()[Lcom/corrodinggames/rts/appFramework/e;

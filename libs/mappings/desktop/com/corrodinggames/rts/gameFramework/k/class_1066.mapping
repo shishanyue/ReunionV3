@@ -2,4 +2,7 @@ CLASS com/corrodinggames/rts/gameFramework/k/f com/corrodinggames/rts/gameFramew
 	FIELD a field_6511 Lcom/corrodinggames/rts/gameFramework/k/c;
 	FIELD b field_6512 Lcom/corrodinggames/rts/gameFramework/k/g;
 	FIELD c field_6513 Landroid/graphics/Paint;
+	FIELD d field_8605 Landroid/graphics/Point;
 	METHOD a method_3096 (BLandroid/graphics/Point;)V
+	METHOD a method_5541 (II)B
+	METHOD d method_5542 ()V

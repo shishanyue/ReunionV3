@@ -1,9 +1,5 @@
-CLASS com/corrodinggames/rts/game/units/custom/a/a/c com/corrodinggames/rts/game/units/custom/logic/actions/UnitSearchCallback
-	FIELD a mapMustBeReachable Z
-	FIELD b unitTags Lcom/corrodinggames/rts/game/units/custom/h;
-	FIELD c maxRange F
-	FIELD d includeNotBuilt Z
-	FIELD e teamFilter Lcom/corrodinggames/rts/game/q;
-	FIELD f collectMultipleUnits Z
-	FIELD g collectedUnits Lcom/corrodinggames/rts/gameFramework/utility/m;
-	FIELD h foundUnit Lcom/corrodinggames/rts/game/units/am;
+CLASS com/corrodinggames/rts/game/units/custom/a/a/class_447 com/corrodinggames/rts/game/units/custom/logic/actions/UnitSearchCallback
+	FIELD field_2154 mapMustBeReachable Z
+	FIELD field_2156 maxRange F
+	FIELD field_2157 includeNotBuilt Z
+	FIELD field_2159 collectMultipleUnits Z

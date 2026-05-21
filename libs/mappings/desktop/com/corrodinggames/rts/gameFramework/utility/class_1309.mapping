@@ -1,1 +1,5 @@
 CLASS com/corrodinggames/rts/gameFramework/utility/b com/corrodinggames/rts/gameFramework/utility/class_1309
+	FIELD a field_8809 Ljava/lang/String;
+	FIELD b field_8810 [Ljava/lang/StackTraceElement;
+	METHOD a method_5823 (Lcom/corrodinggames/rts/gameFramework/utility/b;)Ljava/lang/String;
+	METHOD b method_5824 (Lcom/corrodinggames/rts/gameFramework/utility/b;)[Ljava/lang/StackTraceElement;

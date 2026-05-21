@@ -1,2 +1,27 @@
 CLASS com/corrodinggames/rts/appFramework/m com/corrodinggames/rts/appFramework/class_127
+	FIELD a field_7784 I
+	FIELD b field_7785 [F
+	FIELD c field_7786 [F
+	FIELD d field_7787 [F
 	FIELD e field_377 [I
+	FIELD f field_7788 F
+	FIELD g field_7789 F
+	FIELD h field_7790 F
+	FIELD i field_7791 F
+	FIELD j field_7792 F
+	FIELD k field_7793 Z
+	FIELD l field_7794 Z
+	FIELD m field_7795 Z
+	FIELD n field_7796 I
+	FIELD o field_7797 Z
+	FIELD p field_7798 Z
+	FIELD q field_7799 Z
+	FIELD r field_7800 I
+	METHOD a method_4164 ()I
+	METHOD a method_4165 (FF)V
+	METHOD a method_4166 (FFZI)V
+	METHOD b method_4167 ()Z
+	METHOD c method_4168 ()V
+	METHOD d method_4169 ()[F
+	METHOD e method_4170 ()[I
+	METHOD f method_4171 ()[F

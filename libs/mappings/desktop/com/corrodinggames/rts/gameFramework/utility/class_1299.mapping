@@ -1,2 +1,6 @@
 CLASS com/corrodinggames/rts/gameFramework/utility/ad com/corrodinggames/rts/gameFramework/utility/class_1299
+	FIELD a field_8802 [Ljava/lang/Object;
+	FIELD b field_8803 I
+	FIELD c field_8804 Z
+	METHOD a method_5800 ()Ljava/lang/Object;
 	METHOD a method_3589 (Ljava/lang/Object;)Z

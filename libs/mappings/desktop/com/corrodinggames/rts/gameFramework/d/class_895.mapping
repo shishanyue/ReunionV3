@@ -29,3 +29,4 @@ CLASS com/corrodinggames/rts/gameFramework/d/f com/corrodinggames/rts/gameFramew
 	METHOD b method_2127 ()V
 	METHOD b method_2128 (FF)Lcom/corrodinggames/rts/gameFramework/d/f;
 	METHOD b method_2129 (Lcom/corrodinggames/rts/gameFramework/d/e;Z)V
+	METHOD c method_5101 ()Z

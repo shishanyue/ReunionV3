@@ -1,4 +1,3 @@
-CLASS com/corrodinggames/rts/game/units/custom/bh com/corrodinggames/rts/game/units/custom/CustomProjectileTemplate
-	FIELD bh projectileName Ljava/lang/String;
-	FIELD bi projectileId I
-	FIELD bj customUnitConfig Lcom/corrodinggames/rts/game/units/custom/l;
+CLASS com/corrodinggames/rts/game/units/custom/class_540 com/corrodinggames/rts/game/units/custom/CustomProjectileTemplate
+	FIELD field_2777 projectileName Ljava/lang/String;
+	FIELD field_2778 projectileId I

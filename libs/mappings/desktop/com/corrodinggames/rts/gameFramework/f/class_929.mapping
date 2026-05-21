@@ -5,4 +5,8 @@ CLASS com/corrodinggames/rts/gameFramework/f/ac com/corrodinggames/rts/gameFrame
 	FIELD d field_5346 Lcom/corrodinggames/rts/gameFramework/f/ac;
 	FIELD e field_5347 Lcom/corrodinggames/rts/gameFramework/f/ac;
 	FIELD f field_5349 Ljava/lang/String;
+	FIELD g field_8426 Lcom/corrodinggames/rts/gameFramework/bj;
 	FIELD h field_5350 [Lcom/corrodinggames/rts/gameFramework/f/ac;
+	METHOD a method_5221 ()Lcom/corrodinggames/rts/gameFramework/bj;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/f/ac;
+	METHOD values values ()[Lcom/corrodinggames/rts/gameFramework/f/ac;

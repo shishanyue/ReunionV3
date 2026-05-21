@@ -65,6 +65,8 @@ CLASS com/corrodinggames/rts/game/units/ar com/corrodinggames/rts/game/units/cla
 	METHOD a method_1080 (Lcom/corrodinggames/rts/game/units/as;FFFFLcom/corrodinggames/rts/game/n;FFZZIZLcom/corrodinggames/rts/game/units/am;)V
 	METHOD a method_1078 (Lcom/corrodinggames/rts/game/units/y;)I
 	METHOD a method_1082 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/as;
+	METHOD a method_4513 (Ljava/lang/String;F)Ljava/lang/String;
+	METHOD a method_4514 (Ljava/lang/String;FLjava/lang/String;)Ljava/lang/String;
 	METHOD a method_1084 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 	METHOD a method_1085 (Ljava/lang/String;Z)Lcom/corrodinggames/rts/game/units/as;
 	METHOD a method_1086 (Ljava/util/ArrayList;I)V
@@ -75,6 +77,8 @@ CLASS com/corrodinggames/rts/game/units/ar com/corrodinggames/rts/game/units/cla
 	METHOD r method_1090 ()V
 	METHOD s method_1091 ()V
 	METHOD t method_1092 ()V
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/ar;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/ar;
 	CLASS 1 class_432
 	CLASS 2 class_433
 	CLASS 3 class_434
@@ -124,6 +128,7 @@ CLASS com/corrodinggames/rts/game/units/ar com/corrodinggames/rts/game/units/cla
 	CLASS 47 class_697
 	CLASS 48 class_698
 	CLASS 49 class_699
+		METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I
 	CLASS 50 class_700
 	CLASS 51 class_701
 	CLASS 52 class_702

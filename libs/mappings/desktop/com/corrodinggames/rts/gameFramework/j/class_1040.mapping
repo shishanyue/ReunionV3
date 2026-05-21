@@ -26,5 +26,10 @@ CLASS com/corrodinggames/rts/gameFramework/j/g com/corrodinggames/rts/gameFramew
 	FIELD x field_6223 Z
 	FIELD y field_6224 Z
 	FIELD z field_6225 Ljava/lang/String;
+	METHOD a method_5479 ()Z
+	METHOD b method_5480 ()Ljava/lang/String;
+	METHOD c method_5481 ()Ljava/lang/String;
 	METHOD d method_2913 ()Z
+	METHOD e method_5482 ()Ljava/lang/String;
+	METHOD f method_5483 ()Ljava/lang/String;
 	METHOD g method_2914 ()Z

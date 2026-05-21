@@ -13,8 +13,12 @@ CLASS com/corrodinggames/rts/game/units/custom/e com/corrodinggames/rts/game/uni
 	FIELD l field_2965 F
 	FIELD m field_2966 Lcom/corrodinggames/rts/game/units/custom/j;
 	FIELD n field_2967 [F
+	METHOD a method_4621 ()V
 	METHOD a method_1312 (F)V
+	METHOD a method_4622 (Lcom/corrodinggames/rts/game/units/custom/f;)Z
+	METHOD a method_4623 (Lcom/corrodinggames/rts/game/units/custom/f;I)V
 	METHOD a method_1313 (Lcom/corrodinggames/rts/game/units/custom/f;IZ)V
+	METHOD a method_4624 (Z)V
 	METHOD b method_1311 ()V
 	METHOD b method_1314 (Z)V
 	METHOD c method_1315 ()V

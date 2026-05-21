@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/java/g com/corrodinggames/rts/java/class_1465
+	FIELD a field_9070 F
+	FIELD b field_9071 F
+	FIELD c field_9072 F
+	FIELD d field_9073 F
+	FIELD e field_9074 F
+	FIELD f field_9075 Landroid/graphics/RectF;
+	FIELD g field_9076 F
+	FIELD h field_9077 F
+	METHOD a method_6051 (Lcom/corrodinggames/rts/java/g;)V

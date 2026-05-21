@@ -1,4 +1,3 @@
-CLASS com/corrodinggames/rts/gameFramework/j/av com/corrodinggames/rts/gameFramework/network/KeepAliveTimer
-	FIELD a isRunning Z
-	FIELD b lastPingTime J
-	FIELD c networkEngine Lcom/corrodinggames/rts/gameFramework/j/ad;
+CLASS com/corrodinggames/rts/gameFramework/j/class_1033 com/corrodinggames/rts/gameFramework/network/KeepAliveTimer
+	FIELD field_6128 isRunning Z
+	FIELD field_6129 lastPingTime J

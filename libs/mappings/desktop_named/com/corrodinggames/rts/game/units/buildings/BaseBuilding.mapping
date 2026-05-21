@@ -1,13 +1,9 @@
-CLASS com/corrodinggames/rts/game/units/d/d com/corrodinggames/rts/game/units/buildings/BaseBuilding
-	FIELD m overlayTexture Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD n buildingTargetRect Landroid/graphics/Rect;
-	FIELD o buildingVelocityRect Landroid/graphics/Rect;
-	FIELD p buildingIconTexture Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD q teamColoredIconTextures [Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD r buildingAnimationState I
-	FIELD s currentAnimationFrame I
-	METHOD a canBuildingBePlacedAt (Lcom/corrodinggames/rts/game/units/as;FFLcom/corrodinggames/rts/game/n;)Z
-	METHOD ds isBuildingActive ()Z
-	METHOD f getBuildingPaint ()Landroid/graphics/Paint;
-	METHOD L onDeath ()Z
-	METHOD R setBuildingAnimationState (I)V
+CLASS com/corrodinggames/rts/game/units/d/class_628 com/corrodinggames/rts/game/units/buildings/BaseBuilding
+	FIELD field_3705 buildingTargetRect Landroid/graphics/Rect;
+	FIELD field_3706 buildingVelocityRect Landroid/graphics/Rect;
+	FIELD field_3709 buildingAnimationState I
+	FIELD field_3710 currentAnimationFrame I
+	METHOD method_1563 onDeath ()Z
+	METHOD method_1564 isBuildingActive ()Z
+	METHOD method_1570 getBuildingPaint ()Landroid/graphics/Paint;
+	METHOD method_1571 setBuildingAnimationState (I)V

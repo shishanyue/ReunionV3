@@ -1,3 +1,5 @@
 CLASS com/corrodinggames/rts/game/units/af com/corrodinggames/rts/game/units/class_417
 	FIELD a field_1844 F
 	FIELD b field_1845 F
+	METHOD a method_4467 (Lcom/corrodinggames/rts/gameFramework/j/as;)V
+	METHOD a method_4468 (Lcom/corrodinggames/rts/gameFramework/j/k;)V

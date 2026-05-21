@@ -1,0 +1,18 @@
+CLASS a/a/a/h a/a/a/class_1347
+	FIELD a field_7365 I
+	FIELD b field_7366 I
+	FIELD c field_7367 I
+	FIELD d field_7368 I
+	FIELD e field_7369 I
+	METHOD a method_3707 ()Ljava/lang/String;
+	METHOD a method_3710 ([BII)V
+	METHOD a method_3708 (I)V
+	METHOD a method_3709 (III)V
+	METHOD b method_3711 ()I
+	METHOD b method_3713 ([BII)La/a/a/h;
+	METHOD b method_3712 (I)V
+	METHOD d method_3714 ()[B
+	METHOD m method_3715 ()I
+	METHOD n method_3716 ()I
+	METHOD o method_3717 ()I
+	METHOD toString toString ()Ljava/lang/String;

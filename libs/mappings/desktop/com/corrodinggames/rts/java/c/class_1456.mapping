@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/java/c/j com/corrodinggames/rts/java/c/class_1456
+	FIELD a field_8988 Lcom/corrodinggames/rts/java/c/g;
+	METHOD a method_5998 (Ljava/lang/String;Lcom/codedisaster/steamworks/SteamResult;)V

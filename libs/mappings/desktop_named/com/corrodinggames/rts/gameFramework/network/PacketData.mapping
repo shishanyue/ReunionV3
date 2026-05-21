@@ -1,6 +1,5 @@
-CLASS com/corrodinggames/rts/gameFramework/j/au com/corrodinggames/rts/gameFramework/network/PacketData
-	FIELD a connection Lcom/corrodinggames/rts/gameFramework/j/c;
-	FIELD b packetType I
-	FIELD c bytes [B
-	FIELD d delayMillis I
-	FIELD e isUrgent Z
+CLASS com/corrodinggames/rts/gameFramework/j/class_1032 com/corrodinggames/rts/gameFramework/network/PacketData
+	FIELD field_6124 packetType I
+	FIELD field_6125 bytes [B
+	FIELD field_6126 delayMillis I
+	FIELD field_6127 isUrgent Z

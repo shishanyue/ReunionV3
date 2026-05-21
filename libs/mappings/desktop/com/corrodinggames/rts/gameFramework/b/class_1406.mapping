@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/gameFramework/b/v com/corrodinggames/rts/gameFramework/b/class_1406
+	FIELD a field_8297 F
+	FIELD b field_8298 I
+	FIELD c field_8299 Landroid/graphics/Paint$Style;
+	METHOD a method_5017 ()I
+	METHOD a method_5018 (F)V
+	METHOD a method_5019 (I)V
+	METHOD a method_5020 (Landroid/graphics/Paint$Style;)V
+	METHOD b method_5021 ()F
+	METHOD c method_5022 ()Landroid/graphics/Paint$Style;

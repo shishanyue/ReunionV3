@@ -1,1 +1,2 @@
-CLASS android/graphics/Xfermode android/graphics/Xfermode
+CLASS android/graphics/Xfermode
+	METHOD finalize finalize ()V

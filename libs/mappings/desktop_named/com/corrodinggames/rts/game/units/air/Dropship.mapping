@@ -1,3 +1,3 @@
-CLASS com/corrodinggames/rts/game/units/b/d com/corrodinggames/rts/game/units/air/Dropship
-	CLASS 1 AnonymousClass1
-	CLASS 2 AnonymousClass2
+CLASS com/corrodinggames/rts/game/units/b/class_389 com/corrodinggames/rts/game/units/air/Dropship
+	CLASS class_390 AnonymousClass1
+	CLASS class_391 AnonymousClass2

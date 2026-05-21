@@ -1,2 +1,2 @@
-CLASS com/corrodinggames/rts/game/units/e com/corrodinggames/rts/game/units/CrystalResource
-	FIELD b animationTimer F
+CLASS com/corrodinggames/rts/game/units/class_675 com/corrodinggames/rts/game/units/CrystalResource
+	FIELD field_3815 animationTimer F

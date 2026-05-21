@@ -1,3 +1,3 @@
-CLASS com/corrodinggames/rts/game/units/u com/corrodinggames/rts/game/units/FogRevealer
-	FIELD a sightRange I
-	FIELD b lifeTimer F
+CLASS com/corrodinggames/rts/game/units/class_405 com/corrodinggames/rts/game/units/FogRevealer
+	FIELD field_1693 sightRange I
+	FIELD field_1694 lifeTimer F

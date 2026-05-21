@@ -1,0 +1,13 @@
+CLASS android/os/Looper
+	FIELD a field_7572 Ljava/lang/ThreadLocal;
+	FIELD b field_7573 Landroid/os/MessageQueue;
+	FIELD c field_7574 Ljava/lang/Thread;
+	FIELD d field_7575 Landroid/os/Looper;
+	FIELD e field_7576 Landroid/util/Printer;
+	METHOD a method_3953 ()V
+	METHOD a method_3954 (Z)V
+	METHOD b method_3955 ()Landroid/os/Looper;
+	METHOD c method_3956 ()V
+	METHOD d method_3957 ()Landroid/os/Looper;
+	METHOD e method_3958 ()Ljava/lang/Thread;
+	METHOD toString toString ()Ljava/lang/String;

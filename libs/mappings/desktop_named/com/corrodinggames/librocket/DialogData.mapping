@@ -1,10 +1,10 @@
-CLASS com/corrodinggames/librocket/d com/corrodinggames/librocket/DialogData
-	FIELD a document Lcom/ElementDocument;
-	FIELD b title Ljava/lang/String;
-	FIELD c message Ljava/lang/String;
-	FIELD d textInputValue Ljava/lang/String;
-	FIELD e button1 Ljava/lang/Object;
-	FIELD f button2 Ljava/lang/Object;
-	FIELD g isAlert Z
-	FIELD h showBackButton Z
-	FIELD i onClose Ljava/lang/Runnable;
+CLASS com/corrodinggames/librocket/class_1374 com/corrodinggames/librocket/DialogData
+	FIELD field_7675 document Lcom/ElementDocument;
+	FIELD field_7676 title Ljava/lang/String;
+	FIELD field_7677 message Ljava/lang/String;
+	FIELD field_7678 textInputValue Ljava/lang/String;
+	FIELD field_7679 button1 Ljava/lang/Object;
+	FIELD field_7680 button2 Ljava/lang/Object;
+	FIELD field_7681 isAlert Z
+	FIELD field_7682 showBackButton Z
+	FIELD field_7683 onClose Ljava/lang/Runnable;

@@ -1,1 +1,7 @@
 CLASS com/corrodinggames/rts/game/units/ag com/corrodinggames/rts/game/units/class_418
+	FIELD a field_7946 Lcom/corrodinggames/rts/game/units/ag;
+	FIELD b field_7947 Lcom/corrodinggames/rts/game/units/ag;
+	FIELD c field_7948 Lcom/corrodinggames/rts/game/units/ag;
+	FIELD d field_7949 [Lcom/corrodinggames/rts/game/units/ag;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/ag;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/ag;

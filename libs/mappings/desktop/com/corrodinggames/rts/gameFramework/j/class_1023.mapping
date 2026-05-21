@@ -5,4 +5,5 @@ CLASS com/corrodinggames/rts/gameFramework/j/b com/corrodinggames/rts/gameFramew
 	FIELD d field_6060 I
 	FIELD e field_6061 J
 	FIELD f field_6062 Lcom/corrodinggames/rts/gameFramework/j/a;
+	METHOD a method_5473 ()Ljava/lang/String;
 	METHOD b method_2843 ()Ljava/lang/String;

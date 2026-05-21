@@ -5,6 +5,7 @@ CLASS com/corrodinggames/rts/gameFramework/w com/corrodinggames/rts/gameFramewor
 	FIELD ej field_4222 Z
 	FIELD ek field_4223 Z
 	FIELD el field_4224 Z
+	FIELD em field_8822 I
 	FIELD en field_4226 I
 	FIELD eo field_4227 F
 	FIELD ep field_4228 F
@@ -25,3 +26,4 @@ CLASS com/corrodinggames/rts/gameFramework/w com/corrodinggames/rts/gameFramewor
 	METHOD e method_1773 (F)V
 	METHOD f method_1776 (F)Z
 	METHOD p method_1777 (F)V
+	METHOD S method_5870 (I)V

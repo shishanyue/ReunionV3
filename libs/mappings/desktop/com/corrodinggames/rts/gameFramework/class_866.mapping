@@ -9,4 +9,6 @@ CLASS com/corrodinggames/rts/gameFramework/be com/corrodinggames/rts/gameFramewo
 	METHOD a method_2045 (Ljava/io/DataInputStream;)Z
 	METHOD a method_2046 (Ljava/io/DataOutputStream;)Z
 	METHOD a method_2049 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD b method_5034 (Landroid/content/Context;)V
 	METHOD b method_2047 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/bf;
+	METHOD c method_5035 (Landroid/content/Context;)Lcom/corrodinggames/rts/gameFramework/be;

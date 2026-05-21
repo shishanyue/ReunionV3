@@ -14,3 +14,4 @@ CLASS com/corrodinggames/rts/gameFramework/m/o com/corrodinggames/rts/gameFramew
 	METHOD a method_3407 (Lcom/corrodinggames/rts/gameFramework/m/p;Ljava/lang/Object;Ljava/lang/Object;)V
 	METHOD a method_3408 (Lcom/corrodinggames/rts/gameFramework/m/p;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 	METHOD a method_3409 (Lcom/corrodinggames/rts/gameFramework/m/p;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/corrodinggames/rts/gameFramework/m/s;
+	CLASS 1

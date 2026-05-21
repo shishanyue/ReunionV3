@@ -11,6 +11,9 @@ CLASS com/corrodinggames/rts/game/units/ap com/corrodinggames/rts/game/units/cla
 	FIELD j field_2046 Lcom/corrodinggames/rts/game/units/am;
 	FIELD k field_2047 F
 	FIELD l field_2048 F
+	FIELD m field_7962 Z
 	METHOD a method_1070 ()Z
 	METHOD a method_1071 (F)V
 	METHOD a method_1072 (I)V
+	METHOD b method_4507 ()Z
+	METHOD b method_4508 (I)V

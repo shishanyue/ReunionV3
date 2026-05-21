@@ -1,4 +1,6 @@
 CLASS com/corrodinggames/rts/game/units/a/d com/corrodinggames/rts/game/units/a/class_334
 	FIELD a field_1522 I
 	FIELD b field_1523 Lcom/corrodinggames/rts/game/units/a;
+	METHOD a method_4431 (Lcom/corrodinggames/rts/game/units/a;)Lcom/corrodinggames/rts/game/units/a;
+	METHOD q method_4433 ()Lcom/corrodinggames/rts/game/units/a;
 	METHOD r method_561 ()Lcom/corrodinggames/rts/game/units/a;

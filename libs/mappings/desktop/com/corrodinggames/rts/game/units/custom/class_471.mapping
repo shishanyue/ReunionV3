@@ -18,3 +18,5 @@ CLASS com/corrodinggames/rts/game/units/custom/af com/corrodinggames/rts/game/un
 	FIELD q field_2413 Lcom/corrodinggames/rts/game/units/custom/af;
 	FIELD r field_2414 Lcom/corrodinggames/rts/game/units/custom/af;
 	FIELD s field_2415 [Lcom/corrodinggames/rts/game/units/custom/af;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/af;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/custom/af;

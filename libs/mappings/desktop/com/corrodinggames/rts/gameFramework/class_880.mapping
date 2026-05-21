@@ -1,1 +1,6 @@
 CLASS com/corrodinggames/rts/gameFramework/bp com/corrodinggames/rts/gameFramework/class_880
+	FIELD a field_8344 Lcom/corrodinggames/rts/gameFramework/bp;
+	FIELD b field_8345 Lcom/corrodinggames/rts/gameFramework/bp;
+	FIELD c field_8346 [Lcom/corrodinggames/rts/gameFramework/bp;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/bp;
+	METHOD values values ()[Lcom/corrodinggames/rts/gameFramework/bp;

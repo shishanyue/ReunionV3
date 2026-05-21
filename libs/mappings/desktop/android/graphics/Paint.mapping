@@ -29,6 +29,7 @@ CLASS android/graphics/Paint
 	FIELD z shadowScaleX F
 	METHOD a reset ()V
 	METHOD a getTextWidths ([CII[F)I
+	METHOD a method_3914 ([CIIF[F)I
 	METHOD a breakTextInternal ([CIIFI[F)I
 	METHOD a setStrokeWidth (F)V
 	METHOD a setFlags (I)V
@@ -71,6 +72,7 @@ CLASS android/graphics/Paint
 	METHOD e nativeReset (I)V
 	METHOD f getAlpha ()I
 	METHOD f nativeFinalizer (I)V
+	METHOD finalize finalize ()V
 	METHOD g getStrokeWidth ()F
 	METHOD h getColorFilter ()Landroid/graphics/ColorFilter;
 	METHOD i getTypeface ()Landroid/graphics/Typeface;
@@ -84,15 +86,43 @@ CLASS android/graphics/Paint
 		FIELD a LEFT Landroid/graphics/Paint$Align;
 		FIELD b CENTER Landroid/graphics/Paint$Align;
 		FIELD c RIGHT Landroid/graphics/Paint$Align;
+		FIELD d field_7518 I
+		FIELD e field_7519 [Landroid/graphics/Paint$Align;
+		METHOD valueOf valueOf (Ljava/lang/String;)Landroid/graphics/Paint$Align;
+		METHOD values values ()[Landroid/graphics/Paint$Align;
 	CLASS Cap
 		FIELD a BUTT Landroid/graphics/Paint$Cap;
 		FIELD b ROUND Landroid/graphics/Paint$Cap;
 		FIELD c SQUARE Landroid/graphics/Paint$Cap;
+		FIELD d field_7520 I
+		FIELD e field_7521 [Landroid/graphics/Paint$Cap;
+		METHOD valueOf valueOf (Ljava/lang/String;)Landroid/graphics/Paint$Cap;
+		METHOD values values ()[Landroid/graphics/Paint$Cap;
+	CLASS FontMetrics
+		FIELD a field_7522 F
+		FIELD b field_7523 F
+		FIELD c field_7524 F
+		FIELD d field_7525 F
+	CLASS FontMetricsInt
+		FIELD a field_7526 I
+		FIELD b field_7527 I
+		FIELD c field_7528 I
+		FIELD d field_7529 I
+		FIELD e field_7530 I
+		METHOD toString toString ()Ljava/lang/String;
 	CLASS Join
 		FIELD a MITER Landroid/graphics/Paint$Join;
 		FIELD b ROUND Landroid/graphics/Paint$Join;
 		FIELD c BEVEL Landroid/graphics/Paint$Join;
+		FIELD d field_7531 I
+		FIELD e field_7532 [Landroid/graphics/Paint$Join;
+		METHOD valueOf valueOf (Ljava/lang/String;)Landroid/graphics/Paint$Join;
+		METHOD values values ()[Landroid/graphics/Paint$Join;
 	CLASS Style
 		FIELD a FILL Landroid/graphics/Paint$Style;
 		FIELD b STROKE Landroid/graphics/Paint$Style;
 		FIELD c FILL_AND_STROKE Landroid/graphics/Paint$Style;
+		FIELD d field_7533 I
+		FIELD e field_7534 [Landroid/graphics/Paint$Style;
+		METHOD valueOf valueOf (Ljava/lang/String;)Landroid/graphics/Paint$Style;
+		METHOD values values ()[Landroid/graphics/Paint$Style;

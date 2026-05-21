@@ -1,0 +1,26 @@
+CLASS com/corrodinggames/rts/java/c/b com/corrodinggames/rts/java/c/class_1449
+	FIELD b field_8950 Lcom/corrodinggames/rts/java/c/d;
+	FIELD c field_8951 Lcom/codedisaster/steamworks/SteamFriends;
+	FIELD d field_8952 Lcom/codedisaster/steamworks/SteamMatchmaking;
+	FIELD e field_8953 Lcom/corrodinggames/rts/java/c/e;
+	FIELD f field_8954 Lcom/corrodinggames/rts/java/c/f;
+	FIELD g field_8955 Lcom/corrodinggames/rts/java/c/g;
+	FIELD h field_8956 Lcom/codedisaster/steamworks/SteamNetworking;
+	FIELD i field_8957 Lcom/corrodinggames/rts/java/c/c;
+	FIELD j field_8958 Lcom/codedisaster/steamworks/SteamUtils;
+	FIELD k field_8959 Z
+	FIELD l field_8960 Ljava/util/HashMap;
+	FIELD m field_8961 Ljava/nio/ByteBuffer;
+	FIELD n field_8962 Lcom/codedisaster/steamworks/SteamID;
+	FIELD o field_8963 Z
+	FIELD p field_8964 Lcom/codedisaster/steamworks/SteamID;
+	METHOD a method_5975 (Lcom/codedisaster/steamworks/SteamID;)V
+	METHOD a method_5976 (Ljava/lang/String;)V
+	METHOD b method_5977 (Lcom/codedisaster/steamworks/SteamID;)Lcom/corrodinggames/rts/gameFramework/j/c;
+	METHOD b method_5978 (Ljava/lang/String;)V
+	METHOD c method_5979 (Lcom/codedisaster/steamworks/SteamID;)V
+	METHOD n method_5980 ()Lcom/corrodinggames/rts/java/c/g;
+	CLASS 1
+		FIELD a field_8965 Lcom/codedisaster/steamworks/SteamID;
+		FIELD b field_8966 Lcom/corrodinggames/rts/java/c/b;
+		METHOD run run ()V

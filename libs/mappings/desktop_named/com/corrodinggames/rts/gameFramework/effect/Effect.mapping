@@ -1,9 +1,4 @@
-CLASS com/corrodinggames/rts/gameFramework/d/e com/corrodinggames/rts/gameFramework/effect/Effect
-	METHOD a getFreshTexture ()Lcom/corrodinggames/rts/gameFramework/m/ag;
-	METHOD a getTexture (F)Lcom/corrodinggames/rts/gameFramework/m/ag;
-	METHOD a getEffectSprite (ILcom/corrodinggames/rts/gameFramework/d/g;Landroid/graphics/Rect;)V
-	METHOD a recycle (Lcom/corrodinggames/rts/gameFramework/d/e;)V
-	METHOD a update (Lcom/corrodinggames/rts/gameFramework/l;Z)Z
-	METHOD b reset ()V
-	METHOD b draw (F)V
-	METHOD c free ()V
+CLASS com/corrodinggames/rts/gameFramework/d/class_894 com/corrodinggames/rts/gameFramework/effect/Effect
+	METHOD method_2120 free ()V
+	METHOD method_2121 draw (F)V
+	METHOD method_2123 reset ()V

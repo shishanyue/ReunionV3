@@ -1,15 +1,11 @@
-CLASS com/corrodinggames/rts/game/units/d/e com/corrodinggames/rts/game/units/buildings/CommandCenter
-	FIELD a baseTexture Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD b teamTextures [Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD c deadTexture Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD d backgroundTexture Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD e resourceGenerationTimer F
-	FIELD f animationTimer1 F
-	FIELD g animationTimer2 F
-	FIELD h animationCounter I
-	FIELD i animationTimer3 F
-	FIELD j animationTimer4 F
-	FIELD k frameTimer F
-	FIELD l frameIndex I
-	METHOD a addAvailableActions (Ljava/util/ArrayList;I)V
-	METHOD b loadTextures ()V
+CLASS com/corrodinggames/rts/game/units/d/class_629 com/corrodinggames/rts/game/units/buildings/CommandCenter
+	FIELD field_3715 resourceGenerationTimer F
+	FIELD field_3716 animationTimer1 F
+	FIELD field_3717 animationTimer2 F
+	FIELD field_3718 animationCounter I
+	FIELD field_3719 animationTimer3 F
+	FIELD field_3720 animationTimer4 F
+	FIELD field_3721 frameTimer F
+	FIELD field_3722 frameIndex I
+	METHOD method_1573 loadTextures ()V
+	METHOD method_1574 addAvailableActions (Ljava/util/ArrayList;I)V

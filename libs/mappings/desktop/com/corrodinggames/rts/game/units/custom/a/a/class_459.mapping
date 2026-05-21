@@ -1,2 +1,9 @@
 CLASS com/corrodinggames/rts/game/units/custom/a/a/o com/corrodinggames/rts/game/units/custom/a/a/class_459
+	FIELD a field_7979 Lcom/corrodinggames/rts/game/units/custom/bp;
+	FIELD b field_7980 I
+	FIELD c field_7981 Lcom/corrodinggames/rts/game/units/custom/h;
+	FIELD d field_7982 Z
+	FIELD e field_7983 Z
 	FIELD f field_2250 I
+	FIELD g field_7984 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	METHOD a method_4542 (Lcom/corrodinggames/rts/game/units/custom/l;Lcom/corrodinggames/rts/gameFramework/utility/ab;Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/a/d;Ljava/lang/String;Z)V

@@ -1,8 +1,7 @@
-CLASS com/corrodinggames/rts/gameFramework/aq com/corrodinggames/rts/gameFramework/MusicFactory
-	FIELD e musicManager Lcom/corrodinggames/rts/gameFramework/am;
-	METHOD a createMusicTrack (F)V
-	METHOD a createMusic (I)V
-	METHOD b release ()V
-	METHOD c isMusicPlaying ()Z
-	METHOD d isThreaded ()Z
-	METHOD e isMusicSupported ()I
+CLASS com/corrodinggames/rts/gameFramework/class_852 com/corrodinggames/rts/gameFramework/MusicFactory
+	METHOD method_4916 createMusicTrack (F)V
+	METHOD method_4917 createMusic (I)V
+	METHOD method_4918 release ()V
+	METHOD method_4919 isMusicPlaying ()Z
+	METHOD method_4920 isThreaded ()Z
+	METHOD method_4921 isMusicSupported ()I

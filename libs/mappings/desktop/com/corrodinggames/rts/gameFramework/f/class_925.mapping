@@ -1,11 +1,31 @@
 CLASS com/corrodinggames/rts/gameFramework/f/y com/corrodinggames/rts/gameFramework/f/class_925
 	FIELD a field_5315 Lcom/corrodinggames/rts/gameFramework/f/aa;
 	FIELD b field_5322 Landroid/graphics/Rect;
+	FIELD c field_8511 Landroid/graphics/Paint;
+	FIELD d field_8512 Landroid/graphics/Paint;
 	FIELD e field_5325 Ljava/util/ArrayList;
+	FIELD f field_8513 Lcom/corrodinggames/rts/gameFramework/f/ac;
+	FIELD g field_8514 Lcom/corrodinggames/rts/gameFramework/f/z;
 	FIELD h field_5309 Ljava/util/ArrayList;
 	FIELD i field_5310 [Lcom/corrodinggames/rts/gameFramework/f/ab;
 	FIELD j field_5311 Ljava/util/ArrayList;
+	FIELD k field_8515 [Lcom/corrodinggames/rts/gameFramework/f/ab;
 	FIELD l field_5313 Ljava/util/ArrayList;
 	FIELD m field_5314 [Lcom/corrodinggames/rts/gameFramework/f/ab;
+	FIELD n field_8516 J
 	FIELD o field_5326 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD p field_8517 [Lcom/corrodinggames/rts/gameFramework/m/e;
 	FIELD q field_5327 Landroid/graphics/Rect;
+	FIELD r field_8518 Landroid/graphics/Rect;
+	FIELD s field_8519 Ljava/util/ArrayList;
+	FIELD t field_8520 Ljava/util/ArrayList;
+	FIELD u field_8521 I
+	FIELD v field_8522 I
+	FIELD w field_8523 I
+	METHOD a method_5306 ()Lcom/corrodinggames/rts/gameFramework/f/y;
+	METHOD a method_5307 (Landroid/graphics/Rect;F)V
+	METHOD a method_5308 (Landroid/graphics/Rect;Landroid/graphics/Rect;FZZ)V
+	METHOD a method_5309 (Lcom/corrodinggames/rts/gameFramework/bj;Lcom/corrodinggames/rts/gameFramework/f/z;Landroid/graphics/Rect;)V
+	METHOD a method_5310 (Lcom/corrodinggames/rts/gameFramework/m/y;Lcom/corrodinggames/rts/gameFramework/bj;Lcom/corrodinggames/rts/gameFramework/f/z;Landroid/graphics/Rect;)V
+	METHOD b method_5311 ()V
+	METHOD c method_5312 ()V

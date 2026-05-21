@@ -9,6 +9,7 @@ CLASS com/corrodinggames/rts/game/units/h com/corrodinggames/rts/game/units/clas
 	FIELD D field_4038 Ljava/util/ArrayList;
 	FIELD e field_4050 Landroid/graphics/Paint;
 	FIELD E field_4039 Lcom/corrodinggames/rts/gameFramework/i/b;
+	FIELD f field_8117 Landroid/graphics/Paint;
 	FIELD F field_4040 Lcom/corrodinggames/rts/game/units/o;
 	FIELD g field_4052 Lcom/corrodinggames/rts/gameFramework/m/e;
 	FIELD G field_4041 Lcom/corrodinggames/rts/game/units/n;
@@ -35,6 +36,8 @@ CLASS com/corrodinggames/rts/game/units/h com/corrodinggames/rts/game/units/clas
 	FIELD x field_4069 Lcom/corrodinggames/rts/game/units/a/s;
 	FIELD y field_4070 Lcom/corrodinggames/rts/game/units/a/s;
 	FIELD z field_4071 Lcom/corrodinggames/rts/game/units/a/s;
+	METHOD a method_4799 (FLcom/corrodinggames/rts/game/units/d;)V
+	METHOD a method_4800 (Lcom/corrodinggames/rts/game/units/a/s;Lcom/corrodinggames/rts/game/units/am;)Z
 	METHOD a method_1730 (Lcom/corrodinggames/rts/game/units/h;)V
 	METHOD a method_1732 (Ljava/util/ArrayList;I)V
 	METHOD K method_1726 ()V
@@ -45,10 +48,12 @@ CLASS com/corrodinggames/rts/game/units/h com/corrodinggames/rts/game/units/clas
 	CLASS 2 class_737
 		CLASS 1 class_738
 			FIELD a field_4115 Lcom/corrodinggames/rts/game/units/h$2;
+			METHOD run run ()V
 	CLASS 3 class_739
 		CLASS 1 class_740
 			FIELD a field_4116 Ljava/lang/String;
 			FIELD b field_4117 Lcom/corrodinggames/rts/game/units/h$3;
+			METHOD run run ()V
 		CLASS 2 class_741
 			FIELD a field_4118 Lcom/corrodinggames/rts/gameFramework/f/a/f;
 			FIELD b field_4119 Lcom/corrodinggames/rts/gameFramework/l;
@@ -56,6 +61,7 @@ CLASS com/corrodinggames/rts/game/units/h com/corrodinggames/rts/game/units/clas
 			FIELD d field_4121 Lcom/corrodinggames/rts/game/units/h$3;
 		CLASS 3 class_742
 			FIELD a field_4122 Lcom/corrodinggames/rts/game/units/h$3;
+			METHOD run run ()V
 	CLASS 4 class_743
 	CLASS 5 class_744
 	CLASS 6 class_745
@@ -70,6 +76,7 @@ CLASS com/corrodinggames/rts/game/units/h com/corrodinggames/rts/game/units/clas
 	CLASS 13 class_753
 	CLASS 14 class_357
 	CLASS 15 class_358
+		METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I
 	CLASS 16 class_359
 	CLASS 17 class_360
 	CLASS 18 class_361

@@ -4,5 +4,19 @@ CLASS com/corrodinggames/rts/gameFramework/b/ah com/corrodinggames/rts/gameFrame
 	FIELD n field_4519 I
 	FIELD o field_4520 Lcom/corrodinggames/rts/gameFramework/b/ai;
 	FIELD p field_4521 Z
+	FIELD q field_8229 Z
+	FIELD r field_8230 Z
+	FIELD s field_8231 Z
+	FIELD t field_8232 Z
+	FIELD u field_8233 I
+	FIELD v field_8234 I
+	METHOD a method_4963 (Landroid/graphics/Bitmap;)V
+	METHOD a method_4964 (ZLandroid/graphics/Bitmap$Config;I)Landroid/graphics/Bitmap;
+	METHOD d method_4965 (Lcom/corrodinggames/rts/gameFramework/b/k;)V
+	METHOD e method_4966 (Lcom/corrodinggames/rts/gameFramework/b/k;)V
 	METHOD k method_1875 ()Landroid/graphics/Bitmap;
+	METHOD l method_4967 ()V
+	METHOD m method_4968 ()Z
 	METHOD n method_1877 ()Landroid/graphics/Bitmap;
+	METHOD o method_4969 ()V
+	CLASS 1

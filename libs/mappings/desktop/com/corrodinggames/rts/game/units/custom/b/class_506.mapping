@@ -1,6 +1,7 @@
 CLASS com/corrodinggames/rts/game/units/custom/b/n com/corrodinggames/rts/game/units/custom/b/class_506
 	FIELD a field_2626 S
 	FIELD A field_2611 Z
+	FIELD b field_7996 Ljava/lang/String;
 	FIELD B field_2612 Z
 	FIELD c field_2628 F
 	FIELD C field_2613 Z
@@ -9,19 +10,35 @@ CLASS com/corrodinggames/rts/game/units/custom/b/n com/corrodinggames/rts/game/u
 	FIELD e field_2630 F
 	FIELD E field_2615 Z
 	FIELD f field_2631 F
+	FIELD F field_7991 Z
 	FIELD g field_2632 F
 	FIELD G field_2617 F
+	FIELD h field_7997 Z
 	FIELD H field_2618 Z
+	FIELD i field_7998 Z
 	FIELD I field_2619 Z
+	FIELD j field_7999 Z
 	FIELD J field_2620 Z
+	FIELD k field_8000 Z
+	FIELD K field_7992 Z
+	FIELD l field_8001 Z
+	FIELD L field_7993 Z
 	FIELD m field_2638 Z
+	FIELD M field_7994 Z
 	FIELD n field_2639 Z
+	FIELD N field_7995 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD o field_8002 Z
 	FIELD O field_2625 Z
 	FIELD p field_2641 Z
 	FIELD q field_2642 Z
 	FIELD r field_2643 Z
 	FIELD s field_2644 Z
 	FIELD t field_2645 Z
+	FIELD u field_8003 Z
+	FIELD v field_8004 Z
+	FIELD w field_8005 Lcom/corrodinggames/rts/game/units/custom/bp;
 	FIELD x field_2649 Z
 	FIELD y field_2650 Z
 	FIELD z field_2651 Z
+	METHOD a method_4579 ()S
+	METHOD b method_4580 ()Ljava/lang/String;

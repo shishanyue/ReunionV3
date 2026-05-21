@@ -5,3 +5,6 @@ CLASS com/corrodinggames/rts/game/units/a/h com/corrodinggames/rts/game/units/a/
 	FIELD d field_1532 I
 	FIELD e field_1533 Z
 	FIELD f field_1534 I
+	METHOD hashCode hashCode ()I
+	METHOD q_ method_4438 ()Lcom/corrodinggames/rts/game/units/a/s;
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/java/c/m com/corrodinggames/rts/java/c/class_1459
+	FIELD a field_8998 Z
+	FIELD b field_8999 Lcom/corrodinggames/rts/java/c/k;
+	METHOD write write ([B)V
+	METHOD write write ([BII)V
+	METHOD write write (I)V

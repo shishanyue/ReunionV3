@@ -1,4 +1,5 @@
 CLASS com/corrodinggames/rts/gameFramework/m/y com/corrodinggames/rts/gameFramework/m/class_1225
+	METHOD a method_5693 ()Z
 	METHOD a method_3272 ([FIILandroid/graphics/Paint;)V
 	METHOD a method_3236 (FF)V
 	METHOD a method_3237 (FFF)V
@@ -11,6 +12,7 @@ CLASS com/corrodinggames/rts/gameFramework/m/y com/corrodinggames/rts/gameFramew
 	METHOD a method_3247 (ILandroid/graphics/PorterDuff$Mode;)V
 	METHOD a method_3244 (IZ)Lcom/corrodinggames/rts/gameFramework/m/e;
 	METHOD a method_3245 (Landroid/content/Context;)V
+	METHOD a method_5694 (Landroid/graphics/Paint;)V
 	METHOD a method_3248 (Landroid/graphics/Rect;)V
 	METHOD a method_3249 (Landroid/graphics/Rect;Landroid/graphics/Paint;)V
 	METHOD a method_3250 (Landroid/graphics/RectF;)V
@@ -27,6 +29,7 @@ CLASS com/corrodinggames/rts/gameFramework/m/y com/corrodinggames/rts/gameFramew
 	METHOD a method_3260 (Lcom/corrodinggames/rts/gameFramework/m/e;Landroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Paint;)V
 	METHOD a method_3261 (Lcom/corrodinggames/rts/gameFramework/m/e;Landroid/graphics/Rect;Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 	METHOD a method_3262 (Lcom/corrodinggames/rts/gameFramework/m/e;Landroid/graphics/RectF;Landroid/graphics/Paint;FFII)V
+	METHOD a method_5695 (Lcom/corrodinggames/rts/gameFramework/m/e;Ljava/io/File;)V
 	METHOD a method_3264 (Lcom/corrodinggames/rts/gameFramework/m/l;)V
 	METHOD a method_3265 (Lcom/corrodinggames/rts/gameFramework/m/m;)V
 	METHOD a method_3266 (Ljava/io/InputStream;Z)Lcom/corrodinggames/rts/gameFramework/m/e;
@@ -48,6 +51,7 @@ CLASS com/corrodinggames/rts/gameFramework/m/y com/corrodinggames/rts/gameFramew
 	METHOD b method_3282 (Ljava/util/concurrent/locks/Lock;)V
 	METHOD c method_3284 (Landroid/graphics/Rect;Landroid/graphics/Paint;)V
 	METHOD d method_3283 ()Lcom/corrodinggames/rts/gameFramework/m/l;
+	METHOD e method_5696 ()V
 	METHOD f method_3285 ()V
 	METHOD g method_3286 ()V
 	METHOD h method_3287 ()V
@@ -59,4 +63,6 @@ CLASS com/corrodinggames/rts/gameFramework/m/y com/corrodinggames/rts/gameFramew
 	METHOD n method_3293 ()I
 	METHOD o method_3294 ()V
 	METHOD p method_3295 ()V
+	METHOD q method_5697 ()V
 	METHOD r method_3296 ()Lcom/corrodinggames/rts/gameFramework/m/e;
+	METHOD s method_5698 ()F

@@ -1,5 +1,4 @@
-CLASS com/corrodinggames/rts/game/units/custom/b com/corrodinggames/rts/game/units/custom/CustomUnitAnimation
-	FIELD e effect Lcom/corrodinggames/rts/game/units/custom/z;
-	FIELD f offsetX F
-	FIELD g offsetY F
-	FIELD h finalized Z
+CLASS com/corrodinggames/rts/game/units/custom/class_492 com/corrodinggames/rts/game/units/custom/CustomUnitAnimation
+	FIELD field_2486 finalized Z
+	FIELD field_7987 offsetX F
+	FIELD field_7988 offsetY F

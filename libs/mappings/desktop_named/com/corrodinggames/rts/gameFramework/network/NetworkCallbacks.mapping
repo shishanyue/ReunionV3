@@ -1,6 +1,5 @@
-CLASS com/corrodinggames/rts/gameFramework/j/ac com/corrodinggames/rts/gameFramework/network/NetworkCallbacks
-	METHOD a onAllPlayersReady ()V
-	METHOD a onPasswordPrompt (Lcom/corrodinggames/rts/gameFramework/j/ae;)V
-	METHOD b onStartGameEvent ()V
-	METHOD c refreshUI ()V
-	METHOD d closeBattleroomIfOpen ()V
+CLASS com/corrodinggames/rts/gameFramework/j/class_1000 com/corrodinggames/rts/gameFramework/network/NetworkCallbacks
+	METHOD method_5351 onAllPlayersReady ()V
+	METHOD method_5360 onStartGameEvent ()V
+	METHOD method_5364 refreshUI ()V
+	METHOD method_5366 closeBattleroomIfOpen ()V

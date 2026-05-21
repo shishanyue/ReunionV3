@@ -1,13 +1,7 @@
-CLASS com/corrodinggames/rts/gameFramework/g/a com/corrodinggames/rts/gameFramework/stats/TeamStats
-	FIELD a statType Lcom/corrodinggames/rts/gameFramework/g/f;
-	FIELD b statGroup Lcom/corrodinggames/rts/gameFramework/g/c;
-	FIELD c comparators Ljava/util/ArrayList;
-	METHOD a rebuild ()V
-	METHOD a getFormattedValue (Lcom/corrodinggames/rts/gameFramework/g/d;)Ljava/lang/String;
-	METHOD a formatValue (Lcom/corrodinggames/rts/gameFramework/g/f;I)Ljava/lang/String;
-	METHOD b update ()V
-	METHOD c nextSort ()V
-	METHOD d getComparators ()Ljava/util/ArrayList;
-	METHOD e getStatType ()Lcom/corrodinggames/rts/gameFramework/g/f;
-	METHOD f getStatGroup ()Lcom/corrodinggames/rts/gameFramework/g/c;
-	CLASS 1 AnonymousClass1
+CLASS com/corrodinggames/rts/gameFramework/g/class_980 com/corrodinggames/rts/gameFramework/stats/TeamStats
+	FIELD field_5749 comparators Ljava/util/ArrayList;
+	METHOD method_2620 rebuild ()V
+	METHOD method_5314 update ()V
+	METHOD method_5315 nextSort ()V
+	METHOD method_5316 getComparators ()Ljava/util/ArrayList;
+	CLASS class_981 AnonymousClass1

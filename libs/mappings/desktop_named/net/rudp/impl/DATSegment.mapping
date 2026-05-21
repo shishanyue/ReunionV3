@@ -1,3 +1,3 @@
-CLASS a/a/a/b net/rudp/impl/DATSegment
-	FIELD a payload [B
-	METHOD c getPayloadBytes ()[B
+CLASS a/a/a/class_1341 net/rudp/impl/DATSegment
+	FIELD field_7352 payload [B
+	METHOD method_3696 getPayloadBytes ()[B

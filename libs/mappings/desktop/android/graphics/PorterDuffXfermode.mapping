@@ -1,0 +1,2 @@
+CLASS android/graphics/PorterDuffXfermode
+	FIELD a field_7538 Landroid/graphics/PorterDuff$Mode;

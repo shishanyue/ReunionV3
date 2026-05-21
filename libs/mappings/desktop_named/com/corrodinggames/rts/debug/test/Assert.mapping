@@ -1,10 +1,10 @@
-CLASS com/corrodinggames/rts/a/a/n com/corrodinggames/rts/debug/test/Assert
-	METHOD a runUnitTests ()V
-	METHOD a assertEquals (FF)V
-	METHOD a assertEquals (II)V
-	METHOD a assertEquals (Ljava/lang/Object;Ljava/lang/Object;)V
-	METHOD a assertEquals (Ljava/lang/String;Ljava/lang/String;)V
-	METHOD a assertTrue (Z)V
-	METHOD b assertEqualsDebug (Ljava/lang/String;Ljava/lang/String;)V
-	METHOD b assertFalse (Z)V
-	METHOD c assertEqualsFloat (Ljava/lang/String;Ljava/lang/String;)V
+CLASS com/corrodinggames/rts/a/a/class_1389 com/corrodinggames/rts/debug/test/Assert
+	METHOD method_4111 runUnitTests ()V
+	METHOD method_4112 assertEquals (FF)V
+	METHOD method_4113 assertEquals (II)V
+	METHOD method_4114 assertEquals (Ljava/lang/Object;Ljava/lang/Object;)V
+	METHOD method_4115 assertEquals (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD method_4116 assertTrue (Z)V
+	METHOD method_4117 assertEqualsDebug (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD method_4118 assertFalse (Z)V
+	METHOD method_4119 assertEqualsFloat (Ljava/lang/String;Ljava/lang/String;)V

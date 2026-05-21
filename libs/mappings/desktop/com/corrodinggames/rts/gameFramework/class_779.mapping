@@ -15,16 +15,26 @@ CLASS com/corrodinggames/rts/gameFramework/ac com/corrodinggames/rts/gameFramewo
 	FIELD al field_4286 Ljava/util/ArrayList;
 	FIELD am field_4287 Ljava/util/Properties;
 	FIELD an field_4288 I
+	FIELD ao field_8133 I
 	FIELD b field_4290 Lcom/corrodinggames/rts/gameFramework/ai;
 	FIELD B field_4249 Lcom/corrodinggames/rts/gameFramework/ad;
+	FIELD c field_8134 Lcom/corrodinggames/rts/gameFramework/ad;
 	FIELD C field_4250 Lcom/corrodinggames/rts/gameFramework/ad;
+	FIELD d field_8135 Lcom/corrodinggames/rts/gameFramework/ad;
 	FIELD D field_4251 Lcom/corrodinggames/rts/gameFramework/ad;
+	FIELD e field_8136 Lcom/corrodinggames/rts/gameFramework/ad;
 	FIELD E field_4252 Lcom/corrodinggames/rts/gameFramework/ad;
+	FIELD f field_8137 Lcom/corrodinggames/rts/gameFramework/ad;
 	FIELD F field_4253 Lcom/corrodinggames/rts/gameFramework/ad;
+	FIELD g field_8138 Lcom/corrodinggames/rts/gameFramework/ad;
 	FIELD G field_4254 Lcom/corrodinggames/rts/gameFramework/ad;
+	FIELD h field_8139 Lcom/corrodinggames/rts/gameFramework/ad;
 	FIELD H field_4255 Lcom/corrodinggames/rts/gameFramework/ad;
+	FIELD i field_8140 Lcom/corrodinggames/rts/gameFramework/ad;
 	FIELD I field_4256 Lcom/corrodinggames/rts/gameFramework/ae;
+	FIELD j field_8141 Lcom/corrodinggames/rts/gameFramework/ad;
 	FIELD J field_4257 Lcom/corrodinggames/rts/gameFramework/ad;
+	FIELD k field_8142 Lcom/corrodinggames/rts/gameFramework/ad;
 	FIELD K field_4258 Lcom/corrodinggames/rts/gameFramework/ad;
 	FIELD l field_4300 Lcom/corrodinggames/rts/gameFramework/ad;
 	FIELD L field_4259 Lcom/corrodinggames/rts/gameFramework/ad;
@@ -56,8 +66,13 @@ CLASS com/corrodinggames/rts/gameFramework/ac com/corrodinggames/rts/gameFramewo
 	FIELD Y field_4272 Lcom/corrodinggames/rts/gameFramework/ad;
 	FIELD z field_4314 Lcom/corrodinggames/rts/gameFramework/ad;
 	FIELD Z field_4273 Lcom/corrodinggames/rts/gameFramework/ad;
+	METHOD a method_4887 ()V
 	METHOD a method_1800 (I)I
 	METHOD a method_1801 (Lcom/corrodinggames/rts/gameFramework/ad;)Ljava/lang/String;
+	METHOD a method_4888 (Lcom/corrodinggames/rts/gameFramework/ad;I)Z
+	METHOD a method_4889 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/ad;
 	METHOD a method_1803 (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD b method_4890 ()V
+	METHOD b method_4891 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/ad;
 	METHOD c method_1806 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/ae;
 	METHOD d method_1804 (Ljava/lang/String;)I

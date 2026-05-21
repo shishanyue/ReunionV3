@@ -1,0 +1,16 @@
+CLASS android/util/SparseArray
+	FIELD a field_7603 Ljava/lang/Object;
+	FIELD b field_7604 Z
+	FIELD c field_7605 [I
+	FIELD d field_7606 [Ljava/lang/Object;
+	FIELD e field_7607 I
+	METHOD a method_3997 (I)Ljava/lang/Object;
+	METHOD a method_3998 (ILjava/lang/Object;)Ljava/lang/Object;
+	METHOD b method_3999 ()I
+	METHOD b method_4000 (I)I
+	METHOD b method_4001 (ILjava/lang/Object;)V
+	METHOD c method_4002 ()V
+	METHOD c method_4003 (I)Ljava/lang/Object;
+	METHOD c method_4004 (ILjava/lang/Object;)V
+	METHOD clone clone ()Ljava/lang/Object;
+	METHOD toString toString ()Ljava/lang/String;

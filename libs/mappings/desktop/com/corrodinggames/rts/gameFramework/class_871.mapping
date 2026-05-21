@@ -5,3 +5,6 @@ CLASS com/corrodinggames/rts/gameFramework/bj com/corrodinggames/rts/gameFramewo
 	FIELD d field_4796 Lcom/corrodinggames/rts/gameFramework/bj;
 	FIELD e field_4797 Lcom/corrodinggames/rts/gameFramework/g/f;
 	FIELD f field_4798 [Lcom/corrodinggames/rts/gameFramework/bj;
+	METHOD a method_5047 ()Lcom/corrodinggames/rts/gameFramework/g/f;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/bj;
+	METHOD values values ()[Lcom/corrodinggames/rts/gameFramework/bj;

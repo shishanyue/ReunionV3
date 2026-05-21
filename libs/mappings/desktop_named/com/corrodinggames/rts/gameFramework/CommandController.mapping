@@ -1,14 +1,11 @@
-CLASS com/corrodinggames/rts/gameFramework/c com/corrodinggames/rts/gameFramework/CommandController
-	FIELD a DEBUG_TRACE_ENABLED Z
-	FIELD b pendingCommands Ljava/util/ArrayList;
-	FIELD c executedCommands Ljava/util/ArrayList;
-	FIELD d queuedCommands Ljava/util/ArrayList;
-	FIELD e logRateLimitCounter I
-	METHOD a clearAllCommands ()V
-	METHOD a newCommandForTeam (Lcom/corrodinggames/rts/game/n;)Lcom/corrodinggames/rts/gameFramework/e;
-	METHOD a logWithRateLimit (Ljava/lang/String;)V
-	METHOD b createCommand ()Lcom/corrodinggames/rts/gameFramework/e;
-	METHOD b createCommandForTeam (Lcom/corrodinggames/rts/game/n;)Lcom/corrodinggames/rts/gameFramework/e;
-	METHOD c executeAllCommands ()V
-	METHOD d executeLocalCommands ()V
-	METHOD e executeNetworkCommands ()V
+CLASS com/corrodinggames/rts/gameFramework/class_873 com/corrodinggames/rts/gameFramework/CommandController
+	FIELD field_4800 DEBUG_TRACE_ENABLED Z
+	FIELD field_4801 pendingCommands Ljava/util/ArrayList;
+	FIELD field_4802 executedCommands Ljava/util/ArrayList;
+	FIELD field_4803 queuedCommands Ljava/util/ArrayList;
+	FIELD field_4804 logRateLimitCounter I
+	METHOD method_2057 clearAllCommands ()V
+	METHOD method_2059 logWithRateLimit (Ljava/lang/String;)V
+	METHOD method_2062 executeNetworkCommands ()V
+	METHOD method_5074 executeAllCommands ()V
+	METHOD method_5075 executeLocalCommands ()V

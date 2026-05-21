@@ -1,3 +1,4 @@
 CLASS com/corrodinggames/rts/game/units/a/y com/corrodinggames/rts/game/units/a/class_355
 	FIELD a field_1583 Z
 	METHOD K method_645 ()Lcom/corrodinggames/rts/game/units/y;
+	METHOD L method_4463 ()Z

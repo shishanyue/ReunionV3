@@ -1,2 +1,2 @@
-CLASS com/corrodinggames/rts/gameFramework/j/o com/corrodinggames/rts/gameFramework/network/ServerTimeoutTask
-	FIELD a timeoutSeconds I
+CLASS com/corrodinggames/rts/gameFramework/j/class_1049 com/corrodinggames/rts/gameFramework/network/ServerTimeoutTask
+	FIELD field_6261 timeoutSeconds I

@@ -1,0 +1,15 @@
+CLASS android/graphics/Point
+	FIELD a field_7535 I
+	FIELD b field_7536 I
+	FIELD c field_7537 Landroid/os/Parcelable$Creator;
+	METHOD a method_3915 (II)V
+	METHOD a method_3916 (Landroid/os/Parcel;)V
+	METHOD describeContents describeContents ()I
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD writeToParcel writeToParcel (Landroid/os/Parcel;I)V
+	CLASS 1
+		METHOD a method_3917 (I)[Landroid/graphics/Point;
+		METHOD createFromParcel createFromParcel (Landroid/os/Parcel;)Ljava/lang/Object;
+		METHOD newArray newArray (I)[Ljava/lang/Object;

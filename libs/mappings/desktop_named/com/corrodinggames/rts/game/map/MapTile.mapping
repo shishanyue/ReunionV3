@@ -1,19 +1,14 @@
-CLASS com/corrodinggames/rts/game/b/g com/corrodinggames/rts/game/map/MapTile
-	FIELD a tileset Lcom/corrodinggames/rts/game/b/j;
-	FIELD b tilesetLocalIndex I
-	FIELD c atlasSlotIndex I
-	FIELD d uniqueTileId S
-	FIELD e isWater Z
-	FIELD f isWaterBridge Z
-	FIELD g isLava Z
-	FIELD h isCliff Z
-	FIELD i isResourcePool Z
-	FIELD j movementBlockLevel B
-	FIELD k hasLargeObject Z
-	FIELD l blocksBuildingPlacement Z
-	FIELD m randomVariants [Lcom/corrodinggames/rts/game/b/g;
-	FIELD n sharedTempRect Landroid/graphics/Rect;
-	METHOD a createTile (Lcom/corrodinggames/rts/game/b/b;Lcom/corrodinggames/rts/game/b/e;Lcom/corrodinggames/rts/game/b/j;ISSZ)Lcom/corrodinggames/rts/game/b/g;
-	METHOD a compareTiles (Lcom/corrodinggames/rts/game/b/g;Lcom/corrodinggames/rts/game/b/g;)Z
-	METHOD a renderTile (Lcom/corrodinggames/rts/gameFramework/m/y;Landroid/graphics/RectF;FLandroid/graphics/Paint;)V
-	METHOD a reportMissingUnit (Ljava/lang/String;)V
+CLASS com/corrodinggames/rts/game/b/class_306 com/corrodinggames/rts/game/map/MapTile
+	FIELD field_1007 tilesetLocalIndex I
+	FIELD field_1008 atlasSlotIndex I
+	FIELD field_1009 uniqueTileId S
+	FIELD field_1010 isWater Z
+	FIELD field_1011 isWaterBridge Z
+	FIELD field_1012 isLava Z
+	FIELD field_1013 isCliff Z
+	FIELD field_1014 isResourcePool Z
+	FIELD field_1015 movementBlockLevel B
+	FIELD field_1016 hasLargeObject Z
+	FIELD field_1017 blocksBuildingPlacement Z
+	FIELD field_1019 sharedTempRect Landroid/graphics/Rect;
+	METHOD method_373 reportMissingUnit (Ljava/lang/String;)V

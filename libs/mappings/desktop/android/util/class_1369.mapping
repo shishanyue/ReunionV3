@@ -1,0 +1,6 @@
+CLASS android/util/a android/util/class_1369
+	FIELD a field_7608 [Z
+	FIELD b field_7609 [I
+	FIELD c field_7610 [J
+	FIELD d field_7611 [Ljava/lang/Object;
+	METHOD a method_4005 ([III)I

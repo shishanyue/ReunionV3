@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/java/l com/corrodinggames/rts/java/class_1470
+	FIELD a field_9085 Z
+	FIELD b field_9086 Lcom/corrodinggames/rts/java/audio/lwjgl/OpenALAudio;
+	FIELD c field_9087 Z
+	METHOD f method_6055 ()Ljava/lang/Object;

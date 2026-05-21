@@ -16,9 +16,13 @@ CLASS com/corrodinggames/rts/game/b/h com/corrodinggames/rts/game/b/class_307
 	FIELD o field_1034 Landroid/graphics/Rect;
 	FIELD p field_1035 I
 	METHOD a method_374 ()V
+	METHOD a method_4362 (I)Lcom/corrodinggames/rts/gameFramework/m/e;
 	METHOD a method_376 (ILandroid/graphics/Rect;)V
 	METHOD a method_377 (ILcom/corrodinggames/rts/gameFramework/m/e;Landroid/graphics/Rect;)V
+	METHOD a method_4363 (Landroid/graphics/Rect;Landroid/graphics/Rect;II)Landroid/graphics/Rect;
+	METHOD a method_4364 (Landroid/graphics/Rect;Landroid/graphics/Rect;III)Landroid/graphics/Rect;
 	METHOD a method_379 (Lcom/corrodinggames/rts/game/b/j;I)I
+	METHOD a method_4365 (Lcom/corrodinggames/rts/gameFramework/m/e;Landroid/graphics/Rect;)Z
 	METHOD a method_381 (Lcom/corrodinggames/rts/gameFramework/m/y;Lcom/corrodinggames/rts/gameFramework/m/e;Landroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Paint;)V
 	METHOD b method_382 ()V
 	METHOD b method_383 (I)Landroid/graphics/Rect;

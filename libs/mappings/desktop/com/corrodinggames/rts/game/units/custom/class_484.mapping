@@ -19,11 +19,17 @@ CLASS com/corrodinggames/rts/game/units/custom/as com/corrodinggames/rts/game/un
 	FIELD r field_2480 F
 	FIELD s field_2481 Ljava/util/LinkedHashMap;
 	FIELD t field_2482 Ljava/util/LinkedHashMap;
+	METHOD a method_4557 (I)Lcom/corrodinggames/rts/game/units/custom/at;
 	METHOD a method_1172 (Lcom/corrodinggames/rts/game/units/custom/as;Lcom/corrodinggames/rts/game/units/custom/j;Lcom/corrodinggames/rts/gameFramework/j/as;)V
 	METHOD a method_1174 (Lcom/corrodinggames/rts/game/units/custom/j;Lcom/corrodinggames/rts/game/units/custom/as;[Lcom/corrodinggames/rts/game/units/custom/at;)V
 	METHOD a method_1173 (Lcom/corrodinggames/rts/game/units/custom/j;Lcom/corrodinggames/rts/game/units/custom/as;Lcom/corrodinggames/rts/game/units/custom/l;)V
+	METHOD a method_4558 (Lcom/corrodinggames/rts/game/units/custom/j;Lcom/corrodinggames/rts/gameFramework/j/k;I)V
+	METHOD a method_4559 (Lcom/corrodinggames/rts/gameFramework/utility/ab;Ljava/lang/String;Ljava/lang/String;[Lcom/corrodinggames/rts/game/units/custom/at;)[Lcom/corrodinggames/rts/game/units/custom/at;
+	METHOD a method_4560 (Ljava/lang/String;[Lcom/corrodinggames/rts/game/units/custom/at;)[Lcom/corrodinggames/rts/game/units/custom/at;
 	METHOD a method_1177 (Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/l;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/logicBooleans/VariableScope$CachedWriter;
 	METHOD a method_1178 (Ljava/util/LinkedHashMap;Lcom/corrodinggames/rts/game/units/custom/at;)V
+	METHOD b method_4561 ()Lcom/corrodinggames/rts/game/units/custom/as;
+	METHOD clone clone ()Ljava/lang/Object;
 	CLASS 1 class_485
 	CLASS 2 class_486
 	CLASS 3 class_487

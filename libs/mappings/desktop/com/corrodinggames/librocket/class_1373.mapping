@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/librocket/c com/corrodinggames/librocket/class_1373
+	FIELD a field_7668 Ljava/lang/String;
+	FIELD b field_7669 Z
+	FIELD c field_7670 Z
+	FIELD d field_7671 Z
+	FIELD e field_7672 F
+	FIELD f field_7673 Lcom/corrodinggames/rts/game/units/as;
+	FIELD g field_7674 Lcom/corrodinggames/librocket/b;
+	METHOD a method_4068 ()Z

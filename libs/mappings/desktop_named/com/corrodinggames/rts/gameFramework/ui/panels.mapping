@@ -1,7 +1,7 @@
-CLASS com/corrodinggames/rts/gameFramework/f/al com/corrodinggames/rts/gameFramework/ui/panels
-	CLASS 1 AnonymousClass1
-	CLASS 2 AnonymousClass2
-	CLASS 3 AnonymousClass3
-	CLASS 4 AnonymousClass4
-	CLASS 5 AnonymousClass5
-	CLASS 6 AnonymousClass6
+CLASS com/corrodinggames/rts/gameFramework/f/class_938 com/corrodinggames/rts/gameFramework/ui/panels
+	CLASS class_939 AnonymousClass1
+	CLASS class_940 AnonymousClass2
+	CLASS class_941 AnonymousClass3
+	CLASS class_942 AnonymousClass4
+	CLASS class_943 AnonymousClass5
+	CLASS class_944 AnonymousClass6

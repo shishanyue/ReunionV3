@@ -13,7 +13,9 @@ CLASS com/corrodinggames/rts/gameFramework/h/a com/corrodinggames/rts/gameFramew
 	METHOD a method_2635 (Ljava/lang/String;Ljava/util/Locale;ZZ)Ljava/lang/String;
 	METHOD b method_2641 ()Ljava/util/ResourceBundle;
 	METHOD b method_2632 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD c method_5321 ()Ljava/lang/String;
 	METHOD c method_2638 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD d method_5322 ()Ljava/util/Locale;
 	METHOD d method_2642 (Ljava/lang/String;)Ljava/lang/String;
 	METHOD e method_2639 ()V
 	METHOD e method_2643 (Ljava/lang/String;)Z

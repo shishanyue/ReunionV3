@@ -1,6 +1,6 @@
-CLASS com/corrodinggames/rts/game/units/custom/a/a/h com/corrodinggames/rts/game/units/custom/logic/actions/MemoryAction
-	FIELD a setUnitMemory Lcom/corrodinggames/rts/game/units/custom/logicBooleans/VariableScope$CachedWriter;
-	FIELD b swapCustomTarget1And2 Z
-	FIELD c setCustomTarget1 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
-	FIELD d setCustomTarget2 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
-	FIELD e shrinkArrays Lcom/corrodinggames/rts/game/units/custom/logicBooleans/VariableScope$MemoryNames;
+CLASS com/corrodinggames/rts/game/units/custom/a/a/class_452 com/corrodinggames/rts/game/units/custom/logic/actions/MemoryAction
+	FIELD field_2187 setUnitMemory Lcom/corrodinggames/rts/game/units/custom/logicBooleans/VariableScope$CachedWriter;
+	FIELD field_2188 swapCustomTarget1And2 Z
+	FIELD field_2189 setCustomTarget1 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_2190 setCustomTarget2 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_2191 shrinkArrays Lcom/corrodinggames/rts/game/units/custom/logicBooleans/VariableScope$MemoryNames;

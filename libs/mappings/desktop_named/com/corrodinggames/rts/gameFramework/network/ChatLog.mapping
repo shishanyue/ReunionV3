@@ -1,2 +1,2 @@
-CLASS com/corrodinggames/rts/gameFramework/j/a com/corrodinggames/rts/gameFramework/network/ChatLog
-	METHOD a endsWithSlash (Ljava/lang/String;)Ljava/lang/String;
+CLASS com/corrodinggames/rts/gameFramework/j/class_996 com/corrodinggames/rts/gameFramework/network/ChatLog
+	METHOD method_5346 endsWithSlash (Ljava/lang/String;)Ljava/lang/String;

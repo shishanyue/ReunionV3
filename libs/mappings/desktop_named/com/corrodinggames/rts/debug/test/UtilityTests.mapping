@@ -1,7 +1,7 @@
-CLASS com/corrodinggames/rts/a/a/e com/corrodinggames/rts/debug/test/UtilityTests
-	FIELD a dummyValue I
-	METHOD a runAllTests ()V
-	METHOD a assertStringArrayEquals ([Ljava/lang/String;Ljava/lang/String;)V
-	METHOD a assertStringArrayEquals ([Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-	METHOD a assertKeyValueEquals (Ljava/lang/String;Ljava/lang/String;)V
-	METHOD a assertVersionComparison (Ljava/lang/String;Ljava/lang/String;Z)V
+CLASS com/corrodinggames/rts/a/a/class_1381 com/corrodinggames/rts/debug/test/UtilityTests
+	FIELD field_7695 dummyValue I
+	METHOD method_4095 runAllTests ()V
+	METHOD method_4096 assertKeyValueEquals (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD method_4097 assertVersionComparison (Ljava/lang/String;Ljava/lang/String;Z)V
+	METHOD method_4098 assertStringArrayEquals ([Ljava/lang/String;Ljava/lang/String;)V
+	METHOD method_4099 assertStringArrayEquals ([Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V

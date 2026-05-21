@@ -1,2 +1,3 @@
 CLASS com/corrodinggames/rts/game/units/custom/aq com/corrodinggames/rts/game/units/custom/class_482
 	FIELD a field_2461 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	METHOD a method_4555 (Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;)Lcom/corrodinggames/rts/game/units/custom/aq;

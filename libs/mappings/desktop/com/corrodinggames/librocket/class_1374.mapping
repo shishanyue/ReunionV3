@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/librocket/d com/corrodinggames/librocket/class_1374
+	FIELD a field_7675 Lcom/ElementDocument;
+	FIELD b field_7676 Ljava/lang/String;
+	FIELD c field_7677 Ljava/lang/String;
+	FIELD d field_7678 Ljava/lang/String;
+	FIELD e field_7679 Ljava/lang/Object;
+	FIELD f field_7680 Ljava/lang/Object;
+	FIELD g field_7681 Z
+	FIELD h field_7682 Z
+	FIELD i field_7683 Ljava/lang/Runnable;

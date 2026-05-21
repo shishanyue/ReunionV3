@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/java/d/b com/corrodinggames/rts/java/d/class_1462
+	FIELD h field_9009 Lorg/newdawn/slick/Image;
+	FIELD i field_9010 Z
+	FIELD j field_9011 Lorg/newdawn/slick/ImageBuffer;
+	FIELD k field_9012 Lcom/corrodinggames/rts/java/d/a;

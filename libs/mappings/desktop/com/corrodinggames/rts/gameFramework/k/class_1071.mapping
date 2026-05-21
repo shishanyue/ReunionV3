@@ -26,6 +26,7 @@ CLASS com/corrodinggames/rts/gameFramework/k/k com/corrodinggames/rts/gameFramew
 	FIELD y field_6565 [B
 	FIELD z field_6566 [B
 	METHOD a method_3120 ()Ljava/util/LinkedList;
+	METHOD a method_5553 (Lcom/corrodinggames/rts/game/units/am;)Lcom/corrodinggames/rts/gameFramework/k/c;
 	METHOD a method_3114 (Lcom/corrodinggames/rts/game/units/ao;SSLjava/lang/Float;Z)V
 	METHOD a method_3115 (Lcom/corrodinggames/rts/gameFramework/j/as;)V
 	METHOD a method_3116 (Lcom/corrodinggames/rts/gameFramework/j/k;)V

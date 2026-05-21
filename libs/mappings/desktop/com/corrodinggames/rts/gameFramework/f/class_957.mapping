@@ -3,3 +3,4 @@ CLASS com/corrodinggames/rts/gameFramework/f/e com/corrodinggames/rts/gameFramew
 	FIELD b field_5426 Ljava/lang/String;
 	FIELD c field_5427 F
 	FIELD d field_5428 F
+	METHOD a method_5239 ()Ljava/util/ArrayList;

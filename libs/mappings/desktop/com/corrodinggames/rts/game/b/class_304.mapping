@@ -1,7 +1,11 @@
 CLASS com/corrodinggames/rts/game/b/e com/corrodinggames/rts/game/b/class_304
+	FIELD a field_7906 Lcom/corrodinggames/rts/gameFramework/m/ag;
 	FIELD b field_983 [Lcom/corrodinggames/rts/gameFramework/m/ag;
+	FIELD c field_7907 Lcom/corrodinggames/rts/gameFramework/m/ag;
 	FIELD d field_985 Lcom/corrodinggames/rts/gameFramework/m/ag;
+	FIELD e field_7908 Lcom/corrodinggames/rts/gameFramework/m/ag;
 	FIELD f field_987 Lcom/corrodinggames/rts/gameFramework/m/ag;
+	FIELD g field_7909 Lcom/corrodinggames/rts/gameFramework/m/ag;
 	FIELD h field_989 [Lcom/corrodinggames/rts/gameFramework/m/ag;
 	FIELD i field_990 Lcom/corrodinggames/rts/game/b/b;
 	FIELD j field_991 I
@@ -20,5 +24,11 @@ CLASS com/corrodinggames/rts/game/b/e com/corrodinggames/rts/game/b/class_304
 	FIELD w field_1004 Z
 	FIELD x field_1005 [B
 	METHOD a method_362 ()[S
+	METHOD a method_4359 ([C)[B
+	METHOD a method_4355 (II)Lcom/corrodinggames/rts/game/b/g;
+	METHOD a method_4356 (IILcom/corrodinggames/rts/game/b/g;Z)V
+	METHOD a method_4357 (Lcom/corrodinggames/rts/gameFramework/m/y;FFFFFFFFZZZ)V
 	METHOD a method_366 (Ljava/io/InputStream;)V
 	METHOD a method_367 (Ljava/lang/String;)V
+	METHOD a method_4358 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/io/InputStream;
+	METHOD b method_4360 ()V

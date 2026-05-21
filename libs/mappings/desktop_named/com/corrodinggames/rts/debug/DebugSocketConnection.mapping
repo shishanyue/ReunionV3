@@ -1,3 +1,2 @@
-CLASS com/corrodinggames/rts/a/b com/corrodinggames/rts/debug/DebugSocketConnection
-	FIELD a socket Ljava/net/Socket;
-	FIELD b server Lcom/corrodinggames/rts/a/a;
+CLASS com/corrodinggames/rts/a/class_1390 com/corrodinggames/rts/debug/DebugSocketConnection
+	FIELD field_7719 socket Ljava/net/Socket;

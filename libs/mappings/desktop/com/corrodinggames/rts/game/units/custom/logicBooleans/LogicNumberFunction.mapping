@@ -1,17 +1,51 @@
 CLASS com/corrodinggames/rts/game/units/custom/logicBooleans/LogicNumberFunction
 	CLASS CreateMarker
+		FIELD dir dir Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD height height Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD teamId teamId Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD x x Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD y y Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
 	CLASS FunctionCos
 	CLASS FunctionDirection
+		FIELD x1 field_8075 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD x2 field_8076 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD y1 field_8077 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD y2 field_8078 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
 	CLASS FunctionDirectionBetween
+		FIELD unit1 unit1 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD unit2 unit2 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
 	CLASS FunctionDistance
+		FIELD x1 field_8079 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD x2 field_8080 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD y1 field_8081 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD y2 field_8082 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
 	CLASS FunctionDistanceBetween
+		FIELD unit1 unit1 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD unit2 unit2 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
 	CLASS FunctionDistanceBetweenSquared
+		FIELD unit1 unit1 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD unit2 unit2 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
 	CLASS FunctionDistanceSquared
+		FIELD x1 field_8083 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD x2 field_8084 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD y1 field_8085 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD y2 field_8086 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
 	CLASS FunctionInt
 	CLASS FunctionLength
+		FIELD a field_8087 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
 	CLASS FunctionMax
+		FIELD a field_8088 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD b field_8089 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
 	CLASS FunctionMin
+		FIELD a field_8090 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD b field_8091 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
 	CLASS FunctionRnd
+		FIELD max max Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD min min Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		FIELD randomIndex randomIndex I
 	CLASS FunctionSin
 	CLASS FunctionSquareRoot
 	CLASS LogicNumberFunctionRawArgs
+		FIELD value value Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+		METHOD doFunction doFunction (F)F
+		METHOD validateNumberOfArguments validateNumberOfArguments (I)V

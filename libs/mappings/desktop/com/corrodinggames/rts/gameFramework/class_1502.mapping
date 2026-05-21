@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/gameFramework/n com/corrodinggames/rts/gameFramework/class_1502
+	METHOD a method_5699 ()Z
+	METHOD a method_5700 (Ljava/lang/String;I)V
+	METHOD a method_5701 (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a method_5702 (Ljava/lang/String;Z)V
+	METHOD a method_5703 (Ljava/lang/Throwable;)V
+	METHOD b method_5704 ()Z
+	METHOD c method_5705 ()Z
+	METHOD d method_5706 ()V

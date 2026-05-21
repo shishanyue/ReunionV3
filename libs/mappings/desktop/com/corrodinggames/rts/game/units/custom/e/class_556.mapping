@@ -1,32 +1,61 @@
 CLASS com/corrodinggames/rts/game/units/custom/e/a com/corrodinggames/rts/game/units/custom/e/class_556
+	FIELD a field_8037 Z
 	FIELD A field_2968 Ljava/util/ArrayList;
 	FIELD b field_2977 Ljava/lang/String;
 	FIELD B field_2969 Ljava/util/ArrayList;
 	FIELD c field_2978 Lcom/corrodinggames/rts/game/units/custom/bb;
 	FIELD C field_2970 Ljava/util/ArrayList;
+	FIELD d field_8038 Lcom/corrodinggames/rts/game/units/custom/bb;
 	FIELD D field_2971 Lcom/corrodinggames/rts/game/units/custom/e/a;
+	FIELD e field_8039 Z
 	FIELD E field_2972 Lcom/corrodinggames/rts/game/units/custom/e/a;
+	FIELD f field_8040 Z
 	FIELD F field_2973 Lcom/corrodinggames/rts/game/units/custom/e/a;
+	FIELD g field_8041 Lcom/corrodinggames/rts/game/units/custom/bb;
 	FIELD G field_2974 Lcom/corrodinggames/rts/game/units/custom/e/a;
+	FIELD h field_8042 Lcom/corrodinggames/rts/game/units/custom/bb;
 	FIELD H field_2975 Lcom/corrodinggames/rts/game/units/custom/e/a;
+	FIELD i field_8043 Lcom/corrodinggames/rts/game/units/custom/e/a;
+	FIELD j field_8044 Z
+	FIELD k field_8045 Z
 	FIELD l field_2987 Z
+	FIELD m field_8046 Ljava/lang/Integer;
+	FIELD n field_8047 Z
 	FIELD o field_2990 Z
+	FIELD p field_8048 Z
 	FIELD q field_2992 Lcom/corrodinggames/rts/game/units/custom/e/b;
+	FIELD r field_8049 Z
+	FIELD s field_8050 F
 	FIELD t field_2995 Z
 	FIELD u field_2996 Z
+	FIELD v field_8051 Lcom/corrodinggames/rts/game/units/custom/e/a;
+	FIELD w field_8052 Z
+	FIELD x field_8053 F
+	FIELD y field_8054 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD z field_8055 Z
+	METHOD a method_4625 ()Z
 	METHOD a method_1327 (D)Ljava/lang/String;
+	METHOD a method_4626 (DZ)Ljava/lang/String;
 	METHOD a method_1319 (DZZ)Ljava/lang/String;
+	METHOD a method_4627 (JLcom/corrodinggames/rts/game/units/custom/e/b;)Ljava/lang/String;
 	METHOD a method_1320 (Lcom/corrodinggames/rts/game/units/am;)D
 	METHOD a method_1321 (Lcom/corrodinggames/rts/game/units/am;D)V
 	METHOD a method_1322 (Lcom/corrodinggames/rts/game/units/custom/e/a;)Lcom/corrodinggames/rts/game/units/custom/e/a;
 	METHOD a method_1323 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/e/a;
 	METHOD a method_1324 (Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/e/b;)Ljava/lang/String;
 	METHOD a method_1325 (Ljava/lang/String;ZZ)Lcom/corrodinggames/rts/game/units/custom/e/a;
+	METHOD a method_4628 (Z)Ljava/lang/String;
+	METHOD b method_4629 ()F
 	METHOD b method_1328 (Lcom/corrodinggames/rts/game/units/am;D)V
 	METHOD b method_1329 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/e/a;
+	METHOD b method_4630 (Z)Ljava/lang/String;
 	METHOD c method_1317 ()Z
 	METHOD d method_1326 ()Z
 	METHOD e method_1330 ()V
 	METHOD f method_1331 ()Ljava/util/ArrayList;
+	METHOD g method_4631 ()V
+	METHOD h method_4632 ()Ljava/lang/Integer;
 	METHOD i method_1332 ()Ljava/lang/String;
 	METHOD j method_1333 ()Ljava/lang/String;
+	METHOD k method_4633 ()Lcom/corrodinggames/rts/gameFramework/m/e;
+	METHOD toString toString ()Ljava/lang/String;

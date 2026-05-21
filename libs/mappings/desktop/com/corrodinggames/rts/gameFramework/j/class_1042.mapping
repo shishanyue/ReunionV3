@@ -4,3 +4,6 @@ CLASS com/corrodinggames/rts/gameFramework/j/i com/corrodinggames/rts/gameFramew
 	FIELD c field_6233 [B
 	FIELD d field_6234 Lcom/corrodinggames/rts/gameFramework/j/h;
 	METHOD a method_2915 ([B)V
+	METHOD read read ()I
+	METHOD read read ([B)I
+	METHOD read read ([BII)I

@@ -1,0 +1,2 @@
+CLASS android/support/v4/app/ActivityCompat
+	METHOD a method_3982 (Landroid/app/Activity;[Ljava/lang/String;I)V

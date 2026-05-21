@@ -1,1 +1,7 @@
 CLASS com/corrodinggames/rts/gameFramework/m/g com/corrodinggames/rts/gameFramework/j/class_1020
+	FIELD a field_8689 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD b field_8690 I
+	FIELD c field_8691 I
+	FIELD d field_8692 F
+	FIELD e field_8693 F
+	FIELD f field_8694 I

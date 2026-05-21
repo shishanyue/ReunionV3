@@ -4,8 +4,15 @@ CLASS com/corrodinggames/rts/gameFramework/ad com/corrodinggames/rts/gameFramewo
 	FIELD c field_4317 Ljava/util/ArrayList;
 	FIELD d field_4318 Ljava/util/ArrayList;
 	METHOD a method_1807 ()Z
+	METHOD a method_4892 (I)Lcom/corrodinggames/rts/gameFramework/af;
+	METHOD a method_4893 (IIIZ)Lcom/corrodinggames/rts/gameFramework/ad;
 	METHOD a method_1809 (ILjava/lang/String;I)Lcom/corrodinggames/rts/gameFramework/ad;
+	METHOD a method_4894 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/ad;
 	METHOD a method_1811 (Ljava/lang/String;I)Lcom/corrodinggames/rts/gameFramework/ad;
 	METHOD b method_1812 ()Z
+	METHOD b method_4895 (I)Ljava/lang/String;
+	METHOD b method_4896 (IIIZ)Lcom/corrodinggames/rts/gameFramework/ad;
+	METHOD c method_4897 ()Ljava/lang/String;
+	METHOD c method_4898 (I)Lcom/corrodinggames/rts/gameFramework/ad;
 	METHOD d method_1813 ()Z
 	METHOD e method_1814 ()Ljava/lang/String;

@@ -2,6 +2,7 @@ CLASS com/corrodinggames/rts/gameFramework/j/as com/corrodinggames/rts/gameFrame
 	FIELD a field_6114 Ljava/io/DataOutputStream;
 	FIELD b field_6112 Ljava/io/ByteArrayOutputStream;
 	FIELD c field_6113 Ljava/io/DataOutputStream;
+	FIELD d field_8562 I
 	FIELD e field_6116 Ljava/util/LinkedList;
 	METHOD a method_2853 ()V
 	METHOD a method_2875 ([B)V
@@ -14,8 +15,11 @@ CLASS com/corrodinggames/rts/gameFramework/j/as com/corrodinggames/rts/gameFrame
 	METHOD a method_2860 (Lcom/corrodinggames/rts/game/n;)V
 	METHOD a method_2878 (Lcom/corrodinggames/rts/game/units/am;)V
 	METHOD a method_2863 (Lcom/corrodinggames/rts/game/units/as;)V
+	METHOD a method_5467 (Lcom/corrodinggames/rts/game/units/custom/g;)V
 	METHOD a method_2861 (Lcom/corrodinggames/rts/game/units/y;)V
 	METHOD a method_2865 (Lcom/corrodinggames/rts/gameFramework/j/c;)V
+	METHOD a method_5468 (Lcom/corrodinggames/rts/gameFramework/j/k;)V
+	METHOD a method_5469 (Lcom/corrodinggames/rts/gameFramework/utility/m;)V
 	METHOD a method_2864 (Lcom/corrodinggames/rts/gameFramework/w;)V
 	METHOD a method_2866 (Ljava/io/ByteArrayOutputStream;)V
 	METHOD a method_2867 (Ljava/io/File;)V
@@ -40,4 +44,5 @@ CLASS com/corrodinggames/rts/gameFramework/j/as com/corrodinggames/rts/gameFrame
 	METHOD e method_2887 ()V
 	METHOD e method_2886 (Ljava/lang/String;)V
 	METHOD f method_2889 ()Z
+	METHOD g method_5470 ()I
 	METHOD h method_2890 ()V

@@ -1,0 +1,7 @@
+CLASS android/net/http/b android/net/http/class_1368
+	FIELD a field_7566 Ljava/lang/String;
+	FIELD b field_7567 I
+	METHOD a method_3937 ()Z
+	METHOD a method_3938 (Landroid/net/http/b;)Z
+	METHOD a method_3939 (Landroid/net/http/b;Ljava/lang/String;)V
+	METHOD a method_3940 (Ljava/lang/String;)V

@@ -1,2 +1,2 @@
-CLASS com/corrodinggames/rts/gameFramework/k com/corrodinggames/rts/gameFramework/FileChangeEngine
-	FIELD a running Z
+CLASS com/corrodinggames/rts/gameFramework/class_995 com/corrodinggames/rts/gameFramework/FileChangeEngine
+	FIELD field_5842 running Z

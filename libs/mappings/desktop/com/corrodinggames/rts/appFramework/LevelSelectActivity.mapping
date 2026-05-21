@@ -1,6 +1,9 @@
 CLASS com/corrodinggames/rts/appFramework/i com/corrodinggames/rts/appFramework/LevelSelectActivity
+	FIELD c field_7763 Z
+	FIELD d field_7764 Ljava/lang/String;
 	METHOD a isAvailableInDemo (Ljava/lang/String;Ljava/lang/String;)Z
 	METHOD a loadSinglePlayerMapRaw (Ljava/lang/String;ZIIZZ)V
 	METHOD d convertFilePathToFileName (Ljava/lang/String;)Ljava/lang/String;
 	METHOD e convertLevelFileNameForDisplay (Ljava/lang/String;)Ljava/lang/String;
+	METHOD f method_4159 (Ljava/lang/String;)Z
 	METHOD g isMapCustom (Ljava/lang/String;)Z

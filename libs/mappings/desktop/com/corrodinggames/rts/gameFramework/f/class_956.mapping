@@ -4,4 +4,8 @@ CLASS com/corrodinggames/rts/gameFramework/f/d com/corrodinggames/rts/gameFramew
 	FIELD c field_5423 Landroid/graphics/RectF;
 	FIELD d field_5424 Landroid/graphics/RectF;
 	METHOD a method_2478 (Landroid/graphics/Paint;)I
+	METHOD a method_5235 (Lcom/corrodinggames/rts/gameFramework/m/e;FF)F
+	METHOD a method_5236 (Lcom/corrodinggames/rts/gameFramework/m/e;FFFF)F
+	METHOD a method_5237 (Ljava/lang/String;FFLandroid/graphics/Paint;Landroid/graphics/Paint;FFFF)V
+	METHOD a method_5238 (Ljava/lang/String;Landroid/graphics/Rect;Landroid/graphics/Paint;Landroid/graphics/Paint;Z)Ljava/util/ArrayList;
 	METHOD b method_2482 (Landroid/graphics/Paint;)I

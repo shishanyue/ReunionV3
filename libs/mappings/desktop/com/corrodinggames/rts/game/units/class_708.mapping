@@ -16,5 +16,8 @@ CLASS com/corrodinggames/rts/game/units/f com/corrodinggames/rts/game/units/clas
 	FIELD o field_3973 Landroid/graphics/Paint;
 	FIELD p field_3974 Landroid/graphics/Paint;
 	FIELD q field_3975 Z
+	FIELD r field_8109 Landroid/graphics/PointF;
+	METHOD a method_4780 (FF)Z
+	METHOD a method_4781 (FFF)Landroid/graphics/PointF;
 	METHOD d_ method_1697 ()V
 	METHOD f method_1696 ()Lcom/corrodinggames/rts/game/units/f;

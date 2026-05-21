@@ -1,2 +1,8 @@
 CLASS com/corrodinggames/rts/game/units/custom/b com/corrodinggames/rts/game/units/custom/class_492
+	FIELD e field_7986 Lcom/corrodinggames/rts/game/units/custom/z;
+	FIELD f field_7987 F
+	FIELD g field_7988 F
 	FIELD h field_2486 Z
+	METHOD a method_4564 (Lcom/corrodinggames/rts/game/units/custom/j;)V
+	METHOD a method_4565 (Lcom/corrodinggames/rts/game/units/custom/l;Ljava/lang/String;Ljava/lang/String;)V
+	METHOD finalize finalize ()V

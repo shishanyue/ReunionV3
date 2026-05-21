@@ -1,0 +1,47 @@
+CLASS com/corrodinggames/librocket/a com/corrodinggames/librocket/class_1371
+	FIELD a field_7643 Lcom/corrodinggames/librocket/a;
+	FIELD b field_7644 Lcom/corrodinggames/librocket/b;
+	FIELD c field_7645 Lcom/corrodinggames/rts/appFramework/f;
+	FIELD d field_7646 Z
+	FIELD e field_7647 Z
+	METHOD a method_4016 ()Lcom/corrodinggames/librocket/a;
+	METHOD a method_4017 (IC)V
+	METHOD a method_4018 (Lcom/corrodinggames/librocket/b;Lcom/corrodinggames/rts/appFramework/f;)V
+	METHOD a method_4019 (Lcom/corrodinggames/rts/gameFramework/j/ae;)V
+	METHOD a method_4020 (Ljava/lang/String;)V
+	METHOD a method_4021 (Z)V
+	METHOD b method_4022 ()V
+	METHOD b method_4023 (Ljava/lang/String;)Z
+	METHOD b method_4024 (Z)V
+	METHOD c method_4025 ()V
+	METHOD c method_4026 (Z)V
+	METHOD d method_4027 ()V
+	METHOD d method_4028 (Z)V
+	METHOD e method_4029 ()V
+	METHOD f method_4030 ()V
+	METHOD g method_4031 ()V
+	METHOD h method_4032 ()V
+	METHOD i method_4033 ()I
+	METHOD j method_4034 ()Z
+	METHOD k method_4035 ()Ljava/util/LinkedList;
+	METHOD l method_4036 ()V
+	METHOD m method_4037 ()V
+	METHOD n method_4038 ()V
+	METHOD o method_4039 ()V
+	CLASS 1
+		FIELD a field_7648 Lcom/corrodinggames/librocket/a;
+		METHOD run run ()V
+	CLASS 2
+		FIELD a field_7649 Lcom/corrodinggames/rts/gameFramework/utility/k;
+		FIELD b field_7650 Lcom/corrodinggames/librocket/scripts/ScriptEngine;
+		FIELD c field_7651 Lcom/corrodinggames/rts/gameFramework/j/ae;
+		FIELD d field_7652 Lcom/corrodinggames/librocket/a;
+		METHOD run run ()V
+		CLASS 1
+			FIELD a field_7653 Lcom/corrodinggames/librocket/scripts/Root;
+			FIELD b field_7654 Lcom/corrodinggames/librocket/a$2;
+			METHOD run run ()V
+		CLASS 2
+			FIELD a field_7655 Lcom/corrodinggames/librocket/scripts/Root;
+			FIELD b field_7656 Lcom/corrodinggames/librocket/a$2;
+			METHOD run run ()V

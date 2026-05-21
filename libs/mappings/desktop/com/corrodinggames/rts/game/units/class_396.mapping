@@ -3,9 +3,15 @@ CLASS com/corrodinggames/rts/game/units/p com/corrodinggames/rts/game/units/clas
 	FIELD b field_1682 I
 	FIELD c field_1683 I
 	FIELD d field_1684 Lcom/corrodinggames/rts/game/b/g;
+	METHOD a method_4823 ()V
 	METHOD a method_668 ([ILcom/corrodinggames/rts/game/units/s;)V
+	METHOD a method_4824 (I)[I
 	METHOD a method_662 (I[I)[I
 	METHOD a method_663 (Lcom/corrodinggames/rts/game/b/g;)Lcom/corrodinggames/rts/game/units/r;
 	METHOD a method_665 (Lcom/corrodinggames/rts/game/units/r;Landroid/graphics/PointF;)V
 	METHOD a method_664 (Lcom/corrodinggames/rts/game/units/r;Lcom/corrodinggames/rts/game/b/g;II)Z
+	METHOD a method_4825 (Lcom/corrodinggames/rts/game/units/r;Lcom/corrodinggames/rts/game/b/g;IIIILjava/lang/String;)Z
 	METHOD a method_667 (Lcom/corrodinggames/rts/game/units/r;Lcom/corrodinggames/rts/game/b/g;IILjava/util/ArrayList;)V
+	METHOD a method_4826 (Lcom/corrodinggames/rts/game/units/r;Lcom/corrodinggames/rts/game/b/g;Lcom/corrodinggames/rts/game/b/g;II)V
+	METHOD b method_4827 (Lcom/corrodinggames/rts/game/units/r;Lcom/corrodinggames/rts/game/b/g;II)B
+	CLASS 1

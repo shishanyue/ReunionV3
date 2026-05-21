@@ -4,4 +4,6 @@ CLASS com/corrodinggames/rts/gameFramework/j/at com/corrodinggames/rts/gameFrame
 	FIELD c field_6119 Ljava/lang/String;
 	FIELD d field_6120 Ljava/io/ByteArrayOutputStream;
 	FIELD e field_6121 Ljava/io/DataOutputStream;
+	FIELD f field_8563 Z
 	METHOD a method_2891 ()V
+	METHOD b method_5471 ()V

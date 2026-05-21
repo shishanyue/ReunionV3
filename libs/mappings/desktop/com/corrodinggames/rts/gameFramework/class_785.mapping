@@ -1,1 +1,6 @@
 CLASS com/corrodinggames/rts/gameFramework/ai com/corrodinggames/rts/gameFramework/class_785
+	METHOD a method_4901 ()I
+	METHOD a method_4902 (II)Z
+	METHOD a method_4903 (IIZ)Z
+	METHOD b method_4904 (II)F
+	METHOD c method_4905 (II)Ljava/lang/String;

@@ -1,5 +1,6 @@
 CLASS com/corrodinggames/rts/gameFramework/f/a/l com/corrodinggames/rts/gameFramework/f/a/class_921
 	FIELD A field_5277 Landroid/graphics/PointF;
+	FIELD B field_8417 Lcom/corrodinggames/rts/gameFramework/f/a/k;
 	FIELD e field_5279 Landroid/graphics/PointF;
 	FIELD f field_5280 Landroid/graphics/RectF;
 	FIELD g field_5281 F
@@ -10,6 +11,10 @@ CLASS com/corrodinggames/rts/gameFramework/f/a/l com/corrodinggames/rts/gameFram
 	FIELD l field_5286 F
 	FIELD m field_5287 F
 	FIELD n field_5288 F
+	FIELD o field_8418 F
+	FIELD p field_8419 F
+	FIELD q field_8420 F
+	FIELD r field_8421 F
 	FIELD s field_5293 Z
 	FIELD t field_5294 Z
 	FIELD u field_5295 Z
@@ -20,9 +25,27 @@ CLASS com/corrodinggames/rts/gameFramework/f/a/l com/corrodinggames/rts/gameFram
 	FIELD z field_5300 F
 	METHOD a method_2406 ()Ljava/lang/String;
 	METHOD a method_2408 (FF)V
+	METHOD a method_5198 (FFLcom/corrodinggames/rts/gameFramework/utility/m;)V
+	METHOD a method_5199 (Landroid/graphics/PointF;)V
+	METHOD a method_5200 (Landroid/graphics/RectF;)Landroid/graphics/RectF;
 	METHOD a method_2411 (Landroid/graphics/RectF;FF)Landroid/graphics/RectF;
+	METHOD a method_5201 (Lcom/corrodinggames/rts/gameFramework/f/a/c;)Z
+	METHOD a method_5202 (Lcom/corrodinggames/rts/gameFramework/f/a/k;)V
+	METHOD a method_5203 (Lcom/corrodinggames/rts/gameFramework/f/a/l;)V
+	METHOD a method_5204 (Lcom/corrodinggames/rts/gameFramework/f/a/l;Z)V
 	METHOD b method_2414 ()V
 	METHOD b method_2407 (F)V
+	METHOD b method_5205 (FFLcom/corrodinggames/rts/gameFramework/utility/m;)V
+	METHOD b method_5206 (Lcom/corrodinggames/rts/gameFramework/f/a/c;)Z
+	METHOD b method_5207 (Lcom/corrodinggames/rts/gameFramework/f/a/l;)V
 	METHOD c method_2415 (F)V
 	METHOD c method_2416 (Lcom/corrodinggames/rts/gameFramework/f/a/c;)Z
+	METHOD d method_5208 ()Lcom/corrodinggames/rts/gameFramework/m/y;
 	METHOD d method_2418 (F)V
+	METHOD e method_5209 ()V
+	METHOD e method_5210 (F)V
+	METHOD f method_5211 ()V
+	METHOD f method_5212 (F)V
+	METHOD g method_5213 ()F
+	METHOD h method_5214 ()F
+	METHOD i method_5215 ()V

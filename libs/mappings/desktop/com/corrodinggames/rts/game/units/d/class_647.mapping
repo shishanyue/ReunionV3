@@ -1,6 +1,7 @@
 CLASS com/corrodinggames/rts/game/units/d/q com/corrodinggames/rts/game/units/d/class_647
 	FIELD a field_3804 [Lcom/corrodinggames/rts/gameFramework/m/e;
 	FIELD b field_3805 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD c field_8103 I
 	FIELD d field_3807 Lcom/corrodinggames/rts/gameFramework/m/e;
 	FIELD e field_3808 [Lcom/corrodinggames/rts/gameFramework/m/e;
 	FIELD f field_3809 Landroid/graphics/PointF;
@@ -8,7 +9,9 @@ CLASS com/corrodinggames/rts/game/units/d/q com/corrodinggames/rts/game/units/d/
 	FIELD h field_3811 Lcom/corrodinggames/rts/game/units/a/s;
 	FIELD i field_3812 Lcom/corrodinggames/rts/game/units/a/s;
 	FIELD j field_3813 Ljava/util/ArrayList;
+	METHOD a method_4747 (FF)V
 	METHOD a method_1620 (Lcom/corrodinggames/rts/game/units/am;FFFF)Lcom/corrodinggames/rts/game/f;
 	METHOD b method_1621 ()V
+	METHOD M method_4746 ()V
 	CLASS 1 class_648
 	CLASS 2 class_616

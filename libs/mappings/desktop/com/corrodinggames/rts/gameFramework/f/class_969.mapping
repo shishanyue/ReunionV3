@@ -61,18 +61,26 @@ CLASS com/corrodinggames/rts/gameFramework/f/o com/corrodinggames/rts/gameFramew
 	METHOD a method_2614 ()V
 	METHOD a method_2599 (F)V
 	METHOD a method_2611 (FF)V
+	METHOD a method_5295 (I)I
+	METHOD a method_5296 (IIFLcom/corrodinggames/rts/game/units/am;)V
+	METHOD a method_5297 (IILcom/corrodinggames/rts/gameFramework/f/r;)V
 	METHOD a method_2602 (ILandroid/graphics/Paint;)Lcom/corrodinggames/rts/gameFramework/f/s;
+	METHOD a method_5298 (Landroid/content/Context;)V
 	METHOD a method_2605 (Lcom/corrodinggames/rts/game/b/b;Z)V
 	METHOD a method_2603 (Lcom/corrodinggames/rts/game/units/am;)V
 	METHOD a method_2604 (Lcom/corrodinggames/rts/gameFramework/f/s;)V
+	METHOD a method_5299 (Lcom/corrodinggames/rts/gameFramework/m/y;IIFF)V
 	METHOD b method_2606 ()I
+	METHOD b method_5300 (F)F
 	METHOD b method_2600 (FF)Landroid/graphics/Point;
 	METHOD c method_2615 ()V
 	METHOD c method_2610 (F)F
 	METHOD c method_2608 (FF)Landroid/graphics/Point;
+	METHOD d method_5301 ()F
 	METHOD d method_2613 (F)F
 	METHOD e method_2609 ()V
 	METHOD e method_2607 (F)V
+	METHOD f method_5302 ()V
 	METHOD g method_2617 ()V
 	METHOD h method_2618 ()V
 	CLASS 1 class_970

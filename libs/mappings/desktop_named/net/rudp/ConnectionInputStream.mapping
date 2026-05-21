@@ -1,6 +1,5 @@
-CLASS a/a/o net/rudp/ConnectionInputStream
-	FIELD a connection La/a/h;
-	FIELD b readBuffer [B
-	FIELD c readOffset I
-	FIELD d bufferedBytes I
-	METHOD a fillReceiveBuffer ()I
+CLASS a/a/class_1362 net/rudp/ConnectionInputStream
+	FIELD field_7446 readBuffer [B
+	FIELD field_7447 readOffset I
+	FIELD field_7448 bufferedBytes I
+	METHOD method_3806 fillReceiveBuffer ()I

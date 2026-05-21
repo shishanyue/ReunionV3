@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/java/b com/corrodinggames/rts/java/class_1445
+	FIELD a field_8937 Z
+	FIELD b field_8938 Ljava/lang/Object;
+	FIELD c field_8939 Lcom/corrodinggames/rts/java/c;
+	METHOD a method_5971 ()Lorg/newdawn/slick/Graphics;
+	METHOD a method_5972 (Lorg/newdawn/slick/Graphics;)V
+	METHOD destroy destroy ()V
+	METHOD gameLoop gameLoop ()V
+	METHOD updateAndRender updateAndRender (I)V

@@ -23,13 +23,17 @@ CLASS com/corrodinggames/rts/gameFramework/f com/corrodinggames/rts/gameFramewor
 	METHOD a method_2237 ()V
 	METHOD a method_2300 ([B)Ljava/lang/String;
 	METHOD a method_2279 ([B[B)V
+	METHOD a method_5128 (D)D
 	METHOD a method_2239 (DD)D
+	METHOD a method_5129 (DI)Ljava/lang/String;
 	METHOD a method_2241 (F)F
 	METHOD a method_2242 (FF)F
 	METHOD a method_2243 (FFF)F
 	METHOD a method_2244 (FFFF)F
+	METHOD a method_5130 (FFFLandroid/graphics/PointF;)V
 	METHOD a method_2245 (FFI)F
 	METHOD a method_2246 (FI)Ljava/lang/String;
+	METHOD a method_5131 (FZ)F
 	METHOD a method_2248 (I)I
 	METHOD a method_2249 (II)I
 	METHOD a method_2250 (IIF)I
@@ -38,16 +42,25 @@ CLASS com/corrodinggames/rts/gameFramework/f com/corrodinggames/rts/gameFramewor
 	METHOD a method_2253 (J)Ljava/lang/String;
 	METHOD a method_2254 (JJ)J
 	METHOD a method_2256 (Landroid/graphics/PointF;Landroid/graphics/PointF;Landroid/graphics/PointF;Landroid/graphics/PointF;)Z
+	METHOD a method_5132 (Landroid/graphics/Rect;)V
+	METHOD a method_5133 (Landroid/graphics/Rect;F)V
+	METHOD a method_5134 (Landroid/graphics/Rect;Landroid/graphics/RectF;)Z
+	METHOD a method_5135 (Landroid/graphics/RectF;)V
+	METHOD a method_5136 (Landroid/graphics/RectF;F)V
 	METHOD a method_2262 (Landroid/graphics/RectF;Landroid/graphics/RectF;)Z
 	METHOD a method_2263 (Lcom/corrodinggames/rts/game/units/am;FFI)F
 	METHOD a method_2264 (Lcom/corrodinggames/rts/game/units/am;II)I
 	METHOD a method_2265 (Lcom/corrodinggames/rts/gameFramework/w;III)I
+	METHOD a method_5137 (Ljava/io/File;)Ljava/lang/String;
 	METHOD a method_2266 (Ljava/io/InputStream;)Ljava/lang/String;
 	METHOD a method_2267 (Ljava/io/InputStream;Ljava/io/OutputStream;)V
 	METHOD a method_2268 (Ljava/lang/CharSequence;Ljava/lang/Iterable;)Ljava/lang/String;
 	METHOD a method_2269 (Ljava/lang/Class;I)Ljava/lang/String;
+	METHOD a method_5138 (Ljava/lang/Exception;)Ljava/lang/String;
 	METHOD a method_2271 (Ljava/lang/Exception;Z)Ljava/lang/String;
+	METHOD a method_5139 (Ljava/lang/Integer;Ljava/lang/Integer;)Z
 	METHOD a method_2272 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a method_5140 (Ljava/lang/String;C)I
 	METHOD a method_2274 (Ljava/lang/String;I)Ljava/lang/String;
 	METHOD a method_2319 (Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
 	METHOD a method_2275 (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -55,16 +68,22 @@ CLASS com/corrodinggames/rts/gameFramework/f com/corrodinggames/rts/gameFramewor
 	METHOD a method_2277 (Z)Ljava/lang/String;
 	METHOD b method_2312 ()Ljava/lang/String;
 	METHOD b method_2278 ([B)Ljava/lang/String;
+	METHOD b method_5141 (D)Ljava/lang/String;
 	METHOD b method_2282 (DD)Z
 	METHOD b method_2283 (DI)Ljava/lang/String;
+	METHOD b method_5142 (F)F
 	METHOD b method_2285 (FF)F
 	METHOD b method_2286 (FFF)F
 	METHOD b method_2287 (FFFF)F
 	METHOD b method_2288 (FFI)F
+	METHOD b method_5143 (I)I
 	METHOD b method_2290 (II)I
 	METHOD b method_2291 (III)I
 	METHOD b method_2292 (IIII)I
+	METHOD b method_5144 (J)[I
+	METHOD b method_5145 (Landroid/graphics/Rect;F)V
 	METHOD b method_2294 (Lcom/corrodinggames/rts/game/units/am;FFI)F
+	METHOD b method_5146 (Ljava/io/InputStream;)Ljava/lang/String;
 	METHOD b method_2270 (Ljava/lang/Exception;)Ljava/lang/String;
 	METHOD b method_2296 (Ljava/lang/String;)Ljava/lang/String;
 	METHOD b method_2273 (Ljava/lang/String;C)Z
@@ -72,6 +91,7 @@ CLASS com/corrodinggames/rts/gameFramework/f com/corrodinggames/rts/gameFramewor
 	METHOD b method_2299 (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 	METHOD c method_2320 ()I
 	METHOD c method_2311 ([B)[B
+	METHOD c method_5147 (D)Ljava/lang/String;
 	METHOD c method_2313 (F)F
 	METHOD c method_2303 (FF)F
 	METHOD c method_2304 (FFF)F
@@ -82,25 +102,32 @@ CLASS com/corrodinggames/rts/gameFramework/f com/corrodinggames/rts/gameFramewor
 	METHOD c method_2297 (Ljava/lang/String;C)[Ljava/lang/String;
 	METHOD c method_2325 (Ljava/lang/String;I)Ljava/lang/String;
 	METHOD c method_2310 (Ljava/lang/String;Ljava/lang/String;)Z
+	METHOD d method_5148 (F)F
 	METHOD d method_2314 (FF)F
 	METHOD d method_2315 (FFF)Landroid/graphics/PointF;
 	METHOD d method_2316 (FFFF)F
 	METHOD d method_2306 (I)I
 	METHOD d method_2318 (Ljava/lang/String;)Ljava/lang/String;
 	METHOD d method_2309 (Ljava/lang/String;I)Ljava/lang/String;
+	METHOD d method_5149 (Ljava/lang/String;Ljava/lang/String;)Z
 	METHOD e method_2321 (F)F
+	METHOD e method_5150 (FF)F
 	METHOD e method_2330 (FFF)Z
+	METHOD e method_5151 (I)Ljava/lang/String;
 	METHOD e method_2328 (Ljava/lang/String;)Ljava/lang/String;
 	METHOD e method_2331 (Ljava/lang/String;I)Ljava/lang/String;
 	METHOD f method_2326 (F)I
 	METHOD f method_2322 (FF)F
 	METHOD f method_2323 (FFF)F
+	METHOD f method_5152 (I)Ljava/lang/String;
 	METHOD f method_2354 (Ljava/lang/String;)[B
+	METHOD f method_5153 (Ljava/lang/String;I)Ljava/lang/String;
 	METHOD g method_2329 (F)Ljava/lang/String;
 	METHOD g method_2327 (FF)F
 	METHOD g method_2317 (I)Ljava/lang/String;
 	METHOD g method_2337 (Ljava/lang/String;)Ljava/lang/String;
 	METHOD h method_2332 (F)Ljava/lang/String;
+	METHOD h method_5154 (FF)Z
 	METHOD h method_2324 (I)Ljava/lang/String;
 	METHOD h method_2340 (Ljava/lang/String;)Ljava/lang/String;
 	METHOD i method_2335 (F)F
@@ -115,8 +142,10 @@ CLASS com/corrodinggames/rts/gameFramework/f com/corrodinggames/rts/gameFramewor
 	METHOD l method_2346 (Ljava/lang/String;)Ljava/lang/Integer;
 	METHOD m method_2347 (Ljava/lang/String;)Ljava/lang/Long;
 	METHOD n method_2349 (Ljava/lang/String;)Z
+	METHOD o method_5155 (Ljava/lang/String;)Ljava/lang/String;
 	METHOD p method_2350 (Ljava/lang/String;)Ljava/lang/String;
 	METHOD q method_2351 (Ljava/lang/String;)Ljava/lang/String;
 	METHOD r method_2352 (Ljava/lang/String;)Z
 	METHOD s method_2353 (Ljava/lang/String;)Z
 	CLASS a class_979
+		METHOD accept accept (Ljava/io/File;)Z

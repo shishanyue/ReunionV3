@@ -1,1 +1,4 @@
 CLASS com/corrodinggames/rts/gameFramework/b/ak com/corrodinggames/rts/gameFramework/b/class_820
+	FIELD a field_8245 Lcom/corrodinggames/rts/gameFramework/b/o;
+	FIELD b field_8246 Lcom/corrodinggames/rts/gameFramework/b/o;
+	FIELD c field_8247 Lcom/corrodinggames/rts/gameFramework/b/s;

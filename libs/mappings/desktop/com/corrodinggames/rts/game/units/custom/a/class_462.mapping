@@ -91,3 +91,4 @@ CLASS com/corrodinggames/rts/game/units/custom/a/d com/corrodinggames/rts/game/u
 	FIELD Y field_2291 Z
 	FIELD z field_2358 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
 	FIELD Z field_2292 Z
+	METHOD a method_4543 ()Ljava/lang/String;

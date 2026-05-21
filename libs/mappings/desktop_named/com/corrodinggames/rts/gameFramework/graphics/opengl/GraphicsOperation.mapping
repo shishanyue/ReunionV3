@@ -1,4 +1,4 @@
-CLASS com/corrodinggames/rts/gameFramework/m/p com/corrodinggames/rts/gameFramework/graphics/opengl/GraphicsOperation
+CLASS com/corrodinggames/rts/gameFramework/m/class_1243 com/corrodinggames/rts/gameFramework/graphics/opengl/GraphicsOperation
 	CLASS 1 AnonymousClass1
 	CLASS 2 AnonymousClass2
 	CLASS 3 AnonymousClass3

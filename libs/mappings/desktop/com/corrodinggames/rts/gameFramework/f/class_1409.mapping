@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/gameFramework/f/z com/corrodinggames/rts/gameFramework/f/class_1409
+	FIELD a field_8524 Lcom/corrodinggames/rts/gameFramework/f/z;
+	FIELD b field_8525 Lcom/corrodinggames/rts/gameFramework/f/z;
+	FIELD c field_8526 [Lcom/corrodinggames/rts/gameFramework/f/z;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/f/z;
+	METHOD values values ()[Lcom/corrodinggames/rts/gameFramework/f/z;

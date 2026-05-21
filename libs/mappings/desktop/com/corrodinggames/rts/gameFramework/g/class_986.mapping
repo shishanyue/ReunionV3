@@ -7,3 +7,5 @@ CLASS com/corrodinggames/rts/gameFramework/g/f com/corrodinggames/rts/gameFramew
 	FIELD f field_5766 Lcom/corrodinggames/rts/gameFramework/g/f;
 	FIELD g field_5767 [Lcom/corrodinggames/rts/gameFramework/g/f;
 	METHOD a method_2630 (Lcom/corrodinggames/rts/game/n;)I
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/g/f;
+	METHOD values values ()[Lcom/corrodinggames/rts/gameFramework/g/f;

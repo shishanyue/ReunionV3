@@ -1,10 +1,3 @@
-CLASS com/corrodinggames/rts/game/units/d/t com/corrodinggames/rts/game/units/buildings/SeaFactory
-	FIELD a baseFactoryTexture Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD b tier2FactoryTexture Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD c shadowTexture Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD d baseFactoryTeamTextures [Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD e tier2FactoryTeamTextures [Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD f deadFactoryTexture Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD g upgradeActionId Lcom/corrodinggames/rts/game/units/a/c;
-	METHOD a addAvailableActions (Ljava/util/ArrayList;I)V
-	METHOD b loadTextures ()V
+CLASS com/corrodinggames/rts/game/units/d/class_619 com/corrodinggames/rts/game/units/buildings/SeaFactory
+	METHOD method_1558 loadTextures ()V
+	METHOD method_1559 addAvailableActions (Ljava/util/ArrayList;I)V

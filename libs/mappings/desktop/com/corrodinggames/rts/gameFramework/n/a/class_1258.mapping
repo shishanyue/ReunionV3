@@ -1,3 +1,19 @@
 CLASS com/corrodinggames/rts/gameFramework/n/a/c com/corrodinggames/rts/gameFramework/n/a/class_1258
 	FIELD a field_7045 Ljava/lang/Integer;
+	FIELD b field_8716 Ljava/lang/Integer;
+	FIELD c field_8717 Lcom/corrodinggames/rts/game/n;
+	FIELD d field_8718 Lcom/corrodinggames/rts/game/units/as;
+	FIELD e field_8719 Z
+	FIELD f field_8720 Z
+	FIELD g field_8721 Z
+	FIELD h field_8722 Z
+	FIELD i field_8723 Z
+	FIELD j field_8724 Z
+	FIELD k field_8725 I
+	FIELD l field_8726 Z
+	FIELD m field_8727 Z
+	FIELD n field_8728 Z
+	FIELD o field_8729 Lcom/corrodinggames/rts/game/units/custom/g;
+	FIELD p field_8730 Z
 	METHOD d method_3433 (Lcom/corrodinggames/rts/gameFramework/n/a;)Lcom/corrodinggames/rts/gameFramework/n/a/c;
+	METHOD e method_5724 (Lcom/corrodinggames/rts/gameFramework/n/a;)Z

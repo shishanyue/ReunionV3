@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/appFramework/o com/corrodinggames/rts/appFramework/class_1398
+	FIELD a field_7818 Ljava/lang/String;
+	FIELD b field_7819 I
+	FIELD c field_7820 I
+	FIELD d field_7821 Lcom/corrodinggames/rts/game/n;
+	FIELD e field_7822 Lcom/corrodinggames/rts/game/n;
+	FIELD f field_7823 I
+	FIELD g field_7824 I
+	METHOD a method_4175 ()Z
+	METHOD a method_4176 (Lcom/corrodinggames/rts/game/n;I)V

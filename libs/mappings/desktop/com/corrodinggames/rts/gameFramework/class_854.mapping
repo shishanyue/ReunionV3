@@ -1,6 +1,7 @@
 CLASS com/corrodinggames/rts/gameFramework/as com/corrodinggames/rts/gameFramework/class_854
 	METHOD a method_2000 ()V
 	METHOD a method_2001 (F)V
+	METHOD a method_4922 (FF)V
 	METHOD a method_2002 (Lcom/corrodinggames/rts/gameFramework/ar;)V
 	METHOD a method_2003 (Z)V
 	METHOD b method_2004 ()V

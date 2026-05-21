@@ -1,2 +1,2 @@
-CLASS com/corrodinggames/rts/gameFramework/ba com/corrodinggames/rts/gameFramework/ReplayEngine
-	METHOD a update (F)V
+CLASS com/corrodinggames/rts/gameFramework/class_862 com/corrodinggames/rts/gameFramework/ReplayEngine
+	METHOD method_5025 update (F)V

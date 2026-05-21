@@ -8,6 +8,7 @@ CLASS com/corrodinggames/rts/gameFramework/k/i com/corrodinggames/rts/gameFramew
 	FIELD g field_6530 [S
 	FIELD h field_6531 Ljava/util/HashMap;
 	FIELD i field_6532 I
+	FIELD j field_8606 [B
 	FIELD k field_6534 I
 	FIELD l field_6535 I
 	FIELD m field_6536 Z
@@ -15,11 +16,16 @@ CLASS com/corrodinggames/rts/gameFramework/k/i com/corrodinggames/rts/gameFramew
 	FIELD o field_6538 Z
 	FIELD p field_6539 I
 	FIELD q field_6540 Lcom/corrodinggames/rts/gameFramework/k/l;
+	METHOD a method_5545 ()V
 	METHOD a method_3105 (Lcom/corrodinggames/rts/game/b/b;)I
+	METHOD a method_5546 (Lcom/corrodinggames/rts/game/b/b;SS)B
 	METHOD a method_3106 (Lcom/corrodinggames/rts/game/b/b;SS[B)V
 	METHOD a method_3107 (Lcom/corrodinggames/rts/game/units/y;)V
 	METHOD a method_3108 (SSS)I
 	METHOD a method_3109 (Z)V
 	METHOD b method_3104 ()V
+	METHOD b method_5547 (Lcom/corrodinggames/rts/game/units/y;)V
+	METHOD c method_5548 ()Z
 	METHOD c method_3111 (Lcom/corrodinggames/rts/game/units/y;)V
+	METHOD d method_5549 ()V
 	METHOD e method_3110 ()V

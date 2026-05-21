@@ -1,0 +1,25 @@
+CLASS a/a/r a/a/class_1365
+	FIELD a field_7452 La/a/r;
+	FIELD b field_7453 I
+	FIELD c field_7454 I
+	FIELD d field_7455 I
+	FIELD e field_7456 I
+	FIELD f field_7457 I
+	FIELD g field_7458 I
+	FIELD h field_7459 I
+	FIELD i field_7460 I
+	FIELD j field_7461 I
+	FIELD k field_7462 I
+	FIELD l field_7463 I
+	METHOD a method_3811 ()I
+	METHOD a method_3812 (IIIIIIIIIII)V
+	METHOD a method_3813 (Ljava/lang/String;III)V
+	METHOD b method_3814 ()I
+	METHOD c method_3815 ()I
+	METHOD d method_3816 ()I
+	METHOD e method_3817 ()I
+	METHOD f method_3818 ()I
+	METHOD g method_3819 ()I
+	METHOD h method_3820 ()I
+	METHOD i method_3821 ()I
+	METHOD toString toString ()Ljava/lang/String;

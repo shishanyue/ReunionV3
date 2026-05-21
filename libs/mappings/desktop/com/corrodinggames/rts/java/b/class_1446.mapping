@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/java/b/a com/corrodinggames/rts/java/b/class_1446
+	FIELD f field_8940 Lcom/corrodinggames/rts/java/Main;
+	FIELD g field_8941 Z
+	METHOD p method_5973 ()Lcom/corrodinggames/rts/java/b/a;

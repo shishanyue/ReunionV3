@@ -1,1 +1,4 @@
 CLASS com/corrodinggames/rts/gameFramework/k/j com/corrodinggames/rts/gameFramework/k/class_1070
+	METHOD a method_5550 ()Lcom/corrodinggames/rts/gameFramework/k/n;
+	METHOD a method_5551 (Lcom/corrodinggames/rts/gameFramework/k/n;)V
+	METHOD b method_5552 ()V

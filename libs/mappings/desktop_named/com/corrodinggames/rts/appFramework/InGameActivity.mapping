@@ -1,11 +1,10 @@
-CLASS com/corrodinggames/rts/appFramework/g com/corrodinggames/rts/appFramework/InGameActivity
-	FIELD c gameView Lcom/corrodinggames/rts/appFramework/f;
-	FIELD d handler Landroid/os/Handler;
-	FIELD e progressDialog Landroid/app/ProgressDialog;
-	FIELD f running Z
-	METHOD a showChatDialog (Z)V
-	METHOD c selectMenuOption (I)V
-	METHOD d onSelectMenuOption (I)V
-	METHOD e showSaveGameDialog (Ljava/lang/String;)V
-	METHOD f showExportMapDialog (Ljava/lang/String;)V
-	METHOD n closeAndRestart ()V
+CLASS com/corrodinggames/rts/appFramework/InGameActivity
+	FIELD field_7739 handler Landroid/os/Handler;
+	FIELD field_7740 progressDialog Landroid/app/ProgressDialog;
+	FIELD field_7741 running Z
+	METHOD makeExportMapPopup showSaveGameDialog (Ljava/lang/String;)V
+	METHOD makeSaveGamePopup showExportMapDialog (Ljava/lang/String;)V
+	METHOD makeSendMessagePopup showChatDialog (Z)V
+	METHOD method_4157 selectMenuOption (I)V
+	METHOD method_4158 onSelectMenuOption (I)V
+	METHOD openMarketLinkInternal closeAndRestart ()V

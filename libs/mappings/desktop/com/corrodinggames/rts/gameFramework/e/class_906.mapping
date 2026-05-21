@@ -1,2 +1,3 @@
 CLASS com/corrodinggames/rts/gameFramework/e/h com/corrodinggames/rts/gameFramework/e/class_906
 	FIELD a field_5130 Ljava/io/InputStream;
+	METHOD a method_5127 ()V

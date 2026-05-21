@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/java/audio/a/h com/corrodinggames/rts/java/audio/a/class_1432
+	FIELD a field_8885 Z
+	FIELD b field_8886 Lcom/corrodinggames/rts/java/audio/a/e;
+	FIELD c field_8887 I
+	FIELD d field_8888 I
+	FIELD e field_8889 Z
+	METHOD b method_5921 ()V
+	METHOD c method_5922 ()V
+	METHOD remove remove ()V

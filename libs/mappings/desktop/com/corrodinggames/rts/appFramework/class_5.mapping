@@ -1,1 +1,20 @@
 CLASS com/corrodinggames/rts/appFramework/f com/corrodinggames/rts/appFramework/class_5
+	METHOD a method_4135 ()V
+	METHOD a method_4136 (FI)V
+	METHOD a method_4137 (Lcom/corrodinggames/rts/gameFramework/m/l;Z)V
+	METHOD a method_4138 (Z)V
+	METHOD b method_4139 ()Z
+	METHOD b method_4140 (FI)V
+	METHOD b method_4141 (Z)Lcom/corrodinggames/rts/gameFramework/m/l;
+	METHOD c method_4142 ()Z
+	METHOD d method_4143 ()Lcom/corrodinggames/rts/gameFramework/m/a;
+	METHOD e method_4144 ()Z
+	METHOD f method_4145 ()Z
+	METHOD g method_4146 ()Ljava/lang/Object;
+	METHOD h method_4147 ()V
+	METHOD i method_4148 ()Lcom/corrodinggames/rts/appFramework/g;
+	METHOD j method_4149 ()V
+	METHOD k method_4150 ()Lcom/corrodinggames/rts/appFramework/m;
+	METHOD l method_4151 ()V
+	METHOD m method_4152 ()V
+	METHOD n method_4153 ()Z

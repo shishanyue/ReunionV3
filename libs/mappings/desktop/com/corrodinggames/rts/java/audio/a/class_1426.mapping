@@ -1,0 +1,14 @@
+CLASS com/corrodinggames/rts/java/audio/a/b com/corrodinggames/rts/java/audio/a/class_1426
+	FIELD a field_8861 [F
+	FIELD b field_8862 I
+	FIELD c field_8863 Z
+	METHOD a method_5893 ()F
+	METHOD a method_5894 (F)V
+	METHOD a method_5895 (I)[F
+	METHOD a method_5896 (IF)V
+	METHOD b method_5897 ()F
+	METHOD b method_5898 (IF)V
+	METHOD c method_5899 ()V
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,11 +1,10 @@
-CLASS com/corrodinggames/rts/gameFramework/d/b com/corrodinggames/rts/gameFramework/effect/CloudRenderer
-	FIELD a isInitialized Z
-	FIELD b noiseTexture Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD c paint Landroid/graphics/Paint;
-	FIELD d drawRect Landroid/graphics/RectF;
-	FIELD e scrollX F
-	FIELD f scrollY F
-	METHOD a shouldRender ()Z
-	METHOD a update (F)V
-	METHOD b initialize ()V
-	METHOD b draw (F)V
+CLASS com/corrodinggames/rts/gameFramework/d/class_891 com/corrodinggames/rts/gameFramework/effect/CloudRenderer
+	FIELD field_4920 isInitialized Z
+	FIELD field_4922 paint Landroid/graphics/Paint;
+	FIELD field_4923 drawRect Landroid/graphics/RectF;
+	FIELD field_4924 scrollX F
+	FIELD field_4925 scrollY F
+	METHOD method_2086 shouldRender ()Z
+	METHOD method_2087 initialize ()V
+	METHOD method_5084 update (F)V
+	METHOD method_5085 draw (F)V

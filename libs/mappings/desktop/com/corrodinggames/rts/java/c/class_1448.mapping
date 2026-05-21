@@ -1,0 +1,12 @@
+CLASS com/corrodinggames/rts/java/c/a com/corrodinggames/rts/java/c/class_1448
+	FIELD a field_8943 Lcom/corrodinggames/rts/java/c/b;
+	FIELD b field_8944 Ljava/lang/String;
+	FIELD c field_8945 Lcom/codedisaster/steamworks/SteamID;
+	FIELD d field_8946 Lcom/codedisaster/steamworks/SteamID;
+	FIELD e field_8947 J
+	FIELD f field_8948 Ljava/lang/Thread;
+	METHOD a method_5974 ()V
+	METHOD run run ()V
+	CLASS 1
+		FIELD a field_8949 Lcom/corrodinggames/rts/java/c/a;
+		METHOD run run ()V

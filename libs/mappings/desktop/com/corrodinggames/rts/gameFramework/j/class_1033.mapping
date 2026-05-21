@@ -2,3 +2,4 @@ CLASS com/corrodinggames/rts/gameFramework/j/av com/corrodinggames/rts/gameFrame
 	FIELD a field_6128 Z
 	FIELD b field_6129 J
 	FIELD c field_6130 Lcom/corrodinggames/rts/gameFramework/j/ad;
+	METHOD run run ()V

@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/java/audio/a/k com/corrodinggames/rts/java/audio/a/class_1435
+	FIELD a field_8906 J
+	FIELD b field_8907 Ljava/lang/Object;
+	METHOD toString toString ()Ljava/lang/String;

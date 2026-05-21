@@ -1,9 +1,9 @@
-CLASS com/corrodinggames/rts/gameFramework/f/l com/corrodinggames/rts/gameFramework/ui/LeaderboardRow
-	FIELD a labelPaint Landroid/graphics/Paint;
-	FIELD b label Ljava/lang/String;
-	FIELD c teamId I
-	FIELD d labelWidth F
-	FIELD e valuePaint Landroid/graphics/Paint;
-	FIELD f value Ljava/lang/String;
-	FIELD g color I
-	FIELD h valueWidth F
+CLASS com/corrodinggames/rts/gameFramework/f/class_966 com/corrodinggames/rts/gameFramework/ui/LeaderboardRow
+	FIELD field_5633 labelPaint Landroid/graphics/Paint;
+	FIELD field_5634 label Ljava/lang/String;
+	FIELD field_5636 labelWidth F
+	FIELD field_5637 valuePaint Landroid/graphics/Paint;
+	FIELD field_5638 value Ljava/lang/String;
+	FIELD field_5640 valueWidth F
+	FIELD field_8499 teamId I
+	FIELD field_8500 color I

@@ -1,4 +1,11 @@
 CLASS com/corrodinggames/rts/gameFramework/aq com/corrodinggames/rts/gameFramework/class_852
+	FIELD e field_8162 Lcom/corrodinggames/rts/gameFramework/am;
 	METHOD a method_1997 ()Lcom/corrodinggames/rts/gameFramework/as;
+	METHOD a method_4916 (F)V
+	METHOD a method_4917 (I)V
 	METHOD a method_1998 (Lcom/corrodinggames/rts/gameFramework/am;)V
 	METHOD a method_1999 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/ar;
+	METHOD b method_4918 ()V
+	METHOD c method_4919 ()Z
+	METHOD d method_4920 ()Z
+	METHOD e method_4921 ()I

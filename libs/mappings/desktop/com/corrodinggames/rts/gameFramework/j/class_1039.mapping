@@ -8,3 +8,4 @@ CLASS com/corrodinggames/rts/gameFramework/j/e com/corrodinggames/rts/gameFramew
 	METHOD a method_2910 ()V
 	METHOD a method_2911 (Lcom/corrodinggames/rts/gameFramework/j/au;)V
 	METHOD b method_2912 ()V
+	METHOD run run ()V

@@ -1,31 +1,24 @@
-CLASS com/corrodinggames/rts/gameFramework/j/n com/corrodinggames/rts/gameFramework/network/MasterServerClient
-	FIELD a ENABLE_STATUS_LOGGING Z
-	FIELD b ENABLE_CONSOLE_LOGGING Z
-	FIELD c MASTER_SERVER_URLS [Ljava/lang/String;
-	FIELD d httpClientManager Lcom/corrodinggames/rts/gameFramework/j/r;
-	FIELD e serverListSequence I
-	FIELD f serverListLock Ljava/lang/Object;
-	FIELD g lastMasterServerResponseLog Ljava/lang/String;
-	METHOD a getOwnInfoFromMasterServerAsync ()V
-	METHOD a extractFirstLine ([B)Ljava/lang/String;
-	METHOD a formatServerCode (I)Ljava/lang/String;
-	METHOD a removeStaleServers (II)V
-	METHOD a getGameServerInfoFromMasterServerAsync (Lcom/corrodinggames/rts/gameFramework/j/w;Ljava/lang/String;ILjava/lang/String;)V
-	METHOD a loadServerListAsync (Ljava/lang/Runnable;)V
-	METHOD a logInfo (Ljava/lang/String;)V
-	METHOD a sendErrorReportAsync (Ljava/lang/String;Ljava/lang/String;)V
-	METHOD a requestMasterServerResponse (Ljava/util/List;)Ljava/io/BufferedReader;
-	METHOD a requestMasterServerResponseWithTimeout (Ljava/util/List;I)Ljava/io/BufferedReader;
-	METHOD a getParam (Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
-	METHOD a addParam (Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)V
-	METHOD a doSingleRequest (Ljava/util/List;Ljava/lang/String;Z)Lcom/corrodinggames/rts/gameFramework/j/t;
-	METHOD a requestFromMasterServers (Ljava/util/List;Z[Ljava/lang/String;IZ)Ljava/io/BufferedReader;
-	METHOD a startParallelRequests (Ljava/util/List;ZLcom/corrodinggames/rts/gameFramework/j/s;)V
-	METHOD a startParallelRequestsAcrossUrls (Ljava/util/List;ZLcom/corrodinggames/rts/gameFramework/j/s;[Ljava/lang/String;)V
-	METHOD b createServerAsync ()V
-	METHOD b findServerById (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/j/g;
-	METHOD b addServerStatusParams (Ljava/util/List;)V
-	METHOD c updateServerAsync ()V
-	METHOD c findOrCreateServerById (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/j/g;
-	METHOD d removeServerAsync ()V
-	CLASS 1 AnonymousClass1
+CLASS com/corrodinggames/rts/gameFramework/j/class_1047 com/corrodinggames/rts/gameFramework/network/MasterServerClient
+	FIELD field_6250 ENABLE_STATUS_LOGGING Z
+	FIELD field_6251 ENABLE_CONSOLE_LOGGING Z
+	FIELD field_6252 MASTER_SERVER_URLS [Ljava/lang/String;
+	FIELD field_6254 serverListSequence I
+	FIELD field_6255 serverListLock Ljava/lang/Object;
+	FIELD field_6256 lastMasterServerResponseLog Ljava/lang/String;
+	METHOD method_2932 getOwnInfoFromMasterServerAsync ()V
+	METHOD method_2933 formatServerCode (I)Ljava/lang/String;
+	METHOD method_2934 removeStaleServers (II)V
+	METHOD method_2936 loadServerListAsync (Ljava/lang/Runnable;)V
+	METHOD method_2937 logInfo (Ljava/lang/String;)V
+	METHOD method_2938 sendErrorReportAsync (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD method_2939 requestMasterServerResponse (Ljava/util/List;)Ljava/io/BufferedReader;
+	METHOD method_2941 getParam (Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_2942 addParam (Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)V
+	METHOD method_2945 extractFirstLine ([B)Ljava/lang/String;
+	METHOD method_2946 createServerAsync ()V
+	METHOD method_2949 updateServerAsync ()V
+	METHOD method_2951 addServerStatusParams (Ljava/util/List;)V
+	METHOD method_2952 removeServerAsync ()V
+	METHOD method_5513 requestMasterServerResponseWithTimeout (Ljava/util/List;I)Ljava/io/BufferedReader;
+	METHOD method_5516 requestFromMasterServers (Ljava/util/List;Z[Ljava/lang/String;IZ)Ljava/io/BufferedReader;
+	CLASS class_1048 AnonymousClass1

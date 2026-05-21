@@ -4,6 +4,7 @@ CLASS com/corrodinggames/rts/gameFramework/f/a com/corrodinggames/rts/gameFramew
 	FIELD aa field_5183 Lcom/corrodinggames/rts/game/units/am;
 	FIELD aA field_5178 Ljava/util/ArrayList;
 	FIELD ab field_5184 Lcom/corrodinggames/rts/game/units/a/s;
+	FIELD aB field_8391 Landroid/graphics/Rect;
 	FIELD ac field_5185 F
 	FIELD aC field_5180 F
 	FIELD ad field_5186 J
@@ -16,6 +17,8 @@ CLASS com/corrodinggames/rts/gameFramework/f/a com/corrodinggames/rts/gameFramew
 	FIELD aj field_5192 Ljava/lang/String;
 	FIELD ak field_5193 Ljava/lang/String;
 	FIELD al field_5194 Ljava/lang/String;
+	FIELD am field_8392 Ljava/lang/String;
+	FIELD an field_8393 F
 	FIELD ao field_5197 F
 	FIELD ap field_5198 Z
 	FIELD aq field_5199 Ljava/util/ArrayList;
@@ -68,6 +71,7 @@ CLASS com/corrodinggames/rts/gameFramework/f/a com/corrodinggames/rts/gameFramew
 	FIELD T field_5171 Lcom/corrodinggames/rts/gameFramework/m/e;
 	FIELD u field_5228 Landroid/graphics/Rect;
 	FIELD U field_5172 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD v field_8394 Landroid/graphics/Rect;
 	FIELD V field_5173 Lcom/corrodinggames/rts/gameFramework/m/e;
 	FIELD w field_5230 Landroid/graphics/Rect;
 	FIELD W field_5174 Lcom/corrodinggames/rts/gameFramework/m/e;
@@ -79,25 +83,49 @@ CLASS com/corrodinggames/rts/gameFramework/f/a com/corrodinggames/rts/gameFramew
 	FIELD Z field_5177 Landroid/graphics/PorterDuffColorFilter;
 	METHOD a method_2355 ()V
 	METHOD a method_2356 (F)V
+	METHOD a method_5156 (FI)V
+	METHOD a method_5157 (FZ)V
 	METHOD a method_2371 (I)V
 	METHOD a method_2358 (IIILjava/lang/String;Ljava/lang/String;Landroid/graphics/Paint;F)V
 	METHOD a method_2359 (Lcom/corrodinggames/rts/game/n;)Ljava/lang/String;
 	METHOD a method_2360 (Lcom/corrodinggames/rts/game/units/a/s;)Z
+	METHOD a method_5158 (Lcom/corrodinggames/rts/game/units/a/s;ILjava/util/ArrayList;)Lcom/corrodinggames/rts/gameFramework/ad;
+	METHOD a method_5159 (Lcom/corrodinggames/rts/game/units/a/s;Ljava/util/ArrayList;)Z
+	METHOD a method_5160 (Lcom/corrodinggames/rts/game/units/a/s;Z)Ljava/lang/String;
 	METHOD a method_2364 (Lcom/corrodinggames/rts/game/units/am;Lcom/corrodinggames/rts/game/units/am;)Z
 	METHOD a method_2365 (Lcom/corrodinggames/rts/game/units/am;Ljava/util/ArrayList;)Ljava/util/ArrayList;
+	METHOD a method_5161 (Lcom/corrodinggames/rts/game/units/am;Z)Ljava/lang/String;
 	METHOD a method_2366 (Lcom/corrodinggames/rts/game/units/am;ZZZ)Ljava/lang/String;
 	METHOD a method_2362 (Lcom/corrodinggames/rts/game/units/c;)Z
+	METHOD a method_5162 (Lcom/corrodinggames/rts/gameFramework/j/k;Z)V
+	METHOD a method_5163 (Ljava/lang/String;)V
 	METHOD a method_2368 (Ljava/lang/String;I)V
 	METHOD b method_2380 ()V
 	METHOD b method_2370 (F)V
 	METHOD b method_2372 (Lcom/corrodinggames/rts/game/units/a/s;)F
+	METHOD b method_5164 (Lcom/corrodinggames/rts/game/units/a/s;Ljava/util/ArrayList;)Z
+	METHOD b method_5165 (Ljava/lang/String;I)V
+	METHOD c method_5166 ()V
 	METHOD c method_2375 (F)V
+	METHOD c method_5167 (Lcom/corrodinggames/rts/game/units/a/s;)Z
+	METHOD c method_5168 (Lcom/corrodinggames/rts/game/units/a/s;Ljava/util/ArrayList;)Z
+	METHOD d method_5169 ()Ljava/util/ArrayList;
 	METHOD d method_2378 (F)I
 	METHOD d method_2379 (Lcom/corrodinggames/rts/game/units/a/s;)Lcom/corrodinggames/rts/game/units/g/e;
+	METHOD d method_5170 (Lcom/corrodinggames/rts/game/units/a/s;Ljava/util/ArrayList;)F
 	METHOD e method_2385 ()Lcom/corrodinggames/rts/game/units/am;
 	METHOD e method_2383 (F)V
+	METHOD e method_5171 (Lcom/corrodinggames/rts/game/units/a/s;)F
 	METHOD f method_2369 ()Lcom/corrodinggames/rts/game/units/am;
 	METHOD g method_2386 ()Ljava/util/ArrayList;
+	METHOD h method_5172 ()F
+	METHOD i method_5173 ()F
 	METHOD j method_2374 ()V
 	METHOD k method_2377 ()V
+	METHOD l method_5174 ()V
+	METHOD m method_5175 ()V
+	METHOD n method_5176 ()V
+	METHOD o method_5177 ()Landroid/view/Menu;
 	METHOD p method_2382 ()F
+	METHOD q method_5178 ()F
+	METHOD r method_5179 ()F

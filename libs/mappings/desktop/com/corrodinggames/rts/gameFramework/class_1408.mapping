@@ -1,0 +1,13 @@
+CLASS com/corrodinggames/rts/gameFramework/bt com/corrodinggames/rts/gameFramework/class_1408
+	FIELD a field_8347 Z
+	FIELD b field_8348 I
+	FIELD c field_8349 D
+	FIELD d field_8350 D
+	FIELD e field_8351 J
+	FIELD f field_8352 Ljava/lang/String;
+	METHOD a method_5067 ()V
+	METHOD b method_5068 ()V
+	METHOD c method_5069 ()Ljava/lang/String;
+	METHOD d method_5070 ()V
+	METHOD e method_5071 ()V
+	METHOD f method_5072 ()V

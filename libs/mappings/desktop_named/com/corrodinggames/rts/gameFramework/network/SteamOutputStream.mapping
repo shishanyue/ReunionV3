@@ -1,3 +1,2 @@
-CLASS com/corrodinggames/rts/gameFramework/j/j com/corrodinggames/rts/gameFramework/network/SteamOutputStream
-	FIELD a logSlowWrite Z
-	FIELD b steamSocket Lcom/corrodinggames/rts/gameFramework/j/h;
+CLASS com/corrodinggames/rts/gameFramework/j/class_1043 com/corrodinggames/rts/gameFramework/network/SteamOutputStream
+	FIELD field_6235 logSlowWrite Z

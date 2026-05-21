@@ -1,8 +1,7 @@
-CLASS com/corrodinggames/rts/game/b/k com/corrodinggames/rts/game/map/TilesetImageDescriptor
-	FIELD a nextEmbedId I
-	FIELD b inUse Z
-	FIELD c pathPrefix Ljava/lang/String;
-	FIELD d imageKey Ljava/lang/String;
-	FIELD e texture Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD f embeddedBase64 Ljava/lang/String;
-	FIELD g originalImageName Ljava/lang/String;
+CLASS com/corrodinggames/rts/game/b/class_310 com/corrodinggames/rts/game/map/TilesetImageDescriptor
+	FIELD field_1066 nextEmbedId I
+	FIELD field_1067 inUse Z
+	FIELD field_1068 pathPrefix Ljava/lang/String;
+	FIELD field_1069 imageKey Ljava/lang/String;
+	FIELD field_1071 embeddedBase64 Ljava/lang/String;
+	FIELD field_1072 originalImageName Ljava/lang/String;

@@ -1,2 +1,2 @@
-CLASS com/corrodinggames/rts/game/units/custom/y com/corrodinggames/rts/game/units/custom/CustomLimitedRange
-	FIELD a value F
+CLASS com/corrodinggames/rts/game/units/custom/class_594 com/corrodinggames/rts/game/units/custom/CustomLimitedRange
+	FIELD field_3598 value F

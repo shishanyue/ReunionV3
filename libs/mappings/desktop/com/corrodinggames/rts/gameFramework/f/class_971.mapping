@@ -3,4 +3,5 @@ CLASS com/corrodinggames/rts/gameFramework/f/p com/corrodinggames/rts/gameFramew
 	FIELD b field_5714 I
 	FIELD c field_5715 F
 	FIELD d field_5716 F
+	FIELD e field_8504 Lcom/corrodinggames/rts/gameFramework/f/r;
 	FIELD f field_5718 Lcom/corrodinggames/rts/gameFramework/f/o;

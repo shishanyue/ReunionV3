@@ -1,0 +1,3 @@
+CLASS com/ElementList
+	FIELD elements elements Ljava/util/ArrayList;
+	METHOD getFirst getFirst ()Lcom/Element;

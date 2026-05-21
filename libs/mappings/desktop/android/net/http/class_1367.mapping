@@ -1,0 +1,3 @@
+CLASS android/net/http/a android/net/http/class_1367
+	FIELD a field_7565 Landroid/net/http/AndroidHttpClient;
+	METHOD process process (Lorg/apache/http/HttpRequest;Lorg/apache/http/protocol/HttpContext;)V

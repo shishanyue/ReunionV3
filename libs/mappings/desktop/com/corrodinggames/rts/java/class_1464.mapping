@@ -1,0 +1,12 @@
+CLASS com/corrodinggames/rts/java/f com/corrodinggames/rts/java/class_1464
+	FIELD a field_9063 I
+	FIELD b field_9064 Z
+	FIELD c field_9065 Z
+	FIELD d field_9066 Lorg/newdawn/slick/Font;
+	FIELD e field_9067 I
+	FIELD f field_9068 [Ljava/lang/String;
+	FIELD g field_9069 Lcom/corrodinggames/rts/java/e;
+	METHOD a method_6049 (Ljava/lang/String;)Z
+	METHOD b method_6050 (Ljava/lang/String;)V
+	METHOD clone clone ()Ljava/lang/Object;
+	METHOD toString toString ()Ljava/lang/String;

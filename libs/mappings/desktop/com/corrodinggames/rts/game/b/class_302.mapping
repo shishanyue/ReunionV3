@@ -1,18 +1,37 @@
 CLASS com/corrodinggames/rts/game/b/c com/corrodinggames/rts/game/b/class_302
 	FIELD a field_947 I
 	FIELD b field_948 Lcom/corrodinggames/rts/gameFramework/m/e;
+	FIELD c field_7894 Lcom/corrodinggames/rts/gameFramework/m/y;
 	FIELD d field_950 [[Lcom/corrodinggames/rts/game/b/d;
+	FIELD e field_7895 Lcom/corrodinggames/rts/gameFramework/m/ag;
+	FIELD f field_7896 I
+	FIELD g field_7897 I
+	FIELD h field_7898 I
 	FIELD i field_955 I
+	FIELD j field_7899 I
 	FIELD k field_957 I
 	FIELD l field_958 F
 	FIELD m field_959 F
+	FIELD n field_7900 Z
 	FIELD o field_961 Landroid/graphics/Rect;
 	FIELD p field_962 I
 	METHOD a method_345 ()V
+	METHOD a method_4343 (F)V
+	METHOD a method_4344 (I)V
 	METHOD a method_352 (II)Lcom/corrodinggames/rts/game/b/d;
 	METHOD a method_348 (IIIIZ)V
+	METHOD a method_4345 (IILcom/corrodinggames/rts/gameFramework/m/y;)V
 	METHOD a method_347 (IIZ)V
+	METHOD a method_4346 (Lcom/corrodinggames/rts/game/l;)V
 	METHOD b method_357 ()V
+	METHOD b method_4347 (I)V
+	METHOD b method_4348 (II)V
+	METHOD b method_4349 (IILcom/corrodinggames/rts/gameFramework/m/y;)V
 	METHOD c method_350 ()V
+	METHOD c method_4350 (I)V
+	METHOD c method_4351 (II)V
+	METHOD c method_4352 (IILcom/corrodinggames/rts/gameFramework/m/y;)V
+	METHOD d method_4353 ()V
 	METHOD e method_353 ()V
 	METHOD f method_355 ()V
+	METHOD g method_4354 ()F

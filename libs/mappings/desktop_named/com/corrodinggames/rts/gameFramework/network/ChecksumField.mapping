@@ -1,4 +1,4 @@
-CLASS com/corrodinggames/rts/gameFramework/j/al com/corrodinggames/rts/gameFramework/network/ChecksumField
-	FIELD a label Ljava/lang/String;
-	FIELD b value J
-	FIELD c includeInTotalChecksum Z
+CLASS com/corrodinggames/rts/gameFramework/j/class_1022 com/corrodinggames/rts/gameFramework/network/ChecksumField
+	FIELD field_6053 label Ljava/lang/String;
+	FIELD field_6054 value J
+	FIELD field_6055 includeInTotalChecksum Z

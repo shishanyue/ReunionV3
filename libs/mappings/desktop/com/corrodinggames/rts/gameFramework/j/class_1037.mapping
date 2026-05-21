@@ -34,8 +34,11 @@ CLASS com/corrodinggames/rts/gameFramework/j/c com/corrodinggames/rts/gameFramew
 	FIELD q field_6182 Z
 	FIELD Q field_6159 Z
 	FIELD r field_6183 Z
+	FIELD R field_8565 I
 	FIELD s field_6184 Z
+	FIELD S field_8566 J
 	FIELD t field_6185 Z
+	FIELD T field_8567 Z
 	FIELD u field_6186 Z
 	FIELD U field_6163 I
 	FIELD v field_6187 Z
@@ -45,8 +48,13 @@ CLASS com/corrodinggames/rts/gameFramework/j/c com/corrodinggames/rts/gameFramew
 	FIELD x field_6189 I
 	FIELD y field_6190 I
 	FIELD z field_6142 Lcom/corrodinggames/rts/game/e;
+	METHOD a method_5474 ()Z
 	METHOD a method_2894 (Lcom/corrodinggames/rts/gameFramework/j/au;)V
+	METHOD a method_5475 (Lcom/corrodinggames/rts/gameFramework/j/c;)Lcom/corrodinggames/rts/gameFramework/j/ad;
+	METHOD a method_5476 (Lcom/corrodinggames/rts/gameFramework/j/c;ZZ)V
 	METHOD a method_2895 (Ljava/lang/String;)V
+	METHOD a method_5477 (Ljava/lang/String;Ljava/lang/Throwable;)V
+	METHOD a method_5478 (ZZ)V
 	METHOD a method_2897 (ZZLjava/lang/String;)V
 	METHOD b method_2893 ()I
 	METHOD b method_2899 (Ljava/lang/String;)V
@@ -56,7 +64,9 @@ CLASS com/corrodinggames/rts/gameFramework/j/c com/corrodinggames/rts/gameFramew
 	METHOD d method_2903 (Ljava/lang/String;)Ljava/lang/String;
 	METHOD e method_2902 ()Ljava/lang/String;
 	METHOD f method_2904 ()Ljava/lang/String;
+	METHOD finalize finalize ()V
 	METHOD g method_2905 ()Ljava/lang/String;
 	METHOD h method_2906 ()Z
 	METHOD i method_2907 ()V
 	METHOD j method_2908 ()V
+	CLASS 1

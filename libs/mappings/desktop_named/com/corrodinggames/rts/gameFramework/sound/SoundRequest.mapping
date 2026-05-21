@@ -1,8 +1,7 @@
-CLASS com/corrodinggames/rts/gameFramework/a/c com/corrodinggames/rts/gameFramework/sound/SoundRequest
-	FIELD a sound Lcom/corrodinggames/rts/gameFramework/a/b;
-	FIELD b volume F
-	FIELD c pitch F
-	FIELD d priority I
-	FIELD e loop I
-	FIELD f rate F
-	METHOD a process ()V
+CLASS com/corrodinggames/rts/gameFramework/a/class_759 com/corrodinggames/rts/gameFramework/sound/SoundRequest
+	FIELD field_8127 volume F
+	FIELD field_8128 pitch F
+	FIELD field_8129 priority I
+	FIELD field_8130 loop I
+	FIELD field_8131 rate F
+	METHOD method_4876 process ()V

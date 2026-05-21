@@ -1,5 +1,3 @@
-CLASS com/corrodinggames/rts/game/units/custom/r com/corrodinggames/rts/game/units/custom/CustomUnitCondition
-	FIELD a logicBoolean Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
-	FIELD b conditionName Ljava/lang/String;
-	FIELD c triggerType Lcom/corrodinggames/rts/game/units/custom/s;
-	FIELD d action Lcom/corrodinggames/rts/game/units/custom/a/g;
+CLASS com/corrodinggames/rts/game/units/custom/class_587 com/corrodinggames/rts/game/units/custom/CustomUnitCondition
+	FIELD field_3578 logicBoolean Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_3579 conditionName Ljava/lang/String;

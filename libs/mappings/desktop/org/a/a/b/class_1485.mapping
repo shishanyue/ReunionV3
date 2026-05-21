@@ -1,0 +1,2 @@
+CLASS org/a/a/b/a org/a/a/b/class_1485
+	METHOD iterator iterator ()Ljava/util/Iterator;

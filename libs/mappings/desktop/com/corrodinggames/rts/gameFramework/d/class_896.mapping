@@ -2,6 +2,10 @@ CLASS com/corrodinggames/rts/gameFramework/d/g com/corrodinggames/rts/gameFramew
 	FIELD a field_5062 Ljava/lang/String;
 	FIELD b field_5063 I
 	FIELD c field_5064 I
+	FIELD d field_8383 I
+	FIELD e field_8384 I
+	FIELD f field_8385 I
+	FIELD g field_8386 I
 	FIELD h field_5069 I
 	FIELD i field_5070 Lcom/corrodinggames/rts/gameFramework/m/e;
 	FIELD j field_5071 Lcom/corrodinggames/rts/gameFramework/m/e;
@@ -9,3 +13,4 @@ CLASS com/corrodinggames/rts/gameFramework/d/g com/corrodinggames/rts/gameFramew
 	FIELD l field_5073 Landroid/graphics/Rect;
 	FIELD m field_5074 Landroid/graphics/RectF;
 	METHOD a method_2130 ()V
+	METHOD a method_5102 (IFFLandroid/graphics/Paint;)V

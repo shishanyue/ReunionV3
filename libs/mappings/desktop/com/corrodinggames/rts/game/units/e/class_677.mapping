@@ -13,6 +13,7 @@ CLASS com/corrodinggames/rts/game/units/e/b com/corrodinggames/rts/game/units/e/
 	FIELD l field_3832 Landroid/graphics/Paint;
 	FIELD m field_3833 Landroid/graphics/Paint;
 	FIELD n field_3834 Lcom/corrodinggames/rts/game/units/a/s;
+	METHOD a method_4760 (FLcom/corrodinggames/rts/game/units/d;)V
 	METHOD a method_1627 (Ljava/util/ArrayList;I)V
 	METHOD b method_1626 (FLcom/corrodinggames/rts/game/units/d;)V
 	METHOD K method_1624 ()V

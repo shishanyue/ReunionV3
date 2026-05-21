@@ -1,9 +1,39 @@
 CLASS com/corrodinggames/rts/appFramework/n com/corrodinggames/rts/appFramework/MultiplayerBattleroomActivity
 	FIELD c lastLoaded Lcom/corrodinggames/rts/appFramework/n;
+	FIELD d field_7801 Z
+	FIELD e field_7802 Landroid/os/Handler;
+	FIELD f field_7803 Z
+	FIELD g field_7804 Z
+	FIELD h field_7805 Landroid/widget/TextView;
+	FIELD i field_7806 Lcom/corrodinggames/rts/gameFramework/j/ae;
+	FIELD j field_7807 Landroid/app/AlertDialog;
+	FIELD k field_7808 Landroid/os/Handler;
+	FIELD l field_7809 Ljava/lang/Runnable;
+	FIELD m field_7810 Ljava/lang/Runnable;
 	METHOD a askPasswordInternal (Lcom/corrodinggames/rts/gameFramework/j/ae;)V
+	METHOD a method_4172 (Ljava/lang/String;Ljava/lang/String;)V
 	METHOD d addMessageToChatLog (Ljava/lang/String;)V
+	METHOD l method_4173 ()Z
+	METHOD m method_4174 ()V
 	METHOD n refreshChatLogDirect ()V
 	METHOD o updateUI ()V
 	METHOD p startGame ()V
 	METHOD q warnIfTeamsUneven ()V
 	METHOD r startGameCommon ()V
+	CLASS 1
+		FIELD a field_7811 Lcom/corrodinggames/rts/appFramework/n;
+		METHOD run run ()V
+	CLASS 2
+		FIELD a field_7812 Lcom/corrodinggames/rts/appFramework/n;
+		FIELD b field_7813 Ljava/lang/String;
+		METHOD run run ()V
+	CLASS 3
+		FIELD a field_7814 Landroid/widget/EditText;
+		FIELD b field_7815 Lcom/corrodinggames/rts/gameFramework/j/ae;
+		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
+	CLASS 4
+		FIELD a field_7816 Lcom/corrodinggames/rts/gameFramework/j/ae;
+		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
+	CLASS 5
+		FIELD a field_7817 Lcom/corrodinggames/rts/gameFramework/j/ae;
+		METHOD onCancel onCancel (Landroid/content/DialogInterface;)V

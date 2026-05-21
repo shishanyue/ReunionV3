@@ -1,0 +1,16 @@
+CLASS com/corrodinggames/rts/a/a/c com/corrodinggames/rts/a/a/class_1379
+	METHOD a method_4079 ()V
+	METHOD a method_4080 (Lcom/corrodinggames/rts/game/units/am;Ljava/lang/String;)V
+	METHOD a method_4081 (Lcom/corrodinggames/rts/game/units/custom/l;Ljava/lang/String;)V
+	METHOD a method_4082 (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;)V
+	METHOD a method_4083 (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;F)V
+	METHOD a method_4084 (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;Lcom/corrodinggames/rts/game/units/am;)V
+	METHOD a method_4085 (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;Ljava/lang/String;)V
+	METHOD a method_4086 (Ljava/lang/String;)V
+	METHOD a method_4087 (Ljava/lang/String;Z)V
+	METHOD b method_4088 (Lcom/corrodinggames/rts/game/units/am;Ljava/lang/String;)V
+	METHOD b method_4089 (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;)V
+	METHOD b method_4090 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	METHOD b method_4091 (Ljava/lang/String;Z)Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	METHOD c method_4092 (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;)V
+	METHOD d method_4093 (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;)Ljava/lang/String;

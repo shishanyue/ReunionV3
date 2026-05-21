@@ -1,0 +1,12 @@
+CLASS com/corrodinggames/rts/java/i com/corrodinggames/rts/java/class_1467
+	FIELD a field_9078 Lcom/corrodinggames/rts/java/Main;
+	METHOD a method_6054 (Ljava/lang/Throwable;Z)V
+	CLASS 1
+		FIELD a field_9079 Ljava/lang/String;
+		FIELD b field_9080 Lcom/corrodinggames/rts/java/i;
+		METHOD run run ()V
+	CLASS 2
+		FIELD a field_9081 Ljava/lang/String;
+		FIELD b field_9082 Ljava/lang/String;
+		FIELD c field_9083 Lcom/corrodinggames/rts/java/i;
+		METHOD run run ()V

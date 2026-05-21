@@ -1,2 +1,34 @@
-CLASS android/view/KeyEvent android/view/KeyEvent
+CLASS android/view/KeyEvent
+	FIELD a field_7612 Landroid/os/Parcelable$Creator;
+	FIELD b field_7613 Landroid/util/SparseArray;
+	FIELD c field_7614 [Ljava/lang/String;
+	FIELD d field_7615 Ljava/lang/Object;
+	FIELD e field_7616 I
+	FIELD f field_7617 I
+	FIELD g field_7618 I
+	FIELD h field_7619 I
+	FIELD i field_7620 I
+	FIELD j field_7621 I
+	FIELD k field_7622 I
+	FIELD l field_7623 I
+	FIELD m field_7624 J
+	FIELD n field_7625 J
+	FIELD o field_7626 Ljava/lang/String;
 	METHOD a getMaxKeyCode ()I
+	METHOD a method_4006 (I)Ljava/lang/String;
+	METHOD a method_4007 (Landroid/os/Parcel;)Landroid/view/KeyEvent;
+	METHOD b method_4008 ()V
+	METHOD b method_4009 (I)Ljava/lang/String;
+	METHOD c method_4010 (I)Ljava/lang/String;
+	METHOD getDeviceId getDeviceId ()I
+	METHOD getEventTime getEventTime ()J
+	METHOD getSource getSource ()I
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD writeToParcel writeToParcel (Landroid/os/Parcel;I)V
+	CLASS 1
+		METHOD a method_4011 (I)[Landroid/view/KeyEvent;
+		METHOD createFromParcel createFromParcel (Landroid/os/Parcel;)Ljava/lang/Object;
+		METHOD newArray newArray (I)[Ljava/lang/Object;
+	CLASS Callback
+	CLASS DispatcherState
+		FIELD a field_7627 Landroid/util/SparseIntArray;

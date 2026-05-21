@@ -17,3 +17,5 @@ CLASS com/corrodinggames/rts/game/units/av com/corrodinggames/rts/game/units/cla
 	FIELD p field_3956 Lcom/corrodinggames/rts/game/units/av;
 	FIELD q field_3957 Lcom/corrodinggames/rts/game/units/av;
 	FIELD r field_3958 [Lcom/corrodinggames/rts/game/units/av;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/av;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/av;

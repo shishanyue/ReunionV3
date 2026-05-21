@@ -40,6 +40,7 @@ CLASS com/corrodinggames/rts/gameFramework/a/e com/corrodinggames/rts/gameFramew
 	METHOD a method_1752 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/a/i;
 	METHOD a method_1753 (Ljava/lang/String;Lcom/corrodinggames/rts/gameFramework/utility/j;Z)Lcom/corrodinggames/rts/gameFramework/a/i;
 	METHOD b method_1745 ()V
+	METHOD b method_4877 (F)V
 	METHOD b method_1749 (Lcom/corrodinggames/rts/gameFramework/a/i;F)V
 	METHOD b method_1756 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/a/i;
 	METHOD c method_1755 (Lcom/corrodinggames/rts/gameFramework/a/i;F)V

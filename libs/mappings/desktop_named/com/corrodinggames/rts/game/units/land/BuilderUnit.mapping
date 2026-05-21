@@ -1,19 +1,8 @@
-CLASS com/corrodinggames/rts/game/units/e/b com/corrodinggames/rts/game/units/land/BuilderUnit
-	FIELD a builderTexture Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD b builderTexture_dead Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD c builderShadowTexture Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD d builderTexture_teamColors [Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD e builderChargeTexture Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD f builderDechargeTexture Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD g builderIconTexture Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD h builderIconTexture_teamColors [Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD i targetPriorityPoints [Landroid/graphics/PointF;
-	FIELD j unitRenderPoints [Landroid/graphics/PointF;
-	FIELD k linePaint Landroid/graphics/Paint;
-	FIELD l linePaintOver Landroid/graphics/Paint;
-	FIELD m chargePaint Landroid/graphics/Paint;
-	FIELD n reclaimAction Lcom/corrodinggames/rts/game/units/a/s;
-	METHOD a updateTargetPriorityPoints (FLcom/corrodinggames/rts/game/units/d;)V
-	METHOD a addAvailableActions (Ljava/util/ArrayList;I)V
-	METHOD b drawTargetPriorityPoints (FLcom/corrodinggames/rts/game/units/d;)V
-	METHOD K loadTextures ()V
+CLASS com/corrodinggames/rts/game/units/e/class_677 com/corrodinggames/rts/game/units/land/BuilderUnit
+	FIELD field_3829 targetPriorityPoints [Landroid/graphics/PointF;
+	FIELD field_3830 unitRenderPoints [Landroid/graphics/PointF;
+	FIELD field_3831 linePaint Landroid/graphics/Paint;
+	FIELD field_3832 linePaintOver Landroid/graphics/Paint;
+	FIELD field_3833 chargePaint Landroid/graphics/Paint;
+	METHOD method_1624 loadTextures ()V
+	METHOD method_1627 addAvailableActions (Ljava/util/ArrayList;I)V

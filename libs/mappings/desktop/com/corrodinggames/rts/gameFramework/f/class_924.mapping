@@ -1,2 +1,3 @@
 CLASS com/corrodinggames/rts/gameFramework/f/x com/corrodinggames/rts/gameFramework/f/class_924
 	FIELD a field_5306 Lcom/corrodinggames/rts/game/units/custom/e/f;
+	METHOD a method_5304 (Lcom/corrodinggames/rts/game/units/custom/e/f;)V

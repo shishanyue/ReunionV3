@@ -1,7 +1,7 @@
-CLASS com/corrodinggames/rts/gameFramework/at com/corrodinggames/rts/gameFramework/MusicCategory
-	FIELD d trackPaths [Ljava/lang/String;
-	METHOD a load ()V
-	METHOD a getFullPath (Ljava/lang/String;)Ljava/lang/String;
-	METHOD b getTrackPaths ()[Ljava/lang/String;
-	METHOD c loadAll ()V
-	METHOD d getMusicPath ()Ljava/lang/String;
+CLASS com/corrodinggames/rts/gameFramework/class_855 com/corrodinggames/rts/gameFramework/MusicCategory
+	FIELD field_4694 trackPaths [Ljava/lang/String;
+	METHOD method_2008 loadAll ()V
+	METHOD method_2009 getFullPath (Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_2010 getMusicPath ()Ljava/lang/String;
+	METHOD method_2011 load ()V
+	METHOD method_4923 getTrackPaths ()[Ljava/lang/String;

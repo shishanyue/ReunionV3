@@ -1,0 +1,9 @@
+CLASS a/a/q a/a/class_1364
+	FIELD a field_7449 La/a/h;
+	FIELD b field_7450 [B
+	FIELD c field_7451 I
+	METHOD close close ()V
+	METHOD flush flush ()V
+	METHOD write write ([B)V
+	METHOD write write ([BII)V
+	METHOD write write (I)V

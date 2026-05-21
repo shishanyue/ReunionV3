@@ -3,3 +3,6 @@ CLASS com/corrodinggames/rts/gameFramework/utility/t com/corrodinggames/rts/game
 	FIELD b field_7334 I
 	FIELD c field_7335 I
 	FIELD d field_7336 I
+	METHOD hasNext hasNext ()Z
+	METHOD next next ()Ljava/lang/Object;
+	METHOD remove remove ()V

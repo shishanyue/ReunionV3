@@ -13,3 +13,4 @@ CLASS com/corrodinggames/rts/gameFramework/m/h com/corrodinggames/rts/gameFramew
 	FIELD z field_6801 Lcom/corrodinggames/rts/gameFramework/m/ae;
 	METHOD c method_3223 (Z)V
 	METHOD C method_3224 ()V
+	METHOD D method_5680 ()V

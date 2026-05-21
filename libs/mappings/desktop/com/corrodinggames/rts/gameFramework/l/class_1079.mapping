@@ -1,1 +1,3 @@
 CLASS com/corrodinggames/rts/gameFramework/l/b com/corrodinggames/rts/gameFramework/l/class_1079
+	METHOD onCancelled onCancelled ()V
+	METHOD onFileSelected onFileSelected ()V

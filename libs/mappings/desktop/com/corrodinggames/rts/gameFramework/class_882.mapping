@@ -11,4 +11,11 @@ CLASS com/corrodinggames/rts/gameFramework/br com/corrodinggames/rts/gameFramewo
 	METHOD a method_2071 (D)Ljava/lang/String;
 	METHOD a method_2072 (J)F
 	METHOD a method_2073 (JJ)D
+	METHOD a method_5061 (Lcom/corrodinggames/rts/gameFramework/bs;)V
+	METHOD a method_5062 (Ljava/lang/String;J)V
+	METHOD a method_5063 (ZZ)V
+	METHOD b method_5064 ()V
 	METHOD b method_2075 (D)Ljava/lang/String;
+	METHOD b method_5065 (Lcom/corrodinggames/rts/gameFramework/bs;)V
+	METHOD c method_5066 ()V
+	CLASS 1

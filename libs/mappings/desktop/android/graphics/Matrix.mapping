@@ -1,0 +1,23 @@
+CLASS android/graphics/Matrix
+	FIELD a field_7510 Landroid/graphics/Matrix;
+	FIELD b field_7511 I
+	METHOD a method_3912 ([F)V
+	METHOD a method_3908 (I)I
+	METHOD a method_3910 (I[F)V
+	METHOD a method_3909 (II)Z
+	METHOD a method_3911 (Ljava/lang/StringBuilder;)V
+	METHOD b method_3913 (I)V
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD finalize finalize ()V
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS 1
+	CLASS ScaleToFit
+		FIELD a field_7512 Landroid/graphics/Matrix$ScaleToFit;
+		FIELD b field_7513 Landroid/graphics/Matrix$ScaleToFit;
+		FIELD c field_7514 Landroid/graphics/Matrix$ScaleToFit;
+		FIELD d field_7515 Landroid/graphics/Matrix$ScaleToFit;
+		FIELD e field_7516 I
+		FIELD f field_7517 [Landroid/graphics/Matrix$ScaleToFit;
+		METHOD valueOf valueOf (Ljava/lang/String;)Landroid/graphics/Matrix$ScaleToFit;
+		METHOD values values ()[Landroid/graphics/Matrix$ScaleToFit;

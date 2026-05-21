@@ -1,0 +1,20 @@
+CLASS a/a/a/i a/a/a/class_1348
+	FIELD a field_7370 Z
+	FIELD b field_7371 Ljava/lang/String;
+	FIELD c field_7372 Ljava/lang/Runnable;
+	FIELD d field_7373 J
+	FIELD e field_7374 J
+	FIELD f field_7375 Z
+	FIELD g field_7376 Z
+	FIELD h field_7377 Z
+	FIELD i field_7378 Z
+	FIELD j field_7379 Ljava/lang/Object;
+	METHOD a method_3718 ()V
+	METHOD a method_3719 (J)V
+	METHOD a method_3720 (JJ)V
+	METHOD b method_3721 ()Z
+	METHOD c method_3722 ()Z
+	METHOD d method_3723 ()V
+	METHOD e method_3724 ()V
+	METHOD f method_3725 ()V
+	METHOD run run ()V

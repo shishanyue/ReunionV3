@@ -1,2 +1,1 @@
-CLASS a/a/f net/rudp/ReliableSocketStateListener
-	FIELD a serverSocket La/a/b;
+CLASS a/a/class_1353 net/rudp/ReliableSocketStateListener

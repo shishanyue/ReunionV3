@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/java/audio/a/m com/corrodinggames/rts/java/audio/a/class_1437
+	FIELD a field_8913 Ljava/util/Random;
+	METHOD a method_5942 (F)F
+	METHOD a method_5943 (FFF)F
+	METHOD a method_5944 (I)I
+	METHOD b method_5945 (F)F
+	METHOD b method_5946 (I)I

@@ -1,5 +1,4 @@
-CLASS com/corrodinggames/rts/gameFramework/utility/n com/corrodinggames/rts/gameFramework/utility/FastArrayListIterator
-	FIELD a list Lcom/corrodinggames/rts/gameFramework/utility/m;
-	FIELD b remaining I
-	FIELD c lastPosition I
-	FIELD d expectedModCount I
+CLASS com/corrodinggames/rts/gameFramework/utility/class_1324 com/corrodinggames/rts/gameFramework/utility/FastArrayListIterator
+	FIELD field_7313 remaining I
+	FIELD field_7314 lastPosition I
+	FIELD field_7315 expectedModCount I

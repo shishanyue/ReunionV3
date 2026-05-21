@@ -10,3 +10,4 @@ CLASS com/corrodinggames/rts/gameFramework/f/au com/corrodinggames/rts/gameFrame
 	METHOD a method_2471 (Lcom/corrodinggames/rts/gameFramework/f/au;)Z
 	METHOD b method_2472 ()J
 	METHOD b method_2473 (Lcom/corrodinggames/rts/gameFramework/f/au;)V
+	METHOD compareTo compareTo (Ljava/lang/Object;)I

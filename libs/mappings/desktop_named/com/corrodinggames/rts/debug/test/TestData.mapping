@@ -1,5 +1,5 @@
-CLASS com/corrodinggames/rts/a/a/g com/corrodinggames/rts/debug/test/TestData
-	FIELD a valueA I
-	FIELD b valueB I
-	FIELD c useValueB Z
-	METHOD a getValue ()I
+CLASS com/corrodinggames/rts/a/a/class_1383 com/corrodinggames/rts/debug/test/TestData
+	FIELD field_7701 valueA I
+	FIELD field_7702 valueB I
+	FIELD field_7703 useValueB Z
+	METHOD method_4101 getValue ()I

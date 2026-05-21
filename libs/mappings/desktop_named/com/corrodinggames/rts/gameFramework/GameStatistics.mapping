@@ -1,2 +1,2 @@
-CLASS com/corrodinggames/rts/gameFramework/bg com/corrodinggames/rts/gameFramework/GameStatistics
-	METHOD d getActiveTeamStatistics ()Ljava/util/ArrayList;
+CLASS com/corrodinggames/rts/gameFramework/class_1407 com/corrodinggames/rts/gameFramework/GameStatistics
+	METHOD method_5045 getActiveTeamStatistics ()Ljava/util/ArrayList;

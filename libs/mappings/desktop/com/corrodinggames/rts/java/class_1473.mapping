@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/java/o com/corrodinggames/rts/java/class_1473
+	FIELD a field_9096 I
+	FIELD b field_9097 Ljava/util/concurrent/LinkedBlockingQueue;
+	FIELD c field_9098 Lcom/corrodinggames/rts/gameFramework/utility/ad;
+	FIELD d field_9099 Lcom/corrodinggames/rts/java/r;
+	FIELD e field_9100 Landroid/content/Context;
+	FIELD f field_9101 Lcom/corrodinggames/rts/java/audio/lwjgl/OpenALAudio;
+	METHOD b method_6057 ()Ljava/lang/Object;

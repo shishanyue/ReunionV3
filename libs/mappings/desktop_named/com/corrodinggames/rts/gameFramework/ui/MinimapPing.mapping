@@ -1,6 +1,5 @@
-CLASS com/corrodinggames/rts/gameFramework/f/q com/corrodinggames/rts/gameFramework/ui/MinimapPing
-	FIELD a isEnemy Z
-	FIELD b x I
-	FIELD c y I
-	FIELD d radius F
-	FIELD f minimap Lcom/corrodinggames/rts/gameFramework/f/o;
+CLASS com/corrodinggames/rts/gameFramework/f/class_972 com/corrodinggames/rts/gameFramework/ui/MinimapPing
+	FIELD field_5719 isEnemy Z
+	FIELD field_5720 x I
+	FIELD field_5721 y I
+	FIELD field_5722 radius F

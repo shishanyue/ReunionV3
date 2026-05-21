@@ -13,6 +13,8 @@ CLASS com/corrodinggames/rts/gameFramework/n/e com/corrodinggames/rts/gameFramew
 	FIELD l field_7074 [Lcom/corrodinggames/rts/gameFramework/n/e;
 	METHOD a method_3437 ()Ljava/lang/String;
 	METHOD a method_3438 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/n/e;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/n/e;
+	METHOD values values ()[Lcom/corrodinggames/rts/gameFramework/n/e;
 	CLASS 1 class_1262
 	CLASS 2 class_1263
 	CLASS 3 class_1264

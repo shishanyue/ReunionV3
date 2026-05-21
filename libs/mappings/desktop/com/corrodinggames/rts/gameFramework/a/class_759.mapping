@@ -1,1 +1,8 @@
 CLASS com/corrodinggames/rts/gameFramework/a/c com/corrodinggames/rts/gameFramework/a/class_759
+	FIELD a field_8126 Lcom/corrodinggames/rts/gameFramework/a/b;
+	FIELD b field_8127 F
+	FIELD c field_8128 F
+	FIELD d field_8129 I
+	FIELD e field_8130 I
+	FIELD f field_8131 F
+	METHOD a method_4876 ()V

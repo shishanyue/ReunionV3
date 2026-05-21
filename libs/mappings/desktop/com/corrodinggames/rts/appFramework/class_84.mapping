@@ -1,9 +1,34 @@
 CLASS com/corrodinggames/rts/appFramework/c com/corrodinggames/rts/appFramework/class_84
+	FIELD a field_7723 Landroid/os/Handler;
+	FIELD b field_7724 Landroid/content/Context;
+	FIELD c field_7725 Lcom/corrodinggames/rts/appFramework/e;
+	FIELD d field_7726 Lcom/corrodinggames/rts/appFramework/e;
+	METHOD a method_4121 ()Landroid/content/Context;
+	METHOD a method_4122 (Landroid/app/Activity;)V
+	METHOD a method_4123 (Landroid/app/Activity;IZLjava/lang/String;Landroid/net/Uri;)V
+	METHOD a method_4124 (Landroid/app/Activity;Ljava/lang/Runnable;)Z
+	METHOD a method_4125 (Landroid/app/Activity;Ljava/lang/Runnable;Z)Z
+	METHOD a method_4126 (Landroid/app/Activity;Z)V
+	METHOD a method_4127 (Landroid/app/Activity;ZZ)V
+	METHOD a method_4128 (Landroid/content/Context;)V
+	METHOD a method_4129 (Landroid/content/Intent;)V
 	METHOD a method_122 (Ljava/lang/Runnable;)V
 	METHOD a method_123 (Ljava/lang/String;)I
+	METHOD b method_4130 (Landroid/app/Activity;)Z
+	METHOD b method_4131 (Landroid/content/Context;)Z
 	METHOD b method_131 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD c method_4132 (Landroid/app/Activity;)V
+	METHOD c method_4133 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD d method_4134 (Landroid/app/Activity;)V
 	CLASS 1 class_111
+		FIELD a field_7727 Lcom/corrodinggames/rts/gameFramework/l;
 		FIELD b field_308 Ljava/lang/Runnable;
+		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
 	CLASS 2 class_138
+		FIELD a field_7728 Landroid/app/Activity;
+		FIELD b field_7729 Lcom/corrodinggames/rts/gameFramework/l;
 		FIELD c field_419 Ljava/lang/Runnable;
+		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
 		CLASS 1 class_165
+			FIELD a field_7730 Lcom/corrodinggames/rts/appFramework/c$2;
+			METHOD run run ()V

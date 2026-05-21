@@ -1,18 +1,16 @@
-CLASS com/corrodinggames/rts/game/units/custom/a/a/j com/corrodinggames/rts/game/units/custom/logic/actions/UnitStatsAction
-	FIELD a deleteSelf Z
-	FIELD b switchToNeutralTeam Z
-	FIELD c switchToAggressiveTeam Z
-	FIELD d switchToTeam Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
-	FIELD e setBodyRotation Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
-	FIELD f setHeight Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
-	FIELD g teleportTo Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
-	FIELD h clearAllActionCooldowns Z
-	FIELD i addAllActionCooldownsTime F
-	FIELD j addActionCooldownTime F
-	FIELD k addActionCooldownApplyToActions Lcom/corrodinggames/rts/game/units/custom/u;
-	FIELD l removeAllQueuedItemsWithoutRefund Z
-	FIELD m refundAllQueuedItems Z
-	FIELD n setBuilt F
-	FIELD o offsetSelfAbsolute Lcom/corrodinggames/rts/gameFramework/utility/ai;
-	FIELD p resetUnitStats Z
-	FIELD q setUnitStats Lcom/corrodinggames/rts/game/units/custom/logicBooleans/VariableScope$CachedWriter;
+CLASS com/corrodinggames/rts/game/units/custom/a/a/class_454 com/corrodinggames/rts/game/units/custom/logic/actions/UnitStatsAction
+	FIELD field_2195 deleteSelf Z
+	FIELD field_2196 switchToNeutralTeam Z
+	FIELD field_2197 switchToAggressiveTeam Z
+	FIELD field_2198 switchToTeam Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_2199 setBodyRotation Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_2200 setHeight Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_2201 teleportTo Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_2202 clearAllActionCooldowns Z
+	FIELD field_2203 addAllActionCooldownsTime F
+	FIELD field_2204 addActionCooldownTime F
+	FIELD field_2206 removeAllQueuedItemsWithoutRefund Z
+	FIELD field_2207 refundAllQueuedItems Z
+	FIELD field_2208 setBuilt F
+	FIELD field_2210 resetUnitStats Z
+	FIELD field_2211 setUnitStats Lcom/corrodinggames/rts/game/units/custom/logicBooleans/VariableScope$CachedWriter;

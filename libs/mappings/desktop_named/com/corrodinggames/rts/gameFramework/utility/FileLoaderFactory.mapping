@@ -1,9 +1,5 @@
-CLASS com/corrodinggames/rts/gameFramework/utility/ae com/corrodinggames/rts/gameFramework/utility/FileLoaderFactory
-	FIELD a zipFileLoaderLock Ljava/lang/Object;
-	FIELD b modFileLoader Lcom/corrodinggames/rts/gameFramework/utility/ag;
-	FIELD c zipFileLoader Lcom/corrodinggames/rts/gameFramework/utility/af;
-	METHOD a isZipFSEnabled ()Z
-	METHOD a getFileLoaderForPath (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/af;
-	METHOD b closeAll ()V
-	METHOD b getZipFileLoaderForPath (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/af;
-	METHOD c closeModFile (Ljava/lang/String;)V
+CLASS com/corrodinggames/rts/gameFramework/utility/class_1300 com/corrodinggames/rts/gameFramework/utility/FileLoaderFactory
+	FIELD field_7261 zipFileLoaderLock Ljava/lang/Object;
+	METHOD method_3590 closeAll ()V
+	METHOD method_3592 isZipFSEnabled ()Z
+	METHOD method_3594 closeModFile (Ljava/lang/String;)V

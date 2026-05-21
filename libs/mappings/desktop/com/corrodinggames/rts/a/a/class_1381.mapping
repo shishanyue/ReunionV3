@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/a/a/e com/corrodinggames/rts/a/a/class_1381
+	FIELD a field_7695 I
+	METHOD a method_4095 ()V
+	METHOD a method_4098 ([Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a method_4099 ([Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a method_4096 (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a method_4097 (Ljava/lang/String;Ljava/lang/String;Z)V

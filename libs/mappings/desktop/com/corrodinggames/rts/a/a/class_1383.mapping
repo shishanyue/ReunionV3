@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/a/a/g com/corrodinggames/rts/a/a/class_1383
+	FIELD a field_7701 I
+	FIELD b field_7702 I
+	FIELD c field_7703 Z
+	FIELD d field_7704 Lcom/corrodinggames/rts/a/a/f;
+	METHOD a method_4101 ()I

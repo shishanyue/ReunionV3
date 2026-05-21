@@ -7,3 +7,5 @@ CLASS com/corrodinggames/rts/gameFramework/utility/a/c com/corrodinggames/rts/ga
 	FIELD f field_7215 Z
 	FIELD g field_7216 I
 	FIELD h field_7217 Lcom/corrodinggames/rts/gameFramework/utility/a/b;
+	METHOD a method_5782 ()Ljava/util/HashMap;
+	METHOD a method_5783 (Landroid/content/Context;)V

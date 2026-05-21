@@ -7,6 +7,8 @@ CLASS com/corrodinggames/rts/game/a/h com/corrodinggames/rts/game/a/class_291
 	METHOD b method_258 (F)V
 	METHOD b method_262 (Lcom/corrodinggames/rts/game/units/y;)V
 	METHOD c method_261 (F)V
+	METHOD l method_4266 ()I
 	METHOD m method_263 ()Z
 	METHOD n method_264 ()V
+	METHOD o method_4267 ()V
 	METHOD q method_265 ()V

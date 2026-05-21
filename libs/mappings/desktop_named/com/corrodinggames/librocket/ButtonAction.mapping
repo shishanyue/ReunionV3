@@ -1,4 +1,4 @@
-CLASS com/corrodinggames/librocket/e com/corrodinggames/librocket/ButtonAction
-	FIELD a text Ljava/lang/String;
-	FIELD b runnable Ljava/lang/Runnable;
-	FIELD c closesDialog Z
+CLASS com/corrodinggames/librocket/class_1375 com/corrodinggames/librocket/ButtonAction
+	FIELD field_7684 text Ljava/lang/String;
+	FIELD field_7685 runnable Ljava/lang/Runnable;
+	FIELD field_7686 closesDialog Z

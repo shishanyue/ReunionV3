@@ -1,12 +1,21 @@
 CLASS com/corrodinggames/rts/gameFramework/d/e com/corrodinggames/rts/gameFramework/d/class_894
 	FIELD a field_4987 Lcom/corrodinggames/rts/game/units/custom/ay;
 	FIELD A field_4961 S
+	FIELD aa field_8373 Ljava/lang/String;
+	FIELD ab field_8374 Landroid/graphics/Paint;
+	FIELD ac field_8375 F
+	FIELD ad field_8376 F
+	FIELD ae field_8377 Z
 	FIELD af field_4993 I
 	FIELD ag field_4994 I
+	FIELD ah field_8378 Z
+	FIELD ai field_8379 Z
 	FIELD aj field_4997 F
 	FIELD ak field_4998 F
 	FIELD al field_4999 Z
+	FIELD am field_8380 Z
 	FIELD an field_5001 Z
+	FIELD ao field_8381 F
 	FIELD ap field_5003 I
 	FIELD aq field_5004 I
 	FIELD ar field_5005 S
@@ -27,6 +36,7 @@ CLASS com/corrodinggames/rts/gameFramework/d/e com/corrodinggames/rts/gameFramew
 	FIELD E field_4965 F
 	FIELD f field_5017 Z
 	FIELD F field_4966 F
+	FIELD g field_8382 I
 	FIELD G field_4967 F
 	FIELD h field_5019 I
 	FIELD H field_4968 Z
@@ -39,8 +49,11 @@ CLASS com/corrodinggames/rts/gameFramework/d/e com/corrodinggames/rts/gameFramew
 	FIELD l field_5023 I
 	FIELD L field_4972 Z
 	FIELD m field_5024 I
+	FIELD M field_8369 F
 	FIELD n field_5025 I
+	FIELD N field_8370 F
 	FIELD o field_5026 Z
+	FIELD O field_8371 F
 	FIELD p field_5027 Z
 	FIELD P field_4976 F
 	FIELD q field_5028 Lcom/corrodinggames/rts/gameFramework/d/h;
@@ -50,6 +63,7 @@ CLASS com/corrodinggames/rts/gameFramework/d/e com/corrodinggames/rts/gameFramew
 	FIELD s field_5030 Z
 	FIELD S field_4979 F
 	FIELD t field_5031 F
+	FIELD T field_8372 F
 	FIELD u field_5032 Z
 	FIELD U field_4981 F
 	FIELD v field_5033 Z
@@ -62,6 +76,10 @@ CLASS com/corrodinggames/rts/gameFramework/d/e com/corrodinggames/rts/gameFramew
 	FIELD Y field_4985 F
 	FIELD z field_5037 F
 	FIELD Z field_4986 F
+	METHOD a method_5097 ()Lcom/corrodinggames/rts/gameFramework/m/ag;
+	METHOD a method_5098 (F)Lcom/corrodinggames/rts/gameFramework/m/ag;
+	METHOD a method_5099 (ILcom/corrodinggames/rts/gameFramework/d/g;Landroid/graphics/Rect;)V
+	METHOD a method_5100 (Lcom/corrodinggames/rts/gameFramework/d/e;)V
 	METHOD a method_2122 (Lcom/corrodinggames/rts/gameFramework/l;Z)Z
 	METHOD b method_2123 ()V
 	METHOD b method_2121 (F)V

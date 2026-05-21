@@ -3,4 +3,6 @@ CLASS com/corrodinggames/rts/gameFramework/b/i com/corrodinggames/rts/gameFramew
 	FIELD b field_4597 Ljava/util/List;
 	FIELD c field_4598 Lcom/corrodinggames/rts/gameFramework/b/b;
 	FIELD d field_4599 Lcom/corrodinggames/rts/gameFramework/b/b;
+	METHOD a method_4988 ()V
+	METHOD a method_4989 (Lcom/corrodinggames/rts/gameFramework/b/b;)V
 	METHOD a method_1927 (Lcom/corrodinggames/rts/gameFramework/b/b;Lcom/corrodinggames/rts/gameFramework/b/k;Lcom/corrodinggames/rts/gameFramework/b/j;)Lcom/corrodinggames/rts/gameFramework/b/b;

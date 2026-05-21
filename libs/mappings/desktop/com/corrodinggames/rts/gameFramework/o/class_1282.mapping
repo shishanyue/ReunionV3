@@ -1,1 +1,19 @@
 CLASS com/corrodinggames/rts/gameFramework/o/a com/corrodinggames/rts/gameFramework/o/class_1282
+	FIELD a field_8752 Lcom/corrodinggames/rts/gameFramework/o/a;
+	METHOD a method_5747 ()Lcom/corrodinggames/rts/gameFramework/o/a;
+	METHOD a method_5748 (F)V
+	METHOD a method_5749 (Lcom/corrodinggames/rts/gameFramework/i/b;)V
+	METHOD a method_5750 (Lcom/corrodinggames/rts/gameFramework/i/b;ZLjava/lang/String;)V
+	METHOD b method_5751 ()V
+	METHOD b method_5752 (Lcom/corrodinggames/rts/gameFramework/i/b;)V
+	METHOD c method_5753 ()Ljava/lang/String;
+	METHOD d method_5754 ()V
+	METHOD e method_5755 ()Z
+	METHOD f method_5756 ()Z
+	METHOD g method_5757 ()V
+	METHOD h method_5758 ()V
+	METHOD i method_5759 ()V
+	METHOD j method_5760 ()V
+	METHOD k method_5761 ()V
+	METHOD l method_5762 ()V
+	METHOD m method_5763 ()V

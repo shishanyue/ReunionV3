@@ -1,1 +1,5 @@
 CLASS com/corrodinggames/rts/game/a com/corrodinggames/rts/gameFramework/b/class_793
+	FIELD a field_641 I
+	FIELD b field_642 Z
+	FIELD c field_643 Z
+	FIELD d field_644 Z

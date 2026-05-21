@@ -1,8 +1,12 @@
 CLASS com/corrodinggames/rts/gameFramework/f/m com/corrodinggames/rts/gameFramework/f/class_967
 	FIELD a field_5641 I
 	FIELD b field_5642 Lcom/corrodinggames/rts/gameFramework/f/g;
+	FIELD c field_8501 Lcom/corrodinggames/rts/gameFramework/l;
+	FIELD d field_8502 Landroid/graphics/Paint;
 	FIELD e field_5645 Z
 	FIELD f field_5646 Ljava/util/ArrayList;
+	METHOD a method_5291 ()V
+	METHOD a method_5292 (FI)I
 	METHOD a method_2596 (Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/f/n;
 	METHOD b method_2594 ()V
 	METHOD c method_2597 ()V

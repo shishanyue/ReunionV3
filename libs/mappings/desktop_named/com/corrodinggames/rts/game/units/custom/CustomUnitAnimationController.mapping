@@ -1,15 +1,13 @@
-CLASS com/corrodinggames/rts/game/units/custom/e com/corrodinggames/rts/game/units/custom/CustomUnitAnimationController
-	FIELD a currentAnimation Lcom/corrodinggames/rts/game/units/custom/f;
-	FIELD b currentTime F
-	FIELD c previousTime F
-	FIELD d speedMultiplier F
-	FIELD e animationPlaying Z
-	FIELD f forceLoop Z
-	FIELD g forceVisible Z
-	FIELD h forceInvisible Z
-	FIELD i animationActive Z
-	FIELD j animationId I
-	FIELD k fadeMultiplier F
-	FIELD l fadeSpeed F
-	FIELD m unitInstance Lcom/corrodinggames/rts/game/units/custom/j;
-	FIELD n baseBlendValues [F
+CLASS com/corrodinggames/rts/game/units/custom/class_555 com/corrodinggames/rts/game/units/custom/CustomUnitAnimationController
+	FIELD field_2955 currentTime F
+	FIELD field_2956 previousTime F
+	FIELD field_2957 speedMultiplier F
+	FIELD field_2958 animationPlaying Z
+	FIELD field_2959 forceLoop Z
+	FIELD field_2960 forceVisible Z
+	FIELD field_2961 forceInvisible Z
+	FIELD field_2962 animationActive Z
+	FIELD field_2963 animationId I
+	FIELD field_2964 fadeMultiplier F
+	FIELD field_2965 fadeSpeed F
+	FIELD field_2967 baseBlendValues [F

@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/java/n com/corrodinggames/rts/java/class_1472
+	FIELD a field_9090 Lcom/corrodinggames/rts/java/m;
+	FIELD b field_9091 Lcom/corrodinggames/rts/java/l;
+	FIELD c field_9092 Lcom/corrodinggames/rts/java/audio/Music;
+	FIELD d field_9093 Z
+	FIELD e field_9094 Z
+	FIELD f field_9095 Z
+	METHOD f method_6056 ()V

@@ -1,1 +1,4 @@
 CLASS com/corrodinggames/rts/gameFramework/utility/ak com/corrodinggames/rts/gameFramework/utility/class_1306
+	FIELD a field_8807 S
+	FIELD b field_8808 S
+	METHOD a method_5810 (SS)V

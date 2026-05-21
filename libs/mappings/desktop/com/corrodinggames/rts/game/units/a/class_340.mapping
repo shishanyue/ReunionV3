@@ -3,3 +3,4 @@ CLASS com/corrodinggames/rts/game/units/a/j com/corrodinggames/rts/game/units/a/
 	FIELD b field_1536 Ljava/util/ArrayList;
 	FIELD c field_1537 Landroid/graphics/Rect;
 	METHOD a method_564 (Lcom/corrodinggames/rts/game/units/a/c;)Lcom/corrodinggames/rts/game/units/a/j;
+	METHOD K method_4440 ()Ljava/lang/String;

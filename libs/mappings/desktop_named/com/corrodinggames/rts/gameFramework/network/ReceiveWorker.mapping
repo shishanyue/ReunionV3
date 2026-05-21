@@ -1,5 +1,4 @@
-CLASS com/corrodinggames/rts/gameFramework/j/d com/corrodinggames/rts/gameFramework/network/ReceiveWorker
-	FIELD a isRunning Ljava/lang/Boolean;
-	FIELD b networkConnection Lcom/corrodinggames/rts/gameFramework/j/c;
-	METHOD a readPacketsLoop ()V
+CLASS com/corrodinggames/rts/gameFramework/j/class_1038 com/corrodinggames/rts/gameFramework/network/ReceiveWorker
+	FIELD field_6191 isRunning Ljava/lang/Boolean;
+	METHOD method_2909 readPacketsLoop ()V
 	METHOD run run ()V

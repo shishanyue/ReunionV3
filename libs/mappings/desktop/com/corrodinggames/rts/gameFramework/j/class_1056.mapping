@@ -4,3 +4,4 @@ CLASS com/corrodinggames/rts/gameFramework/j/u com/corrodinggames/rts/gameFramew
 	FIELD c field_6275 Lcom/corrodinggames/rts/gameFramework/j/s;
 	FIELD d field_6276 Ljava/lang/String;
 	FIELD e field_6277 Z
+	METHOD run run ()V

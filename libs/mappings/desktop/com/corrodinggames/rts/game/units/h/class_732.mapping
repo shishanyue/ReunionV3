@@ -12,5 +12,6 @@ CLASS com/corrodinggames/rts/game/units/h/e com/corrodinggames/rts/game/units/h/
 	FIELD k field_4108 Lcom/corrodinggames/rts/game/units/a/s;
 	FIELD l field_4109 Ljava/util/ArrayList;
 	METHOD b method_1738 ()V
+	METHOD L method_4814 ()V
 	CLASS 1 class_733
 	CLASS 2 class_734

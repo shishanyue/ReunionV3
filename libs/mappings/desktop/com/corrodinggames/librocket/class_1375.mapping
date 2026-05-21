@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/librocket/e com/corrodinggames/librocket/class_1375
+	FIELD a field_7684 Ljava/lang/String;
+	FIELD b field_7685 Ljava/lang/Runnable;
+	FIELD c field_7686 Z

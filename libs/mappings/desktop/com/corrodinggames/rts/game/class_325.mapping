@@ -5,3 +5,5 @@ CLASS com/corrodinggames/rts/game/o com/corrodinggames/rts/game/class_325
 	FIELD d field_1475 Lcom/corrodinggames/rts/game/o;
 	FIELD e field_1476 Lcom/corrodinggames/rts/game/o;
 	FIELD f field_1477 [Lcom/corrodinggames/rts/game/o;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/o;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/o;

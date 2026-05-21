@@ -17,3 +17,7 @@ CLASS com/corrodinggames/rts/gameFramework/j/ah com/corrodinggames/rts/gameFrame
 	FIELD p field_6027 Z
 	FIELD q field_6028 I
 	METHOD a method_2837 ()V
+	METHOD a method_5456 (Lcom/corrodinggames/rts/gameFramework/j/as;)V
+	METHOD a method_5457 (Lcom/corrodinggames/rts/gameFramework/j/k;)V
+	METHOD b method_5458 ()Ljava/lang/String;
+	METHOD clone clone ()Ljava/lang/Object;

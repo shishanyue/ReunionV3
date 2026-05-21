@@ -3,3 +3,4 @@ CLASS com/corrodinggames/rts/game/units/ak com/corrodinggames/rts/game/units/cla
 	METHOD bB method_808 ()I
 	METHOD e method_885 (Lcom/corrodinggames/rts/game/units/am;)V
 	METHOD f method_886 ()Z
+	METHOD j method_4475 ()Z

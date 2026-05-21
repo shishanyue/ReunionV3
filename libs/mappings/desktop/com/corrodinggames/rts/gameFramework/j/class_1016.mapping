@@ -4,6 +4,8 @@ CLASS com/corrodinggames/rts/gameFramework/j/ai com/corrodinggames/rts/gameFrame
 	FIELD c field_6031 Lcom/corrodinggames/rts/gameFramework/j/ai;
 	FIELD d field_6032 [Lcom/corrodinggames/rts/gameFramework/j/ai;
 	METHOD a method_2839 ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/j/ai;
+	METHOD values values ()[Lcom/corrodinggames/rts/gameFramework/j/ai;
 	CLASS 1 class_1017
 	CLASS 2 class_1018
 	CLASS 3 class_1019

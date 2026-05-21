@@ -1,3 +1,4 @@
 CLASS com/corrodinggames/rts/gameFramework/f/ag com/corrodinggames/rts/gameFramework/f/class_933
 	FIELD a field_5363 Landroid/graphics/Paint;
 	FIELD b field_5364 I
+	FIELD c field_8428 Lcom/corrodinggames/rts/gameFramework/f/ae;

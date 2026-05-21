@@ -1,6 +1,5 @@
-CLASS com/corrodinggames/rts/gameFramework/j/u com/corrodinggames/rts/gameFramework/network/MasterServerRequestTask
-	FIELD a requestIndex I
-	FIELD b params Ljava/util/List;
-	FIELD c responseHandler Lcom/corrodinggames/rts/gameFramework/j/s;
-	FIELD d baseUrl Ljava/lang/String;
-	FIELD e usePost Z
+CLASS com/corrodinggames/rts/gameFramework/j/class_1056 com/corrodinggames/rts/gameFramework/network/MasterServerRequestTask
+	FIELD field_6273 requestIndex I
+	FIELD field_6274 params Ljava/util/List;
+	FIELD field_6276 baseUrl Ljava/lang/String;
+	FIELD field_6277 usePost Z

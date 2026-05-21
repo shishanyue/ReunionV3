@@ -1,0 +1,6 @@
+CLASS com/a/a/a/a com/a/a/a/class_1370
+	FIELD a field_7629 [Ljava/lang/Object;
+	FIELD b field_7630 [Ljava/lang/Object;
+	METHOD a method_4013 (I)I
+	METHOD b method_4014 (I)I
+	METHOD c method_4015 (I)I

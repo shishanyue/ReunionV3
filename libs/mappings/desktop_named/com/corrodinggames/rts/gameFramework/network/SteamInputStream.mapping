@@ -1,6 +1,5 @@
-CLASS com/corrodinggames/rts/gameFramework/j/i com/corrodinggames/rts/gameFramework/network/SteamInputStream
-	FIELD a incomingQueue Ljava/util/concurrent/LinkedBlockingDeque;
-	FIELD b firstPacketLogged Z
-	FIELD c singleByteBuffer [B
-	FIELD d steamSocket Lcom/corrodinggames/rts/gameFramework/j/h;
-	METHOD a enqueuePacket ([B)V
+CLASS com/corrodinggames/rts/gameFramework/j/class_1042 com/corrodinggames/rts/gameFramework/network/SteamInputStream
+	FIELD field_6231 incomingQueue Ljava/util/concurrent/LinkedBlockingDeque;
+	FIELD field_6232 firstPacketLogged Z
+	FIELD field_6233 singleByteBuffer [B
+	METHOD method_2915 enqueuePacket ([B)V

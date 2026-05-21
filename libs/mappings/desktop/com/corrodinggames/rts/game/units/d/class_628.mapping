@@ -7,6 +7,8 @@ CLASS com/corrodinggames/rts/game/units/d/d com/corrodinggames/rts/game/units/d/
 	FIELD r field_3709 I
 	FIELD s field_3710 I
 	METHOD a method_1567 (Lcom/corrodinggames/rts/game/units/as;FFLcom/corrodinggames/rts/game/n;)Z
+	METHOD a method_4719 (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/as;Lcom/corrodinggames/rts/game/units/ao;III)Z
+	METHOD a method_4720 (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/as;Lcom/corrodinggames/rts/game/units/ao;IIZ)Z
 	METHOD a method_1566 (Lcom/corrodinggames/rts/game/units/y;Lcom/corrodinggames/rts/game/units/as;Lcom/corrodinggames/rts/game/units/ao;IIZLcom/corrodinggames/rts/game/n;)Ljava/lang/String;
 	METHOD b method_1568 (II)Lcom/corrodinggames/rts/game/units/am;
 	METHOD ds method_1564 ()Z

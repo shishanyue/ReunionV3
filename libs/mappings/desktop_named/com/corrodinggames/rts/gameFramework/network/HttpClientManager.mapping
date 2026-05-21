@@ -1,6 +1,6 @@
-CLASS com/corrodinggames/rts/gameFramework/j/r com/corrodinggames/rts/gameFramework/network/HttpClientManager
-	FIELD a clientLock Ljava/util/concurrent/locks/ReentrantLock;
-	METHOD a getAndroidHttpClient ()Lorg/apache/http/client/HttpClient;
-	METHOD a getNewHttpClient (IZ)Lorg/apache/http/client/HttpClient;
-	METHOD a closeIfAndroidClient (Lorg/apache/http/client/HttpClient;)V
-	METHOD b getDefaultHttpClient ()Lorg/apache/http/client/HttpClient;
+CLASS com/corrodinggames/rts/gameFramework/j/class_1053 com/corrodinggames/rts/gameFramework/network/HttpClientManager
+	FIELD field_6266 clientLock Ljava/util/concurrent/locks/ReentrantLock;
+	METHOD method_5518 getAndroidHttpClient ()Lorg/apache/http/client/HttpClient;
+	METHOD method_5519 getNewHttpClient (IZ)Lorg/apache/http/client/HttpClient;
+	METHOD method_5520 closeIfAndroidClient (Lorg/apache/http/client/HttpClient;)V
+	METHOD method_5521 getDefaultHttpClient ()Lorg/apache/http/client/HttpClient;

@@ -9,6 +9,7 @@ CLASS com/corrodinggames/rts/gameFramework/b/k com/corrodinggames/rts/gameFramew
 	METHOD a method_1936 (Lcom/corrodinggames/rts/gameFramework/b/b;III)V
 	METHOD a method_1938 (Lcom/corrodinggames/rts/gameFramework/b/b;IIIILcom/corrodinggames/rts/gameFramework/b/af;Lcom/corrodinggames/rts/gameFramework/b/l;)V
 	METHOD a method_1937 (Lcom/corrodinggames/rts/gameFramework/b/b;IILandroid/graphics/Bitmap;II)V
+	METHOD a method_4990 (Lcom/corrodinggames/rts/gameFramework/b/b;Landroid/graphics/Bitmap;I)V
 	METHOD a method_1942 (Ljava/lang/String;FFLandroid/graphics/Paint;)V
 	METHOD b method_1946 ()V
 	METHOD b method_1945 (Lcom/corrodinggames/rts/gameFramework/b/b;)V

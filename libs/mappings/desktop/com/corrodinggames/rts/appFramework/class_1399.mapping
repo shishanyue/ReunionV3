@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/appFramework/s com/corrodinggames/rts/appFramework/class_1399
+	FIELD c field_7829 Z
+	FIELD d field_7830 Z
+	FIELD e field_7831 [I
+	FIELD f field_7832 Lcom/corrodinggames/rts/appFramework/d;
+	METHOD l method_4183 ()V
+	CLASS 1
+		FIELD a field_7833 Lcom/corrodinggames/rts/appFramework/s;

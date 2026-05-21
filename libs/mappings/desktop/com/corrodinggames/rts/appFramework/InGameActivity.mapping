@@ -1,5 +1,14 @@
 CLASS com/corrodinggames/rts/appFramework/g com/corrodinggames/rts/appFramework/InGameActivity
+	FIELD c field_7738 Lcom/corrodinggames/rts/appFramework/f;
+	FIELD d field_7739 Landroid/os/Handler;
+	FIELD e field_7740 Landroid/app/ProgressDialog;
+	FIELD f field_7741 Z
+	METHOD a method_4154 (Lcom/corrodinggames/rts/appFramework/g;)V
+	METHOD a method_4155 (Lcom/corrodinggames/rts/appFramework/g;Ljava/lang/String;)V
 	METHOD a makeSendMessagePopup (Z)V
+	METHOD b method_4156 (Lcom/corrodinggames/rts/appFramework/g;Ljava/lang/String;)V
+	METHOD c method_4157 (I)V
+	METHOD d method_4158 (I)V
 	METHOD d saveGame (Ljava/lang/String;)V
 	METHOD e makeExportMapPopup (Ljava/lang/String;)V
 	METHOD f makeSaveGamePopup (Ljava/lang/String;)V
@@ -8,28 +17,66 @@ CLASS com/corrodinggames/rts/appFramework/g com/corrodinggames/rts/appFramework/
 	METHOD n openMarketLinkInternal ()V
 	CLASS 1 class_14
 		FIELD a field_163 I
+		FIELD b field_7742 Lcom/corrodinggames/rts/appFramework/g;
+		METHOD run run ()V
 	CLASS 2 class_15
 		FIELD a field_165 Landroid/widget/EditText;
 		FIELD b field_166 Z
+		FIELD c field_7751 Lcom/corrodinggames/rts/appFramework/g;
+		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
 	CLASS 3 class_16
+		FIELD a field_7752 Lcom/corrodinggames/rts/appFramework/g;
+		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
 	CLASS 4 class_17
 		FIELD a field_169 Landroid/widget/EditText;
+		FIELD b field_7753 Lcom/corrodinggames/rts/gameFramework/l;
+		FIELD c field_7754 Lcom/corrodinggames/rts/appFramework/g;
+		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
 		CLASS 1 class_18
 			FIELD a field_172 Ljava/lang/String;
+			FIELD b field_7755 Lcom/corrodinggames/rts/appFramework/g$4;
+			METHOD onClick onClick (Landroid/content/DialogInterface;I)V
 	CLASS 5 class_19
+		FIELD a field_7756 Lcom/corrodinggames/rts/appFramework/g;
+		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
 	CLASS 6 class_20
 		FIELD a field_175 Landroid/widget/EditText;
+		FIELD b field_7757 Lcom/corrodinggames/rts/appFramework/g;
+		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
 		CLASS 1 class_21
 			FIELD a field_177 Ljava/lang/String;
+			FIELD b field_7758 Lcom/corrodinggames/rts/appFramework/g$6;
+			METHOD onClick onClick (Landroid/content/DialogInterface;I)V
 	CLASS 7 class_22
+		FIELD a field_7759 Lcom/corrodinggames/rts/appFramework/g;
+		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
 	CLASS 8 class_26
+		FIELD a field_7760 Lcom/corrodinggames/rts/appFramework/g;
+		METHOD run run ()V
 	CLASS 9 class_27
+		FIELD a field_7761 Lcom/corrodinggames/rts/appFramework/g;
+		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
 	CLASS 10 class_28
+		FIELD a field_7743 Lcom/corrodinggames/rts/appFramework/g;
+		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
 	CLASS 11 class_29
+		FIELD a field_7744 Landroid/app/Activity;
+		FIELD b field_7745 Lcom/corrodinggames/rts/appFramework/g;
+		METHOD run run ()V
 	CLASS 12 class_31
+		FIELD a field_7746 Lcom/corrodinggames/rts/appFramework/g;
+		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
 	CLASS 13 class_23
+		FIELD a field_7747 Lcom/corrodinggames/rts/appFramework/g;
+		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
 	CLASS 14 class_33
+		FIELD a field_7748 Lcom/corrodinggames/rts/appFramework/g;
+		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
 	CLASS 15 class_24
+		FIELD a field_7749 Lcom/corrodinggames/rts/appFramework/g;
+		METHOD onClick onClick (Landroid/content/DialogInterface;I)V
 	CLASS 16 class_35
 		FIELD a field_193 Landroid/widget/EditText;
 		FIELD b field_194 Z
+		FIELD c field_7750 Lcom/corrodinggames/rts/appFramework/g;
+		METHOD onClick onClick (Landroid/content/DialogInterface;I)V

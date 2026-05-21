@@ -1,2 +1,14 @@
 CLASS com/corrodinggames/rts/gameFramework/b/a/d com/corrodinggames/rts/gameFramework/b/a/class_799
+	FIELD a field_8195 Lcom/corrodinggames/rts/gameFramework/b/a/b;
+	FIELD b field_8196 Lcom/corrodinggames/rts/gameFramework/b/a/g;
+	FIELD c field_8197 [F
+	FIELD d field_8198 I
+	FIELD e field_8199 I
+	FIELD f field_8200 I
+	FIELD g field_8201 I
+	FIELD h field_8202 [F
 	FIELD i field_4432 I
+	METHOD a method_4945 ()V
+	METHOD a method_4948 ([F)V
+	METHOD a method_4946 (FFFFLcom/corrodinggames/rts/gameFramework/b/a/c;)V
+	METHOD a method_4947 (Lcom/corrodinggames/rts/gameFramework/b/a/c;)V

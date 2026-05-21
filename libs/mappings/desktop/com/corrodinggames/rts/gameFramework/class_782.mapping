@@ -4,6 +4,7 @@ CLASS com/corrodinggames/rts/gameFramework/af com/corrodinggames/rts/gameFramewo
 	FIELD c field_4321 Z
 	FIELD d field_4322 Z
 	METHOD a method_1815 ()Z
+	METHOD a method_4899 (Lcom/corrodinggames/rts/gameFramework/af;)Z
 	METHOD b method_1816 ()Z
 	METHOD c method_1817 ()Ljava/lang/String;
 	METHOD d method_1818 ()Z

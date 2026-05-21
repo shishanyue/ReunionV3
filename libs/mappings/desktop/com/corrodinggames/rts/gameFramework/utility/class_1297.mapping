@@ -9,20 +9,29 @@ CLASS com/corrodinggames/rts/gameFramework/utility/ab com/corrodinggames/rts/gam
 	FIELD h field_7254 Ljava/util/regex/Pattern;
 	FIELD i field_7255 Ljava/util/regex/Pattern;
 	FIELD j field_7245 Ljava/util/LinkedHashMap;
+	FIELD k field_8801 Z
+	METHOD a method_5784 ()V
 	METHOD a method_3525 (Lcom/corrodinggames/rts/game/units/custom/l;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	METHOD a method_5785 (Lcom/corrodinggames/rts/game/units/custom/l;Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/e/a;Z)Lcom/corrodinggames/rts/game/units/custom/e/a;
 	METHOD a method_3540 (Lcom/corrodinggames/rts/game/units/custom/l;Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/h;)Lcom/corrodinggames/rts/game/units/custom/h;
 	METHOD a method_3527 (Lcom/corrodinggames/rts/game/units/custom/l;Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;)Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
 	METHOD a method_3526 (Lcom/corrodinggames/rts/game/units/custom/l;Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean$ReturnType;)Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
 	METHOD a method_3528 (Lcom/corrodinggames/rts/game/units/custom/l;Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/u;)Lcom/corrodinggames/rts/game/units/custom/u;
 	METHOD a method_3529 (Lcom/corrodinggames/rts/game/units/custom/l;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/aj;
 	METHOD a method_3530 (Lcom/corrodinggames/rts/gameFramework/utility/ab;)V
+	METHOD a method_5786 (Ljava/io/BufferedReader;)V
+	METHOD a method_5787 (Ljava/io/InputStream;)V
+	METHOD a method_5788 (Ljava/lang/String;)V
 	METHOD a method_3533 (Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/l;Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;)Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
 	METHOD a method_3534 (Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/l;Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean$ReturnType;)Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
 	METHOD a method_3535 (Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/RuntimeException;
 	METHOD a method_3536 (Ljava/lang/String;Ljava/lang/Enum;Ljava/lang/Class;)Ljava/lang/Enum;
 	METHOD a method_3537 (Ljava/lang/String;Ljava/lang/String;)V
 	METHOD a method_3538 (Ljava/lang/String;Ljava/lang/String;D)D
+	METHOD a method_5789 (Ljava/lang/String;Ljava/lang/String;J)J
+	METHOD a method_5790 (Ljava/lang/String;Ljava/lang/String;Landroid/graphics/PointF;)Landroid/graphics/PointF;
 	METHOD a method_3539 (Ljava/lang/String;Ljava/lang/String;Landroid/graphics/Rect;)Landroid/graphics/Rect;
+	METHOD a method_5791 (Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/g;)Lcom/corrodinggames/rts/game/units/custom/g;
 	METHOD a method_3573 (Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/gameFramework/utility/ai;)Lcom/corrodinggames/rts/gameFramework/utility/ai;
 	METHOD a method_3541 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;)Ljava/lang/Boolean;
 	METHOD a method_3542 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Enum;Ljava/lang/Class;)Ljava/lang/Enum;
@@ -40,23 +49,31 @@ CLASS com/corrodinggames/rts/gameFramework/utility/ab com/corrodinggames/rts/gam
 	METHOD b method_3524 ()V
 	METHOD b method_3553 (Lcom/corrodinggames/rts/game/units/custom/l;Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;)Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
 	METHOD b method_3570 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD b method_5792 (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 	METHOD b method_3556 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Float;)Ljava/lang/Float;
 	METHOD b method_3557 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;)Ljava/lang/Integer;
 	METHOD b method_3547 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 	METHOD c method_3552 ()I
 	METHOD c method_3560 (Lcom/corrodinggames/rts/game/units/custom/l;Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;)Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
 	METHOD c method_3532 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/m;
+	METHOD c method_5793 (Ljava/lang/String;Ljava/lang/String;)V
 	METHOD c method_3563 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Float;)Ljava/lang/Float;
+	METHOD c method_5794 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+	METHOD d method_5795 ()Ljava/util/LinkedHashMap;
+	METHOD d method_5796 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/m;
 	METHOD d method_3555 (Ljava/lang/String;Ljava/lang/String;)Z
 	METHOD d method_3568 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Float;)Ljava/lang/Float;
+	METHOD d method_5797 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 	METHOD e method_3554 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/m;
 	METHOD e method_3562 (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+	METHOD e method_5798 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 	METHOD f method_3561 (Ljava/lang/String;)Z
 	METHOD f method_3586 (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 	METHOD f method_3558 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/m;
 	METHOD g method_3566 (Ljava/lang/String;)Z
 	METHOD g method_3567 (Ljava/lang/String;Ljava/lang/String;)I
 	METHOD g method_3564 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+	METHOD h method_5799 (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Float;
 	METHOD h method_3569 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)F
 	METHOD i method_3575 (Ljava/lang/String;Ljava/lang/String;)F
 	METHOD i method_3572 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I

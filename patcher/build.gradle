@@ -36,6 +36,7 @@ def androidRSource = file("$rootDir/android/build/intermediates/runtime_symbol_l
 def androidRTarget = file("$rootDir/build/R.txt")
 def desktopBaseJar = file("$rootDir/libs/game-lib.jar")
 def desktopBaseEnigmaDir = file("$rootDir/libs/mappings/desktop")
+def desktopNamedDir = file("$rootDir/libs/mappings/desktop_named")
 def androidPatchedJar = layout.buildDirectory.file('tmp/android/base-patched.jar')
 def desktopPatchedJar = layout.buildDirectory.file('tmp/desktop/base-patched.jar')
 
@@ -49,7 +50,7 @@ tasks.register('patchAndroidJar', JavaExec) {
     inputs.dir(androidNamedDir)
     outputs.file(androidPatchedJar)
     outputs.file(androidRTarget)
-    args = [androidBaseJar.absolutePath, androidPatchedJar.get().asFile.absolutePath, '--platform', 'android', '--remap-ids', androidRTarget.absolutePath, '--enigma-dir', androidEnigmaDir.absolutePath, '--named-dir', androidNamedDir.absolutePath]
+    args = [androidBaseJar.absolutePath, androidPatchedJar.get().asFile.absolutePath, '--platform', 'android', '--remap-ids', androidRTarget.absolutePath, '--enigma-dir', androidEnigmaDir.absolutePath/*, '--named-dir', androidNamedDir.absolutePath*/]
     workingDir = rootDir
     doFirst {
         androidPatchedJar.get().asFile.with {
@@ -71,7 +72,7 @@ tasks.register('patchDesktopJar', JavaExec) {
     inputs.file(desktopBaseJar)
     inputs.dir(desktopBaseEnigmaDir)
     outputs.file(desktopPatchedJar)
-    args = [desktopBaseJar.absolutePath, desktopPatchedJar.get().asFile.absolutePath, '--platform', 'desktop', '--enigma-dir', desktopBaseEnigmaDir.absolutePath]
+    args = [desktopBaseJar.absolutePath, desktopPatchedJar.get().asFile.absolutePath, '--platform', 'desktop', '--enigma-dir', desktopBaseEnigmaDir.absolutePath, '--named-dir', desktopNamedDir.absolutePath]
     workingDir = rootDir
     doFirst {
         desktopPatchedJar.get().asFile.with {

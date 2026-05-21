@@ -1,8 +1,6 @@
-CLASS com/corrodinggames/rts/game/units/custom/a/a/o com/corrodinggames/rts/game/units/custom/logic/actions/TransportAction
-	FIELD a addUnitsIntoTransport Lcom/corrodinggames/rts/game/units/custom/bp;
-	FIELD b deleteNumUnitsFromTransport I
-	FIELD c deleteNumUnitsFromTransport_onlyWithTags Lcom/corrodinggames/rts/game/units/custom/h;
-	FIELD d startUnloadingTransport Z
-	FIELD e forceUnloadTransportNow Z
-	FIELD f forceUnloadTransportNow_onlyOnSlot I
-	FIELD g transportTargetNow Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+CLASS com/corrodinggames/rts/game/units/custom/a/a/class_459 com/corrodinggames/rts/game/units/custom/logic/actions/TransportAction
+	FIELD field_2250 forceUnloadTransportNow_onlyOnSlot I
+	FIELD field_7980 deleteNumUnitsFromTransport I
+	FIELD field_7982 startUnloadingTransport Z
+	FIELD field_7983 forceUnloadTransportNow Z
+	FIELD field_7984 transportTargetNow Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;

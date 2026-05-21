@@ -9,7 +9,12 @@ CLASS com/corrodinggames/rts/game/b/d com/corrodinggames/rts/game/b/class_303
 	FIELD h field_970 Landroid/graphics/Paint;
 	FIELD i field_971 I
 	FIELD j field_972 I
+	FIELD k field_7901 Z
+	FIELD l field_7902 Z
 	FIELD m field_975 I
+	FIELD n field_7903 Z
+	FIELD o field_7904 Landroid/graphics/Rect;
+	FIELD p field_7905 Landroid/graphics/Rect;
 	FIELD q field_979 Landroid/graphics/RectF;
 	FIELD r field_980 Landroid/graphics/Rect;
 	FIELD s field_981 Lcom/corrodinggames/rts/game/b/c;

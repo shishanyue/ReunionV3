@@ -1,24 +1,19 @@
-CLASS com/corrodinggames/rts/gameFramework/j/ah com/corrodinggames/rts/gameFramework/network/GameRoomSettings
-	FIELD a gameModeType Lcom/corrodinggames/rts/gameFramework/j/ai;
-	FIELD b mapPath Ljava/lang/String;
-	FIELD c startingCredits I
-	FIELD d fodMode I
-	FIELD e revealedMap Z
-	FIELD f aiDifficulty I
-	FIELD g startingUnits I
-	FIELD h incomeMultiplier F
-	FIELD i noNukes Z
-	FIELD j unknown Z
-	FIELD k useDisplayedCostAsResourceCost Z
-	FIELD l sharedControl Z
-	FIELD m teamLock Z
-	FIELD n fixedAllyTeams Z
-	FIELD o allowSpectators Z
-	FIELD p roomLock Z
-	FIELD q randomSeed I
-	METHOD a resetToDefaults ()V
-	METHOD a writeToStream (Lcom/corrodinggames/rts/gameFramework/j/as;)V
-		ARG 1 gos
-	METHOD a readFromStream (Lcom/corrodinggames/rts/gameFramework/j/k;)V
-		ARG 1 gis
-	METHOD b getSettingsSummary ()Ljava/lang/String;
+CLASS com/corrodinggames/rts/gameFramework/j/class_1015 com/corrodinggames/rts/gameFramework/network/GameRoomSettings
+	FIELD field_6013 mapPath Ljava/lang/String;
+	FIELD field_6014 startingCredits I
+	FIELD field_6015 fodMode I
+	FIELD field_6016 revealedMap Z
+	FIELD field_6017 aiDifficulty I
+	FIELD field_6018 startingUnits I
+	FIELD field_6019 incomeMultiplier F
+	FIELD field_6020 noNukes Z
+	FIELD field_6021 unknown Z
+	FIELD field_6022 useDisplayedCostAsResourceCost Z
+	FIELD field_6023 sharedControl Z
+	FIELD field_6024 teamLock Z
+	FIELD field_6025 fixedAllyTeams Z
+	FIELD field_6026 allowSpectators Z
+	FIELD field_6027 roomLock Z
+	FIELD field_6028 randomSeed I
+	METHOD method_2837 resetToDefaults ()V
+	METHOD method_5458 getSettingsSummary ()Ljava/lang/String;

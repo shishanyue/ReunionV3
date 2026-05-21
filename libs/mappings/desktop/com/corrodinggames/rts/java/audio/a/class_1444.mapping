@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/java/audio/a/t com/corrodinggames/rts/java/audio/a/class_1444
+	METHOD toByteArray toByteArray ()[B

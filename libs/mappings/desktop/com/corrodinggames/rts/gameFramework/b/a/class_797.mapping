@@ -1,11 +1,47 @@
 CLASS com/corrodinggames/rts/gameFramework/b/a/b com/corrodinggames/rts/gameFramework/b/a/class_797
 	FIELD a field_4391 Landroid/content/res/AssetManager;
 	FIELD b field_4392 Lcom/corrodinggames/rts/gameFramework/b/a/d;
+	FIELD c field_8170 I
+	FIELD d field_8171 I
+	FIELD e field_8172 F
 	FIELD f field_4396 F
+	FIELD g field_8173 F
+	FIELD h field_8174 F
+	FIELD i field_8175 F
+	FIELD j field_8176 I
+	FIELD k field_8177 I
+	FIELD l field_8178 I
+	FIELD m field_8179 I
+	FIELD n field_8180 F
+	FIELD o field_8181 F
+	FIELD p field_8182 F
 	FIELD q field_4407 Z
 	FIELD r field_4411 Landroid/graphics/Paint;
 	FIELD s field_4412 Ljava/util/ArrayList;
 	FIELD t field_4413 [[Lcom/corrodinggames/rts/gameFramework/b/a/c;
+	FIELD u field_8183 Z
+	FIELD v field_8184 I
 	FIELD w field_4416 Z
+	FIELD x field_8185 Lcom/corrodinggames/rts/gameFramework/b/a/a/b;
+	FIELD y field_8186 I
+	FIELD z field_8187 I
+	METHOD a method_4927 ()V
+	METHOD a method_4928 (C)Lcom/corrodinggames/rts/gameFramework/b/a/c;
+	METHOD a method_4929 (CLcom/corrodinggames/rts/gameFramework/b/a/c;)V
+	METHOD a method_4930 (F)V
+	METHOD a method_4931 (FFFF)V
+	METHOD a method_4932 (FFFF[F)V
+	METHOD a method_4933 (I)V
+	METHOD a method_4934 (Landroid/graphics/Paint;III)Z
+	METHOD a method_4935 (Ljava/lang/String;)F
+	METHOD a method_4936 (Ljava/lang/String;FF)V
+	METHOD a method_4937 (Ljava/lang/String;FFF)V
+	METHOD a method_4938 (Ljava/lang/String;FFFF)V
+	METHOD a method_4939 (Ljava/lang/String;FFFFFF)V
+	METHOD a method_4940 (Z)V
 	METHOD b method_1843 ()V
 	METHOD b method_1837 (C)Lcom/corrodinggames/rts/gameFramework/b/a/c;
+	METHOD b method_4941 (Ljava/lang/String;)V
+	METHOD c method_4942 ()V
+	METHOD c method_4943 (C)V
+	METHOD d method_4944 ()V

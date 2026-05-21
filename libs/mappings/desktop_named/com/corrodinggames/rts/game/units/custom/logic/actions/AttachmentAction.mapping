@@ -1,7 +1,6 @@
-CLASS com/corrodinggames/rts/game/units/custom/a/a/e com/corrodinggames/rts/game/units/custom/logic/actions/AttachmentAction
-	FIELD a addNewUnits Lcom/corrodinggames/rts/game/units/custom/bp;
-	FIELD b onlyOnSlots Ljava/util/ArrayList;
-	FIELD c deleteNumUnits I
-	FIELD d disconnect Z
-	FIELD e unload Z
-	FIELD f disconnectFromParent Z
+CLASS com/corrodinggames/rts/game/units/custom/a/a/class_449 com/corrodinggames/rts/game/units/custom/logic/actions/AttachmentAction
+	FIELD field_2170 onlyOnSlots Ljava/util/ArrayList;
+	FIELD field_2171 deleteNumUnits I
+	FIELD field_2172 disconnect Z
+	FIELD field_2173 unload Z
+	FIELD field_2174 disconnectFromParent Z

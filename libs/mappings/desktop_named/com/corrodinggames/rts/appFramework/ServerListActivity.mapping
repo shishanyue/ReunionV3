@@ -1,6 +1,5 @@
-CLASS com/corrodinggames/rts/appFramework/p com/corrodinggames/rts/appFramework/ServerListActivity
-	FIELD c instance Lcom/corrodinggames/rts/appFramework/p;
-	FIELD d uiHandler Landroid/os/Handler;
-	FIELD e updateUIRunnable Ljava/lang/Runnable;
-	METHOD l refreshUI ()V
-	METHOD m getServerList ()Ljava/util/ArrayList;
+CLASS com/corrodinggames/rts/appFramework/MultiplayerLobbyActivity com/corrodinggames/rts/appFramework/ServerListActivity
+	FIELD field_7826 uiHandler Landroid/os/Handler;
+	FIELD field_7827 updateUIRunnable Ljava/lang/Runnable;
+	METHOD getSortedDiscoveredServers getServerList ()Ljava/util/ArrayList;
+	METHOD method_4177 refreshUI ()V

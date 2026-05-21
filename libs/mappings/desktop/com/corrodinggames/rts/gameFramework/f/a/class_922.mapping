@@ -3,3 +3,5 @@ CLASS com/corrodinggames/rts/gameFramework/f/a/m com/corrodinggames/rts/gameFram
 	FIELD b field_5302 Lcom/corrodinggames/rts/gameFramework/f/a/m;
 	FIELD c field_5303 Lcom/corrodinggames/rts/gameFramework/f/a/m;
 	FIELD d field_5304 [Lcom/corrodinggames/rts/gameFramework/f/a/m;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/f/a/m;
+	METHOD values values ()[Lcom/corrodinggames/rts/gameFramework/f/a/m;

@@ -3,3 +3,4 @@ CLASS com/corrodinggames/rts/gameFramework/k/h com/corrodinggames/rts/gameFramew
 	FIELD b field_6522 Lcom/corrodinggames/rts/game/units/af;
 	FIELD c field_6523 Landroid/graphics/Point;
 	METHOD a method_3103 (FF)Lcom/corrodinggames/rts/game/units/af;
+	METHOD e method_5544 (Lcom/corrodinggames/rts/game/units/am;)Lcom/corrodinggames/rts/game/units/af;

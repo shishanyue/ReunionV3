@@ -1,5 +1,3 @@
-CLASS a/a/e net/rudp/ReliableSocketConnection
-	FIELD a isInitialized Z
-	FIELD b serverSocket La/a/b;
-	FIELD i incomingPacketQueue Ljava/util/ArrayList;
-	METHOD a enqueueIncomingPacket (La/a/a/h;)V
+CLASS a/a/class_1352 net/rudp/ReliableSocketConnection
+	FIELD field_7393 isInitialized Z
+	FIELD field_7395 incomingPacketQueue Ljava/util/ArrayList;

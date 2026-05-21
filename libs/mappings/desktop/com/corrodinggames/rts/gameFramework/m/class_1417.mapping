@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/gameFramework/m/w com/corrodinggames/rts/gameFramework/m/class_1417
+	FIELD a field_8707 Lcom/corrodinggames/rts/gameFramework/m/w;
+	FIELD b field_8708 Lcom/corrodinggames/rts/gameFramework/m/w;
+	FIELD c field_8709 Lcom/corrodinggames/rts/gameFramework/m/w;
+	FIELD d field_8710 [Lcom/corrodinggames/rts/gameFramework/m/w;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/m/w;
+	METHOD values values ()[Lcom/corrodinggames/rts/gameFramework/m/w;

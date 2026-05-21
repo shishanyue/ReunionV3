@@ -6,9 +6,13 @@ CLASS com/corrodinggames/rts/game/units/n com/corrodinggames/rts/game/units/clas
 	FIELD e field_1602 Lcom/corrodinggames/rts/game/units/n;
 	FIELD f field_1603 Lcom/corrodinggames/rts/game/units/n;
 	FIELD g field_1604 [Lcom/corrodinggames/rts/game/units/n;
+	METHOD a method_4817 ()Ljava/lang/String;
 	METHOD a method_647 (II)Lcom/corrodinggames/rts/game/units/n;
 	METHOD a method_648 (Lcom/corrodinggames/rts/game/units/as;)Z
+	METHOD a method_4818 (Z)Lcom/corrodinggames/rts/game/units/n;
 	METHOD b method_646 ()Z
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/n;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/n;
 	CLASS 1 class_373
 	CLASS 2 class_374
 	CLASS 3 class_375

@@ -1,0 +1,18 @@
+CLASS com/corrodinggames/rts/a/a com/corrodinggames/rts/a/class_1376
+	FIELD a field_7687 Ljava/net/ServerSocket;
+	FIELD b field_7688 Z
+	FIELD c field_7689 Z
+	FIELD d field_7690 Z
+	FIELD e field_7691 Ljava/util/ArrayList;
+	METHOD a method_4071 ()Z
+	METHOD a method_4072 (ILjava/lang/String;)V
+	METHOD a method_4073 (Ljava/lang/String;)V
+	METHOD b method_4074 ()V
+	METHOD b method_4075 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD run run ()V
+	CLASS 1
+		METHOD run run ()V
+	CLASS 2
+		FIELD a field_7692 Lcom/corrodinggames/librocket/scripts/ScriptEngine;
+		FIELD b field_7693 Ljava/lang/String;
+		METHOD run run ()V

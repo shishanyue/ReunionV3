@@ -1,0 +1,12 @@
+CLASS com/corrodinggames/rts/a/a/h com/corrodinggames/rts/a/a/class_1384
+	FIELD a field_7705 I
+	FIELD b field_7706 I
+	FIELD c field_7707 J
+	FIELD d field_7708 Z
+	FIELD e field_7709 J
+	FIELD f field_7710 J
+	FIELD g field_7711 J
+	FIELD h field_7712 J
+	FIELD i field_7713 J
+	FIELD j field_7714 J
+	METHOD toString toString ()Ljava/lang/String;

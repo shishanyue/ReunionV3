@@ -6,3 +6,5 @@ CLASS com/corrodinggames/rts/game/units/custom/b/f com/corrodinggames/rts/game/u
 	FIELD e field_2571 Lcom/corrodinggames/rts/game/units/custom/b/f;
 	FIELD f field_2572 Lcom/corrodinggames/rts/game/units/custom/b/f;
 	FIELD g field_2573 [Lcom/corrodinggames/rts/game/units/custom/b/f;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/b/f;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/custom/b/f;

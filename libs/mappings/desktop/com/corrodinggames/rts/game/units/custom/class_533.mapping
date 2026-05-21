@@ -9,6 +9,8 @@ CLASS com/corrodinggames/rts/game/units/custom/c com/corrodinggames/rts/game/uni
 	METHOD a method_1230 ()Lcom/corrodinggames/rts/game/units/custom/b;
 	METHOD a method_1231 (F)V
 	METHOD a method_1232 (FF)V
+	METHOD a method_4598 (Lcom/corrodinggames/rts/game/units/custom/j;FFZ)V
+	METHOD a method_4599 (Lcom/corrodinggames/rts/game/units/custom/l;FLjava/lang/String;Ljava/lang/String;)V
 	METHOD b method_1234 ()V
 	METHOD b method_1235 (F)F
 	METHOD c method_1236 ()V

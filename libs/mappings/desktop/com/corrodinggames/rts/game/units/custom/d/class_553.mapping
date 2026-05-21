@@ -1,8 +1,16 @@
 CLASS com/corrodinggames/rts/game/units/custom/d/c com/corrodinggames/rts/game/units/custom/d/class_553
 	FIELD a field_2945 Lcom/corrodinggames/rts/gameFramework/utility/m;
 	FIELD b field_2946 Z
+	FIELD c field_8033 I
+	FIELD d field_8034 I
+	FIELD e field_8035 I
+	FIELD f field_8036 I
 	METHOD a method_1306 (II)Z
 	METHOD a method_1307 (Lcom/corrodinggames/rts/game/units/custom/l;Lcom/corrodinggames/rts/gameFramework/utility/ab;Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/d/c;)Lcom/corrodinggames/rts/game/units/custom/d/c;
+	METHOD a method_4617 (Lcom/corrodinggames/rts/game/units/custom/l;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/d/c;
+	METHOD a method_4618 (Lcom/corrodinggames/rts/game/units/custom/l;Ljava/lang/String;Z)Lcom/corrodinggames/rts/game/units/custom/d/c;
 	METHOD b method_1308 (II)Z
+	METHOD d method_4619 (Lcom/corrodinggames/rts/game/units/am;)V
+	METHOD e method_4620 (Lcom/corrodinggames/rts/game/units/am;)V
 	METHOD f method_1309 (Lcom/corrodinggames/rts/game/units/am;)V
 	METHOD g method_1310 (Lcom/corrodinggames/rts/game/units/am;)Z

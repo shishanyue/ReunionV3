@@ -1,4 +1,10 @@
 CLASS com/corrodinggames/rts/game/a/c com/corrodinggames/rts/game/a/class_286
+	FIELD a field_7859 Ljava/util/HashMap;
+	FIELD b field_7860 Ljava/util/HashMap;
 	FIELD c field_766 Ljava/util/HashMap;
+	METHOD a method_4240 ()V
+	METHOD a method_4241 (Lcom/corrodinggames/rts/game/units/as;)V
+	METHOD a method_4242 (Lcom/corrodinggames/rts/game/units/y;)V
 	METHOD a method_242 (ZLcom/corrodinggames/rts/game/units/as;Z)Ljava/lang/Integer;
 	METHOD a method_243 (ZLcom/corrodinggames/rts/game/units/as;ZLjava/lang/Integer;)V
+	METHOD b method_4243 ()V

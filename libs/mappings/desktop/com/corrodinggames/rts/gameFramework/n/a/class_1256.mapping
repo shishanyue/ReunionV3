@@ -1,2 +1,4 @@
 CLASS com/corrodinggames/rts/gameFramework/n/a/a com/corrodinggames/rts/gameFramework/n/a/class_1256
+	METHOD a method_5722 (Lcom/corrodinggames/rts/gameFramework/n/a;)Z
 	METHOD b method_3431 (Lcom/corrodinggames/rts/gameFramework/n/a;)Z
+	METHOD c method_5723 (Lcom/corrodinggames/rts/gameFramework/n/a;)Z

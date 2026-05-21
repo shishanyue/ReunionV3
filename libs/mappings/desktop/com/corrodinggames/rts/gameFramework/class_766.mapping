@@ -1,1 +1,3 @@
 CLASS com/corrodinggames/rts/gameFramework/r com/corrodinggames/rts/gameFramework/class_766
+	FIELD c field_8753 I
+	FIELD d field_8754 Z

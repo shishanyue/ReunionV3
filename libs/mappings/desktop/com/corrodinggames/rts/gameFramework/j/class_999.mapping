@@ -3,3 +3,4 @@ CLASS com/corrodinggames/rts/gameFramework/j/ab com/corrodinggames/rts/gameFrame
 	FIELD b field_5845 Ljava/lang/String;
 	FIELD c field_5846 I
 	FIELD d field_5847 Ljava/lang/String;
+	METHOD run run ()V

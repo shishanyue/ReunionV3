@@ -30,6 +30,8 @@ CLASS com/corrodinggames/rts/gameFramework/bs com/corrodinggames/rts/gameFramewo
 	FIELD x field_4872 Lcom/corrodinggames/rts/gameFramework/bs;
 	FIELD y field_4873 Lcom/corrodinggames/rts/gameFramework/bs;
 	FIELD z field_4874 Lcom/corrodinggames/rts/gameFramework/bs;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/bs;
+	METHOD values values ()[Lcom/corrodinggames/rts/gameFramework/bs;
 	CLASS 1 class_884
 	CLASS 2 class_885
 	CLASS 3 class_886

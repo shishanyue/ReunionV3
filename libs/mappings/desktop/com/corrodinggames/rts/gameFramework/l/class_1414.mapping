@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/gameFramework/l/c com/corrodinggames/rts/gameFramework/l/class_1414
+	METHOD a method_5626 ()Ljava/lang/String;
+	METHOD a method_5627 (Lcom/corrodinggames/rts/gameFramework/l/b;)V
+	METHOD a method_5628 (Ljava/io/File;)V
+	METHOD b method_5629 ()Z
+	METHOD c method_5630 ()F

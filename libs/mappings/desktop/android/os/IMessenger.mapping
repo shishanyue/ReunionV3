@@ -1,0 +1,5 @@
+CLASS android/os/IMessenger
+	METHOD a method_3952 (Landroid/os/Message;)V
+	CLASS Stub
+		METHOD asBinder asBinder ()Landroid/os/IBinder;
+		METHOD onTransact onTransact (ILandroid/os/Parcel;Landroid/os/Parcel;I)Z

@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/java/audio/a/s com/corrodinggames/rts/java/audio/a/class_1443
+	FIELD a field_8936 [B
+	METHOD a method_5967 (Ljava/io/Closeable;)V
+	METHOD a method_5968 (Ljava/io/InputStream;I)[B
+	METHOD a method_5969 (Ljava/io/InputStream;Ljava/io/OutputStream;)V
+	METHOD a method_5970 (Ljava/io/InputStream;Ljava/io/OutputStream;[B)V

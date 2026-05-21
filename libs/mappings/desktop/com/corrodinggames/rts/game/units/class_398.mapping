@@ -6,6 +6,8 @@ CLASS com/corrodinggames/rts/game/units/r com/corrodinggames/rts/game/units/clas
 	FIELD e field_1690 [Lcom/corrodinggames/rts/game/units/r;
 	METHOD a method_669 ()Ljava/lang/String;
 	METHOD b method_670 ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/r;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/r;
 	CLASS 1 class_399
 	CLASS 2 class_400
 	CLASS 3 class_401

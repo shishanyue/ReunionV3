@@ -1,3 +1,2 @@
-CLASS a/a/g net/rudp/PendingConnection
-	FIELD a createdAtMs J
-	FIELD b reliableSocketConnection La/a/e;
+CLASS a/a/class_1354 net/rudp/PendingConnection
+	FIELD field_7397 createdAtMs J

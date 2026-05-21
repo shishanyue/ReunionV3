@@ -21,6 +21,7 @@ CLASS com/corrodinggames/rts/gameFramework/m/e com/corrodinggames/rts/gameFramew
 	FIELD t field_6785 F
 	FIELD u field_6786 F
 	FIELD v field_6787 Z
+	FIELD w field_8675 Z
 	FIELD x field_6789 I
 	METHOD a method_3200 ()Ljava/lang/String;
 	METHOD a method_3210 (II)I
@@ -31,16 +32,33 @@ CLASS com/corrodinggames/rts/gameFramework/m/e com/corrodinggames/rts/gameFramew
 	METHOD a method_3205 (Lcom/corrodinggames/rts/game/o;[Lcom/corrodinggames/rts/gameFramework/m/e;)V
 	METHOD a method_3207 (Lcom/corrodinggames/rts/gameFramework/m/ae;)V
 	METHOD a method_3206 (Lcom/corrodinggames/rts/gameFramework/m/e;)V
+	METHOD a method_5656 (Ljava/lang/String;)V
 	METHOD a method_3208 (Z)V
+	METHOD A method_5655 ()Z
 	METHOD b method_3209 ()Landroid/graphics/Bitmap;
+	METHOD b method_5657 (Z)V
 	METHOD B method_3222 ()Lcom/corrodinggames/rts/gameFramework/m/ae;
+	METHOD c method_5658 ()Lcom/corrodinggames/rts/gameFramework/m/e;
+	METHOD clone clone ()Ljava/lang/Object;
+	METHOD d method_5659 ()Z
+	METHOD e method_5660 ()V
+	METHOD f method_5661 ()Z
 	METHOD g method_3211 ()V
 	METHOD i method_3213 ()V
 	METHOD j method_3214 ()V
+	METHOD k method_5663 ()Z
 	METHOD l method_3215 ()I
 	METHOD m method_3216 ()I
+	METHOD n method_5664 ()V
 	METHOD o method_3217 ()V
 	METHOD p method_3218 ()V
+	METHOD q method_5665 ()V
 	METHOD r method_3219 ()V
+	METHOD s method_5666 ()V
+	METHOD t method_5667 ()V
 	METHOD u method_3220 ()I
+	METHOD v method_5668 ()V
 	METHOD w method_3221 ()V
+	METHOD x method_5669 ()V
+	METHOD y method_5670 ()V
+	METHOD z method_5671 ()V

@@ -1,0 +1,50 @@
+CLASS com/corrodinggames/rts/java/Main
+	FIELD a field_8825 Z
+	FIELD b field_8826 Z
+	FIELD c field_8827 Ljava/lang/String;
+	FIELD d field_8828 Lcom/corrodinggames/rts/java/d;
+	FIELD e field_8829 Ljava/lang/String;
+	FIELD f field_8830 Lcom/corrodinggames/rts/gameFramework/utility/aj;
+	FIELD g field_8831 Z
+	FIELD h field_8832 Lcom/corrodinggames/rts/gameFramework/j/ad;
+	FIELD i field_8833 Lcom/corrodinggames/rts/java/b/a;
+	FIELD j field_8834 Lcom/corrodinggames/rts/java/u;
+	FIELD k field_8835 Lcom/corrodinggames/rts/java/b;
+	FIELD l field_8836 [Ljava/lang/String;
+	FIELD m field_8837 Lcom/corrodinggames/rts/java/Main;
+	FIELD n field_8838 I
+	FIELD o field_8839 J
+	FIELD p field_8840 Lcom/corrodinggames/rts/java/d/a;
+	FIELD q field_8841 Lcom/corrodinggames/rts/gameFramework/n;
+	FIELD r field_8842 Ljava/lang/Thread;
+	FIELD s field_8843 Z
+	FIELD t field_8844 Ljava/lang/Object;
+	FIELD u field_8845 Z
+	FIELD v field_8846 I
+	METHOD a method_5885 ([Ljava/lang/String;)V
+	METHOD a method_5881 (F)V
+	METHOD a method_5882 (Lcom/corrodinggames/rts/gameFramework/j/c;Ljava/lang/String;Ljava/lang/String;Z)V
+	METHOD a method_5883 (Ljava/lang/String;)V
+	METHOD a method_5884 (Z)V
+	METHOD b method_5886 (Ljava/lang/String;)V
+	METHOD f method_5887 ()V
+	METHOD g method_5888 ()V
+	METHOD h method_5889 ()V
+	METHOD i method_5890 ()V
+	METHOD main main ([Ljava/lang/String;)V
+	CLASS 1
+		METHOD run run ()V
+	CLASS 2
+		FIELD a field_8847 Ljava/util/concurrent/Semaphore;
+		FIELD b field_8848 Lcom/corrodinggames/rts/java/Main;
+		METHOD run run ()V
+	CLASS 3
+		FIELD a field_8849 Lcom/corrodinggames/rts/java/Main;
+		METHOD run run ()V
+	CLASS 4
+		FIELD a field_8850 I
+		FIELD b field_8851 Ljava/lang/String;
+		FIELD c field_8852 Ljava/lang/String;
+		FIELD d field_8853 Lcom/corrodinggames/rts/gameFramework/j/c;
+		FIELD e field_8854 Lcom/corrodinggames/rts/java/Main;
+		METHOD run run ()V

@@ -9,6 +9,7 @@ CLASS com/corrodinggames/rts/game/n com/corrodinggames/rts/game/class_324
 	FIELD af field_1433 Landroid/graphics/Paint;
 	FIELD ag field_1434 [I
 	FIELD ah field_1435 [Ljava/lang/String;
+	FIELD ai field_7932 I
 	FIELD aj field_1437 I
 	FIELD ak field_1438 Lcom/corrodinggames/rts/game/units/custom/h;
 	FIELD al field_1439 Lcom/corrodinggames/rts/game/units/custom/e/f;
@@ -21,6 +22,7 @@ CLASS com/corrodinggames/rts/game/n com/corrodinggames/rts/game/class_324
 	FIELD as field_1455 [Lcom/corrodinggames/rts/game/n;
 	FIELD at field_1403 Z
 	FIELD au field_1404 I
+	FIELD av field_7933 I
 	FIELD b field_1447 [Lcom/corrodinggames/rts/game/n;
 	FIELD B field_1400 Ljava/lang/Integer;
 	FIELD c field_1448 I
@@ -34,6 +36,7 @@ CLASS com/corrodinggames/rts/game/n com/corrodinggames/rts/game/class_324
 	FIELD g field_1452 Lcom/corrodinggames/rts/game/n;
 	FIELD G field_1407 Z
 	FIELD h field_1453 Lcom/corrodinggames/rts/game/n;
+	FIELD H field_7930 Z
 	FIELD i field_1454 Lcom/corrodinggames/rts/game/n;
 	FIELD I field_1409 Z
 	FIELD j field_1456 Lcom/corrodinggames/rts/game/n;
@@ -53,6 +56,7 @@ CLASS com/corrodinggames/rts/game/n com/corrodinggames/rts/game/class_324
 	FIELD q field_1463 I
 	FIELD Q field_1417 I
 	FIELD r field_1464 I
+	FIELD R field_7931 I
 	FIELD s field_1465 Lcom/corrodinggames/rts/game/units/y;
 	FIELD S field_1419 Z
 	FIELD t field_1466 Lcom/corrodinggames/rts/game/units/y;
@@ -69,14 +73,18 @@ CLASS com/corrodinggames/rts/game/n com/corrodinggames/rts/game/class_324
 	FIELD Y field_1426 J
 	FIELD z field_1398 Ljava/lang/Integer;
 	FIELD Z field_1427 I
+	METHOD a method_4399 ()V
 	METHOD a method_465 (D)Z
 	METHOD a method_466 (F)V
 	METHOD a method_467 (I)Ljava/lang/String;
 	METHOD a method_468 (IZ)I
 	METHOD a method_470 (Lcom/corrodinggames/rts/game/q;Lcom/corrodinggames/rts/game/n;)Z
+	METHOD a method_4401 (Lcom/corrodinggames/rts/game/units/am;)V
 	METHOD a method_473 (Lcom/corrodinggames/rts/game/units/custom/e/a;)I
 	METHOD a method_474 (Lcom/corrodinggames/rts/game/units/custom/g;ZZ)I
+	METHOD a method_4402 (Lcom/corrodinggames/rts/game/units/custom/h;)V
 	METHOD a method_471 (Lcom/corrodinggames/rts/game/units/y;)V
+	METHOD a method_4403 (Lcom/corrodinggames/rts/gameFramework/j/k;)V
 	METHOD a method_477 (Lcom/corrodinggames/rts/gameFramework/j/k;Z)V
 	METHOD a method_478 (Lcom/corrodinggames/rts/gameFramework/m/e;)[Lcom/corrodinggames/rts/gameFramework/m/e;
 	METHOD a method_481 (Lcom/corrodinggames/rts/gameFramework/m/e;[Lcom/corrodinggames/rts/gameFramework/m/e;[I)V
@@ -84,9 +92,11 @@ CLASS com/corrodinggames/rts/game/n com/corrodinggames/rts/game/class_324
 	METHOD a method_479 (Lcom/corrodinggames/rts/gameFramework/m/e;Lcom/corrodinggames/rts/game/o;)[Lcom/corrodinggames/rts/gameFramework/m/e;
 	METHOD a method_480 (Lcom/corrodinggames/rts/gameFramework/m/e;Lcom/corrodinggames/rts/game/o;Z)[Lcom/corrodinggames/rts/gameFramework/m/e;
 	METHOD a method_482 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/e;
+	METHOD a method_4404 (Z)Ljava/util/ArrayList;
 	METHOD a method_484 (ZZ)I
 	METHOD A method_539 ()I
 	METHOD aa method_458 ()D
+	METHOD ab method_4405 ()Lcom/corrodinggames/rts/game/units/custom/e/f;
 	METHOD b method_464 ()Z
 	METHOD b method_486 (F)V
 	METHOD b method_487 (I)I
@@ -94,11 +104,15 @@ CLASS com/corrodinggames/rts/game/n com/corrodinggames/rts/game/class_324
 	METHOD b method_469 (Lcom/corrodinggames/rts/game/n;)Z
 	METHOD b method_491 (Lcom/corrodinggames/rts/game/units/am;)V
 	METHOD b method_492 (Lcom/corrodinggames/rts/game/units/custom/e/a;)I
+	METHOD b method_4406 (Lcom/corrodinggames/rts/game/units/custom/g;ZZ)I
+	METHOD b method_4407 (Lcom/corrodinggames/rts/game/units/custom/h;)V
 	METHOD b method_490 (Lcom/corrodinggames/rts/game/units/y;)V
 	METHOD b method_494 (Lcom/corrodinggames/rts/gameFramework/j/as;)V
+	METHOD b method_4408 (Lcom/corrodinggames/rts/gameFramework/j/k;)V
 	METHOD b method_507 (Lcom/corrodinggames/rts/gameFramework/m/e;[Lcom/corrodinggames/rts/gameFramework/m/e;[I)V
 	METHOD b method_495 (Lcom/corrodinggames/rts/gameFramework/m/e;Lcom/corrodinggames/rts/game/o;)[Lcom/corrodinggames/rts/gameFramework/m/e;
 	METHOD b method_497 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/e;
+	METHOD b method_4409 (Z)Ljava/util/ArrayList;
 	METHOD B method_540 ()Z
 	METHOD c method_499 ()Ljava/util/ArrayList;
 	METHOD c method_516 (F)V
@@ -107,41 +121,55 @@ CLASS com/corrodinggames/rts/game/n com/corrodinggames/rts/game/class_324
 	METHOD c method_489 (Lcom/corrodinggames/rts/game/n;)Z
 	METHOD c method_504 (Lcom/corrodinggames/rts/game/units/am;)V
 	METHOD c method_505 (Lcom/corrodinggames/rts/game/units/custom/e/a;)D
+	METHOD c method_4410 (Lcom/corrodinggames/rts/game/units/custom/g;ZZ)I
+	METHOD c method_4411 (Lcom/corrodinggames/rts/game/units/custom/h;)V
 	METHOD c method_506 (Lcom/corrodinggames/rts/gameFramework/j/as;)V
 	METHOD c method_476 (Lcom/corrodinggames/rts/gameFramework/j/k;)V
 	METHOD c method_508 (Ljava/lang/String;)V
 	METHOD c method_483 (Z)V
 	METHOD C method_541 ()I
+	METHOD compareTo compareTo (Ljava/lang/Object;)I
 	METHOD d method_515 ()[Lcom/corrodinggames/rts/game/n;
 	METHOD d method_500 (F)V
 	METHOD d method_528 (I)V
 	METHOD d method_503 (Lcom/corrodinggames/rts/game/n;)Z
 	METHOD d method_512 (Lcom/corrodinggames/rts/game/units/am;)V
 	METHOD d method_513 (Lcom/corrodinggames/rts/gameFramework/j/as;)V
+	METHOD d method_4412 (Lcom/corrodinggames/rts/gameFramework/j/k;)V
 	METHOD d method_514 (Ljava/lang/String;)V
 	METHOD d method_535 (Z)V
 	METHOD D method_461 ()F
 	METHOD e method_519 ()V
+	METHOD e method_4413 (F)V
 	METHOD e method_530 (I)V
 	METHOD e method_518 (Ljava/lang/String;)V
 	METHOD e method_498 (Z)Lcom/corrodinggames/rts/game/s;
 	METHOD E method_542 ()F
 	METHOD f method_521 ()Ljava/util/ArrayList;
+	METHOD f method_4414 (F)V
 	METHOD f method_511 (I)V
 	METHOD F method_543 ()V
+	METHOD g method_4415 ()I
+	METHOD g method_4416 (F)V
 	METHOD g method_517 (I)Z
 	METHOD G method_544 ()I
+	METHOD h method_4417 ()Ljava/lang/String;
+	METHOD h method_4418 (F)V
 	METHOD h method_520 (I)I
 	METHOD H method_545 ()I
+	METHOD i method_4419 ()V
 	METHOD i method_522 (I)I
 	METHOD I method_444 ()V
+	METHOD j method_4420 ()Z
 	METHOD j method_524 (I)Ljava/lang/String;
 	METHOD J method_445 ()V
 	METHOD k method_523 ()Z
 	METHOD k method_526 (I)Lcom/corrodinggames/rts/game/n;
+	METHOD K method_4394 ()I
 	METHOD l method_525 ()V
 	METHOD L method_446 ()V
 	METHOD m method_527 ()Z
+	METHOD M method_4395 ()I
 	METHOD n method_529 ()V
 	METHOD N method_447 ()Ljava/lang/String;
 	METHOD o method_460 ()V
@@ -149,15 +177,22 @@ CLASS com/corrodinggames/rts/game/n com/corrodinggames/rts/game/class_324
 	METHOD p method_531 ()Z
 	METHOD P method_449 ()V
 	METHOD q method_532 ()Z
+	METHOD Q method_4396 ()V
+	METHOD r method_4421 ()Z
 	METHOD R method_452 ()I
 	METHOD s method_533 ()I
 	METHOD S method_453 ()I
 	METHOD t method_534 ()Z
 	METHOD T method_454 ()V
+	METHOD u method_4422 ()I
+	METHOD U method_4397 ()Lcom/corrodinggames/rts/game/units/custom/h;
 	METHOD v method_536 ()I
+	METHOD V method_4398 ()Lcom/corrodinggames/rts/game/units/custom/e/f;
 	METHOD w method_537 ()I
 	METHOD W method_455 ()V
 	METHOD x method_538 ()I
 	METHOD X method_456 ()V
+	METHOD y method_4423 ()Ljava/lang/String;
 	METHOD Y method_457 ()V
+	METHOD z method_4424 ()Ljava/lang/String;
 	METHOD Z method_463 ()V

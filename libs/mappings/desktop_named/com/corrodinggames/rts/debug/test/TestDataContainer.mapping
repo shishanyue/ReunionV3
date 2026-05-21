@@ -1,11 +1,11 @@
-CLASS com/corrodinggames/rts/a/a/h com/corrodinggames/rts/debug/test/TestDataContainer
-	FIELD a intValue1 I
-	FIELD b intValue2 I
-	FIELD c longValue1 J
-	FIELD d booleanValue Z
-	FIELD e longValue2 J
-	FIELD f longValue3 J
-	FIELD g longValue4 J
-	FIELD h longValue5 J
-	FIELD i longValue6 J
-	FIELD j longValue7 J
+CLASS com/corrodinggames/rts/a/a/class_1384 com/corrodinggames/rts/debug/test/TestDataContainer
+	FIELD field_7705 intValue1 I
+	FIELD field_7706 intValue2 I
+	FIELD field_7707 longValue1 J
+	FIELD field_7708 booleanValue Z
+	FIELD field_7709 longValue2 J
+	FIELD field_7710 longValue3 J
+	FIELD field_7711 longValue4 J
+	FIELD field_7712 longValue5 J
+	FIELD field_7713 longValue6 J
+	FIELD field_7714 longValue7 J

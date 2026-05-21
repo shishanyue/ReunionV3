@@ -1,0 +1,20 @@
+CLASS com/corrodinggames/rts/appFramework/l com/corrodinggames/rts/appFramework/class_1397
+	FIELD a field_7766 Z
+	FIELD b field_7767 Z
+	FIELD c field_7768 Ljava/lang/reflect/Method;
+	FIELD d field_7769 Ljava/lang/reflect/Method;
+	FIELD e field_7770 Ljava/lang/reflect/Method;
+	FIELD f field_7771 Ljava/lang/reflect/Method;
+	FIELD g field_7772 Ljava/lang/reflect/Method;
+	FIELD h field_7773 Ljava/lang/reflect/Method;
+	FIELD i field_7774 Ljava/lang/reflect/Method;
+	FIELD j field_7775 Ljava/lang/reflect/Method;
+	FIELD k field_7776 Ljava/lang/reflect/Method;
+	FIELD l field_7777 I
+	FIELD m field_7778 I
+	FIELD n field_7779 [F
+	FIELD o field_7780 [F
+	FIELD p field_7781 [F
+	FIELD q field_7782 [I
+	FIELD r field_7783 [I
+	METHOD a method_4163 ()[I

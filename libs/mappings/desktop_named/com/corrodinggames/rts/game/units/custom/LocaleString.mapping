@@ -1,12 +1,8 @@
-CLASS com/corrodinggames/rts/game/units/custom/bb com/corrodinggames/rts/game/units/custom/LocaleString
-	FIELD a EMPTY Lcom/corrodinggames/rts/game/units/custom/bb;
-	FIELD b localizedItems [Lcom/corrodinggames/rts/game/units/custom/bc;
-	FIELD c cachedText Ljava/lang/String;
-	FIELD d cachedReloadCount I
-	FIELD e text Ljava/lang/String;
+CLASS com/corrodinggames/rts/game/units/custom/class_527 com/corrodinggames/rts/game/units/custom/LocaleString
+	FIELD field_2716 cachedText Ljava/lang/String;
+	FIELD field_2717 cachedReloadCount I
+	FIELD field_2718 text Ljava/lang/String;
 	METHOD <clinit> __clinit__ ()V
-	METHOD a isEmpty ()Z
-	METHOD a replaceAll (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/bb;
-	METHOD a wrapSingleText (Ljava/lang/String;Ljava/lang/String;)V
-	METHOD b resolveText ()Ljava/lang/String;
-	METHOD b wrapLocaleKey (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/bb;
+	METHOD method_1220 isEmpty ()Z
+	METHOD method_1222 wrapSingleText (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD method_1223 resolveText ()Ljava/lang/String;

@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/java/p com/corrodinggames/rts/java/class_1474
+	FIELD a field_9102 Lcom/corrodinggames/rts/java/q;
+	FIELD b field_9103 F
+	FIELD c field_9104 F
+	FIELD d field_9105 I
+	FIELD e field_9106 I
+	FIELD f field_9107 F
+	METHOD a method_6058 ()V

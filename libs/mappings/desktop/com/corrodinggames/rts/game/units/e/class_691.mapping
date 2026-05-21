@@ -9,3 +9,4 @@ CLASS com/corrodinggames/rts/game/units/e/n com/corrodinggames/rts/game/units/e/
 	FIELD h field_3919 F
 	FIELD i field_3920 Landroid/graphics/Rect;
 	METHOD f method_1644 ()V
+	METHOD K method_4777 ()V

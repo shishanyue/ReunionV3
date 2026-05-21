@@ -1,2 +1,9 @@
 CLASS com/corrodinggames/rts/appFramework/p com/corrodinggames/rts/appFramework/MultiplayerLobbyActivity
+	FIELD c field_7825 Lcom/corrodinggames/rts/appFramework/p;
+	FIELD d field_7826 Landroid/os/Handler;
+	FIELD e field_7827 Ljava/lang/Runnable;
+	METHOD l method_4177 ()V
 	METHOD m getSortedDiscoveredServers ()Ljava/util/ArrayList;
+	CLASS 1
+		METHOD a method_4178 (Lcom/corrodinggames/rts/gameFramework/j/g;)I
+		METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I

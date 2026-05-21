@@ -1,4 +1,2 @@
-CLASS com/corrodinggames/rts/a/a/k com/corrodinggames/rts/debug/test/FastNodeQueueTest
-	METHOD a runAllTests ()V
-	METHOD a createTestNode (I)Lcom/corrodinggames/rts/gameFramework/k/n;
-	METHOD a runQueueTest (Lcom/corrodinggames/rts/gameFramework/k/j;)V
+CLASS com/corrodinggames/rts/a/a/class_1386 com/corrodinggames/rts/debug/test/FastNodeQueueTest
+	METHOD method_4103 runAllTests ()V

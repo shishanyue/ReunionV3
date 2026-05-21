@@ -1,2 +1,2 @@
-CLASS com/corrodinggames/rts/game/units/custom/ar com/corrodinggames/rts/game/units/custom/TextFormatPart
-	FIELD a content Ljava/lang/String;
+CLASS com/corrodinggames/rts/game/units/custom/class_483 com/corrodinggames/rts/game/units/custom/TextFormatPart
+	FIELD field_2462 content Ljava/lang/String;

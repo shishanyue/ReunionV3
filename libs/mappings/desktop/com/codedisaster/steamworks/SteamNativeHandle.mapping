@@ -1,0 +1,6 @@
+CLASS com/codedisaster/steamworks/SteamNativeHandle
+	FIELD handle handle J
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD getNativeHandle getNativeHandle (Lcom/codedisaster/steamworks/SteamNativeHandle;)J
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

@@ -1,6 +1,26 @@
 CLASS com/corrodinggames/rts/gameFramework/m/ac com/corrodinggames/rts/gameFramework/m/class_1229
 	FIELD a field_6865 Z
+	FIELD b field_8637 Ljava/nio/FloatBuffer;
 	FIELD c field_6867 Ljava/nio/FloatBuffer;
+	FIELD d field_8638 Ljava/nio/FloatBuffer;
+	FIELD e field_8639 Ljava/nio/IntBuffer;
 	FIELD f field_6869 Ljava/nio/IntBuffer;
+	FIELD g field_8640 Ljava/nio/IntBuffer;
+	FIELD h field_8641 Ljava/nio/CharBuffer;
+	FIELD i field_8642 Ljava/nio/Buffer;
+	FIELD j field_8643 Ljava/nio/Buffer;
+	FIELD k field_8644 Ljava/nio/Buffer;
+	FIELD l field_8645 I
 	FIELD m field_6870 I
+	FIELD n field_8646 I
+	FIELD o field_8647 I
+	FIELD p field_8648 Z
+	FIELD q field_8649 I
+	FIELD r field_8650 I
+	FIELD s field_8651 I
+	FIELD t field_8652 I
 	METHOD a method_3310 (IIFF)V
+	METHOD a method_5640 (IIFFFFF[F)V
+	METHOD a method_5641 (Ljavax/microedition/khronos/opengles/GL10;)V
+	METHOD a method_5642 (Ljavax/microedition/khronos/opengles/GL10;ZZ)V
+	METHOD b method_5643 (Ljavax/microedition/khronos/opengles/GL10;ZZ)V

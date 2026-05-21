@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/java/q com/corrodinggames/rts/java/class_1475
+	FIELD a field_9108 Lcom/corrodinggames/rts/java/audio/Sound;
+	FIELD b field_9109 Lcom/corrodinggames/rts/java/o;
+	METHOD b method_6059 (FFIIF)V

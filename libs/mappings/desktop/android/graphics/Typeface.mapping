@@ -1,1 +1,19 @@
-CLASS android/graphics/Typeface android/graphics/Typeface
+CLASS android/graphics/Typeface
+	FIELD a field_7540 Landroid/graphics/Typeface;
+	FIELD b field_7541 Landroid/graphics/Typeface;
+	FIELD c field_7542 Landroid/graphics/Typeface;
+	FIELD d field_7543 Landroid/graphics/Typeface;
+	FIELD e field_7544 Landroid/graphics/Typeface;
+	FIELD f field_7545 [Landroid/graphics/Typeface;
+	FIELD g field_7546 I
+	FIELD h field_7547 Ljava/lang/String;
+	FIELD i field_7548 Landroid/util/SparseArray;
+	FIELD j field_7549 I
+	METHOD a method_3924 ()Z
+	METHOD a method_3925 (I)V
+	METHOD a method_3926 (Landroid/graphics/Typeface;I)Landroid/graphics/Typeface;
+	METHOD a method_3927 (Ljava/lang/String;I)Landroid/graphics/Typeface;
+	METHOD b method_3928 (I)I
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD finalize finalize ()V
+	METHOD hashCode hashCode ()I

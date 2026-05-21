@@ -1,3 +1,12 @@
 CLASS com/corrodinggames/rts/gameFramework/f/ab com/corrodinggames/rts/gameFramework/f/class_928
+	FIELD a field_8422 Lcom/corrodinggames/rts/gameFramework/bj;
+	FIELD b field_8423 I
+	FIELD c field_8424 I
+	FIELD d field_8425 I
 	FIELD e field_5342 Ljava/util/ArrayList;
+	METHOD a method_5216 (Lcom/corrodinggames/rts/gameFramework/f/ab;)I
 	METHOD a method_2427 (Ljava/util/ArrayList;)V
+	METHOD b method_5217 (Lcom/corrodinggames/rts/gameFramework/f/ab;)I
+	METHOD c method_5218 (Lcom/corrodinggames/rts/gameFramework/f/ab;)Lcom/corrodinggames/rts/gameFramework/bj;
+	METHOD d method_5219 (Lcom/corrodinggames/rts/gameFramework/f/ab;)I
+	METHOD e method_5220 (Lcom/corrodinggames/rts/gameFramework/f/ab;)Ljava/util/ArrayList;

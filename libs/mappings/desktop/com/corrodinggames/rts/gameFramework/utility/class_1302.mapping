@@ -1,10 +1,13 @@
 CLASS com/corrodinggames/rts/gameFramework/utility/ag com/corrodinggames/rts/gameFramework/utility/class_1302
 	FIELD a field_7264 Ljava/util/HashMap;
 	METHOD d method_3608 (Ljava/lang/String;Z)Lcom/corrodinggames/rts/gameFramework/utility/ah;
+	METHOD e method_5801 (Ljava/lang/String;Z)V
 	METHOD h method_3609 (Ljava/lang/String;)V
 	METHOD i method_3610 (Ljava/lang/String;)Z
 	METHOD j method_3612 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD k method_5802 (Ljava/lang/String;)V
 	METHOD l method_3613 (Ljava/lang/String;)Ljava/lang/String;
 	CLASS 1 class_1303
 		FIELD a field_7265 Ljava/lang/String;
 		FIELD b field_7266 Lcom/corrodinggames/rts/gameFramework/utility/ah;
+		METHOD run run ()V

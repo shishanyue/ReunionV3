@@ -1,15 +1,14 @@
-CLASS com/corrodinggames/rts/gameFramework/e/g com/corrodinggames/rts/gameFramework/file/CacheManager
-	FIELD a DEBUG Z
-	METHOD a getCharAsString (C)Ljava/lang/String;
-	METHOD a encodeFileName (Ljava/lang/String;)Ljava/lang/String;
-	METHOD a encodeChar (Ljava/lang/String;C)Ljava/lang/String;
-	METHOD a readFromCache (Ljava/lang/String;Ljava/lang/String;)Ljava/io/FileInputStream;
-	METHOD a saveToCache (Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;)Z
-	METHOD a saveToCache (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
-	METHOD a getCachePath (Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/String;
-	METHOD b readStringFromCache (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-	METHOD b openAssetCachedInternal (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/e/h;
-	METHOD c deleteFromCache (Ljava/lang/String;Ljava/lang/String;)V
-	METHOD d listDirCached (Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;
-	METHOD e openAssetCached (Ljava/lang/String;Ljava/lang/String;)Ljava/io/InputStream;
-	METHOD f existsInCache (Ljava/lang/String;Ljava/lang/String;)Z
+CLASS com/corrodinggames/rts/gameFramework/e/class_905 com/corrodinggames/rts/gameFramework/file/CacheManager
+	FIELD field_5129 DEBUG Z
+	METHOD method_2225 encodeFileName (Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_2226 encodeChar (Ljava/lang/String;C)Ljava/lang/String;
+	METHOD method_2227 deleteFromCache (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD method_2228 saveToCache (Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;)Z
+	METHOD method_2229 saveToCache (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+	METHOD method_2230 getCachePath (Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/String;
+	METHOD method_2232 listDirCached (Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;
+	METHOD method_2234 openAssetCached (Ljava/lang/String;Ljava/lang/String;)Ljava/io/InputStream;
+	METHOD method_2235 existsInCache (Ljava/lang/String;Ljava/lang/String;)Z
+	METHOD method_2236 readFromCache (Ljava/lang/String;Ljava/lang/String;)Ljava/io/FileInputStream;
+	METHOD method_5125 getCharAsString (C)Ljava/lang/String;
+	METHOD method_5126 readStringFromCache (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;

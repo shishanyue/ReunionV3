@@ -1,17 +1,8 @@
-CLASS com/corrodinggames/rts/game/units/d/h com/corrodinggames/rts/game/units/buildings/PowerFabricator
-	FIELD a level1Texture Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD b level2Texture Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD c level3Texture Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD d level1TeamTextures [Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD e level2TeamTextures [Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD f level3TeamTextures [Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD g deadTexture Lcom/corrodinggames/rts/gameFramework/m/e;
-	FIELD h powerGenerationTimer F
-	FIELD i animationTimer F
-	FIELD j animationFrame I
-	FIELD k upgradeToLevel2Action Lcom/corrodinggames/rts/game/units/a/s;
-	FIELD l upgradeToLevel3Action Lcom/corrodinggames/rts/game/units/a/s;
-	FIELD t availableActions Ljava/util/ArrayList;
-	METHOD K loadTextures ()V
-	CLASS 1 AnonymousClass1
-	CLASS 2 AnonymousClass2
+CLASS com/corrodinggames/rts/game/units/d/class_635 com/corrodinggames/rts/game/units/buildings/PowerFabricator
+	FIELD field_3754 powerGenerationTimer F
+	FIELD field_3755 animationTimer F
+	FIELD field_3756 animationFrame I
+	FIELD field_3759 availableActions Ljava/util/ArrayList;
+	METHOD method_1579 loadTextures ()V
+	CLASS class_636 AnonymousClass1
+	CLASS class_637 AnonymousClass2

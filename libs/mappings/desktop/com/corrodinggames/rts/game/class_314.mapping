@@ -125,8 +125,11 @@ CLASS com/corrodinggames/rts/game/f com/corrodinggames/rts/game/class_314
 	METHOD a method_400 (Lcom/corrodinggames/rts/game/units/am;FF)Lcom/corrodinggames/rts/game/f;
 	METHOD a method_401 (Lcom/corrodinggames/rts/game/units/am;FFF)V
 	METHOD a method_402 (Lcom/corrodinggames/rts/game/units/am;FFFI)Lcom/corrodinggames/rts/game/f;
+	METHOD a method_4376 (Lcom/corrodinggames/rts/game/units/am;Lcom/corrodinggames/rts/game/units/am;FLcom/corrodinggames/rts/game/f;Z)V
+	METHOD b method_4377 ()V
 	METHOD b method_408 (F)V
 	METHOD b method_399 (Lcom/corrodinggames/rts/game/units/am;FF)V
 	METHOD c method_404 ()V
+	METHOD d method_4378 ()V
 	METHOD e method_406 ()F
 	METHOD f method_407 ()Landroid/graphics/Paint;

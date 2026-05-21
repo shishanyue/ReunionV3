@@ -1,0 +1,10 @@
+CLASS android/net/http/Headers
+	FIELD a field_7557 J
+	FIELD b field_7558 J
+	FIELD c field_7559 I
+	FIELD d field_7560 Ljava/util/ArrayList;
+	FIELD e field_7561 [Ljava/lang/String;
+	FIELD f field_7562 [Ljava/lang/String;
+	FIELD g field_7563 Ljava/util/ArrayList;
+	FIELD h field_7564 Ljava/util/ArrayList;
+	CLASS HeaderCallback

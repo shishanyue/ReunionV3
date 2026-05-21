@@ -1,0 +1,18 @@
+CLASS android/os/Handler
+	FIELD a field_7568 Landroid/os/MessageQueue;
+	FIELD b field_7569 Landroid/os/Looper;
+	FIELD c field_7570 Landroid/os/Handler$Callback;
+	FIELD d field_7571 Z
+	METHOD a method_3941 ()Landroid/os/Message;
+	METHOD a method_3942 (Landroid/os/Message;)V
+	METHOD a method_3943 (Landroid/os/Message;J)Z
+	METHOD a method_3944 (Landroid/os/MessageQueue;Landroid/os/Message;J)Z
+	METHOD a method_3945 (Ljava/lang/Runnable;)Z
+	METHOD b method_3946 (Landroid/os/Message;)V
+	METHOD b method_3947 (Landroid/os/Message;J)Z
+	METHOD b method_3948 (Ljava/lang/Runnable;)Landroid/os/Message;
+	METHOD c method_3949 (Landroid/os/Message;)Z
+	METHOD d method_3950 (Landroid/os/Message;)V
+	METHOD toString toString ()Ljava/lang/String;
+	CLASS Callback
+		METHOD a method_3951 (Landroid/os/Message;)Z

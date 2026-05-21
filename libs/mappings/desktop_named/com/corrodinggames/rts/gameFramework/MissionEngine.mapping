@@ -1,5 +1,5 @@
-CLASS com/corrodinggames/rts/gameFramework/n com/corrodinggames/rts/gameFramework/MissionEngine
-	METHOD a log (Ljava/lang/String;I)V
-	METHOD a log (Ljava/lang/String;Ljava/lang/String;)V
-	METHOD a log (Ljava/lang/String;Z)V
-	METHOD a log (Ljava/lang/Throwable;)V
+CLASS com/corrodinggames/rts/gameFramework/class_n com/corrodinggames/rts/gameFramework/MissionEngine
+	METHOD method_5700 log (Ljava/lang/String;I)V
+	METHOD method_5701 log (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD method_5702 log (Ljava/lang/String;Z)V
+	METHOD method_5703 log (Ljava/lang/Throwable;)V

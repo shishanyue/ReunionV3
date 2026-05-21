@@ -1,0 +1,14 @@
+CLASS android/content/Context
+	METHOD a method_3838 (Landroid/content/Intent;)V
+	METHOD a method_3839 (Ljava/lang/String;)Ljava/io/FileInputStream;
+	METHOD a method_3840 (Ljava/lang/String;I)Landroid/content/SharedPreferences;
+	METHOD b method_3841 (Ljava/lang/String;)Ljava/io/File;
+	METHOD b method_3842 (Ljava/lang/String;I)Ljava/io/FileOutputStream;
+	METHOD c method_3843 (Ljava/lang/String;)Ljava/lang/Object;
+	METHOD d method_3844 ()Landroid/content/res/AssetManager;
+	METHOD e method_3845 ()Landroid/content/res/Resources;
+	METHOD f method_3846 ()Landroid/content/pm/PackageManager;
+	METHOD g method_3847 ()Landroid/content/Context;
+	METHOD h method_3848 ()Ljava/lang/String;
+	METHOD i method_3849 ()Ljava/io/File;
+	METHOD j method_3850 ()Ljava/io/File;

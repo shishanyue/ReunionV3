@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/java/a/a com/corrodinggames/rts/java/a/class_1424
+	FIELD a field_8856 Lorg/newdawn/slick/opengl/ImageData;
+	FIELD b field_8857 Ljava/nio/ByteBuffer;
+	METHOD getDepth getDepth ()I
+	METHOD getHeight getHeight ()I
+	METHOD getImageBufferData getImageBufferData ()Ljava/nio/ByteBuffer;
+	METHOD getTexHeight getTexHeight ()I
+	METHOD getTexWidth getTexWidth ()I
+	METHOD getWidth getWidth ()I

@@ -1,3 +1,14 @@
 CLASS com/corrodinggames/rts/gameFramework/bn com/corrodinggames/rts/gameFramework/class_878
+	FIELD a field_8329 I
+	FIELD b field_8330 [Lcom/corrodinggames/rts/gameFramework/bi;
 	METHOD a method_2065 ()V
+	METHOD a method_5050 (I)V
+	METHOD a method_5051 (Lcom/corrodinggames/rts/game/n;IZ)V
+	METHOD a method_5052 (Lcom/corrodinggames/rts/gameFramework/bi;Lcom/corrodinggames/rts/gameFramework/bi;)Lcom/corrodinggames/rts/gameFramework/bi;
+	METHOD a method_5053 (Lcom/corrodinggames/rts/gameFramework/bj;)Lcom/corrodinggames/rts/gameFramework/bi;
+	METHOD a method_5054 (Lcom/corrodinggames/rts/gameFramework/bj;I)I
+	METHOD a method_5055 (Lcom/corrodinggames/rts/gameFramework/bn;)V
+	METHOD a method_5056 (Lcom/corrodinggames/rts/gameFramework/j/as;)V
+	METHOD a method_5057 (Lcom/corrodinggames/rts/gameFramework/j/k;)V
+	METHOD b method_5058 ()I
 	METHOD c method_2068 ()Z

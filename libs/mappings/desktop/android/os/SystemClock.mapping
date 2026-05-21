@@ -1,0 +1,2 @@
+CLASS android/os/SystemClock
+	METHOD a method_3981 ()J

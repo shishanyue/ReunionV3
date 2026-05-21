@@ -3,4 +3,6 @@ CLASS com/corrodinggames/rts/gameFramework/j/ax com/corrodinggames/rts/gameFrame
 	FIELD b field_6136 Ljava/lang/String;
 	FIELD c field_6137 Ljava/io/ByteArrayOutputStream;
 	FIELD d field_6138 Ljava/io/PrintStream;
+	FIELD e field_8564 Z
 	METHOD a method_2892 ()V
+	METHOD b method_5472 ()V

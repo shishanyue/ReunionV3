@@ -23,6 +23,7 @@ CLASS com/corrodinggames/rts/game/units/custom/b/d com/corrodinggames/rts/game/u
 	FIELD g field_2541 Z
 	FIELD G field_2506 Lcom/corrodinggames/rts/game/units/custom/b/f;
 	FIELD h field_2542 Lcom/corrodinggames/rts/game/q;
+	FIELD H field_7990 F
 	FIELD i field_2543 Z
 	FIELD I field_2508 Z
 	FIELD j field_2544 F
@@ -59,3 +60,4 @@ CLASS com/corrodinggames/rts/game/units/custom/b/d com/corrodinggames/rts/game/u
 	FIELD Y field_2524 Z
 	FIELD z field_2560 Z
 	FIELD Z field_2525 Z
+	METHOD compareTo compareTo (Ljava/lang/Object;)I

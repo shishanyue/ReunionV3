@@ -1,3 +1,4 @@
 CLASS com/corrodinggames/rts/game/units/m com/corrodinggames/rts/game/units/class_371
 	FIELD a field_1596 Z
 	FIELD b field_1597 Z
+	METHOD n method_4816 ()V

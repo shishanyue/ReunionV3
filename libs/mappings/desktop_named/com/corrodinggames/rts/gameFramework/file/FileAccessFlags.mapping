@@ -1,4 +1,4 @@
-CLASS com/corrodinggames/rts/gameFramework/e/b com/corrodinggames/rts/gameFramework/file/FileAccessFlags
-	FIELD a useOverriddenExternalPath Z
-	FIELD b useSaf Z
-	FIELD c useDirectAccess Z
+CLASS com/corrodinggames/rts/gameFramework/e/class_900 com/corrodinggames/rts/gameFramework/file/FileAccessFlags
+	FIELD field_5113 useOverriddenExternalPath Z
+	FIELD field_5114 useSaf Z
+	FIELD field_5115 useDirectAccess Z

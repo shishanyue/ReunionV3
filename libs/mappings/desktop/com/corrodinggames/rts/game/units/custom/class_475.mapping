@@ -1,4 +1,5 @@
 CLASS com/corrodinggames/rts/game/units/custom/aj com/corrodinggames/rts/game/units/custom/class_475
+	FIELD a field_7985 Lcom/corrodinggames/rts/game/units/custom/aj;
 	FIELD b field_2454 [Lcom/corrodinggames/rts/game/units/custom/ak;
 	FIELD c field_2455 [Lcom/corrodinggames/rts/game/units/custom/bc;
 	FIELD d field_2456 Ljava/lang/String;
@@ -6,8 +7,10 @@ CLASS com/corrodinggames/rts/game/units/custom/aj com/corrodinggames/rts/game/un
 	FIELD f field_2458 Ljava/lang/String;
 	FIELD g field_2459 Ljava/lang/String;
 	FIELD h field_2460 Lcom/corrodinggames/rts/game/units/custom/l;
+	METHOD a method_4553 ()V
 	METHOD a method_1169 (Lcom/corrodinggames/rts/game/units/am;)Ljava/lang/String;
 	METHOD a method_1165 (Lcom/corrodinggames/rts/game/units/custom/bb;)Lcom/corrodinggames/rts/game/units/custom/aj;
+	METHOD a method_4554 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/aj;
 	METHOD a method_1166 (Ljava/lang/String;Z)[Lcom/corrodinggames/rts/game/units/custom/ak;
 	METHOD a method_1167 (Z)V
 	METHOD b method_1163 ()Ljava/lang/String;

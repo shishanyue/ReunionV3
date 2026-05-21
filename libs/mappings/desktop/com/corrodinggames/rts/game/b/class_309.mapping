@@ -11,6 +11,7 @@ CLASS com/corrodinggames/rts/game/b/j com/corrodinggames/rts/game/b/class_309
 	FIELD j field_1051 I
 	FIELD k field_1052 F
 	FIELD l field_1053 I
+	FIELD m field_7910 I
 	FIELD n field_1055 S
 	FIELD o field_1056 Lcom/corrodinggames/rts/game/b/b;
 	FIELD p field_1057 Z
@@ -23,8 +24,18 @@ CLASS com/corrodinggames/rts/game/b/j com/corrodinggames/rts/game/b/class_309
 	FIELD w field_1065 I
 	FIELD x field_1061 Ljava/util/HashMap;
 	METHOD a method_387 ()V
+	METHOD a method_4366 (I)Ljava/util/Properties;
+	METHOD a method_4367 (II)I
 	METHOD a method_389 (ILandroid/graphics/Rect;)V
+	METHOD a method_4368 (Lcom/corrodinggames/rts/game/b/b;Ljava/lang/String;)Lorg/w3c/dom/Element;
+	METHOD a method_4369 (Lcom/corrodinggames/rts/game/b/b;Lorg/w3c/dom/Element;)Ljava/lang/String;
 	METHOD a method_393 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/m/e;
+	METHOD a method_4370 (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+	METHOD a method_4371 (Lorg/w3c/dom/Element;)V
 	METHOD b method_392 ()V
 	METHOD b method_388 (I)Landroid/graphics/Rect;
+	METHOD b method_4372 (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Integer;
 	METHOD c method_394 ()V
+	METHOD c method_4373 (I)V
+	METHOD d method_4374 ()V
+	METHOD d method_4375 (I)Z

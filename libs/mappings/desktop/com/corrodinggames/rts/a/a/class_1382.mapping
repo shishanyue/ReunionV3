@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/a/a/f com/corrodinggames/rts/a/a/class_1382
+	FIELD a field_7696 I
+	FIELD b field_7697 I
+	FIELD c field_7698 Landroid/graphics/Rect;
+	FIELD d field_7699 Landroid/graphics/PointF;
+	FIELD e field_7700 Landroid/graphics/Point;
+	METHOD a method_4100 ()V

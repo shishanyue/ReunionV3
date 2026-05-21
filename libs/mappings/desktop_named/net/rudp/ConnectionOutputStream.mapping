@@ -1,4 +1,3 @@
-CLASS a/a/q net/rudp/ConnectionOutputStream
-	FIELD a connection La/a/h;
-	FIELD b writeBuffer [B
-	FIELD c bufferedBytes I
+CLASS a/a/class_1364 net/rudp/ConnectionOutputStream
+	FIELD field_7450 writeBuffer [B
+	FIELD field_7451 bufferedBytes I

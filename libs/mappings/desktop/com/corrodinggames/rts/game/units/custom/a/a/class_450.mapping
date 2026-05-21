@@ -6,4 +6,5 @@ CLASS com/corrodinggames/rts/game/units/custom/a/a/f com/corrodinggames/rts/game
 	FIELD e field_2179 Lcom/corrodinggames/rts/game/units/custom/aj;
 	FIELD f field_2180 Lcom/corrodinggames/rts/game/units/custom/aj;
 	FIELD g field_2181 Ljava/util/regex/Pattern;
+	METHOD a method_4540 (Lcom/corrodinggames/rts/game/units/custom/j;Ljava/lang/String;)Ljava/lang/String;
 	METHOD a method_1098 (Lcom/corrodinggames/rts/game/units/custom/l;Lcom/corrodinggames/rts/gameFramework/utility/ab;Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/a/d;Ljava/lang/String;Z)V
