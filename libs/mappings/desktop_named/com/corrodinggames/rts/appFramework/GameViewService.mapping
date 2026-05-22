@@ -1,4 +1,4 @@
-CLASS com/corrodinggames/rts/appFramework/class_5 com/corrodinggames/rts/appFramework/GameView
+CLASS com/corrodinggames/rts/appFramework/class_5 com/corrodinggames/rts/appFramework/GameViewService
 	METHOD method_4135 pause ()V
 	METHOD method_4136 onDraw (FI)V
 	METHOD method_4138 resume (Z)V

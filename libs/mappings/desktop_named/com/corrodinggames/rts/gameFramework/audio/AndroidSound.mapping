@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/a/class_758 com/corrodinggames/rts/gameFramework/audio/AndroidSound
+	FIELD field_8125 soundId I
+	METHOD method_4875 playDirect (FFIIF)V

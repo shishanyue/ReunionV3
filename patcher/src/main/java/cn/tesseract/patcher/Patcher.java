@@ -2,6 +2,7 @@ package cn.tesseract.patcher;
 
 import net.fabricmc.mappingio.MappedElementKind;
 import net.fabricmc.mappingio.MappingVisitor;
+import net.fabricmc.mappingio.adapter.ForwardingMappingVisitor;
 import net.fabricmc.mappingio.format.enigma.EnigmaDirReader;
 import net.fabricmc.mappingio.format.enigma.EnigmaDirWriter;
 import net.fabricmc.mappingio.tree.MappingTreeView;
@@ -125,11 +126,20 @@ public class Patcher {
         MemoryMappingTree desktopNamed = new MemoryMappingTree();
         EnigmaDirReader.read(mappingsDir.resolve("desktop_named"), "source", "target", desktopNamed);
 
+        /*MemoryMappingTree synced = new MemoryMappingTree();
+        synced.visitNamespaces("source", Collections.singletonList("target"));
+        androidNamed.accept(new ForwardingMappingVisitor(synced) {
+            @Override
+            public void visitDstName(MappedElementKind targetKind, int namespace, String name) throws IOException {
+                super.visitDstName(targetKind, namespace, name);
+            }
+        });*/
+
         MemoryMappingTree intermediary, named;
         switch (platform) {
             case ANDROID:
                 intermediary = androidIntermediary;
-                named = androidNamed;
+                named = desktopNamed;
                 break;
             case DESKTOP:
                 intermediary = desktopIntermediary;

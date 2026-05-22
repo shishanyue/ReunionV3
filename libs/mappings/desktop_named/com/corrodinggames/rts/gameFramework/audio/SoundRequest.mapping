@@ -1,4 +1,4 @@
-CLASS com/corrodinggames/rts/gameFramework/a/class_759 com/corrodinggames/rts/gameFramework/sound/SoundRequest
+CLASS com/corrodinggames/rts/gameFramework/a/class_759 com/corrodinggames/rts/gameFramework/audio/SoundRequest
 	FIELD field_8127 volume F
 	FIELD field_8128 pitch F
 	FIELD field_8129 priority I
