@@ -1,2 +1,0 @@
-CLASS com/corrodinggames/rts/game/units/d/class_602 com/corrodinggames/rts/game/units/buildings/AirFactory
-	METHOD method_1521 init ()V

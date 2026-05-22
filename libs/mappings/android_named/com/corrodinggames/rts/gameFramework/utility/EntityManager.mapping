@@ -1,3 +1,0 @@
-CLASS com/corrodinggames/rts/gameFramework/utility/class_1325 com/corrodinggames/rts/gameFramework/utility/EntityManager
-	FIELD field_7319 entitiesArray [Ljava/lang/Object;
-	METHOD method_3663 add (Ljava/lang/Object;)V

@@ -1,6 +1,0 @@
-CLASS com/corrodinggames/rts/gameFramework/m/class_1189 com/corrodinggames/rts/gameFramework/unitAction/UnitTexture
-	FIELD field_6772 filePath Ljava/lang/String;
-	FIELD field_6781 width I
-	FIELD field_6782 height I
-	METHOD method_3215 height ()I
-	METHOD method_3216 width ()I

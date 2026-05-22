@@ -1,6 +1,0 @@
-CLASS com/corrodinggames/rts/game/units/custom/a/a/class_449 com/corrodinggames/rts/game/units/custom/actionSection/actionPartB/AttachmentActionPart
-	FIELD field_2170 attachmentsOnlyOnSlots Ljava/util/ArrayList;
-	FIELD field_2171 attachmentsDeleteNumUnits I
-	FIELD field_2172 attachmentsDisconnect Z
-	FIELD field_2173 attachmentsUnload Z
-	FIELD field_2174 disconnectFromParent Z

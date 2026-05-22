@@ -1,2 +1,0 @@
-CLASS com/corrodinggames/rts/game/units/custom/class_475 com/corrodinggames/rts/game/units/custom/LogicMessage
-	METHOD method_1164 generateLogicMessage (Lcom/corrodinggames/rts/game/units/class_426;)Ljava/lang/String;

@@ -1,2 +1,0 @@
-CLASS com/corrodinggames/rts/gameFramework/n/class_1255
-	METHOD method_3420 getValueAsTime (Ljava/lang/String;I)I

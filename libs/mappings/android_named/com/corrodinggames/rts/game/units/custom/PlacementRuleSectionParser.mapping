@@ -1,2 +1,0 @@
-CLASS com/corrodinggames/rts/game/units/custom/class_530 com/corrodinggames/rts/game/units/custom/PlacementRuleSectionParser
-	FIELD field_2723 placementRuleSectionList Lcom/corrodinggames/rts/gameFramework/utility/class_1323;

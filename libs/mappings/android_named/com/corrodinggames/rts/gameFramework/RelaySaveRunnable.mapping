@@ -1,2 +1,0 @@
-CLASS com/corrodinggames/rts/gameFramework/class_863 com/corrodinggames/rts/gameFramework/RelaySaveRunnable
-	METHOD method_2042 recordChatMessage (Lcom/corrodinggames/rts/gameFramework/class_865;)V

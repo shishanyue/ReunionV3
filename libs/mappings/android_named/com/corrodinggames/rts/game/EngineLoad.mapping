@@ -1,9 +1,0 @@
-CLASS com/corrodinggames/rts/game/class_317 com/corrodinggames/rts/game/EngineLoad
-	FIELD field_1315 timeScale F
-	FIELD field_1316 maxUpdateTime F
-	FIELD field_1317 lastGameDeltaTime F
-	FIELD field_1318 postBase Lcom/corrodinggames/rts/game/class_320;
-	FIELD field_1319 postDisplacement Lcom/corrodinggames/rts/game/class_320;
-	FIELD field_1345 allUnitsChecksum I
-	METHOD method_417 selectAnyBuilderOnScreen ()V
-	METHOD method_425 updateGame (F)V

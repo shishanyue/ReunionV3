@@ -1,2 +1,0 @@
-CLASS com/corrodinggames/rts/game/units/f/class_711 com/corrodinggames/rts/game/units/f/UnitGeoIndex
-	METHOD method_1705 findNearestUnit (FFFLcom/corrodinggames/rts/game/units/class_409;FLcom/corrodinggames/rts/game/units/f/class_717;)V

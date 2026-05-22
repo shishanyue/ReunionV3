@@ -1,6 +1,0 @@
-CLASS com/corrodinggames/rts/game/units/custom/a/a/class_448 com/corrodinggames/rts/game/units/custom/actionSection/actionPartB/AnimationActionPart
-	FIELD field_2162 finishPlayingLastAnimation Z
-	FIELD field_2163 stopLastAnimation Z
-	FIELD field_2164 playAnimation Lcom/corrodinggames/rts/game/units/custom/class_584;
-	FIELD field_2165 playAnimationIfNotPlaying Lcom/corrodinggames/rts/game/units/custom/class_584;
-	FIELD field_2166 playAnimationLowPriority Z

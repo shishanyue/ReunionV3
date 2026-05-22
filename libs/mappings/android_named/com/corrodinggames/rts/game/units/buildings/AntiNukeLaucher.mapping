@@ -1,3 +1,0 @@
-CLASS com/corrodinggames/rts/game/units/d/class_625 com/corrodinggames/rts/game/units/buildings/AntiNukeLaucher
-	FIELD field_3701 antiNukeCountAction Lcom/corrodinggames/rts/game/units/a/class_349;
-	FIELD field_3702 buildAntiNukeAction Lcom/corrodinggames/rts/game/units/a/class_349;

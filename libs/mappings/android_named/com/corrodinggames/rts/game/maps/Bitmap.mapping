@@ -1,5 +1,0 @@
-CLASS com/corrodinggames/rts/game/b/class_310 com/corrodinggames/rts/game/maps/Bitmap
-	FIELD field_1068 basePath Ljava/lang/String;
-	FIELD field_1069 relativePath Ljava/lang/String;
-	FIELD field_1070 texture Lcom/corrodinggames/rts/gameFramework/m/class_1189;
-	FIELD field_1071 base64 Ljava/lang/String;

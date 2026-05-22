@@ -1,3 +1,0 @@
-CLASS com/corrodinggames/rts/gameFramework/f/class_967 com/corrodinggames/rts/gameFramework/Interface/ChatMessageServer
-	FIELD field_5646 chatMessageList Ljava/util/ArrayList;
-	METHOD method_2596 chatMessage (Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/f/class_968;

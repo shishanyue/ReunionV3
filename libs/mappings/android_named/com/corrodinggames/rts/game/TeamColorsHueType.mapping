@@ -1,6 +1,0 @@
-CLASS com/corrodinggames/rts/game/class_325 com/corrodinggames/rts/game/TeamColorsHueType
-	FIELD field_1472 pureGreen Lcom/corrodinggames/rts/game/class_325;
-	FIELD field_1473 hueAdd Lcom/corrodinggames/rts/game/class_325;
-	FIELD field_1474 hueNew Lcom/corrodinggames/rts/game/class_325;
-	FIELD field_1475 hueShift Lcom/corrodinggames/rts/game/class_325;
-	FIELD field_1476 disabled Lcom/corrodinggames/rts/game/class_325;

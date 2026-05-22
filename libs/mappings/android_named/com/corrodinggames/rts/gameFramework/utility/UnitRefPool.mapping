@@ -1,4 +1,0 @@
-CLASS com/corrodinggames/rts/gameFramework/utility/class_1331 com/corrodinggames/rts/gameFramework/utility/UnitRefPool
-	FIELD field_7338 unitCount I
-	FIELD field_7339 unitRefList [Lcom/corrodinggames/rts/game/units/class_426;
-	METHOD method_3683 addUnitRef (Lcom/corrodinggames/rts/game/units/class_426;)V

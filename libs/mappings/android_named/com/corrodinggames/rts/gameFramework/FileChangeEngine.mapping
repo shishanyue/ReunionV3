@@ -1,3 +1,0 @@
-CLASS com/corrodinggames/rts/gameFramework/class_990 com/corrodinggames/rts/gameFramework/FileChangeEngine
-	METHOD method_2647 startFileChangeEngine (Z)V
-	METHOD method_2648 writeLastModified ()V

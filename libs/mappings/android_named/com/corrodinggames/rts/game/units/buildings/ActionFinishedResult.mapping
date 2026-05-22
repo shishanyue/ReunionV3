@@ -1,2 +1,0 @@
-CLASS com/corrodinggames/rts/game/units/d/class_639 com/corrodinggames/rts/game/units/buildings/ActionFinishedResult
-	FIELD field_3773 actionId Lcom/corrodinggames/rts/game/units/a/class_333;

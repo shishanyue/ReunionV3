@@ -1,3 +1,0 @@
-CLASS com/corrodinggames/rts/game/units/class_371 com/corrodinggames/rts/game/units/ChangeTypeAction
-	FIELD field_1596 isLeft Z
-	FIELD field_1597 isMainContent Z

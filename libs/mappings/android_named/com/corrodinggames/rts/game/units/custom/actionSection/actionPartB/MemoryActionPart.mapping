@@ -1,5 +1,0 @@
-CLASS com/corrodinggames/rts/game/units/custom/a/a/class_452 com/corrodinggames/rts/game/units/custom/actionSection/actionPartB/MemoryActionPart
-	FIELD field_2187 setUnitMemoryWriter Lcom/corrodinggames/rts/game/units/custom/logicBooleans/VariableScope$CachedWriter;
-	FIELD field_2188 swapCustomTarget1And2 Z
-	FIELD field_2189 setCustomTarget1 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
-	FIELD field_2190 setCustomTarget2 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;

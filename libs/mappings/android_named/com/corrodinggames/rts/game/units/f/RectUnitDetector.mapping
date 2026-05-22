@@ -1,6 +1,0 @@
-CLASS com/corrodinggames/rts/game/units/f/class_716 com/corrodinggames/rts/game/units/f/RectUnitDetector
-	FIELD field_4013 rect Landroid/graphics/RectF;
-	FIELD field_4014 rectLeft F
-	FIELD field_4015 rectRight F
-	FIELD field_4016 rectTop F
-	FIELD field_4017 rectBottom F

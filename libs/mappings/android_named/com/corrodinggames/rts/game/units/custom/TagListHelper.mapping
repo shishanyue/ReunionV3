@@ -1,5 +1,0 @@
-CLASS com/corrodinggames/rts/game/units/custom/class_576 com/corrodinggames/rts/game/units/custom/TagListHelper
-	METHOD method_1398 hasTag (Lcom/corrodinggames/rts/game/units/custom/class_576;Lcom/corrodinggames/rts/game/units/custom/class_577;)Z
-	METHOD method_1402 loadTagList (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/class_577;
-	METHOD method_1403 getStringAsTagListOrDefault (Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/class_577;)Lcom/corrodinggames/rts/game/units/custom/class_577;
-	METHOD method_1406 add (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/class_576;

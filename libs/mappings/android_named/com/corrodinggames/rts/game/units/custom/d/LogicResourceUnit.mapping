@@ -1,3 +1,0 @@
-CLASS com/corrodinggames/rts/game/units/custom/d/class_553 com/corrodinggames/rts/game/units/custom/d/LogicResourceUnit
-	METHOD method_1307 createAddResourcesWithLogicBoolean (Lcom/corrodinggames/rts/game/units/custom/class_581;Lcom/corrodinggames/rts/gameFramework/utility/class_1297;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/d/class_553;
-	METHOD method_1307 createAddResourcesWithLogicBoolean (Lcom/corrodinggames/rts/game/units/custom/class_581;Lcom/corrodinggames/rts/gameFramework/utility/class_1297;Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/d/class_553;)Lcom/corrodinggames/rts/game/units/custom/d/class_553;

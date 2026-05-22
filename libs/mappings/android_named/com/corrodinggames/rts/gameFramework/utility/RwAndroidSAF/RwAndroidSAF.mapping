@@ -1,7 +1,0 @@
-CLASS com/corrodinggames/rts/gameFramework/utility/a/class_1291 com/corrodinggames/rts/gameFramework/utility/RwAndroidSAF/RwAndroidSAF
-	METHOD method_3487 read (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1322;
-	METHOD method_3488 rename (Ljava/lang/String;Ljava/lang/String;)Z
-	METHOD method_3489 writer (Ljava/lang/String;Z)Ljava/io/OutputStream;
-	METHOD method_3490 deleteFile (Ljava/lang/String;)Z
-	METHOD method_3491 getUri (Ljava/lang/String;)Landroid/net/Uri;
-	METHOD method_3492 getParentPathUri (Ljava/lang/String;)Landroid/net/Uri;

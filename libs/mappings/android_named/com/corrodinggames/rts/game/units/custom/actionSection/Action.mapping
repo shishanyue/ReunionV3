@@ -1,2 +1,0 @@
-CLASS com/corrodinggames/rts/game/units/custom/a/class_444 com/corrodinggames/rts/game/units/custom/actionSection/Action
-	METHOD method_1093 onAction (Lcom/corrodinggames/rts/game/units/custom/class_579;Lcom/corrodinggames/rts/game/units/a/class_349;Landroid/graphics/PointF;Lcom/corrodinggames/rts/game/units/class_426;I)Z

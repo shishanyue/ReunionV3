@@ -1,3 +1,0 @@
-CLASS com/corrodinggames/rts/game/units/custom/class_544 com/corrodinggames/rts/game/units/custom/LoadedFile
-	METHOD method_1248 parseFilePath (Lcom/corrodinggames/rts/game/units/custom/class_581;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/class_544;
-	METHOD method_1249 parseFilePath (Lcom/corrodinggames/rts/game/units/custom/class_581;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/class_544;)Lcom/corrodinggames/rts/game/units/custom/class_544;

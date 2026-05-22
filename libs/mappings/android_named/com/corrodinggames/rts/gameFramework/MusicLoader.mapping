@@ -1,4 +1,0 @@
-CLASS com/corrodinggames/rts/gameFramework/class_849 com/corrodinggames/rts/gameFramework/MusicLoader
-	FIELD field_4684 mediaPlayer Landroid/media/MediaPlayer;
-	FIELD field_4685 musicPlayerWithName Lcom/corrodinggames/rts/gameFramework/class_848;
-	FIELD field_4686 musicPlayer Lcom/corrodinggames/rts/gameFramework/class_847;

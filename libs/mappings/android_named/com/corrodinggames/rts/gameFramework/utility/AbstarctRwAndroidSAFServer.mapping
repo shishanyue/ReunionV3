@@ -1,2 +1,0 @@
-CLASS com/corrodinggames/rts/gameFramework/utility/class_1301 com/corrodinggames/rts/gameFramework/utility/AbstarctRwAndroidSAFServer
-	METHOD method_3602 deleteFile (Ljava/lang/String;)Z

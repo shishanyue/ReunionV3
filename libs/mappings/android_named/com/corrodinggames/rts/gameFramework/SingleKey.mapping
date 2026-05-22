@@ -1,2 +1,0 @@
-CLASS com/corrodinggames/rts/gameFramework/class_780 com/corrodinggames/rts/gameFramework/SingleKey
-	METHOD method_1809 assignKey (ILjava/lang/String;I)Lcom/corrodinggames/rts/gameFramework/class_780;

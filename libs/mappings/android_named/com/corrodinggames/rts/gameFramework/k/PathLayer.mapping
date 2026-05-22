@@ -1,7 +1,0 @@
-CLASS com/corrodinggames/rts/gameFramework/k/class_1069 com/corrodinggames/rts/gameFramework/k/PathLayer
-	FIELD field_6524 movementType Lcom/corrodinggames/rts/game/units/class_428;
-	FIELD field_6525 gridWidth I
-	FIELD field_6526 gridHeight I
-	FIELD field_6527 terrainPassability [B
-	FIELD field_6540 pathEngine Lcom/corrodinggames/rts/gameFramework/k/class_1072;
-	METHOD method_3107 removeBuildingUnit (Lcom/corrodinggames/rts/game/units/class_409;)V

@@ -1,3 +1,0 @@
-CLASS com/corrodinggames/rts/game/units/custom/class_580 com/corrodinggames/rts/game/units/custom/ActionEvent
-	FIELD field_3139 eventSource Lcom/corrodinggames/rts/game/units/class_426;
-	FIELD field_3140 eventTagList Lcom/corrodinggames/rts/game/units/custom/class_577;

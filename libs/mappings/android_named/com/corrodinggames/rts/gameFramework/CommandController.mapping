@@ -1,2 +1,0 @@
-CLASS com/corrodinggames/rts/gameFramework/class_873 com/corrodinggames/rts/gameFramework/CommandController
-	FIELD field_4801 commandList Ljava/util/ArrayList;

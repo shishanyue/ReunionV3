@@ -1,2 +1,0 @@
-CLASS com/corrodinggames/rts/game/units/custom/class_527 com/corrodinggames/rts/game/units/custom/DisplayPrefixInHUD
-	METHOD method_1223 getTextTranslation ()Ljava/lang/String;

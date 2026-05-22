@@ -1,3 +1,0 @@
-CLASS com/corrodinggames/rts/game/units/custom/a/a/class_445 com/corrodinggames/rts/game/units/custom/actionSection/actionPartB/ResourceActionPart
-	FIELD field_2126 resourceAmountSetValue D
-	FIELD field_2128 resourceAmountMultiplyBy F

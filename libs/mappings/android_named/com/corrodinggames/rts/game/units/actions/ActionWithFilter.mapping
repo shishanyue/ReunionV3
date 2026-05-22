@@ -1,3 +1,0 @@
-CLASS com/corrodinggames/rts/game/units/a/class_338 com/corrodinggames/rts/game/units/actions/ActionWithFilter
-	FIELD field_1529 actionBaseInner Lcom/corrodinggames/rts/game/units/a/class_349;
-	FIELD field_1530 unitFilter Lcom/corrodinggames/rts/game/units/a/class_332;

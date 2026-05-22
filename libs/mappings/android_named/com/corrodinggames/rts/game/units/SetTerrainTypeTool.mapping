@@ -1,5 +1,0 @@
-CLASS com/corrodinggames/rts/game/units/class_396 com/corrodinggames/rts/game/units/SetTerrainTypeTool
-	FIELD field_1682 lastTileX I
-	FIELD field_1683 lastTileY I
-	FIELD field_1684 lastTile Lcom/corrodinggames/rts/game/b/class_306;
-	METHOD method_665 setTerrainAtPoint (Lcom/corrodinggames/rts/game/units/class_398;Landroid/graphics/PointF;)V

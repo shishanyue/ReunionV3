@@ -1,7 +1,0 @@
-CLASS com/corrodinggames/rts/game/units/custom/a/a/class_450 com/corrodinggames/rts/game/units/custom/actionSection/actionPartB/LogicMessageActionPart
-	FIELD field_2175 showMessageToPlayer Lcom/corrodinggames/rts/game/units/custom/class_475;
-	FIELD field_2176 showMessageToAllPlayers Lcom/corrodinggames/rts/game/units/custom/class_475;
-	FIELD field_2177 showMessageToAllEnemyPlayers Lcom/corrodinggames/rts/game/units/custom/class_475;
-	FIELD field_2178 showQuickWarLogToPlayer Lcom/corrodinggames/rts/game/units/custom/class_475;
-	FIELD field_2179 showQuickWarLogToAllPlayers Lcom/corrodinggames/rts/game/units/custom/class_475;
-	FIELD field_2180 debugMessage Lcom/corrodinggames/rts/game/units/custom/class_475;

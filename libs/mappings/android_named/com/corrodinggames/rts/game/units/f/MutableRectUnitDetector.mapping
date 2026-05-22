@@ -1,7 +1,0 @@
-CLASS com/corrodinggames/rts/game/units/f/class_715 com/corrodinggames/rts/game/units/f/MutableRectUnitDetector
-	FIELD field_4008 rect Landroid/graphics/RectF;
-	FIELD field_4009 rectLeft F
-	FIELD field_4010 rectRight F
-	FIELD field_4011 rectTop F
-	FIELD field_4012 rectBottom F
-	METHOD method_1715 set (FFFF)V

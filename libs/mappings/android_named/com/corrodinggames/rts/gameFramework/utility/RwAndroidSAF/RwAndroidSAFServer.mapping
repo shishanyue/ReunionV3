@@ -1,4 +1,0 @@
-CLASS com/corrodinggames/rts/gameFramework/utility/a/class_1290 com/corrodinggames/rts/gameFramework/utility/RwAndroidSAF/RwAndroidSAFServer
-	METHOD method_3481 logSafError (Ljava/lang/String;)V
-	METHOD method_3482 isSafLink (Ljava/lang/String;)Z
-	METHOD method_3485 extractPathInZip (Ljava/lang/String;)Ljava/lang/String;

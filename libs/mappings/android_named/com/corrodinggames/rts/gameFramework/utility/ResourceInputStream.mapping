@@ -1,6 +1,0 @@
-CLASS com/corrodinggames/rts/gameFramework/utility/class_1322 com/corrodinggames/rts/gameFramework/utility/ResourceInputStream
-	FIELD field_7305 inputStream Ljava/io/InputStream;
-	FIELD field_7306 resourcePath Ljava/lang/String;
-	FIELD field_7308 isClosed Z
-	FIELD field_7309 creationStackTrace Ljava/lang/String;
-	METHOD method_3650 getResourcePath ()Ljava/lang/String;

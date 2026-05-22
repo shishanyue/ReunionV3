@@ -1,3 +1,0 @@
-CLASS com/corrodinggames/rts/game/a/class_263
-	FIELD field_710 attackingUnitsLand Lcom/corrodinggames/rts/game/a/class_287;
-	FIELD field_711 attackingUnitsHover Lcom/corrodinggames/rts/game/a/class_287;

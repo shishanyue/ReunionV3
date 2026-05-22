@@ -50,7 +50,7 @@ tasks.register('patchAndroidJar', JavaExec) {
     inputs.dir(androidNamedDir)
     outputs.file(androidPatchedJar)
     outputs.file(androidRTarget)
-    args = [androidBaseJar.absolutePath, androidPatchedJar.get().asFile.absolutePath, '--platform', 'android', '--remap-ids', androidRTarget.absolutePath, '--enigma-dir', androidEnigmaDir.absolutePath/*, '--named-dir', androidNamedDir.absolutePath*/]
+    args = [androidBaseJar.absolutePath, androidPatchedJar.get().asFile.absolutePath, '--platform', 'android', '--remap-ids', androidRTarget.absolutePath, '--enigma-dir', androidEnigmaDir.absolutePath, '--named-dir', androidNamedDir.absolutePath]
     workingDir = rootDir
     doFirst {
         androidPatchedJar.get().asFile.with {

@@ -3,6 +3,7 @@ package cn.tesseract.patcher;
 import net.fabricmc.mappingio.MappedElementKind;
 import net.fabricmc.mappingio.MappingVisitor;
 import net.fabricmc.mappingio.format.enigma.EnigmaDirReader;
+import net.fabricmc.mappingio.format.enigma.EnigmaDirWriter;
 import net.fabricmc.mappingio.tree.MappingTreeView;
 import net.fabricmc.mappingio.tree.MemoryMappingTree;
 import net.fabricmc.mappingio.tree.VisitOrder;
@@ -224,6 +225,10 @@ public class Patcher {
                 merged.visitComment(kind, comment);
             }
         }, VisitOrder.createByInputOrder());
+
+        EnigmaDirWriter writer = new EnigmaDirWriter(namedDir.getParent().resolve("debug"), true);
+        merged.accept(writer, VisitOrder.createByInputOrder());
+        writer.close();
 
         return merged;
     }

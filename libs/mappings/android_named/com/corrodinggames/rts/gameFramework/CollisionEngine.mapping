@@ -1,3 +1,0 @@
-CLASS com/corrodinggames/rts/gameFramework/class_756 com/corrodinggames/rts/gameFramework/CollisionEngine
-	FIELD field_4140 mapList Ljava/util/ArrayList;
-	METHOD method_1744 findFromMapList (B)Lcom/corrodinggames/rts/gameFramework/class_792;

@@ -1,6 +1,0 @@
-CLASS com/corrodinggames/rts/gameFramework/class_882 com/corrodinggames/rts/gameFramework/Unit
-	METHOD method_2070 getNanoTime ()J
-	METHOD method_2071 formatMilliseconds (D)Ljava/lang/String;
-	METHOD method_2072 calculateElapsedMillis (J)F
-	METHOD method_2073 calculateTimeDifferenceMillis (JJ)D
-	METHOD method_2075 formatNanosecondsToMilliseconds (D)Ljava/lang/String;

@@ -1,6 +1,0 @@
-CLASS com/corrodinggames/rts/game/units/custom/b/class_502
-	FIELD field_2599 enabled Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
-	FIELD field_2600 speed F
-	FIELD field_2601 maxSpeed F
-	FIELD field_2602 notherUnitHasTag Lcom/corrodinggames/rts/game/units/custom/class_577;
-	FIELD field_2603 onlySameTeam Z
