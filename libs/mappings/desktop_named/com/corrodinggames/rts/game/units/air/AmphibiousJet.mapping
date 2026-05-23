@@ -1,4 +1,6 @@
 CLASS com/corrodinggames/rts/game/units/b/class_386 com/corrodinggames/rts/game/units/air/AmphibiousJet
+	CLASS class_387 AnonymousClass1
+	CLASS class_388 AnonymousClass2
 	FIELD field_1631 field_1631 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_1630 field_1630 Ljava/util/ArrayList;
 	FIELD field_1632 field_1632 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
@@ -22,5 +24,3 @@ CLASS com/corrodinggames/rts/game/units/b/class_386 com/corrodinggames/rts/game/
 	METHOD method_654 method_654 ()V
 	METHOD method_656 method_656 (Z)V
 	METHOD method_653 method_653 ()Z
-	CLASS class_387 AnonymousClass1
-	CLASS class_388 AnonymousClass2

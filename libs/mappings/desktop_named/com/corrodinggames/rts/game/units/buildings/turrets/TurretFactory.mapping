@@ -1,4 +1,8 @@
 CLASS com/corrodinggames/rts/game/units/d/a/class_605 com/corrodinggames/rts/game/units/buildings/turrets/TurretFactory
+	CLASS class_606 AnonymousClass1
+	CLASS class_607 AnonymousClass2
+	CLASS class_608 AnonymousClass3
+	CLASS class_609 AnonymousClass4
 	FIELD field_3625 field_3625 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_3626 field_3626 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_3627 field_3627 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
@@ -48,7 +52,3 @@ CLASS com/corrodinggames/rts/game/units/d/a/class_605 com/corrodinggames/rts/gam
 	METHOD method_1539 updateTurretRotation (F)V
 	METHOD method_4699 getTurretTechLevel ()I
 	METHOD method_4700 drawTurret ()V
-	CLASS class_606 AnonymousClass1
-	CLASS class_607 AnonymousClass2
-	CLASS class_608 AnonymousClass3
-	CLASS class_609 AnonymousClass4

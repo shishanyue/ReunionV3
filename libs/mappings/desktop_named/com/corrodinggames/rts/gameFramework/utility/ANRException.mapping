@@ -1,6 +1,7 @@
 CLASS com/corrodinggames/rts/gameFramework/utility/class_1289 com/corrodinggames/rts/gameFramework/utility/ANRException
+	CLASS class_1311 AnonymousClass1
+		METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I
 	METHOD method_3473 method_3473 ()Lcom/corrodinggames/rts/gameFramework/utility/class_1289;
 	METHOD method_3474 method_3474 (Ljava/lang/String;Z)Lcom/corrodinggames/rts/gameFramework/utility/class_1289;
 	METHOD method_3475 method_3475 (Ljava/lang/Thread;)Ljava/lang/String;
 	METHOD fillInStackTrace fillInStackTrace ()Ljava/lang/Throwable;
-	CLASS class_1311 AnonymousClass1

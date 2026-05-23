@@ -1,4 +1,5 @@
 CLASS com/corrodinggames/rts/game/units/d/class_621 com/corrodinggames/rts/game/units/buildings/SupplyDepot
+	CLASS class_622 AnonymousClass1
 	FIELD field_3678 field_3678 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_3679 field_3679 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_3680 field_3680 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
@@ -12,4 +13,3 @@ CLASS com/corrodinggames/rts/game/units/d/class_621 com/corrodinggames/rts/game/
 	FIELD field_3688 availableActions Ljava/util/ArrayList;
 	METHOD method_1560 method_1560 ()V
 	METHOD method_4754 upgradeToTier2 ()V
-	CLASS class_622 AnonymousClass1

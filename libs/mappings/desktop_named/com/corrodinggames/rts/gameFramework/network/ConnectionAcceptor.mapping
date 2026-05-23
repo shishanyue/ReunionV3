@@ -1,4 +1,6 @@
 CLASS com/corrodinggames/rts/gameFramework/j/class_1026 com/corrodinggames/rts/gameFramework/network/ConnectionAcceptor
+	CLASS class_1027 AnonymousClass1
+		FIELD field_6094 field_6094 Lcom/corrodinggames/rts/gameFramework/j/class_1026;
 	FIELD field_6076 field_6076 Z
 	FIELD field_6077 field_6077 Z
 	FIELD field_6078 isRunning Z
@@ -22,4 +24,3 @@ CLASS com/corrodinggames/rts/gameFramework/j/class_1026 com/corrodinggames/rts/g
 	METHOD method_2846 startSocket (Z)V
 	METHOD method_2847 recreateServerSocket ()V
 	METHOD run run ()V
-	CLASS class_1027 AnonymousClass1

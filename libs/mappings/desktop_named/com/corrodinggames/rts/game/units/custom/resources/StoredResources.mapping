@@ -1,4 +1,7 @@
 CLASS com/corrodinggames/rts/game/units/custom/e/class_567 com/corrodinggames/rts/game/units/custom/resources/StoredResources
+	CLASS class_568 AnonymousClass1
+		FIELD field_3041 field_3041 Lcom/corrodinggames/rts/game/units/custom/e/class_567;
+		METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I
 	FIELD field_3038 field_3038 Lcom/corrodinggames/rts/game/units/custom/e/class_567;
 	FIELD field_3039 field_3039 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
 	METHOD method_1343 method_1343 (D)V
@@ -28,4 +31,3 @@ CLASS com/corrodinggames/rts/game/units/custom/e/class_567 com/corrodinggames/rt
 	METHOD method_1378 method_1378 (Lcom/corrodinggames/rts/game/units/custom/e/class_567;Lcom/corrodinggames/rts/game/units/class_426;)V
 	METHOD method_1379 method_1379 (Lcom/corrodinggames/rts/game/units/custom/e/class_567;)Z
 	METHOD method_1380 method_1380 (Lcom/corrodinggames/rts/game/units/custom/e/class_567;)Z
-	CLASS class_568 AnonymousClass1

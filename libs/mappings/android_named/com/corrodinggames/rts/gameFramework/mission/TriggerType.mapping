@@ -1,26 +1,26 @@
 CLASS com/corrodinggames/rts/gameFramework/n/class_1261 com/corrodinggames/rts/gameFramework/mission/TriggerType
-	CLASS class_1262 AnonymousClass1
-	CLASS class_1263 AnonymousClass2
-	CLASS class_1264 AnonymousClass3
-	CLASS class_1265 AnonymousClass4
-	CLASS class_1266 AnonymousClass5
-	CLASS class_1267 AnonymousClass6
-	CLASS class_1268 AnonymousClass7
-	CLASS class_1269 AnonymousClass8
-	CLASS class_1270 AnonymousClass9
-	CLASS class_1271 AnonymousClass10
-	CLASS class_1272 AnonymousClass11
-	FIELD field_7063 field_7063 Lcom/corrodinggames/rts/gameFramework/n/class_1261;
-	FIELD field_7064 field_7064 Lcom/corrodinggames/rts/gameFramework/n/class_1261;
-	FIELD field_7065 field_7065 Lcom/corrodinggames/rts/gameFramework/n/class_1261;
-	FIELD field_7066 field_7066 Lcom/corrodinggames/rts/gameFramework/n/class_1261;
-	FIELD field_7067 field_7067 Lcom/corrodinggames/rts/gameFramework/n/class_1261;
-	FIELD field_7068 field_7068 Lcom/corrodinggames/rts/gameFramework/n/class_1261;
-	FIELD field_7069 field_7069 Lcom/corrodinggames/rts/gameFramework/n/class_1261;
-	FIELD field_7070 field_7070 Lcom/corrodinggames/rts/gameFramework/n/class_1261;
-	FIELD field_7071 field_7071 Lcom/corrodinggames/rts/gameFramework/n/class_1261;
-	FIELD field_7072 field_7072 Lcom/corrodinggames/rts/gameFramework/n/class_1261;
-	FIELD field_7073 field_7073 Lcom/corrodinggames/rts/gameFramework/n/class_1261;
+	CLASS class_1262 objective
+	CLASS class_1263 teamTagDetect
+	CLASS class_1264 basic
+	CLASS class_1265 move
+	CLASS class_1266 changeCredits
+	CLASS class_1267 teamTags
+	CLASS class_1268 unitAdd
+	CLASS class_1269 unitRemove
+	CLASS class_1270 mapText
+	CLASS class_1271 moveCamera
+	CLASS class_1272 unitDetect
+	FIELD field_7063 objective Lcom/corrodinggames/rts/gameFramework/n/class_1261;
+	FIELD field_7064 teamTagDetect Lcom/corrodinggames/rts/gameFramework/n/class_1261;
+	FIELD field_7065 basic Lcom/corrodinggames/rts/gameFramework/n/class_1261;
+	FIELD field_7066 move Lcom/corrodinggames/rts/gameFramework/n/class_1261;
+	FIELD field_7067 changeCredits Lcom/corrodinggames/rts/gameFramework/n/class_1261;
+	FIELD field_7068 teamTags Lcom/corrodinggames/rts/gameFramework/n/class_1261;
+	FIELD field_7069 unitAdd Lcom/corrodinggames/rts/gameFramework/n/class_1261;
+	FIELD field_7070 unitRemove Lcom/corrodinggames/rts/gameFramework/n/class_1261;
+	FIELD field_7071 mapText Lcom/corrodinggames/rts/gameFramework/n/class_1261;
+	FIELD field_7072 moveCamera Lcom/corrodinggames/rts/gameFramework/n/class_1261;
+	FIELD field_7073 unitDetect Lcom/corrodinggames/rts/gameFramework/n/class_1261;
 	FIELD field_7074 field_7074 [Lcom/corrodinggames/rts/gameFramework/n/class_1261;
 	METHOD method_3437 method_3437 ()Ljava/lang/String;
 	METHOD method_3438 method_3438 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/n/class_1261;

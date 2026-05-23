@@ -1,9 +1,9 @@
 CLASS com/corrodinggames/rts/game/a/a/class_265 com/corrodinggames/rts/game/ai/behaviors/AIBehaviorType
+	CLASS class_266 AnonymousClass1
+	CLASS class_267 AnonymousClass2
 	FIELD field_716 field_716 Lcom/corrodinggames/rts/game/a/a/class_265;
 	FIELD field_717 field_717 Lcom/corrodinggames/rts/game/a/a/class_265;
 	FIELD field_718 field_718 [Lcom/corrodinggames/rts/game/a/a/class_265;
 	METHOD method_228 method_228 ()Lcom/corrodinggames/rts/game/a/a/class_264;
 	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/a/a/class_265;
 	METHOD values values ()[Lcom/corrodinggames/rts/game/a/a/class_265;
-	CLASS class_266 AnonymousClass1
-	CLASS class_267 AnonymousClass2

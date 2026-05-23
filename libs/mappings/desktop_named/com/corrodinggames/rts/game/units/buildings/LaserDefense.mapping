@@ -1,4 +1,5 @@
 CLASS com/corrodinggames/rts/game/units/d/class_645 com/corrodinggames/rts/game/units/buildings/LaserDefense
+	CLASS class_646 AnonymousClass1
 	FIELD field_3792 field_3792 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_3793 field_3793 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_3794 field_3794 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
@@ -13,4 +14,3 @@ CLASS com/corrodinggames/rts/game/units/d/class_645 com/corrodinggames/rts/game/
 	FIELD field_3803 availableActions Ljava/util/ArrayList;
 	METHOD method_1618 method_1618 (Lcom/corrodinggames/rts/game/units/class_409;FFFFF)Z
 	METHOD method_1619 initializeTextures ()V
-	CLASS class_646 AnonymousClass1

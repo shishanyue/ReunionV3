@@ -1,4 +1,6 @@
 CLASS com/corrodinggames/rts/game/units/h/class_732 com/corrodinggames/rts/game/units/sea/AttackSubmarine
+	CLASS class_733 AnonymousClass1
+	CLASS class_734 AnonymousClass2
 	FIELD field_4098 field_4098 Z
 	FIELD field_4099 field_4099 Z
 	FIELD field_4100 field_4100 F
@@ -12,5 +14,3 @@ CLASS com/corrodinggames/rts/game/units/h/class_732 com/corrodinggames/rts/game/
 	FIELD field_4108 field_4108 Lcom/corrodinggames/rts/game/units/a/class_349;
 	FIELD field_4109 field_4109 Ljava/util/ArrayList;
 	METHOD method_1738 method_1738 ()V
-	CLASS class_733 AnonymousClass1
-	CLASS class_734 AnonymousClass2

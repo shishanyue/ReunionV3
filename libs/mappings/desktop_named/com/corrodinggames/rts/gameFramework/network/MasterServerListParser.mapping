@@ -1,4 +1,7 @@
 CLASS com/corrodinggames/rts/gameFramework/j/class_1051 com/corrodinggames/rts/gameFramework/network/MasterServerListParser
+	CLASS class_1052 AnonymousClass1
+		FIELD field_6263 field_6263 I
+		FIELD field_6264 field_6264 Lcom/corrodinggames/rts/gameFramework/class_1061;
+		FIELD field_6265 field_6265 Lcom/corrodinggames/rts/gameFramework/j/class_1051;
 	FIELD field_6262 completionCallback Ljava/lang/Runnable;
 	METHOD run run ()V
-	CLASS class_1052 AnonymousClass1

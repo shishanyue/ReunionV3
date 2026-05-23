@@ -1,4 +1,6 @@
 CLASS com/corrodinggames/rts/gameFramework/g/class_980 com/corrodinggames/rts/gameFramework/stats/TeamStats
+	CLASS class_981 AnonymousClass1
+		FIELD field_5751 field_5751 [I
 	FIELD field_5748 field_5748 Lcom/corrodinggames/rts/gameFramework/g/class_986;
 	FIELD field_5749 comparators Ljava/util/ArrayList;
 	METHOD method_2620 rebuild ()V
@@ -7,4 +9,3 @@ CLASS com/corrodinggames/rts/gameFramework/g/class_980 com/corrodinggames/rts/ga
 	METHOD method_5314 update ()V
 	METHOD method_5315 nextSort ()V
 	METHOD method_5316 getComparators ()Ljava/util/ArrayList;
-	CLASS class_981 AnonymousClass1
