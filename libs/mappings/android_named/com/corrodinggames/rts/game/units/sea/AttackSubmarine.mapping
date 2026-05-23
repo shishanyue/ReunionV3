@@ -1,4 +1,6 @@
 CLASS com/corrodinggames/rts/game/units/h/class_732 com/corrodinggames/rts/game/units/sea/AttackSubmarine
+	CLASS class_733 AnonymousClass1
+	CLASS class_734 AnonymousClass2
 	FIELD field_4098 field_4098 Z
 	FIELD field_4099 field_4099 Z
 	FIELD field_4100 field_4100 F

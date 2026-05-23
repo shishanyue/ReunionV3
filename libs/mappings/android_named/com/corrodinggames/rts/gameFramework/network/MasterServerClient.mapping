@@ -1,4 +1,10 @@
 CLASS com/corrodinggames/rts/gameFramework/j/class_1047 com/corrodinggames/rts/gameFramework/network/MasterServerClient
+	CLASS class_1048 AnonymousClass1
+		FIELD field_6257 field_6257 Ljava/lang/String;
+		FIELD field_6258 field_6258 Ljava/util/List;
+		FIELD field_6259 field_6259 Z
+		FIELD field_6260 field_6260 Z
+		METHOD call call ()Ljava/lang/Object;
 	FIELD field_6250 ENABLE_STATUS_LOGGING Z
 	FIELD field_6251 ENABLE_CONSOLE_LOGGING Z
 	FIELD field_6252 MASTER_SERVER_URLS [Ljava/lang/String;

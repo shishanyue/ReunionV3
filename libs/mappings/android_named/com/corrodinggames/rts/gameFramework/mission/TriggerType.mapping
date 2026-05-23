@@ -1,4 +1,15 @@
 CLASS com/corrodinggames/rts/gameFramework/n/class_1261 com/corrodinggames/rts/gameFramework/mission/TriggerType
+	CLASS class_1262 AnonymousClass1
+	CLASS class_1263 AnonymousClass2
+	CLASS class_1264 AnonymousClass3
+	CLASS class_1265 AnonymousClass4
+	CLASS class_1266 AnonymousClass5
+	CLASS class_1267 AnonymousClass6
+	CLASS class_1268 AnonymousClass7
+	CLASS class_1269 AnonymousClass8
+	CLASS class_1270 AnonymousClass9
+	CLASS class_1271 AnonymousClass10
+	CLASS class_1272 AnonymousClass11
 	FIELD field_7063 field_7063 Lcom/corrodinggames/rts/gameFramework/n/class_1261;
 	FIELD field_7064 field_7064 Lcom/corrodinggames/rts/gameFramework/n/class_1261;
 	FIELD field_7065 field_7065 Lcom/corrodinggames/rts/gameFramework/n/class_1261;

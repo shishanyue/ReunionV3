@@ -1,4 +1,10 @@
 CLASS com/corrodinggames/rts/gameFramework/f/class_938 com/corrodinggames/rts/gameFramework/ui/Panels
+	CLASS class_939 AnonymousClass1
+	CLASS class_940 AnonymousClass2
+	CLASS class_941 AnonymousClass3
+	CLASS class_942 AnonymousClass4
+	CLASS class_943 AnonymousClass5
+	CLASS class_944 AnonymousClass6
 	FIELD field_5379 field_5379 Lcom/corrodinggames/rts/gameFramework/f/class_938;
 	FIELD field_5380 field_5380 Lcom/corrodinggames/rts/gameFramework/f/class_938;
 	FIELD field_5381 field_5381 Lcom/corrodinggames/rts/gameFramework/f/class_938;

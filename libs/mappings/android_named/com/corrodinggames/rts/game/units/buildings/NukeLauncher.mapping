@@ -1,4 +1,6 @@
 CLASS com/corrodinggames/rts/game/units/d/class_647 com/corrodinggames/rts/game/units/buildings/NukeLauncher
+	CLASS class_616 AnonymousClass2
+	CLASS class_648 AnonymousClass1
 	FIELD field_3804 field_3804 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_3805 field_3805 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_3807 field_3807 Lcom/corrodinggames/rts/gameFramework/m/class_1189;

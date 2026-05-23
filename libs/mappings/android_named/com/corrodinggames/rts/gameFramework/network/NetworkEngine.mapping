@@ -1,4 +1,31 @@
 CLASS com/corrodinggames/rts/gameFramework/j/class_1001 com/corrodinggames/rts/gameFramework/network/NetworkEngine
+	CLASS class_1002 AnonymousClass1
+		FIELD field_5987 field_5987 Ljava/lang/Object;
+	CLASS class_1003 AnonymousClass2
+		FIELD field_5988 field_5988 Ljava/lang/Object;
+	CLASS class_1004 AnonymousClass3
+		FIELD field_5989 field_5989 Lcom/corrodinggames/rts/gameFramework/f/a/class_914;
+		FIELD field_5990 field_5990 Lcom/corrodinggames/rts/gameFramework/j/class_1001;
+	CLASS class_1005 AnonymousClass4
+		FIELD field_5991 field_5991 Lcom/corrodinggames/rts/gameFramework/f/a/class_914;
+		FIELD field_5992 field_5992 Lcom/corrodinggames/rts/gameFramework/j/class_1001;
+	CLASS class_1006 AnonymousClass5
+		CLASS class_1007 AnonymousClass1
+			FIELD field_5996 field_5996 Lcom/corrodinggames/rts/gameFramework/j/class_1001$class_1006;
+			METHOD run run ()V
+		FIELD field_5993 field_5993 Lcom/corrodinggames/rts/gameFramework/f/a/class_914;
+		FIELD field_5994 field_5994 Lcom/corrodinggames/rts/gameFramework/class_1061;
+		FIELD field_5995 field_5995 Lcom/corrodinggames/rts/gameFramework/j/class_1001;
+	CLASS class_1008 AnonymousClass6
+		FIELD field_5997 field_5997 Lcom/corrodinggames/rts/gameFramework/j/class_1001;
+		METHOD run run ()V
+	CLASS class_1009 AnonymousClass7
+		FIELD field_5998 field_5998 Lcom/corrodinggames/rts/gameFramework/j/class_1011;
+		METHOD run run ()V
+	CLASS class_1010 AnonymousClass8
+		FIELD field_5999 field_5999 Z
+		FIELD field_6000 field_6000 Lcom/corrodinggames/rts/gameFramework/j/class_1001;
+		METHOD run run ()V
 	FIELD field_5899 field_5899 Z
 	FIELD field_5848 field_5848 Lcom/corrodinggames/rts/game/class_324;
 	FIELD field_5874 field_5874 Lcom/corrodinggames/rts/gameFramework/j/class_1015;

@@ -1,4 +1,6 @@
 CLASS com/corrodinggames/rts/game/units/d/class_625 com/corrodinggames/rts/game/units/buildings/AntiNukeLauncher
+	CLASS class_626 AnonymousClass1
+	CLASS class_627 AnonymousClass2
 	FIELD field_3692 field_3692 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_3693 field_3693 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_3694 isActive Z

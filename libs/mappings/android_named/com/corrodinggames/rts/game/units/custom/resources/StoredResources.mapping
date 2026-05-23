@@ -1,4 +1,7 @@
 CLASS com/corrodinggames/rts/game/units/custom/e/class_567 com/corrodinggames/rts/game/units/custom/resources/StoredResources
+	CLASS class_568 AnonymousClass1
+		FIELD field_3041 field_3041 Lcom/corrodinggames/rts/game/units/custom/e/class_567;
+		METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I
 	FIELD field_3038 field_3038 Lcom/corrodinggames/rts/game/units/custom/e/class_567;
 	FIELD field_3039 field_3039 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
 	METHOD method_1343 method_1343 (D)V

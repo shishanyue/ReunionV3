@@ -1,4 +1,6 @@
 CLASS com/corrodinggames/rts/game/units/e/class_684 com/corrodinggames/rts/game/units/land/HovercraftUnit
+	CLASS class_685 AnonymousClass1
+	CLASS class_686 AnonymousClass2
 	FIELD field_3876 field_3876 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_3877 field_3877 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_3878 field_3878 Lcom/corrodinggames/rts/gameFramework/m/class_1189;

@@ -1,3 +1,0 @@
-CLASS com/corrodinggames/rts/gameFramework/bd com/corrodinggames/rts/gameFramework/class_850
-	FIELD a field_4687 Lcom/corrodinggames/rts/gameFramework/bc;
-	METHOD onInfo onInfo (Landroid/media/MediaPlayer;II)Z

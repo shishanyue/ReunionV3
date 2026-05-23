@@ -1,4 +1,30 @@
 CLASS com/corrodinggames/rts/game/a/class_263 com/corrodinggames/rts/game/ai/AIController
+	CLASS class_272 1
+		FIELD field_748 field_748 Lcom/corrodinggames/rts/game/a/class_263;
+	CLASS class_273 2
+		FIELD field_749 field_749 Lcom/corrodinggames/rts/game/a/class_263;
+	CLASS class_274 3
+		FIELD field_750 field_750 Lcom/corrodinggames/rts/game/a/class_263;
+	CLASS class_275 4
+		FIELD field_751 field_751 Lcom/corrodinggames/rts/game/a/class_263;
+	CLASS class_276 5
+		FIELD field_752 field_752 Lcom/corrodinggames/rts/game/a/class_263;
+	CLASS class_277 6
+		FIELD field_753 field_753 Lcom/corrodinggames/rts/game/a/class_263;
+	CLASS class_278 7
+		FIELD field_754 field_754 Lcom/corrodinggames/rts/game/a/class_263;
+	CLASS class_279 8
+		FIELD field_755 field_755 Lcom/corrodinggames/rts/game/a/class_263;
+	CLASS class_280 9
+		FIELD field_756 field_756 Lcom/corrodinggames/rts/game/a/class_263;
+	CLASS class_281 10
+		FIELD field_757 field_757 Lcom/corrodinggames/rts/game/a/class_263;
+	CLASS class_282 11
+		FIELD field_758 field_758 Lcom/corrodinggames/rts/game/a/class_263;
+	CLASS class_283 12
+		FIELD field_759 field_759 Lcom/corrodinggames/rts/game/a/class_263;
+	CLASS class_284 13
+		FIELD field_760 field_760 Lcom/corrodinggames/rts/game/a/class_263;
 	FIELD field_645 landAttackGroupCount I
 	FIELD field_646 advancedBaseCount I
 	FIELD field_647 builderGroupCount I

@@ -1,4 +1,10 @@
 CLASS com/corrodinggames/rts/game/b/class_299 com/corrodinggames/rts/game/map/TileMap
+	CLASS class_300 1
+		FIELD field_945 field_945 Lcom/corrodinggames/rts/game/b/class_299;
+		METHOD resolveEntity resolveEntity (Ljava/lang/String;Ljava/lang/String;)Lorg/xml/sax/InputSource;
+	CLASS class_301 2
+		FIELD field_946 field_946 Lcom/corrodinggames/rts/game/b/class_299;
+		METHOD resolveEntity resolveEntity (Ljava/lang/String;Ljava/lang/String;)Lorg/xml/sax/InputSource;
 	FIELD field_900 fogProfilingEnabled Z
 	FIELD field_874 unitObjects Ljava/util/ArrayList;
 	FIELD field_901 cursorStartTileY I

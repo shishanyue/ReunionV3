@@ -1,4 +1,6 @@
 CLASS com/corrodinggames/rts/gameFramework/b/class_828 com/corrodinggames/rts/gameFramework/gl/TextureManager
+	CLASS class_831 AnonymousClass1
+		FIELD field_4594 field_4594 Lcom/corrodinggames/rts/gameFramework/b/class_828;
 	METHOD method_1906 method_1906 ()V
 	METHOD method_1910 method_1910 (IIII)V
 	METHOD method_1911 method_1911 (Landroid/graphics/Bitmap;)V
