@@ -1,1 +1,14 @@
 CLASS com/corrodinggames/rts/game/units/b/class_393 com/corrodinggames/rts/game/units/air/Helicopter
+	FIELD field_1669 field_1669 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1670 field_1670 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1671 field_1671 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1672 field_1672 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1673 field_1673 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1674 field_1674 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1675 field_1675 Z
+	FIELD field_1676 field_1676 F
+	FIELD field_1677 field_1677 F
+	FIELD field_1678 field_1678 F
+	FIELD field_1679 field_1679 Landroid/graphics/Rect;
+	FIELD field_1680 field_1680 Landroid/graphics/Rect;
+	METHOD method_661 method_661 ()V

@@ -1,1 +1,7 @@
 CLASS com/corrodinggames/rts/gameFramework/b/class_818 com/corrodinggames/rts/gameFramework/gl/BitmapCacheKey
+	FIELD field_4528 field_4528 Z
+	FIELD field_4529 field_4529 Landroid/graphics/Bitmap$Config;
+	FIELD field_4530 field_4530 I
+	METHOD clone clone ()Ljava/lang/Object;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I

@@ -1,1 +1,7 @@
 CLASS com/corrodinggames/rts/game/units/e/class_690 com/corrodinggames/rts/game/units/land/MegaTankUnit
+	FIELD field_3907 field_3907 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3908 field_3908 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3909 field_3909 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3910 field_3910 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3911 field_3911 Landroid/graphics/Rect;
+	METHOD method_1643 method_1643 ()V

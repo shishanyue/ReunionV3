@@ -1,1 +1,6 @@
 CLASS com/corrodinggames/rts/game/units/custom/b/class_504 com/corrodinggames/rts/game/units/custom/hooks/RandomMovementHook
+	FIELD field_2606 field_2606 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_2607 field_2607 F
+	FIELD field_2608 field_2608 F
+	FIELD field_2609 field_2609 I
+	METHOD method_1199 method_1199 (Lcom/corrodinggames/rts/game/units/custom/class_581;Lcom/corrodinggames/rts/gameFramework/utility/class_1297;)V

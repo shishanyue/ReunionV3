@@ -1,1 +1,2 @@
 CLASS com/corrodinggames/rts/gameFramework/m/class_1228 com/corrodinggames/rts/gameFramework/graphics/opengl/ShapeCache
+	METHOD clone clone ()Ljava/lang/Object;

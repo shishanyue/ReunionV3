@@ -1,3 +1,32 @@
 CLASS com/corrodinggames/rts/gameFramework/utility/class_1323 com/corrodinggames/rts/gameFramework/utility/FastArrayList
 	FIELD field_7310 size I
 	FIELD field_7311 elements [Ljava/lang/Object;
+	METHOD method_3651 method_3651 ()[Ljava/lang/Object;
+	METHOD method_3652 method_3652 (I)I
+	METHOD method_3653 method_3653 (II)Ljava/lang/IndexOutOfBoundsException;
+	METHOD method_3654 method_3654 (Lcom/corrodinggames/rts/gameFramework/utility/class_1323;)I
+	METHOD add add (ILjava/lang/Object;)V
+	METHOD add add (Ljava/lang/Object;)Z
+	METHOD addAll addAll (ILjava/util/Collection;)Z
+	METHOD addAll addAll (Ljava/util/Collection;)Z
+	METHOD method_3655 method_3655 ()Ljava/lang/Object;
+	METHOD method_3656 method_3656 (Lcom/corrodinggames/rts/gameFramework/utility/class_1323;)I
+	METHOD method_3657 method_3657 (Lcom/corrodinggames/rts/gameFramework/utility/class_1323;)I
+	METHOD clear clear ()V
+	METHOD clone clone ()Ljava/lang/Object;
+	METHOD contains contains (Ljava/lang/Object;)Z
+	METHOD method_3658 method_3658 (Lcom/corrodinggames/rts/gameFramework/utility/class_1323;)I
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD get get (I)Ljava/lang/Object;
+	METHOD hashCode hashCode ()I
+	METHOD indexOf indexOf (Ljava/lang/Object;)I
+	METHOD isEmpty isEmpty ()Z
+	METHOD iterator iterator ()Ljava/util/Iterator;
+	METHOD lastIndexOf lastIndexOf (Ljava/lang/Object;)I
+	METHOD remove remove (I)Ljava/lang/Object;
+	METHOD remove remove (Ljava/lang/Object;)Z
+	METHOD removeRange removeRange (II)V
+	METHOD set set (ILjava/lang/Object;)Ljava/lang/Object;
+	METHOD size size ()I
+	METHOD toArray toArray ()[Ljava/lang/Object;
+	METHOD toArray toArray ([Ljava/lang/Object;)[Ljava/lang/Object;

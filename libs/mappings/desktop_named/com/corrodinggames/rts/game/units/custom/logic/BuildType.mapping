@@ -1,1 +1,7 @@
 CLASS com/corrodinggames/rts/game/units/custom/a/class_464 com/corrodinggames/rts/game/units/custom/logic/BuildType
+	FIELD field_2367 field_2367 Lcom/corrodinggames/rts/game/units/custom/a/class_464;
+	FIELD field_2368 field_2368 Lcom/corrodinggames/rts/game/units/custom/a/class_464;
+	FIELD field_2369 field_2369 Lcom/corrodinggames/rts/game/units/custom/a/class_464;
+	FIELD field_2370 field_2370 [Lcom/corrodinggames/rts/game/units/custom/a/class_464;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/a/class_464;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/custom/a/class_464;

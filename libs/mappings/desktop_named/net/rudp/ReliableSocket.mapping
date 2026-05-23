@@ -26,6 +26,14 @@ CLASS a/a/class_1355 net/rudp/ReliableSocket
 	FIELD field_7430 acknowledgmentHistory Ljava/util/ArrayList;
 	FIELD field_7431 inputLock Ljava/lang/Object;
 	FIELD field_7433 packetReaderThread Ljava/lang/Thread;
+	FIELD field_7412 field_7412 La/a/class_1362;
+	FIELD field_7403 field_7403 La/a/a/class_1348;
+	FIELD field_7413 field_7413 La/a/class_1364;
+	FIELD field_7404 field_7404 La/a/a/class_1348;
+	FIELD field_7414 field_7414 La/a/class_1365;
+	FIELD field_7405 field_7405 La/a/a/class_1348;
+	FIELD field_7406 field_7406 La/a/a/class_1348;
+	FIELD field_7432 field_7432 La/a/class_1356;
 	METHOD getKeepAlive isKeepAliveEnabled ()Z
 	METHOD method_3742 accessIncrementSequenceModulo255 (I)I
 	METHOD method_3743 readPacketData (II)I
@@ -48,4 +56,64 @@ CLASS a/a/class_1355 net/rudp/ReliableSocket
 	METHOD method_3789 sendSelectiveAcknowledgment ()V
 	METHOD method_3790 sendCumulativeAckIfNeeded ()V
 	METHOD method_3791 processOutOfOrderPackets ()V
+	METHOD method_3741 method_3741 ()La/a/a/class_1347;
+	METHOD method_3744 method_3744 (La/a/a/class_1342;)V
+	METHOD method_3745 method_3745 (La/a/a/class_1346;)V
+	METHOD method_3746 method_3746 (La/a/a/class_1347;)V
+	METHOD method_3747 method_3747 (La/a/class_1355;)La/a/a/class_1348;
+	METHOD method_3748 method_3748 (La/a/class_1355;La/a/a/class_1342;)V
+	METHOD method_3749 method_3749 (La/a/class_1355;La/a/a/class_1347;)V
+	METHOD method_3750 method_3750 (La/a/class_1366;)V
+	METHOD method_3751 method_3751 (Ljava/lang/String;)V
+	METHOD method_3752 method_3752 (Ljava/net/DatagramSocket;La/a/class_1365;)V
+	METHOD method_3755 method_3755 ()V
+	METHOD method_3757 method_3757 (La/a/a/class_1347;)Z
+	METHOD method_3758 method_3758 (La/a/class_1355;)La/a/a/class_1348;
+	METHOD method_3759 method_3759 (La/a/class_1355;La/a/a/class_1347;)V
+	METHOD bind bind (Ljava/net/SocketAddress;)V
+	METHOD method_3762 method_3762 (La/a/a/class_1347;)V
+	METHOD method_3763 method_3763 (La/a/class_1355;)La/a/a/class_1348;
+	METHOD method_3764 method_3764 (La/a/class_1355;La/a/a/class_1347;)V
+	METHOD close close ()V
+	METHOD connect connect (Ljava/net/SocketAddress;)V
+	METHOD connect connect (Ljava/net/SocketAddress;I)V
+	METHOD method_3766 method_3766 (La/a/a/class_1347;)V
+	METHOD method_3767 method_3767 (La/a/class_1355;)La/a/a/class_1348;
+	METHOD method_3769 method_3769 (La/a/a/class_1347;)V
+	METHOD method_3770 method_3770 (La/a/class_1355;)V
+	METHOD method_3772 method_3772 (La/a/a/class_1347;)V
+	METHOD method_3773 method_3773 (La/a/class_1355;)La/a/a/class_1347;
+	METHOD method_3775 method_3775 (La/a/a/class_1347;)V
+	METHOD method_3776 method_3776 (La/a/class_1355;)Ljava/util/ArrayList;
+	METHOD getChannel getChannel ()Ljava/nio/channels/SocketChannel;
+	METHOD getInetAddress getInetAddress ()Ljava/net/InetAddress;
+	METHOD getInputStream getInputStream ()Ljava/io/InputStream;
+	METHOD getLocalAddress getLocalAddress ()Ljava/net/InetAddress;
+	METHOD getLocalPort getLocalPort ()I
+	METHOD getLocalSocketAddress getLocalSocketAddress ()Ljava/net/SocketAddress;
+	METHOD getOutputStream getOutputStream ()Ljava/io/OutputStream;
+	METHOD getPort getPort ()I
+	METHOD getReceiveBufferSize getReceiveBufferSize ()I
+	METHOD getRemoteSocketAddress getRemoteSocketAddress ()Ljava/net/SocketAddress;
+	METHOD getSendBufferSize getSendBufferSize ()I
+	METHOD getTcpNoDelay getTcpNoDelay ()Z
+	METHOD method_3778 method_3778 (La/a/a/class_1347;)V
+	METHOD method_3779 method_3779 (La/a/class_1355;)La/a/class_1356;
+	METHOD method_3780 method_3780 ()La/a/a/class_1347;
+	METHOD method_3781 method_3781 (La/a/class_1355;)V
+	METHOD isBound isBound ()Z
+	METHOD isClosed isClosed ()Z
+	METHOD isConnected isConnected ()Z
+	METHOD isInputShutdown isInputShutdown ()Z
+	METHOD isOutputShutdown isOutputShutdown ()Z
+	METHOD method_3783 method_3783 (La/a/class_1355;)V
+	METHOD setKeepAlive setKeepAlive (Z)V
+	METHOD setReceiveBufferSize setReceiveBufferSize (I)V
+	METHOD setSendBufferSize setSendBufferSize (I)V
+	METHOD setSoTimeout setSoTimeout (I)V
+	METHOD setTcpNoDelay setTcpNoDelay (Z)V
+	METHOD shutdownInput shutdownInput ()V
+	METHOD shutdownOutput shutdownOutput ()V
 	CLASS 1 ReliableSocket
+		FIELD field_7434 field_7434 La/a/class_1355;
+		METHOD run run ()V

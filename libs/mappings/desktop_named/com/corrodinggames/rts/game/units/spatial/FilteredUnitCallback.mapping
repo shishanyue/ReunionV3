@@ -1,1 +1,6 @@
 CLASS com/corrodinggames/rts/game/units/f/class_717 com/corrodinggames/rts/game/units/spatial/FilteredUnitCallback
+	METHOD excludeTeam excludeTeam (Lcom/corrodinggames/rts/game/units/class_409;)I
+	METHOD getResult getResult ()Lcom/corrodinggames/rts/game/units/class_426;
+	METHOD onlyEnemiesOfTeam onlyEnemiesOfTeam (Lcom/corrodinggames/rts/game/units/class_409;)Lcom/corrodinggames/rts/game/class_324;
+	METHOD onlyTeam onlyTeam (Lcom/corrodinggames/rts/game/units/class_409;)Lcom/corrodinggames/rts/game/class_324;
+	METHOD setup setup (Lcom/corrodinggames/rts/game/units/class_409;F)V

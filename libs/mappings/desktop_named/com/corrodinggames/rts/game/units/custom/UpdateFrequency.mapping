@@ -1,1 +1,7 @@
 CLASS com/corrodinggames/rts/game/units/custom/class_588 com/corrodinggames/rts/game/units/custom/UpdateFrequency
+	FIELD field_3582 field_3582 Lcom/corrodinggames/rts/game/units/custom/class_588;
+	FIELD field_3583 field_3583 Lcom/corrodinggames/rts/game/units/custom/class_588;
+	FIELD field_3584 field_3584 Lcom/corrodinggames/rts/game/units/custom/class_588;
+	FIELD field_3585 field_3585 [Lcom/corrodinggames/rts/game/units/custom/class_588;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/class_588;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/custom/class_588;

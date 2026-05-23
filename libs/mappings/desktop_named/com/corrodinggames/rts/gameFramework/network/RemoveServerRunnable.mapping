@@ -1,1 +1,2 @@
 CLASS com/corrodinggames/rts/gameFramework/j/class_997 com/corrodinggames/rts/gameFramework/network/RemoveServerRunnable
+	METHOD run run ()V

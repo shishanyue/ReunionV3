@@ -1,3 +1,5 @@
 CLASS a/a/class_1352 net/rudp/ReliableSocketConnection
 	FIELD field_7393 isInitialized Z
 	FIELD field_7395 incomingPacketQueue Ljava/util/ArrayList;
+	FIELD field_7394 field_7394 La/a/class_1349;
+	METHOD method_3740 method_3740 (La/a/a/class_1347;)V

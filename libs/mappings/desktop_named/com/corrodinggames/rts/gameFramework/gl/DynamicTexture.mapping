@@ -1,2 +1,9 @@
 CLASS com/corrodinggames/rts/gameFramework/b/class_817 com/corrodinggames/rts/gameFramework/gl/DynamicTexture
+	FIELD field_4517 field_4517 Ljava/util/HashMap;
+	FIELD field_4518 field_4518 Landroid/graphics/Bitmap;
+	FIELD field_4519 field_4519 I
+	FIELD field_4520 field_4520 Lcom/corrodinggames/rts/gameFramework/b/class_818;
+	FIELD field_4521 field_4521 Z
+	METHOD method_1875 method_1875 ()Landroid/graphics/Bitmap;
+	METHOD method_1877 method_1877 ()Landroid/graphics/Bitmap;
 	CLASS 1 AnonymousClass1

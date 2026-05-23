@@ -10,6 +10,7 @@ CLASS a/a/class_1365 net/rudp/ReliableSocketProfile
 	FIELD field_7461 nullSegmentTimeoutMs I
 	FIELD field_7462 retransmissionTimeoutMs I
 	FIELD field_7463 cumulativeAckTimeoutMs I
+	FIELD field_7452 field_7452 La/a/class_1365;
 	METHOD method_3811 getMaxSegmentSize ()I
 	METHOD method_3812 initialize (IIIIIIIIIII)V
 	METHOD method_3813 checkRange (Ljava/lang/String;III)V
@@ -21,3 +22,4 @@ CLASS a/a/class_1365 net/rudp/ReliableSocketProfile
 	METHOD method_3819 getNullSegmentTimeoutMs ()I
 	METHOD method_3820 getRetransmissionTimeoutMs ()I
 	METHOD method_3821 getCumulativeAckTimeoutMs ()I
+	METHOD toString toString ()Ljava/lang/String;

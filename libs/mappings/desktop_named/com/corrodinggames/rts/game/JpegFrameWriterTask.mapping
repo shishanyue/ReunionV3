@@ -1,1 +1,5 @@
 CLASS com/corrodinggames/rts/game/class_321 com/corrodinggames/rts/game/JpegFrameWriterTask
+	FIELD field_1378 field_1378 Landroid/graphics/Bitmap;
+	FIELD field_1379 field_1379 I
+	FIELD field_1380 field_1380 Lcom/corrodinggames/rts/game/class_317;
+	METHOD run run ()V

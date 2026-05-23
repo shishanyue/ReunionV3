@@ -1,1 +1,9 @@
 CLASS com/corrodinggames/rts/game/class_325 com/corrodinggames/rts/game/ColorMode
+	FIELD field_1472 field_1472 Lcom/corrodinggames/rts/game/class_325;
+	FIELD field_1473 field_1473 Lcom/corrodinggames/rts/game/class_325;
+	FIELD field_1474 field_1474 Lcom/corrodinggames/rts/game/class_325;
+	FIELD field_1475 field_1475 Lcom/corrodinggames/rts/game/class_325;
+	FIELD field_1476 field_1476 Lcom/corrodinggames/rts/game/class_325;
+	FIELD field_1477 field_1477 [Lcom/corrodinggames/rts/game/class_325;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/class_325;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/class_325;

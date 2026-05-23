@@ -1,1 +1,2 @@
 CLASS com/corrodinggames/rts/game/units/f/class_718 com/corrodinggames/rts/game/units/spatial/UnitSpatialCallback
+	METHOD callback callback (Lcom/corrodinggames/rts/game/units/class_409;FLcom/corrodinggames/rts/game/units/class_426;)V

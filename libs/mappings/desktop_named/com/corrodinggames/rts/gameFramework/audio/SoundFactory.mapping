@@ -1,1 +1,5 @@
 CLASS com/corrodinggames/rts/gameFramework/a/class_764 com/corrodinggames/rts/gameFramework/audio/SoundFactory
+	FIELD field_4190 field_4190 Ljava/util/HashMap;
+	METHOD method_1757 method_1757 ()V
+	METHOD method_1758 method_1758 (I)Lcom/corrodinggames/rts/gameFramework/a/class_765;
+	METHOD method_1759 method_1759 (Landroid/content/Context;)V

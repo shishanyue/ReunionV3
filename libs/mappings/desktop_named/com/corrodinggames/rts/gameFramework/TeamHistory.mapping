@@ -1,1 +1,3 @@
 CLASS com/corrodinggames/rts/gameFramework/class_878 com/corrodinggames/rts/gameFramework/TeamHistory
+	METHOD method_2065 method_2065 ()V
+	METHOD method_2068 method_2068 ()Z

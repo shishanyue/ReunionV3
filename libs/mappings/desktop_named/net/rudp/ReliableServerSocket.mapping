@@ -9,5 +9,29 @@ CLASS a/a/class_1349 net/rudp/ReliableServerSocket
 	FIELD field_7388 activeConnectionsMap Ljava/util/HashMap;
 	FIELD field_7389 pendingConnectionsMap Ljava/util/HashMap;
 	FIELD field_7390 datagramReceiverMap Ljava/util/HashMap;
+	FIELD field_7380 field_7380 La/a/class_1350;
+	FIELD field_7391 field_7391 La/a/class_1366;
 	METHOD method_3731 logServerMessage (Ljava/lang/String;)V
 	METHOD method_3732 initializeServer (Ljava/net/DatagramSocket;I)V
+	METHOD method_3726 method_3726 (La/a/class_1349;)Ljava/net/DatagramSocket;
+	METHOD method_3727 method_3727 (La/a/class_1349;Ljava/lang/String;)V
+	METHOD method_3728 method_3728 (La/a/class_1349;Ljava/net/SocketAddress;)La/a/class_1352;
+	METHOD method_3729 method_3729 (La/a/class_1349;Ljava/net/SocketAddress;La/a/class_1352;)V
+	METHOD method_3730 method_3730 (La/a/class_1350;)V
+	METHOD method_3733 method_3733 (Ljava/net/SocketAddress;)La/a/class_1352;
+	METHOD method_3734 method_3734 (Ljava/net/SocketAddress;La/a/class_1352;)V
+	METHOD accept accept ()Ljava/net/Socket;
+	METHOD method_3735 method_3735 (La/a/class_1349;)Ljava/util/HashMap;
+	METHOD bind bind (Ljava/net/SocketAddress;)V
+	METHOD bind bind (Ljava/net/SocketAddress;I)V
+	METHOD method_3736 method_3736 (La/a/class_1349;)Ljava/util/HashMap;
+	METHOD close close ()V
+	METHOD method_3737 method_3737 (La/a/class_1349;)Ljava/util/HashMap;
+	METHOD method_3738 method_3738 (La/a/class_1349;)Ljava/util/ArrayList;
+	METHOD getInetAddress getInetAddress ()Ljava/net/InetAddress;
+	METHOD getLocalPort getLocalPort ()I
+	METHOD getLocalSocketAddress getLocalSocketAddress ()Ljava/net/SocketAddress;
+	METHOD getSoTimeout getSoTimeout ()I
+	METHOD isBound isBound ()Z
+	METHOD isClosed isClosed ()Z
+	METHOD setSoTimeout setSoTimeout (I)V

@@ -1,1 +1,4 @@
 CLASS com/corrodinggames/rts/gameFramework/k/class_1064 com/corrodinggames/rts/gameFramework/path/PathPositionProvider
+	METHOD method_3092 method_3092 (Lcom/corrodinggames/rts/game/units/class_426;)Lcom/corrodinggames/rts/game/units/class_417;
+	METHOD method_3093 method_3093 (Lcom/corrodinggames/rts/game/units/class_426;)Lcom/corrodinggames/rts/game/units/class_417;
+	METHOD method_3094 method_3094 (Lcom/corrodinggames/rts/game/units/class_426;)V

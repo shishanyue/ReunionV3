@@ -11,3 +11,10 @@ CLASS com/corrodinggames/rts/game/units/custom/class_555 com/corrodinggames/rts/
 	FIELD field_2964 fadeMultiplier F
 	FIELD field_2965 fadeSpeed F
 	FIELD field_2967 baseBlendValues [F
+	FIELD field_2954 field_2954 Lcom/corrodinggames/rts/game/units/custom/class_569;
+	FIELD field_2966 field_2966 Lcom/corrodinggames/rts/game/units/custom/class_579;
+	METHOD method_1311 method_1311 ()V
+	METHOD method_1312 method_1312 (F)V
+	METHOD method_1313 method_1313 (Lcom/corrodinggames/rts/game/units/custom/class_569;IZ)V
+	METHOD method_1314 method_1314 (Z)V
+	METHOD method_1315 method_1315 ()V

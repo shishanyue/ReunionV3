@@ -1,1 +1,9 @@
 CLASS com/corrodinggames/rts/gameFramework/utility/a/class_1290 com/corrodinggames/rts/gameFramework/utility/saf/SafFileLoader
+	FIELD field_7201 field_7201 Ljava/util/HashMap;
+	FIELD field_7202 field_7202 I
+	METHOD method_3477 method_3477 (Landroid/net/Uri;Z)Ljava/lang/String;
+	METHOD method_3478 method_3478 (Landroid/net/Uri;ZLjava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/a/class_1291;
+	METHOD method_3481 method_3481 (Ljava/lang/String;)V
+	METHOD method_3482 method_3482 (Ljava/lang/String;)Z
+	METHOD method_3483 method_3483 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_3485 method_3485 (Ljava/lang/String;)Ljava/lang/String;

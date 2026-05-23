@@ -2,3 +2,5 @@ CLASS com/corrodinggames/rts/game/units/custom/a/a/class_451 com/corrodinggames/
 	FIELD field_2184 convertResourceMinAmount D
 	FIELD field_2185 convertResourceMaxAmount D
 	FIELD field_2186 convertResourceMultiplyAmountBy F
+	FIELD field_2182 field_2182 Lcom/corrodinggames/rts/game/units/custom/e/class_556;
+	FIELD field_2183 field_2183 Lcom/corrodinggames/rts/game/units/custom/e/class_556;

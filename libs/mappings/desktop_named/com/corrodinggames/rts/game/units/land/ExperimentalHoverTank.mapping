@@ -1,1 +1,12 @@
 CLASS com/corrodinggames/rts/game/units/e/class_678 com/corrodinggames/rts/game/units/land/ExperimentalHoverTank
+	FIELD field_3835 field_3835 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3836 field_3836 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3837 field_3837 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3839 field_3839 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3840 field_3840 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3841 field_3841 I
+	FIELD field_3842 field_3842 F
+	FIELD field_3843 field_3843 Lcom/corrodinggames/rts/game/class_314;
+	FIELD field_3844 field_3844 Landroid/graphics/Rect;
+	FIELD field_3845 field_3845 Landroid/graphics/Paint;
+	METHOD method_1628 method_1628 ()V

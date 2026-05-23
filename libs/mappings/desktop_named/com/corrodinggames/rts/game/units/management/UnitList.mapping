@@ -1,1 +1,6 @@
 CLASS com/corrodinggames/rts/game/units/f/class_710 com/corrodinggames/rts/game/units/management/UnitList
+	FIELD field_3982 field_3982 [Lcom/corrodinggames/rts/game/units/class_426;
+	FIELD field_3983 field_3983 I
+	FIELD field_3984 field_3984 [Lcom/corrodinggames/rts/game/units/class_426;
+	METHOD method_1700 method_1700 (Lcom/corrodinggames/rts/game/units/class_426;)Z
+	METHOD method_1701 method_1701 (Lcom/corrodinggames/rts/game/units/class_426;)Z

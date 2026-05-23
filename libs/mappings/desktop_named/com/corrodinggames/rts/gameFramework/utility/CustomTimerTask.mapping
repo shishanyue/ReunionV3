@@ -17,3 +17,4 @@ CLASS a/a/a/class_1348 com/corrodinggames/rts/gameFramework/utility/CustomTimerT
 	METHOD method_3723 pause ()V
 	METHOD method_3724 cancel ()V
 	METHOD method_3725 stop ()V
+	METHOD run run ()V

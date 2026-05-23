@@ -43,6 +43,17 @@ CLASS com/corrodinggames/rts/game/class_317 com/corrodinggames/rts/game/GameLogi
 	FIELD field_7926 fpsAccumulator I
 	FIELD field_7927 fpsFrameCounter I
 	FIELD field_7928 fps I
+	FIELD field_1309 field_1309 Lcom/corrodinggames/rts/gameFramework/class_867;
+	FIELD field_1310 field_1310 Lcom/corrodinggames/rts/gameFramework/class_866;
+	FIELD field_1311 field_1311 Lcom/corrodinggames/rts/gameFramework/d/class_891;
+	FIELD field_1348 field_1348 [Lcom/corrodinggames/rts/game/class_321;
+	FIELD field_1318 field_1318 Lcom/corrodinggames/rts/game/class_320;
+	FIELD field_1319 field_1319 Lcom/corrodinggames/rts/game/class_320;
+	FIELD field_1321 field_1321 Lcom/corrodinggames/rts/gameFramework/m/class_1225;
+	FIELD field_1328 field_1328 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1329 field_1329 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1330 field_1330 Lcom/corrodinggames/rts/gameFramework/utility/class_1329;
+	FIELD field_1331 field_1331 Lcom/corrodinggames/rts/gameFramework/utility/class_1329;
 	METHOD method_413 moveCameraTo (FFFF)Z
 	METHOD method_417 selectAnyOnScreenBuilder ()V
 	METHOD method_418 setupPostProcessing ()Z
@@ -61,3 +72,8 @@ CLASS com/corrodinggames/rts/game/class_317 com/corrodinggames/rts/game/GameLogi
 	METHOD method_4389 resetFlags ()V
 	METHOD method_4390 stopAndClose ()V
 	METHOD method_4391 getSignature ()Ljava/lang/String;
+	METHOD method_414 method_414 (Lcom/corrodinggames/rts/game/class_320;)V
+	METHOD method_415 method_415 (Lcom/corrodinggames/rts/game/class_324;)Lcom/corrodinggames/rts/game/units/class_426;
+	METHOD method_416 method_416 (Lcom/corrodinggames/rts/gameFramework/m/class_1239;F)V
+	METHOD method_426 method_426 (Lcom/corrodinggames/rts/game/class_320;)V
+	METHOD method_427 method_427 (Lcom/corrodinggames/rts/gameFramework/m/class_1239;F)V

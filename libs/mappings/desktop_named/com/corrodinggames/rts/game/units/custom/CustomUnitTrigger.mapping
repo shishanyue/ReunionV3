@@ -5,3 +5,4 @@ CLASS com/corrodinggames/rts/game/units/custom/class_585 com/corrodinggames/rts/
 	FIELD field_3574 condition Ljava/lang/String;
 	FIELD field_3575 runOnce Z
 	FIELD field_3576 logicCondition Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_3577 field_3577 Lcom/corrodinggames/rts/game/units/custom/class_527;

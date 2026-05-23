@@ -12,3 +12,4 @@ CLASS com/corrodinggames/rts/gameFramework/e/class_905 com/corrodinggames/rts/ga
 	METHOD method_2236 readFromCache (Ljava/lang/String;Ljava/lang/String;)Ljava/io/FileInputStream;
 	METHOD method_5125 getCharAsString (C)Ljava/lang/String;
 	METHOD method_5126 readStringFromCache (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_2233 method_2233 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/e/class_906;

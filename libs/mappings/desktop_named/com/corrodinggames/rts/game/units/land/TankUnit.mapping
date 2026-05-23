@@ -3,5 +3,10 @@ CLASS com/corrodinggames/rts/game/units/e/class_691 com/corrodinggames/rts/game/
 	FIELD field_3918 animationTimer F
 	FIELD field_3919 dustEffectTimer F
 	FIELD field_3920 boundingRect Landroid/graphics/Rect;
+	FIELD field_3912 field_3912 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3913 field_3913 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3914 field_3914 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3915 field_3915 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3916 field_3916 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	METHOD method_1644 loadTextures ()V
 	METHOD method_4777 createDustEffect ()V

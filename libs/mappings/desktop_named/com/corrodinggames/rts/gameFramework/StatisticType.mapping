@@ -1,1 +1,9 @@
 CLASS com/corrodinggames/rts/gameFramework/class_871 com/corrodinggames/rts/gameFramework/StatisticType
+	FIELD field_4793 field_4793 Lcom/corrodinggames/rts/gameFramework/class_871;
+	FIELD field_4794 field_4794 Lcom/corrodinggames/rts/gameFramework/class_871;
+	FIELD field_4795 field_4795 Lcom/corrodinggames/rts/gameFramework/class_871;
+	FIELD field_4796 field_4796 Lcom/corrodinggames/rts/gameFramework/class_871;
+	FIELD field_4797 field_4797 Lcom/corrodinggames/rts/gameFramework/g/class_986;
+	FIELD field_4798 field_4798 [Lcom/corrodinggames/rts/gameFramework/class_871;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/class_871;
+	METHOD values values ()[Lcom/corrodinggames/rts/gameFramework/class_871;

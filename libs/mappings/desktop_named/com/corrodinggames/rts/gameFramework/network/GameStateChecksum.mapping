@@ -1,5 +1,20 @@
 CLASS com/corrodinggames/rts/gameFramework/j/class_1021 com/corrodinggames/rts/gameFramework/network/GameStateChecksum
 	FIELD field_6036 totalChecksum J
 	FIELD field_6037 fields Ljava/util/ArrayList;
+	FIELD field_6038 field_6038 Lcom/corrodinggames/rts/gameFramework/j/class_1022;
+	FIELD field_6039 field_6039 Lcom/corrodinggames/rts/gameFramework/j/class_1022;
+	FIELD field_6040 field_6040 Lcom/corrodinggames/rts/gameFramework/j/class_1022;
+	FIELD field_6041 field_6041 Lcom/corrodinggames/rts/gameFramework/j/class_1022;
+	FIELD field_6042 field_6042 Lcom/corrodinggames/rts/gameFramework/j/class_1022;
+	FIELD field_6043 field_6043 Lcom/corrodinggames/rts/gameFramework/j/class_1022;
+	FIELD field_6044 field_6044 Lcom/corrodinggames/rts/gameFramework/j/class_1022;
+	FIELD field_6045 field_6045 Lcom/corrodinggames/rts/gameFramework/j/class_1022;
+	FIELD field_6046 field_6046 Lcom/corrodinggames/rts/gameFramework/j/class_1022;
+	FIELD field_6047 field_6047 Lcom/corrodinggames/rts/gameFramework/j/class_1022;
+	FIELD field_6048 field_6048 Lcom/corrodinggames/rts/gameFramework/j/class_1022;
+	FIELD field_6049 field_6049 Lcom/corrodinggames/rts/gameFramework/j/class_1022;
+	FIELD field_6050 field_6050 Lcom/corrodinggames/rts/gameFramework/j/class_1022;
+	FIELD field_6051 field_6051 Lcom/corrodinggames/rts/gameFramework/j/class_1022;
+	FIELD field_6052 field_6052 Lcom/corrodinggames/rts/gameFramework/j/class_1022;
 	METHOD method_2841 resetFields ()V
 	METHOD method_2842 computeChecksums ()V

@@ -35,4 +35,3 @@ CLASS a/a/b a/a/class_1349
 	METHOD isBound isBound ()Z
 	METHOD isClosed isClosed ()Z
 	METHOD setSoTimeout setSoTimeout (I)V
-	CLASS 1

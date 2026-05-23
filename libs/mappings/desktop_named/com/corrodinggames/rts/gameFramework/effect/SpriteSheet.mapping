@@ -1,3 +1,12 @@
 CLASS com/corrodinggames/rts/gameFramework/d/class_896 com/corrodinggames/rts/gameFramework/effect/SpriteSheet
+	FIELD field_5062 field_5062 Ljava/lang/String;
+	FIELD field_5063 field_5063 I
+	FIELD field_5064 field_5064 I
+	FIELD field_5069 field_5069 I
+	FIELD field_5070 field_5070 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_5071 field_5071 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_5072 field_5072 Z
+	FIELD field_5073 field_5073 Landroid/graphics/Rect;
+	FIELD field_5074 field_5074 Landroid/graphics/RectF;
 	METHOD method_2130 createOutline ()V
 	METHOD method_5102 drawSprite (IFFLandroid/graphics/Paint;)V

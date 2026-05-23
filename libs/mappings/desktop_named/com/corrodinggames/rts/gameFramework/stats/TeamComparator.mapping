@@ -1,1 +1,2 @@
 CLASS com/corrodinggames/rts/gameFramework/g/class_985 com/corrodinggames/rts/gameFramework/stats/TeamComparator
+	FIELD field_5760 field_5760 Lcom/corrodinggames/rts/game/class_324;

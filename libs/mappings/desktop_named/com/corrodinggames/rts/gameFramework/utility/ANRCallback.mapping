@@ -1,1 +1,2 @@
 CLASS com/corrodinggames/rts/gameFramework/utility/class_1316 com/corrodinggames/rts/gameFramework/utility/ANRCallback
+	METHOD method_3637 method_3637 (Lcom/corrodinggames/rts/gameFramework/utility/class_1289;)V

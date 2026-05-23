@@ -1,3 +1,6 @@
 CLASS com/corrodinggames/rts/game/units/custom/a/a/class_458 com/corrodinggames/rts/game/units/custom/logic/actions/ResourceUnitSearchCallback
 	FIELD field_2241 rangeSq F
 	FIELD field_2242 includeDead Z
+	FIELD field_2240 field_2240 Lcom/corrodinggames/rts/game/units/custom/class_577;
+	FIELD field_2243 field_2243 Lcom/corrodinggames/rts/game/class_327;
+	FIELD field_2244 field_2244 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;

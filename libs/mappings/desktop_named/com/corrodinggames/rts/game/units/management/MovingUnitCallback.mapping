@@ -1,1 +1,6 @@
 CLASS com/corrodinggames/rts/game/units/f/class_716 com/corrodinggames/rts/game/units/management/MovingUnitCallback
+	FIELD field_4013 field_4013 Landroid/graphics/RectF;
+	FIELD field_4014 field_4014 F
+	FIELD field_4015 field_4015 F
+	FIELD field_4016 field_4016 F
+	FIELD field_4017 field_4017 F

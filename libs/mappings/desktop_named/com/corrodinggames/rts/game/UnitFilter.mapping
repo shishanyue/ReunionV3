@@ -1,1 +1,9 @@
 CLASS com/corrodinggames/rts/game/class_316 com/corrodinggames/rts/game/UnitFilter
+	FIELD field_1302 field_1302 Lcom/corrodinggames/rts/game/units/custom/class_577;
+	FIELD field_1303 field_1303 Lcom/corrodinggames/rts/game/units/custom/class_577;
+	FIELD field_1304 field_1304 F
+	FIELD field_1305 field_1305 F
+	FIELD field_1306 field_1306 Lcom/corrodinggames/rts/game/units/custom/d/class_552;
+	FIELD field_1307 field_1307 Lcom/corrodinggames/rts/game/units/custom/d/class_552;
+	FIELD field_1308 field_1308 Lcom/corrodinggames/rts/game/units/custom/class_595;
+	METHOD method_412 method_412 (Lcom/corrodinggames/rts/game/units/class_426;)Z

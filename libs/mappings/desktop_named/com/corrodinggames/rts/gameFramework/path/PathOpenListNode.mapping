@@ -1,1 +1,3 @@
 CLASS com/corrodinggames/rts/gameFramework/k/class_1074 com/corrodinggames/rts/gameFramework/path/PathOpenListNode
+	METHOD compareTo compareTo (Ljava/lang/Object;)I
+	METHOD toString toString ()Ljava/lang/String;

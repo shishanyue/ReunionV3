@@ -3,7 +3,9 @@ CLASS com/corrodinggames/rts/gameFramework/f/class_967 com/corrodinggames/rts/ga
 	FIELD field_5645 hasShownMuteWarning Z
 	FIELD field_5646 messages Ljava/util/ArrayList;
 	FIELD field_8502 textPaint Landroid/graphics/Paint;
+	FIELD field_5642 field_5642 Lcom/corrodinggames/rts/gameFramework/f/class_961;
 	METHOD method_2594 clear ()V
 	METHOD method_2597 pruneMessages ()V
 	METHOD method_5291 initialize ()V
 	METHOD method_5292 draw (FI)I
+	METHOD method_2596 method_2596 (Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/f/class_968;

@@ -1,1 +1,9 @@
 CLASS com/corrodinggames/rts/gameFramework/class_854 com/corrodinggames/rts/gameFramework/MusicTrack
+	METHOD method_2000 method_2000 ()V
+	METHOD method_2001 method_2001 (F)V
+	METHOD method_2002 method_2002 (Lcom/corrodinggames/rts/gameFramework/class_853;)V
+	METHOD method_2003 method_2003 (Z)V
+	METHOD method_2004 method_2004 ()V
+	METHOD method_2005 method_2005 ()Z
+	METHOD method_2006 method_2006 ()V
+	METHOD method_2007 method_2007 ()V

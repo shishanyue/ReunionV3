@@ -1,1 +1,15 @@
 CLASS com/corrodinggames/rts/game/units/d/class_639 com/corrodinggames/rts/game/units/buildings/Projectile
+	FIELD field_3764 field_3764 I
+	FIELD field_3765 field_3765 F
+	FIELD field_3766 field_3766 Lcom/corrodinggames/rts/game/units/custom/d/class_552;
+	FIELD field_3767 field_3767 Lcom/corrodinggames/rts/game/units/custom/d/class_552;
+	FIELD field_3768 field_3768 Lcom/corrodinggames/rts/game/units/custom/class_577;
+	FIELD field_3769 field_3769 Z
+	FIELD field_3770 field_3770 Lcom/corrodinggames/rts/game/units/class_704;
+	FIELD field_3771 field_3771 Landroid/graphics/PointF;
+	FIELD field_3772 field_3772 Lcom/corrodinggames/rts/game/units/class_426;
+	FIELD field_3773 field_3773 Lcom/corrodinggames/rts/game/units/a/class_333;
+	FIELD field_3774 field_3774 Z
+	FIELD field_3775 field_3775 Z
+	FIELD field_3776 field_3776 F
+	FIELD field_3777 field_3777 D

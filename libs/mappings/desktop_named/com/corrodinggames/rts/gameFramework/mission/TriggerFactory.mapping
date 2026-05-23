@@ -1,1 +1,2 @@
 CLASS com/corrodinggames/rts/gameFramework/n/class_1260 com/corrodinggames/rts/gameFramework/mission/TriggerFactory
+	METHOD method_3436 method_3436 (Lcom/corrodinggames/rts/gameFramework/n/class_1273;Lcom/corrodinggames/rts/game/b/class_298;)Lcom/corrodinggames/rts/gameFramework/n/class_1255;

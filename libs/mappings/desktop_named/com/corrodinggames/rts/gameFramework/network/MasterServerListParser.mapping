@@ -1,3 +1,4 @@
 CLASS com/corrodinggames/rts/gameFramework/j/class_1051 com/corrodinggames/rts/gameFramework/network/MasterServerListParser
 	FIELD field_6262 completionCallback Ljava/lang/Runnable;
+	METHOD run run ()V
 	CLASS class_1052 AnonymousClass1

@@ -1,1 +1,8 @@
 CLASS com/corrodinggames/rts/gameFramework/n/class_1276 com/corrodinggames/rts/gameFramework/mission/waveunits
+	FIELD field_7132 field_7132 Z
+	FIELD field_7133 field_7133 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_7134 field_7134 Lcom/corrodinggames/rts/gameFramework/n/class_1273;
+	METHOD method_3460 method_3460 (FF)V
+	METHOD method_3461 method_3461 (Lcom/corrodinggames/rts/game/units/class_704;I)V
+	METHOD method_3462 method_3462 (Lcom/corrodinggames/rts/game/units/class_704;I)V
+	METHOD toString toString ()Ljava/lang/String;

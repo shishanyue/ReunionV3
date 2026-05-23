@@ -1,2 +1,4 @@
 CLASS com/corrodinggames/rts/game/units/custom/class_545 com/corrodinggames/rts/game/units/custom/SoundEntry
 	FIELD field_2804 volume F
+	FIELD field_2803 field_2803 Lcom/corrodinggames/rts/gameFramework/a/class_765;
+	FIELD field_2805 field_2805 Lcom/corrodinggames/rts/game/units/custom/class_544;

@@ -1,1 +1,10 @@
 CLASS com/corrodinggames/rts/game/units/class_379 com/corrodinggames/rts/game/units/EditorUnitTypeFilter
+	FIELD field_1605 field_1605 Lcom/corrodinggames/rts/game/units/class_379;
+	FIELD field_1606 field_1606 Lcom/corrodinggames/rts/game/units/class_379;
+	FIELD field_1607 field_1607 Lcom/corrodinggames/rts/game/units/class_379;
+	FIELD field_1608 field_1608 Lcom/corrodinggames/rts/game/units/class_379;
+	FIELD field_1609 field_1609 Lcom/corrodinggames/rts/game/units/class_379;
+	FIELD field_1610 field_1610 [Lcom/corrodinggames/rts/game/units/class_379;
+	METHOD method_650 method_650 (Lcom/corrodinggames/rts/game/units/class_704;)Z
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/class_379;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/class_379;

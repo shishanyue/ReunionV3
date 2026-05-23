@@ -1,1 +1,4 @@
 CLASS com/corrodinggames/rts/gameFramework/c/class_875 com/corrodinggames/rts/gameFramework/debug/DebugClientHandler
+	FIELD field_4815 field_4815 Ljava/net/Socket;
+	FIELD field_4816 field_4816 Lcom/corrodinggames/rts/gameFramework/c/class_874;
+	METHOD run run ()V

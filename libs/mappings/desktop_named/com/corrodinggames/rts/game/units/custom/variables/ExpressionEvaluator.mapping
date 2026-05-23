@@ -1,2 +1,4 @@
 CLASS com/corrodinggames/rts/game/units/custom/f/class_571 com/corrodinggames/rts/game/units/custom/variables/ExpressionEvaluator
+	FIELD field_3062 field_3062 Lcom/corrodinggames/rts/game/units/custom/f/class_574;
+	FIELD field_3063 field_3063 Lcom/corrodinggames/rts/game/units/custom/f/class_574;
 	CLASS class_572 AnonymousClass1

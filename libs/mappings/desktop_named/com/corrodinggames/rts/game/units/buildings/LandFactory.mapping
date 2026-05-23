@@ -1,4 +1,10 @@
 CLASS com/corrodinggames/rts/game/units/d/class_642 com/corrodinggames/rts/game/units/buildings/LandFactory
 	FIELD field_3790 isUpgraded Z
+	FIELD field_3784 field_3784 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3785 field_3785 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3786 field_3786 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3787 field_3787 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3788 field_3788 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3789 field_3789 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	METHOD method_1616 addAvailableActions (Ljava/util/ArrayList;I)V
 	METHOD method_1617 loadTextures ()V

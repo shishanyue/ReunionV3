@@ -1,1 +1,4 @@
 CLASS com/corrodinggames/rts/game/units/custom/c/class_536 com/corrodinggames/rts/game/units/custom/tracking/AnimationTrackingManager
+	FIELD field_2764 field_2764 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_2766 field_2766 Lcom/corrodinggames/rts/game/units/custom/c/class_539;
+	METHOD method_1239 method_1239 (Lcom/corrodinggames/rts/game/units/custom/class_581;)V

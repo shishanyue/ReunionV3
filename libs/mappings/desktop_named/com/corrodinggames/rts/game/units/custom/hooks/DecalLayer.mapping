@@ -1,1 +1,10 @@
 CLASS com/corrodinggames/rts/game/units/custom/b/class_498 com/corrodinggames/rts/game/units/custom/hooks/DecalLayer
+	FIELD field_2567 field_2567 Lcom/corrodinggames/rts/game/units/custom/b/class_498;
+	FIELD field_2568 field_2568 Lcom/corrodinggames/rts/game/units/custom/b/class_498;
+	FIELD field_2569 field_2569 Lcom/corrodinggames/rts/game/units/custom/b/class_498;
+	FIELD field_2570 field_2570 Lcom/corrodinggames/rts/game/units/custom/b/class_498;
+	FIELD field_2571 field_2571 Lcom/corrodinggames/rts/game/units/custom/b/class_498;
+	FIELD field_2572 field_2572 Lcom/corrodinggames/rts/game/units/custom/b/class_498;
+	FIELD field_2573 field_2573 [Lcom/corrodinggames/rts/game/units/custom/b/class_498;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/b/class_498;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/custom/b/class_498;

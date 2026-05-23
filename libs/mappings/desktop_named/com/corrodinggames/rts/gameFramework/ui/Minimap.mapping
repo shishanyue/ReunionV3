@@ -47,6 +47,17 @@ CLASS com/corrodinggames/rts/gameFramework/f/class_969 com/corrodinggames/rts/ga
 	FIELD field_5709 paint8 Landroid/graphics/Paint;
 	FIELD field_5710 paint9 Landroid/graphics/Paint;
 	FIELD field_5711 paint10 Landroid/graphics/Paint;
+	FIELD field_5684 field_5684 Lcom/corrodinggames/rts/gameFramework/m/class_1240;
+	FIELD field_5658 field_5658 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_5659 field_5659 Lcom/corrodinggames/rts/gameFramework/m/class_1225;
+	FIELD field_5660 field_5660 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_5661 field_5661 Lcom/corrodinggames/rts/gameFramework/m/class_1225;
+	FIELD field_5662 field_5662 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_5663 field_5663 Lcom/corrodinggames/rts/gameFramework/m/class_1225;
+	FIELD field_5672 field_5672 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_5673 field_5673 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_5675 field_5675 [Lcom/corrodinggames/rts/gameFramework/m/class_1233;
+	FIELD field_5676 field_5676 Lcom/corrodinggames/rts/gameFramework/m/class_1233;
 	METHOD method_2599 update (F)V
 	METHOD method_2600 worldToScreen (FF)Landroid/graphics/Point;
 	METHOD method_2606 getBottomY ()I
@@ -65,4 +76,7 @@ CLASS com/corrodinggames/rts/gameFramework/f/class_969 com/corrodinggames/rts/ga
 	METHOD method_5300 worldToMinimapX (F)F
 	METHOD method_5301 getCameraZoom ()F
 	METHOD method_5302 updateDimensions ()V
+	METHOD method_2602 method_2602 (ILandroid/graphics/Paint;)Lcom/corrodinggames/rts/gameFramework/f/class_974;
+	METHOD method_2603 method_2603 (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_2604 method_2604 (Lcom/corrodinggames/rts/gameFramework/f/class_974;)V
 	CLASS class_970 AnonymousClass1

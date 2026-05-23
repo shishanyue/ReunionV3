@@ -13,6 +13,8 @@ CLASS com/corrodinggames/rts/game/b/class_298 com/corrodinggames/rts/game/map/Ma
 	FIELD field_870 tileIndex I
 	FIELD field_871 properties Ljava/util/Properties;
 	FIELD field_873 imageSource Ljava/lang/String;
+	FIELD field_869 field_869 Lcom/corrodinggames/rts/game/b/class_309;
+	FIELD field_872 field_872 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
 	METHOD method_286 getUnvisitedPropertyNames ()[Ljava/lang/String;
 	METHOD method_288 getDescription (Ljava/lang/String;)Ljava/lang/String;
 	METHOD method_289 getPropertyOrDefault (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;

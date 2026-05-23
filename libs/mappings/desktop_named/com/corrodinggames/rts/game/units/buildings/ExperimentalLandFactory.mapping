@@ -1,3 +1,11 @@
 CLASS com/corrodinggames/rts/game/units/d/class_630 com/corrodinggames/rts/game/units/buildings/ExperimentalLandFactory
 	FIELD field_3728 isUpgraded Z
+	FIELD field_3723 field_3723 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3724 field_3724 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3725 field_3725 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3726 field_3726 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3727 field_3727 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3729 field_3729 Lcom/corrodinggames/rts/game/units/a/class_349;
+	METHOD method_1575 method_1575 ()V
+	METHOD method_1577 method_1577 ()V
 	CLASS class_631 AnonymousClass1

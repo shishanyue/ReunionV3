@@ -1,1 +1,5 @@
 CLASS com/corrodinggames/rts/gameFramework/class_1338 com/corrodinggames/rts/gameFramework/TaskQueue
+	FIELD field_7351 field_7351 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	METHOD method_3692 method_3692 ()V
+	METHOD method_3693 method_3693 (Ljava/lang/Runnable;)V
+	METHOD method_3694 method_3694 ()V

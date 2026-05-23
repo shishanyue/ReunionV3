@@ -1,1 +1,16 @@
 CLASS com/corrodinggames/rts/gameFramework/class_756 com/corrodinggames/rts/gameFramework/CollisionEngine
+	FIELD field_4127 field_4127 Lcom/corrodinggames/rts/gameFramework/class_792;
+	FIELD field_4128 field_4128 Lcom/corrodinggames/rts/gameFramework/class_792;
+	FIELD field_4129 field_4129 Lcom/corrodinggames/rts/gameFramework/class_792;
+	FIELD field_4130 field_4130 Lcom/corrodinggames/rts/gameFramework/class_792;
+	FIELD field_4131 field_4131 Lcom/corrodinggames/rts/gameFramework/class_792;
+	FIELD field_4132 field_4132 Lcom/corrodinggames/rts/gameFramework/class_792;
+	FIELD field_4133 field_4133 Lcom/corrodinggames/rts/gameFramework/class_792;
+	FIELD field_4134 field_4134 Lcom/corrodinggames/rts/gameFramework/class_792;
+	FIELD field_4135 field_4135 Lcom/corrodinggames/rts/gameFramework/class_792;
+	FIELD field_4136 field_4136 Lcom/corrodinggames/rts/gameFramework/class_792;
+	FIELD field_4137 field_4137 Lcom/corrodinggames/rts/gameFramework/class_792;
+	FIELD field_4138 field_4138 Lcom/corrodinggames/rts/gameFramework/class_792;
+	FIELD field_4139 field_4139 Lcom/corrodinggames/rts/gameFramework/class_792;
+	FIELD field_4140 field_4140 Ljava/util/ArrayList;
+	METHOD method_1744 method_1744 (B)Lcom/corrodinggames/rts/gameFramework/class_792;

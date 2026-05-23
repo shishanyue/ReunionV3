@@ -1,1 +1,13 @@
 CLASS com/corrodinggames/rts/game/units/class_428 com/corrodinggames/rts/game/units/UnitMovementType
+	FIELD field_2028 field_2028 Lcom/corrodinggames/rts/game/units/class_428;
+	FIELD field_2029 field_2029 Lcom/corrodinggames/rts/game/units/class_428;
+	FIELD field_2030 field_2030 Lcom/corrodinggames/rts/game/units/class_428;
+	FIELD field_2031 field_2031 Lcom/corrodinggames/rts/game/units/class_428;
+	FIELD field_2032 field_2032 Lcom/corrodinggames/rts/game/units/class_428;
+	FIELD field_2033 field_2033 Lcom/corrodinggames/rts/game/units/class_428;
+	FIELD field_2034 field_2034 Lcom/corrodinggames/rts/game/units/class_428;
+	FIELD field_2035 field_2035 Lcom/corrodinggames/rts/game/units/class_428;
+	FIELD field_2036 field_2036 [Lcom/corrodinggames/rts/game/units/class_428;
+	METHOD method_1069 method_1069 (Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/class_428;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/class_428;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/class_428;

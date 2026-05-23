@@ -14,3 +14,5 @@ CLASS a/a/a/class_1347 net/rudp/impl/Segment
 	METHOD method_3715 getSequenceNumber ()I
 	METHOD method_3716 getAcknowledgmentNumber ()I
 	METHOD method_3717 getChannel ()I
+	METHOD method_3713 method_3713 ([BII)La/a/a/class_1347;
+	METHOD toString toString ()Ljava/lang/String;

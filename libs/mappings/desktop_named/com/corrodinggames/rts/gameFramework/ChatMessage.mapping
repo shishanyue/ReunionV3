@@ -1,1 +1,4 @@
 CLASS com/corrodinggames/rts/gameFramework/class_864 com/corrodinggames/rts/gameFramework/ChatMessage
+	FIELD field_4756 field_4756 I
+	FIELD field_4757 field_4757 Ljava/lang/String;
+	FIELD field_4758 field_4758 Ljava/lang/String;

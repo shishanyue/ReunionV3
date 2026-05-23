@@ -1,1 +1,6 @@
 CLASS com/corrodinggames/rts/gameFramework/b/class_834 com/corrodinggames/rts/gameFramework/gl/FilterGroup
+	FIELD field_4596 field_4596 Ljava/util/List;
+	FIELD field_4597 field_4597 Ljava/util/List;
+	FIELD field_4598 field_4598 Lcom/corrodinggames/rts/gameFramework/b/class_823;
+	FIELD field_4599 field_4599 Lcom/corrodinggames/rts/gameFramework/b/class_823;
+	METHOD method_1927 method_1927 (Lcom/corrodinggames/rts/gameFramework/b/class_823;Lcom/corrodinggames/rts/gameFramework/b/class_836;Lcom/corrodinggames/rts/gameFramework/b/class_835;)Lcom/corrodinggames/rts/gameFramework/b/class_823;

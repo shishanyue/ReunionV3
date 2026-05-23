@@ -1,1 +1,2 @@
 CLASS com/corrodinggames/rts/gameFramework/class_848 com/corrodinggames/rts/gameFramework/AndroidMusic
+	FIELD field_4683 field_4683 Lcom/corrodinggames/rts/gameFramework/class_847;

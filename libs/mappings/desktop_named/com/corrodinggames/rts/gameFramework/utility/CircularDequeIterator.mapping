@@ -1,1 +1,8 @@
 CLASS com/corrodinggames/rts/gameFramework/utility/class_1319 com/corrodinggames/rts/gameFramework/utility/CircularDequeIterator
+	FIELD field_7297 field_7297 Lcom/corrodinggames/rts/gameFramework/utility/class_1318;
+	FIELD field_7298 field_7298 I
+	FIELD field_7299 field_7299 I
+	FIELD field_7300 field_7300 I
+	METHOD hasNext hasNext ()Z
+	METHOD next next ()Ljava/lang/Object;
+	METHOD remove remove ()V

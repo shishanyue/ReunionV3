@@ -1,1 +1,5 @@
 CLASS com/corrodinggames/rts/game/units/custom/class_468 com/corrodinggames/rts/game/units/custom/LanguageValue
+	FIELD field_2382 field_2382 Ljava/lang/String;
+	FIELD field_2383 field_2383 I
+	FIELD field_2384 field_2384 I
+	FIELD field_2385 field_2385 I

@@ -74,3 +74,5 @@ CLASS com/corrodinggames/rts/gameFramework/i/class_992 com/corrodinggames/rts/ga
 	METHOD method_5343 logMemoryUsage ()V
 	METHOD method_5344 delete ()Z
 	METHOD method_5345 getSteamDatPath ()Ljava/lang/String;
+	METHOD compareTo compareTo (Ljava/lang/Object;)I
+	METHOD method_2694 method_2694 ()Lcom/corrodinggames/rts/gameFramework/utility/class_1297;

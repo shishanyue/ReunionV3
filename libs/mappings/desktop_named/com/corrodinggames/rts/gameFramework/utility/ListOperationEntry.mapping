@@ -1,1 +1,3 @@
 CLASS com/corrodinggames/rts/gameFramework/utility/class_1328 com/corrodinggames/rts/gameFramework/utility/ListOperationEntry
+	FIELD field_7327 field_7327 Lcom/corrodinggames/rts/gameFramework/utility/class_1327;
+	FIELD field_7328 field_7328 Ljava/lang/Object;

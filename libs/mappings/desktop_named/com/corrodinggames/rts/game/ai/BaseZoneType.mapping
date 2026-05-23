@@ -1,1 +1,7 @@
 CLASS com/corrodinggames/rts/game/a/class_294 com/corrodinggames/rts/game/ai/BaseZoneType
+	FIELD field_853 field_853 Lcom/corrodinggames/rts/game/a/class_294;
+	FIELD field_854 field_854 Lcom/corrodinggames/rts/game/a/class_294;
+	FIELD field_855 field_855 Lcom/corrodinggames/rts/game/a/class_294;
+	FIELD field_856 field_856 [Lcom/corrodinggames/rts/game/a/class_294;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/a/class_294;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/a/class_294;

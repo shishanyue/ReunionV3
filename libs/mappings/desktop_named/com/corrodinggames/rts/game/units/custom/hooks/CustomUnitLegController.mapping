@@ -1,1 +1,5 @@
 CLASS com/corrodinggames/rts/game/units/custom/b/class_500 com/corrodinggames/rts/game/units/custom/hooks/CustomUnitLegController
+	FIELD field_2576 field_2576 Lcom/corrodinggames/rts/game/units/custom/b/class_493;
+	FIELD field_2577 field_2577 Landroid/graphics/Rect;
+	FIELD field_2578 field_2578 Landroid/graphics/RectF;
+	FIELD field_2579 field_2579 Landroid/graphics/Paint;

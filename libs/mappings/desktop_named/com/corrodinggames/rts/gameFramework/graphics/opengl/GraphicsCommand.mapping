@@ -1,1 +1,4 @@
 CLASS com/corrodinggames/rts/gameFramework/m/class_1148 com/corrodinggames/rts/gameFramework/graphics/opengl/GraphicsCommand
+	FIELD field_6677 field_6677 Lcom/corrodinggames/rts/gameFramework/m/class_1243;
+	FIELD field_6678 field_6678 [Ljava/lang/Object;
+	FIELD field_6683 field_6683 Lcom/corrodinggames/rts/gameFramework/m/class_1242;

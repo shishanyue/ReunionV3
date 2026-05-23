@@ -1,1 +1,13 @@
 CLASS com/corrodinggames/rts/gameFramework/f/class_945 com/corrodinggames/rts/gameFramework/ui/UnitGroupMarker
+	FIELD field_5385 field_5385 Ljava/util/ArrayList;
+	FIELD field_5386 field_5386 F
+	FIELD field_5387 field_5387 J
+	FIELD field_5388 field_5388 F
+	FIELD field_5389 field_5389 F
+	FIELD field_5390 field_5390 F
+	FIELD field_5391 field_5391 Z
+	FIELD field_5392 field_5392 Z
+	FIELD field_5393 field_5393 Lcom/corrodinggames/rts/gameFramework/f/class_908;
+	METHOD method_2448 method_2448 ()V
+	METHOD method_2449 method_2449 ()V
+	METHOD method_2450 method_2450 ()V

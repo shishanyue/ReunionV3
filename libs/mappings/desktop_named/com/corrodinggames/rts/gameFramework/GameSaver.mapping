@@ -13,3 +13,4 @@ CLASS com/corrodinggames/rts/gameFramework/class_775 com/corrodinggames/rts/game
 	METHOD method_5877 saveGame (Ljava/lang/String;)Z
 	METHOD method_5878 updateAutosave (Ljava/lang/String;Z)V
 	METHOD method_5879 loadSave ()V
+	METHOD method_1779 method_1779 (Lcom/corrodinggames/rts/gameFramework/j/class_1030;)V

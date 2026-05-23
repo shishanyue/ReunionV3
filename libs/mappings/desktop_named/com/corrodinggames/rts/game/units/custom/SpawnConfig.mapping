@@ -20,3 +20,5 @@ CLASS com/corrodinggames/rts/game/units/custom/class_549 com/corrodinggames/rts/
 	FIELD field_2920 transportedUnitsToTransfer S
 	FIELD field_8022 neutralTeam Z
 	FIELD field_8023 setToTeamOfLastAttacker Z
+	FIELD field_2898 field_2898 Lcom/corrodinggames/rts/game/units/custom/class_591;
+	FIELD field_2919 field_2919 Lcom/corrodinggames/rts/game/units/custom/d/class_552;

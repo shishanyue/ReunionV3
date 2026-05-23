@@ -4,3 +4,4 @@ CLASS com/corrodinggames/rts/game/units/class_414 com/corrodinggames/rts/game/un
 	FIELD field_1830 closestDistanceSq F
 	FIELD field_1832 checkLineOfSight Z
 	FIELD field_1833 includeNonGroundUnits Z
+	FIELD field_1831 field_1831 Lcom/corrodinggames/rts/game/units/class_426;

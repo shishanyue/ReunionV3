@@ -1,1 +1,4 @@
 CLASS com/corrodinggames/rts/gameFramework/class_792 com/corrodinggames/rts/gameFramework/CommandGroup
+	FIELD field_4372 field_4372 B
+	FIELD field_4373 field_4373 Ljava/util/HashMap;
+	METHOD method_1833 method_1833 (Lcom/corrodinggames/rts/gameFramework/class_792;)V

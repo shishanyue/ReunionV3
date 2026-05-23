@@ -1,1 +1,2 @@
 CLASS com/corrodinggames/rts/game/units/custom/class_520 com/corrodinggames/rts/game/units/custom/CustomDataWriterFactory
+	FIELD field_2654 field_2654 Lcom/corrodinggames/rts/game/units/custom/class_581;

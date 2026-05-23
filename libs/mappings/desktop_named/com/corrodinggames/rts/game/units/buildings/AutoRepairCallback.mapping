@@ -5,4 +5,6 @@ CLASS com/corrodinggames/rts/game/units/d/class_618 com/corrodinggames/rts/game/
 	FIELD field_8104 searchRangeSquared F
 	FIELD field_8105 isEnabled Z
 	FIELD field_8106 prioritizeDistance Z
+	FIELD field_3666 field_3666 Lcom/corrodinggames/rts/game/class_324;
+	FIELD field_3667 field_3667 Lcom/corrodinggames/rts/game/units/class_426;
 	METHOD method_4751 configure (FZ)V

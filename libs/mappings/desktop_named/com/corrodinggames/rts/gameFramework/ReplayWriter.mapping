@@ -1,1 +1,16 @@
 CLASS com/corrodinggames/rts/gameFramework/class_863 com/corrodinggames/rts/gameFramework/ReplayWriter
+	FIELD field_4745 field_4745 Z
+	FIELD field_4746 field_4746 I
+	FIELD field_4747 field_4747 I
+	FIELD field_4748 field_4748 I
+	FIELD field_4749 field_4749 I
+	FIELD field_4750 field_4750 I
+	FIELD field_4751 field_4751 I
+	FIELD field_4752 field_4752 Z
+	FIELD field_4753 field_4753 Ljava/util/concurrent/ConcurrentLinkedQueue;
+	FIELD field_4754 field_4754 J
+	FIELD field_4755 field_4755 Lcom/corrodinggames/rts/gameFramework/class_862;
+	METHOD method_2041 method_2041 ()V
+	METHOD method_2042 method_2042 (Lcom/corrodinggames/rts/gameFramework/class_865;)V
+	METHOD method_2043 method_2043 ()V
+	METHOD run run ()V

@@ -12,3 +12,14 @@ CLASS com/corrodinggames/rts/game/units/custom/a/a/class_446 com/corrodinggames/
 	FIELD field_2147 positionRandomOffsetFromSelf Landroid/graphics/PointF;
 	FIELD field_2148 targetFromReference Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
 	FIELD field_2149 waypointMaxTime F
+	FIELD field_2133 field_2133 Lcom/corrodinggames/rts/game/units/class_707;
+	FIELD field_2134 field_2134 Lcom/corrodinggames/rts/game/units/custom/class_591;
+	FIELD field_2136 field_2136 Lcom/corrodinggames/rts/game/units/custom/class_577;
+	FIELD field_2137 field_2137 Lcom/corrodinggames/rts/game/class_327;
+	FIELD field_2140 field_2140 Lcom/corrodinggames/rts/game/units/custom/class_577;
+	FIELD field_2141 field_2141 Lcom/corrodinggames/rts/game/class_327;
+	FIELD field_2150 field_2150 Lcom/corrodinggames/rts/game/units/custom/class_590;
+	FIELD field_2151 field_2151 Lcom/corrodinggames/rts/game/units/custom/class_590;
+	FIELD field_2152 field_2152 Lcom/corrodinggames/rts/game/units/class_706;
+	FIELD field_2153 field_2153 Lcom/corrodinggames/rts/game/units/custom/a/a/class_447;
+	METHOD method_1094 method_1094 (Lcom/corrodinggames/rts/game/units/custom/class_579;FFLcom/corrodinggames/rts/game/units/class_426;I)Lcom/corrodinggames/rts/game/units/class_706;

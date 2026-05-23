@@ -1,1 +1,5 @@
 CLASS com/corrodinggames/rts/gameFramework/k/class_1068 com/corrodinggames/rts/gameFramework/path/FlowFieldPathPositionProvider
+	FIELD field_6521 field_6521 Lcom/corrodinggames/rts/gameFramework/k/class_1066;
+	FIELD field_6522 field_6522 Lcom/corrodinggames/rts/game/units/class_417;
+	FIELD field_6523 field_6523 Landroid/graphics/Point;
+	METHOD method_3103 method_3103 (FF)Lcom/corrodinggames/rts/game/units/class_417;

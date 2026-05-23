@@ -1,1 +1,2 @@
 CLASS com/corrodinggames/rts/gameFramework/j/class_998 com/corrodinggames/rts/gameFramework/network/UpdateServerRunnable
+	METHOD run run ()V

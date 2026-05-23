@@ -1,1 +1,3 @@
 CLASS com/corrodinggames/rts/game/class_328 com/corrodinggames/rts/game/UnitTypeCount
+	FIELD field_1491 field_1491 Lcom/corrodinggames/rts/game/units/class_704;
+	FIELD field_1492 field_1492 I

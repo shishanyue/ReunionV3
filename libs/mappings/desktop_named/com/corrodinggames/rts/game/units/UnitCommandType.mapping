@@ -1,1 +1,21 @@
 CLASS com/corrodinggames/rts/game/units/class_707 com/corrodinggames/rts/game/units/UnitCommandType
+	FIELD field_3941 field_3941 Lcom/corrodinggames/rts/game/units/class_707;
+	FIELD field_3942 field_3942 Lcom/corrodinggames/rts/game/units/class_707;
+	FIELD field_3943 field_3943 Lcom/corrodinggames/rts/game/units/class_707;
+	FIELD field_3944 field_3944 Lcom/corrodinggames/rts/game/units/class_707;
+	FIELD field_3945 field_3945 Lcom/corrodinggames/rts/game/units/class_707;
+	FIELD field_3946 field_3946 Lcom/corrodinggames/rts/game/units/class_707;
+	FIELD field_3947 field_3947 Lcom/corrodinggames/rts/game/units/class_707;
+	FIELD field_3948 field_3948 Lcom/corrodinggames/rts/game/units/class_707;
+	FIELD field_3949 field_3949 Lcom/corrodinggames/rts/game/units/class_707;
+	FIELD field_3950 field_3950 Lcom/corrodinggames/rts/game/units/class_707;
+	FIELD field_3951 field_3951 Lcom/corrodinggames/rts/game/units/class_707;
+	FIELD field_3952 field_3952 Lcom/corrodinggames/rts/game/units/class_707;
+	FIELD field_3953 field_3953 Lcom/corrodinggames/rts/game/units/class_707;
+	FIELD field_3954 field_3954 Lcom/corrodinggames/rts/game/units/class_707;
+	FIELD field_3955 field_3955 Lcom/corrodinggames/rts/game/units/class_707;
+	FIELD field_3956 field_3956 Lcom/corrodinggames/rts/game/units/class_707;
+	FIELD field_3957 field_3957 Lcom/corrodinggames/rts/game/units/class_707;
+	FIELD field_3958 field_3958 [Lcom/corrodinggames/rts/game/units/class_707;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/class_707;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/class_707;

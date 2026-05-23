@@ -1,1 +1,2 @@
 CLASS com/corrodinggames/rts/gameFramework/n/a/class_1256 com/corrodinggames/rts/gameFramework/mission/conditions/TriggerCondition
+	METHOD method_3431 method_3431 (Lcom/corrodinggames/rts/gameFramework/n/class_1255;)Z

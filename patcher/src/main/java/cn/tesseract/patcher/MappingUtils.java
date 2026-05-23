@@ -208,8 +208,8 @@ public final class MappingUtils {
                 if (srcName == null) continue;
 
                 boolean isNew = seenClasses.add(srcName);
+                result.visitClass(srcName);
                 if (isNew) {
-                    result.visitClass(srcName);
                     result.visitDstName(MappedElementKind.CLASS, 0, dstName != null ? dstName : srcName);
                 }
 
@@ -237,9 +237,7 @@ public final class MappingUtils {
                     result.visitElementContent(MappedElementKind.METHOD);
                 }
 
-                if (isNew) {
-                    result.visitElementContent(MappedElementKind.CLASS);
-                }
+                result.visitElementContent(MappedElementKind.CLASS);
             }
         }
 

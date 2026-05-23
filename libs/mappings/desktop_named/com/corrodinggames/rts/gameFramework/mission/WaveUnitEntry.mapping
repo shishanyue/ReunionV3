@@ -1,1 +1,4 @@
 CLASS com/corrodinggames/rts/gameFramework/n/class_1277 com/corrodinggames/rts/gameFramework/mission/WaveUnitEntry
+	FIELD field_7135 field_7135 Lcom/corrodinggames/rts/game/units/class_704;
+	FIELD field_7136 field_7136 I
+	FIELD field_7137 field_7137 Lcom/corrodinggames/rts/gameFramework/n/class_1276;

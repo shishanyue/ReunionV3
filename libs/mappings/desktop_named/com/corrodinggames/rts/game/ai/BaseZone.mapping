@@ -31,6 +31,12 @@ CLASS com/corrodinggames/rts/game/a/class_292 com/corrodinggames/rts/game/ai/Bas
 	FIELD field_7883 extractorScore F
 	FIELD field_7884 isContested Z
 	FIELD field_7885 lastTimeReclaimed F
+	FIELD field_807 field_807 Lcom/corrodinggames/rts/game/units/custom/d/class_552;
+	FIELD field_824 field_824 Lcom/corrodinggames/rts/game/a/class_293;
+	FIELD field_808 field_808 Lcom/corrodinggames/rts/game/units/custom/d/class_552;
+	FIELD field_838 field_838 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_839 field_839 Lcom/corrodinggames/rts/gameFramework/utility/class_1331;
+	FIELD field_840 field_840 Lcom/corrodinggames/rts/gameFramework/utility/class_1331;
 	METHOD method_266 hasEnemyUnits ()Z
 	METHOD method_280 findClosestResource ()Landroid/graphics/PointF;
 	METHOD method_4269 countEnemyUnitsInRange (F)I
@@ -39,3 +45,15 @@ CLASS com/corrodinggames/rts/game/a/class_292 com/corrodinggames/rts/game/ai/Bas
 	METHOD method_4285 countIdleCombatUnits ()I
 	METHOD method_4288 getNumberOfCombatUnits ()I
 	METHOD method_4291 countEnemyUnits ()I
+	METHOD method_269 method_269 (Lcom/corrodinggames/rts/game/units/class_409;Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_270 method_270 (Lcom/corrodinggames/rts/game/units/class_426;Z)Z
+	METHOD method_271 method_271 (Lcom/corrodinggames/rts/game/units/class_704;)I
+	METHOD method_272 method_272 (Lcom/corrodinggames/rts/game/units/class_704;Landroid/graphics/PointF;Z)Lcom/corrodinggames/rts/game/units/class_409;
+	METHOD method_274 method_274 (Lcom/corrodinggames/rts/game/units/class_704;ZZ)Lcom/corrodinggames/rts/game/units/class_409;
+	METHOD method_275 method_275 (Ljava/util/ArrayList;Lcom/corrodinggames/rts/game/a/class_287;Lcom/corrodinggames/rts/game/units/class_428;I)V
+	METHOD method_276 method_276 ()Lcom/corrodinggames/rts/game/units/class_426;
+	METHOD method_278 method_278 ()V
+	METHOD method_279 method_279 (Lcom/corrodinggames/rts/game/units/class_704;)Z
+	METHOD method_282 method_282 ()Lcom/corrodinggames/rts/game/units/f/class_714;
+	METHOD method_283 method_283 ()Lcom/corrodinggames/rts/game/units/class_426;
+	METHOD method_284 method_284 ()V

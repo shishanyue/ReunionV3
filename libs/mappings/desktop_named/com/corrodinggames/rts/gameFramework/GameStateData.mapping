@@ -1,1 +1,10 @@
 CLASS com/corrodinggames/rts/gameFramework/class_867 com/corrodinggames/rts/gameFramework/GameStateData
+	FIELD field_4776 field_4776 I
+	FIELD field_4777 field_4777 Ljava/lang/String;
+	FIELD field_4778 field_4778 I
+	FIELD field_4779 field_4779 Z
+	FIELD field_4780 field_4780 Z
+	FIELD field_4781 field_4781 Z
+	FIELD field_4782 field_4782 J
+	FIELD field_4783 field_4783 I
+	FIELD field_4784 field_4784 Lcom/corrodinggames/rts/gameFramework/class_866;

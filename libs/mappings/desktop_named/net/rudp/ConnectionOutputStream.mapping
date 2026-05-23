@@ -1,3 +1,9 @@
 CLASS a/a/class_1364 net/rudp/ConnectionOutputStream
 	FIELD field_7450 writeBuffer [B
 	FIELD field_7451 bufferedBytes I
+	FIELD field_7449 field_7449 La/a/class_1355;
+	METHOD close close ()V
+	METHOD flush flush ()V
+	METHOD write write ([B)V
+	METHOD write write ([BII)V
+	METHOD write write (I)V

@@ -5,3 +5,4 @@ CLASS com/corrodinggames/rts/game/b/class_310 com/corrodinggames/rts/game/map/Ti
 	FIELD field_1069 imageKey Ljava/lang/String;
 	FIELD field_1071 embeddedBase64 Ljava/lang/String;
 	FIELD field_1072 originalImageName Ljava/lang/String;
+	FIELD field_1070 field_1070 Lcom/corrodinggames/rts/gameFramework/m/class_1189;

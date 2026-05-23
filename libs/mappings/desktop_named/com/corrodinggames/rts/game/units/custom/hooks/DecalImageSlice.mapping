@@ -1,1 +1,8 @@
 CLASS com/corrodinggames/rts/game/units/custom/b/class_497 com/corrodinggames/rts/game/units/custom/hooks/DecalImageSlice
+	FIELD field_2561 field_2561 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_2562 field_2562 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_2563 field_2563 I
+	FIELD field_2564 field_2564 I
+	FIELD field_2565 field_2565 I
+	FIELD field_2566 field_2566 I
+	METHOD method_1195 method_1195 (Lcom/corrodinggames/rts/game/units/custom/b/class_496;)V

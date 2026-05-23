@@ -1,1 +1,6 @@
 CLASS com/corrodinggames/rts/gameFramework/f/class_947 com/corrodinggames/rts/gameFramework/ui/UnitSnapshot
+	FIELD field_5396 field_5396 J
+	FIELD field_5397 field_5397 I
+	FIELD field_5398 field_5398 I
+	FIELD field_5399 field_5399 I
+	FIELD field_5400 field_5400 Lcom/corrodinggames/rts/game/units/custom/e/class_567;

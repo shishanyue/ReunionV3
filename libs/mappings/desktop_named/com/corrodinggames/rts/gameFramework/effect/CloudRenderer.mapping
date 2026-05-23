@@ -4,6 +4,7 @@ CLASS com/corrodinggames/rts/gameFramework/d/class_891 com/corrodinggames/rts/ga
 	FIELD field_4923 drawRect Landroid/graphics/RectF;
 	FIELD field_4924 scrollX F
 	FIELD field_4925 scrollY F
+	FIELD field_4921 field_4921 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	METHOD method_2086 shouldRender ()Z
 	METHOD method_2087 initialize ()V
 	METHOD method_5084 update (F)V

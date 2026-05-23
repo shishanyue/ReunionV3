@@ -2,3 +2,4 @@ CLASS com/corrodinggames/rts/game/units/custom/class_492 com/corrodinggames/rts/
 	FIELD field_2486 finalized Z
 	FIELD field_7987 offsetX F
 	FIELD field_7988 offsetY F
+	METHOD finalize finalize ()V

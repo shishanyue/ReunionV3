@@ -1,2 +1,6 @@
 CLASS com/corrodinggames/rts/game/units/custom/a/a/class_456 com/corrodinggames/rts/game/units/custom/logic/actions/TagAction
 	FIELD field_2214 resetToDefaultTags Z
+	FIELD field_2215 field_2215 Lcom/corrodinggames/rts/game/units/custom/class_577;
+	FIELD field_2216 field_2216 Lcom/corrodinggames/rts/game/units/custom/class_577;
+	FIELD field_2217 field_2217 Lcom/corrodinggames/rts/game/units/custom/class_577;
+	FIELD field_2218 field_2218 Lcom/corrodinggames/rts/game/units/custom/class_577;

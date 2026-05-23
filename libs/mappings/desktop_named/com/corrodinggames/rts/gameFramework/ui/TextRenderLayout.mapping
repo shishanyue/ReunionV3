@@ -1,1 +1,6 @@
 CLASS com/corrodinggames/rts/gameFramework/f/class_936 com/corrodinggames/rts/gameFramework/ui/TextRenderLayout
+	FIELD field_5373 field_5373 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_5374 field_5374 Landroid/graphics/Rect;
+	FIELD field_5375 field_5375 Landroid/graphics/Paint;
+	FIELD field_5376 field_5376 Landroid/graphics/Paint;
+	METHOD method_2443 method_2443 (FF)V

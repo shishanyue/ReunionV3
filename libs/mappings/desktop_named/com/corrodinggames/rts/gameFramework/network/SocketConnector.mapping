@@ -7,3 +7,4 @@ CLASS com/corrodinggames/rts/gameFramework/j/class_1025 com/corrodinggames/rts/g
 	FIELD field_6075 cancelRequested Z
 	FIELD field_8560 isConnecting Z
 	FIELD field_8561 connectorThread Ljava/lang/Thread;
+	METHOD run run ()V

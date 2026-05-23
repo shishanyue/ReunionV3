@@ -1,3 +1,30 @@
 CLASS com/corrodinggames/rts/game/units/class_704 com/corrodinggames/rts/game/units/UnitType
 	METHOD method_1656 getUnitName ()Ljava/lang/String;
 	METHOD method_1660 getUnitTypeDescriptionShort ()Ljava/lang/String;
+	METHOD method_1649 method_1649 ()Lcom/corrodinggames/rts/game/units/class_426;
+	METHOD method_1650 method_1650 (I)Ljava/util/ArrayList;
+	METHOD method_1651 method_1651 (Lcom/corrodinggames/rts/game/units/class_426;)I
+	METHOD method_1652 method_1652 (I)I
+	METHOD method_1646 method_1646 ()Lcom/corrodinggames/rts/game/units/custom/d/class_552;
+	METHOD method_1653 method_1653 ()I
+	METHOD method_1647 method_1647 ()Z
+	METHOD method_1654 method_1654 ()Lcom/corrodinggames/rts/game/units/a/class_356;
+	METHOD method_1655 method_1655 (I)Lcom/corrodinggames/rts/game/units/custom/d/class_552;
+	METHOD method_1648 method_1648 ()F
+	METHOD method_1657 method_1657 ()Ljava/lang/String;
+	METHOD method_1658 method_1658 ()I
+	METHOD method_1659 method_1659 ()V
+	METHOD method_1661 method_1661 ()Z
+	METHOD method_1662 method_1662 ()Z
+	METHOD method_1663 method_1663 ()Z
+	METHOD method_1664 method_1664 ()Z
+	METHOD method_1665 method_1665 ()Z
+	METHOD method_1666 method_1666 ()Lcom/corrodinggames/rts/game/units/class_428;
+	METHOD method_1667 method_1667 ()Z
+	METHOD method_1668 method_1668 ()Lcom/corrodinggames/rts/game/units/custom/class_530;
+	METHOD method_1669 method_1669 ()Lcom/corrodinggames/rts/game/units/custom/d/class_552;
+	METHOD method_1670 method_1670 ()Ljava/lang/String;
+	METHOD method_1671 method_1671 ()Z
+	METHOD method_1672 method_1672 ()Lcom/corrodinggames/rts/game/units/custom/class_577;
+	METHOD method_1673 method_1673 ()Z
+	METHOD method_1674 method_1674 ()Lcom/corrodinggames/rts/gameFramework/m/class_1189;

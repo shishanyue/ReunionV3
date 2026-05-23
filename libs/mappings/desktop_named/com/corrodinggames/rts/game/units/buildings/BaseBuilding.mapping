@@ -3,7 +3,15 @@ CLASS com/corrodinggames/rts/game/units/d/class_628 com/corrodinggames/rts/game/
 	FIELD field_3706 buildingVelocityRect Landroid/graphics/Rect;
 	FIELD field_3709 buildingAnimationState I
 	FIELD field_3710 currentAnimationFrame I
+	FIELD field_3704 field_3704 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3707 field_3707 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3708 field_3708 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	METHOD method_1563 onDeath ()Z
 	METHOD method_1564 isBuildingActive ()Z
 	METHOD method_1570 getBuildingPaint ()Landroid/graphics/Paint;
 	METHOD method_1571 setBuildingAnimationState (I)V
+	METHOD method_1566 method_1566 (Lcom/corrodinggames/rts/game/units/class_409;Lcom/corrodinggames/rts/game/units/class_704;Lcom/corrodinggames/rts/game/units/class_428;IIZLcom/corrodinggames/rts/game/class_324;)Ljava/lang/String;
+	METHOD method_1567 method_1567 (Lcom/corrodinggames/rts/game/units/class_704;FFLcom/corrodinggames/rts/game/class_324;)Z
+	METHOD method_1568 method_1568 (II)Lcom/corrodinggames/rts/game/units/class_426;
+	METHOD method_1569 method_1569 ()V
+	METHOD method_1572 method_1572 (Lcom/corrodinggames/rts/game/units/class_704;)Lcom/corrodinggames/rts/game/units/class_426;

@@ -1,1 +1,5 @@
 CLASS com/corrodinggames/rts/game/units/custom/c/class_534 com/corrodinggames/rts/game/units/custom/tracking/AnimationTrackingEntry
+	FIELD field_2754 field_2754 Lcom/corrodinggames/rts/game/units/custom/class_577;
+	FIELD field_2755 field_2755 Z
+	FIELD field_2756 field_2756 Z
+	FIELD field_2757 field_2757 I

@@ -28,3 +28,10 @@ CLASS com/corrodinggames/rts/gameFramework/e/class_901 com/corrodinggames/rts/ga
 	METHOD method_5122 getLastModified (Ljava/lang/String;)J
 	METHOD method_5123 fixPath (Ljava/lang/String;)Ljava/lang/String;
 	METHOD method_5124 isSaf (Ljava/lang/String;)Z
+	METHOD method_2203 method_2203 ()Ljava/lang/String;
+	METHOD method_2205 method_2205 (Ljava/lang/String;Z)[Ljava/lang/String;
+	METHOD method_2206 method_2206 ()Ljava/lang/String;
+	METHOD method_2209 method_2209 ()Z
+	METHOD method_2214 method_2214 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1322;
+	METHOD method_2215 method_2215 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1322;
+	METHOD method_2219 method_2219 (Ljava/lang/String;)Ljava/lang/String;

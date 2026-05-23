@@ -15,3 +15,13 @@ CLASS com/corrodinggames/rts/game/units/custom/class_484 com/corrodinggames/rts/
 	FIELD field_2478 selfRegenRate F
 	FIELD field_2479 targetHeight F
 	FIELD field_2480 nanoFactorySpeed F
+	FIELD field_2463 field_2463 Z
+	FIELD field_2475 field_2475 Z
+	FIELD field_2481 field_2481 Ljava/util/LinkedHashMap;
+	FIELD field_2482 field_2482 Ljava/util/LinkedHashMap;
+	METHOD method_1172 method_1172 (Lcom/corrodinggames/rts/game/units/custom/class_484;Lcom/corrodinggames/rts/game/units/custom/class_579;Lcom/corrodinggames/rts/gameFramework/j/class_1030;)V
+	METHOD method_1174 method_1174 (Lcom/corrodinggames/rts/game/units/custom/class_579;Lcom/corrodinggames/rts/game/units/custom/class_484;[Lcom/corrodinggames/rts/game/units/custom/class_519;)V
+	METHOD method_1173 method_1173 (Lcom/corrodinggames/rts/game/units/custom/class_579;Lcom/corrodinggames/rts/game/units/custom/class_484;Lcom/corrodinggames/rts/game/units/custom/class_581;)V
+	METHOD method_1177 method_1177 (Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/class_581;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/logicBooleans/VariableScope$CachedWriter;
+	METHOD method_1178 method_1178 (Ljava/util/LinkedHashMap;Lcom/corrodinggames/rts/game/units/custom/class_519;)V
+	METHOD clone clone ()Ljava/lang/Object;

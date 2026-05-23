@@ -1,3 +1,5 @@
 CLASS com/corrodinggames/rts/gameFramework/j/class_1033 com/corrodinggames/rts/gameFramework/network/KeepAliveTimer
 	FIELD field_6128 isRunning Z
 	FIELD field_6129 lastPingTime J
+	FIELD field_6130 field_6130 Lcom/corrodinggames/rts/gameFramework/j/class_1001;
+	METHOD run run ()V

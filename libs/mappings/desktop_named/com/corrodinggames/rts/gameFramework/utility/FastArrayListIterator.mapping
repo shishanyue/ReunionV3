@@ -2,3 +2,7 @@ CLASS com/corrodinggames/rts/gameFramework/utility/class_1324 com/corrodinggames
 	FIELD field_7313 remaining I
 	FIELD field_7314 lastPosition I
 	FIELD field_7315 expectedModCount I
+	FIELD field_7312 field_7312 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	METHOD hasNext hasNext ()Z
+	METHOD next next ()Ljava/lang/Object;
+	METHOD remove remove ()V

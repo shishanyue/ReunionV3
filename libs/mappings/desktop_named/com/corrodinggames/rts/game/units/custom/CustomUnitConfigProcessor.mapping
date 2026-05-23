@@ -1,1 +1,2 @@
 CLASS com/corrodinggames/rts/game/units/custom/class_589 com/corrodinggames/rts/game/units/custom/CustomUnitConfigProcessor
+	METHOD method_1505 method_1505 (Lcom/corrodinggames/rts/game/units/custom/class_581;)V

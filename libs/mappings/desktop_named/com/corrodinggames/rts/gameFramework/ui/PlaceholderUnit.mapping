@@ -1,1 +1,2 @@
 CLASS com/corrodinggames/rts/gameFramework/f/class_924 com/corrodinggames/rts/gameFramework/ui/PlaceholderUnit
+	FIELD field_5306 field_5306 Lcom/corrodinggames/rts/game/units/custom/e/class_567;

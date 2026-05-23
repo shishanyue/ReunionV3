@@ -1,1 +1,2 @@
 CLASS com/corrodinggames/rts/gameFramework/b/a/class_801 com/corrodinggames/rts/gameFramework/gl/font/ShaderUtils
+	METHOD method_1846 method_1846 (ILjava/lang/String;)I

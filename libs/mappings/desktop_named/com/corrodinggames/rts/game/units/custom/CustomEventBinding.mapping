@@ -1,1 +1,6 @@
 CLASS com/corrodinggames/rts/game/units/custom/class_470 com/corrodinggames/rts/game/units/custom/CustomEventBinding
+	FIELD field_2392 field_2392 Lcom/corrodinggames/rts/game/units/custom/class_471;
+	FIELD field_2393 field_2393 Lcom/corrodinggames/rts/game/units/custom/a/class_465;
+	FIELD field_2394 field_2394 Lcom/corrodinggames/rts/game/units/custom/class_581;
+	FIELD field_2395 field_2395 Lcom/corrodinggames/rts/game/units/custom/class_576;
+	FIELD field_2396 field_2396 I

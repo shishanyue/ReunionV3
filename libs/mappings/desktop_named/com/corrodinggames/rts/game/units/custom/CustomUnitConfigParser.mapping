@@ -15,6 +15,9 @@ CLASS com/corrodinggames/rts/game/units/custom/class_472 com/corrodinggames/rts/
 	FIELD field_2431 maxUnitRadius F
 	FIELD field_2432 maxBuildingRadius F
 	FIELD field_2434 lastErrorMessage Ljava/lang/String;
+	FIELD field_2420 field_2420 Lcom/corrodinggames/rts/gameFramework/i/class_992;
+	FIELD field_2428 field_2428 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_2433 field_2433 Lcom/corrodinggames/rts/gameFramework/i/class_992;
 	METHOD method_1112 reloadAllActiveCustomUnits ()V
 	METHOD method_1136 trackImageMemory (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 	METHOD method_1138 createLocalizedString (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;
@@ -37,3 +40,28 @@ CLASS com/corrodinggames/rts/game/units/custom/class_472 com/corrodinggames/rts/
 	METHOD method_4545 init ()V
 	METHOD method_4546 parse (I)V
 	METHOD method_4552 loadSoundInternal (Ljava/util/ArrayList;)V
+	METHOD method_1143 method_1143 ([Lcom/corrodinggames/rts/gameFramework/m/class_1189;)V
+	METHOD method_1113 method_1113 (JLcom/corrodinggames/rts/game/units/custom/class_473;)V
+	METHOD method_1114 method_1114 (Lcom/corrodinggames/rts/game/units/custom/class_581;)Lcom/corrodinggames/rts/game/units/custom/class_581;
+	METHOD method_1115 method_1115 (Lcom/corrodinggames/rts/game/units/custom/class_581;Lcom/corrodinggames/rts/gameFramework/utility/class_1297;Lcom/corrodinggames/rts/gameFramework/utility/class_1297;Ljava/lang/String;I)V
+	METHOD method_1119 method_1119 (Lcom/corrodinggames/rts/game/units/custom/class_581;Lcom/corrodinggames/rts/gameFramework/utility/class_1297;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/class_475;
+	METHOD method_1120 method_1120 (Lcom/corrodinggames/rts/game/units/custom/class_581;Lcom/corrodinggames/rts/gameFramework/utility/class_1297;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZ)V
+	METHOD method_1121 method_1121 (Lcom/corrodinggames/rts/game/units/custom/class_581;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_1122 method_1122 (Lcom/corrodinggames/rts/game/units/class_704;)V
+	METHOD method_1124 method_1124 (Lcom/corrodinggames/rts/gameFramework/a/class_765;)V
+	METHOD method_1126 method_1126 (Lcom/corrodinggames/rts/gameFramework/m/class_1189;)V
+	METHOD method_1128 method_1128 (Lcom/corrodinggames/rts/gameFramework/utility/class_1323;)Z
+	METHOD method_1129 method_1129 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1297;
+	METHOD method_1130 method_1130 (Ljava/lang/String;IZLcom/corrodinggames/rts/gameFramework/i/class_992;Ljava/lang/String;Ljava/lang/String;)V
+	METHOD method_1131 method_1131 (Ljava/lang/String;Lcom/corrodinggames/rts/gameFramework/i/class_992;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/class_581;
+	METHOD method_1132 method_1132 (Ljava/lang/String;Lcom/corrodinggames/rts/gameFramework/m/class_1189;)V
+	METHOD method_1134 method_1134 (Ljava/lang/String;Ljava/lang/Exception;Lcom/corrodinggames/rts/game/units/class_704;)V
+	METHOD method_1135 method_1135 (Ljava/lang/String;Ljava/lang/Exception;Lcom/corrodinggames/rts/gameFramework/i/class_992;)V
+	METHOD method_1137 method_1137 (Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/class_581;)Lcom/corrodinggames/rts/gameFramework/a/class_765;
+	METHOD method_1139 method_1139 (Ljava/lang/String;Ljava/lang/String;ZLcom/corrodinggames/rts/game/units/custom/class_581;)Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	METHOD method_1140 method_1140 (Ljava/lang/String;Ljava/lang/String;ZLcom/corrodinggames/rts/game/units/custom/class_581;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	METHOD method_1145 method_1145 (Lcom/corrodinggames/rts/game/units/custom/class_581;)V
+	METHOD method_1146 method_1146 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	METHOD method_1147 method_1147 (Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/class_581;)Lcom/corrodinggames/rts/gameFramework/a/class_765;
+	METHOD method_1150 method_1150 (Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/class_581;)Lcom/corrodinggames/rts/gameFramework/utility/class_1322;
+	METHOD method_1159 method_1159 ()V

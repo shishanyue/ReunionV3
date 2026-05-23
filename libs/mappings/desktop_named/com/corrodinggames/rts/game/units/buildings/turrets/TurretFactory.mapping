@@ -15,11 +15,39 @@ CLASS com/corrodinggames/rts/game/units/d/a/class_605 com/corrodinggames/rts/gam
 	FIELD field_3644 GUN_TURRET_T3_TYPE Ljava/lang/String;
 	FIELD field_3645 ARTILLERY_TURRET_TYPE Ljava/lang/String;
 	FIELD field_3646 FLAMETHROWER_TURRET_TYPE Ljava/lang/String;
+	FIELD field_3625 field_3625 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3626 field_3626 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3627 field_3627 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3628 field_3628 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3630 field_3630 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_3631 field_3631 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_3632 field_3632 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_3633 field_3633 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_3635 field_3635 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3619 field_3619 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3636 field_3636 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3620 field_3620 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3637 field_3637 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3638 field_3638 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3641 field_3641 Lcom/corrodinggames/rts/game/units/d/a/class_610;
 	METHOD method_1527 setTurretTypeInternal (Ljava/lang/String;)V
 	METHOD method_1533 loadTextures ()V
 	METHOD method_1539 updateTurretRotation (F)V
 	METHOD method_4699 getTurretTechLevel ()I
 	METHOD method_4700 drawTurret ()V
+	METHOD method_1523 method_1523 (Lcom/corrodinggames/rts/game/units/d/a/class_605;)V
+	METHOD method_1524 method_1524 (Lcom/corrodinggames/rts/game/units/d/a/class_605;I)Landroid/graphics/PointF;
+	METHOD method_1525 method_1525 (Lcom/corrodinggames/rts/game/units/d/a/class_605;)V
+	METHOD method_1526 method_1526 (Lcom/corrodinggames/rts/game/units/d/a/class_605;I)Landroid/graphics/PointF;
+	METHOD method_1528 method_1528 (Lcom/corrodinggames/rts/game/units/d/a/class_605;)V
+	METHOD method_1529 method_1529 (Lcom/corrodinggames/rts/game/units/d/a/class_605;I)Landroid/graphics/PointF;
+	METHOD method_1530 method_1530 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/d/a/class_610;
+	METHOD method_1531 method_1531 (Lcom/corrodinggames/rts/game/units/d/a/class_605;)V
+	METHOD method_1534 method_1534 ()Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	METHOD method_1535 method_1535 ()Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	METHOD method_1536 method_1536 ()Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	METHOD method_1537 method_1537 ()Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	METHOD method_1538 method_1538 ()Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	CLASS class_606 AnonymousClass1
 	CLASS class_607 AnonymousClass2
 	CLASS class_608 AnonymousClass3

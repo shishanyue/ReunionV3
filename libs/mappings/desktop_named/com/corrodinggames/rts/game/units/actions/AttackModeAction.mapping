@@ -1,1 +1,4 @@
 CLASS com/corrodinggames/rts/game/units/a/class_334 com/corrodinggames/rts/game/units/actions/AttackModeAction
+	FIELD field_1522 field_1522 I
+	FIELD field_1523 field_1523 Lcom/corrodinggames/rts/game/units/class_330;
+	METHOD method_561 method_561 ()Lcom/corrodinggames/rts/game/units/class_330;

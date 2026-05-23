@@ -1,1 +1,5 @@
 CLASS com/corrodinggames/rts/gameFramework/utility/class_1305 com/corrodinggames/rts/gameFramework/utility/Vector3D
+	FIELD field_7272 field_7272 F
+	FIELD field_7273 field_7273 F
+	FIELD field_7274 field_7274 F
+	METHOD method_3623 method_3623 (Landroid/graphics/PointF;)V

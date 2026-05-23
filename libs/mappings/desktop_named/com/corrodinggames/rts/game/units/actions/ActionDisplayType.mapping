@@ -1,1 +1,13 @@
 CLASS com/corrodinggames/rts/game/units/a/class_350 com/corrodinggames/rts/game/units/actions/ActionDisplayType
+	FIELD field_1557 field_1557 Lcom/corrodinggames/rts/game/units/a/class_350;
+	FIELD field_1558 field_1558 Lcom/corrodinggames/rts/game/units/a/class_350;
+	FIELD field_1559 field_1559 Lcom/corrodinggames/rts/game/units/a/class_350;
+	FIELD field_1560 field_1560 Lcom/corrodinggames/rts/game/units/a/class_350;
+	FIELD field_1561 field_1561 Lcom/corrodinggames/rts/game/units/a/class_350;
+	FIELD field_1562 field_1562 Lcom/corrodinggames/rts/game/units/a/class_350;
+	FIELD field_1563 field_1563 Lcom/corrodinggames/rts/game/units/a/class_350;
+	FIELD field_1564 field_1564 Lcom/corrodinggames/rts/game/units/a/class_350;
+	FIELD field_1565 field_1565 Lcom/corrodinggames/rts/game/units/a/class_350;
+	FIELD field_1566 field_1566 [Lcom/corrodinggames/rts/game/units/a/class_350;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/a/class_350;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/a/class_350;

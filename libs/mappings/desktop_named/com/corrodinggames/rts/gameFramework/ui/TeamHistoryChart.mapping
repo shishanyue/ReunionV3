@@ -1,1 +1,7 @@
 CLASS com/corrodinggames/rts/gameFramework/f/class_927 com/corrodinggames/rts/gameFramework/ui/TeamHistoryChart
+	FIELD field_5333 field_5333 Lcom/corrodinggames/rts/gameFramework/class_878;
+	FIELD field_5334 field_5334 Ljava/lang/String;
+	FIELD field_5335 field_5335 I
+	FIELD field_5336 field_5336 [Lcom/corrodinggames/rts/gameFramework/m/class_1233;
+	FIELD field_5337 field_5337 [Lcom/corrodinggames/rts/gameFramework/m/class_1233;
+	METHOD method_2426 method_2426 (IZ)Lcom/corrodinggames/rts/gameFramework/m/class_1233;

@@ -1,3 +1,5 @@
 CLASS com/corrodinggames/rts/game/units/custom/class_587 com/corrodinggames/rts/game/units/custom/CustomUnitCondition
 	FIELD field_3578 logicBoolean Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
 	FIELD field_3579 conditionName Ljava/lang/String;
+	FIELD field_3580 field_3580 Lcom/corrodinggames/rts/game/units/custom/class_588;
+	FIELD field_3581 field_3581 Lcom/corrodinggames/rts/game/units/custom/a/class_465;

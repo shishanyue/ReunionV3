@@ -8,6 +8,11 @@ CLASS com/corrodinggames/rts/game/units/class_706 com/corrodinggames/rts/game/un
 	FIELD field_3938 maxWayPointSurvivingTime F
 	FIELD field_3939 isRepeating Z
 	FIELD field_3940 isForceMove Z
+	FIELD field_3927 field_3927 Lcom/corrodinggames/rts/game/units/class_707;
+	FIELD field_3928 field_3928 Lcom/corrodinggames/rts/game/units/class_704;
+	FIELD field_3929 field_3929 Lcom/corrodinggames/rts/game/units/a/class_333;
+	FIELD field_3934 field_3934 Lcom/corrodinggames/rts/game/units/class_426;
+	FIELD field_3935 field_3935 Lcom/corrodinggames/rts/gameFramework/class_778;
 	METHOD method_1675 resolveTargetUnitFromId ()V
 	METHOD method_1676 setMoveTarget (FF)V
 	METHOD method_1682 resetCommand ()V
@@ -19,3 +24,15 @@ CLASS com/corrodinggames/rts/game/units/class_706 com/corrodinggames/rts/game/un
 	METHOD method_4518 getBuildQueueSize ()I
 	METHOD method_4519 setPatrolPoint (FF)V
 	METHOD method_4523 updateTargetUnitIdFromUnit ()V
+	METHOD method_1677 method_1677 (FFLcom/corrodinggames/rts/game/units/class_704;I)V
+	METHOD method_1678 method_1678 (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_1679 method_1679 (Lcom/corrodinggames/rts/game/units/class_706;)Z
+	METHOD method_1680 method_1680 (Lcom/corrodinggames/rts/gameFramework/j/class_1030;)V
+	METHOD method_1684 method_1684 (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_1685 method_1685 (Lcom/corrodinggames/rts/game/units/class_706;)Z
+	METHOD method_1687 method_1687 (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_1688 method_1688 (Lcom/corrodinggames/rts/game/units/class_706;)V
+	METHOD method_1690 method_1690 (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_1692 method_1692 (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_1693 method_1693 ()Lcom/corrodinggames/rts/game/units/class_426;
+	METHOD method_1694 method_1694 (Lcom/corrodinggames/rts/game/units/class_426;)V

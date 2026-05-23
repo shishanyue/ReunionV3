@@ -3,3 +3,5 @@ CLASS com/corrodinggames/rts/gameFramework/f/class_972 com/corrodinggames/rts/ga
 	FIELD field_5720 x I
 	FIELD field_5721 y I
 	FIELD field_5722 radius F
+	FIELD field_5723 field_5723 F
+	FIELD field_5724 field_5724 Lcom/corrodinggames/rts/gameFramework/f/class_969;

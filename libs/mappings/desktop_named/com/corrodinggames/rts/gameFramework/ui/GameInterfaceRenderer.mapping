@@ -62,6 +62,25 @@ CLASS com/corrodinggames/rts/gameFramework/f/class_908 com/corrodinggames/rts/ga
 	FIELD field_8392 messageText Ljava/lang/String;
 	FIELD field_8393 messageTimer F
 	FIELD field_8394 unitRect2 Landroid/graphics/Rect;
+	FIELD field_5182 field_5182 Lcom/corrodinggames/rts/gameFramework/f/class_961;
+	FIELD field_5183 field_5183 Lcom/corrodinggames/rts/game/units/class_426;
+	FIELD field_5184 field_5184 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_5181 field_5181 Lcom/corrodinggames/rts/gameFramework/f/class_977;
+	FIELD field_5200 field_5200 Lcom/corrodinggames/rts/game/units/a/class_355;
+	FIELD field_5201 field_5201 Lcom/corrodinggames/rts/game/units/a/class_355;
+	FIELD field_5202 field_5202 Lcom/corrodinggames/rts/game/units/a/class_334;
+	FIELD field_5205 field_5205 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_5208 field_5208 Ljava/util/HashMap;
+	FIELD field_5209 field_5209 Lcom/corrodinggames/rts/gameFramework/class_1061;
+	FIELD field_5159 field_5159 I
+	FIELD field_5221 field_5221 Lcom/corrodinggames/rts/gameFramework/m/class_1233;
+	FIELD field_5222 field_5222 Lcom/corrodinggames/rts/gameFramework/m/class_1233;
+	FIELD field_5170 field_5170 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_5171 field_5171 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_5172 field_5172 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_5173 field_5173 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_5174 field_5174 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_5175 field_5175 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	METHOD method_2355 initializeStrings ()V
 	METHOD method_2356 handleZoomAndGestures (F)V
 	METHOD method_2370 handleUnitSelection (F)V
@@ -69,3 +88,21 @@ CLASS com/corrodinggames/rts/gameFramework/f/class_908 com/corrodinggames/rts/ga
 	METHOD method_2382 getMaxZoomLevel ()F
 	METHOD method_5178 getMinZoomLevel ()F
 	METHOD method_5179 getScreenRatio ()F
+	METHOD method_2358 method_2358 (IIILjava/lang/String;Ljava/lang/String;Landroid/graphics/Paint;F)V
+	METHOD method_2359 method_2359 (Lcom/corrodinggames/rts/game/class_324;)Ljava/lang/String;
+	METHOD method_2360 method_2360 (Lcom/corrodinggames/rts/game/units/a/class_349;)Z
+	METHOD method_2362 method_2362 (Lcom/corrodinggames/rts/game/units/class_420;)Z
+	METHOD method_2364 method_2364 (Lcom/corrodinggames/rts/game/units/class_426;Lcom/corrodinggames/rts/game/units/class_426;)Z
+	METHOD method_2365 method_2365 (Lcom/corrodinggames/rts/game/units/class_426;Ljava/util/ArrayList;)Ljava/util/ArrayList;
+	METHOD method_2368 method_2368 (Ljava/lang/String;I)V
+	METHOD method_2369 method_2369 ()Lcom/corrodinggames/rts/game/units/class_426;
+	METHOD method_2371 method_2371 (I)V
+	METHOD method_2372 method_2372 (Lcom/corrodinggames/rts/game/units/a/class_349;)F
+	METHOD method_2374 method_2374 ()V
+	METHOD method_2375 method_2375 (F)V
+	METHOD method_2377 method_2377 ()V
+	METHOD method_2378 method_2378 (F)I
+	METHOD method_2379 method_2379 (Lcom/corrodinggames/rts/game/units/a/class_349;)Lcom/corrodinggames/rts/game/units/g/class_726;
+	METHOD method_2383 method_2383 (F)V
+	METHOD method_2385 method_2385 ()Lcom/corrodinggames/rts/game/units/class_426;
+	METHOD method_2386 method_2386 ()Ljava/util/ArrayList;

@@ -1,1 +1,5 @@
 CLASS com/corrodinggames/rts/gameFramework/class_776 com/corrodinggames/rts/gameFramework/GameThread
+	FIELD field_4235 field_4235 I
+	FIELD field_4236 field_4236 Z
+	METHOD method_1788 method_1788 (Z)V
+	METHOD run run ()V

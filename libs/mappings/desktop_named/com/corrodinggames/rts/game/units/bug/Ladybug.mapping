@@ -1,1 +1,10 @@
 CLASS com/corrodinggames/rts/game/units/c/class_421 com/corrodinggames/rts/game/units/bug/Ladybug
+	FIELD field_1856 field_1856 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1857 field_1857 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1858 field_1858 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1859 field_1859 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1860 field_1860 I
+	FIELD field_1861 field_1861 F
+	FIELD field_1862 field_1862 Landroid/graphics/Rect;
+	FIELD field_1863 field_1863 Landroid/graphics/Rect;
+	METHOD method_880 method_880 ()V

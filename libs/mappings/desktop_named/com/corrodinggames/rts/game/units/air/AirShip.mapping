@@ -1,1 +1,9 @@
 CLASS com/corrodinggames/rts/game/units/b/class_384 com/corrodinggames/rts/game/units/air/AirShip
+	FIELD field_1616 field_1616 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1617 field_1617 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1618 field_1618 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1619 field_1619 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1620 field_1620 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1621 field_1621 F
+	FIELD field_1622 field_1622 Landroid/graphics/Rect;
+	METHOD method_651 method_651 ()V

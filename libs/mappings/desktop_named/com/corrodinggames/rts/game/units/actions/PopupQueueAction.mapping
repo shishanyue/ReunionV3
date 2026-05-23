@@ -1,1 +1,2 @@
 CLASS com/corrodinggames/rts/game/units/a/class_353 com/corrodinggames/rts/game/units/actions/PopupQueueAction
+	METHOD method_644 method_644 ()F

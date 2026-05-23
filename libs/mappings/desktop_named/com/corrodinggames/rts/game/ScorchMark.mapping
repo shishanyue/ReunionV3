@@ -5,3 +5,16 @@ CLASS com/corrodinggames/rts/game/class_322 com/corrodinggames/rts/game/ScorchMa
 	FIELD field_1384 height I
 	FIELD field_1386 frame I
 	FIELD field_1387 status I
+	FIELD field_1385 field_1385 Lcom/corrodinggames/rts/game/class_323;
+	FIELD field_1388 field_1388 Landroid/graphics/Rect;
+	FIELD field_1389 field_1389 Landroid/graphics/Rect;
+	FIELD field_1390 field_1390 Landroid/graphics/Paint;
+	FIELD field_1391 field_1391 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1392 field_1392 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1393 field_1393 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	METHOD method_437 method_437 (FF)V
+	METHOD method_438 method_438 (FFLcom/corrodinggames/rts/game/class_323;)V
+	METHOD method_440 method_440 (Lcom/corrodinggames/rts/gameFramework/m/class_1225;IIF)V
+	METHOD method_441 method_441 ()V
+	METHOD method_442 method_442 (FFLcom/corrodinggames/rts/game/class_323;)Z
+	METHOD method_443 method_443 ()V

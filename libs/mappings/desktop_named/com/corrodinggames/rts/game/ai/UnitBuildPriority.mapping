@@ -1,2 +1,4 @@
 CLASS com/corrodinggames/rts/game/a/class_288 com/corrodinggames/rts/game/ai/UnitBuildPriority
 	FIELD field_772 priority F
+	FIELD field_771 field_771 Lcom/corrodinggames/rts/game/units/class_704;
+	FIELD field_773 field_773 Lcom/corrodinggames/rts/game/a/class_287;

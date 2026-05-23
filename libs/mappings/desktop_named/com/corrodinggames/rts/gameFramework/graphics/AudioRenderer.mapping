@@ -1,1 +1,12 @@
 CLASS com/corrodinggames/rts/gameFramework/m/class_1081 com/corrodinggames/rts/gameFramework/graphics/AudioRenderer
+	FIELD field_6648 field_6648 Z
+	FIELD field_6649 field_6649 Ljavax/microedition/khronos/opengles/GL10;
+	FIELD field_6651 field_6651 F
+	FIELD field_6652 field_6652 I
+	FIELD field_6654 field_6654 [Lcom/corrodinggames/rts/gameFramework/m/class_1135;
+	FIELD field_6662 field_6662 Ljava/lang/String;
+	FIELD field_6663 field_6663 J
+	FIELD field_6664 field_6664 Landroid/graphics/BitmapFactory$Options;
+	METHOD onDrawFrame onDrawFrame (Ljavax/microedition/khronos/opengles/GL10;)V
+	METHOD onSurfaceChanged onSurfaceChanged (Ljavax/microedition/khronos/opengles/GL10;II)V
+	METHOD onSurfaceCreated onSurfaceCreated (Ljavax/microedition/khronos/opengles/GL10;Ljavax/microedition/khronos/egl/EGLConfig;)V

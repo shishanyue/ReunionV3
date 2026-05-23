@@ -1,1 +1,7 @@
 CLASS com/corrodinggames/rts/game/units/custom/e/class_563 com/corrodinggames/rts/game/units/custom/resources/DigitGroupingStyle
+	FIELD field_3002 field_3002 Lcom/corrodinggames/rts/game/units/custom/e/class_563;
+	FIELD field_3003 field_3003 Lcom/corrodinggames/rts/game/units/custom/e/class_563;
+	FIELD field_3004 field_3004 Lcom/corrodinggames/rts/game/units/custom/e/class_563;
+	FIELD field_3005 field_3005 [Lcom/corrodinggames/rts/game/units/custom/e/class_563;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/e/class_563;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/custom/e/class_563;

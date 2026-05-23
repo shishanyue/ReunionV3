@@ -1,1 +1,8 @@
 CLASS com/corrodinggames/rts/gameFramework/utility/class_1330 com/corrodinggames/rts/gameFramework/utility/GameObjectArrayListIterator
+	FIELD field_7333 field_7333 Lcom/corrodinggames/rts/gameFramework/utility/class_1329;
+	FIELD field_7334 field_7334 I
+	FIELD field_7335 field_7335 I
+	FIELD field_7336 field_7336 I
+	METHOD hasNext hasNext ()Z
+	METHOD next next ()Ljava/lang/Object;
+	METHOD remove remove ()V

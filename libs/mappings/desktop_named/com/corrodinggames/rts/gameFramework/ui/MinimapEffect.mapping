@@ -3,3 +3,4 @@ CLASS com/corrodinggames/rts/gameFramework/f/class_971 com/corrodinggames/rts/ga
 	FIELD field_5714 y I
 	FIELD field_5715 intensity F
 	FIELD field_5716 duration F
+	FIELD field_5718 field_5718 Lcom/corrodinggames/rts/gameFramework/f/class_969;

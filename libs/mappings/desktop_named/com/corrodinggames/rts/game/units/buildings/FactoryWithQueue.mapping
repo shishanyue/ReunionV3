@@ -1,1 +1,7 @@
 CLASS com/corrodinggames/rts/game/units/d/class_638 com/corrodinggames/rts/game/units/buildings/FactoryWithQueue
+	FIELD field_3760 field_3760 Landroid/graphics/Rect;
+	FIELD field_3761 field_3761 Landroid/graphics/Rect;
+	FIELD field_3762 field_3762 Landroid/graphics/Paint;
+	FIELD field_3763 field_3763 Lcom/corrodinggames/rts/game/units/d/class_640;
+	METHOD method_1580 method_1580 ()Lcom/corrodinggames/rts/game/units/d/class_640;
+	METHOD method_1581 method_1581 ()I

@@ -1,1 +1,10 @@
 CLASS com/corrodinggames/rts/game/units/a/class_337 com/corrodinggames/rts/game/units/actions/WrapperUnitAction
+	FIELD field_1524 field_1524 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_1525 field_1525 Lcom/corrodinggames/rts/game/units/class_409;
+	FIELD field_1526 field_1526 Lcom/corrodinggames/rts/game/units/a/class_332;
+	FIELD field_1527 field_1527 Lcom/corrodinggames/rts/gameFramework/utility/class_1331;
+	FIELD field_1528 field_1528 Lcom/corrodinggames/rts/gameFramework/utility/class_1331;
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD method_562 method_562 ()V
+	METHOD method_563 method_563 ()V

@@ -1,1 +1,11 @@
 CLASS com/corrodinggames/rts/game/units/h/class_729 com/corrodinggames/rts/game/units/sea/BuilderShip
+	FIELD field_4078 field_4078 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4079 field_4079 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4080 field_4080 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4081 field_4081 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4082 field_4082 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4083 field_4083 [Landroid/graphics/PointF;
+	FIELD field_4084 field_4084 [Landroid/graphics/PointF;
+	FIELD field_4085 field_4085 Landroid/graphics/Rect;
+	FIELD field_4086 field_4086 Lcom/corrodinggames/rts/game/units/a/class_349;
+	METHOD method_1735 method_1735 ()V

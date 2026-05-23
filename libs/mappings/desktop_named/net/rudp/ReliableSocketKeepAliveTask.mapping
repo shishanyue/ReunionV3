@@ -1,1 +1,3 @@
 CLASS a/a/class_1357 net/rudp/ReliableSocketKeepAliveTask
+	FIELD field_7440 field_7440 La/a/class_1355;
+	METHOD run run ()V

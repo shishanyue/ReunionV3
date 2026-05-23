@@ -2,3 +2,5 @@ CLASS com/corrodinggames/rts/gameFramework/j/class_999 com/corrodinggames/rts/ga
 	FIELD field_5845 gameId Ljava/lang/String;
 	FIELD field_5846 serverCode I
 	FIELD field_5847 password Ljava/lang/String;
+	FIELD field_5844 field_5844 Lcom/corrodinggames/rts/gameFramework/j/class_1058;
+	METHOD run run ()V

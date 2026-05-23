@@ -4,3 +4,5 @@ CLASS com/corrodinggames/rts/game/units/custom/a/a/class_448 com/corrodinggames/
 	FIELD field_2166 playAnimationLowPriority Z
 	FIELD field_2167 animationPriority I
 	FIELD field_2168 animationDelay I
+	FIELD field_2164 field_2164 Lcom/corrodinggames/rts/game/units/custom/class_584;
+	FIELD field_2165 field_2165 Lcom/corrodinggames/rts/game/units/custom/class_584;

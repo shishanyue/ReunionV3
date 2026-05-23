@@ -1,1 +1,8 @@
 CLASS com/corrodinggames/rts/gameFramework/utility/class_1326 com/corrodinggames/rts/gameFramework/utility/TransactionalListIterator
+	FIELD field_7320 field_7320 Lcom/corrodinggames/rts/gameFramework/utility/class_1325;
+	FIELD field_7321 field_7321 I
+	FIELD field_7322 field_7322 I
+	FIELD field_7323 field_7323 I
+	METHOD hasNext hasNext ()Z
+	METHOD next next ()Ljava/lang/Object;
+	METHOD remove remove ()V

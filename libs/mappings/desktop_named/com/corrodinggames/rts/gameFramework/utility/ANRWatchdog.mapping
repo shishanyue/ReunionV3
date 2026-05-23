@@ -1,1 +1,15 @@
 CLASS com/corrodinggames/rts/gameFramework/utility/class_1312 com/corrodinggames/rts/gameFramework/utility/ANRWatchdog
+	FIELD field_7281 field_7281 Lcom/corrodinggames/rts/gameFramework/utility/class_1316;
+	FIELD field_7282 field_7282 Lcom/corrodinggames/rts/gameFramework/utility/class_1316;
+	FIELD field_7283 field_7283 Lcom/corrodinggames/rts/gameFramework/utility/class_1317;
+	FIELD field_7284 field_7284 Lcom/corrodinggames/rts/gameFramework/utility/class_1317;
+	FIELD field_7285 field_7285 Landroid/os/Handler;
+	FIELD field_7286 field_7286 I
+	FIELD field_7287 field_7287 Ljava/lang/String;
+	FIELD field_7288 field_7288 Z
+	FIELD field_7289 field_7289 Z
+	FIELD field_7290 field_7290 I
+	FIELD field_7291 field_7291 Ljava/lang/Runnable;
+	METHOD method_3635 method_3635 (Lcom/corrodinggames/rts/gameFramework/utility/class_1312;)I
+	METHOD method_3636 method_3636 (Lcom/corrodinggames/rts/gameFramework/utility/class_1312;I)I
+	METHOD run run ()V

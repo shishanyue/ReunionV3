@@ -1,1 +1,6 @@
 CLASS com/corrodinggames/rts/gameFramework/m/class_1229 com/corrodinggames/rts/gameFramework/graphics/opengl/GLMeshBuffer
+	FIELD field_6865 field_6865 Z
+	FIELD field_6867 field_6867 Ljava/nio/FloatBuffer;
+	FIELD field_6869 field_6869 Ljava/nio/IntBuffer;
+	FIELD field_6870 field_6870 I
+	METHOD method_3310 method_3310 (IIFF)V

@@ -1,5 +1,10 @@
 CLASS com/corrodinggames/rts/game/units/d/class_602 com/corrodinggames/rts/game/units/buildings/AirFactory
 	FIELD field_3607 factoryLevel I
 	FIELD field_3608 animationTiming F
+	FIELD field_3602 field_3602 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3603 field_3603 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3604 field_3604 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3605 field_3605 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3606 field_3606 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	METHOD method_1520 addAvailableActions (Ljava/util/ArrayList;I)V
 	METHOD method_1521 loadTextures ()V

@@ -1,1 +1,3 @@
 CLASS com/corrodinggames/rts/gameFramework/f/class_933 com/corrodinggames/rts/gameFramework/ui/ColoredTextRenderer
+	FIELD field_5363 field_5363 Landroid/graphics/Paint;
+	FIELD field_5364 field_5364 I

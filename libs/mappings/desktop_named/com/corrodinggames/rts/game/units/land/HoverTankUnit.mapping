@@ -1,1 +1,8 @@
 CLASS com/corrodinggames/rts/game/units/e/class_682 com/corrodinggames/rts/game/units/land/HoverTankUnit
+	FIELD field_3867 field_3867 F
+	FIELD field_3868 field_3868 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3869 field_3869 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3870 field_3870 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3871 field_3871 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3872 field_3872 Landroid/graphics/Rect;
+	METHOD method_1633 method_1633 ()V

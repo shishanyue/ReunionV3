@@ -1,1 +1,18 @@
 CLASS com/corrodinggames/rts/gameFramework/utility/class_1318 com/corrodinggames/rts/gameFramework/utility/CircularDeque
+	FIELD field_7296 field_7296 I
+	METHOD method_3643 method_3643 ([Ljava/lang/Object;)[Ljava/lang/Object;
+	METHOD method_3640 method_3640 (I)Z
+	METHOD method_3641 method_3641 (Lcom/corrodinggames/rts/gameFramework/utility/class_1318;)I
+	METHOD method_3642 method_3642 (Lcom/corrodinggames/rts/gameFramework/utility/class_1318;I)Z
+	METHOD add add (Ljava/lang/Object;)Z
+	METHOD method_3644 method_3644 (Lcom/corrodinggames/rts/gameFramework/utility/class_1318;)I
+	METHOD method_3645 method_3645 (Lcom/corrodinggames/rts/gameFramework/utility/class_1318;)[Ljava/lang/Object;
+	METHOD clear clear ()V
+	METHOD clone clone ()Ljava/lang/Object;
+	METHOD contains contains (Ljava/lang/Object;)Z
+	METHOD isEmpty isEmpty ()Z
+	METHOD iterator iterator ()Ljava/util/Iterator;
+	METHOD remove remove (Ljava/lang/Object;)Z
+	METHOD size size ()I
+	METHOD toArray toArray ()[Ljava/lang/Object;
+	METHOD toArray toArray ([Ljava/lang/Object;)[Ljava/lang/Object;

@@ -1,1 +1,8 @@
 CLASS com/corrodinggames/rts/game/units/custom/a/a/class_450 com/corrodinggames/rts/game/units/custom/logic/actions/MessageAction
+	FIELD field_2175 field_2175 Lcom/corrodinggames/rts/game/units/custom/class_475;
+	FIELD field_2176 field_2176 Lcom/corrodinggames/rts/game/units/custom/class_475;
+	FIELD field_2177 field_2177 Lcom/corrodinggames/rts/game/units/custom/class_475;
+	FIELD field_2178 field_2178 Lcom/corrodinggames/rts/game/units/custom/class_475;
+	FIELD field_2179 field_2179 Lcom/corrodinggames/rts/game/units/custom/class_475;
+	FIELD field_2180 field_2180 Lcom/corrodinggames/rts/game/units/custom/class_475;
+	FIELD field_2181 field_2181 Ljava/util/regex/Pattern;

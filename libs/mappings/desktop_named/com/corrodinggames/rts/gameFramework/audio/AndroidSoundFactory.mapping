@@ -4,3 +4,5 @@ CLASS com/corrodinggames/rts/gameFramework/a/class_757 com/corrodinggames/rts/ga
 	FIELD field_4145 SOUND_THREAD_SLEEP_MS I
 	FIELD field_4146 context Landroid/content/Context;
 	FIELD field_4147 soundPool Landroid/media/SoundPool;
+	FIELD field_4143 field_4143 Lcom/corrodinggames/rts/gameFramework/utility/class_1299;
+	FIELD field_4144 field_4144 Lcom/corrodinggames/rts/gameFramework/a/class_760;

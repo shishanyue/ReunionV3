@@ -1,3 +1,26 @@
 CLASS com/corrodinggames/rts/game/units/b/class_386 com/corrodinggames/rts/game/units/air/AmphibiousJet
+	FIELD field_1631 field_1631 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1630 field_1630 Ljava/util/ArrayList;
+	FIELD field_1632 field_1632 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1633 field_1633 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1634 field_1634 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1635 field_1635 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1636 field_1636 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1637 field_1637 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1638 field_1638 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1639 field_1639 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1640 field_1640 F
+	FIELD field_1641 field_1641 Z
+	FIELD field_1642 field_1642 Z
+	FIELD field_1643 field_1643 F
+	FIELD field_1644 field_1644 F
+	FIELD field_1645 field_1645 Landroid/graphics/Paint;
+	FIELD field_1646 field_1646 Landroid/graphics/PointF;
+	FIELD field_1647 field_1647 Landroid/graphics/Rect;
+	FIELD field_1648 field_1648 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_1649 field_1649 Lcom/corrodinggames/rts/game/units/a/class_349;
+	METHOD method_654 method_654 ()V
+	METHOD method_656 method_656 (Z)V
+	METHOD method_653 method_653 ()Z
 	CLASS class_387 AnonymousClass1
 	CLASS class_388 AnonymousClass2

@@ -1,1 +1,22 @@
 CLASS com/corrodinggames/rts/game/units/custom/class_471 com/corrodinggames/rts/game/units/custom/UnitEventType
+	FIELD field_2397 field_2397 Lcom/corrodinggames/rts/game/units/custom/class_471;
+	FIELD field_2398 field_2398 Lcom/corrodinggames/rts/game/units/custom/class_471;
+	FIELD field_2399 field_2399 Lcom/corrodinggames/rts/game/units/custom/class_471;
+	FIELD field_2400 field_2400 Lcom/corrodinggames/rts/game/units/custom/class_471;
+	FIELD field_2401 field_2401 Lcom/corrodinggames/rts/game/units/custom/class_471;
+	FIELD field_2402 field_2402 Lcom/corrodinggames/rts/game/units/custom/class_471;
+	FIELD field_2403 field_2403 Lcom/corrodinggames/rts/game/units/custom/class_471;
+	FIELD field_2404 field_2404 Lcom/corrodinggames/rts/game/units/custom/class_471;
+	FIELD field_2405 field_2405 Lcom/corrodinggames/rts/game/units/custom/class_471;
+	FIELD field_2406 field_2406 Lcom/corrodinggames/rts/game/units/custom/class_471;
+	FIELD field_2407 field_2407 Lcom/corrodinggames/rts/game/units/custom/class_471;
+	FIELD field_2408 field_2408 Lcom/corrodinggames/rts/game/units/custom/class_471;
+	FIELD field_2409 field_2409 Lcom/corrodinggames/rts/game/units/custom/class_471;
+	FIELD field_2410 field_2410 Lcom/corrodinggames/rts/game/units/custom/class_471;
+	FIELD field_2411 field_2411 Lcom/corrodinggames/rts/game/units/custom/class_471;
+	FIELD field_2412 field_2412 Lcom/corrodinggames/rts/game/units/custom/class_471;
+	FIELD field_2413 field_2413 Lcom/corrodinggames/rts/game/units/custom/class_471;
+	FIELD field_2414 field_2414 Lcom/corrodinggames/rts/game/units/custom/class_471;
+	FIELD field_2415 field_2415 [Lcom/corrodinggames/rts/game/units/custom/class_471;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/class_471;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/custom/class_471;

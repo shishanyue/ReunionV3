@@ -1,1 +1,3 @@
 CLASS com/corrodinggames/rts/game/units/custom/class_474 com/corrodinggames/rts/game/units/custom/CustomEventParseEntry
+	FIELD field_2451 field_2451 Ljava/lang/String;
+	FIELD field_2452 field_2452 Ljava/util/HashMap;

@@ -1,1 +1,6 @@
 CLASS com/corrodinggames/rts/gameFramework/utility/class_1327 com/corrodinggames/rts/gameFramework/utility/ListOperation
+	FIELD field_7324 field_7324 Lcom/corrodinggames/rts/gameFramework/utility/class_1327;
+	FIELD field_7325 field_7325 Lcom/corrodinggames/rts/gameFramework/utility/class_1327;
+	FIELD field_7326 field_7326 [Lcom/corrodinggames/rts/gameFramework/utility/class_1327;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1327;
+	METHOD values values ()[Lcom/corrodinggames/rts/gameFramework/utility/class_1327;

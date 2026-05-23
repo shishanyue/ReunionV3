@@ -2,3 +2,10 @@ CLASS com/corrodinggames/rts/game/units/custom/class_591 com/corrodinggames/rts/
 	FIELD field_3590 configKey Ljava/lang/String;
 	FIELD field_3591 sectionName Ljava/lang/String;
 	FIELD field_3592 unitTypeName Ljava/lang/String;
+	FIELD field_3593 field_3593 Lcom/corrodinggames/rts/game/units/class_704;
+	FIELD field_3594 field_3594 Z
+	FIELD field_3595 field_3595 Z
+	METHOD method_1509 method_1509 ()V
+	METHOD method_1510 method_1510 ()V
+	METHOD method_1511 method_1511 ()Lcom/corrodinggames/rts/game/units/class_704;
+	METHOD method_1512 method_1512 ()Ljava/lang/String;

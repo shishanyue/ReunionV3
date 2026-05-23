@@ -1,1 +1,16 @@
 CLASS com/corrodinggames/rts/game/units/class_425 com/corrodinggames/rts/game/units/Tree
+	FIELD field_1888 field_1888 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1889 field_1889 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1891 field_1891 I
+	FIELD field_1892 field_1892 I
+	FIELD field_1893 field_1893 I
+	FIELD field_1894 field_1894 F
+	FIELD field_1895 field_1895 Z
+	FIELD field_1896 field_1896 F
+	FIELD field_1897 field_1897 I
+	FIELD field_1898 field_1898 I
+	FIELD field_1899 field_1899 F
+	FIELD field_1900 field_1900 Z
+	METHOD method_887 method_887 ()V
+	METHOD method_888 method_888 (II)V
+	METHOD method_889 method_889 ()V

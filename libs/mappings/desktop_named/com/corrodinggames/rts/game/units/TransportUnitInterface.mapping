@@ -1,1 +1,5 @@
 CLASS com/corrodinggames/rts/game/units/class_424 com/corrodinggames/rts/game/units/TransportUnitInterface
+	METHOD method_807 method_807 ()Z
+	METHOD method_808 method_808 ()I
+	METHOD method_885 method_885 (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_886 method_886 ()Z

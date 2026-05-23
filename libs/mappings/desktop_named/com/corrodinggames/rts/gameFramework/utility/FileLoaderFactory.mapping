@@ -1,5 +1,9 @@
 CLASS com/corrodinggames/rts/gameFramework/utility/class_1300 com/corrodinggames/rts/gameFramework/utility/FileLoaderFactory
 	FIELD field_7261 zipFileLoaderLock Ljava/lang/Object;
+	FIELD field_7262 field_7262 Lcom/corrodinggames/rts/gameFramework/utility/class_1302;
+	FIELD field_7263 field_7263 Lcom/corrodinggames/rts/gameFramework/utility/class_1301;
 	METHOD method_3590 closeAll ()V
 	METHOD method_3592 isZipFSEnabled ()Z
 	METHOD method_3594 closeModFile (Ljava/lang/String;)V
+	METHOD method_3591 method_3591 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1301;
+	METHOD method_3593 method_3593 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1301;

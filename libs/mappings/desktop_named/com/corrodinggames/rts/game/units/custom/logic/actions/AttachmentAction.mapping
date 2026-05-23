@@ -4,3 +4,4 @@ CLASS com/corrodinggames/rts/game/units/custom/a/a/class_449 com/corrodinggames/
 	FIELD field_2172 disconnect Z
 	FIELD field_2173 unload Z
 	FIELD field_2174 disconnectFromParent Z
+	FIELD field_2169 field_2169 Lcom/corrodinggames/rts/game/units/custom/class_548;

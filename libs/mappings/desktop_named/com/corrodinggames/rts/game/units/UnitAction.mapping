@@ -1,1 +1,9 @@
 CLASS com/corrodinggames/rts/game/units/a/class_331 com/corrodinggames/rts/game/units/UnitAction
+	FIELD field_1518 field_1518 Lcom/corrodinggames/rts/game/units/a/class_331;
+	METHOD method_551 method_551 (Lcom/corrodinggames/rts/game/units/class_426;)Z
+	METHOD method_552 method_552 (Lcom/corrodinggames/rts/game/units/class_426;Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_553 method_553 (Lcom/corrodinggames/rts/game/units/class_426;Z)Z
+	METHOD method_554 method_554 ()Lcom/corrodinggames/rts/game/units/custom/d/class_552;
+	METHOD method_555 method_555 (Lcom/corrodinggames/rts/game/units/class_426;)Ljava/lang/String;
+	METHOD method_556 method_556 ()Lcom/corrodinggames/rts/game/units/custom/d/class_552;
+	METHOD method_557 method_557 (Lcom/corrodinggames/rts/game/units/class_426;)Z

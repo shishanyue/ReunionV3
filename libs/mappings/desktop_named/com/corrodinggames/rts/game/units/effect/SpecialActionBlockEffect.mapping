@@ -1,2 +1,7 @@
 CLASS com/corrodinggames/rts/game/units/g/class_726 com/corrodinggames/rts/game/units/effect/SpecialActionBlockEffect
 	FIELD field_4033 startTime I
+	FIELD field_4034 field_4034 Lcom/corrodinggames/rts/game/units/a/class_333;
+	METHOD method_1722 method_1722 (Lcom/corrodinggames/rts/game/units/a/class_333;)Z
+	METHOD method_1723 method_1723 (Lcom/corrodinggames/rts/game/units/class_409;Lcom/corrodinggames/rts/game/units/a/class_333;I)V
+	METHOD method_1724 method_1724 (Lcom/corrodinggames/rts/game/units/class_426;Lcom/corrodinggames/rts/game/units/a/class_333;)Lcom/corrodinggames/rts/game/units/g/class_726;
+	METHOD method_1725 method_1725 ()I

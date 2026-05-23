@@ -1,1 +1,2 @@
 CLASS com/corrodinggames/rts/gameFramework/b/class_804 com/corrodinggames/rts/gameFramework/gl/ITextureResource
+	METHOD method_1850 method_1850 ()I

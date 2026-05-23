@@ -1,1 +1,16 @@
 CLASS com/corrodinggames/rts/gameFramework/b/class_836 com/corrodinggames/rts/gameFramework/gl/IGraphicsEngine
+	METHOD method_1929 method_1929 ()Lcom/corrodinggames/rts/gameFramework/b/class_804;
+	METHOD method_1933 method_1933 (IIII)V
+	METHOD method_1934 method_1934 (Landroid/graphics/Bitmap;)V
+	METHOD method_1935 method_1935 (Lcom/corrodinggames/rts/gameFramework/b/class_823;)Z
+	METHOD method_1936 method_1936 (Lcom/corrodinggames/rts/gameFramework/b/class_823;III)V
+	METHOD method_1937 method_1937 (Lcom/corrodinggames/rts/gameFramework/b/class_823;IILandroid/graphics/Bitmap;II)V
+	METHOD method_1942 method_1942 (Ljava/lang/String;FFLandroid/graphics/Paint;)V
+	METHOD method_1945 method_1945 (Lcom/corrodinggames/rts/gameFramework/b/class_823;)V
+	METHOD method_1946 method_1946 ()V
+	METHOD method_1947 method_1947 (Lcom/corrodinggames/rts/gameFramework/b/class_823;)V
+	METHOD method_1948 method_1948 ()V
+	METHOD method_1949 method_1949 (Lcom/corrodinggames/rts/gameFramework/b/class_823;)V
+	METHOD method_1950 method_1950 ()V
+	METHOD method_1951 method_1951 ()V
+	METHOD method_1952 method_1952 ()V

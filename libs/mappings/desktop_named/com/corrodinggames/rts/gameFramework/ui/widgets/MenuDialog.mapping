@@ -1,2 +1,5 @@
 CLASS com/corrodinggames/rts/gameFramework/f/a/class_914 com/corrodinggames/rts/gameFramework/ui/widgets/MenuDialog
+	FIELD field_5252 field_5252 Lcom/corrodinggames/rts/gameFramework/f/a/class_916;
+	METHOD method_2394 method_2394 (Ljava/lang/String;Z)Lcom/corrodinggames/rts/gameFramework/f/a/class_914;
+	METHOD method_2395 method_2395 ()V
 	CLASS class_915 AnonymousClass1

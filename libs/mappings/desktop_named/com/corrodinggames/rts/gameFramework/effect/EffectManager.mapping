@@ -18,6 +18,12 @@ CLASS com/corrodinggames/rts/gameFramework/d/class_892 com/corrodinggames/rts/ga
 	FIELD field_4948 linePaint Landroid/graphics/Paint;
 	FIELD field_4949 lastUpdate F
 	FIELD field_4950 someBooleanArray [Z
+	FIELD field_4931 field_4931 [Lcom/corrodinggames/rts/gameFramework/d/class_894;
+	FIELD field_4936 field_4936 Lcom/corrodinggames/rts/gameFramework/m/class_1231;
+	FIELD field_4937 field_4937 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4938 field_4938 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4944 field_4944 [Lcom/corrodinggames/rts/gameFramework/d/class_896;
+	FIELD field_4945 field_4945 Lcom/corrodinggames/rts/gameFramework/d/class_897;
 	METHOD method_2089 loadContent (Landroid/content/Context;)V
 	METHOD method_2091 createExplosion (FFF)V
 	METHOD method_2093 createExplosionWithVelocity (FFFFF)V
@@ -30,3 +36,18 @@ CLASS com/corrodinggames/rts/gameFramework/d/class_892 com/corrodinggames/rts/ga
 	METHOD method_5090 createDirectedExplosion (FFFIFFF)V
 	METHOD method_5091 a_string_method (Ljava/lang/String;)I
 	METHOD method_5092 setForceHighQuality ()V
+	METHOD method_2092 method_2092 (FFFF)Lcom/corrodinggames/rts/gameFramework/d/class_894;
+	METHOD method_2094 method_2094 (FFFFFF)Lcom/corrodinggames/rts/gameFramework/d/class_894;
+	METHOD method_2096 method_2096 (FFFI)Lcom/corrodinggames/rts/gameFramework/d/class_894;
+	METHOD method_2100 method_2100 (Lcom/corrodinggames/rts/gameFramework/class_773;I)Lcom/corrodinggames/rts/gameFramework/d/class_894;
+	METHOD method_2101 method_2101 (Lcom/corrodinggames/rts/gameFramework/class_773;IF)Lcom/corrodinggames/rts/gameFramework/d/class_894;
+	METHOD method_2102 method_2102 (Lcom/corrodinggames/rts/gameFramework/d/class_894;Lcom/corrodinggames/rts/gameFramework/class_773;)V
+	METHOD method_2103 method_2103 (Lcom/corrodinggames/rts/gameFramework/d/class_897;)Lcom/corrodinggames/rts/gameFramework/d/class_894;
+	METHOD method_2106 method_2106 (ZLcom/corrodinggames/rts/gameFramework/d/class_897;)Lcom/corrodinggames/rts/gameFramework/d/class_894;
+	METHOD method_2108 method_2108 (FFF)Lcom/corrodinggames/rts/gameFramework/d/class_894;
+	METHOD method_2110 method_2110 (FFFFF)Lcom/corrodinggames/rts/gameFramework/d/class_894;
+	METHOD method_2111 method_2111 (FFFI)Lcom/corrodinggames/rts/gameFramework/d/class_894;
+	METHOD method_2114 method_2114 (FFFI)Lcom/corrodinggames/rts/gameFramework/d/class_894;
+	METHOD method_2116 method_2116 (FFFF)Lcom/corrodinggames/rts/gameFramework/d/class_894;
+	METHOD method_2117 method_2117 (FFFI)Lcom/corrodinggames/rts/gameFramework/d/class_894;
+	METHOD method_2118 method_2118 (FFF)Lcom/corrodinggames/rts/gameFramework/d/class_894;

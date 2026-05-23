@@ -56,6 +56,20 @@ CLASS com/corrodinggames/rts/game/b/class_299 com/corrodinggames/rts/game/map/Ti
 	FIELD field_7891 fogFadeStep I
 	FIELD field_7892 tempRectTile Landroid/graphics/Rect;
 	FIELD field_7893 fogProfilingSecondsAccumulator F
+	FIELD field_913 field_913 Lcom/corrodinggames/rts/game/b/class_302;
+	FIELD field_920 field_920 Z
+	FIELD field_921 field_921 Z
+	FIELD field_876 field_876 [Lcom/corrodinggames/rts/game/b/class_306;
+	FIELD field_930 field_930 Lcom/corrodinggames/rts/game/b/class_307;
+	FIELD field_885 field_885 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_931 field_931 Lcom/corrodinggames/rts/game/b/class_307;
+	FIELD field_886 field_886 Lcom/corrodinggames/rts/gameFramework/m/class_1225;
+	FIELD field_891 field_891 Lcom/corrodinggames/rts/game/b/class_308;
+	FIELD field_939 field_939 Lcom/corrodinggames/rts/game/b/class_304;
+	FIELD field_940 field_940 Lcom/corrodinggames/rts/game/b/class_304;
+	FIELD field_941 field_941 Lcom/corrodinggames/rts/game/b/class_304;
+	FIELD field_942 field_942 Lcom/corrodinggames/rts/game/b/class_304;
+	FIELD field_943 field_943 Lcom/corrodinggames/rts/game/b/class_304;
 	METHOD method_294 buildFogSmoothAtlas ()V
 	METHOD method_295 clampWorldX (F)F
 	METHOD method_296 setCursorTileIndexFromWorldPoint (FF)V
@@ -100,5 +114,16 @@ CLASS com/corrodinggames/rts/game/b/class_299 com/corrodinggames/rts/game/map/Ti
 	METHOD method_4340 updateLayerBuffers ()V
 	METHOD method_4341 advanceFogVisibility (F)V
 	METHOD method_4342 resetFogToInvisible ()V
+	METHOD method_297 method_297 (FFILcom/corrodinggames/rts/game/class_324;Z)V
+	METHOD method_298 method_298 (FFLcom/corrodinggames/rts/game/class_324;)Z
+	METHOD method_299 method_299 (I)Lcom/corrodinggames/rts/game/b/class_309;
+	METHOD method_301 method_301 (IILcom/corrodinggames/rts/game/class_324;)Z
+	METHOD method_304 method_304 (ILcom/corrodinggames/rts/gameFramework/m/class_1189;)V
+	METHOD method_306 method_306 (Lcom/corrodinggames/rts/game/b/class_306;II)Lcom/corrodinggames/rts/game/b/class_306;
+	METHOD method_308 method_308 (Lcom/corrodinggames/rts/gameFramework/j/class_1030;)V
+	METHOD method_314 method_314 (Ljava/lang/String;Lcom/corrodinggames/rts/gameFramework/j/class_1030;)V
+	METHOD method_323 method_323 (FFILcom/corrodinggames/rts/game/class_324;Z)V
+	METHOD method_334 method_334 (II)Lcom/corrodinggames/rts/game/b/class_306;
+	METHOD method_339 method_339 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/b/class_308;
 	CLASS class_300 1
 	CLASS class_301 2

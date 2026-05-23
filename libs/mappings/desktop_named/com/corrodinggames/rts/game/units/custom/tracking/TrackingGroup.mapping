@@ -1,1 +1,3 @@
 CLASS com/corrodinggames/rts/game/units/custom/c/class_538 com/corrodinggames/rts/game/units/custom/tracking/TrackingGroup
+	FIELD field_2771 field_2771 Lcom/corrodinggames/rts/game/units/custom/c/class_534;
+	FIELD field_2772 field_2772 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;

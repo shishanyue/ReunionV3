@@ -1,1 +1,12 @@
 CLASS com/corrodinggames/rts/game/a/class_291 com/corrodinggames/rts/game/ai/AIUnitGroupBase
+	FIELD field_805 field_805 Ljava/util/ArrayList;
+	FIELD field_806 field_806 Ljava/util/ArrayList;
+	METHOD method_257 method_257 ()Z
+	METHOD method_258 method_258 (F)V
+	METHOD method_259 method_259 (Lcom/corrodinggames/rts/game/units/class_409;)V
+	METHOD method_260 method_260 ()Z
+	METHOD method_261 method_261 (F)V
+	METHOD method_262 method_262 (Lcom/corrodinggames/rts/game/units/class_409;)V
+	METHOD method_263 method_263 ()Z
+	METHOD method_264 method_264 ()V
+	METHOD method_265 method_265 ()V

@@ -1,6 +1,7 @@
 CLASS com/corrodinggames/rts/gameFramework/utility/class_1320 com/corrodinggames/rts/gameFramework/utility/AssetIndex
 	FIELD field_7302 firstLoad Z
 	FIELD field_7303 assetList Ljava/util/ArrayList;
+	FIELD field_7301 field_7301 Landroid/content/Context;
 	METHOD method_3646 buildIndex ()V
 	METHOD method_3647 findIndexFiles (Landroid/content/res/AssetManager;Ljava/lang/String;I)Ljava/util/ArrayList;
 	METHOD method_3648 exists (Ljava/lang/String;)Z

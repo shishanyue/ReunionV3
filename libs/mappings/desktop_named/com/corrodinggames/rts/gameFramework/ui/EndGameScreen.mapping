@@ -18,6 +18,7 @@ CLASS com/corrodinggames/rts/gameFramework/f/class_958 com/corrodinggames/rts/ga
 	FIELD field_8434 textBounds Landroid/graphics/Rect;
 	FIELD field_8435 tempRect Landroid/graphics/Rect;
 	FIELD field_8436 showRateGamePopup Z
+	FIELD field_5436 field_5436 Lcom/corrodinggames/rts/gameFramework/f/class_925;
 	METHOD method_2484 update (F)V
 	METHOD method_2485 isGameOver ()Z
 	METHOD method_5240 setupButtonActions ()V

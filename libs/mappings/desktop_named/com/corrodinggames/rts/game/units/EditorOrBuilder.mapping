@@ -6,3 +6,38 @@ CLASS com/corrodinggames/rts/game/units/class_727 com/corrodinggames/rts/game/un
 	FIELD field_4050 editorSelectionPaint Landroid/graphics/Paint;
 	FIELD field_4063 editorIconTexture10 Ljava/lang/String;
 	FIELD field_8117 editorSelectionTexture Landroid/graphics/Paint;
+	FIELD field_4035 field_4035 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_4036 field_4036 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_4037 field_4037 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_4038 field_4038 Ljava/util/ArrayList;
+	FIELD field_4039 field_4039 Lcom/corrodinggames/rts/gameFramework/i/class_992;
+	FIELD field_4040 field_4040 Lcom/corrodinggames/rts/game/units/class_379;
+	FIELD field_4052 field_4052 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4041 field_4041 Lcom/corrodinggames/rts/game/units/class_372;
+	FIELD field_4053 field_4053 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_4042 field_4042 Ljava/lang/String;
+	FIELD field_4054 field_4054 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_4043 field_4043 Z
+	FIELD field_4055 field_4055 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_4044 field_4044 Ljava/lang/String;
+	FIELD field_4056 field_4056 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_4045 field_4045 Lcom/corrodinggames/rts/game/units/a/class_332;
+	FIELD field_4057 field_4057 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_4058 field_4058 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_4059 field_4059 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_4060 field_4060 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_4061 field_4061 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_4062 field_4062 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_4064 field_4064 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_4065 field_4065 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_4066 field_4066 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_4067 field_4067 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_4068 field_4068 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_4069 field_4069 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_4070 field_4070 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_4071 field_4071 Lcom/corrodinggames/rts/game/units/a/class_349;
+	METHOD method_1730 method_1730 (Lcom/corrodinggames/rts/game/units/class_727;)V
+	METHOD method_1731 method_1731 ()Z
+	METHOD method_1726 method_1726 ()V
+	METHOD method_1727 method_1727 ()Lcom/corrodinggames/rts/game/units/class_727;
+	METHOD method_1728 method_1728 ()V

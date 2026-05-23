@@ -1,1 +1,5 @@
 CLASS com/corrodinggames/rts/game/units/custom/a/class_465 com/corrodinggames/rts/game/units/custom/logic/CustomAction
+	FIELD field_2371 field_2371 Lcom/corrodinggames/rts/game/units/custom/a/class_462;
+	FIELD field_2372 field_2372 Lcom/corrodinggames/rts/game/units/custom/class_591;
+	FIELD field_2373 field_2373 Lcom/corrodinggames/rts/game/units/custom/a/class_463;
+	METHOD method_1109 method_1109 (Lcom/corrodinggames/rts/game/units/class_426;I)Z

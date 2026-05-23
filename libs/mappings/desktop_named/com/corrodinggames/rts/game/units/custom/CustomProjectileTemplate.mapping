@@ -1,3 +1,5 @@
 CLASS com/corrodinggames/rts/game/units/custom/class_540 com/corrodinggames/rts/game/units/custom/CustomProjectileTemplate
 	FIELD field_2777 projectileName Ljava/lang/String;
 	FIELD field_2778 projectileId I
+	METHOD method_1240 method_1240 (Lcom/corrodinggames/rts/game/units/class_426;Lcom/corrodinggames/rts/game/class_314;Lcom/corrodinggames/rts/game/units/class_426;FFF)V
+	METHOD method_1241 method_1241 (Lcom/corrodinggames/rts/game/units/custom/class_540;Lcom/corrodinggames/rts/game/units/custom/class_581;Lcom/corrodinggames/rts/gameFramework/utility/class_1297;Ljava/lang/String;)V

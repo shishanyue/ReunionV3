@@ -1,1 +1,27 @@
 CLASS com/corrodinggames/rts/game/units/d/class_640 com/corrodinggames/rts/game/units/buildings/FactoryQueueManager
+	FIELD field_3778 field_3778 Lcom/corrodinggames/rts/game/units/class_409;
+	FIELD field_3779 field_3779 Landroid/graphics/PointF;
+	FIELD field_3780 field_3780 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_3781 field_3781 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_3782 field_3782 F
+	FIELD field_3783 field_3783 Lcom/corrodinggames/rts/game/units/d/class_639;
+	METHOD method_1583 method_1583 ()Z
+	METHOD method_1584 method_1584 (F)V
+	METHOD method_1585 method_1585 (Lcom/corrodinggames/rts/game/units/a/class_333;ZZ)I
+	METHOD method_1586 method_1586 (Lcom/corrodinggames/rts/game/units/a/class_349;)V
+	METHOD method_1587 method_1587 (Lcom/corrodinggames/rts/game/units/a/class_349;Z)V
+	METHOD method_1588 method_1588 (Lcom/corrodinggames/rts/game/units/a/class_349;ZLandroid/graphics/PointF;Lcom/corrodinggames/rts/game/units/class_426;)Lcom/corrodinggames/rts/game/units/d/class_639;
+	METHOD method_1590 method_1590 (Lcom/corrodinggames/rts/game/units/a/class_353;Z)Lcom/corrodinggames/rts/game/units/d/class_639;
+	METHOD method_1591 method_1591 (Lcom/corrodinggames/rts/game/units/a/class_353;ZLandroid/graphics/PointF;Lcom/corrodinggames/rts/game/units/class_426;)Lcom/corrodinggames/rts/game/units/d/class_639;
+	METHOD method_1592 method_1592 (Lcom/corrodinggames/rts/game/units/class_426;FZ)V
+	METHOD method_1593 method_1593 (Lcom/corrodinggames/rts/game/units/custom/class_576;)I
+	METHOD method_1594 method_1594 (Lcom/corrodinggames/rts/game/units/d/class_639;)V
+	METHOD method_1595 method_1595 (Lcom/corrodinggames/rts/game/units/d/class_639;FZF)Lcom/corrodinggames/rts/game/units/class_426;
+	METHOD method_1597 method_1597 (Lcom/corrodinggames/rts/game/units/class_704;FZF)Lcom/corrodinggames/rts/game/units/class_426;
+	METHOD method_1598 method_1598 (Lcom/corrodinggames/rts/gameFramework/j/class_1030;)V
+	METHOD method_1599 method_1599 (Lcom/corrodinggames/rts/gameFramework/j/class_1044;)V
+	METHOD method_1600 method_1600 (Z)V
+	METHOD method_1601 method_1601 ()Lcom/corrodinggames/rts/game/units/custom/d/class_552;
+	METHOD method_1602 method_1602 (Lcom/corrodinggames/rts/game/units/d/class_639;)V
+	METHOD method_1603 method_1603 (Lcom/corrodinggames/rts/game/units/class_704;)Lcom/corrodinggames/rts/game/units/a/class_349;
+	METHOD method_1604 method_1604 ()V

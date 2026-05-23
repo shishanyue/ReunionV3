@@ -1,1 +1,8 @@
 CLASS com/corrodinggames/rts/gameFramework/k/class_1073 com/corrodinggames/rts/gameFramework/path/PathOpenListPool
+	FIELD field_6604 field_6604 I
+	FIELD field_6605 field_6605 I
+	FIELD field_6606 field_6606 I
+	FIELD field_6607 field_6607 Lcom/corrodinggames/rts/gameFramework/k/class_1062;
+	FIELD field_6608 field_6608 Lcom/corrodinggames/rts/gameFramework/k/class_1065;
+	METHOD method_3153 method_3153 ()Lcom/corrodinggames/rts/gameFramework/k/class_1074;
+	METHOD method_3156 method_3156 (Lcom/corrodinggames/rts/gameFramework/k/class_1074;)V

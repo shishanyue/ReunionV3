@@ -1,1 +1,10 @@
 CLASS com/corrodinggames/rts/game/units/e/class_679 com/corrodinggames/rts/game/units/land/ExperimentalTank
+	FIELD field_3846 field_3846 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3847 field_3847 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3848 field_3848 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3849 field_3849 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3850 field_3850 I
+	FIELD field_3851 field_3851 F
+	FIELD field_3852 field_3852 Landroid/graphics/Rect;
+	METHOD method_1629 method_1629 ()V
+	METHOD method_1630 method_1630 (I)Z

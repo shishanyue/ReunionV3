@@ -96,6 +96,55 @@ CLASS com/corrodinggames/rts/gameFramework/f/class_961 com/corrodinggames/rts/ga
 	FIELD field_8467 cannotPlaceNeedsWaterText Ljava/lang/String;
 	FIELD field_8472 tooltipBackgroundPaint Landroid/graphics/Paint;
 	FIELD field_8473 tooltipBorderPaint Landroid/graphics/Paint;
+	FIELD field_5502 field_5502 Z
+	FIELD field_5504 field_5504 Lcom/corrodinggames/rts/game/units/class_426;
+	FIELD field_5505 field_5505 Z
+	FIELD field_5506 field_5506 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_5523 field_5523 Landroid/graphics/Paint;
+	FIELD field_5555 field_5555 Z
+	FIELD field_5530 field_5530 Landroid/graphics/Paint;
+	FIELD field_5531 field_5531 Landroid/graphics/Paint;
+	FIELD field_5532 field_5532 Landroid/graphics/Paint;
+	FIELD field_5533 field_5533 Landroid/graphics/Paint;
+	FIELD field_5534 field_5534 Landroid/graphics/Paint;
+	FIELD field_5535 field_5535 Landroid/graphics/Paint;
+	FIELD field_5566 field_5566 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_5567 field_5567 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_5568 field_5568 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_5569 field_5569 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_5544 field_5544 Z
+	FIELD field_5545 field_5545 Z
+	FIELD field_5546 field_5546 Z
+	FIELD field_5547 field_5547 Z
+	FIELD field_5549 field_5549 Lcom/corrodinggames/rts/game/units/custom/e/class_567;
+	FIELD field_5580 field_5580 Landroid/graphics/Rect;
+	FIELD field_5554 field_5554 Lcom/corrodinggames/rts/gameFramework/utility/class_1331;
+	FIELD field_5556 field_5556 Lcom/corrodinggames/rts/gameFramework/utility/class_1331;
+	FIELD field_5583 field_5583 Z
+	FIELD field_5584 field_5584 Lcom/corrodinggames/rts/game/units/class_426;
+	FIELD field_5589 field_5589 I
+	FIELD field_5590 field_5590 I
+	FIELD field_5591 field_5591 I
+	FIELD field_5592 field_5592 F
+	FIELD field_5594 field_5594 I
+	FIELD field_5595 field_5595 I
+	FIELD field_5596 field_5596 F
+	FIELD field_5597 field_5597 Z
+	FIELD field_5598 field_5598 Lcom/corrodinggames/rts/game/units/class_727;
+	FIELD field_5599 field_5599 Lcom/corrodinggames/rts/gameFramework/f/class_908;
+	FIELD field_5600 field_5600 Lcom/corrodinggames/rts/gameFramework/f/class_967;
+	FIELD field_5601 field_5601 Lcom/corrodinggames/rts/gameFramework/f/class_948;
+	FIELD field_5602 field_5602 Lcom/corrodinggames/rts/gameFramework/f/class_965;
+	FIELD field_5603 field_5603 Lcom/corrodinggames/rts/gameFramework/f/class_958;
+	FIELD field_5604 field_5604 Lcom/corrodinggames/rts/game/units/a/class_335;
+	FIELD field_5605 field_5605 Lcom/corrodinggames/rts/game/units/a/class_336;
+	FIELD field_5606 field_5606 Lcom/corrodinggames/rts/game/units/a/class_339;
+	FIELD field_5607 field_5607 Lcom/corrodinggames/rts/game/units/a/class_334;
+	FIELD field_5608 field_5608 Lcom/corrodinggames/rts/game/units/a/class_340;
+	FIELD field_5609 field_5609 Lcom/corrodinggames/rts/game/units/a/class_348;
+	FIELD field_5610 field_5610 Lcom/corrodinggames/rts/game/units/a/class_347;
+	FIELD field_5611 field_5611 Lcom/corrodinggames/rts/gameFramework/f/a/class_921;
+	FIELD field_5473 field_5473 Lcom/corrodinggames/rts/game/units/class_426;
 	METHOD method_2490 canSelectBuildings ()Z
 	METHOD method_2491 resetMouseState ()V
 	METHOD method_2492 updateInput (F)V
@@ -148,3 +197,42 @@ CLASS com/corrodinggames/rts/gameFramework/f/class_961 com/corrodinggames/rts/ga
 	METHOD method_5285 getSelectedUnitCount ()I
 	METHOD method_5287 canSetRallyPoint ()Z
 	METHOD method_5288 stopSelectedUnits ()V
+	METHOD method_2495 method_2495 (FFFF)V
+	METHOD method_2499 method_2499 (FFLcom/corrodinggames/rts/game/class_324;Lcom/corrodinggames/rts/game/units/a/class_340;)V
+	METHOD method_2501 method_2501 (FFZ)Lcom/corrodinggames/rts/game/units/class_426;
+	METHOD method_2513 method_2513 (Landroid/graphics/Rect;Landroid/graphics/Paint;Landroid/graphics/Paint;)V
+	METHOD method_2515 method_2515 (Lcom/corrodinggames/rts/game/units/a/class_349;FF)Z
+	METHOD method_2518 method_2518 (Lcom/corrodinggames/rts/game/units/class_409;FFFFZLjava/util/ArrayList;Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_2519 method_2519 (Lcom/corrodinggames/rts/game/units/class_409;FFZZLcom/corrodinggames/rts/game/units/class_426;)Z
+	METHOD method_2520 method_2520 (Lcom/corrodinggames/rts/game/units/class_426;)Z
+	METHOD method_2522 method_2522 (Lcom/corrodinggames/rts/gameFramework/class_898;)V
+	METHOD method_2523 method_2523 (Lcom/corrodinggames/rts/gameFramework/class_898;Lcom/corrodinggames/rts/game/units/a/class_349;)V
+	METHOD method_2524 method_2524 (Lcom/corrodinggames/rts/gameFramework/class_898;Lcom/corrodinggames/rts/game/units/a/class_349;Z)V
+	METHOD method_2525 method_2525 (Lcom/corrodinggames/rts/gameFramework/f/a/class_914;)V
+	METHOD method_2526 method_2526 (Lcom/corrodinggames/rts/gameFramework/class_1061;)Z
+	METHOD method_2528 method_2528 (Lcom/corrodinggames/rts/gameFramework/class_1061;Lcom/corrodinggames/rts/game/class_324;ZLcom/corrodinggames/rts/game/units/custom/e/class_556;DLcom/corrodinggames/rts/game/units/custom/e/class_567;ILcom/corrodinggames/rts/game/units/custom/e/class_556;)Z
+	METHOD method_2529 method_2529 (Lcom/corrodinggames/rts/gameFramework/class_1061;Lcom/corrodinggames/rts/game/class_324;ZLcom/corrodinggames/rts/game/units/custom/e/class_567;)V
+	METHOD method_2487 method_2487 ()Lcom/corrodinggames/rts/gameFramework/class_898;
+	METHOD method_2540 method_2540 (Lcom/corrodinggames/rts/game/units/a/class_349;FF)V
+	METHOD method_2541 method_2541 (Lcom/corrodinggames/rts/game/units/class_426;)Z
+	METHOD method_2542 method_2542 (Lcom/corrodinggames/rts/game/units/class_426;Z)V
+	METHOD method_2543 method_2543 (Lcom/corrodinggames/rts/gameFramework/class_1061;)Z
+	METHOD method_2548 method_2548 (Lcom/corrodinggames/rts/game/units/a/class_349;)Z
+	METHOD method_2549 method_2549 (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_2550 method_2550 (Lcom/corrodinggames/rts/gameFramework/class_1061;)Z
+	METHOD method_2552 method_2552 (Lcom/corrodinggames/rts/game/units/a/class_349;)Ljava/lang/String;
+	METHOD method_2553 method_2553 (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_2555 method_2555 (Lcom/corrodinggames/rts/game/units/a/class_349;)Lcom/corrodinggames/rts/gameFramework/utility/class_1331;
+	METHOD method_2556 method_2556 (Lcom/corrodinggames/rts/game/units/class_426;)Z
+	METHOD method_2557 method_2557 ()Lcom/corrodinggames/rts/game/units/class_409;
+	METHOD method_2559 method_2559 (Lcom/corrodinggames/rts/game/units/class_426;)F
+	METHOD method_2560 method_2560 ()Lcom/corrodinggames/rts/gameFramework/class_898;
+	METHOD method_2561 method_2561 (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_2563 method_2563 (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_2564 method_2564 ()Lcom/corrodinggames/rts/gameFramework/i/class_992;
+	METHOD method_2565 method_2565 (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_2567 method_2567 (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_2569 method_2569 (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_2575 method_2575 (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_2590 method_2590 ()Lcom/corrodinggames/rts/game/class_324;
+	METHOD method_2591 method_2591 ()Lcom/corrodinggames/rts/game/units/class_409;

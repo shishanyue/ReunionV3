@@ -1,1 +1,10 @@
 CLASS com/corrodinggames/rts/gameFramework/utility/class_1333 com/corrodinggames/rts/gameFramework/utility/ByteArrayBuilder
+	FIELD field_7344 field_7344 [B
+	FIELD field_7345 field_7345 I
+	METHOD method_3687 method_3687 ()V
+	METHOD method_3688 method_3688 (I)V
+	METHOD method_3689 method_3689 ()I
+	METHOD close close ()V
+	METHOD toString toString ()Ljava/lang/String;
+	METHOD write write ([BII)V
+	METHOD write write (I)V

@@ -29,6 +29,25 @@ CLASS com/corrodinggames/rts/gameFramework/j/class_1037 com/corrodinggames/rts/g
 	FIELD field_8565 commandCounter I
 	FIELD field_8566 commandWindowStartMs J
 	FIELD field_8567 commandLimitReached Z
+	FIELD field_6165 field_6165 Lcom/corrodinggames/rts/gameFramework/j/class_1001;
+	FIELD field_6142 field_6142 Lcom/corrodinggames/rts/game/class_313;
+	FIELD field_6143 field_6143 I
+	FIELD field_6144 field_6144 J
+	FIELD field_6145 field_6145 Z
+	FIELD field_6146 field_6146 Z
+	FIELD field_6147 field_6147 I
+	FIELD field_6148 field_6148 Lcom/corrodinggames/rts/gameFramework/j/class_1038;
+	FIELD field_6149 field_6149 Lcom/corrodinggames/rts/gameFramework/j/class_1039;
+	FIELD field_6173 field_6173 Z
+	FIELD field_6174 field_6174 Z
+	FIELD field_6175 field_6175 Lcom/corrodinggames/rts/gameFramework/j/class_1037;
+	FIELD field_6177 field_6177 Lcom/corrodinggames/rts/gameFramework/j/class_1032;
+	FIELD field_6156 field_6156 Z
+	FIELD field_6180 field_6180 Ljava/lang/String;
+	FIELD field_6157 field_6157 Z
+	FIELD field_6159 field_6159 Z
+	FIELD field_6189 field_6189 I
+	FIELD field_6190 field_6190 I
 	METHOD method_2893 logDebug ()I
 	METHOD method_2895 handleRemoteDisconnect (Ljava/lang/String;)V
 	METHOD method_2897 sendPacket (ZZLjava/lang/String;)V
@@ -46,4 +65,6 @@ CLASS com/corrodinggames/rts/gameFramework/j/class_1037 com/corrodinggames/rts/g
 	METHOD method_5474 disconnectWithMessage ()Z
 	METHOD method_5477 logErrorWithException (Ljava/lang/String;Ljava/lang/Throwable;)V
 	METHOD method_5478 handleTimeoutDisconnect (ZZ)V
+	METHOD method_2894 method_2894 (Lcom/corrodinggames/rts/gameFramework/j/class_1032;)V
+	METHOD finalize finalize ()V
 	CLASS 1 AnonymousClass1

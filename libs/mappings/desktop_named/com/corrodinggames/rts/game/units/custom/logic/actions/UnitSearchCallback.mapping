@@ -3,3 +3,7 @@ CLASS com/corrodinggames/rts/game/units/custom/a/a/class_447 com/corrodinggames/
 	FIELD field_2156 maxRange F
 	FIELD field_2157 includeNotBuilt Z
 	FIELD field_2159 collectMultipleUnits Z
+	FIELD field_2155 field_2155 Lcom/corrodinggames/rts/game/units/custom/class_577;
+	FIELD field_2158 field_2158 Lcom/corrodinggames/rts/game/class_327;
+	FIELD field_2160 field_2160 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_2161 field_2161 Lcom/corrodinggames/rts/game/units/class_426;

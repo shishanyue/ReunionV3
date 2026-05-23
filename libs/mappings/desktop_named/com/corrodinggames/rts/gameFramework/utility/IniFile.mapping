@@ -61,3 +61,15 @@ CLASS com/corrodinggames/rts/gameFramework/utility/class_1297 com/corrodinggames
 	METHOD method_5797 setValueIfMissing (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 	METHOD method_5798 setValue (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 	METHOD method_5799 getFloatStrict (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Float;
+	METHOD method_3525 method_3525 (Lcom/corrodinggames/rts/game/units/custom/class_581;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	METHOD method_3527 method_3527 (Lcom/corrodinggames/rts/game/units/custom/class_581;Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;)Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	METHOD method_3528 method_3528 (Lcom/corrodinggames/rts/game/units/custom/class_581;Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/class_590;)Lcom/corrodinggames/rts/game/units/custom/class_590;
+	METHOD method_3529 method_3529 (Lcom/corrodinggames/rts/game/units/custom/class_581;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/class_475;
+	METHOD method_3530 method_3530 (Lcom/corrodinggames/rts/gameFramework/utility/class_1297;)V
+	METHOD method_3532 method_3532 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	METHOD method_3549 method_3549 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)Lcom/corrodinggames/rts/game/units/custom/class_527;
+	METHOD method_3554 method_3554 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	METHOD method_3558 method_3558 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	METHOD method_3574 method_3574 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/class_576;
+	METHOD method_3579 method_3579 (Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	METHOD method_3581 method_3581 (Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1323;

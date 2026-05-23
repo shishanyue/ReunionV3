@@ -1,1 +1,13 @@
 CLASS com/corrodinggames/rts/gameFramework/f/class_954 com/corrodinggames/rts/gameFramework/ui/WarLogEntry
+	FIELD field_5408 field_5408 J
+	FIELD field_5409 field_5409 J
+	FIELD field_5410 field_5410 F
+	FIELD field_5411 field_5411 F
+	FIELD field_5412 field_5412 Ljava/lang/String;
+	FIELD field_5413 field_5413 Z
+	FIELD field_5414 field_5414 Z
+	METHOD method_2470 method_2470 ()Ljava/lang/String;
+	METHOD method_2471 method_2471 (Lcom/corrodinggames/rts/gameFramework/f/class_954;)Z
+	METHOD method_2472 method_2472 ()J
+	METHOD method_2473 method_2473 (Lcom/corrodinggames/rts/gameFramework/f/class_954;)V
+	METHOD compareTo compareTo (Ljava/lang/Object;)I

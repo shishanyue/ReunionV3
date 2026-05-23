@@ -5,3 +5,6 @@ CLASS com/corrodinggames/rts/gameFramework/class_889 com/corrodinggames/rts/game
 	FIELD field_4886 targetY F
 	FIELD field_4887 createdTick I
 	FIELD field_8353 unitId J
+	FIELD field_4881 field_4881 Lcom/corrodinggames/rts/gameFramework/k/class_1071;
+	FIELD field_4888 field_4888 Lcom/corrodinggames/rts/game/units/class_428;
+	METHOD method_2076 method_2076 (Lcom/corrodinggames/rts/gameFramework/j/class_1044;)V

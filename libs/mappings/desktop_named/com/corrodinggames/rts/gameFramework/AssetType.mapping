@@ -1,1 +1,11 @@
 CLASS com/corrodinggames/rts/gameFramework/class_770 com/corrodinggames/rts/gameFramework/AssetType
+	FIELD field_4205 field_4205 Lcom/corrodinggames/rts/gameFramework/class_770;
+	FIELD field_4206 field_4206 Lcom/corrodinggames/rts/gameFramework/class_770;
+	FIELD field_4207 field_4207 Lcom/corrodinggames/rts/gameFramework/class_770;
+	FIELD field_4208 field_4208 Lcom/corrodinggames/rts/gameFramework/class_770;
+	FIELD field_4209 field_4209 Lcom/corrodinggames/rts/gameFramework/class_770;
+	FIELD field_4210 field_4210 Lcom/corrodinggames/rts/gameFramework/class_770;
+	FIELD field_4211 field_4211 Lcom/corrodinggames/rts/gameFramework/class_770;
+	FIELD field_4212 field_4212 [Lcom/corrodinggames/rts/gameFramework/class_770;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/class_770;
+	METHOD values values ()[Lcom/corrodinggames/rts/gameFramework/class_770;

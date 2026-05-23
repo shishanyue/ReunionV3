@@ -1,1 +1,6 @@
 CLASS com/corrodinggames/rts/gameFramework/b/class_815 com/corrodinggames/rts/gameFramework/gl/SubTexture
+	FIELD field_4512 field_4512 Lcom/corrodinggames/rts/gameFramework/b/class_814;
+	FIELD field_4513 field_4513 F
+	FIELD field_4514 field_4514 F
+	FIELD field_4515 field_4515 I
+	FIELD field_4516 field_4516 I

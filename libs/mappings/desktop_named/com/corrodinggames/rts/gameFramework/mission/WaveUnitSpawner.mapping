@@ -1,1 +1,4 @@
 CLASS com/corrodinggames/rts/gameFramework/n/class_1278 com/corrodinggames/rts/gameFramework/mission/WaveUnitSpawner
+	FIELD field_7138 field_7138 Lcom/corrodinggames/rts/game/units/class_704;
+	FIELD field_7139 field_7139 F
+	FIELD field_7140 field_7140 Lcom/corrodinggames/rts/gameFramework/n/class_1273;

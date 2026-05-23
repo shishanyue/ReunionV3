@@ -1,2 +1,21 @@
 CLASS com/corrodinggames/rts/game/units/custom/class_569 com/corrodinggames/rts/game/units/custom/AnimationConfig
 	FIELD field_3042 animationName Ljava/lang/String;
+	FIELD field_3043 field_3043 I
+	FIELD field_3044 field_3044 I
+	FIELD field_3045 field_3045 F
+	FIELD field_3046 field_3046 F
+	FIELD field_3047 field_3047 F
+	FIELD field_3048 field_3048 Z
+	FIELD field_3049 field_3049 F
+	FIELD field_3050 field_3050 F
+	FIELD field_3051 field_3051 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_3052 field_3052 Lcom/corrodinggames/rts/game/units/custom/class_582;
+	FIELD field_3053 field_3053 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_3054 field_3054 Z
+	FIELD field_3055 field_3055 F
+	FIELD field_3057 field_3057 Ljava/util/ArrayList;
+	FIELD field_3058 field_3058 F
+	METHOD method_1382 method_1382 (Lcom/corrodinggames/rts/game/units/custom/class_581;)V
+	METHOD method_1383 method_1383 (Lcom/corrodinggames/rts/game/units/custom/class_581;Lcom/corrodinggames/rts/gameFramework/utility/class_1297;Ljava/lang/String;Ljava/lang/String;)V
+	METHOD method_1385 method_1385 (Lcom/corrodinggames/rts/game/units/custom/class_583;)Z
+	METHOD method_1386 method_1386 (Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/class_533;

@@ -1,1 +1,11 @@
 CLASS com/corrodinggames/rts/game/class_320 com/corrodinggames/rts/game/FrameBufferHelper
+	FIELD field_1371 field_1371 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1372 field_1372 Lcom/corrodinggames/rts/gameFramework/m/class_1225;
+	FIELD field_1373 field_1373 Lcom/corrodinggames/rts/gameFramework/m/class_1233;
+	FIELD field_1374 field_1374 Lcom/corrodinggames/rts/gameFramework/m/class_1231;
+	FIELD field_1375 field_1375 Landroid/graphics/Paint;
+	FIELD field_1376 field_1376 Landroid/graphics/Rect;
+	FIELD field_1377 field_1377 Z
+	METHOD method_433 method_433 ()Z
+	METHOD method_434 method_434 (Lcom/corrodinggames/rts/gameFramework/m/class_1225;)V
+	METHOD method_436 method_436 ()V

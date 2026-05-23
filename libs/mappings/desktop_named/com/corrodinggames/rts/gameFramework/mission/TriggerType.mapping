@@ -1,4 +1,20 @@
 CLASS com/corrodinggames/rts/gameFramework/n/class_1261 com/corrodinggames/rts/gameFramework/mission/TriggerType
+	FIELD field_7063 field_7063 Lcom/corrodinggames/rts/gameFramework/n/class_1261;
+	FIELD field_7064 field_7064 Lcom/corrodinggames/rts/gameFramework/n/class_1261;
+	FIELD field_7065 field_7065 Lcom/corrodinggames/rts/gameFramework/n/class_1261;
+	FIELD field_7066 field_7066 Lcom/corrodinggames/rts/gameFramework/n/class_1261;
+	FIELD field_7067 field_7067 Lcom/corrodinggames/rts/gameFramework/n/class_1261;
+	FIELD field_7068 field_7068 Lcom/corrodinggames/rts/gameFramework/n/class_1261;
+	FIELD field_7069 field_7069 Lcom/corrodinggames/rts/gameFramework/n/class_1261;
+	FIELD field_7070 field_7070 Lcom/corrodinggames/rts/gameFramework/n/class_1261;
+	FIELD field_7071 field_7071 Lcom/corrodinggames/rts/gameFramework/n/class_1261;
+	FIELD field_7072 field_7072 Lcom/corrodinggames/rts/gameFramework/n/class_1261;
+	FIELD field_7073 field_7073 Lcom/corrodinggames/rts/gameFramework/n/class_1261;
+	FIELD field_7074 field_7074 [Lcom/corrodinggames/rts/gameFramework/n/class_1261;
+	METHOD method_3437 method_3437 ()Ljava/lang/String;
+	METHOD method_3438 method_3438 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/n/class_1261;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/n/class_1261;
+	METHOD values values ()[Lcom/corrodinggames/rts/gameFramework/n/class_1261;
 	CLASS class_1262 AnonymousClass1
 	CLASS class_1263 AnonymousClass2
 	CLASS class_1264 AnonymousClass3

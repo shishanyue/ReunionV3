@@ -1,1 +1,3 @@
 CLASS com/corrodinggames/rts/gameFramework/class_769 com/corrodinggames/rts/gameFramework/IndexedTimestampTracker
+	FIELD field_4203 field_4203 I
+	FIELD field_4204 field_4204 Lcom/corrodinggames/rts/gameFramework/class_1061;

@@ -5,4 +5,9 @@ CLASS com/corrodinggames/rts/game/units/d/class_617 com/corrodinggames/rts/game/
 	FIELD field_3660 availableActions Ljava/util/ArrayList;
 	FIELD field_3661 targetPriorityPoints [Landroid/graphics/PointF;
 	FIELD field_3662 hiddenPoints [Landroid/graphics/PointF;
+	FIELD field_3653 field_3653 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3654 field_3654 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3655 field_3655 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3657 field_3657 Lcom/corrodinggames/rts/game/units/d/class_618;
 	METHOD method_1557 initializeTextures ()V
+	METHOD method_1556 method_1556 (Lcom/corrodinggames/rts/game/units/class_409;FFZ)Lcom/corrodinggames/rts/game/units/class_706;

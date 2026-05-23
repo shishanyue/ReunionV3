@@ -1,3 +1,6 @@
 CLASS com/corrodinggames/rts/game/units/custom/class_544 com/corrodinggames/rts/game/units/custom/SoundList
 	FIELD field_2801 soundList Ljava/util/ArrayList;
 	FIELD field_2802 playIndex I
+	METHOD method_1246 method_1246 (F)V
+	METHOD method_1248 method_1248 (Lcom/corrodinggames/rts/game/units/custom/class_581;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/class_544;
+	METHOD method_1249 method_1249 (Lcom/corrodinggames/rts/game/units/custom/class_581;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/class_544;)Lcom/corrodinggames/rts/game/units/custom/class_544;

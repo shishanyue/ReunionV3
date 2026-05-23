@@ -2,4 +2,11 @@ CLASS a/a/class_1362 net/rudp/ConnectionInputStream
 	FIELD field_7446 readBuffer [B
 	FIELD field_7447 readOffset I
 	FIELD field_7448 bufferedBytes I
+	FIELD field_7445 field_7445 La/a/class_1355;
 	METHOD method_3806 fillReceiveBuffer ()I
+	METHOD available available ()I
+	METHOD close close ()V
+	METHOD markSupported markSupported ()Z
+	METHOD read read ()I
+	METHOD read read ([B)I
+	METHOD read read ([BII)I

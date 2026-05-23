@@ -150,7 +150,7 @@ public class Patcher {
 
         named = MappingUtils.buildMergedMappings(named, shared);
         EnigmaDirWriter writer = new EnigmaDirWriter(namedPath, true);
-        shared.accept(writer);
+        named.accept(writer);
         writer.close();
 
         MemoryMappingTree mappingTree = MappingUtils.buildNamedMappings(intermediary, named);

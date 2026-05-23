@@ -1,3 +1,16 @@
 CLASS com/corrodinggames/rts/game/units/b/class_389 com/corrodinggames/rts/game/units/air/Dropship
+	FIELD field_1650 field_1650 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1651 field_1651 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1652 field_1652 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1653 field_1653 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1654 field_1654 F
+	FIELD field_1655 field_1655 F
+	FIELD field_1656 field_1656 Z
+	FIELD field_1657 field_1657 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_1658 field_1658 Landroid/graphics/Rect;
+	FIELD field_1659 field_1659 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_1660 field_1660 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_1661 field_1661 Ljava/util/ArrayList;
+	METHOD method_659 method_659 ()V
 	CLASS class_390 AnonymousClass1
 	CLASS class_391 AnonymousClass2

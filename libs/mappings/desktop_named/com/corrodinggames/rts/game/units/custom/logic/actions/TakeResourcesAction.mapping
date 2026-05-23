@@ -11,3 +11,12 @@ CLASS com/corrodinggames/rts/game/units/custom/a/a/class_457 com/corrodinggames/
 	FIELD field_2235 takeResources_discardCollected Z
 	FIELD field_2236 takeResources_keepResourcesOnTarget Z
 	FIELD field_2237 takeResources_directTransferStoppingAtZero Z
+	FIELD field_2219 field_2219 Lcom/corrodinggames/rts/game/units/custom/d/class_552;
+	FIELD field_2223 field_2223 Lcom/corrodinggames/rts/game/class_327;
+	FIELD field_2225 field_2225 Lcom/corrodinggames/rts/game/units/custom/class_577;
+	FIELD field_2227 field_2227 Lcom/corrodinggames/rts/game/units/custom/d/class_552;
+	FIELD field_2230 field_2230 Lcom/corrodinggames/rts/game/units/custom/class_590;
+	FIELD field_2231 field_2231 Lcom/corrodinggames/rts/game/units/custom/class_590;
+	FIELD field_2232 field_2232 Lcom/corrodinggames/rts/game/units/custom/class_590;
+	FIELD field_2238 field_2238 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_2239 field_2239 Lcom/corrodinggames/rts/game/units/custom/a/a/class_458;

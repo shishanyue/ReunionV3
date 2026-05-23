@@ -1,1 +1,4 @@
 CLASS com/corrodinggames/rts/gameFramework/utility/class_1295 com/corrodinggames/rts/gameFramework/utility/PaintCache
+	FIELD field_7236 field_7236 I
+	FIELD field_7237 field_7237 Landroid/graphics/Paint$Style;
+	FIELD field_7238 field_7238 Lcom/corrodinggames/rts/gameFramework/m/class_1233;

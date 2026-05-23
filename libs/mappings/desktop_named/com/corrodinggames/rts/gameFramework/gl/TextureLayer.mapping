@@ -1,1 +1,19 @@
 CLASS com/corrodinggames/rts/gameFramework/b/class_809 com/corrodinggames/rts/gameFramework/gl/TextureLayer
+	FIELD field_4468 field_4468 I
+	FIELD field_4470 field_4470 I
+	FIELD field_4476 field_4476 Lcom/corrodinggames/rts/gameFramework/b/class_823;
+	FIELD field_4477 field_4477 Lcom/corrodinggames/rts/gameFramework/m/class_1231;
+	FIELD field_4478 field_4478 Z
+	FIELD field_4479 field_4479 I
+	FIELD field_4480 field_4480 F
+	FIELD field_4481 field_4481 F
+	FIELD field_4482 field_4482 F
+	FIELD field_4483 field_4483 F
+	METHOD method_1856 method_1856 ()V
+	METHOD method_1857 method_1857 (I)V
+	METHOD method_1858 method_1858 (Lcom/corrodinggames/rts/gameFramework/b/class_823;)V
+	METHOD method_1859 method_1859 (Lcom/corrodinggames/rts/gameFramework/b/class_823;Landroid/graphics/RectF;Landroid/graphics/RectF;[F)V
+	METHOD method_1860 method_1860 (Lcom/corrodinggames/rts/gameFramework/m/class_1231;)V
+	METHOD method_1861 method_1861 ()V
+	METHOD method_1862 method_1862 (Lcom/corrodinggames/rts/gameFramework/m/class_1231;)V
+	METHOD method_1863 method_1863 ()V

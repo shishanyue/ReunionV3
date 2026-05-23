@@ -2,6 +2,7 @@ CLASS com/corrodinggames/rts/gameFramework/e/class_899 com/corrodinggames/rts/ga
 	FIELD field_5110 useStorageApi Ljava/lang/Boolean;
 	FIELD field_5111 overriddenExternalPath Ljava/lang/String;
 	FIELD field_8389 loadError Ljava/lang/String;
+	FIELD field_5109 field_5109 Lcom/corrodinggames/rts/gameFramework/e/class_901;
 	METHOD method_2161 createTempFileInContext (Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;
 	METHOD method_2163 renameFile (Ljava/io/File;Ljava/io/File;)Z
 	METHOD method_2164 openOutputStream (Ljava/io/File;Z)Ljava/io/OutputStream;
@@ -32,3 +33,7 @@ CLASS com/corrodinggames/rts/gameFramework/e/class_899 com/corrodinggames/rts/ga
 	METHOD method_5114 openOutputStreamByPath (Ljava/lang/String;Z)Ljava/io/OutputStream;
 	METHOD method_5115 scanFile (Ljava/io/File;)V
 	METHOD method_5116 getWorkingDirectory ()Ljava/lang/String;
+	METHOD method_2160 method_2160 (I)Lcom/corrodinggames/rts/gameFramework/e/class_901;
+	METHOD method_2162 method_2162 (Ljava/io/File;)Lcom/corrodinggames/rts/gameFramework/utility/class_1322;
+	METHOD method_2187 method_2187 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1322;
+	METHOD method_2188 method_2188 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1322;

@@ -2,3 +2,13 @@ CLASS com/corrodinggames/rts/game/units/custom/class_533 com/corrodinggames/rts/
 	FIELD field_2748 animationId I
 	FIELD field_2749 animationName Ljava/lang/String;
 	FIELD field_2750 maxTime F
+	FIELD field_2747 field_2747 Lcom/corrodinggames/rts/game/units/custom/class_550;
+	FIELD field_2751 field_2751 [Lcom/corrodinggames/rts/game/units/custom/class_443;
+	FIELD field_2752 field_2752 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_2753 field_2753 Z
+	METHOD method_1230 method_1230 ()Lcom/corrodinggames/rts/game/units/custom/class_492;
+	METHOD method_1231 method_1231 (F)V
+	METHOD method_1232 method_1232 (FF)V
+	METHOD method_1234 method_1234 ()V
+	METHOD method_1235 method_1235 (F)F
+	METHOD method_1236 method_1236 ()V

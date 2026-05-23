@@ -1,4 +1,25 @@
 CLASS com/corrodinggames/rts/gameFramework/class_907 com/corrodinggames/rts/gameFramework/Utility
+	FIELD field_5131 field_5131 Ljava/util/Random;
+	FIELD field_5132 field_5132 Ljava/util/Random;
+	FIELD field_5133 field_5133 Landroid/graphics/PointF;
+	FIELD field_5134 field_5134 Landroid/graphics/PointF;
+	FIELD field_5135 field_5135 Landroid/graphics/PointF;
+	FIELD field_5136 field_5136 Landroid/graphics/PointF;
+	FIELD field_5137 field_5137 Landroid/graphics/PointF;
+	FIELD field_5138 field_5138 Landroid/graphics/PointF;
+	FIELD field_5139 field_5139 I
+	FIELD field_5140 field_5140 [B
+	FIELD field_5141 field_5141 [C
+	FIELD field_5142 field_5142 [F
+	FIELD field_5143 field_5143 [F
+	FIELD field_5144 field_5144 [F
+	FIELD field_5145 field_5145 [F
+	FIELD field_5146 field_5146 [F
+	FIELD field_5147 field_5147 [F
+	FIELD field_5148 field_5148 [F
+	FIELD field_5149 field_5149 [F
+	FIELD field_5150 field_5150 [F
+	FIELD field_5151 field_5151 [F
 	METHOD method_2237 resetSharedRandomSeed ()V
 	METHOD method_2239 min (DD)D
 	METHOD method_2241 sortRect (F)F
@@ -121,3 +142,8 @@ CLASS com/corrodinggames/rts/gameFramework/class_907 com/corrodinggames/rts/game
 	METHOD method_5153 formatSize (Ljava/lang/String;I)Ljava/lang/String;
 	METHOD method_5154 isClose (FF)Z
 	METHOD method_5155 urlDecode (Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_2263 method_2263 (Lcom/corrodinggames/rts/game/units/class_426;FFI)F
+	METHOD method_2264 method_2264 (Lcom/corrodinggames/rts/game/units/class_426;II)I
+	METHOD method_2265 method_2265 (Lcom/corrodinggames/rts/gameFramework/class_773;III)I
+	METHOD method_2282 method_2282 (DD)Z
+	METHOD method_2294 method_2294 (Lcom/corrodinggames/rts/game/units/class_426;FFI)F

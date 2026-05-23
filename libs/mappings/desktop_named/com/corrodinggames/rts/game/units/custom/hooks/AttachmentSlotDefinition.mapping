@@ -1,1 +1,27 @@
 CLASS com/corrodinggames/rts/game/units/custom/b/class_506 com/corrodinggames/rts/game/units/custom/hooks/AttachmentSlotDefinition
+	FIELD field_2626 field_2626 S
+	FIELD field_2611 field_2611 Z
+	FIELD field_2612 field_2612 Z
+	FIELD field_2628 field_2628 F
+	FIELD field_2613 field_2613 Z
+	FIELD field_2629 field_2629 F
+	FIELD field_2614 field_2614 Z
+	FIELD field_2630 field_2630 F
+	FIELD field_2615 field_2615 Z
+	FIELD field_2631 field_2631 F
+	FIELD field_2632 field_2632 F
+	FIELD field_2617 field_2617 F
+	FIELD field_2618 field_2618 Z
+	FIELD field_2619 field_2619 Z
+	FIELD field_2620 field_2620 Z
+	FIELD field_2638 field_2638 Z
+	FIELD field_2639 field_2639 Z
+	FIELD field_2625 field_2625 Z
+	FIELD field_2641 field_2641 Z
+	FIELD field_2642 field_2642 Z
+	FIELD field_2643 field_2643 Z
+	FIELD field_2644 field_2644 Z
+	FIELD field_2645 field_2645 Z
+	FIELD field_2649 field_2649 Z
+	FIELD field_2650 field_2650 Z
+	FIELD field_2651 field_2651 Z

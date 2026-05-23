@@ -1,1 +1,25 @@
 CLASS com/corrodinggames/rts/gameFramework/k/class_1069 com/corrodinggames/rts/gameFramework/path/PathCostMap
+	FIELD field_6524 field_6524 Lcom/corrodinggames/rts/game/units/class_428;
+	FIELD field_6525 field_6525 I
+	FIELD field_6526 field_6526 I
+	FIELD field_6527 field_6527 [B
+	FIELD field_6528 field_6528 [B
+	FIELD field_6529 field_6529 [B
+	FIELD field_6530 field_6530 [S
+	FIELD field_6531 field_6531 Ljava/util/HashMap;
+	FIELD field_6532 field_6532 I
+	FIELD field_6534 field_6534 I
+	FIELD field_6535 field_6535 I
+	FIELD field_6536 field_6536 Z
+	FIELD field_6537 field_6537 Landroid/graphics/Point;
+	FIELD field_6538 field_6538 Z
+	FIELD field_6539 field_6539 I
+	FIELD field_6540 field_6540 Lcom/corrodinggames/rts/gameFramework/k/class_1072;
+	METHOD method_3104 method_3104 ()V
+	METHOD method_3105 method_3105 (Lcom/corrodinggames/rts/game/b/class_299;)I
+	METHOD method_3106 method_3106 (Lcom/corrodinggames/rts/game/b/class_299;SS[B)V
+	METHOD method_3107 method_3107 (Lcom/corrodinggames/rts/game/units/class_409;)V
+	METHOD method_3108 method_3108 (SSS)I
+	METHOD method_3109 method_3109 (Z)V
+	METHOD method_3110 method_3110 ()V
+	METHOD method_3111 method_3111 (Lcom/corrodinggames/rts/game/units/class_409;)V

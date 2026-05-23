@@ -1,1 +1,7 @@
 CLASS com/corrodinggames/rts/gameFramework/b/class_810 com/corrodinggames/rts/gameFramework/gl/ShaderLocations
+	FIELD field_4484 field_4484 Lcom/corrodinggames/rts/gameFramework/b/class_841;
+	FIELD field_4485 field_4485 Lcom/corrodinggames/rts/gameFramework/b/class_841;
+	FIELD field_4486 field_4486 Lcom/corrodinggames/rts/gameFramework/b/class_841;
+	FIELD field_4487 field_4487 Lcom/corrodinggames/rts/gameFramework/b/class_846;
+	FIELD field_4488 field_4488 Lcom/corrodinggames/rts/gameFramework/b/class_846;
+	FIELD field_4489 field_4489 [Lcom/corrodinggames/rts/gameFramework/b/class_844;

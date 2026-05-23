@@ -1,3 +1,8 @@
 CLASS com/corrodinggames/rts/game/units/h/class_728 com/corrodinggames/rts/game/units/sea/BattleShip
 	FIELD field_4077 boundingRect Landroid/graphics/Rect;
+	FIELD field_4072 field_4072 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4073 field_4073 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4074 field_4074 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4075 field_4075 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4076 field_4076 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	METHOD method_1733 loadTextures ()V

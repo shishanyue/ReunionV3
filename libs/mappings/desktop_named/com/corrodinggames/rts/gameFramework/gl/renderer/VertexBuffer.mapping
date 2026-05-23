@@ -1,1 +1,6 @@
 CLASS com/corrodinggames/rts/gameFramework/b/class_821 com/corrodinggames/rts/gameFramework/gl/renderer/VertexBuffer
+	FIELD field_4562 field_4562 I
+	FIELD field_4563 field_4563 [I
+	FIELD field_4564 field_4564 I
+	METHOD method_1885 method_1885 ()V
+	METHOD method_1888 method_1888 ()V

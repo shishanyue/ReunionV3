@@ -1,1 +1,7 @@
 CLASS com/corrodinggames/rts/game/units/g/class_721 com/corrodinggames/rts/game/units/effect/AirUnitEffectType
+	FIELD field_4029 field_4029 Lcom/corrodinggames/rts/game/units/g/class_721;
+	FIELD field_4030 field_4030 Lcom/corrodinggames/rts/game/units/g/class_721;
+	FIELD field_4031 field_4031 [Lcom/corrodinggames/rts/game/units/g/class_721;
+	METHOD method_1720 method_1720 ()Lcom/corrodinggames/rts/game/units/g/class_720;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/g/class_721;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/g/class_721;

@@ -35,6 +35,7 @@ CLASS com/corrodinggames/rts/gameFramework/class_789 com/corrodinggames/rts/game
 	FIELD field_8159 context Landroid/content/Context;
 	FIELD field_8160 firstPlay Z
 	FIELD field_8161 checkNextTrack Z
+	FIELD field_4344 field_4344 Lcom/corrodinggames/rts/gameFramework/class_852;
 	METHOD method_1821 getMusicVolume ()F
 	METHOD method_1822 update (F)V
 	METHOD method_1824 playMusic (Ljava/lang/String;)V
@@ -51,3 +52,4 @@ CLASS com/corrodinggames/rts/gameFramework/class_789 com/corrodinggames/rts/game
 	METHOD method_4913 resume ()V
 	METHOD method_4914 release ()V
 	METHOD method_4915 isFading ()Z
+	METHOD method_1825 method_1825 (Ljava/lang/String;Z)Lcom/corrodinggames/rts/gameFramework/class_853;

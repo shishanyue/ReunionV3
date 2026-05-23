@@ -8,4 +8,21 @@ CLASS com/corrodinggames/rts/gameFramework/class_773 com/corrodinggames/rts/game
 	FIELD field_4228 posY F
 	FIELD field_4229 posZ F
 	FIELD field_8822 syncType I
+	FIELD field_4219 field_4219 Lcom/corrodinggames/rts/gameFramework/utility/class_1325;
+	FIELD field_4221 field_4221 Lcom/corrodinggames/rts/gameFramework/class_774;
+	FIELD field_4230 field_4230 Lcom/corrodinggames/rts/gameFramework/utility/class_1329;
 	METHOD method_1763 remove ()V
+	METHOD method_1764 method_1764 (F)V
+	METHOD method_1765 method_1765 (FZ)V
+	METHOD method_1766 method_1766 (JLjava/lang/Class;Z)Lcom/corrodinggames/rts/gameFramework/class_773;
+	METHOD method_1767 method_1767 (JZ)Lcom/corrodinggames/rts/game/units/class_426;
+	METHOD method_1768 method_1768 (Lcom/corrodinggames/rts/gameFramework/j/class_1044;)V
+	METHOD method_1769 method_1769 (Lcom/corrodinggames/rts/gameFramework/class_1061;)Z
+	METHOD method_1770 method_1770 (F)Z
+	METHOD method_1771 method_1771 (JZ)Lcom/corrodinggames/rts/game/units/class_409;
+	METHOD method_1772 method_1772 (F)V
+	METHOD method_1773 method_1773 (F)V
+	METHOD method_1774 method_1774 ()Lcom/corrodinggames/rts/gameFramework/utility/class_1325;
+	METHOD method_1775 method_1775 ()V
+	METHOD method_1776 method_1776 (F)Z
+	METHOD method_1777 method_1777 (F)V

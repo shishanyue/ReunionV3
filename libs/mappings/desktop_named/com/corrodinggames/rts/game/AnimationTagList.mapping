@@ -1,1 +1,5 @@
 CLASS com/corrodinggames/rts/game/class_754 com/corrodinggames/rts/game/AnimationTagList
+	FIELD field_4124 field_4124 [Lcom/corrodinggames/rts/game/class_326;
+	FIELD field_4125 field_4125 [Lcom/corrodinggames/rts/game/class_326;
+	FIELD field_4126 field_4126 I
+	METHOD method_1743 method_1743 (Lcom/corrodinggames/rts/game/class_326;)Z

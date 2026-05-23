@@ -1,4 +1,8 @@
 CLASS com/corrodinggames/rts/gameFramework/e/class_903 com/corrodinggames/rts/gameFramework/file/MergedFileLoader
 	FIELD field_5127 tag1 Ljava/lang/String;
 	FIELD field_5128 tag2 Ljava/lang/String;
+	FIELD field_5125 field_5125 Lcom/corrodinggames/rts/gameFramework/e/class_901;
+	FIELD field_5126 field_5126 Lcom/corrodinggames/rts/gameFramework/e/class_901;
 	METHOD method_2221 fixPath (Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_2222 method_2222 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/e/class_901;
+	METHOD method_2223 method_2223 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/e/class_901;

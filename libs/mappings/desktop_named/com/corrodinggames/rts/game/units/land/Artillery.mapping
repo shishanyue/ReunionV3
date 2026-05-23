@@ -1,1 +1,6 @@
 CLASS com/corrodinggames/rts/game/units/e/class_676 com/corrodinggames/rts/game/units/land/Artillery
+	FIELD field_3817 field_3817 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3818 field_3818 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3819 field_3819 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3820 field_3820 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	METHOD method_1623 method_1623 ()V

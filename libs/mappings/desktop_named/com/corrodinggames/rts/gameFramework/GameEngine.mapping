@@ -177,6 +177,40 @@ CLASS com/corrodinggames/rts/gameFramework/class_1061 com/corrodinggames/rts/gam
 	FIELD field_8614 hasShownLowMemoryWarning Z
 	FIELD field_8615 lowMemoryDetected Z
 	FIELD field_8616 currentMapPath Ljava/lang/String;
+	FIELD field_6315 field_6315 Lcom/corrodinggames/rts/gameFramework/class_1061;
+	FIELD field_6318 field_6318 Lcom/corrodinggames/rts/appFramework/class_5;
+	FIELD field_6319 field_6319 Lcom/corrodinggames/rts/appFramework/class_5;
+	FIELD field_6362 field_6362 Lcom/corrodinggames/rts/gameFramework/m/class_1225;
+	FIELD field_6338 field_6338 Lcom/corrodinggames/rts/gameFramework/utility/class_1320;
+	FIELD field_6339 field_6339 Lcom/corrodinggames/rts/game/b/class_299;
+	FIELD field_6340 field_6340 Lcom/corrodinggames/rts/gameFramework/a/class_761;
+	FIELD field_6341 field_6341 Lcom/corrodinggames/rts/gameFramework/class_789;
+	FIELD field_6342 field_6342 Lcom/corrodinggames/rts/gameFramework/m/class_1225;
+	FIELD field_6344 field_6344 Lcom/corrodinggames/rts/gameFramework/class_756;
+	FIELD field_6346 field_6346 Lcom/corrodinggames/rts/gameFramework/d/class_892;
+	FIELD field_6373 field_6373 Lcom/corrodinggames/rts/game/class_324;
+	FIELD field_6347 field_6347 Lcom/corrodinggames/rts/gameFramework/f/class_961;
+	FIELD field_6348 field_6348 Lcom/corrodinggames/rts/gameFramework/class_779;
+	FIELD field_6349 field_6349 Lcom/corrodinggames/rts/gameFramework/k/class_1072;
+	FIELD field_6350 field_6350 Lcom/corrodinggames/rts/gameFramework/class_777;
+	FIELD field_6351 field_6351 Lcom/corrodinggames/rts/gameFramework/f/class_969;
+	FIELD field_6352 field_6352 Lcom/corrodinggames/rts/gameFramework/j/class_1001;
+	FIELD field_6354 field_6354 Lcom/corrodinggames/rts/gameFramework/i/class_991;
+	FIELD field_6355 field_6355 Lcom/corrodinggames/rts/gameFramework/class_775;
+	FIELD field_6356 field_6356 Lcom/corrodinggames/rts/gameFramework/class_862;
+	FIELD field_6357 field_6357 Lcom/corrodinggames/rts/game/units/f/class_711;
+	FIELD field_6410 field_6410 Lcom/corrodinggames/rts/gameFramework/class_882;
+	FIELD field_6411 field_6411 Lcom/corrodinggames/rts/gameFramework/n/class_1273;
+	FIELD field_6412 field_6412 Lcom/corrodinggames/rts/gameFramework/class_873;
+	FIELD field_6413 field_6413 Lcom/corrodinggames/rts/gameFramework/g/class_980;
+	FIELD field_6469 field_6469 Lcom/corrodinggames/rts/gameFramework/class_776;
+	FIELD field_6471 field_6471 Lcom/corrodinggames/rts/gameFramework/j/class_1044;
+	FIELD field_6456 field_6456 Lcom/corrodinggames/rts/gameFramework/utility/class_1312;
+	FIELD field_6483 field_6483 Lcom/corrodinggames/rts/gameFramework/class_1336;
+	FIELD field_6460 field_6460 Lcom/corrodinggames/rts/gameFramework/class_770;
+	FIELD field_6491 field_6491 Lcom/corrodinggames/rts/gameFramework/class_1338;
+	FIELD field_6492 field_6492 Lcom/corrodinggames/rts/gameFramework/class_1338;
+	FIELD field_6493 field_6493 Lcom/corrodinggames/rts/gameFramework/class_1338;
 	METHOD method_2959 startGameThread ()V
 	METHOD method_2960 stopGameThreadIfNotInGameThread ()V
 	METHOD method_2961 stopGameThread ()V
@@ -310,3 +344,8 @@ CLASS com/corrodinggames/rts/gameFramework/class_1061 com/corrodinggames/rts/gam
 	METHOD method_5618 getModifierString (I)Ljava/lang/String;
 	METHOD method_5619 isPlatformName (Ljava/lang/String;)Z
 	METHOD method_5620 canStartNewGame (Ljava/lang/String;)V
+	METHOD method_2997 method_2997 (Landroid/app/Activity;Lcom/corrodinggames/rts/appFramework/class_5;Z)V
+	METHOD method_3002 method_3002 (Lcom/corrodinggames/rts/gameFramework/class_770;Ljava/lang/Throwable;)V
+	METHOD method_3006 method_3006 (Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/class_527;)V
+	METHOD finalize finalize ()V
+	METHOD method_3076 method_3076 ()Lcom/corrodinggames/rts/gameFramework/class_1061;

@@ -1,1 +1,3 @@
 CLASS com/corrodinggames/rts/gameFramework/c/class_876 com/corrodinggames/rts/gameFramework/debug/DebugUpdateTask
+	FIELD field_4817 field_4817 Lcom/corrodinggames/rts/gameFramework/c/class_874;
+	METHOD run run ()V

@@ -1,1 +1,10 @@
 CLASS com/corrodinggames/rts/game/units/e/class_689 com/corrodinggames/rts/game/units/land/MammothTank
+	FIELD field_3899 field_3899 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3900 field_3900 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3901 field_3901 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3902 field_3902 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3903 field_3903 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3904 field_3904 I
+	FIELD field_3905 field_3905 F
+	FIELD field_3906 field_3906 Landroid/graphics/Rect;
+	METHOD method_1642 method_1642 ()V

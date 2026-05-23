@@ -1,1 +1,7 @@
 CLASS com/corrodinggames/rts/game/units/custom/d/class_553 com/corrodinggames/rts/game/units/custom/price/DynamicResourcePrice
+	FIELD field_2945 field_2945 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_2946 field_2946 Z
+	METHOD method_1306 method_1306 (II)Z
+	METHOD method_1308 method_1308 (II)Z
+	METHOD method_1309 method_1309 (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_1310 method_1310 (Lcom/corrodinggames/rts/game/units/class_426;)Z

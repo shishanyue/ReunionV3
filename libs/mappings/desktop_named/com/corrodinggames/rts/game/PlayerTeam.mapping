@@ -60,6 +60,19 @@ CLASS com/corrodinggames/rts/game/class_324 com/corrodinggames/rts/game/PlayerTe
 	FIELD field_7931 teamAIBaseLevel I
 	FIELD field_7932 lastCustomColorCacheTick I
 	FIELD field_7933 teamColorPacked I
+	FIELD field_1424 field_1424 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_1438 field_1438 Lcom/corrodinggames/rts/game/units/custom/class_577;
+	FIELD field_1439 field_1439 Lcom/corrodinggames/rts/game/units/custom/e/class_567;
+	FIELD field_1440 field_1440 Lcom/corrodinggames/rts/game/units/custom/e/class_564;
+	FIELD field_1447 field_1447 [Lcom/corrodinggames/rts/game/class_324;
+	FIELD field_1452 field_1452 Lcom/corrodinggames/rts/game/class_324;
+	FIELD field_1453 field_1453 Lcom/corrodinggames/rts/game/class_324;
+	FIELD field_1454 field_1454 Lcom/corrodinggames/rts/game/class_324;
+	FIELD field_1455 field_1455 [Lcom/corrodinggames/rts/game/class_324;
+	FIELD field_1456 field_1456 Lcom/corrodinggames/rts/game/class_324;
+	FIELD field_1465 field_1465 Lcom/corrodinggames/rts/game/units/class_409;
+	FIELD field_1466 field_1466 Lcom/corrodinggames/rts/game/units/class_409;
+	FIELD field_1420 field_1420 Lcom/corrodinggames/rts/game/class_329;
 	METHOD method_444 updateTeamActiveStatus ()V
 	METHOD method_445 updateTeamConnectionStatus ()V
 	METHOD method_446 updateAllTeamData ()V
@@ -124,3 +137,44 @@ CLASS com/corrodinggames/rts/game/class_324 com/corrodinggames/rts/game/PlayerTe
 	METHOD method_4421 isTeamObserverCheck ()Z
 	METHOD method_4422 getCreditsScaledByEconomy ()I
 	METHOD method_4423 getTeamDisplayName ()Ljava/lang/String;
+	METHOD method_469 method_469 (Lcom/corrodinggames/rts/game/class_324;)Z
+	METHOD method_470 method_470 (Lcom/corrodinggames/rts/game/class_327;Lcom/corrodinggames/rts/game/class_324;)Z
+	METHOD method_471 method_471 (Lcom/corrodinggames/rts/game/units/class_409;)V
+	METHOD method_473 method_473 (Lcom/corrodinggames/rts/game/units/custom/e/class_556;)I
+	METHOD method_474 method_474 (Lcom/corrodinggames/rts/game/units/custom/class_576;ZZ)I
+	METHOD method_476 method_476 (Lcom/corrodinggames/rts/gameFramework/j/class_1044;)V
+	METHOD method_477 method_477 (Lcom/corrodinggames/rts/gameFramework/j/class_1044;Z)V
+	METHOD method_478 method_478 (Lcom/corrodinggames/rts/gameFramework/m/class_1189;)[Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	METHOD method_481 method_481 (Lcom/corrodinggames/rts/gameFramework/m/class_1189;[Lcom/corrodinggames/rts/gameFramework/m/class_1189;[I)V
+	METHOD method_479 method_479 (Lcom/corrodinggames/rts/gameFramework/m/class_1189;Lcom/corrodinggames/rts/game/class_325;)[Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	METHOD method_480 method_480 (Lcom/corrodinggames/rts/gameFramework/m/class_1189;Lcom/corrodinggames/rts/game/class_325;Z)[Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	METHOD method_482 method_482 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/class_313;
+	METHOD method_486 method_486 (F)V
+	METHOD method_489 method_489 (Lcom/corrodinggames/rts/game/class_324;)Z
+	METHOD method_490 method_490 (Lcom/corrodinggames/rts/game/units/class_409;)V
+	METHOD method_491 method_491 (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_492 method_492 (Lcom/corrodinggames/rts/game/units/custom/e/class_556;)I
+	METHOD method_494 method_494 (Lcom/corrodinggames/rts/gameFramework/j/class_1030;)V
+	METHOD method_495 method_495 (Lcom/corrodinggames/rts/gameFramework/m/class_1189;Lcom/corrodinggames/rts/game/class_325;)[Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	METHOD method_497 method_497 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/class_313;
+	METHOD method_498 method_498 (Z)Lcom/corrodinggames/rts/game/class_329;
+	METHOD method_500 method_500 (F)V
+	METHOD method_502 method_502 (IZ)V
+	METHOD method_503 method_503 (Lcom/corrodinggames/rts/game/class_324;)Z
+	METHOD method_504 method_504 (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_505 method_505 (Lcom/corrodinggames/rts/game/units/custom/e/class_556;)D
+	METHOD method_506 method_506 (Lcom/corrodinggames/rts/gameFramework/j/class_1030;)V
+	METHOD method_507 method_507 (Lcom/corrodinggames/rts/gameFramework/m/class_1189;[Lcom/corrodinggames/rts/gameFramework/m/class_1189;[I)V
+	METHOD method_508 method_508 (Ljava/lang/String;)V
+	METHOD compareTo compareTo (Ljava/lang/Object;)I
+	METHOD method_512 method_512 (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_513 method_513 (Lcom/corrodinggames/rts/gameFramework/j/class_1030;)V
+	METHOD method_514 method_514 (Ljava/lang/String;)V
+	METHOD method_515 method_515 ()[Lcom/corrodinggames/rts/game/class_324;
+	METHOD method_518 method_518 (Ljava/lang/String;)V
+	METHOD method_520 method_520 (I)I
+	METHOD method_522 method_522 (I)I
+	METHOD method_524 method_524 (I)Ljava/lang/String;
+	METHOD method_526 method_526 (I)Lcom/corrodinggames/rts/game/class_324;
+	METHOD method_528 method_528 (I)V
+	METHOD method_454 method_454 ()V

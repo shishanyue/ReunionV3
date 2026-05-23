@@ -14,3 +14,5 @@ CLASS com/corrodinggames/rts/game/units/custom/a/a/class_454 com/corrodinggames/
 	FIELD field_2208 setBuilt F
 	FIELD field_2210 resetUnitStats Z
 	FIELD field_2211 setUnitStats Lcom/corrodinggames/rts/game/units/custom/logicBooleans/VariableScope$CachedWriter;
+	FIELD field_2205 field_2205 Lcom/corrodinggames/rts/game/units/custom/class_590;
+	FIELD field_2209 field_2209 Lcom/corrodinggames/rts/gameFramework/utility/class_1305;

@@ -1,1 +1,3 @@
 CLASS com/corrodinggames/rts/game/units/custom/class_522 com/corrodinggames/rts/game/units/custom/UnitStatsDataField
+	METHOD method_1210 method_1210 (Lcom/corrodinggames/rts/game/units/custom/class_484;)D
+	METHOD method_1211 method_1211 (Lcom/corrodinggames/rts/game/units/custom/class_484;D)V

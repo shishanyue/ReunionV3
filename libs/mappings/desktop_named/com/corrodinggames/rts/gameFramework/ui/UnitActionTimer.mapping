@@ -2,4 +2,10 @@ CLASS com/corrodinggames/rts/gameFramework/f/class_955 com/corrodinggames/rts/ga
 	FIELD field_5417 timer F
 	FIELD field_5418 isNegative Z
 	FIELD field_5419 field_e Z
+	FIELD field_5415 field_5415 Lcom/corrodinggames/rts/game/units/class_426;
+	FIELD field_5416 field_5416 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_5420 field_5420 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
 	METHOD method_2474 updateTimers (F)V
+	METHOD method_2475 method_2475 (Lcom/corrodinggames/rts/game/units/class_426;Lcom/corrodinggames/rts/game/units/a/class_349;Z)F
+	METHOD method_2476 method_2476 (Lcom/corrodinggames/rts/game/units/class_426;Lcom/corrodinggames/rts/game/units/a/class_349;ZZ)V
+	METHOD method_2477 method_2477 (Lcom/corrodinggames/rts/game/units/class_426;Lcom/corrodinggames/rts/game/units/a/class_349;Z)Lcom/corrodinggames/rts/gameFramework/f/class_955;

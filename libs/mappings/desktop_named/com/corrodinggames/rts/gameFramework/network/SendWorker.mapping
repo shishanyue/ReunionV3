@@ -3,5 +3,9 @@ CLASS com/corrodinggames/rts/gameFramework/j/class_1039 com/corrodinggames/rts/g
 	FIELD field_6194 socketOutputStream Ljava/io/OutputStream;
 	FIELD field_6195 bufOut Ljava/io/BufferedOutputStream;
 	FIELD field_6196 dataOut Ljava/io/DataOutputStream;
+	FIELD field_6197 field_6197 Lcom/corrodinggames/rts/gameFramework/utility/class_1333;
+	FIELD field_6198 field_6198 Lcom/corrodinggames/rts/gameFramework/j/class_1037;
 	METHOD method_2910 notifySendLoop ()V
 	METHOD method_2912 waitForPackets ()V
+	METHOD method_2911 method_2911 (Lcom/corrodinggames/rts/gameFramework/j/class_1032;)V
+	METHOD run run ()V

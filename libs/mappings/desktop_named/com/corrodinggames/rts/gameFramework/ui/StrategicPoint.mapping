@@ -4,3 +4,4 @@ CLASS com/corrodinggames/rts/gameFramework/f/class_975 com/corrodinggames/rts/ga
 	FIELD field_5738 screenX I
 	FIELD field_5739 screenY I
 	FIELD field_5740 isVisible Z
+	FIELD field_5741 field_5741 Lcom/corrodinggames/rts/gameFramework/f/class_969;

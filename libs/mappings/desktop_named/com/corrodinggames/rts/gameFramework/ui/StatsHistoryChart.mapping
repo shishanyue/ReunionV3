@@ -1,1 +1,11 @@
 CLASS com/corrodinggames/rts/gameFramework/f/class_925 com/corrodinggames/rts/gameFramework/ui/StatsHistoryChart
+	FIELD field_5309 field_5309 Ljava/util/ArrayList;
+	FIELD field_5310 field_5310 [Lcom/corrodinggames/rts/gameFramework/f/class_928;
+	FIELD field_5311 field_5311 Ljava/util/ArrayList;
+	FIELD field_5313 field_5313 Ljava/util/ArrayList;
+	FIELD field_5314 field_5314 [Lcom/corrodinggames/rts/gameFramework/f/class_928;
+	FIELD field_5315 field_5315 Lcom/corrodinggames/rts/gameFramework/f/class_927;
+	FIELD field_5322 field_5322 Landroid/graphics/Rect;
+	FIELD field_5325 field_5325 Ljava/util/ArrayList;
+	FIELD field_5326 field_5326 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_5327 field_5327 Landroid/graphics/Rect;

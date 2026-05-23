@@ -14,6 +14,11 @@ CLASS com/corrodinggames/rts/game/b/class_304 com/corrodinggames/rts/game/map/Ma
 	FIELD field_1003 tempRectF Landroid/graphics/RectF;
 	FIELD field_1004 hasAlpha Z
 	FIELD field_1005 base64DecodeTable [B
+	FIELD field_983 field_983 [Lcom/corrodinggames/rts/gameFramework/m/class_1233;
+	FIELD field_985 field_985 Lcom/corrodinggames/rts/gameFramework/m/class_1233;
+	FIELD field_987 field_987 Lcom/corrodinggames/rts/gameFramework/m/class_1233;
+	FIELD field_989 field_989 [Lcom/corrodinggames/rts/gameFramework/m/class_1233;
+	FIELD field_990 field_990 Lcom/corrodinggames/rts/game/b/class_299;
 	METHOD method_362 getTileIds ()[S
 	METHOD method_366 parseTileDataStream (Ljava/io/InputStream;)V
 	METHOD method_367 initNameAndFlags (Ljava/lang/String;)V

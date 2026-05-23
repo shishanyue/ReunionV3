@@ -1,1 +1,9 @@
 CLASS com/corrodinggames/rts/game/units/f/class_712 com/corrodinggames/rts/game/units/management/AreaUnitCallback
+	FIELD field_3998 field_3998 Landroid/graphics/RectF;
+	FIELD field_3999 field_3999 F
+	FIELD field_4000 field_4000 F
+	FIELD field_4001 field_4001 F
+	FIELD field_4002 field_4002 F
+	FIELD field_4003 field_4003 F
+	FIELD field_4004 field_4004 F
+	FIELD field_4005 field_4005 F

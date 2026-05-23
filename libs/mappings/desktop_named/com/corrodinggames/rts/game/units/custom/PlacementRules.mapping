@@ -1,1 +1,10 @@
 CLASS com/corrodinggames/rts/game/units/custom/class_530 com/corrodinggames/rts/game/units/custom/PlacementRules
+	FIELD field_2722 field_2722 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_2723 field_2723 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_2724 field_2724 Z
+	FIELD field_2725 field_2725 Z
+	FIELD field_2726 field_2726 Lcom/corrodinggames/rts/game/units/custom/class_531;
+	METHOD method_1225 method_1225 (Lcom/corrodinggames/rts/game/units/class_409;FF)Ljava/lang/String;
+	METHOD method_1226 method_1226 (Lcom/corrodinggames/rts/game/units/class_409;II)Ljava/lang/String;
+	METHOD method_1227 method_1227 (Lcom/corrodinggames/rts/game/units/class_409;Lcom/corrodinggames/rts/game/units/custom/class_532;FF)Z
+	METHOD method_1229 method_1229 (Lcom/corrodinggames/rts/game/units/class_409;FF)Ljava/lang/String;

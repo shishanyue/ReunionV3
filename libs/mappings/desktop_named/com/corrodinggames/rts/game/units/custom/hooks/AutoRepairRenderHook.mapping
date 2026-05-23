@@ -1,1 +1,2 @@
 CLASS com/corrodinggames/rts/game/units/custom/b/class_494 com/corrodinggames/rts/game/units/custom/hooks/AutoRepairRenderHook
+	FIELD field_2487 field_2487 Lcom/corrodinggames/rts/game/units/custom/b/class_493;

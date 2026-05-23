@@ -1,2 +1,5 @@
 CLASS com/corrodinggames/rts/game/a/a/class_264 com/corrodinggames/rts/game/ai/behaviors/AIBehavior
+	METHOD method_223 method_223 ()Lcom/corrodinggames/rts/game/a/a/class_265;
+	METHOD method_226 method_226 (Lcom/corrodinggames/rts/gameFramework/j/class_1030;)V
+	METHOD method_227 method_227 (Lcom/corrodinggames/rts/gameFramework/j/class_1044;)V
 	CLASS 1 AnonymousClass1

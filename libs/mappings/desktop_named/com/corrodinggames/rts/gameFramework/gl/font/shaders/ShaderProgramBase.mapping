@@ -1,1 +1,6 @@
 CLASS com/corrodinggames/rts/gameFramework/b/a/a/class_796 com/corrodinggames/rts/gameFramework/gl/font/shaders/ShaderProgramBase
+	FIELD field_4388 field_4388 I
+	FIELD field_4389 field_4389 I
+	FIELD field_4390 field_4390 Z
+	METHOD method_1834 method_1834 ()V
+	METHOD method_1835 method_1835 (Ljava/lang/String;Ljava/lang/String;[Lcom/corrodinggames/rts/gameFramework/b/a/class_794;)V

@@ -2,6 +2,8 @@ CLASS com/corrodinggames/rts/game/units/h/class_735 com/corrodinggames/rts/game/
 	FIELD field_4110 smokeEffectTimer F
 	FIELD field_4111 sinkVelocity F
 	FIELD field_4112 hasSunk Z
+	FIELD field_4113 field_4113 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4114 field_4114 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	METHOD method_1740 shouldCreateSmokeEffect ()Z
 	METHOD method_1741 loadTextures ()V
 	METHOD method_1742 adjustZPosition (F)V

@@ -1,1 +1,8 @@
 CLASS com/corrodinggames/rts/game/units/h/class_731 com/corrodinggames/rts/game/units/sea/MissileShip
+	FIELD field_4092 field_4092 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4093 field_4093 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4094 field_4094 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4095 field_4095 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4096 field_4096 Landroid/graphics/PointF;
+	FIELD field_4097 field_4097 Landroid/graphics/Rect;
+	METHOD method_1737 method_1737 ()V

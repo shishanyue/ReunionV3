@@ -1,1 +1,12 @@
 CLASS com/corrodinggames/rts/gameFramework/class_860 com/corrodinggames/rts/gameFramework/SizedObject
+	FIELD field_4697 field_4697 I
+	FIELD field_4698 field_4698 I
+	FIELD field_4699 field_4699 F
+	FIELD field_4700 field_4700 F
+	FIELD field_4701 field_4701 Z
+	METHOD method_2016 method_2016 (Lcom/corrodinggames/rts/gameFramework/m/class_1189;I)V
+	METHOD method_2017 method_2017 (Lcom/corrodinggames/rts/gameFramework/m/class_1189;)V
+	METHOD method_2012 method_2012 (I)V
+	METHOD method_2013 method_2013 (I)V
+	METHOD method_2014 method_2014 (I)V
+	METHOD method_2015 method_2015 (I)V

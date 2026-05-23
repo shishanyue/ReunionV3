@@ -1,1 +1,6 @@
 CLASS com/corrodinggames/rts/gameFramework/class_784 com/corrodinggames/rts/gameFramework/ControllerBinding
+	FIELD field_4326 field_4326 Z
+	FIELD field_4327 field_4327 I
+	FIELD field_4328 field_4328 F
+	FIELD field_4329 field_4329 Z
+	METHOD method_1819 method_1819 (Z)F

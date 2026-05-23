@@ -21,6 +21,8 @@ CLASS com/corrodinggames/rts/game/b/class_309 com/corrodinggames/rts/game/map/Ti
 	FIELD field_1064 cachedRect Landroid/graphics/Rect;
 	FIELD field_1065 cachedRectIndex I
 	FIELD field_7910 lastGid I
+	FIELD field_1043 field_1043 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1056 field_1056 Lcom/corrodinggames/rts/game/b/class_299;
 	METHOD method_387 parseTileset ()V
 	METHOD method_388 freeUnusedImages (I)Landroid/graphics/Rect;
 	METHOD method_389 getPropertiesByTileId (ILandroid/graphics/Rect;)V
@@ -34,3 +36,4 @@ CLASS com/corrodinggames/rts/game/b/class_309 com/corrodinggames/rts/game/map/Ti
 	METHOD method_4373 setLastGid (I)V
 	METHOD method_4374 cleanup ()V
 	METHOD method_4375 containsGid (I)Z
+	METHOD method_393 method_393 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/m/class_1189;

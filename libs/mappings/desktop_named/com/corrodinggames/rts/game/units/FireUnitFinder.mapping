@@ -1,1 +1,5 @@
 CLASS com/corrodinggames/rts/game/units/class_423 com/corrodinggames/rts/game/units/FireUnitFinder
+	FIELD field_1885 field_1885 F
+	FIELD field_1886 field_1886 F
+	FIELD field_1887 field_1887 Lcom/corrodinggames/rts/game/units/class_422;
+	METHOD method_884 method_884 (FF)V

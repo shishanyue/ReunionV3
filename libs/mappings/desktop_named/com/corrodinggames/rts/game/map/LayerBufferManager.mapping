@@ -11,6 +11,8 @@ CLASS com/corrodinggames/rts/game/b/class_302 com/corrodinggames/rts/game/map/La
 	FIELD field_7898 cellBufferPixelSize I
 	FIELD field_7899 cellInnerBufferPixelSize I
 	FIELD field_7900 useFogBlitComposite Z
+	FIELD field_948 field_948 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_950 field_950 [[Lcom/corrodinggames/rts/game/b/class_303;
 	METHOD method_345 updateGridParams ()V
 	METHOD method_347 invalidateTileArea (IIZ)V
 	METHOD method_348 invalidateWorldRect (IIIIZ)V
@@ -26,3 +28,4 @@ CLASS com/corrodinggames/rts/game/b/class_302 com/corrodinggames/rts/game/map/La
 	METHOD method_4351 renderCell (II)V
 	METHOD method_4353 update ()V
 	METHOD method_4354 computeRenderScale ()F
+	METHOD method_352 method_352 (II)Lcom/corrodinggames/rts/game/b/class_303;
