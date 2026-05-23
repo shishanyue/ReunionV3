@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/gameFramework/k/class_1063 com/corrodinggames/rts/gameFramework/path/DirectAccessPathNodeArrayListIterator
+	FIELD field_6503 field_6503 Lcom/corrodinggames/rts/gameFramework/k/class_1062;
+	FIELD field_6504 field_6504 I
+	FIELD field_6505 field_6505 I
+	FIELD field_6506 field_6506 I
+	METHOD hasNext hasNext ()Z
+	METHOD next next ()Ljava/lang/Object;
+	METHOD remove remove ()V

@@ -1,5 +1,5 @@
 CLASS com/corrodinggames/rts/gameFramework/j/class_996 com/corrodinggames/rts/gameFramework/network/ChatLog
 	FIELD field_5843 field_5843 Ljava/util/concurrent/ConcurrentLinkedQueue;
-	METHOD method_5346 endsWithSlash (Ljava/lang/String;)Ljava/lang/String;
 	METHOD method_2695 method_2695 ()Ljava/lang/String;
 	METHOD method_2696 method_2696 (ILjava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/gameFramework/j/class_1037;)V
+	METHOD method_5346 endsWithSlash (Ljava/lang/String;)Ljava/lang/String;

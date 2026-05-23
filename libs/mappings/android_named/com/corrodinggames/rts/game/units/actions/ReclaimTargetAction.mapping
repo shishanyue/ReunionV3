@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/a/class_343 com/corrodinggames/rts/game/units/actions/ReclaimTargetAction
+	FIELD field_1551 field_1551 Z

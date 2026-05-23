@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_595 com/corrodinggames/rts/game/units/custom/CustomUnitSpawnList
+	FIELD field_3599 rawSpawnListString Ljava/lang/String;
+	FIELD field_3600 field_3600 [Lcom/corrodinggames/rts/game/units/custom/class_524;
+	FIELD field_3601 field_3601 Lcom/corrodinggames/rts/game/units/custom/class_581;
+	METHOD method_1513 method_1513 ()Z
+	METHOD method_1514 method_1514 (FFFFLcom/corrodinggames/rts/gameFramework/class_773;)Lcom/corrodinggames/rts/gameFramework/d/class_894;
+	METHOD method_1515 method_1515 (FFFFLcom/corrodinggames/rts/gameFramework/class_773;IS)Lcom/corrodinggames/rts/gameFramework/d/class_894;
+	METHOD method_1516 method_1516 ()Z
+	METHOD method_1517 method_1517 ()V

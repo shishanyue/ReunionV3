@@ -1,0 +1,14 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/a/class_1291 com/corrodinggames/rts/gameFramework/utility/saf/SafFileSystem
+	FIELD field_7203 field_7203 Landroid/net/Uri;
+	FIELD field_7204 field_7204 Landroid/net/Uri;
+	FIELD field_7206 field_7206 Z
+	FIELD field_7207 field_7207 Lcom/corrodinggames/rts/gameFramework/utility/a/class_1292;
+	FIELD field_7208 field_7208 Z
+	FIELD field_7209 field_7209 I
+	METHOD method_3486 method_3486 ()V
+	METHOD method_3487 method_3487 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1322;
+	METHOD method_3488 method_3488 (Ljava/lang/String;Ljava/lang/String;)Z
+	METHOD method_3489 method_3489 (Ljava/lang/String;Z)Ljava/io/OutputStream;
+	METHOD method_3490 method_3490 (Ljava/lang/String;)Z
+	METHOD method_3491 method_3491 (Ljava/lang/String;)Landroid/net/Uri;
+	METHOD method_3492 method_3492 (Ljava/lang/String;)Landroid/net/Uri;

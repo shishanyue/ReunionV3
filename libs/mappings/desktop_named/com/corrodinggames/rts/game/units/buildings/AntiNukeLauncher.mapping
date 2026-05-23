@@ -1,16 +1,16 @@
 CLASS com/corrodinggames/rts/game/units/d/class_625 com/corrodinggames/rts/game/units/buildings/AntiNukeLauncher
-	FIELD field_3694 isActive Z
-	FIELD field_3696 scanTimer F
-	FIELD field_3699 tempPoint Landroid/graphics/PointF;
-	FIELD field_3700 drawRect Landroid/graphics/Rect;
-	FIELD field_3703 availableActions Ljava/util/ArrayList;
-	FIELD field_8101 antiNukeCount I
 	FIELD field_3692 field_3692 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_3693 field_3693 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3694 isActive Z
+	FIELD field_3696 scanTimer F
 	FIELD field_3697 field_3697 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_3698 field_3698 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3699 tempPoint Landroid/graphics/PointF;
+	FIELD field_3700 drawRect Landroid/graphics/Rect;
 	FIELD field_3701 field_3701 Lcom/corrodinggames/rts/game/units/a/class_349;
 	FIELD field_3702 field_3702 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_3703 availableActions Ljava/util/ArrayList;
+	FIELD field_8101 antiNukeCount I
 	METHOD method_1562 initializeTextures ()V
 	METHOD method_4714 addAntiNuke ()V
 	CLASS class_626 AnonymousClass1

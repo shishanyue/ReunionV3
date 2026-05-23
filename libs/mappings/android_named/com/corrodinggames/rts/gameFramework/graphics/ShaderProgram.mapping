@@ -1,0 +1,21 @@
+CLASS com/corrodinggames/rts/gameFramework/m/class_1231 com/corrodinggames/rts/gameFramework/graphics/ShaderProgram
+	FIELD field_6873 field_6873 Ljava/lang/String;
+	FIELD field_6874 field_6874 Ljava/lang/String;
+	FIELD field_6881 field_6881 Z
+	FIELD field_6882 field_6882 I
+	FIELD field_6883 field_6883 I
+	FIELD field_6884 field_6884 [Lcom/corrodinggames/rts/gameFramework/m/class_1232;
+	FIELD field_6885 field_6885 Ljava/lang/Object;
+	FIELD field_6886 field_6886 I
+	METHOD method_3314 method_3314 ()Z
+	METHOD method_3315 method_3315 (Landroid/graphics/Paint;Lcom/corrodinggames/rts/gameFramework/m/class_1189;)Z
+	METHOD method_3316 method_3316 (Ljava/lang/String;)V
+	METHOD method_3317 method_3317 (Ljava/lang/String;F)V
+	METHOD method_3318 method_3318 (Ljava/lang/String;FF)V
+	METHOD method_3319 method_3319 (Ljava/lang/String;I)V
+	METHOD method_3320 method_3320 (Ljava/lang/String;Lcom/corrodinggames/rts/gameFramework/m/class_1189;)V
+	METHOD method_3321 method_3321 ()Z
+	METHOD method_3322 method_3322 (Ljava/lang/String;)V
+	METHOD method_3323 method_3323 (Ljava/lang/String;Lcom/corrodinggames/rts/gameFramework/m/class_1189;)V
+	METHOD method_3324 method_3324 ()V
+	METHOD method_3325 method_3325 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/m/class_1232;

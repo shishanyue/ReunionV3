@@ -136,7 +136,7 @@ public class Patcher {
         switch (platform) {
             case ANDROID:
                 intermediary = androidIntermediary;
-                named = desktopNamed;
+                named = androidNamed;
                 namedPath = mappingsDir.resolve("android_named");
                 break;
             case DESKTOP:
@@ -148,7 +148,7 @@ public class Patcher {
                 throw new IllegalArgumentException("Unsupported platform: " + platform);
         }
 
-        named = MappingUtils.buildMergedMappings(named, shared);
+        named = MappingUtils.buildMergedMappings(shared, named);
         EnigmaDirWriter writer = new EnigmaDirWriter(namedPath, true);
         named.accept(writer);
         writer.close();

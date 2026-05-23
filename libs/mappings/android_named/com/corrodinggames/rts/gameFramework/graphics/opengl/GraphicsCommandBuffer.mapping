@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/m/class_1149 com/corrodinggames/rts/gameFramework/graphics/opengl/GraphicsCommandBuffer
+	FIELD field_6684 field_6684 I
+	FIELD field_6685 field_6685 [Lcom/corrodinggames/rts/gameFramework/m/class_1148;
+	METHOD method_3193 method_3193 (Lcom/corrodinggames/rts/gameFramework/m/class_1148;)Z

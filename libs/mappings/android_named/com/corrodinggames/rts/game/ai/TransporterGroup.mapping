@@ -1,0 +1,22 @@
+CLASS com/corrodinggames/rts/game/a/class_270 com/corrodinggames/rts/game/ai/TransporterGroup
+	FIELD field_722 field_722 Z
+	FIELD field_723 field_723 I
+	FIELD field_724 field_724 I
+	FIELD field_725 field_725 Lcom/corrodinggames/rts/game/a/class_292;
+	FIELD field_726 field_726 F
+	FIELD field_727 field_727 F
+	FIELD field_728 field_728 F
+	FIELD field_729 field_729 F
+	FIELD field_730 field_730 F
+	FIELD field_731 field_731 F
+	FIELD field_732 field_732 F
+	FIELD field_734 field_734 Lcom/corrodinggames/rts/game/a/class_291;
+	FIELD field_735 field_735 Lcom/corrodinggames/rts/game/units/class_409;
+	FIELD field_736 field_736 F
+	FIELD field_737 field_737 Z
+	FIELD field_738 field_738 Z
+	FIELD field_739 field_739 F
+	FIELD field_740 field_740 F
+	METHOD method_231 method_231 (Z)Lcom/corrodinggames/rts/game/a/class_292;
+	METHOD method_232 method_232 ()V
+	METHOD method_233 method_233 ()Z

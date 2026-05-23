@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/gameFramework/j/class_1023 com/corrodinggames/rts/gameFramework/network/ChatMessage
+	FIELD field_6057 field_6057 I
+	FIELD field_6058 field_6058 Ljava/lang/String;
+	FIELD field_6059 field_6059 Ljava/lang/String;
+	FIELD field_6060 field_6060 I
+	FIELD field_6061 field_6061 J
+	FIELD field_6062 field_6062 Lcom/corrodinggames/rts/gameFramework/j/class_996;
+	METHOD method_2843 method_2843 ()Ljava/lang/String;

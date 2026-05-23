@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/game/units/d/class_618 com/corrodinggames/rts/game/units/buildings/AutoRepairCallback
+	FIELD field_3665 isReady Z
+	FIELD field_3666 field_3666 Lcom/corrodinggames/rts/game/class_324;
+	FIELD field_3667 field_3667 Lcom/corrodinggames/rts/game/units/class_426;
+	FIELD field_3668 bestTargetHealth F
+	FIELD field_3669 bestTargetDistance F

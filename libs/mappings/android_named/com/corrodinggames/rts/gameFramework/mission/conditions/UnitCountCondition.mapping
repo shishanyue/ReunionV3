@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/n/a/class_1258 com/corrodinggames/rts/gameFramework/mission/conditions/UnitCountCondition
+	FIELD field_7045 field_7045 Ljava/lang/Integer;
+	METHOD method_3433 method_3433 (Lcom/corrodinggames/rts/gameFramework/n/class_1255;)Lcom/corrodinggames/rts/gameFramework/n/a/class_1258;

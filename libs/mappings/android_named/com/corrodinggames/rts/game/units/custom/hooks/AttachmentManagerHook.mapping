@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/custom/b/class_505 com/corrodinggames/rts/game/units/custom/hooks/AttachmentManagerHook
+	FIELD field_2610 field_2610 Lcom/corrodinggames/rts/game/units/custom/b/class_505;
+	METHOD method_1201 method_1201 (Lcom/corrodinggames/rts/game/units/custom/class_579;Lcom/corrodinggames/rts/game/units/custom/b/class_506;)Lcom/corrodinggames/rts/game/units/class_409;
+	METHOD method_1202 method_1202 (Lcom/corrodinggames/rts/game/units/custom/class_579;Lcom/corrodinggames/rts/game/units/custom/b/class_506;Lcom/corrodinggames/rts/game/units/class_409;)Z
+	METHOD method_1204 method_1204 (Lcom/corrodinggames/rts/game/units/custom/class_579;S)Lcom/corrodinggames/rts/game/units/custom/b/class_506;

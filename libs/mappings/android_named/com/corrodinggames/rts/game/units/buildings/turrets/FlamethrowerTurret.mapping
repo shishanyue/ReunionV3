@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/d/a/class_612 com/corrodinggames/rts/game/units/buildings/turrets/FlamethrowerTurret
+	FIELD field_3649 field_3649 Lcom/corrodinggames/rts/game/units/d/a/class_605;

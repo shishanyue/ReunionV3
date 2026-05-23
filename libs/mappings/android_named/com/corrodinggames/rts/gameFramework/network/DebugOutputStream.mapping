@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/j/class_1034 com/corrodinggames/rts/gameFramework/network/DebugOutputStream
+	FIELD field_6131 buffer Ljava/io/ByteArrayOutputStream;
+	FIELD field_6132 mainPrintStream Ljava/io/PrintStream;
+	FIELD field_6133 activePrintStream Ljava/io/PrintStream;
+	FIELD field_6134 blockStack Ljava/util/LinkedList;

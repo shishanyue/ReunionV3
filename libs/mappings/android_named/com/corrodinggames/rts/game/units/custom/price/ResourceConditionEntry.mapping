@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/custom/d/class_554 com/corrodinggames/rts/game/units/custom/price/ResourceConditionEntry
+	FIELD field_2951 field_2951 Lcom/corrodinggames/rts/game/units/custom/e/class_556;
+	FIELD field_2952 field_2952 D
+	FIELD field_2953 field_2953 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;

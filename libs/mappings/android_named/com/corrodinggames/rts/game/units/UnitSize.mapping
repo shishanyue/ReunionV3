@@ -1,0 +1,12 @@
+CLASS com/corrodinggames/rts/game/units/class_413 com/corrodinggames/rts/game/units/UnitSize
+	FIELD field_1818 field_1818 Lcom/corrodinggames/rts/game/units/class_413;
+	FIELD field_1819 field_1819 Lcom/corrodinggames/rts/game/units/class_413;
+	FIELD field_1820 field_1820 Lcom/corrodinggames/rts/game/units/class_413;
+	FIELD field_1821 field_1821 Lcom/corrodinggames/rts/game/units/class_413;
+	FIELD field_1822 field_1822 Lcom/corrodinggames/rts/game/units/class_413;
+	FIELD field_1823 field_1823 Lcom/corrodinggames/rts/game/units/class_413;
+	FIELD field_1824 field_1824 Lcom/corrodinggames/rts/game/units/class_413;
+	FIELD field_1825 field_1825 Lcom/corrodinggames/rts/game/units/class_413;
+	FIELD field_1826 field_1826 [Lcom/corrodinggames/rts/game/units/class_413;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/class_413;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/class_413;

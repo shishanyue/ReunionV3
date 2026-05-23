@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/class_987 com/corrodinggames/rts/gameFramework/CustomExceptionHandler
+	FIELD field_5768 field_5768 Ljava/lang/Thread$UncaughtExceptionHandler;
+	METHOD uncaughtException uncaughtException (Ljava/lang/Thread;Ljava/lang/Throwable;)V

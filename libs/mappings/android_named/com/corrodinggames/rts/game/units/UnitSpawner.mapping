@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/game/units/class_719 com/corrodinggames/rts/game/units/UnitSpawner
+	FIELD field_4018 field_4018 Z
+	FIELD field_4024 field_4024 I
+	FIELD field_4025 field_4025 F
+	FIELD field_4026 field_4026 F
+	FIELD field_4027 field_4027 I
+	METHOD method_1716 method_1716 ()V

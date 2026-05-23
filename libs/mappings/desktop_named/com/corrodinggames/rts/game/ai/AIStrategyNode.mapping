@@ -1,17 +1,17 @@
 CLASS com/corrodinggames/rts/game/a/class_271 com/corrodinggames/rts/game/ai/AIStrategyNode
 	FIELD field_741 strategyId I
+	FIELD field_742 field_742 Lcom/corrodinggames/rts/game/a/class_263;
 	FIELD field_743 posX F
 	FIELD field_744 posY F
 	FIELD field_745 radius F
 	FIELD field_746 isDestroyed Z
 	FIELD field_747 tempPointList Ljava/util/ArrayList;
-	FIELD field_742 field_742 Lcom/corrodinggames/rts/game/a/class_263;
 	METHOD method_234 getDistanceSqToPoint (FF)F
-	METHOD method_240 destroy ()V
-	METHOD method_241 getRandomPointInside ()Landroid/graphics/PointF;
-	METHOD method_4308 isPointInside (FF)Z
 	METHOD method_235 method_235 (Lcom/corrodinggames/rts/game/units/class_426;)Z
 	METHOD method_236 method_236 (Lcom/corrodinggames/rts/game/units/class_426;F)Z
 	METHOD method_237 method_237 (Lcom/corrodinggames/rts/gameFramework/j/class_1044;)V
 	METHOD method_238 method_238 (Lcom/corrodinggames/rts/game/units/class_426;)F
 	METHOD method_239 method_239 (Lcom/corrodinggames/rts/game/units/class_704;)Landroid/graphics/PointF;
+	METHOD method_240 destroy ()V
+	METHOD method_241 getRandomPointInside ()Landroid/graphics/PointF;
+	METHOD method_4308 isPointInside (FF)Z

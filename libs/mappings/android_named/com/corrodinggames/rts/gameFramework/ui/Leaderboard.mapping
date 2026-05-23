@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/f/class_965 com/corrodinggames/rts/gameFramework/ui/Leaderboard
+	FIELD field_5628 field_5628 Lcom/corrodinggames/rts/gameFramework/f/class_961;
+	FIELD field_5632 backgroundRect Landroid/graphics/RectF;

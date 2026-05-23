@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/gameFramework/f/class_956 com/corrodinggames/rts/gameFramework/ui/TextUtils
+	FIELD field_5421 tempRect Landroid/graphics/Rect;
+	FIELD field_5422 lines Ljava/util/ArrayList;
+	FIELD field_5423 backgroundRect Landroid/graphics/RectF;
+	FIELD field_5424 textBounds Landroid/graphics/RectF;
+	METHOD method_2478 getLineHeight (Landroid/graphics/Paint;)I
+	METHOD method_2482 getCharWidth (Landroid/graphics/Paint;)I

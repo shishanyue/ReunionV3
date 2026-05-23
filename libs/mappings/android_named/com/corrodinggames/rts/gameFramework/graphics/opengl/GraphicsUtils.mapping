@@ -1,0 +1,12 @@
+CLASS com/corrodinggames/rts/gameFramework/m/class_1227 com/corrodinggames/rts/gameFramework/graphics/opengl/GraphicsUtils
+	FIELD field_6842 field_6842 I
+	FIELD field_6847 field_6847 [Lcom/corrodinggames/rts/gameFramework/m/class_1228;
+	FIELD field_6848 field_6848 Landroid/graphics/Paint;
+	FIELD field_6851 field_6851 Landroid/graphics/RectF;
+	METHOD method_3298 method_3298 (I)I
+	METHOD method_3299 method_3299 (Landroid/graphics/Paint;)V
+	METHOD method_3300 method_3300 (Lcom/corrodinggames/rts/gameFramework/m/class_1189;)Landroid/graphics/Bitmap;
+	METHOD method_3305 method_3305 (Ljava/lang/String;FFLandroid/graphics/Paint;)V
+	METHOD method_3306 method_3306 (I)I
+	METHOD method_3308 method_3308 (I)I
+	METHOD method_3309 method_3309 (I)I

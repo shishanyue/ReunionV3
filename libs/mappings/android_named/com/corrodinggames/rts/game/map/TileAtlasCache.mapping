@@ -1,0 +1,25 @@
+CLASS com/corrodinggames/rts/game/b/class_307 com/corrodinggames/rts/game/map/TileAtlasCache
+	FIELD field_1020 allocatedSlotCount I
+	FIELD field_1021 field_1021 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1022 field_1022 Lcom/corrodinggames/rts/gameFramework/m/class_1225;
+	FIELD field_1023 paddingBlitPaint Landroid/graphics/Paint;
+	FIELD field_1024 slotPixelWidth I
+	FIELD field_1025 slotPixelHeight I
+	FIELD field_1026 slotStridePixelsX I
+	FIELD field_1027 slotStridePixelsY I
+	FIELD field_1028 scale F
+	FIELD field_1029 isAlphaAtlas Z
+	FIELD field_1030 field_1030 Lcom/corrodinggames/rts/game/b/class_307;
+	FIELD field_1031 tmpRectA Landroid/graphics/Rect;
+	FIELD field_1032 tmpRectB Landroid/graphics/Rect;
+	FIELD field_1033 tmpRectC Landroid/graphics/Rect;
+	FIELD field_1034 cachedSlotRect Landroid/graphics/Rect;
+	FIELD field_1035 cachedSlotIndex I
+	METHOD method_374 initializeAtlasTexture ()V
+	METHOD method_376 computeAtlasSlotRect (ILandroid/graphics/Rect;)V
+	METHOD method_377 method_377 (ILcom/corrodinggames/rts/gameFramework/m/class_1189;Landroid/graphics/Rect;)V
+	METHOD method_379 method_379 (Lcom/corrodinggames/rts/game/b/class_309;I)I
+	METHOD method_381 method_381 (Lcom/corrodinggames/rts/gameFramework/m/class_1225;Lcom/corrodinggames/rts/gameFramework/m/class_1189;Landroid/graphics/Rect;Landroid/graphics/Rect;Landroid/graphics/Paint;)V
+	METHOD method_382 clearAtlas ()V
+	METHOD method_383 getRectForIndex (I)Landroid/graphics/Rect;
+	METHOD method_385 finalizeAtlas ()V

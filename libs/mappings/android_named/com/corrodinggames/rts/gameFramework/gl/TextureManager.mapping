@@ -1,0 +1,13 @@
+CLASS com/corrodinggames/rts/gameFramework/b/class_828 com/corrodinggames/rts/gameFramework/gl/TextureManager
+	METHOD method_1906 method_1906 ()V
+	METHOD method_1910 method_1910 (IIII)V
+	METHOD method_1911 method_1911 (Landroid/graphics/Bitmap;)V
+	METHOD method_1912 method_1912 (Landroid/graphics/Bitmap;Lcom/corrodinggames/rts/gameFramework/m/class_1189;)Lcom/corrodinggames/rts/gameFramework/b/class_823;
+	METHOD method_1913 method_1913 (Landroid/graphics/Bitmap;Lcom/corrodinggames/rts/gameFramework/m/class_1189;Lcom/corrodinggames/rts/gameFramework/b/class_816;)Lcom/corrodinggames/rts/gameFramework/b/class_823;
+	METHOD method_1914 method_1914 (Lcom/corrodinggames/rts/gameFramework/b/class_823;)V
+	METHOD method_1915 method_1915 (Ljava/lang/String;FFLandroid/graphics/Paint;)V
+	METHOD method_1917 method_1917 ()Lcom/corrodinggames/rts/gameFramework/b/class_836;
+	METHOD method_1919 method_1919 ()V
+	METHOD finalize finalize ()V
+	METHOD method_1922 method_1922 ()V
+	METHOD method_1923 method_1923 ()V

@@ -1,0 +1,13 @@
+CLASS com/corrodinggames/rts/gameFramework/e/class_905 com/corrodinggames/rts/gameFramework/file/CacheManager
+	FIELD field_5129 DEBUG Z
+	METHOD method_2225 encodeFileName (Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_2226 encodeChar (Ljava/lang/String;C)Ljava/lang/String;
+	METHOD method_2227 deleteFromCache (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD method_2228 saveToCache (Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;)Z
+	METHOD method_2229 saveToCache (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
+	METHOD method_2230 getCachePath (Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/String;
+	METHOD method_2232 listDirCached (Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;
+	METHOD method_2233 method_2233 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/e/class_906;
+	METHOD method_2234 openAssetCached (Ljava/lang/String;Ljava/lang/String;)Ljava/io/InputStream;
+	METHOD method_2235 existsInCache (Ljava/lang/String;Ljava/lang/String;)Z
+	METHOD method_2236 readFromCache (Ljava/lang/String;Ljava/lang/String;)Ljava/io/FileInputStream;

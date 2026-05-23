@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/gameFramework/d/class_891 com/corrodinggames/rts/gameFramework/effect/CloudRenderer
+	FIELD field_4920 isInitialized Z
+	FIELD field_4921 field_4921 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4922 paint Landroid/graphics/Paint;
+	FIELD field_4923 drawRect Landroid/graphics/RectF;
+	FIELD field_4924 scrollX F
+	FIELD field_4925 scrollY F
+	METHOD method_2086 shouldRender ()Z
+	METHOD method_2087 initialize ()V

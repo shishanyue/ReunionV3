@@ -1,8 +1,8 @@
 CLASS com/corrodinggames/rts/game/units/class_431 com/corrodinggames/rts/game/units/UnitTypeEnum
-	FIELD field_2088 buildPriority I
 	FIELD field_2086 field_2086 Lcom/corrodinggames/rts/game/units/class_431;
 	FIELD field_2060 field_2060 Lcom/corrodinggames/rts/game/units/class_431;
 	FIELD field_2087 field_2087 Lcom/corrodinggames/rts/game/units/a/class_356;
+	FIELD field_2088 buildPriority I
 	FIELD field_2089 field_2089 Ljava/lang/String;
 	FIELD field_2090 field_2090 Ljava/lang/String;
 	FIELD field_2091 field_2091 Ljava/util/ArrayList;
@@ -60,22 +60,22 @@ CLASS com/corrodinggames/rts/game/units/class_431 com/corrodinggames/rts/game/un
 	FIELD field_2084 field_2084 Lcom/corrodinggames/rts/game/units/class_431;
 	FIELD field_2120 field_2120 Lcom/corrodinggames/rts/game/units/class_431;
 	FIELD field_2085 field_2085 Lcom/corrodinggames/rts/game/units/class_431;
-	METHOD method_1077 createUnit ()Z
+	METHOD method_1078 method_1078 (Lcom/corrodinggames/rts/game/units/class_409;)I
+	METHOD method_1082 method_1082 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/class_704;
 	METHOD method_1084 formatStringWithThreeStrings (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_1085 method_1085 (Ljava/lang/String;Z)Lcom/corrodinggames/rts/game/units/class_704;
 	METHOD method_1086 addUnitsToList (Ljava/util/ArrayList;I)V
+	METHOD method_1087 method_1087 (Z)Lcom/corrodinggames/rts/game/units/class_426;
+	METHOD method_1077 createUnit ()Z
 	METHOD method_1088 abstractMethodB ()V
 	METHOD method_1089 getUpgradeCost (I)I
 	METHOD method_1090 loadAllUnitTypes ()V
 	METHOD method_1091 loadUnitTypeImages ()V
 	METHOD method_1092 loadUnitTypeSounds ()V
-	METHOD method_4513 formatStringWithFloat (Ljava/lang/String;F)Ljava/lang/String;
-	METHOD method_4514 formatStringWithFloatAndString (Ljava/lang/String;FLjava/lang/String;)Ljava/lang/String;
-	METHOD method_1078 method_1078 (Lcom/corrodinggames/rts/game/units/class_409;)I
-	METHOD method_1082 method_1082 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/class_704;
-	METHOD method_1085 method_1085 (Ljava/lang/String;Z)Lcom/corrodinggames/rts/game/units/class_704;
-	METHOD method_1087 method_1087 (Z)Lcom/corrodinggames/rts/game/units/class_426;
 	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/class_431;
 	METHOD values values ()[Lcom/corrodinggames/rts/game/units/class_431;
+	METHOD method_4513 formatStringWithFloat (Ljava/lang/String;F)Ljava/lang/String;
+	METHOD method_4514 formatStringWithFloatAndString (Ljava/lang/String;FLjava/lang/String;)Ljava/lang/String;
 	CLASS class_432 extractor
 	CLASS class_433 HoverTankUnitType
 	CLASS class_434 ArtilleryUnitType

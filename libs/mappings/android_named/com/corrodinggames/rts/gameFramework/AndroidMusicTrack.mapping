@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/class_849 com/corrodinggames/rts/gameFramework/AndroidMusicTrack
+	FIELD field_4684 field_4684 Landroid/media/MediaPlayer;
+	FIELD field_4685 field_4685 Lcom/corrodinggames/rts/gameFramework/class_848;
+	FIELD field_4686 field_4686 Lcom/corrodinggames/rts/gameFramework/class_847;

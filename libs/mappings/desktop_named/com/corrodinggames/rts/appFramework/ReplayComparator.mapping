@@ -1,4 +1,4 @@
 CLASS com/corrodinggames/rts/appFramework/class_74 com/corrodinggames/rts/appFramework/ReplayComparator
 	FIELD field_254 datePattern Ljava/util/regex/Pattern;
-	METHOD method_4161 parseDate (Ljava/lang/String;)Ljava/util/Date;
 	METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I
+	METHOD method_4161 parseDate (Ljava/lang/String;)Ljava/util/Date;

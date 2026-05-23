@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/custom/c/class_535 com/corrodinggames/rts/game/units/custom/tracking/AnimationTrackingTarget
+	FIELD field_2760 field_2760 Lcom/corrodinggames/rts/game/units/custom/class_576;

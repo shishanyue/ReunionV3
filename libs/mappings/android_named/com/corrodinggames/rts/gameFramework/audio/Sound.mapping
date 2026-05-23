@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/a/class_765 com/corrodinggames/rts/gameFramework/audio/Sound
+	FIELD field_4191 field_4191 F
+	FIELD field_4192 field_4192 Ljava/lang/String;
+	FIELD field_4193 field_4193 Z
+	FIELD field_4194 field_4194 Z

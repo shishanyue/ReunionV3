@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/game/units/class_370 com/corrodinggames/rts/game/units/ChangeTypeFilterAction
+	FIELD field_1594 field_1594 Z
+	FIELD field_1595 field_1595 Z

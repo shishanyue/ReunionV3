@@ -1,20 +1,26 @@
 CLASS com/corrodinggames/rts/gameFramework/i/class_991 com/corrodinggames/rts/gameFramework/mod/ModManager
 	FIELD field_5779 minVersion Ljava/lang/String;
 	FIELD field_5780 latestVersion Ljava/lang/String;
+	FIELD field_5781 field_5781 Lcom/corrodinggames/rts/gameFramework/i/class_992;
 	FIELD field_5782 listLock Ljava/lang/Object;
 	FIELD field_5783 mods Ljava/util/ArrayList;
 	FIELD field_5784 invalidMods Ljava/util/ArrayList;
-	FIELD field_5781 field_5781 Lcom/corrodinggames/rts/gameFramework/i/class_992;
+	METHOD method_2661 addExtraMapsForPath ([Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;
+	METHOD method_2651 method_2651 (Lcom/corrodinggames/rts/gameFramework/i/class_992;)V
 	METHOD method_2653 checkMinVersion (Ljava/lang/String;)V
 	METHOD method_2654 parseVersionPart (Ljava/lang/String;I)I
+	METHOD method_2656 method_2656 (Ljava/lang/String;Lcom/corrodinggames/rts/gameFramework/i/class_992;)V
 	METHOD method_2657 checkVersion (Ljava/lang/String;Ljava/lang/String;)V
 	METHOD method_2659 loadModsFromDir (Ljava/lang/String;ZZ)V
 	METHOD method_2660 applyMods (ZZ)V
-	METHOD method_2661 addExtraMapsForPath ([Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;
+	METHOD method_2663 method_2663 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/i/class_992;
 	METHOD method_2664 getStorageModsCount ()I
 	METHOD method_2665 getModCountByPaddedTitle (Ljava/lang/String;)I
 	METHOD method_2666 saveModSelection ()V
+	METHOD method_2667 method_2667 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/i/class_992;
+	METHOD method_2669 method_2669 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/i/class_992;
 	METHOD method_2670 disableAllMods ()V
+	METHOD method_2671 method_2671 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/i/class_992;
 	METHOD method_2672 getActiveModCount ()I
 	METHOD method_2673 cleanVersionString (Ljava/lang/String;)Ljava/lang/String;
 	METHOD method_2674 getAllUnitBlueprintsFromEnabledMods ()Ljava/util/ArrayList;
@@ -29,9 +35,3 @@ CLASS com/corrodinggames/rts/gameFramework/i/class_991 com/corrodinggames/rts/ga
 	METHOD method_5330 applyAndSaveMods ()V
 	METHOD method_5331 triggerStatisticsUpdate ()V
 	METHOD method_5332 clearInvalidMods ()V
-	METHOD method_2651 method_2651 (Lcom/corrodinggames/rts/gameFramework/i/class_992;)V
-	METHOD method_2656 method_2656 (Ljava/lang/String;Lcom/corrodinggames/rts/gameFramework/i/class_992;)V
-	METHOD method_2663 method_2663 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/i/class_992;
-	METHOD method_2667 method_2667 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/i/class_992;
-	METHOD method_2669 method_2669 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/i/class_992;
-	METHOD method_2671 method_2671 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/i/class_992;

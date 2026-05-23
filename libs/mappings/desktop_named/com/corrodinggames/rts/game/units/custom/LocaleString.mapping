@@ -1,12 +1,12 @@
 CLASS com/corrodinggames/rts/game/units/custom/class_527 com/corrodinggames/rts/game/units/custom/LocaleString
+	FIELD field_2714 field_2714 Lcom/corrodinggames/rts/game/units/custom/class_527;
+	FIELD field_2715 field_2715 [Lcom/corrodinggames/rts/game/units/custom/class_528;
 	FIELD field_2716 cachedText Ljava/lang/String;
 	FIELD field_2717 cachedReloadCount I
 	FIELD field_2718 text Ljava/lang/String;
-	FIELD field_2714 field_2714 Lcom/corrodinggames/rts/game/units/custom/class_527;
-	FIELD field_2715 field_2715 [Lcom/corrodinggames/rts/game/units/custom/class_528;
-	METHOD <clinit> __clinit__ ()V
 	METHOD method_1220 isEmpty ()Z
+	METHOD method_1221 method_1221 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/class_527;
 	METHOD method_1222 wrapSingleText (Ljava/lang/String;Ljava/lang/String;)V
 	METHOD method_1223 resolveText ()Ljava/lang/String;
-	METHOD method_1221 method_1221 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/class_527;
 	METHOD method_1224 method_1224 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/class_527;
+	METHOD <clinit> __clinit__ ()V

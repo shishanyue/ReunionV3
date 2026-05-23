@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/j/class_1045 com/corrodinggames/rts/gameFramework/network/BlockInput
+	FIELD field_6244 blockName Ljava/lang/String;
+	FIELD field_6245 byteInput Ljava/io/ByteArrayInputStream;
+	FIELD field_6246 dataInput Ljava/io/DataInputStream;

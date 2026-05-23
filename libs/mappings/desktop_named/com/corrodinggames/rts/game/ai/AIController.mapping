@@ -18,23 +18,37 @@ CLASS com/corrodinggames/rts/game/a/class_263 com/corrodinggames/rts/game/ai/AIC
 	FIELD field_664 resourceMultiplierNormal F
 	FIELD field_671 unitCountsUpdated Z
 	FIELD field_672 PATHFINDING_OVERLOAD_THRESHOLD I
+	FIELD field_690 canBuild Z
+	FIELD field_676 field_676 Lcom/corrodinggames/rts/game/a/class_287;
+	FIELD field_691 isAggressive Z
+	FIELD field_677 field_677 Lcom/corrodinggames/rts/game/a/class_287;
+	FIELD field_692 enableScouting Z
+	FIELD field_678 field_678 Lcom/corrodinggames/rts/game/a/class_287;
+	FIELD field_679 field_679 Lcom/corrodinggames/rts/game/a/class_287;
+	FIELD field_681 field_681 Lcom/corrodinggames/rts/game/a/class_287;
+	FIELD field_696 enableNaval Z
+	FIELD field_682 field_682 Lcom/corrodinggames/rts/game/a/class_287;
+	FIELD field_697 enableAirForce Z
+	FIELD field_683 field_683 Lcom/corrodinggames/rts/game/a/class_286;
 	FIELD field_684 difficultyLevel I
 	FIELD field_685 aiUnitManagementTimer F
-	FIELD field_689 tempUnitList Ljava/util/ArrayList;
-	FIELD field_690 canBuild Z
-	FIELD field_691 isAggressive Z
-	FIELD field_692 enableScouting Z
-	FIELD field_696 enableNaval Z
-	FIELD field_697 enableAirForce Z
 	FIELD field_700 isReadyForAttack Z
 	FIELD field_701 hasSufficientUnitsForAttack Z
 	FIELD field_702 isWaitingForBetterAttackTiming Z
+	FIELD field_688 field_688 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
 	FIELD field_703 isAttackAllowed Z
+	FIELD field_689 tempUnitList Ljava/util/ArrayList;
 	FIELD field_704 attackCooldownTimer I
 	FIELD field_705 strategyNodes Ljava/util/concurrent/ConcurrentLinkedQueue;
 	FIELD field_706 activeStrategies Ljava/util/ArrayList;
 	FIELD field_707 debugPoint Landroid/graphics/PointF;
 	FIELD field_709 debugMessages Ljava/util/ArrayList;
+	FIELD field_710 field_710 Lcom/corrodinggames/rts/game/a/class_287;
+	FIELD field_711 field_711 Lcom/corrodinggames/rts/game/a/class_287;
+	FIELD field_712 field_712 Lcom/corrodinggames/rts/game/a/class_287;
+	FIELD field_713 field_713 Lcom/corrodinggames/rts/game/a/class_287;
+	FIELD field_714 field_714 Lcom/corrodinggames/rts/game/a/class_287;
+	FIELD field_715 field_715 Lcom/corrodinggames/rts/game/a/class_287;
 	FIELD field_7834 activeTransporterGroupCount I
 	FIELD field_7835 resourceMultiplierHard F
 	FIELD field_7836 resourceMultiplierInsane F
@@ -53,20 +67,20 @@ CLASS com/corrodinggames/rts/game/a/class_263 com/corrodinggames/rts/game/ai/AIC
 	FIELD field_7851 buildingCount I
 	FIELD field_7852 enableExperimentalUnits Z
 	FIELD field_7854 debugPaint Landroid/graphics/Paint;
-	FIELD field_676 field_676 Lcom/corrodinggames/rts/game/a/class_287;
-	FIELD field_677 field_677 Lcom/corrodinggames/rts/game/a/class_287;
-	FIELD field_678 field_678 Lcom/corrodinggames/rts/game/a/class_287;
-	FIELD field_679 field_679 Lcom/corrodinggames/rts/game/a/class_287;
-	FIELD field_681 field_681 Lcom/corrodinggames/rts/game/a/class_287;
-	FIELD field_682 field_682 Lcom/corrodinggames/rts/game/a/class_287;
-	FIELD field_683 field_683 Lcom/corrodinggames/rts/game/a/class_286;
-	FIELD field_688 field_688 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
-	FIELD field_710 field_710 Lcom/corrodinggames/rts/game/a/class_287;
-	FIELD field_711 field_711 Lcom/corrodinggames/rts/game/a/class_287;
-	FIELD field_712 field_712 Lcom/corrodinggames/rts/game/a/class_287;
-	FIELD field_713 field_713 Lcom/corrodinggames/rts/game/a/class_287;
-	FIELD field_714 field_714 Lcom/corrodinggames/rts/game/a/class_287;
-	FIELD field_715 field_715 Lcom/corrodinggames/rts/game/a/class_287;
+	METHOD method_196 method_196 (FF)Lcom/corrodinggames/rts/game/a/class_292;
+	METHOD method_197 method_197 (FFFFLcom/corrodinggames/rts/game/units/class_428;)Z
+	METHOD method_199 method_199 (Lcom/corrodinggames/rts/game/a/class_271;)I
+	METHOD method_203 method_203 (Lcom/corrodinggames/rts/game/units/class_426;FF)Z
+	METHOD method_204 method_204 (Lcom/corrodinggames/rts/game/units/class_426;FFF)Z
+	METHOD method_209 updateUnitCounts ()V
+	METHOD method_212 method_212 (Lcom/corrodinggames/rts/game/units/class_426;Lcom/corrodinggames/rts/game/units/class_426;)Z
+	METHOD method_213 method_213 (Lcom/corrodinggames/rts/game/class_324;)Lcom/corrodinggames/rts/game/units/class_426;
+	METHOD method_214 setDebugKeyState (Ljava/lang/String;)V
+	METHOD method_216 method_216 (Lcom/corrodinggames/rts/game/units/class_426;)Z
+	METHOD method_218 method_218 (Lcom/corrodinggames/rts/game/units/class_426;)Z
+	METHOD method_219 method_219 (Lcom/corrodinggames/rts/game/units/class_426;)Z
+	METHOD method_221 method_221 (I)Lcom/corrodinggames/rts/game/a/class_271;
+	METHOD method_222 method_222 (I)Lcom/corrodinggames/rts/game/a/class_271;
 	METHOD method_186 isAggressiveFlagEnabled ()Z
 	METHOD method_187 isPathfindingOverloaded ()Z
 	METHOD method_188 isAttackBlockedByConditions ()Z
@@ -74,8 +88,6 @@ CLASS com/corrodinggames/rts/game/a/class_263 com/corrodinggames/rts/game/ai/AIC
 	METHOD method_191 getRandomTilePosition ()Landroid/graphics/PointF;
 	METHOD method_192 countUnitsInGroups ()I
 	METHOD method_194 checkZoneIntegrity ()V
-	METHOD method_209 updateUnitCounts ()V
-	METHOD method_214 setDebugKeyState (Ljava/lang/String;)V
 	METHOD method_4184 getNearestTileToPosition (FF)Landroid/graphics/PointF;
 	METHOD method_4186 assignTaskToUnitType (Landroid/graphics/PointF;)Z
 	METHOD method_4205 isInsaneDifficulty ()Z
@@ -95,18 +107,6 @@ CLASS com/corrodinggames/rts/game/a/class_263 com/corrodinggames/rts/game/ai/AIC
 	METHOD method_4230 updateSpecialUnits (F)V
 	METHOD method_4231 updateCoreLogic (F)V
 	METHOD method_4232 updateAILogic (F)V
-	METHOD method_196 method_196 (FF)Lcom/corrodinggames/rts/game/a/class_292;
-	METHOD method_197 method_197 (FFFFLcom/corrodinggames/rts/game/units/class_428;)Z
-	METHOD method_199 method_199 (Lcom/corrodinggames/rts/game/a/class_271;)I
-	METHOD method_203 method_203 (Lcom/corrodinggames/rts/game/units/class_426;FF)Z
-	METHOD method_204 method_204 (Lcom/corrodinggames/rts/game/units/class_426;FFF)Z
-	METHOD method_212 method_212 (Lcom/corrodinggames/rts/game/units/class_426;Lcom/corrodinggames/rts/game/units/class_426;)Z
-	METHOD method_213 method_213 (Lcom/corrodinggames/rts/game/class_324;)Lcom/corrodinggames/rts/game/units/class_426;
-	METHOD method_216 method_216 (Lcom/corrodinggames/rts/game/units/class_426;)Z
-	METHOD method_218 method_218 (Lcom/corrodinggames/rts/game/units/class_426;)Z
-	METHOD method_219 method_219 (Lcom/corrodinggames/rts/game/units/class_426;)Z
-	METHOD method_221 method_221 (I)Lcom/corrodinggames/rts/game/a/class_271;
-	METHOD method_222 method_222 (I)Lcom/corrodinggames/rts/game/a/class_271;
 	CLASS class_272 1
 	CLASS class_273 2
 	CLASS class_274 3

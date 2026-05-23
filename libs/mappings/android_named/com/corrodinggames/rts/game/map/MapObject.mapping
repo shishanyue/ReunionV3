@@ -1,0 +1,23 @@
+CLASS com/corrodinggames/rts/game/b/class_298 com/corrodinggames/rts/game/map/MapObject
+	FIELD field_858 objectIndex I
+	FIELD field_859 name Ljava/lang/String;
+	FIELD field_860 normalizedName Ljava/lang/String;
+	FIELD field_861 type Ljava/lang/String;
+	FIELD field_862 x F
+	FIELD field_863 y F
+	FIELD field_864 width F
+	FIELD field_865 height F
+	FIELD field_866 rotation F
+	FIELD field_867 tileRect Landroid/graphics/RectF;
+	FIELD field_868 globalTileId I
+	FIELD field_869 field_869 Lcom/corrodinggames/rts/game/b/class_309;
+	FIELD field_870 tileIndex I
+	FIELD field_871 properties Ljava/util/Properties;
+	FIELD field_872 field_872 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_873 imageSource Ljava/lang/String;
+	METHOD method_286 getUnvisitedPropertyNames ()[Ljava/lang/String;
+	METHOD method_288 getDescription (Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_289 getPropertyOrDefault (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_290 getFloatAttribute (Lorg/w3c/dom/Element;Ljava/lang/String;)F
+	METHOD method_291 getIntegerProperty (Ljava/lang/String;)Ljava/lang/Integer;
+	METHOD method_293 markPropertyVisited (Ljava/lang/String;)V

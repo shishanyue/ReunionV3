@@ -1,0 +1,11 @@
+CLASS com/corrodinggames/rts/game/units/class_330 com/corrodinggames/rts/game/units/AttackMode
+	FIELD field_1510 field_1510 Lcom/corrodinggames/rts/game/units/class_330;
+	FIELD field_1511 field_1511 Lcom/corrodinggames/rts/game/units/class_330;
+	FIELD field_1512 field_1512 Lcom/corrodinggames/rts/game/units/class_330;
+	FIELD field_1513 field_1513 Lcom/corrodinggames/rts/game/units/class_330;
+	FIELD field_1514 field_1514 Lcom/corrodinggames/rts/game/units/class_330;
+	FIELD field_1515 field_1515 Lcom/corrodinggames/rts/game/units/class_330;
+	FIELD field_1516 field_1516 Lcom/corrodinggames/rts/game/units/class_330;
+	FIELD field_1517 field_1517 [Lcom/corrodinggames/rts/game/units/class_330;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/class_330;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/class_330;

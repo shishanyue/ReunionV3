@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/a/class_445 com/corrodinggames/rts/game/units/custom/logic/actions/ResourceAction
+	FIELD field_2126 resourceSetValue D
+	FIELD field_2128 resourceMultiplyBy F

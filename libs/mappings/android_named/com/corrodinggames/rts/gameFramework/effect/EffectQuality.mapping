@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/gameFramework/d/class_897 com/corrodinggames/rts/gameFramework/effect/EffectQuality
+	FIELD field_5075 field_5075 Lcom/corrodinggames/rts/gameFramework/d/class_897;
+	FIELD field_5076 field_5076 Lcom/corrodinggames/rts/gameFramework/d/class_897;
+	FIELD field_5077 field_5077 Lcom/corrodinggames/rts/gameFramework/d/class_897;
+	FIELD field_5078 field_5078 Lcom/corrodinggames/rts/gameFramework/d/class_897;
+	FIELD field_5079 field_5079 Lcom/corrodinggames/rts/gameFramework/d/class_897;
+	FIELD field_5080 field_5080 [Lcom/corrodinggames/rts/gameFramework/d/class_897;
+	METHOD method_2132 method_2132 (Lcom/corrodinggames/rts/gameFramework/d/class_897;)Z
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/d/class_897;
+	METHOD values values ()[Lcom/corrodinggames/rts/gameFramework/d/class_897;

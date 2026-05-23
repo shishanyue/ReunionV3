@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/gameFramework/g/class_984 com/corrodinggames/rts/gameFramework/stats/GameObjectComparator
+	METHOD method_2624 method_2624 ()Z
+	METHOD method_2625 method_2625 (Lcom/corrodinggames/rts/gameFramework/g/class_984;)I
+	METHOD method_2626 method_2626 (Lcom/corrodinggames/rts/gameFramework/g/class_986;)I
+	METHOD method_2627 method_2627 ()Ljava/lang/String;
+	METHOD method_2628 method_2628 ()I
+	METHOD compareTo compareTo (Ljava/lang/Object;)I
+	METHOD method_2629 method_2629 ()I

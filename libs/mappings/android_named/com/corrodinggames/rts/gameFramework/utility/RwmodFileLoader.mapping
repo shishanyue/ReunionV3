@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/class_1302 com/corrodinggames/rts/gameFramework/utility/RwmodFileLoader
+	FIELD field_7264 field_7264 Ljava/util/HashMap;
+	METHOD method_3608 method_3608 (Ljava/lang/String;Z)Lcom/corrodinggames/rts/gameFramework/utility/class_1304;
+	METHOD method_3609 method_3609 (Ljava/lang/String;)V
+	METHOD method_3610 method_3610 (Ljava/lang/String;)Z
+	METHOD method_3612 method_3612 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_3613 method_3613 (Ljava/lang/String;)Ljava/lang/String;

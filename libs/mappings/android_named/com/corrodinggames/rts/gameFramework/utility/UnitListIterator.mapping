@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/class_1332 com/corrodinggames/rts/gameFramework/utility/UnitListIterator
+	FIELD field_7340 field_7340 Lcom/corrodinggames/rts/gameFramework/utility/class_1331;
+	FIELD field_7341 field_7341 I
+	FIELD field_7342 field_7342 I
+	FIELD field_7343 field_7343 I
+	METHOD hasNext hasNext ()Z
+	METHOD next next ()Ljava/lang/Object;
+	METHOD remove remove ()V

@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/f/class_713 com/corrodinggames/rts/game/units/management/UnitCallback
+	METHOD method_1713 method_1713 (Lcom/corrodinggames/rts/game/units/class_426;)Z

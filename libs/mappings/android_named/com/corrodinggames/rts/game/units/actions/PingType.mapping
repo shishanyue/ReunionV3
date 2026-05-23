@@ -1,0 +1,17 @@
+CLASS com/corrodinggames/rts/game/units/a/class_341 com/corrodinggames/rts/game/units/actions/PingType
+	FIELD field_1538 field_1538 Lcom/corrodinggames/rts/game/units/a/class_341;
+	FIELD field_1539 field_1539 Lcom/corrodinggames/rts/game/units/a/class_341;
+	FIELD field_1540 field_1540 Lcom/corrodinggames/rts/game/units/a/class_341;
+	FIELD field_1541 field_1541 Lcom/corrodinggames/rts/game/units/a/class_341;
+	FIELD field_1542 field_1542 Lcom/corrodinggames/rts/game/units/a/class_341;
+	FIELD field_1543 field_1543 Lcom/corrodinggames/rts/game/units/a/class_341;
+	FIELD field_1544 field_1544 Lcom/corrodinggames/rts/game/units/a/class_341;
+	FIELD field_1545 field_1545 Lcom/corrodinggames/rts/game/units/a/class_341;
+	FIELD field_1546 field_1546 Lcom/corrodinggames/rts/game/units/a/class_341;
+	FIELD field_1547 field_1547 Lcom/corrodinggames/rts/game/units/a/class_341;
+	FIELD field_1548 field_1548 Lcom/corrodinggames/rts/game/units/a/class_341;
+	FIELD field_1549 field_1549 [Lcom/corrodinggames/rts/game/units/a/class_341;
+	METHOD method_565 method_565 ()Ljava/lang/String;
+	METHOD method_566 method_566 ()Ljava/lang/String;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/a/class_341;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/a/class_341;

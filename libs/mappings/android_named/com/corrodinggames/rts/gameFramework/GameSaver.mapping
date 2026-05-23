@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/gameFramework/class_775 com/corrodinggames/rts/gameFramework/GameSaver
+	FIELD field_4231 debugPlainTextSave Z
+	FIELD field_4232 isProfilingEnabled Z
+	FIELD field_4233 firstTick I
+	METHOD method_1779 method_1779 (Lcom/corrodinggames/rts/gameFramework/j/class_1030;)V
+	METHOD method_1784 readSaveGame (Z)V
+	METHOD method_1787 performAutosave (Ljava/lang/String;Z)Z

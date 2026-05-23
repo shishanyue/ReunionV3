@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/class_859 com/corrodinggames/rts/gameFramework/MusicUpdateThread
+	FIELD field_4696 field_4696 Lcom/corrodinggames/rts/gameFramework/class_789;
+	METHOD run run ()V

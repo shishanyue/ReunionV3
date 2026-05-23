@@ -5,9 +5,9 @@ CLASS com/corrodinggames/rts/gameFramework/class_873 com/corrodinggames/rts/game
 	FIELD field_4803 queuedCommands Ljava/util/ArrayList;
 	FIELD field_4804 logRateLimitCounter I
 	METHOD method_2057 clearAllCommands ()V
+	METHOD method_2058 method_2058 (Lcom/corrodinggames/rts/game/class_324;)Lcom/corrodinggames/rts/gameFramework/class_898;
 	METHOD method_2059 logWithRateLimit (Ljava/lang/String;)V
+	METHOD method_2060 method_2060 ()Lcom/corrodinggames/rts/gameFramework/class_898;
 	METHOD method_2062 executeNetworkCommands ()V
 	METHOD method_5074 executeAllCommands ()V
 	METHOD method_5075 executeLocalCommands ()V
-	METHOD method_2058 method_2058 (Lcom/corrodinggames/rts/game/class_324;)Lcom/corrodinggames/rts/gameFramework/class_898;
-	METHOD method_2060 method_2060 ()Lcom/corrodinggames/rts/gameFramework/class_898;

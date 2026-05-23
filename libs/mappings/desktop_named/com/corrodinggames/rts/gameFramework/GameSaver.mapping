@@ -3,9 +3,10 @@ CLASS com/corrodinggames/rts/gameFramework/class_775 com/corrodinggames/rts/game
 	FIELD field_4232 isProfilingEnabled Z
 	FIELD field_4233 firstTick I
 	FIELD field_8823 lastAutosaveTick I
-	METHOD method_1782 getSaveFile (Ljava/lang/String;Ljava/lang/String;Z)Ljava/io/File;
+	METHOD method_1779 method_1779 (Lcom/corrodinggames/rts/gameFramework/j/class_1030;)V
 	METHOD method_1784 readSaveGame (Z)V
 	METHOD method_1787 performAutosave (Ljava/lang/String;Z)Z
+	METHOD method_1782 getSaveFile (Ljava/lang/String;Ljava/lang/String;Z)Ljava/io/File;
 	METHOD method_5872 resetAutosaveTimers ()Z
 	METHOD method_5873 writeSaveGame (Ljava/lang/String;)Ljava/lang/String;
 	METHOD method_5875 isAutosaveEnabled (Ljava/lang/String;Z)Ljava/io/File;
@@ -13,4 +14,3 @@ CLASS com/corrodinggames/rts/gameFramework/class_775 com/corrodinggames/rts/game
 	METHOD method_5877 saveGame (Ljava/lang/String;)Z
 	METHOD method_5878 updateAutosave (Ljava/lang/String;Z)V
 	METHOD method_5879 loadSave ()V
-	METHOD method_1779 method_1779 (Lcom/corrodinggames/rts/gameFramework/j/class_1030;)V

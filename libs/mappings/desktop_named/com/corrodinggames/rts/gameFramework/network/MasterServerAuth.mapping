@@ -1,4 +1,5 @@
 CLASS com/corrodinggames/rts/gameFramework/j/class_1029 com/corrodinggames/rts/gameFramework/network/MasterServerAuth
+	FIELD field_6100 field_6100 Lcom/corrodinggames/rts/gameFramework/j/class_1029;
 	FIELD field_6101 saltA I
 	FIELD field_6102 saltB I
 	FIELD field_6103 saltC I
@@ -10,9 +11,8 @@ CLASS com/corrodinggames/rts/gameFramework/j/class_1029 com/corrodinggames/rts/g
 	FIELD field_6109 minServerVersion I
 	FIELD field_6110 handshakeTimeoutSec I
 	FIELD field_6111 debugEnabled Z
-	FIELD field_6100 field_6100 Lcom/corrodinggames/rts/gameFramework/j/class_1029;
+	METHOD method_2849 method_2849 (Lcom/corrodinggames/rts/gameFramework/j/class_1037;)V
 	METHOD method_2850 addAuthParams (Ljava/lang/String;Ljava/util/List;)V
 	METHOD method_2851 addTokenHashParam (Ljava/lang/String;Ljava/util/List;)V
 	METHOD method_2852 addOptionalTokenHashParam (Ljava/lang/String;Ljava/util/List;)V
 	METHOD method_5464 lerp (FFF)F
-	METHOD method_2849 method_2849 (Lcom/corrodinggames/rts/gameFramework/j/class_1037;)V

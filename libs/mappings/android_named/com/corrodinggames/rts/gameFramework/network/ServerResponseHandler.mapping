@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/j/class_1054 com/corrodinggames/rts/gameFramework/network/ServerResponseHandler
+	FIELD field_6267 errorOrResponseText Ljava/lang/String;
+	FIELD field_6268 parsedSuccessfully Z
+	FIELD field_6269 pendingRequests I
+	METHOD method_2955 onComplete ()V

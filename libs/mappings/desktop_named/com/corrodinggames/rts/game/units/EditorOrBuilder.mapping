@@ -1,15 +1,13 @@
 CLASS com/corrodinggames/rts/game/units/class_727 com/corrodinggames/rts/game/units/EditorOrBuilder
 	FIELD field_4046 controlPoints [Landroid/graphics/PointF;
-	FIELD field_4047 targetPoints [Landroid/graphics/PointF;
-	FIELD field_4048 controlPointPaints Z
-	FIELD field_4049 targetPointPaints Landroid/graphics/Paint;
-	FIELD field_4050 editorSelectionPaint Landroid/graphics/Paint;
-	FIELD field_4063 editorIconTexture10 Ljava/lang/String;
-	FIELD field_8117 editorSelectionTexture Landroid/graphics/Paint;
 	FIELD field_4035 field_4035 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_4047 targetPoints [Landroid/graphics/PointF;
 	FIELD field_4036 field_4036 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_4048 controlPointPaints Z
 	FIELD field_4037 field_4037 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_4049 targetPointPaints Landroid/graphics/Paint;
 	FIELD field_4038 field_4038 Ljava/util/ArrayList;
+	FIELD field_4050 editorSelectionPaint Landroid/graphics/Paint;
 	FIELD field_4039 field_4039 Lcom/corrodinggames/rts/gameFramework/i/class_992;
 	FIELD field_4040 field_4040 Lcom/corrodinggames/rts/game/units/class_379;
 	FIELD field_4052 field_4052 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
@@ -28,6 +26,7 @@ CLASS com/corrodinggames/rts/game/units/class_727 com/corrodinggames/rts/game/un
 	FIELD field_4060 field_4060 Lcom/corrodinggames/rts/game/units/a/class_349;
 	FIELD field_4061 field_4061 Lcom/corrodinggames/rts/game/units/a/class_349;
 	FIELD field_4062 field_4062 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_4063 editorIconTexture10 Ljava/lang/String;
 	FIELD field_4064 field_4064 Lcom/corrodinggames/rts/game/units/a/class_349;
 	FIELD field_4065 field_4065 Lcom/corrodinggames/rts/game/units/a/class_349;
 	FIELD field_4066 field_4066 Lcom/corrodinggames/rts/game/units/a/class_349;
@@ -36,6 +35,7 @@ CLASS com/corrodinggames/rts/game/units/class_727 com/corrodinggames/rts/game/un
 	FIELD field_4069 field_4069 Lcom/corrodinggames/rts/game/units/a/class_349;
 	FIELD field_4070 field_4070 Lcom/corrodinggames/rts/game/units/a/class_349;
 	FIELD field_4071 field_4071 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_8117 editorSelectionTexture Landroid/graphics/Paint;
 	METHOD method_1730 method_1730 (Lcom/corrodinggames/rts/game/units/class_727;)V
 	METHOD method_1731 method_1731 ()Z
 	METHOD method_1726 method_1726 ()V

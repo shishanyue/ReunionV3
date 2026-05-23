@@ -34,7 +34,6 @@ CLASS com/corrodinggames/rts/gameFramework/class_862 com/corrodinggames/rts/game
 	FIELD field_4741 field_4741 I
 	FIELD field_4742 field_4742 Lcom/corrodinggames/rts/gameFramework/class_865;
 	FIELD field_4743 field_4743 Lcom/corrodinggames/rts/gameFramework/class_865;
-	METHOD method_5025 update (F)V
 	METHOD method_2018 method_2018 ()V
 	METHOD method_2019 method_2019 (Lcom/corrodinggames/rts/gameFramework/class_862;)Z
 	METHOD method_2020 method_2020 (Lcom/corrodinggames/rts/gameFramework/class_898;I)V
@@ -55,3 +54,4 @@ CLASS com/corrodinggames/rts/gameFramework/class_862 com/corrodinggames/rts/game
 	METHOD method_2038 method_2038 ()V
 	METHOD method_2039 method_2039 ()J
 	METHOD method_2040 method_2040 ()V
+	METHOD method_5025 update (F)V

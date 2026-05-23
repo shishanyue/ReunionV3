@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/gameFramework/f/class_968 com/corrodinggames/rts/gameFramework/ui/Message
+	FIELD field_5647 author Ljava/lang/String;
+	FIELD field_5648 text Ljava/lang/String;
+	FIELD field_5650 formattedTimestamp Ljava/lang/String;
+	FIELD field_5651 field_e I
+	FIELD field_5652 field_f I

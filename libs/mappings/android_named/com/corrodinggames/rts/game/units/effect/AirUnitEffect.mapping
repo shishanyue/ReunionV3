@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/g/class_720 com/corrodinggames/rts/game/units/effect/AirUnitEffect
+	METHOD method_1717 method_1717 ()Lcom/corrodinggames/rts/game/units/g/class_721;
+	METHOD method_1718 method_1718 (Lcom/corrodinggames/rts/game/units/class_409;Lcom/corrodinggames/rts/gameFramework/j/class_1030;)V
+	METHOD method_1719 method_1719 (Lcom/corrodinggames/rts/game/units/class_409;Lcom/corrodinggames/rts/gameFramework/j/class_1044;)V

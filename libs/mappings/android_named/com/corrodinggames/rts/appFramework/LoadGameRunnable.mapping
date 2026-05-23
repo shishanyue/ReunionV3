@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/appFramework/class_36 com/corrodinggames/rts/appFramework/LoadGameRunnable
+	FIELD field_196 saveName Ljava/lang/String;
+	METHOD run run ()V

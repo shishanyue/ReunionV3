@@ -1,0 +1,17 @@
+CLASS com/corrodinggames/rts/gameFramework/j/class_1029 com/corrodinggames/rts/gameFramework/network/MasterServerAuth
+	FIELD field_6100 field_6100 Lcom/corrodinggames/rts/gameFramework/j/class_1029;
+	FIELD field_6101 saltA I
+	FIELD field_6102 saltB I
+	FIELD field_6103 saltC I
+	FIELD field_6104 saltD I
+	FIELD field_6105 authTokenLength I
+	FIELD field_6106 secretA Ljava/lang/String;
+	FIELD field_6107 secretB Ljava/lang/String;
+	FIELD field_6108 minClientVersion I
+	FIELD field_6109 minServerVersion I
+	FIELD field_6110 handshakeTimeoutSec I
+	FIELD field_6111 debugEnabled Z
+	METHOD method_2849 method_2849 (Lcom/corrodinggames/rts/gameFramework/j/class_1037;)V
+	METHOD method_2850 addAuthParams (Ljava/lang/String;Ljava/util/List;)V
+	METHOD method_2851 addTokenHashParam (Ljava/lang/String;Ljava/util/List;)V
+	METHOD method_2852 addOptionalTokenHashParam (Ljava/lang/String;Ljava/util/List;)V

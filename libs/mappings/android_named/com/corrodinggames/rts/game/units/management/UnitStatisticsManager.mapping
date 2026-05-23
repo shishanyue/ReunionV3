@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/game/units/f/class_709 com/corrodinggames/rts/game/units/management/UnitStatisticsManager
+	FIELD field_3977 field_3977 Lcom/corrodinggames/rts/game/units/f/class_710;
+	FIELD field_3978 field_3978 [Lcom/corrodinggames/rts/game/units/f/class_710;
+	FIELD field_3979 field_3979 Lcom/corrodinggames/rts/game/units/f/class_710;
+	FIELD field_3980 field_3980 Lcom/corrodinggames/rts/game/units/f/class_710;
+	FIELD field_3981 field_3981 F
+	METHOD method_1698 method_1698 (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_1699 method_1699 (Lcom/corrodinggames/rts/game/units/class_426;)V

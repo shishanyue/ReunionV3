@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/class_1317 com/corrodinggames/rts/gameFramework/utility/InterruptCallback
+	METHOD method_3638 method_3638 (Ljava/lang/InterruptedException;)V

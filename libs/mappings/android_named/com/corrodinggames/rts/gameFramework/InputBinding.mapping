@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/gameFramework/class_782 com/corrodinggames/rts/gameFramework/InputBinding
+	FIELD field_4319 field_4319 I
+	FIELD field_4320 field_4320 I
+	FIELD field_4321 field_4321 Z
+	FIELD field_4322 field_4322 Z
+	METHOD method_1815 method_1815 ()Z
+	METHOD method_1816 method_1816 ()Z
+	METHOD method_1817 method_1817 ()Ljava/lang/String;
+	METHOD method_1818 method_1818 ()Z

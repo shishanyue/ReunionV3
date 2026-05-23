@@ -1,0 +1,14 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_550 com/corrodinggames/rts/game/units/custom/CustomUnitAnimationType
+	FIELD field_2921 field_2921 Lcom/corrodinggames/rts/game/units/custom/class_550;
+	FIELD field_2922 field_2922 Lcom/corrodinggames/rts/game/units/custom/class_550;
+	FIELD field_2923 field_2923 Lcom/corrodinggames/rts/game/units/custom/class_550;
+	FIELD field_2924 field_2924 Lcom/corrodinggames/rts/game/units/custom/class_550;
+	FIELD field_2925 field_2925 Lcom/corrodinggames/rts/game/units/custom/class_550;
+	FIELD field_2926 field_2926 Lcom/corrodinggames/rts/game/units/custom/class_550;
+	FIELD field_2927 field_2927 Lcom/corrodinggames/rts/game/units/custom/class_550;
+	FIELD field_2928 field_2928 Lcom/corrodinggames/rts/game/units/custom/class_550;
+	FIELD field_2929 field_2929 Lcom/corrodinggames/rts/game/units/custom/class_550;
+	FIELD field_2930 field_2930 Lcom/corrodinggames/rts/game/units/custom/class_550;
+	FIELD field_2931 field_2931 [Lcom/corrodinggames/rts/game/units/custom/class_550;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/class_550;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/custom/class_550;

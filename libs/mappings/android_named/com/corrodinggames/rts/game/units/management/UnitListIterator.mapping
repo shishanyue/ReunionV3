@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/game/units/f/class_714 com/corrodinggames/rts/game/units/management/UnitListIterator
+	FIELD field_4006 field_4006 I
+	METHOD hasNext hasNext ()Z
+	METHOD iterator iterator ()Ljava/util/Iterator;
+	METHOD next next ()Ljava/lang/Object;
+	METHOD remove remove ()V

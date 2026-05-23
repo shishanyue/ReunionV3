@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/j/class_1057 com/corrodinggames/rts/gameFramework/network/ErrorReportSender
+	FIELD field_6278 message Ljava/lang/String;
+	FIELD field_6279 stacktrace Ljava/lang/String;
+	METHOD run run ()V

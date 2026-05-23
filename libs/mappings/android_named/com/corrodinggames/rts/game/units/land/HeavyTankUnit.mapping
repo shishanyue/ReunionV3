@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/game/units/e/class_681 com/corrodinggames/rts/game/units/land/HeavyTankUnit
+	FIELD field_3859 field_3859 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3860 field_3860 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3861 field_3861 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3862 field_3862 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3863 turretFrameIndex I
+	FIELD field_3864 turretAnimationTimer F
+	FIELD field_3865 smokeTimer F
+	FIELD field_3866 turretBounds Landroid/graphics/Rect;
+	METHOD method_1632 loadHeavyTankTextures ()V

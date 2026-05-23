@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/game/units/custom/b/class_502 com/corrodinggames/rts/game/units/custom/hooks/RepelFromUnitsMovementHook
+	FIELD field_2599 field_2599 Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_2600 field_2600 F
+	FIELD field_2601 field_2601 F
+	FIELD field_2602 field_2602 Lcom/corrodinggames/rts/game/units/custom/class_577;
+	FIELD field_2603 field_2603 Z
+	METHOD method_1197 method_1197 (Lcom/corrodinggames/rts/game/units/custom/class_581;Lcom/corrodinggames/rts/gameFramework/utility/class_1297;)V

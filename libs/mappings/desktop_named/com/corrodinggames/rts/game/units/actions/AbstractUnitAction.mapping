@@ -1,37 +1,9 @@
 CLASS com/corrodinggames/rts/game/units/a/class_349 com/corrodinggames/rts/game/units/actions/AbstractUnitAction
-	FIELD field_1553 sortOrder F
 	FIELD field_1552 field_1552 Lcom/corrodinggames/rts/game/units/custom/d/class_552;
+	FIELD field_1553 sortOrder F
 	FIELD field_1554 field_1554 Lcom/corrodinggames/rts/game/units/a/class_331;
 	FIELD field_1555 field_1555 Lcom/corrodinggames/rts/game/units/a/class_333;
-	METHOD method_567 getDescription ()Z
-	METHOD method_571 getCost ()Z
-	METHOD method_572 getDisplayTextForUnit ()Z
-	METHOD method_574 getDisplayType ()Z
-	METHOD method_575 isBuildOption ()Z
-	METHOD method_576 isAttack ()Z
-	METHOD method_577 getTargetUnit ()Z
-	METHOD method_579 getNotAvailableReason ()I
-	METHOD method_587 getOptions ()Z
 	METHOD method_588 isLocked ()Ljava/lang/String;
-	METHOD method_598 canAfford (Ljava/lang/String;)V
-	METHOD method_600 getCostForUnit ()Ljava/lang/String;
-	METHOD method_604 isConfirmed ()I
-	METHOD method_612 isHighPriority ()Z
-	METHOD method_614 getIconForUnit ()Z
-	METHOD method_622 shouldShowDisplayText ()Z
-	METHOD method_624 getBuildSpeed ()F
-	METHOD method_626 getKeyBinding ()I
-	METHOD method_628 isCancel ()Z
-	METHOD method_632 isInstant ()Z
-	METHOD method_634 isWaitingForTarget ()Z
-	METHOD method_635 isLockedAndDisabled ()Z
-	METHOD method_636 getSortOrder ()F
-	METHOD method_637 isQueuable ()Z
-	METHOD method_638 getQueueSize ()I
-	METHOD method_639 isGuiBlinking ()Z
-	METHOD method_640 getIconRect ()Landroid/graphics/Rect;
-	METHOD method_641 isRightClickAction ()Z
-	METHOD method_4449 getActionIdString ()Ljava/lang/String;
 	METHOD method_590 method_590 (Lcom/corrodinggames/rts/game/units/a/class_349;Lcom/corrodinggames/rts/game/units/a/class_349;)Z
 	METHOD method_591 method_591 (Lcom/corrodinggames/rts/game/units/class_409;)V
 	METHOD method_592 method_592 (Lcom/corrodinggames/rts/game/units/class_426;)Z
@@ -40,10 +12,14 @@ CLASS com/corrodinggames/rts/game/units/a/class_349 com/corrodinggames/rts/game/
 	METHOD method_595 method_595 (Lcom/corrodinggames/rts/game/units/class_426;Lcom/corrodinggames/rts/gameFramework/f/class_931;)V
 	METHOD method_596 method_596 (Lcom/corrodinggames/rts/game/units/class_426;Lcom/corrodinggames/rts/gameFramework/f/class_931;Landroid/graphics/Paint;Landroid/graphics/Paint;)V
 	METHOD method_597 method_597 (Lcom/corrodinggames/rts/game/units/class_426;Z)Z
+	METHOD method_598 canAfford (Ljava/lang/String;)V
+	METHOD method_567 getDescription ()Z
+	METHOD method_600 getCostForUnit ()Ljava/lang/String;
 	METHOD method_601 method_601 (Lcom/corrodinggames/rts/game/units/a/class_333;)Z
 	METHOD method_602 method_602 (Lcom/corrodinggames/rts/game/units/class_426;)Z
 	METHOD method_603 method_603 (Lcom/corrodinggames/rts/game/units/class_426;Z)I
 	METHOD method_568 method_568 ()Lcom/corrodinggames/rts/game/units/custom/d/class_552;
+	METHOD method_604 isConfirmed ()I
 	METHOD method_605 method_605 (Lcom/corrodinggames/rts/game/units/a/class_333;)Z
 	METHOD method_606 method_606 (Lcom/corrodinggames/rts/game/units/class_426;)V
 	METHOD method_607 method_607 (Lcom/corrodinggames/rts/game/units/class_426;Z)Z
@@ -52,23 +28,47 @@ CLASS com/corrodinggames/rts/game/units/a/class_349 com/corrodinggames/rts/game/
 	METHOD method_609 method_609 (Lcom/corrodinggames/rts/game/units/class_426;)Ljava/lang/String;
 	METHOD method_610 method_610 ()Lcom/corrodinggames/rts/game/units/a/class_350;
 	METHOD method_611 method_611 (Lcom/corrodinggames/rts/game/units/class_426;)Ljava/lang/String;
+	METHOD method_571 getCost ()Z
 	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD method_612 isHighPriority ()Z
 	METHOD method_613 method_613 (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_572 getDisplayTextForUnit ()Z
+	METHOD method_614 getIconForUnit ()Z
 	METHOD method_615 method_615 (Lcom/corrodinggames/rts/game/units/class_426;)Z
 	METHOD method_573 method_573 ()Lcom/corrodinggames/rts/game/units/class_704;
 	METHOD method_616 method_616 ()Lcom/corrodinggames/rts/game/units/class_704;
 	METHOD method_617 method_617 (Lcom/corrodinggames/rts/game/units/class_426;)Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	METHOD method_574 getDisplayType ()Z
 	METHOD method_618 method_618 ()Ljava/lang/String;
 	METHOD method_619 method_619 (Lcom/corrodinggames/rts/game/units/class_426;)Lcom/corrodinggames/rts/game/units/class_426;
+	METHOD method_575 isBuildOption ()Z
 	METHOD method_620 method_620 ()Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	METHOD method_621 method_621 (Lcom/corrodinggames/rts/game/units/class_426;)Ljava/lang/String;
+	METHOD method_576 isAttack ()Z
+	METHOD method_622 shouldShowDisplayText ()Z
 	METHOD method_623 method_623 (Lcom/corrodinggames/rts/game/units/class_426;)Z
+	METHOD method_577 getTargetUnit ()Z
+	METHOD method_624 getBuildSpeed ()F
 	METHOD method_625 method_625 (Lcom/corrodinggames/rts/game/units/class_426;)Z
+	METHOD method_626 getKeyBinding ()I
 	METHOD method_627 method_627 (Lcom/corrodinggames/rts/game/units/class_426;)Z
+	METHOD method_579 getNotAvailableReason ()I
+	METHOD method_628 isCancel ()Z
 	METHOD method_629 method_629 (Lcom/corrodinggames/rts/game/units/class_426;)F
 	METHOD method_631 method_631 (Lcom/corrodinggames/rts/game/units/class_426;)Z
+	METHOD method_632 isInstant ()Z
 	METHOD method_633 method_633 (Lcom/corrodinggames/rts/game/units/class_426;)Ljava/lang/String;
 	METHOD method_582 method_582 ()Lcom/corrodinggames/rts/game/units/custom/d/class_552;
+	METHOD method_634 isWaitingForTarget ()Z
 	METHOD method_583 method_583 ()Lcom/corrodinggames/rts/gameFramework/class_780;
+	METHOD method_635 isLockedAndDisabled ()Z
+	METHOD method_636 getSortOrder ()F
 	METHOD method_585 method_585 ()Lcom/corrodinggames/rts/game/units/custom/class_577;
+	METHOD method_637 isQueuable ()Z
+	METHOD method_638 getQueueSize ()I
+	METHOD method_587 getOptions ()Z
+	METHOD method_639 isGuiBlinking ()Z
+	METHOD method_640 getIconRect ()Landroid/graphics/Rect;
+	METHOD method_641 isRightClickAction ()Z
 	METHOD method_642 method_642 ()Lcom/corrodinggames/rts/game/units/class_704;
+	METHOD method_4449 getActionIdString ()Ljava/lang/String;

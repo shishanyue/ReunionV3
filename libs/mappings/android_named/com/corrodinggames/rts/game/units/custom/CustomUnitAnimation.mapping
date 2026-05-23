@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_492 com/corrodinggames/rts/game/units/custom/CustomUnitAnimation
+	FIELD field_2486 finalized Z
+	METHOD finalize finalize ()V

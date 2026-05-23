@@ -1,0 +1,19 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/class_1322 com/corrodinggames/rts/gameFramework/utility/AssetInputStream
+	FIELD field_7305 inputStream Ljava/io/InputStream;
+	FIELD field_7306 path Ljava/lang/String;
+	FIELD field_7308 closed Z
+	FIELD field_7309 buildVersion Ljava/lang/String;
+	METHOD method_3650 getPath ()Ljava/lang/String;
+	METHOD available available ()I
+	METHOD close close ()V
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD finalize finalize ()V
+	METHOD hashCode hashCode ()I
+	METHOD mark mark (I)V
+	METHOD markSupported markSupported ()Z
+	METHOD read read ()I
+	METHOD read read ([B)I
+	METHOD read read ([BII)I
+	METHOD reset reset ()V
+	METHOD skip skip (J)J
+	METHOD toString toString ()Ljava/lang/String;

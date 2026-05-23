@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/gameFramework/class_1336 com/corrodinggames/rts/gameFramework/GameEngineFactory
+	METHOD method_3691 method_3691 (Landroid/content/Context;)Lcom/corrodinggames/rts/gameFramework/class_1061;

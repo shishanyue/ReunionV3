@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/game/b/class_308 com/corrodinggames/rts/game/map/MapObjectLayer
+	FIELD field_1036 layerIndex I
+	FIELD field_1037 name Ljava/lang/String;
+	FIELD field_1038 mapObjects Ljava/util/ArrayList;
+	FIELD field_1039 widthTiles I
+	FIELD field_1040 heightTiles I
+	FIELD field_1041 properties Ljava/util/Properties;
+	METHOD method_386 method_386 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/b/class_298;

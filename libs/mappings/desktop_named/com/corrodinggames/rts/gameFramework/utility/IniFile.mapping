@@ -11,6 +11,12 @@ CLASS com/corrodinggames/rts/gameFramework/utility/class_1297 com/corrodinggames
 	FIELD field_7255 keyValuePattern Ljava/util/regex/Pattern;
 	FIELD field_8801 strict Z
 	METHOD method_3524 checkForUnusedKeys ()V
+	METHOD method_3525 method_3525 (Lcom/corrodinggames/rts/game/units/custom/class_581;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	METHOD method_3527 method_3527 (Lcom/corrodinggames/rts/game/units/custom/class_581;Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;)Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	METHOD method_3528 method_3528 (Lcom/corrodinggames/rts/game/units/custom/class_581;Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/class_590;)Lcom/corrodinggames/rts/game/units/custom/class_590;
+	METHOD method_3529 method_3529 (Lcom/corrodinggames/rts/game/units/custom/class_581;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/class_475;
+	METHOD method_3530 method_3530 (Lcom/corrodinggames/rts/gameFramework/utility/class_1297;)V
+	METHOD method_3532 method_3532 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
 	METHOD method_3535 createEnumParseException (Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/RuntimeException;
 	METHOD method_3536 parseEnum (Ljava/lang/String;Ljava/lang/Enum;Ljava/lang/Class;)Ljava/lang/Enum;
 	METHOD method_3537 trackRead (Ljava/lang/String;Ljava/lang/String;)V
@@ -24,12 +30,14 @@ CLASS com/corrodinggames/rts/gameFramework/utility/class_1297 com/corrodinggames
 	METHOD method_3546 getShort (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Short;)Ljava/lang/Short;
 	METHOD method_3547 getString (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 	METHOD method_3548 getBooleanFromTwoKeys (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;)Ljava/lang/Boolean;
-	METHOD method_3550 getValueInternal (Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Ljava/lang/String;
+	METHOD method_3549 method_3549 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)Lcom/corrodinggames/rts/game/units/custom/class_527;
 	METHOD method_3551 parseUnitValue (Ljava/lang/String;ZLjava/lang/String;Ljava/lang/String;)F
 	METHOD method_3552 getHash ()I
+	METHOD method_3554 method_3554 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
 	METHOD method_3555 getBooleanStrict (Ljava/lang/String;Ljava/lang/String;)Z
 	METHOD method_3556 getTime (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Float;)Ljava/lang/Float;
 	METHOD method_3557 getLogicBooleanUnit (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;)Ljava/lang/Integer;
+	METHOD method_3558 method_3558 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
 	METHOD method_3559 getValueOrThrow (Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/String;
 	METHOD method_3561 hasSection (Ljava/lang/String;)Z
 	METHOD method_3562 getValueStrict (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -41,13 +49,17 @@ CLASS com/corrodinggames/rts/gameFramework/utility/class_1297 com/corrodinggames
 	METHOD method_3569 parseFloat (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)F
 	METHOD method_3570 unescape (Ljava/lang/String;)Ljava/lang/String;
 	METHOD method_3572 parseInt (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)I
+	METHOD method_3574 method_3574 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/class_576;
 	METHOD method_3575 getFloatStrictRaw (Ljava/lang/String;Ljava/lang/String;)F
-	METHOD method_3576 getValueFromTwoKeys (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 	METHOD method_3577 getDoubleStrictRaw (Ljava/lang/String;Ljava/lang/String;)D
+	METHOD method_3579 method_3579 (Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
 	METHOD method_3580 hasKeyStartingWith (Ljava/lang/String;Ljava/lang/String;)Z
+	METHOD method_3581 method_3581 (Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
 	METHOD method_3582 hasKey (Ljava/lang/String;Ljava/lang/String;)Z
-	METHOD method_3583 trackReadWithSource (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 	METHOD method_3586 getStringRawStrict (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_3550 getValueInternal (Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Ljava/lang/String;
+	METHOD method_3576 getValueFromTwoKeys (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_3583 trackReadWithSource (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 	METHOD method_5784 enableStrict ()V
 	METHOD method_5786 parse (Ljava/io/BufferedReader;)V
 	METHOD method_5787 loadStream (Ljava/io/InputStream;)V
@@ -61,15 +73,3 @@ CLASS com/corrodinggames/rts/gameFramework/utility/class_1297 com/corrodinggames
 	METHOD method_5797 setValueIfMissing (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 	METHOD method_5798 setValue (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 	METHOD method_5799 getFloatStrict (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Float;
-	METHOD method_3525 method_3525 (Lcom/corrodinggames/rts/game/units/custom/class_581;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
-	METHOD method_3527 method_3527 (Lcom/corrodinggames/rts/game/units/custom/class_581;Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;)Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
-	METHOD method_3528 method_3528 (Lcom/corrodinggames/rts/game/units/custom/class_581;Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/class_590;)Lcom/corrodinggames/rts/game/units/custom/class_590;
-	METHOD method_3529 method_3529 (Lcom/corrodinggames/rts/game/units/custom/class_581;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/class_475;
-	METHOD method_3530 method_3530 (Lcom/corrodinggames/rts/gameFramework/utility/class_1297;)V
-	METHOD method_3532 method_3532 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
-	METHOD method_3549 method_3549 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)Lcom/corrodinggames/rts/game/units/custom/class_527;
-	METHOD method_3554 method_3554 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
-	METHOD method_3558 method_3558 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
-	METHOD method_3574 method_3574 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/class_576;
-	METHOD method_3579 method_3579 (Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
-	METHOD method_3581 method_3581 (Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1323;

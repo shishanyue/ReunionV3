@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/m/class_1146 com/corrodinggames/rts/gameFramework/graphics/opengl/GraphicsObjectPool
+	FIELD field_6674 field_6674 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_6675 field_6675 I
+	FIELD field_6676 field_6676 Ljava/lang/Class;

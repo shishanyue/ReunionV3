@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/game/units/custom/b/class_493 com/corrodinggames/rts/game/units/custom/hooks/CustomUnitRenderHook
+	METHOD method_1179 method_1179 (Lcom/corrodinggames/rts/game/units/custom/class_579;)V
+	METHOD method_1180 method_1180 (Lcom/corrodinggames/rts/game/units/custom/class_579;F)V
+	METHOD method_1182 method_1182 (Lcom/corrodinggames/rts/game/units/custom/class_579;F)V
+	METHOD method_1183 method_1183 (Lcom/corrodinggames/rts/game/units/custom/class_579;)V
+	METHOD method_1184 method_1184 (Lcom/corrodinggames/rts/game/units/custom/class_579;)V

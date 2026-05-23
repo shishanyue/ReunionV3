@@ -2,28 +2,28 @@ CLASS com/corrodinggames/rts/gameFramework/j/class_1047 com/corrodinggames/rts/g
 	FIELD field_6250 ENABLE_STATUS_LOGGING Z
 	FIELD field_6251 ENABLE_CONSOLE_LOGGING Z
 	FIELD field_6252 MASTER_SERVER_URLS [Ljava/lang/String;
+	FIELD field_6253 field_6253 Lcom/corrodinggames/rts/gameFramework/j/class_1053;
 	FIELD field_6254 serverListSequence I
 	FIELD field_6255 serverListLock Ljava/lang/Object;
 	FIELD field_6256 lastMasterServerResponseLog Ljava/lang/String;
-	FIELD field_6253 field_6253 Lcom/corrodinggames/rts/gameFramework/j/class_1053;
 	METHOD method_2932 getOwnInfoFromMasterServerAsync ()V
+	METHOD method_2945 extractFirstLine ([B)Ljava/lang/String;
 	METHOD method_2933 formatServerCode (I)Ljava/lang/String;
 	METHOD method_2934 removeStaleServers (II)V
+	METHOD method_2935 method_2935 (Lcom/corrodinggames/rts/gameFramework/j/class_1058;Ljava/lang/String;ILjava/lang/String;)V
 	METHOD method_2936 loadServerListAsync (Ljava/lang/Runnable;)V
 	METHOD method_2937 logInfo (Ljava/lang/String;)V
 	METHOD method_2938 sendErrorReportAsync (Ljava/lang/String;Ljava/lang/String;)V
 	METHOD method_2939 requestMasterServerResponse (Ljava/util/List;)Ljava/io/BufferedReader;
 	METHOD method_2941 getParam (Ljava/util/List;Ljava/lang/String;)Ljava/lang/String;
 	METHOD method_2942 addParam (Ljava/util/List;Ljava/lang/String;Ljava/lang/String;)V
-	METHOD method_2945 extractFirstLine ([B)Ljava/lang/String;
+	METHOD method_2943 method_2943 (Ljava/util/List;Ljava/lang/String;Z)Lcom/corrodinggames/rts/gameFramework/j/class_1055;
 	METHOD method_2946 createServerAsync ()V
+	METHOD method_2947 method_2947 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/j/class_1040;
 	METHOD method_2949 updateServerAsync ()V
+	METHOD method_2950 method_2950 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/j/class_1040;
 	METHOD method_2951 addServerStatusParams (Ljava/util/List;)V
 	METHOD method_2952 removeServerAsync ()V
 	METHOD method_5513 requestMasterServerResponseWithTimeout (Ljava/util/List;I)Ljava/io/BufferedReader;
 	METHOD method_5516 requestFromMasterServers (Ljava/util/List;Z[Ljava/lang/String;IZ)Ljava/io/BufferedReader;
-	METHOD method_2935 method_2935 (Lcom/corrodinggames/rts/gameFramework/j/class_1058;Ljava/lang/String;ILjava/lang/String;)V
-	METHOD method_2943 method_2943 (Ljava/util/List;Ljava/lang/String;Z)Lcom/corrodinggames/rts/gameFramework/j/class_1055;
-	METHOD method_2947 method_2947 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/j/class_1040;
-	METHOD method_2950 method_2950 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/j/class_1040;
 	CLASS class_1048 AnonymousClass1

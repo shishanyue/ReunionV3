@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/gameFramework/j/class_1028 com/corrodinggames/rts/gameFramework/network/ConnectionAttemptTracker
+	FIELD field_6095 field_6095 Ljava/net/InetAddress;
+	FIELD field_6096 field_6096 I
+	FIELD field_6097 field_6097 Z
+	FIELD field_6098 field_6098 Z
+	FIELD field_6099 field_6099 Lcom/corrodinggames/rts/gameFramework/j/class_1026;

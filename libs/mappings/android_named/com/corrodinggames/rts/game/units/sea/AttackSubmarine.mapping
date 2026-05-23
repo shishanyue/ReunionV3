@@ -1,0 +1,14 @@
+CLASS com/corrodinggames/rts/game/units/h/class_732 com/corrodinggames/rts/game/units/sea/AttackSubmarine
+	FIELD field_4098 field_4098 Z
+	FIELD field_4099 field_4099 Z
+	FIELD field_4100 field_4100 F
+	FIELD field_4101 field_4101 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4102 field_4102 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4103 field_4103 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4104 field_4104 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4105 field_4105 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4106 field_4106 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4107 field_4107 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_4108 field_4108 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_4109 field_4109 Ljava/util/ArrayList;
+	METHOD method_1738 method_1738 ()V

@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/f/class_937 com/corrodinggames/rts/gameFramework/ui/TextRenderLine
+	FIELD field_5377 field_5377 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_5378 field_5378 I
+	METHOD method_2444 method_2444 (Lcom/corrodinggames/rts/gameFramework/f/class_932;)V

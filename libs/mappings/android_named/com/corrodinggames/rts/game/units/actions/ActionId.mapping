@@ -1,0 +1,10 @@
+CLASS com/corrodinggames/rts/game/units/a/class_333 com/corrodinggames/rts/game/units/actions/ActionId
+	FIELD field_1519 field_1519 Lcom/corrodinggames/rts/game/units/a/class_333;
+	FIELD field_1520 id Ljava/lang/String;
+	FIELD field_1521 internMap Ljava/util/HashMap;
+	METHOD method_558 method_558 (Lcom/corrodinggames/rts/gameFramework/j/class_1030;Lcom/corrodinggames/rts/game/units/a/class_333;)V
+	METHOD method_559 method_559 (Lcom/corrodinggames/rts/gameFramework/j/class_1044;)Lcom/corrodinggames/rts/game/units/a/class_333;
+	METHOD method_560 method_560 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/a/class_333;
+	METHOD equals equals (Ljava/lang/Object;)Z
+	METHOD hashCode hashCode ()I
+	METHOD toString toString ()Ljava/lang/String;

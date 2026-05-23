@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/game/units/custom/d/class_551 com/corrodinggames/rts/game/units/custom/price/PriceCondition
+	METHOD method_1261 method_1261 (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_1262 method_1262 (Lcom/corrodinggames/rts/game/units/class_426;D)V
+	METHOD method_1263 method_1263 (Lcom/corrodinggames/rts/game/units/class_426;)Z
+	METHOD method_1264 method_1264 (Lcom/corrodinggames/rts/game/units/class_426;D)Z
+	METHOD method_1265 method_1265 (Lcom/corrodinggames/rts/game/units/class_426;)Z
+	METHOD method_1266 method_1266 (Lcom/corrodinggames/rts/game/units/class_426;D)Z

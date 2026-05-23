@@ -1,4 +1,8 @@
 CLASS com/corrodinggames/rts/game/units/d/class_629 com/corrodinggames/rts/game/units/buildings/CommandCenter
+	FIELD field_3711 field_3711 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3712 field_3712 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3713 field_3713 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3714 field_3714 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_3715 resourceGenerationTimer F
 	FIELD field_3716 animationTimer1 F
 	FIELD field_3717 animationTimer2 F
@@ -7,9 +11,5 @@ CLASS com/corrodinggames/rts/game/units/d/class_629 com/corrodinggames/rts/game/
 	FIELD field_3720 animationTimer4 F
 	FIELD field_3721 frameTimer F
 	FIELD field_3722 frameIndex I
-	FIELD field_3711 field_3711 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
-	FIELD field_3712 field_3712 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
-	FIELD field_3713 field_3713 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
-	FIELD field_3714 field_3714 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	METHOD method_1573 loadTextures ()V
 	METHOD method_1574 addAvailableActions (Ljava/util/ArrayList;I)V

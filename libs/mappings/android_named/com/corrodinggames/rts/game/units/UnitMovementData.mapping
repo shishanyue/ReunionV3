@@ -1,0 +1,16 @@
+CLASS com/corrodinggames/rts/game/units/class_429 com/corrodinggames/rts/game/units/UnitMovementData
+	FIELD field_2037 targetX F
+	FIELD field_2038 targetY F
+	FIELD field_2039 velocityX F
+	FIELD field_2040 velocityY F
+	FIELD field_2041 rotation F
+	FIELD field_2042 speed F
+	FIELD field_2043 isActive Z
+	FIELD field_2044 field_2044 F
+	FIELD field_2045 field_2045 F
+	FIELD field_2046 field_2046 Lcom/corrodinggames/rts/game/units/class_426;
+	FIELD field_2047 field_2047 F
+	FIELD field_2048 field_2048 F
+	METHOD method_1070 method_1070 ()Z
+	METHOD method_1071 method_1071 (F)V
+	METHOD method_1072 method_1072 (I)V

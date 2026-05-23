@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_577 com/corrodinggames/rts/game/units/custom/AnimationSet
+	FIELD field_3075 field_3075 [Lcom/corrodinggames/rts/game/units/custom/class_576;
+	METHOD method_1407 method_1407 ()Z
+	METHOD method_1408 method_1408 (Lcom/corrodinggames/rts/game/units/custom/class_577;)Z
+	METHOD toString toString ()Ljava/lang/String;

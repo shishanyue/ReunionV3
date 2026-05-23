@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/n/class_1259 com/corrodinggames/rts/gameFramework/mission/TriggerGroup
+	FIELD field_7061 field_7061 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_7062 field_7062 Z
+	METHOD method_3434 method_3434 ()Z
+	METHOD method_3435 method_3435 (Lcom/corrodinggames/rts/gameFramework/n/class_1255;)V

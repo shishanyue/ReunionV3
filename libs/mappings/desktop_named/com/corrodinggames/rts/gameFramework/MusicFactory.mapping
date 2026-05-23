@@ -1,10 +1,10 @@
 CLASS com/corrodinggames/rts/gameFramework/class_852 com/corrodinggames/rts/gameFramework/MusicFactory
+	METHOD method_1997 method_1997 ()Lcom/corrodinggames/rts/gameFramework/class_854;
+	METHOD method_1998 method_1998 (Lcom/corrodinggames/rts/gameFramework/class_789;)V
+	METHOD method_1999 method_1999 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/class_853;
 	METHOD method_4916 createMusicTrack (F)V
 	METHOD method_4917 createMusic (I)V
 	METHOD method_4918 release ()V
 	METHOD method_4919 isMusicPlaying ()Z
 	METHOD method_4920 isThreaded ()Z
 	METHOD method_4921 isMusicSupported ()I
-	METHOD method_1997 method_1997 ()Lcom/corrodinggames/rts/gameFramework/class_854;
-	METHOD method_1998 method_1998 (Lcom/corrodinggames/rts/gameFramework/class_789;)V
-	METHOD method_1999 method_1999 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/class_853;

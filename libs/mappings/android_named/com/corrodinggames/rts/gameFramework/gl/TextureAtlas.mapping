@@ -1,0 +1,13 @@
+CLASS com/corrodinggames/rts/gameFramework/b/class_813 com/corrodinggames/rts/gameFramework/gl/TextureAtlas
+	FIELD field_4498 field_4498 Lcom/corrodinggames/rts/gameFramework/b/class_836;
+	FIELD field_4499 field_4499 Lcom/corrodinggames/rts/gameFramework/b/class_814;
+	FIELD field_4501 field_4501 Ljava/util/HashMap;
+	FIELD field_4502 field_4502 Ljava/util/ArrayList;
+	FIELD field_4503 field_4503 I
+	FIELD field_4504 field_4504 Z
+	FIELD field_4506 field_4506 Z
+	FIELD field_4507 field_4507 I
+	FIELD field_4508 field_4508 I
+	FIELD field_4509 field_4509 I
+	FIELD field_4510 field_4510 I
+	METHOD method_1871 method_1871 (Landroid/graphics/Bitmap;)Lcom/corrodinggames/rts/gameFramework/b/class_823;

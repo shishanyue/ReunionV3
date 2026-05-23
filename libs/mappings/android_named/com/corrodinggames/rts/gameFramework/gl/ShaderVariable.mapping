@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/b/class_844 com/corrodinggames/rts/gameFramework/gl/ShaderVariable
+	FIELD field_4675 field_4675 I
+	FIELD field_4676 field_4676 Ljava/lang/String;
+	FIELD field_4677 field_4677 I
+	METHOD method_1995 method_1995 (I)V

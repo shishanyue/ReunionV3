@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/a/a/class_268 com/corrodinggames/rts/game/ai/behaviors/UnitAIBehavior
+	FIELD field_719 field_719 Lcom/corrodinggames/rts/gameFramework/utility/class_1331;

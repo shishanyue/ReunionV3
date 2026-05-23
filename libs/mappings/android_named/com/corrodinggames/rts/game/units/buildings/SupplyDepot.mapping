@@ -1,0 +1,13 @@
+CLASS com/corrodinggames/rts/game/units/d/class_621 com/corrodinggames/rts/game/units/buildings/SupplyDepot
+	FIELD field_3678 field_3678 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3679 field_3679 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3680 field_3680 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3681 field_3681 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3682 field_3682 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3683 depotLevel I
+	FIELD field_3684 animationTimer F
+	FIELD field_3685 supplyCount I
+	FIELD field_3686 field_3686 I
+	FIELD field_3687 field_3687 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_3688 availableActions Ljava/util/ArrayList;
+	METHOD method_1560 method_1560 ()V

@@ -7,10 +7,10 @@ CLASS com/corrodinggames/rts/gameFramework/h/class_988 com/corrodinggames/rts/ga
 	FIELD field_5774 inlineBlockPattern Ljava/util/regex/Pattern;
 	METHOD method_2631 initialize ()V
 	METHOD method_2632 translateMapName (Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_2636 get (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 	METHOD method_2633 getFormattedString (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 	METHOD method_2634 loadBundle (Ljava/lang/String;Ljava/util/Locale;)Ljava/util/ResourceBundle;
 	METHOD method_2635 buildLocaleString (Ljava/lang/String;Ljava/util/Locale;ZZ)Ljava/lang/String;
-	METHOD method_2636 get (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 	METHOD method_2638 convertInlineBlocks (Ljava/lang/String;)Ljava/lang/String;
 	METHOD method_2639 reload ()V
 	METHOD method_2640 loadBundleFromPath (Ljava/lang/String;)Ljava/util/PropertyResourceBundle;

@@ -7,9 +7,9 @@ CLASS com/corrodinggames/rts/gameFramework/e/class_905 com/corrodinggames/rts/ga
 	METHOD method_2229 saveToCache (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z
 	METHOD method_2230 getCachePath (Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/String;
 	METHOD method_2232 listDirCached (Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;
+	METHOD method_2233 method_2233 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/e/class_906;
 	METHOD method_2234 openAssetCached (Ljava/lang/String;Ljava/lang/String;)Ljava/io/InputStream;
 	METHOD method_2235 existsInCache (Ljava/lang/String;Ljava/lang/String;)Z
 	METHOD method_2236 readFromCache (Ljava/lang/String;Ljava/lang/String;)Ljava/io/FileInputStream;
 	METHOD method_5125 getCharAsString (C)Ljava/lang/String;
 	METHOD method_5126 readStringFromCache (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-	METHOD method_2233 method_2233 (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/e/class_906;

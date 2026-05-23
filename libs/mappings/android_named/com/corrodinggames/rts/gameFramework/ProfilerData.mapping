@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/gameFramework/class_888 com/corrodinggames/rts/gameFramework/ProfilerData
+	FIELD field_4875 field_4875 [J
+	FIELD field_4876 field_4876 [J
+	FIELD field_4877 field_4877 [F
+	FIELD field_4878 field_4878 [J
+	FIELD field_4879 field_4879 [J
+	FIELD field_4880 field_4880 Lcom/corrodinggames/rts/gameFramework/class_882;

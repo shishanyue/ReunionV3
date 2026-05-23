@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/class_847 com/corrodinggames/rts/gameFramework/AndroidMusicFactory
+	FIELD field_4679 mediaPlayers Ljava/util/ArrayList;
+	FIELD field_4680 availablePlayers Ljava/util/ArrayList;
+	FIELD field_4681 playingPlayers Ljava/util/ArrayList;
+	FIELD field_4682 loaded Z

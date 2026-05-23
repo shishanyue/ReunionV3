@@ -1,0 +1,11 @@
+CLASS com/corrodinggames/rts/game/units/d/class_641 com/corrodinggames/rts/game/units/buildings/FactoryQueueInterface
+	METHOD method_1605 method_1605 (Landroid/graphics/PointF;)V
+	METHOD method_1606 method_1606 (Lcom/corrodinggames/rts/game/units/a/class_333;Z)I
+	METHOD method_1607 method_1607 (Lcom/corrodinggames/rts/game/units/d/class_639;)V
+	METHOD method_1608 method_1608 (Lcom/corrodinggames/rts/game/units/d/class_639;)V
+	METHOD method_1610 method_1610 ()Lcom/corrodinggames/rts/game/units/d/class_639;
+	METHOD method_1611 method_1611 ()Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	METHOD method_1612 method_1612 ()Z
+	METHOD method_1613 method_1613 ()V
+	METHOD method_1614 method_1614 ()Z
+	METHOD method_1615 method_1615 (Lcom/corrodinggames/rts/game/units/class_704;)I

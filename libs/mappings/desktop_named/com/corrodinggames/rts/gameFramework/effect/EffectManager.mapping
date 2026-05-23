@@ -4,46 +4,38 @@ CLASS com/corrodinggames/rts/gameFramework/d/class_892 com/corrodinggames/rts/ga
 	FIELD field_4928 maxEffectsLow I
 	FIELD field_4929 maxEffectsHigh I
 	FIELD field_4930 maxEffectsVeryHigh I
+	FIELD field_4931 field_4931 [Lcom/corrodinggames/rts/gameFramework/d/class_894;
 	FIELD field_4932 nextFreeEffect I
 	FIELD field_4933 useStrictCounting Z
 	FIELD field_4934 maxParticlesVeryLow I
 	FIELD field_4935 maxParticlesLow I
+	FIELD field_4936 field_4936 Lcom/corrodinggames/rts/gameFramework/m/class_1231;
+	FIELD field_4937 field_4937 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4938 field_4938 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_4939 rectF Landroid/graphics/RectF;
 	FIELD field_4940 rect Landroid/graphics/Rect;
 	FIELD field_4941 rect2 Landroid/graphics/Rect;
 	FIELD field_4942 paint Landroid/graphics/Paint;
 	FIELD field_4943 paint2 Landroid/graphics/Paint;
+	FIELD field_4944 field_4944 [Lcom/corrodinggames/rts/gameFramework/d/class_896;
+	FIELD field_4945 field_4945 Lcom/corrodinggames/rts/gameFramework/d/class_897;
 	FIELD field_4946 onlyOnScreen Z
 	FIELD field_4947 forceHighQuality Z
 	FIELD field_4948 linePaint Landroid/graphics/Paint;
 	FIELD field_4949 lastUpdate F
 	FIELD field_4950 someBooleanArray [Z
-	FIELD field_4931 field_4931 [Lcom/corrodinggames/rts/gameFramework/d/class_894;
-	FIELD field_4936 field_4936 Lcom/corrodinggames/rts/gameFramework/m/class_1231;
-	FIELD field_4937 field_4937 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
-	FIELD field_4938 field_4938 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
-	FIELD field_4944 field_4944 [Lcom/corrodinggames/rts/gameFramework/d/class_896;
-	FIELD field_4945 field_4945 Lcom/corrodinggames/rts/gameFramework/d/class_897;
-	METHOD method_2089 loadContent (Landroid/content/Context;)V
 	METHOD method_2091 createExplosion (FFF)V
-	METHOD method_2093 createExplosionWithVelocity (FFFFF)V
-	METHOD method_2099 drawEffect (FI)I
-	METHOD method_2105 setBitmapQuality (Z)V
-	METHOD method_2107 getEffectCount (F)I
-	METHOD method_5086 setOnlyOnScreen ()V
-	METHOD method_5087 update (F)V
-	METHOD method_5088 random (FF)F
-	METHOD method_5090 createDirectedExplosion (FFFIFFF)V
-	METHOD method_5091 a_string_method (Ljava/lang/String;)I
-	METHOD method_5092 setForceHighQuality ()V
 	METHOD method_2092 method_2092 (FFFF)Lcom/corrodinggames/rts/gameFramework/d/class_894;
+	METHOD method_2093 createExplosionWithVelocity (FFFFF)V
 	METHOD method_2094 method_2094 (FFFFFF)Lcom/corrodinggames/rts/gameFramework/d/class_894;
 	METHOD method_2096 method_2096 (FFFI)Lcom/corrodinggames/rts/gameFramework/d/class_894;
 	METHOD method_2100 method_2100 (Lcom/corrodinggames/rts/gameFramework/class_773;I)Lcom/corrodinggames/rts/gameFramework/d/class_894;
 	METHOD method_2101 method_2101 (Lcom/corrodinggames/rts/gameFramework/class_773;IF)Lcom/corrodinggames/rts/gameFramework/d/class_894;
 	METHOD method_2102 method_2102 (Lcom/corrodinggames/rts/gameFramework/d/class_894;Lcom/corrodinggames/rts/gameFramework/class_773;)V
 	METHOD method_2103 method_2103 (Lcom/corrodinggames/rts/gameFramework/d/class_897;)Lcom/corrodinggames/rts/gameFramework/d/class_894;
+	METHOD method_2105 setBitmapQuality (Z)V
 	METHOD method_2106 method_2106 (ZLcom/corrodinggames/rts/gameFramework/d/class_897;)Lcom/corrodinggames/rts/gameFramework/d/class_894;
+	METHOD method_2107 getEffectCount (F)I
 	METHOD method_2108 method_2108 (FFF)Lcom/corrodinggames/rts/gameFramework/d/class_894;
 	METHOD method_2110 method_2110 (FFFFF)Lcom/corrodinggames/rts/gameFramework/d/class_894;
 	METHOD method_2111 method_2111 (FFFI)Lcom/corrodinggames/rts/gameFramework/d/class_894;
@@ -51,3 +43,11 @@ CLASS com/corrodinggames/rts/gameFramework/d/class_892 com/corrodinggames/rts/ga
 	METHOD method_2116 method_2116 (FFFF)Lcom/corrodinggames/rts/gameFramework/d/class_894;
 	METHOD method_2117 method_2117 (FFFI)Lcom/corrodinggames/rts/gameFramework/d/class_894;
 	METHOD method_2118 method_2118 (FFF)Lcom/corrodinggames/rts/gameFramework/d/class_894;
+	METHOD method_2089 loadContent (Landroid/content/Context;)V
+	METHOD method_2099 drawEffect (FI)I
+	METHOD method_5086 setOnlyOnScreen ()V
+	METHOD method_5087 update (F)V
+	METHOD method_5088 random (FF)F
+	METHOD method_5090 createDirectedExplosion (FFFIFFF)V
+	METHOD method_5091 a_string_method (Ljava/lang/String;)I
+	METHOD method_5092 setForceHighQuality ()V

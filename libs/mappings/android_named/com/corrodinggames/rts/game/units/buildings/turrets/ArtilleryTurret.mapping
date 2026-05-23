@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/d/a/class_611 com/corrodinggames/rts/game/units/buildings/turrets/ArtilleryTurret
+	FIELD field_3648 field_3648 Lcom/corrodinggames/rts/game/units/d/a/class_605;

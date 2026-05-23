@@ -1,0 +1,20 @@
+CLASS com/corrodinggames/rts/game/units/class_708 com/corrodinggames/rts/game/units/DamageZone
+	FIELD field_3959 field_3959 F
+	FIELD field_3960 field_3960 F
+	FIELD field_3961 field_3961 F
+	FIELD field_3962 field_3962 F
+	FIELD field_3963 field_3963 F
+	FIELD field_3964 field_3964 F
+	FIELD field_3965 field_3965 Z
+	FIELD field_3966 field_3966 F
+	FIELD field_3967 field_3967 Z
+	FIELD field_3968 field_3968 F
+	FIELD field_3969 field_3969 Landroid/graphics/Paint;
+	FIELD field_3970 field_3970 Landroid/graphics/Paint;
+	FIELD field_3971 field_3971 Landroid/graphics/Paint;
+	FIELD field_3972 field_3972 Landroid/graphics/Paint;
+	FIELD field_3973 field_3973 Landroid/graphics/Paint;
+	FIELD field_3974 field_3974 Landroid/graphics/Paint;
+	FIELD field_3975 field_3975 Z
+	METHOD method_1697 method_1697 ()V
+	METHOD method_1696 method_1696 ()Lcom/corrodinggames/rts/game/units/class_708;

@@ -1,0 +1,14 @@
+CLASS com/corrodinggames/rts/game/units/custom/b/class_495 com/corrodinggames/rts/game/units/custom/hooks/CustomUnitDecalRenderer
+	FIELD field_2488 field_2488 Landroid/graphics/Paint;
+	FIELD field_2489 field_2489 Lcom/corrodinggames/rts/gameFramework/m/class_1233;
+	FIELD field_2490 field_2490 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_2491 field_2491 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_2492 field_2492 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_2493 field_2493 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_2494 field_2494 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_2495 field_2495 Z
+	FIELD field_2497 field_2497 Lcom/corrodinggames/rts/game/units/custom/b/class_499;
+	FIELD field_2498 field_2498 Landroid/graphics/Rect;
+	FIELD field_2499 field_2499 Landroid/graphics/RectF;
+	METHOD method_1192 method_1192 (Lcom/corrodinggames/rts/game/units/custom/class_581;Lcom/corrodinggames/rts/gameFramework/utility/class_1297;)V
+	METHOD method_1193 method_1193 (Lcom/corrodinggames/rts/game/units/custom/class_581;Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/b/class_499;

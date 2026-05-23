@@ -1,0 +1,15 @@
+CLASS com/corrodinggames/rts/game/units/d/class_645 com/corrodinggames/rts/game/units/buildings/LaserDefense
+	FIELD field_3792 field_3792 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3793 field_3793 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3794 field_3794 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3795 isUpgraded Z
+	FIELD field_3796 isRecharging Z
+	FIELD field_3797 laserEffectTimer F
+	FIELD field_3798 field_3798 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3799 field_3799 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3800 laserOriginPoint Landroid/graphics/PointF;
+	FIELD field_3801 drawRect Landroid/graphics/Rect;
+	FIELD field_3802 field_3802 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_3803 availableActions Ljava/util/ArrayList;
+	METHOD method_1618 method_1618 (Lcom/corrodinggames/rts/game/units/class_409;FFFFF)Z
+	METHOD method_1619 initializeTextures ()V

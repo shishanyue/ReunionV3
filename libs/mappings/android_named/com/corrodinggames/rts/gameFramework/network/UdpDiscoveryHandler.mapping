@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/j/class_1012 com/corrodinggames/rts/gameFramework/network/UdpDiscoveryHandler
+	FIELD field_6008 datagramSocket Ljava/net/DatagramSocket;
+	FIELD field_6009 timer Ljava/util/Timer;
+	FIELD field_6010 field_6010 Lcom/corrodinggames/rts/gameFramework/j/class_1001;
+	METHOD run run ()V

@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/class_1299 com/corrodinggames/rts/gameFramework/utility/ObjectPool
+	METHOD method_3589 release (Ljava/lang/Object;)Z

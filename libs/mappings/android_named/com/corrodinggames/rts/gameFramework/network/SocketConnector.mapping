@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/gameFramework/j/class_1025 com/corrodinggames/rts/gameFramework/network/SocketConnector
+	FIELD field_6068 serverAddress Ljava/lang/String;
+	FIELD field_6069 useUdp Z
+	FIELD field_6072 errorMessage Ljava/lang/String;
+	FIELD field_6073 onComplete Ljava/lang/Runnable;
+	FIELD field_6074 connectedSocket Ljava/net/Socket;
+	FIELD field_6075 cancelRequested Z
+	METHOD run run ()V

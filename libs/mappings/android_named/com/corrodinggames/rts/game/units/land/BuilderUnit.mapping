@@ -1,0 +1,16 @@
+CLASS com/corrodinggames/rts/game/units/e/class_677 com/corrodinggames/rts/game/units/land/BuilderUnit
+	FIELD field_3821 field_3821 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3822 field_3822 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3823 field_3823 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3824 field_3824 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3825 field_3825 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3826 field_3826 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3827 field_3827 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3828 field_3828 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3829 targetPriorityPoints [Landroid/graphics/PointF;
+	FIELD field_3830 unitRenderPoints [Landroid/graphics/PointF;
+	FIELD field_3831 linePaint Landroid/graphics/Paint;
+	FIELD field_3832 linePaintOver Landroid/graphics/Paint;
+	FIELD field_3833 chargePaint Landroid/graphics/Paint;
+	FIELD field_3834 field_3834 Lcom/corrodinggames/rts/game/units/a/class_349;
+	METHOD method_1624 loadTextures ()V

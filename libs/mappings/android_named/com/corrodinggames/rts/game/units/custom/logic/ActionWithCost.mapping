@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/class_460 com/corrodinggames/rts/game/units/custom/logic/ActionWithCost
+	FIELD field_2252 field_2252 Lcom/corrodinggames/rts/game/units/a/class_331;
+	FIELD field_2253 field_2253 Lcom/corrodinggames/rts/game/units/custom/d/class_552;
+	FIELD field_2254 field_2254 Lcom/corrodinggames/rts/game/units/custom/d/class_552;

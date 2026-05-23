@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/game/units/b/class_385 com/corrodinggames/rts/game/units/air/AirUnit
+	FIELD field_1623 field_1623 F
+	FIELD field_1624 field_1624 Z
+	FIELD field_1625 field_1625 F
+	FIELD field_1626 field_1626 Ljava/lang/Boolean;
+	FIELD field_1627 field_1627 Ljava/lang/Boolean;
+	FIELD field_1628 field_1628 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1629 field_1629 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	METHOD method_652 loadAirUnitTextures ()V

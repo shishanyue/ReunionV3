@@ -1,0 +1,15 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_543 com/corrodinggames/rts/game/units/custom/UnitSpawnEntry
+	FIELD field_2787 field_2787 Lcom/corrodinggames/rts/game/units/custom/class_593;
+	FIELD field_2788 field_2788 I
+	FIELD field_2789 field_2789 F
+	FIELD field_2790 field_2790 I
+	FIELD field_2791 field_2791 F
+	FIELD field_2792 field_2792 F
+	FIELD field_2793 field_2793 F
+	FIELD field_2794 field_2794 F
+	FIELD field_2795 field_2795 F
+	FIELD field_2796 field_2796 F
+	FIELD field_2797 field_2797 F
+	FIELD field_2798 field_2798 F
+	FIELD field_2799 field_2799 F
+	FIELD field_2800 field_2800 I

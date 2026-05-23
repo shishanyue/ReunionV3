@@ -21,6 +21,8 @@ CLASS com/corrodinggames/rts/gameFramework/class_907 com/corrodinggames/rts/game
 	FIELD field_5150 field_5150 [F
 	FIELD field_5151 field_5151 [F
 	METHOD method_2237 resetSharedRandomSeed ()V
+	METHOD method_2278 formatDouble ([B)Ljava/lang/String;
+	METHOD method_2279 compareByteArrays ([B[B)V
 	METHOD method_2239 min (DD)D
 	METHOD method_2241 sortRect (F)F
 	METHOD method_2242 trim (FF)F
@@ -37,6 +39,9 @@ CLASS com/corrodinggames/rts/gameFramework/class_907 com/corrodinggames/rts/game
 	METHOD method_2254 getStackTrace (JJ)J
 	METHOD method_2256 replace (Landroid/graphics/PointF;Landroid/graphics/PointF;Landroid/graphics/PointF;Landroid/graphics/PointF;)Z
 	METHOD method_2262 getStackTrace (Landroid/graphics/RectF;Landroid/graphics/RectF;)Z
+	METHOD method_2263 method_2263 (Lcom/corrodinggames/rts/game/units/class_426;FFI)F
+	METHOD method_2264 method_2264 (Lcom/corrodinggames/rts/game/units/class_426;II)I
+	METHOD method_2265 method_2265 (Lcom/corrodinggames/rts/gameFramework/class_773;III)I
 	METHOD method_2266 readStreamToString (Ljava/io/InputStream;)Ljava/lang/String;
 	METHOD method_2267 copyStream (Ljava/io/InputStream;Ljava/io/OutputStream;)V
 	METHOD method_2268 formatDate (Ljava/lang/CharSequence;Ljava/lang/Iterable;)Ljava/lang/String;
@@ -49,8 +54,8 @@ CLASS com/corrodinggames/rts/gameFramework/class_907 com/corrodinggames/rts/game
 	METHOD method_2275 booleanToString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 	METHOD method_2276 readStreamToString (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 	METHOD method_2277 padString (Z)Ljava/lang/String;
-	METHOD method_2278 formatDouble ([B)Ljava/lang/String;
-	METHOD method_2279 compareByteArrays ([B[B)V
+	METHOD method_2300 toHexString ([B)Ljava/lang/String;
+	METHOD method_2282 method_2282 (DD)Z
 	METHOD method_2283 formatDouble (DI)Ljava/lang/String;
 	METHOD method_2285 clamp (FF)F
 	METHOD method_2286 clampTo255 (FFF)F
@@ -60,11 +65,12 @@ CLASS com/corrodinggames/rts/gameFramework/class_907 com/corrodinggames/rts/game
 	METHOD method_2290 max (II)I
 	METHOD method_2291 distance (III)I
 	METHOD method_2292 longToIntArray (IIII)I
+	METHOD method_2294 method_2294 (Lcom/corrodinggames/rts/game/units/class_426;FFI)F
 	METHOD method_2296 getParentDir (Ljava/lang/String;)Ljava/lang/String;
 	METHOD method_2297 splitByChar (Ljava/lang/String;C)[Ljava/lang/String;
 	METHOD method_2298 truncateWithEllipsis (Ljava/lang/String;I)Ljava/lang/String;
 	METHOD method_2299 getRandomUUID (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-	METHOD method_2300 toHexString ([B)Ljava/lang/String;
+	METHOD method_2311 isSame ([B)[B
 	METHOD method_2303 randomFloatInRange (FF)F
 	METHOD method_2304 endsWith (FFF)F
 	METHOD method_2305 distanceInt (FFFF)I
@@ -73,7 +79,6 @@ CLASS com/corrodinggames/rts/gameFramework/class_907 com/corrodinggames/rts/game
 	METHOD method_2308 md5 (Ljava/lang/String;)Ljava/lang/String;
 	METHOD method_2309 removeEnd (Ljava/lang/String;I)Ljava/lang/String;
 	METHOD method_2310 getRandomBoolean (Ljava/lang/String;Ljava/lang/String;)Z
-	METHOD method_2311 isSame ([B)[B
 	METHOD method_2312 toString ()Ljava/lang/String;
 	METHOD method_2313 abs (F)F
 	METHOD method_2314 m287d (FF)F
@@ -81,19 +86,15 @@ CLASS com/corrodinggames/rts/gameFramework/class_907 com/corrodinggames/rts/game
 	METHOD method_2316 getAngleBetweenPoints (FFFF)F
 	METHOD method_2317 formatMilliseconds (I)Ljava/lang/String;
 	METHOD method_2318 abs (Ljava/lang/String;)Ljava/lang/String;
-	METHOD method_2319 replace (Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
 	METHOD method_2320 doubleToString ()I
 	METHOD method_2321 ceil (F)F
 	METHOD method_2322 max (FF)F
 	METHOD method_2323 fromHexString (FFF)F
 	METHOD method_2324 toHexString (I)Ljava/lang/String;
-	METHOD method_2325 split (Ljava/lang/String;I)Ljava/lang/String;
 	METHOD method_2326 max (F)I
 	METHOD method_2327 min (FF)F
 	METHOD method_2328 truncate (Ljava/lang/String;)Ljava/lang/String;
 	METHOD method_2329 min (F)Ljava/lang/String;
-	METHOD method_2330 isDifferenceWithinTolerance (FFF)Z
-	METHOD method_2331 truncate (Ljava/lang/String;I)Ljava/lang/String;
 	METHOD method_2332 toString (F)Ljava/lang/String;
 	METHOD method_2333 isGreaterThan (FF)Z
 	METHOD method_2335 getRealAssetPath (F)F
@@ -114,6 +115,10 @@ CLASS com/corrodinggames/rts/gameFramework/class_907 com/corrodinggames/rts/game
 	METHOD method_2352 isNumeric (Ljava/lang/String;)Z
 	METHOD method_2353 isInteger (Ljava/lang/String;)Z
 	METHOD method_2354 removeStart (Ljava/lang/String;)[B
+	METHOD method_2319 replace (Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
+	METHOD method_2325 split (Ljava/lang/String;I)Ljava/lang/String;
+	METHOD method_2330 isDifferenceWithinTolerance (FFF)Z
+	METHOD method_2331 truncate (Ljava/lang/String;I)Ljava/lang/String;
 	METHOD method_5128 md5FromString (D)D
 	METHOD method_5129 toHexString (DI)Ljava/lang/String;
 	METHOD method_5130 rotatePoint (FFFLandroid/graphics/PointF;)V
@@ -142,8 +147,3 @@ CLASS com/corrodinggames/rts/gameFramework/class_907 com/corrodinggames/rts/game
 	METHOD method_5153 formatSize (Ljava/lang/String;I)Ljava/lang/String;
 	METHOD method_5154 isClose (FF)Z
 	METHOD method_5155 urlDecode (Ljava/lang/String;)Ljava/lang/String;
-	METHOD method_2263 method_2263 (Lcom/corrodinggames/rts/game/units/class_426;FFI)F
-	METHOD method_2264 method_2264 (Lcom/corrodinggames/rts/game/units/class_426;II)I
-	METHOD method_2265 method_2265 (Lcom/corrodinggames/rts/gameFramework/class_773;III)I
-	METHOD method_2282 method_2282 (DD)Z
-	METHOD method_2294 method_2294 (Lcom/corrodinggames/rts/game/units/class_426;FFI)F

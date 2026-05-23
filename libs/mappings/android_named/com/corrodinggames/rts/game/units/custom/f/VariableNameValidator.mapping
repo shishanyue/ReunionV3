@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/custom/f/class_575 com/corrodinggames/rts/game/units/custom/f/VariableNameValidator
+	METHOD method_1397 method_1397 (Ljava/lang/String;)V

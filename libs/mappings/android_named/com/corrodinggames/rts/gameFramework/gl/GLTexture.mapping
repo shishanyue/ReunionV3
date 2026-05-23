@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/b/class_808 com/corrodinggames/rts/gameFramework/gl/GLTexture
+	FIELD field_4463 field_4463 Z
+	FIELD field_4464 field_4464 Z
+	FIELD field_4465 field_4465 I
+	METHOD method_1855 method_1855 ()Z

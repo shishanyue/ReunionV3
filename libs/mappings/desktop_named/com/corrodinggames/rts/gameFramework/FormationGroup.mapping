@@ -1,12 +1,12 @@
 CLASS com/corrodinggames/rts/gameFramework/class_778 com/corrodinggames/rts/gameFramework/FormationGroup
+	FIELD field_4240 field_4240 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
 	FIELD field_4242 targetX F
 	FIELD field_4243 targetY F
 	FIELD field_4244 formationId I
 	FIELD field_4245 isQueued Z
-	FIELD field_8132 isActive Z
-	FIELD field_4240 field_4240 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
 	FIELD field_4246 field_4246 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
 	FIELD field_4247 field_4247 Lcom/corrodinggames/rts/gameFramework/class_777;
+	FIELD field_8132 isActive Z
 	METHOD method_1793 method_1793 ()V
 	METHOD method_1794 method_1794 (Lcom/corrodinggames/rts/game/units/class_409;)V
 	METHOD method_1796 method_1796 (Lcom/corrodinggames/rts/gameFramework/utility/class_1323;FFZ)Lcom/corrodinggames/rts/game/units/class_409;

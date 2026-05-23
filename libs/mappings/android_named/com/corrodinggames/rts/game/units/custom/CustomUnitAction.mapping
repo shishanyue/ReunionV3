@@ -1,0 +1,14 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_583 com/corrodinggames/rts/game/units/custom/CustomUnitAction
+	FIELD field_3558 field_3558 Lcom/corrodinggames/rts/game/units/custom/class_583;
+	FIELD field_3559 field_3559 Lcom/corrodinggames/rts/game/units/custom/class_583;
+	FIELD field_3560 field_3560 Lcom/corrodinggames/rts/game/units/custom/class_583;
+	FIELD field_3561 field_3561 Lcom/corrodinggames/rts/game/units/custom/class_583;
+	FIELD field_3562 field_3562 Lcom/corrodinggames/rts/game/units/custom/class_583;
+	FIELD field_3563 field_3563 Lcom/corrodinggames/rts/game/units/custom/class_583;
+	FIELD field_3564 field_3564 Lcom/corrodinggames/rts/game/units/custom/class_583;
+	FIELD field_3565 field_3565 Lcom/corrodinggames/rts/game/units/custom/class_583;
+	FIELD field_3566 field_3566 Lcom/corrodinggames/rts/game/units/custom/class_583;
+	FIELD field_3567 field_3567 [Lcom/corrodinggames/rts/game/units/custom/class_583;
+	METHOD method_1502 method_1502 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/class_583;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/class_583;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/custom/class_583;

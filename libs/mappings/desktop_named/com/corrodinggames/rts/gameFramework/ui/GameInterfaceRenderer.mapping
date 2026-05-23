@@ -1,27 +1,13 @@
 CLASS com/corrodinggames/rts/gameFramework/f/class_908 com/corrodinggames/rts/gameFramework/ui/GameInterfaceRenderer
+	FIELD field_5182 field_5182 Lcom/corrodinggames/rts/gameFramework/f/class_961;
 	FIELD field_5152 selectionRectF3 Landroid/graphics/RectF;
-	FIELD field_5153 minimapRect Landroid/graphics/Rect;
-	FIELD field_5154 minimapRectF Landroid/graphics/RectF;
-	FIELD field_5155 isZoomButtonPressed Z
-	FIELD field_5156 initialTouchY F
-	FIELD field_5157 zoomButtonTimer F
-	FIELD field_5158 mouseWheelZoomAccumulator F
-	FIELD field_5160 isMultiTouchZooming Z
-	FIELD field_5161 multiTouchCenterX F
-	FIELD field_5162 multiTouchCenterY F
-	FIELD field_5163 multiTouchInitialDistance F
-	FIELD field_5164 multiTouchCurrentX F
-	FIELD field_5165 multiTouchCurrentY F
-	FIELD field_5166 multiTouchCurrentDistance F
-	FIELD field_5167 multiTouchPointerCount I
-	FIELD field_5168 initialZoomLevel F
-	FIELD field_5169 gestureZoomTimer F
-	FIELD field_5176 staticPaint Landroid/graphics/Paint;
-	FIELD field_5177 staticColorFilter Landroid/graphics/PorterDuffColorFilter;
+	FIELD field_5183 field_5183 Lcom/corrodinggames/rts/game/units/class_426;
 	FIELD field_5178 arrayList Ljava/util/ArrayList;
-	FIELD field_5180 infoTextTimer F
+	FIELD field_5184 field_5184 Lcom/corrodinggames/rts/game/units/a/class_349;
 	FIELD field_5185 commandTimer F
+	FIELD field_5180 infoTextTimer F
 	FIELD field_5186 lastCommandTime J
+	FIELD field_5181 field_5181 Lcom/corrodinggames/rts/gameFramework/f/class_977;
 	FIELD field_5187 commandX F
 	FIELD field_5188 commandY F
 	FIELD field_5189 unselectAllText Ljava/lang/String;
@@ -33,61 +19,70 @@ CLASS com/corrodinggames/rts/gameFramework/f/class_908 com/corrodinggames/rts/ga
 	FIELD field_5197 infoTextAlpha F
 	FIELD field_5198 showInfoText Z
 	FIELD field_5199 unitList Ljava/util/ArrayList;
+	FIELD field_5200 field_5200 Lcom/corrodinggames/rts/game/units/a/class_355;
+	FIELD field_5201 field_5201 Lcom/corrodinggames/rts/game/units/a/class_355;
+	FIELD field_5202 field_5202 Lcom/corrodinggames/rts/game/units/a/class_334;
 	FIELD field_5203 unitList2 Ljava/util/ArrayList;
 	FIELD field_5204 unitList3 Ljava/util/ArrayList;
+	FIELD field_5205 field_5205 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
 	FIELD field_5206 unitList4 Ljava/util/ArrayList;
 	FIELD field_5207 rectF Landroid/graphics/RectF;
+	FIELD field_5208 field_5208 Ljava/util/HashMap;
+	FIELD field_5209 field_5209 Lcom/corrodinggames/rts/gameFramework/class_1061;
+	FIELD field_5153 minimapRect Landroid/graphics/Rect;
 	FIELD field_5210 isDragging Z
+	FIELD field_5154 minimapRectF Landroid/graphics/RectF;
 	FIELD field_5211 isDraggingSelectionBox Z
+	FIELD field_5155 isZoomButtonPressed Z
 	FIELD field_5212 isSelecting Z
+	FIELD field_5156 initialTouchY F
 	FIELD field_5213 selectionTimer F
+	FIELD field_5157 zoomButtonTimer F
 	FIELD field_5214 paintSelectionBox Landroid/graphics/Paint;
+	FIELD field_5158 mouseWheelZoomAccumulator F
 	FIELD field_5215 paintHealthBar Landroid/graphics/Paint;
+	FIELD field_5159 field_5159 I
 	FIELD field_5216 paintUnitInfo Landroid/graphics/Paint;
+	FIELD field_5160 isMultiTouchZooming Z
 	FIELD field_5217 paintUnitName Landroid/graphics/Paint;
+	FIELD field_5161 multiTouchCenterX F
 	FIELD field_5218 paintUnitType Landroid/graphics/Paint;
+	FIELD field_5162 multiTouchCenterY F
 	FIELD field_5219 paintUnitTeam Landroid/graphics/Paint;
+	FIELD field_5163 multiTouchInitialDistance F
 	FIELD field_5220 paintUnitStatus Landroid/graphics/Paint;
+	FIELD field_5164 multiTouchCurrentX F
+	FIELD field_5221 field_5221 Lcom/corrodinggames/rts/gameFramework/m/class_1233;
+	FIELD field_5165 multiTouchCurrentY F
+	FIELD field_5222 field_5222 Lcom/corrodinggames/rts/gameFramework/m/class_1233;
+	FIELD field_5166 multiTouchCurrentDistance F
 	FIELD field_5223 paintMinimap Landroid/graphics/Paint;
+	FIELD field_5167 multiTouchPointerCount I
 	FIELD field_5224 textPaint Landroid/graphics/Paint;
+	FIELD field_5168 initialZoomLevel F
 	FIELD field_5225 textPaint2 Landroid/graphics/Paint;
+	FIELD field_5169 gestureZoomTimer F
 	FIELD field_5226 zoomButtonRect Landroid/graphics/Rect;
+	FIELD field_5170 field_5170 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_5227 zoomButtonRectF Landroid/graphics/RectF;
+	FIELD field_5171 field_5171 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_5228 unitRect Landroid/graphics/Rect;
+	FIELD field_5172 field_5172 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_5173 field_5173 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_5230 unitRect3 Landroid/graphics/Rect;
+	FIELD field_5174 field_5174 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_5231 selectionRectF Landroid/graphics/RectF;
+	FIELD field_5175 field_5175 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_5232 selectionRectF2 Landroid/graphics/RectF;
+	FIELD field_5176 staticPaint Landroid/graphics/Paint;
 	FIELD field_5233 selectionRect Landroid/graphics/Rect;
+	FIELD field_5177 staticColorFilter Landroid/graphics/PorterDuffColorFilter;
 	FIELD field_8391 rect Landroid/graphics/Rect;
 	FIELD field_8392 messageText Ljava/lang/String;
 	FIELD field_8393 messageTimer F
 	FIELD field_8394 unitRect2 Landroid/graphics/Rect;
-	FIELD field_5182 field_5182 Lcom/corrodinggames/rts/gameFramework/f/class_961;
-	FIELD field_5183 field_5183 Lcom/corrodinggames/rts/game/units/class_426;
-	FIELD field_5184 field_5184 Lcom/corrodinggames/rts/game/units/a/class_349;
-	FIELD field_5181 field_5181 Lcom/corrodinggames/rts/gameFramework/f/class_977;
-	FIELD field_5200 field_5200 Lcom/corrodinggames/rts/game/units/a/class_355;
-	FIELD field_5201 field_5201 Lcom/corrodinggames/rts/game/units/a/class_355;
-	FIELD field_5202 field_5202 Lcom/corrodinggames/rts/game/units/a/class_334;
-	FIELD field_5205 field_5205 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
-	FIELD field_5208 field_5208 Ljava/util/HashMap;
-	FIELD field_5209 field_5209 Lcom/corrodinggames/rts/gameFramework/class_1061;
-	FIELD field_5159 field_5159 I
-	FIELD field_5221 field_5221 Lcom/corrodinggames/rts/gameFramework/m/class_1233;
-	FIELD field_5222 field_5222 Lcom/corrodinggames/rts/gameFramework/m/class_1233;
-	FIELD field_5170 field_5170 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
-	FIELD field_5171 field_5171 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
-	FIELD field_5172 field_5172 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
-	FIELD field_5173 field_5173 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
-	FIELD field_5174 field_5174 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
-	FIELD field_5175 field_5175 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	METHOD method_2355 initializeStrings ()V
 	METHOD method_2356 handleZoomAndGestures (F)V
-	METHOD method_2370 handleUnitSelection (F)V
-	METHOD method_2380 initializeUI ()V
-	METHOD method_2382 getMaxZoomLevel ()F
-	METHOD method_5178 getMinZoomLevel ()F
-	METHOD method_5179 getScreenRatio ()F
 	METHOD method_2358 method_2358 (IIILjava/lang/String;Ljava/lang/String;Landroid/graphics/Paint;F)V
 	METHOD method_2359 method_2359 (Lcom/corrodinggames/rts/game/class_324;)Ljava/lang/String;
 	METHOD method_2360 method_2360 (Lcom/corrodinggames/rts/game/units/a/class_349;)Z
@@ -96,6 +91,7 @@ CLASS com/corrodinggames/rts/gameFramework/f/class_908 com/corrodinggames/rts/ga
 	METHOD method_2365 method_2365 (Lcom/corrodinggames/rts/game/units/class_426;Ljava/util/ArrayList;)Ljava/util/ArrayList;
 	METHOD method_2368 method_2368 (Ljava/lang/String;I)V
 	METHOD method_2369 method_2369 ()Lcom/corrodinggames/rts/game/units/class_426;
+	METHOD method_2370 handleUnitSelection (F)V
 	METHOD method_2371 method_2371 (I)V
 	METHOD method_2372 method_2372 (Lcom/corrodinggames/rts/game/units/a/class_349;)F
 	METHOD method_2374 method_2374 ()V
@@ -103,6 +99,10 @@ CLASS com/corrodinggames/rts/gameFramework/f/class_908 com/corrodinggames/rts/ga
 	METHOD method_2377 method_2377 ()V
 	METHOD method_2378 method_2378 (F)I
 	METHOD method_2379 method_2379 (Lcom/corrodinggames/rts/game/units/a/class_349;)Lcom/corrodinggames/rts/game/units/g/class_726;
+	METHOD method_2380 initializeUI ()V
+	METHOD method_2382 getMaxZoomLevel ()F
 	METHOD method_2383 method_2383 (F)V
 	METHOD method_2385 method_2385 ()Lcom/corrodinggames/rts/game/units/class_426;
 	METHOD method_2386 method_2386 ()Ljava/util/ArrayList;
+	METHOD method_5178 getMinZoomLevel ()F
+	METHOD method_5179 getScreenRatio ()F

@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/custom/f/class_573 com/corrodinggames/rts/game/units/custom/variables/ParsedValue
+	FIELD field_3067 field_3067 Ljava/lang/String;
+	FIELD field_3068 field_3068 Ljava/lang/String;
+	FIELD field_3069 field_3069 Ljava/lang/String;

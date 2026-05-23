@@ -1,0 +1,2 @@
+CLASS a/a/class_1339 net/rudp/RawSocket
+	METHOD method_3695 onBytesReceived ([BI)V

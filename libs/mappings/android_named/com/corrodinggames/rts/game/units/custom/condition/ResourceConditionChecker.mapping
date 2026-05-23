@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/game/units/custom/e/class_564 com/corrodinggames/rts/game/units/custom/condition/ResourceConditionChecker
+	FIELD field_3006 field_3006 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	METHOD method_1335 method_1335 (Lcom/corrodinggames/rts/game/units/custom/d/class_552;)Z
+	METHOD method_1336 method_1336 (Lcom/corrodinggames/rts/game/units/custom/d/class_552;Lcom/corrodinggames/rts/game/units/class_426;D)V
+	METHOD method_1337 method_1337 (Lcom/corrodinggames/rts/game/units/custom/e/class_556;)V
+	METHOD method_1338 method_1338 (Lcom/corrodinggames/rts/game/units/custom/e/class_567;)Z
+	METHOD method_1339 method_1339 (Lcom/corrodinggames/rts/game/units/custom/e/class_567;Lcom/corrodinggames/rts/game/units/class_426;D)V

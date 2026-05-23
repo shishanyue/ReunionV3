@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/class_852 com/corrodinggames/rts/gameFramework/MusicFactory
+	METHOD method_1997 method_1997 ()Lcom/corrodinggames/rts/gameFramework/class_854;
+	METHOD method_1998 method_1998 (Lcom/corrodinggames/rts/gameFramework/class_789;)V
+	METHOD method_1999 method_1999 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/class_853;

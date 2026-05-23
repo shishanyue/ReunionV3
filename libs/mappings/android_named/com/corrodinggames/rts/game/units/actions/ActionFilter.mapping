@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/game/units/a/class_332 com/corrodinggames/rts/game/units/actions/ActionFilter
+	FIELD emptyActionFilter emptyActionFilter Lcom/corrodinggames/rts/game/units/a/class_332;
+	METHOD isAvailable isAvailable (Lcom/corrodinggames/rts/game/units/a/class_349;Lcom/corrodinggames/rts/game/units/class_426;)Z

@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/gameFramework/b/a/class_794 com/corrodinggames/rts/gameFramework/gl/font/ShaderAttributeType
+	FIELD field_4381 field_4381 Lcom/corrodinggames/rts/gameFramework/b/a/class_794;
+	FIELD field_4382 field_4382 Lcom/corrodinggames/rts/gameFramework/b/a/class_794;
+	FIELD field_4385 field_4385 [Lcom/corrodinggames/rts/gameFramework/b/a/class_794;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/b/a/class_794;
+	METHOD values values ()[Lcom/corrodinggames/rts/gameFramework/b/a/class_794;

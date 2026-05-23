@@ -1,0 +1,17 @@
+CLASS com/corrodinggames/rts/game/class_329 com/corrodinggames/rts/game/TeamUnitStats
+	FIELD field_1493 field_1493 I
+	FIELD field_1499 field_1499 I
+	FIELD field_1500 field_1500 Lcom/corrodinggames/rts/game/units/custom/e/class_567;
+	FIELD field_1501 field_1501 Lcom/corrodinggames/rts/game/units/custom/e/class_567;
+	FIELD field_1502 field_1502 Lcom/corrodinggames/rts/game/units/custom/e/class_567;
+	FIELD field_1503 field_1503 Lcom/corrodinggames/rts/game/units/custom/e/class_567;
+	FIELD field_1504 field_1504 Lcom/corrodinggames/rts/game/units/custom/e/class_567;
+	FIELD field_1505 field_1505 Z
+	FIELD field_1506 field_1506 I
+	FIELD field_1507 field_1507 I
+	FIELD field_1508 field_1508 Lcom/corrodinggames/rts/game/class_754;
+	FIELD field_1509 field_1509 Lcom/corrodinggames/rts/game/class_754;
+	METHOD method_546 method_546 (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_547 method_547 (Lcom/corrodinggames/rts/game/units/custom/class_576;)Lcom/corrodinggames/rts/game/class_326;
+	METHOD method_548 method_548 (Lcom/corrodinggames/rts/game/units/d/class_641;)V
+	METHOD method_549 method_549 (Lcom/corrodinggames/rts/game/units/class_426;)V

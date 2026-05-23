@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_541 com/corrodinggames/rts/game/units/custom/UnitSpawnList
+	FIELD field_2780 field_2780 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_2781 field_2781 Lcom/corrodinggames/rts/game/units/custom/class_542;
+	METHOD method_1243 method_1243 (Lcom/corrodinggames/rts/game/class_314;Lcom/corrodinggames/rts/game/units/custom/class_543;Lcom/corrodinggames/rts/game/units/class_426;Lcom/corrodinggames/rts/game/class_314;Lcom/corrodinggames/rts/game/units/class_426;)V

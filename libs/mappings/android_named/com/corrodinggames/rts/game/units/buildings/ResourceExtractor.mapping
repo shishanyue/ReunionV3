@@ -1,0 +1,19 @@
+CLASS com/corrodinggames/rts/game/units/d/class_632 com/corrodinggames/rts/game/units/buildings/ResourceExtractor
+	FIELD field_3730 resourceGenerationTimer F
+	FIELD field_3731 extractorLevel I
+	FIELD field_3732 animationTimer F
+	FIELD field_3733 animationFrame I
+	FIELD field_3734 field_3734 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3735 field_3735 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3736 field_3736 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3737 field_3737 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3738 field_3738 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3739 field_3739 Landroid/graphics/Rect;
+	FIELD field_3740 field_3740 Landroid/graphics/Rect;
+	FIELD field_3741 field_3741 I
+	FIELD field_3742 field_3742 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_3743 field_3743 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_3744 level1Actions Ljava/util/ArrayList;
+	FIELD field_3745 level2Actions Ljava/util/ArrayList;
+	FIELD field_3746 level3Actions Ljava/util/ArrayList;
+	METHOD method_1578 loadTextures ()V

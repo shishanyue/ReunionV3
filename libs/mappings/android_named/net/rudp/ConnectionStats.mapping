@@ -1,0 +1,20 @@
+CLASS a/a/class_1356 net/rudp/ConnectionStats
+	FIELD field_7435 nextSequenceToSend I
+	FIELD field_7436 lastSequenceReceived I
+	FIELD field_7437 sentPacketCount I
+	FIELD field_7438 receivedPacketCount I
+	FIELD field_7439 droppedPacketCount I
+	METHOD method_3792 nextSequenceToSendAndIncrement ()I
+	METHOD method_3793 setNextSequenceToSend (I)I
+	METHOD method_3794 getLastSequenceReceived ()I
+	METHOD method_3795 setLastSequenceReceived (I)I
+	METHOD method_3796 incrementSentPackets ()V
+	METHOD method_3797 getSentPacketCount ()I
+	METHOD method_3798 drainSentPacketCount ()I
+	METHOD method_3799 incrementReceivedPackets ()V
+	METHOD method_3800 getReceivedPacketCount ()I
+	METHOD method_3801 drainReceivedPacketCount ()I
+	METHOD method_3802 incrementDroppedPackets ()V
+	METHOD method_3803 getDroppedPacketCount ()I
+	METHOD method_3804 drainDroppedPacketCount ()I
+	METHOD method_3805 reset ()V

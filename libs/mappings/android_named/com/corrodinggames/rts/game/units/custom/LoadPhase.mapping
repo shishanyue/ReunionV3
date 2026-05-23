@@ -1,0 +1,19 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_473 com/corrodinggames/rts/game/units/custom/LoadPhase
+	FIELD field_2435 field_2435 Lcom/corrodinggames/rts/game/units/custom/class_473;
+	FIELD field_2436 field_2436 Lcom/corrodinggames/rts/game/units/custom/class_473;
+	FIELD field_2437 field_2437 Lcom/corrodinggames/rts/game/units/custom/class_473;
+	FIELD field_2438 field_2438 Lcom/corrodinggames/rts/game/units/custom/class_473;
+	FIELD field_2439 field_2439 Lcom/corrodinggames/rts/game/units/custom/class_473;
+	FIELD field_2440 field_2440 Lcom/corrodinggames/rts/game/units/custom/class_473;
+	FIELD field_2441 field_2441 Lcom/corrodinggames/rts/game/units/custom/class_473;
+	FIELD field_2442 field_2442 Lcom/corrodinggames/rts/game/units/custom/class_473;
+	FIELD field_2443 field_2443 Lcom/corrodinggames/rts/game/units/custom/class_473;
+	FIELD field_2444 field_2444 Lcom/corrodinggames/rts/game/units/custom/class_473;
+	FIELD field_2445 field_2445 Lcom/corrodinggames/rts/game/units/custom/class_473;
+	FIELD field_2446 field_2446 Lcom/corrodinggames/rts/game/units/custom/class_473;
+	FIELD field_2447 field_2447 Lcom/corrodinggames/rts/game/units/custom/class_473;
+	FIELD field_2448 field_2448 Lcom/corrodinggames/rts/game/units/custom/class_473;
+	FIELD field_2449 field_2449 D
+	FIELD field_2450 field_2450 [Lcom/corrodinggames/rts/game/units/custom/class_473;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/class_473;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/custom/class_473;

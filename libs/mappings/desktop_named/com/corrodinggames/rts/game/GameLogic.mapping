@@ -1,35 +1,46 @@
 CLASS com/corrodinggames/rts/game/class_317 com/corrodinggames/rts/game/GameLogic
-	FIELD field_1315 speedMultiplier F
-	FIELD field_1316 floatI F
-	FIELD field_1317 lastDelta F
-	FIELD field_1320 postProcessingFailed Z
-	FIELD field_1326 waterRect Landroid/graphics/Rect;
-	FIELD field_1327 waterRectF Landroid/graphics/RectF;
-	FIELD field_1332 matrixY Landroid/graphics/Matrix;
-	FIELD field_1333 arrayListZ Ljava/util/ArrayList;
-	FIELD field_1334 arrayListAA Ljava/util/ArrayList;
 	FIELD field_1335 gameVersionName Ljava/lang/String;
+	FIELD field_1309 field_1309 Lcom/corrodinggames/rts/gameFramework/class_867;
 	FIELD field_1338 initLock Ljava/lang/Object;
 	FIELD field_1339 menuLoadFailureCount I
+	FIELD field_1310 field_1310 Lcom/corrodinggames/rts/gameFramework/class_866;
 	FIELD field_1345 allUnitsChecksum I
+	FIELD field_1311 field_1311 Lcom/corrodinggames/rts/gameFramework/d/class_891;
 	FIELD field_1346 densityScaleMultiplier F
 	FIELD field_1347 safeModeReason2 Ljava/lang/String;
+	FIELD field_1348 field_1348 [Lcom/corrodinggames/rts/game/class_321;
 	FIELD field_1349 someString Ljava/lang/String;
+	FIELD field_1315 speedMultiplier F
+	FIELD field_1316 floatI F
 	FIELD field_1351 cleanupCounter I
+	FIELD field_1317 lastDelta F
 	FIELD field_1352 gameThreadRunnableQueue Ljava/util/concurrent/ConcurrentLinkedQueue;
+	FIELD field_1318 field_1318 Lcom/corrodinggames/rts/game/class_320;
 	FIELD field_1353 paintL Landroid/graphics/Paint;
+	FIELD field_1319 field_1319 Lcom/corrodinggames/rts/game/class_320;
 	FIELD field_1354 fpsPaint Landroid/graphics/Paint;
+	FIELD field_1320 postProcessingFailed Z
 	FIELD field_1355 paintN Landroid/graphics/Paint;
+	FIELD field_1321 field_1321 Lcom/corrodinggames/rts/gameFramework/m/class_1225;
 	FIELD field_1356 paintO Landroid/graphics/Paint;
 	FIELD field_1357 paintP Landroid/graphics/Paint;
+	FIELD field_1326 waterRect Landroid/graphics/Rect;
 	FIELD field_1361 averageFrameTime F
+	FIELD field_1327 waterRectF Landroid/graphics/RectF;
 	FIELD field_1362 fpsString Ljava/lang/String;
+	FIELD field_1328 field_1328 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_1363 rectV Landroid/graphics/Rect;
+	FIELD field_1329 field_1329 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_1364 arrayListW Ljava/util/ArrayList;
+	FIELD field_1330 field_1330 Lcom/corrodinggames/rts/gameFramework/utility/class_1329;
 	FIELD field_1365 paintX Landroid/graphics/Paint;
+	FIELD field_1331 field_1331 Lcom/corrodinggames/rts/gameFramework/utility/class_1329;
 	FIELD field_1366 paintY Landroid/graphics/Paint;
+	FIELD field_1332 matrixY Landroid/graphics/Matrix;
 	FIELD field_1367 paintZ Landroid/graphics/Paint;
+	FIELD field_1333 arrayListZ Ljava/util/ArrayList;
 	FIELD field_1368 paintA Landroid/graphics/Paint;
+	FIELD field_1334 arrayListAA Ljava/util/ArrayList;
 	FIELD field_7911 hasCheckedSafeMode Z
 	FIELD field_7912 accumulator F
 	FIELD field_7916 waterAnimationTimer F
@@ -43,18 +54,10 @@ CLASS com/corrodinggames/rts/game/class_317 com/corrodinggames/rts/game/GameLogi
 	FIELD field_7926 fpsAccumulator I
 	FIELD field_7927 fpsFrameCounter I
 	FIELD field_7928 fps I
-	FIELD field_1309 field_1309 Lcom/corrodinggames/rts/gameFramework/class_867;
-	FIELD field_1310 field_1310 Lcom/corrodinggames/rts/gameFramework/class_866;
-	FIELD field_1311 field_1311 Lcom/corrodinggames/rts/gameFramework/d/class_891;
-	FIELD field_1348 field_1348 [Lcom/corrodinggames/rts/game/class_321;
-	FIELD field_1318 field_1318 Lcom/corrodinggames/rts/game/class_320;
-	FIELD field_1319 field_1319 Lcom/corrodinggames/rts/game/class_320;
-	FIELD field_1321 field_1321 Lcom/corrodinggames/rts/gameFramework/m/class_1225;
-	FIELD field_1328 field_1328 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
-	FIELD field_1329 field_1329 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
-	FIELD field_1330 field_1330 Lcom/corrodinggames/rts/gameFramework/utility/class_1329;
-	FIELD field_1331 field_1331 Lcom/corrodinggames/rts/gameFramework/utility/class_1329;
 	METHOD method_413 moveCameraTo (FFFF)Z
+	METHOD method_414 method_414 (Lcom/corrodinggames/rts/game/class_320;)V
+	METHOD method_415 method_415 (Lcom/corrodinggames/rts/game/class_324;)Lcom/corrodinggames/rts/game/units/class_426;
+	METHOD method_416 method_416 (Lcom/corrodinggames/rts/gameFramework/m/class_1239;F)V
 	METHOD method_417 selectAnyOnScreenBuilder ()V
 	METHOD method_418 setupPostProcessing ()Z
 	METHOD method_419 shouldDrawUnitIcons ()Z
@@ -62,6 +65,8 @@ CLASS com/corrodinggames/rts/game/class_317 com/corrodinggames/rts/game/GameLogi
 	METHOD method_423 isNotObfuscated ()Z
 	METHOD method_424 synchronizedMethod ()V
 	METHOD method_425 update (F)V
+	METHOD method_426 method_426 (Lcom/corrodinggames/rts/game/class_320;)V
+	METHOD method_427 method_427 (Lcom/corrodinggames/rts/gameFramework/m/class_1239;F)V
 	METHOD method_430 resetGame (Z)V
 	METHOD method_4381 updateDensity (II)V
 	METHOD method_4382 updateViewpoint (IIF)V
@@ -72,8 +77,3 @@ CLASS com/corrodinggames/rts/game/class_317 com/corrodinggames/rts/game/GameLogi
 	METHOD method_4389 resetFlags ()V
 	METHOD method_4390 stopAndClose ()V
 	METHOD method_4391 getSignature ()Ljava/lang/String;
-	METHOD method_414 method_414 (Lcom/corrodinggames/rts/game/class_320;)V
-	METHOD method_415 method_415 (Lcom/corrodinggames/rts/game/class_324;)Lcom/corrodinggames/rts/game/units/class_426;
-	METHOD method_416 method_416 (Lcom/corrodinggames/rts/gameFramework/m/class_1239;F)V
-	METHOD method_426 method_426 (Lcom/corrodinggames/rts/game/class_320;)V
-	METHOD method_427 method_427 (Lcom/corrodinggames/rts/gameFramework/m/class_1239;F)V

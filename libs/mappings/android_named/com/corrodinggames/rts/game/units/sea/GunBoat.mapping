@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/game/units/h/class_730 com/corrodinggames/rts/game/units/sea/GunBoat
+	FIELD field_4087 field_4087 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4088 field_4088 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4089 field_4089 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4090 field_4090 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_4091 field_4091 Landroid/graphics/Rect;
+	METHOD method_1736 method_1736 ()V

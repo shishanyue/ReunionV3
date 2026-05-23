@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/gameFramework/e/class_906 com/corrodinggames/rts/gameFramework/file/CachedInputStream
+	FIELD field_5130 inputStream Ljava/io/InputStream;

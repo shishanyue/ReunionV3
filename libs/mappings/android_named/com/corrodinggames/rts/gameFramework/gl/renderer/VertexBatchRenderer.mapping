@@ -1,0 +1,17 @@
+CLASS com/corrodinggames/rts/gameFramework/b/class_819 com/corrodinggames/rts/gameFramework/gl/renderer/VertexBatchRenderer
+	FIELD field_4533 field_4533 I
+	FIELD field_4534 field_4534 I
+	FIELD field_4542 field_4542 Lcom/corrodinggames/rts/gameFramework/b/class_823;
+	FIELD field_4544 field_4544 Z
+	FIELD field_4546 field_4546 I
+	FIELD field_4547 field_4547 F
+	FIELD field_4548 field_4548 F
+	FIELD field_4549 field_4549 F
+	FIELD field_4550 field_4550 F
+	FIELD field_4553 field_4553 F
+	METHOD method_1879 method_1879 ()V
+	METHOD method_1880 method_1880 (F)V
+	METHOD method_1881 method_1881 (FF)V
+	METHOD method_1882 method_1882 (FF[F)V
+	METHOD method_1883 method_1883 (I)V
+	METHOD method_1884 method_1884 ()V

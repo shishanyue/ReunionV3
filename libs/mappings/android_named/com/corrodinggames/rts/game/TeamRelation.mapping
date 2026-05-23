@@ -1,0 +1,11 @@
+CLASS com/corrodinggames/rts/game/class_327 com/corrodinggames/rts/game/TeamRelation
+	FIELD field_1483 field_1483 Lcom/corrodinggames/rts/game/class_327;
+	FIELD field_1484 field_1484 Lcom/corrodinggames/rts/game/class_327;
+	FIELD field_1485 field_1485 Lcom/corrodinggames/rts/game/class_327;
+	FIELD field_1486 field_1486 Lcom/corrodinggames/rts/game/class_327;
+	FIELD field_1487 field_1487 Lcom/corrodinggames/rts/game/class_327;
+	FIELD field_1488 field_1488 Lcom/corrodinggames/rts/game/class_327;
+	FIELD field_1489 field_1489 Lcom/corrodinggames/rts/game/class_327;
+	FIELD field_1490 field_1490 [Lcom/corrodinggames/rts/game/class_327;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/class_327;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/class_327;

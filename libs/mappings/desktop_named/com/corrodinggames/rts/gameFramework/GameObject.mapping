@@ -1,5 +1,7 @@
 CLASS com/corrodinggames/rts/gameFramework/class_773 com/corrodinggames/rts/gameFramework/GameObject
+	FIELD field_4219 field_4219 Lcom/corrodinggames/rts/gameFramework/utility/class_1325;
 	FIELD field_4220 objectId J
+	FIELD field_4221 field_4221 Lcom/corrodinggames/rts/gameFramework/class_774;
 	FIELD field_4222 isDestroyed Z
 	FIELD field_4223 isStatic Z
 	FIELD field_4224 flag3 Z
@@ -7,10 +9,8 @@ CLASS com/corrodinggames/rts/gameFramework/class_773 com/corrodinggames/rts/game
 	FIELD field_4227 posX F
 	FIELD field_4228 posY F
 	FIELD field_4229 posZ F
-	FIELD field_8822 syncType I
-	FIELD field_4219 field_4219 Lcom/corrodinggames/rts/gameFramework/utility/class_1325;
-	FIELD field_4221 field_4221 Lcom/corrodinggames/rts/gameFramework/class_774;
 	FIELD field_4230 field_4230 Lcom/corrodinggames/rts/gameFramework/utility/class_1329;
+	FIELD field_8822 syncType I
 	METHOD method_1763 remove ()V
 	METHOD method_1764 method_1764 (F)V
 	METHOD method_1765 method_1765 (FZ)V

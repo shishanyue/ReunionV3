@@ -3,6 +3,7 @@ CLASS com/corrodinggames/rts/game/units/custom/class_472 com/corrodinggames/rts/
 	FIELD field_2417 totalUnitFilesLoaded I
 	FIELD field_2418 totalModUnitFilesLoaded I
 	FIELD field_2419 unitsRegeneratedCount I
+	FIELD field_2420 field_2420 Lcom/corrodinggames/rts/gameFramework/i/class_992;
 	FIELD field_2421 isLoadingCoreUnit Z
 	FIELD field_2422 imageCache Ljava/util/HashMap;
 	FIELD field_2423 soundCache Ljava/util/HashMap;
@@ -10,36 +11,14 @@ CLASS com/corrodinggames/rts/game/units/custom/class_472 com/corrodinggames/rts/
 	FIELD field_2425 imageCacheHitCount I
 	FIELD field_2426 logImageCacheMiss Z
 	FIELD field_2427 oomImageErrorCount I
+	FIELD field_2428 field_2428 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
 	FIELD field_2429 iniCache Ljava/util/HashMap;
 	FIELD field_2430 unitConfigLock Ljava/lang/Object;
 	FIELD field_2431 maxUnitRadius F
 	FIELD field_2432 maxBuildingRadius F
-	FIELD field_2434 lastErrorMessage Ljava/lang/String;
-	FIELD field_2420 field_2420 Lcom/corrodinggames/rts/gameFramework/i/class_992;
-	FIELD field_2428 field_2428 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
 	FIELD field_2433 field_2433 Lcom/corrodinggames/rts/gameFramework/i/class_992;
+	FIELD field_2434 lastErrorMessage Ljava/lang/String;
 	METHOD method_1112 reloadAllActiveCustomUnits ()V
-	METHOD method_1136 trackImageMemory (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
-	METHOD method_1138 createLocalizedString (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;
-	METHOD method_1141 handleUnitLoadErrorForType (Ljava/util/ArrayList;)Ljava/lang/String;
-	METHOD method_1142 enableAllCustomUnits (Z)Ljava/lang/String;
-	METHOD method_1144 reloadChangedUnitConfigs ()V
-	METHOD method_1148 validateCustomUnitSet (Z)Z
-	METHOD method_1149 applyPendingNetworkUnits ()V
-	METHOD method_1151 getActiveCustomUnits (Z)Ljava/util/ArrayList;
-	METHOD method_1152 rebuildUnitTypeListsAsync ()V
-	METHOD method_1153 loadAllCustomUnitsAndMods ()V
-	METHOD method_1154 getBuiltinModsFolderName ()Ljava/lang/String;
-	METHOD method_1155 getBuiltinModsEnabledFolderName ()Ljava/lang/String;
-	METHOD method_1156 getDefaultUserModsFolder ()Ljava/lang/String;
-	METHOD method_1157 logTimingStats ()V
-	METHOD method_1158 rebuildUnitTypeRegistry ()V
-	METHOD method_1160 rebuildOverridesAndTriggersAsync ()V
-	METHOD method_1161 applyOverridesAndTriggers ()V
-	METHOD method_1162 resetTimingStats ()V
-	METHOD method_4545 init ()V
-	METHOD method_4546 parse (I)V
-	METHOD method_4552 loadSoundInternal (Ljava/util/ArrayList;)V
 	METHOD method_1143 method_1143 ([Lcom/corrodinggames/rts/gameFramework/m/class_1189;)V
 	METHOD method_1113 method_1113 (JLcom/corrodinggames/rts/game/units/custom/class_473;)V
 	METHOD method_1114 method_1114 (Lcom/corrodinggames/rts/game/units/custom/class_581;)Lcom/corrodinggames/rts/game/units/custom/class_581;
@@ -57,11 +36,32 @@ CLASS com/corrodinggames/rts/game/units/custom/class_472 com/corrodinggames/rts/
 	METHOD method_1132 method_1132 (Ljava/lang/String;Lcom/corrodinggames/rts/gameFramework/m/class_1189;)V
 	METHOD method_1134 method_1134 (Ljava/lang/String;Ljava/lang/Exception;Lcom/corrodinggames/rts/game/units/class_704;)V
 	METHOD method_1135 method_1135 (Ljava/lang/String;Ljava/lang/Exception;Lcom/corrodinggames/rts/gameFramework/i/class_992;)V
+	METHOD method_1136 trackImageMemory (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 	METHOD method_1137 method_1137 (Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/class_581;)Lcom/corrodinggames/rts/gameFramework/a/class_765;
+	METHOD method_1138 createLocalizedString (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/ArrayList;
 	METHOD method_1139 method_1139 (Ljava/lang/String;Ljava/lang/String;ZLcom/corrodinggames/rts/game/units/custom/class_581;)Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	METHOD method_1140 method_1140 (Ljava/lang/String;Ljava/lang/String;ZLcom/corrodinggames/rts/game/units/custom/class_581;Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	METHOD method_1141 handleUnitLoadErrorForType (Ljava/util/ArrayList;)Ljava/lang/String;
+	METHOD method_1142 enableAllCustomUnits (Z)Ljava/lang/String;
+	METHOD method_1144 reloadChangedUnitConfigs ()V
 	METHOD method_1145 method_1145 (Lcom/corrodinggames/rts/game/units/custom/class_581;)V
 	METHOD method_1146 method_1146 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	METHOD method_1147 method_1147 (Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/class_581;)Lcom/corrodinggames/rts/gameFramework/a/class_765;
+	METHOD method_1148 validateCustomUnitSet (Z)Z
+	METHOD method_1149 applyPendingNetworkUnits ()V
 	METHOD method_1150 method_1150 (Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/class_581;)Lcom/corrodinggames/rts/gameFramework/utility/class_1322;
+	METHOD method_1151 getActiveCustomUnits (Z)Ljava/util/ArrayList;
+	METHOD method_1152 rebuildUnitTypeListsAsync ()V
+	METHOD method_1153 loadAllCustomUnitsAndMods ()V
+	METHOD method_1154 getBuiltinModsFolderName ()Ljava/lang/String;
+	METHOD method_1155 getBuiltinModsEnabledFolderName ()Ljava/lang/String;
+	METHOD method_1156 getDefaultUserModsFolder ()Ljava/lang/String;
+	METHOD method_1157 logTimingStats ()V
+	METHOD method_1158 rebuildUnitTypeRegistry ()V
 	METHOD method_1159 method_1159 ()V
+	METHOD method_1160 rebuildOverridesAndTriggersAsync ()V
+	METHOD method_1161 applyOverridesAndTriggers ()V
+	METHOD method_1162 resetTimingStats ()V
+	METHOD method_4545 init ()V
+	METHOD method_4546 parse (I)V
+	METHOD method_4552 loadSoundInternal (Ljava/util/ArrayList;)V

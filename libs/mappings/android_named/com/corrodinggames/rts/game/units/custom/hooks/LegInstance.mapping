@@ -1,0 +1,20 @@
+CLASS com/corrodinggames/rts/game/units/custom/b/class_501 com/corrodinggames/rts/game/units/custom/hooks/LegInstance
+	FIELD field_2580 field_2580 I
+	FIELD field_2581 field_2581 F
+	FIELD field_2582 field_2582 F
+	FIELD field_2583 field_2583 F
+	FIELD field_2584 field_2584 F
+	FIELD field_2585 field_2585 F
+	FIELD field_2586 field_2586 F
+	FIELD field_2587 field_2587 F
+	FIELD field_2588 field_2588 F
+	FIELD field_2589 field_2589 Z
+	FIELD field_2590 field_2590 Z
+	FIELD field_2591 field_2591 Z
+	FIELD field_2592 field_2592 Z
+	FIELD field_2593 field_2593 Z
+	FIELD field_2594 field_2594 Z
+	FIELD field_2595 field_2595 F
+	FIELD field_2596 field_2596 F
+	FIELD field_2597 field_2597 F
+	FIELD field_2598 field_2598 F

@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/f/class_928 com/corrodinggames/rts/gameFramework/ui/StatHistoryBuilder
+	FIELD field_5342 field_5342 Ljava/util/ArrayList;
+	METHOD method_2427 method_2427 (Ljava/util/ArrayList;)V

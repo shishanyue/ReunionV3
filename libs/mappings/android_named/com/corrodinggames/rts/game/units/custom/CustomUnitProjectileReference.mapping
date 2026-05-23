@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_593 com/corrodinggames/rts/game/units/custom/CustomUnitProjectileReference
+	FIELD field_3597 field_3597 Lcom/corrodinggames/rts/game/units/custom/class_540;

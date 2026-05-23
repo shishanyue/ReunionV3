@@ -1,6 +1,10 @@
 CLASS com/corrodinggames/rts/game/b/class_303 com/corrodinggames/rts/game/map/LayerBufferCell
+	FIELD field_963 field_963 Lcom/corrodinggames/rts/gameFramework/m/class_1225;
 	FIELD field_964 gridLinearIndex I
 	FIELD field_965 redrawVersion I
+	FIELD field_966 field_966 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_967 field_967 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_968 field_968 Lcom/corrodinggames/rts/gameFramework/m/class_1225;
 	FIELD field_969 fadeProgressRatio F
 	FIELD field_970 fadeBlendPaint Landroid/graphics/Paint;
 	FIELD field_971 gridX I
@@ -8,16 +12,12 @@ CLASS com/corrodinggames/rts/game/b/class_303 com/corrodinggames/rts/game/map/La
 	FIELD field_975 fadeFrameCount I
 	FIELD field_979 screenDstRectF Landroid/graphics/RectF;
 	FIELD field_980 worldBoundsRect Landroid/graphics/Rect;
+	FIELD field_981 field_981 Lcom/corrodinggames/rts/game/b/class_302;
 	FIELD field_7901 needsRedraw Z
 	FIELD field_7902 enableSmoothFade Z
 	FIELD field_7903 preRendered Z
 	FIELD field_7904 tileSrcRect Landroid/graphics/Rect;
 	FIELD field_7905 screenDstRect Landroid/graphics/Rect;
-	FIELD field_963 field_963 Lcom/corrodinggames/rts/gameFramework/m/class_1225;
-	FIELD field_966 field_966 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
-	FIELD field_967 field_967 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
-	FIELD field_968 field_968 Lcom/corrodinggames/rts/gameFramework/m/class_1225;
-	FIELD field_981 field_981 Lcom/corrodinggames/rts/game/b/class_302;
 	METHOD method_358 initFadeBufferTexture ()V
 	METHOD method_359 getWorldBoundsRect ()Landroid/graphics/Rect;
 	METHOD method_360 getWorldLeft ()I

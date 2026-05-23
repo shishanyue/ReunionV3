@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/d/class_623 com/corrodinggames/rts/game/units/buildings/WallVertical
+	FIELD field_3689 field_3689 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3690 field_3690 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3691 field_3691 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	METHOD method_1561 method_1561 ()V

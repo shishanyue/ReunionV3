@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/class_1296 com/corrodinggames/rts/gameFramework/utility/DebugDrawItem
+	FIELD field_7239 field_7239 Landroid/graphics/Paint;
+	FIELD field_7240 field_7240 Landroid/graphics/RectF;
+	FIELD field_7241 field_7241 Z
+	FIELD field_7242 field_7242 Z
+	FIELD field_7243 field_7243 F
+	FIELD field_7244 field_7244 Ljava/lang/String;

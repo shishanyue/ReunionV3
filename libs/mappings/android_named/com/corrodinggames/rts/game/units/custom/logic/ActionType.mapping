@@ -1,0 +1,11 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/class_463 com/corrodinggames/rts/game/units/custom/logic/ActionType
+	FIELD field_2359 field_2359 Lcom/corrodinggames/rts/game/units/custom/a/class_463;
+	FIELD field_2360 field_2360 Lcom/corrodinggames/rts/game/units/custom/a/class_463;
+	FIELD field_2361 field_2361 Lcom/corrodinggames/rts/game/units/custom/a/class_463;
+	FIELD field_2362 field_2362 Lcom/corrodinggames/rts/game/units/custom/a/class_463;
+	FIELD field_2363 field_2363 Lcom/corrodinggames/rts/game/units/custom/a/class_463;
+	FIELD field_2364 field_2364 Lcom/corrodinggames/rts/game/units/custom/a/class_463;
+	FIELD field_2365 field_2365 Lcom/corrodinggames/rts/game/units/custom/a/class_463;
+	FIELD field_2366 field_2366 [Lcom/corrodinggames/rts/game/units/custom/a/class_463;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/a/class_463;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/custom/a/class_463;

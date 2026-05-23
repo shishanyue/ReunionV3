@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/f/class_957 com/corrodinggames/rts/gameFramework/ui/GameStatistic
+	FIELD field_5425 name Ljava/lang/String;
+	FIELD field_5426 stringValue Ljava/lang/String;
+	FIELD field_5427 floatValue F
+	FIELD field_5428 field_d F

@@ -1,5 +1,6 @@
 CLASS com/corrodinggames/rts/game/b/class_309 com/corrodinggames/rts/game/map/Tileset
 	FIELD field_1042 tilesetSource Ljava/lang/String;
+	FIELD field_1043 field_1043 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_1044 imageKey Ljava/lang/String;
 	FIELD field_1045 tileWidth I
 	FIELD field_1046 tileHeight I
@@ -11,6 +12,7 @@ CLASS com/corrodinggames/rts/game/b/class_309 com/corrodinggames/rts/game/map/Ti
 	FIELD field_1052 invColumns F
 	FIELD field_1053 firstGid I
 	FIELD field_1055 firstGlobalTileIndex S
+	FIELD field_1056 field_1056 Lcom/corrodinggames/rts/game/b/class_299;
 	FIELD field_1057 usedInMap Z
 	FIELD field_1058 usedInFogLayer Z
 	FIELD field_1059 usedInNonGroundLayer Z
@@ -21,12 +23,11 @@ CLASS com/corrodinggames/rts/game/b/class_309 com/corrodinggames/rts/game/map/Ti
 	FIELD field_1064 cachedRect Landroid/graphics/Rect;
 	FIELD field_1065 cachedRectIndex I
 	FIELD field_7910 lastGid I
-	FIELD field_1043 field_1043 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
-	FIELD field_1056 field_1056 Lcom/corrodinggames/rts/game/b/class_299;
 	METHOD method_387 parseTileset ()V
 	METHOD method_388 freeUnusedImages (I)Landroid/graphics/Rect;
 	METHOD method_389 getPropertiesByTileId (ILandroid/graphics/Rect;)V
 	METHOD method_392 getTileRectCached ()V
+	METHOD method_393 method_393 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	METHOD method_394 initTextureMetrics ()V
 	METHOD method_4366 getEmbeddedPngBase64 (I)Ljava/util/Properties;
 	METHOD method_4367 getIndexOffsetByPosition (II)I
@@ -36,4 +37,3 @@ CLASS com/corrodinggames/rts/game/b/class_309 com/corrodinggames/rts/game/map/Ti
 	METHOD method_4373 setLastGid (I)V
 	METHOD method_4374 cleanup ()V
 	METHOD method_4375 containsGid (I)Z
-	METHOD method_393 method_393 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/m/class_1189;

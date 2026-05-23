@@ -1,0 +1,15 @@
+CLASS com/corrodinggames/rts/gameFramework/j/class_1044 com/corrodinggames/rts/gameFramework/network/GameInputStream
+	FIELD field_6237 byteArrayInput Ljava/io/ByteArrayInputStream;
+	FIELD field_6241 bytesRead I
+	FIELD field_6242 rootDataInput Ljava/io/DataInputStream;
+	FIELD field_6243 inputBlockStack Ljava/util/LinkedList;
+	METHOD method_2918 method_2918 (Ljava/lang/Class;)Lcom/corrodinggames/rts/gameFramework/class_773;
+	METHOD method_2923 readEnumOrdinalOrNull (Ljava/lang/Class;)Ljava/lang/Enum;
+	METHOD method_2924 method_2924 (Ljava/lang/String;)[B
+	METHOD method_2925 method_2925 ()Lcom/corrodinggames/rts/game/units/class_409;
+	METHOD method_2926 method_2926 (Ljava/lang/String;)V
+	METHOD method_2927 method_2927 ()Lcom/corrodinggames/rts/game/units/class_704;
+	METHOD method_2928 method_2928 ()Lcom/corrodinggames/rts/game/class_324;
+	METHOD method_2929 readBytesWithLength ()[B
+	METHOD method_2930 method_2930 ()Lcom/corrodinggames/rts/gameFramework/j/class_1044;
+	METHOD method_2931 useMainStream ()V

@@ -1,42 +1,42 @@
 CLASS com/corrodinggames/rts/gameFramework/i/class_992 com/corrodinggames/rts/gameFramework/mod/ModInfo
-	FIELD field_5785 disabledOrNotLoaded Z
-	FIELD field_5786 hasError Z
-	FIELD field_5787 imageMemory I
-	FIELD field_5788 soundMemory I
-	FIELD field_5790 totalSoundMemory J
-	FIELD field_5791 imageCount I
-	FIELD field_5793 musicCount I
-	FIELD field_5794 mapsCount I
-	FIELD field_5795 musicFolder Ljava/lang/String;
-	FIELD field_5796 playMusicExclusively Z
-	FIELD field_5797 addToNormalPlaylist Z
-	FIELD field_5798 hasImages I
-	FIELD field_5799 unitBlueprints Ljava/util/ArrayList;
-	FIELD field_5800 firstError Ljava/lang/String;
-	FIELD field_5801 firstWarning Ljava/lang/String;
-	FIELD field_5802 otherErrors Ljava/lang/String;
-	FIELD field_5803 warnings Ljava/util/ArrayList;
-	FIELD field_5804 errors Ljava/util/ArrayList;
 	FIELD field_5805 id I
+	FIELD field_5785 disabledOrNotLoaded Z
 	FIELD field_5806 nextId I
+	FIELD field_5786 hasError Z
 	FIELD field_5807 dirName Ljava/lang/String;
+	FIELD field_5787 imageMemory I
 	FIELD field_5808 shortName Ljava/lang/String;
+	FIELD field_5788 soundMemory I
 	FIELD field_5809 uuid Ljava/lang/String;
 	FIELD field_5810 disabled Z
+	FIELD field_5790 totalSoundMemory J
 	FIELD field_5811 foundInSettings Z
+	FIELD field_5791 imageCount I
 	FIELD field_5812 isArchive Z
 	FIELD field_5813 steamId J
+	FIELD field_5793 musicCount I
 	FIELD field_5814 found Z
+	FIELD field_5794 mapsCount I
 	FIELD field_5815 isCoreMod Z
+	FIELD field_5795 musicFolder Ljava/lang/String;
 	FIELD field_5816 slowExternalPath Ljava/lang/String;
+	FIELD field_5796 playMusicExclusively Z
 	FIELD field_5817 storageDescription Ljava/lang/String;
+	FIELD field_5797 addToNormalPlaylist Z
 	FIELD field_5818 path Ljava/lang/String;
+	FIELD field_5798 hasImages I
 	FIELD field_5819 sourceFolder Ljava/lang/String;
+	FIELD field_5799 unitBlueprints Ljava/util/ArrayList;
 	FIELD field_5820 dataRefreshed Z
+	FIELD field_5800 firstError Ljava/lang/String;
 	FIELD field_5821 title Ljava/lang/String;
+	FIELD field_5801 firstWarning Ljava/lang/String;
 	FIELD field_5822 name Ljava/lang/String;
+	FIELD field_5802 otherErrors Ljava/lang/String;
 	FIELD field_5823 description Ljava/lang/String;
+	FIELD field_5803 warnings Ljava/util/ArrayList;
 	FIELD field_5824 minVersion Ljava/lang/String;
+	FIELD field_5804 errors Ljava/util/ArrayList;
 	FIELD field_5825 customUnitCount I
 	FIELD field_5826 modIndex I
 	FIELD field_5827 isFromSteam Z
@@ -53,6 +53,7 @@ CLASS com/corrodinggames/rts/gameFramework/i/class_992 com/corrodinggames/rts/ga
 	METHOD method_2682 getPaddedTitle ()Ljava/lang/String;
 	METHOD method_2683 addWarning (Ljava/lang/String;)V
 	METHOD method_2684 getPaddedTitle40 ()Ljava/lang/String;
+	METHOD compareTo compareTo (Ljava/lang/Object;)I
 	METHOD method_2685 getSourceFolder ()Ljava/lang/String;
 	METHOD method_2686 getPath ()Ljava/lang/String;
 	METHOD method_2687 getAbsolutePath ()Ljava/lang/String;
@@ -62,6 +63,7 @@ CLASS com/corrodinggames/rts/gameFramework/i/class_992 com/corrodinggames/rts/ga
 	METHOD method_2691 refreshData ()V
 	METHOD method_2692 getMemoryUsageString ()Ljava/lang/String;
 	METHOD method_2693 canBeDeleted ()Z
+	METHOD method_2694 method_2694 ()Lcom/corrodinggames/rts/gameFramework/utility/class_1297;
 	METHOD method_5333 setSteamId (J)Z
 	METHOD method_5335 getModInfoValue (Ljava/lang/String;)Ljava/lang/String;
 	METHOD method_5336 getMapCount ()I
@@ -74,5 +76,3 @@ CLASS com/corrodinggames/rts/gameFramework/i/class_992 com/corrodinggames/rts/ga
 	METHOD method_5343 logMemoryUsage ()V
 	METHOD method_5344 delete ()Z
 	METHOD method_5345 getSteamDatPath ()Ljava/lang/String;
-	METHOD compareTo compareTo (Ljava/lang/Object;)I
-	METHOD method_2694 method_2694 ()Lcom/corrodinggames/rts/gameFramework/utility/class_1297;

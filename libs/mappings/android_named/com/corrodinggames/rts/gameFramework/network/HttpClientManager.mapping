@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/gameFramework/j/class_1053 com/corrodinggames/rts/gameFramework/network/HttpClientManager
+	FIELD field_6266 clientLock Ljava/util/concurrent/locks/ReentrantLock;

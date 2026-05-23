@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/gameFramework/f/a/class_913 com/corrodinggames/rts/gameFramework/ui/widgets/NinePatchStyle
+	FIELD field_5247 field_5247 Z
+	FIELD field_5249 field_5249 F
+	FIELD field_5250 field_5250 Landroid/graphics/Rect;
+	FIELD field_5251 field_5251 Landroid/graphics/Rect;
+	METHOD method_2390 method_2390 (Lcom/corrodinggames/rts/gameFramework/m/class_1225;Lcom/corrodinggames/rts/gameFramework/m/class_1189;Landroid/graphics/Paint;IIIIFFFF)V
+	METHOD method_2391 method_2391 (Lcom/corrodinggames/rts/gameFramework/m/class_1225;Lcom/corrodinggames/rts/gameFramework/m/class_1189;Landroid/graphics/Paint;IIIIFFFFZ)V
+	METHOD clone clone ()Ljava/lang/Object;

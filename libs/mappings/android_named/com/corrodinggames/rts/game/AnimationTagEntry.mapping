@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/game/class_326 com/corrodinggames/rts/game/AnimationTagEntry
+	FIELD field_1478 field_1478 Lcom/corrodinggames/rts/game/units/custom/class_576;
+	FIELD field_1479 field_1479 I
+	FIELD field_1480 field_1480 I
+	FIELD field_1481 field_1481 I
+	FIELD field_1482 field_1482 S

@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/a/class_453 com/corrodinggames/rts/game/units/custom/logic/actions/SendMessageAction
+	FIELD field_2192 sendMessageWithData Lcom/corrodinggames/rts/game/units/custom/logicBooleans/VariableScope$MemoryWriter;
+	FIELD field_2193 sendMessageTo Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_2194 field_2194 Lcom/corrodinggames/rts/game/units/custom/class_577;

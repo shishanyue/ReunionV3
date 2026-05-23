@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/f/class_930 com/corrodinggames/rts/gameFramework/ui/StatHistory
+	FIELD field_5352 field_5352 [I
+	FIELD field_5353 field_5353 I
+	METHOD method_2428 method_2428 (I)F

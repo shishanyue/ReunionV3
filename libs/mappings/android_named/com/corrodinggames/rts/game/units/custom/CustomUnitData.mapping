@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_443 com/corrodinggames/rts/game/units/custom/CustomUnitData
+	FIELD field_2121 value F
+	FIELD field_2122 field_2122 F
+	FIELD field_2123 field_2123 F
+	FIELD field_2124 field_2124 F
+	METHOD compareTo compareTo (Ljava/lang/Object;)I

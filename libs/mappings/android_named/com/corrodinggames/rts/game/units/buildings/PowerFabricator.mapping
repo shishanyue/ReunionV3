@@ -1,0 +1,15 @@
+CLASS com/corrodinggames/rts/game/units/d/class_635 com/corrodinggames/rts/game/units/buildings/PowerFabricator
+	FIELD field_3747 field_3747 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3748 field_3748 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3749 field_3749 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3750 field_3750 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3751 field_3751 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3752 field_3752 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3753 field_3753 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3754 powerGenerationTimer F
+	FIELD field_3755 animationTimer F
+	FIELD field_3756 animationFrame I
+	FIELD field_3757 field_3757 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_3758 field_3758 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_3759 availableActions Ljava/util/ArrayList;
+	METHOD method_1579 loadTextures ()V

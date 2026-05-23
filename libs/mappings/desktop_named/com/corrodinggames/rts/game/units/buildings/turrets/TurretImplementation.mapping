@@ -3,15 +3,15 @@ CLASS com/corrodinggames/rts/game/units/d/a/class_610 com/corrodinggames/rts/gam
 	METHOD method_1540 getAttackRange ()F
 	METHOD method_1541 update (F)V
 	METHOD method_1542 getTurretType (I)Landroid/graphics/PointF;
+	METHOD method_1543 method_1543 (Lcom/corrodinggames/rts/game/units/class_426;I)V
+	METHOD method_1544 method_1544 (Lcom/corrodinggames/rts/game/units/d/a/class_610;)V
 	METHOD method_1545 isSameType (Ljava/lang/String;)Z
 	METHOD method_1549 getTechLevel ()I
+	METHOD method_1550 method_1550 ()Ljava/lang/String;
+	METHOD method_1555 method_1555 ()I
 	METHOD method_4705 getAttackDelay (I)F
 	METHOD method_4706 getAttackDamage (I)F
 	METHOD method_4708 getTurretRestingRotationSpeed (I)F
 	METHOD method_4709 getTurretTurnSpeed (I)F
 	METHOD method_4710 getTurretHeight (I)F
 	METHOD method_4711 getTurretOffset (I)F
-	METHOD method_1543 method_1543 (Lcom/corrodinggames/rts/game/units/class_426;I)V
-	METHOD method_1544 method_1544 (Lcom/corrodinggames/rts/game/units/d/a/class_610;)V
-	METHOD method_1550 method_1550 ()Ljava/lang/String;
-	METHOD method_1555 method_1555 ()I

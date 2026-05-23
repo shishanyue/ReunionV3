@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/a/class_356 com/corrodinggames/rts/game/units/actions/SelectUnitTypeAction
+	FIELD field_1584 field_1584 Lcom/corrodinggames/rts/game/units/class_704;
+	FIELD field_1585 field_1585 Ljava/util/ArrayList;
+	FIELD field_1588 field_1588 Lcom/corrodinggames/rts/game/units/class_409;

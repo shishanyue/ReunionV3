@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/gameFramework/f/class_934 com/corrodinggames/rts/gameFramework/ui/TextureRenderer
+	FIELD field_5366 field_5366 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_5367 field_5367 F
+	FIELD field_5368 field_5368 I
+	FIELD field_5369 field_5369 I
+	FIELD field_5370 field_5370 Lcom/corrodinggames/rts/gameFramework/f/class_931;

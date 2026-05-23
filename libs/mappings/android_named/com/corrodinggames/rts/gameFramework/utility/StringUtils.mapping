@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/gameFramework/utility/class_1307 com/corrodinggames/rts/gameFramework/utility/StringUtils
+	METHOD method_3630 method_3630 ([Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_3625 method_3625 (Ljava/lang/String;I)Z
+	METHOD method_3627 method_3627 (Ljava/lang/String;Ljava/lang/String;I)I
+	METHOD method_3628 method_3628 (Ljava/lang/String;Ljava/lang/String;ZZ)Ljava/util/ArrayList;
+	METHOD method_3631 method_3631 (Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_3634 method_3634 (Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;

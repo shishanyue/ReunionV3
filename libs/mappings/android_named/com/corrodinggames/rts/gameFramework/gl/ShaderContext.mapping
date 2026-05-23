@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/b/class_842 com/corrodinggames/rts/gameFramework/gl/ShaderContext
+	FIELD field_4671 field_4671 I
+	FIELD field_4672 field_4672 Z
+	FIELD field_4673 field_4673 Lcom/corrodinggames/rts/gameFramework/b/a/class_797;
+	FIELD field_4674 field_4674 Lcom/corrodinggames/rts/gameFramework/b/class_840;

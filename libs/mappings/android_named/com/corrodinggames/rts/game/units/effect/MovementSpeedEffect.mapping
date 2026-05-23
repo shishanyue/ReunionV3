@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/g/class_725 com/corrodinggames/rts/game/units/effect/MovementSpeedEffect
+	FIELD field_4032 speedMultiplier F

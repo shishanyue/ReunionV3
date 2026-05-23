@@ -1,0 +1,14 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_576 com/corrodinggames/rts/game/units/custom/AnimationTag
+	FIELD field_3071 tagName Ljava/lang/String;
+	FIELD field_3072 field_3072 Ljava/util/ArrayList;
+	FIELD field_3073 field_3073 [Lcom/corrodinggames/rts/game/units/custom/class_576;
+	FIELD field_3074 field_3074 Lcom/corrodinggames/rts/game/units/custom/class_577;
+	METHOD method_1398 method_1398 (Lcom/corrodinggames/rts/game/units/custom/class_576;Lcom/corrodinggames/rts/game/units/custom/class_577;)Z
+	METHOD method_1399 method_1399 (Lcom/corrodinggames/rts/game/units/custom/class_577;Lcom/corrodinggames/rts/game/units/custom/class_577;)Z
+	METHOD method_1400 method_1400 (Lcom/corrodinggames/rts/game/units/custom/class_577;Lcom/corrodinggames/rts/gameFramework/j/class_1030;)V
+	METHOD method_1401 method_1401 (Lcom/corrodinggames/rts/gameFramework/j/class_1044;)Lcom/corrodinggames/rts/game/units/custom/class_577;
+	METHOD method_1402 method_1402 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/class_577;
+	METHOD method_1403 method_1403 (Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/class_577;)Lcom/corrodinggames/rts/game/units/custom/class_577;
+	METHOD method_1405 method_1405 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/class_576;
+	METHOD method_1406 method_1406 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/class_576;
+	METHOD toString toString ()Ljava/lang/String;

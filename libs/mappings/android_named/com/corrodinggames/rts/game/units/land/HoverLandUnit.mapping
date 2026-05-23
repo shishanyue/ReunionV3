@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/e/class_683 com/corrodinggames/rts/game/units/land/HoverLandUnit
+	FIELD field_3873 field_3873 F
+	FIELD field_3874 field_3874 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3875 field_3875 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	METHOD method_1634 method_1634 ()V

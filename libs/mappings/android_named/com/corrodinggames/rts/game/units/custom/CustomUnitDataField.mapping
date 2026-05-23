@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_519 com/corrodinggames/rts/game/units/custom/CustomUnitDataField
+	FIELD field_2652 field_2652 I
+	FIELD field_2653 field_2653 Ljava/lang/String;
+	METHOD method_1207 method_1207 ()Z
+	METHOD method_1208 method_1208 (Lcom/corrodinggames/rts/game/units/custom/class_579;D)V
+	METHOD method_1209 method_1209 (Lcom/corrodinggames/rts/game/units/custom/class_579;Lcom/corrodinggames/rts/game/units/custom/class_484;)D

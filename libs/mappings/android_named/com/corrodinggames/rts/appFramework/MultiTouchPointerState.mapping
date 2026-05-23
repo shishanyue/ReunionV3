@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/appFramework/class_127 com/corrodinggames/rts/appFramework/MultiTouchPointerState
+	FIELD field_377 pointerIds [I

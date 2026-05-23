@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/gameFramework/class_881 com/corrodinggames/rts/gameFramework/Serializable
+	METHOD method_2069 method_2069 (Lcom/corrodinggames/rts/gameFramework/j/class_1030;)V

@@ -1,0 +1,2 @@
+CLASS a/a/class_1350 net/rudp/AcceptFilter
+	METHOD method_3739 shouldAcceptPeer (Ljava/net/SocketAddress;)Z

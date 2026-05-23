@@ -1,16 +1,16 @@
 CLASS com/corrodinggames/rts/game/units/d/class_647 com/corrodinggames/rts/game/units/buildings/NukeLauncher
-	FIELD field_3809 tempPoint Landroid/graphics/PointF;
-	FIELD field_3810 drawRect Landroid/graphics/Rect;
-	FIELD field_3813 availableActions Ljava/util/ArrayList;
-	FIELD field_8103 nukeCount I
 	FIELD field_3804 field_3804 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_3805 field_3805 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_3807 field_3807 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	FIELD field_3808 field_3808 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3809 tempPoint Landroid/graphics/PointF;
+	FIELD field_3810 drawRect Landroid/graphics/Rect;
 	FIELD field_3811 field_3811 Lcom/corrodinggames/rts/game/units/a/class_349;
 	FIELD field_3812 field_3812 Lcom/corrodinggames/rts/game/units/a/class_349;
-	METHOD method_4746 initializeTextures ()V
+	FIELD field_3813 availableActions Ljava/util/ArrayList;
+	FIELD field_8103 nukeCount I
 	METHOD method_1620 method_1620 (Lcom/corrodinggames/rts/game/units/class_426;FFFF)Lcom/corrodinggames/rts/game/class_314;
 	METHOD method_1621 method_1621 ()V
+	METHOD method_4746 initializeTextures ()V
 	CLASS class_616 AnonymousClass2
 	CLASS class_648 AnonymousClass1

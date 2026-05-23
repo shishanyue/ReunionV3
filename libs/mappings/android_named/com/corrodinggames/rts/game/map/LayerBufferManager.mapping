@@ -1,0 +1,16 @@
+CLASS com/corrodinggames/rts/game/b/class_302 com/corrodinggames/rts/game/map/LayerBufferManager
+	FIELD field_947 gridCellsPerAxis I
+	FIELD field_948 field_948 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_950 field_950 [[Lcom/corrodinggames/rts/game/b/class_303;
+	FIELD field_955 cellWorldExtent I
+	FIELD field_957 cellWorldStepSize I
+	FIELD field_958 invCellWorldStepSize F
+	FIELD field_959 renderScale F
+	FIELD field_961 tmpRect Landroid/graphics/Rect;
+	FIELD field_962 redrawFrameCounter I
+	METHOD method_345 updateGridParams ()V
+	METHOD method_350 invalidateAllCells ()V
+	METHOD method_352 method_352 (II)Lcom/corrodinggames/rts/game/b/class_303;
+	METHOD method_353 disableSmoothFogFading ()V
+	METHOD method_355 initMissingLayerBufferImages ()V
+	METHOD method_357 updateCellIndices ()V

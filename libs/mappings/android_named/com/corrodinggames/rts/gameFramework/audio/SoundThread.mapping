@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/gameFramework/a/class_760 com/corrodinggames/rts/gameFramework/audio/SoundThread
+	FIELD field_4157 field_4157 Lcom/corrodinggames/rts/gameFramework/a/class_757;
+	METHOD run run ()V

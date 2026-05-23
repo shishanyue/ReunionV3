@@ -1,13 +1,13 @@
 CLASS com/corrodinggames/rts/gameFramework/class_855 com/corrodinggames/rts/gameFramework/MusicCategory
-	FIELD field_4694 trackPaths [Ljava/lang/String;
 	FIELD field_4691 field_4691 Lcom/corrodinggames/rts/gameFramework/class_855;
 	FIELD field_4692 field_4692 Lcom/corrodinggames/rts/gameFramework/class_855;
 	FIELD field_4693 field_4693 Lcom/corrodinggames/rts/gameFramework/class_855;
+	FIELD field_4694 trackPaths [Ljava/lang/String;
 	FIELD field_4695 field_4695 [Lcom/corrodinggames/rts/gameFramework/class_855;
 	METHOD method_2008 loadAll ()V
 	METHOD method_2009 getFullPath (Ljava/lang/String;)Ljava/lang/String;
 	METHOD method_2010 getMusicPath ()Ljava/lang/String;
 	METHOD method_2011 load ()V
-	METHOD method_4923 getTrackPaths ()[Ljava/lang/String;
 	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/class_855;
 	METHOD values values ()[Lcom/corrodinggames/rts/gameFramework/class_855;
+	METHOD method_4923 getTrackPaths ()[Ljava/lang/String;

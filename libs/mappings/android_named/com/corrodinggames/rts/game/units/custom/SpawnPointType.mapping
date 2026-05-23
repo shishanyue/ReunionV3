@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_469 com/corrodinggames/rts/game/units/custom/SpawnPointType
+	FIELD field_2386 field_2386 Lcom/corrodinggames/rts/game/units/custom/class_469;
+	FIELD field_2387 field_2387 Lcom/corrodinggames/rts/game/units/custom/class_469;
+	FIELD field_2388 field_2388 Lcom/corrodinggames/rts/game/units/custom/class_469;
+	FIELD field_2389 field_2389 Lcom/corrodinggames/rts/game/units/custom/class_469;
+	FIELD field_2390 field_2390 Lcom/corrodinggames/rts/game/units/custom/class_469;
+	FIELD field_2391 field_2391 [Lcom/corrodinggames/rts/game/units/custom/class_469;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/custom/class_469;
+	METHOD values values ()[Lcom/corrodinggames/rts/game/units/custom/class_469;

@@ -1,0 +1,24 @@
+CLASS com/corrodinggames/rts/game/b/class_304 com/corrodinggames/rts/game/map/MapLayer
+	FIELD field_983 field_983 [Lcom/corrodinggames/rts/gameFramework/m/class_1233;
+	FIELD field_985 field_985 Lcom/corrodinggames/rts/gameFramework/m/class_1233;
+	FIELD field_987 field_987 Lcom/corrodinggames/rts/gameFramework/m/class_1233;
+	FIELD field_989 field_989 [Lcom/corrodinggames/rts/gameFramework/m/class_1233;
+	FIELD field_990 field_990 Lcom/corrodinggames/rts/game/b/class_299;
+	FIELD field_991 layerIndex I
+	FIELD field_992 name Ljava/lang/String;
+	FIELD field_993 lowerName Ljava/lang/String;
+	FIELD field_994 isItemsLayer Z
+	FIELD field_995 widthTiles I
+	FIELD field_996 heightTiles I
+	FIELD field_997 properties Ljava/util/Properties;
+	FIELD field_998 tileIds [S
+	FIELD field_999 isGroundLayer Z
+	FIELD field_1000 isTerrainLayer Z
+	FIELD field_1001 tempRect Landroid/graphics/Rect;
+	FIELD field_1002 tempRect2 Landroid/graphics/Rect;
+	FIELD field_1003 tempRectF Landroid/graphics/RectF;
+	FIELD field_1004 hasAlpha Z
+	FIELD field_1005 base64DecodeTable [B
+	METHOD method_362 getTileIds ()[S
+	METHOD method_366 parseTileDataStream (Ljava/io/InputStream;)V
+	METHOD method_367 initNameAndFlags (Ljava/lang/String;)V

@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/custom/f/class_570 com/corrodinggames/rts/game/units/custom/variables/VariableSubstitutionParser
+	FIELD field_3059 field_3059 Ljava/util/regex/Pattern;
+	FIELD field_3060 field_3060 Ljava/util/regex/Pattern;
+	FIELD field_3061 field_3061 Lcom/corrodinggames/rts/game/units/custom/f/class_571;

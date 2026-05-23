@@ -1,0 +1,17 @@
+CLASS com/corrodinggames/rts/game/units/class_422 com/corrodinggames/rts/game/units/FireUnit
+	FIELD field_1864 field_1864 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1867 field_1867 I
+	FIELD field_1868 field_1868 F
+	FIELD field_1870 field_1870 I
+	FIELD field_1871 field_1871 I
+	FIELD field_1874 field_1874 Z
+	FIELD field_1878 field_1878 F
+	FIELD field_1879 field_1879 F
+	FIELD field_1880 field_1880 F
+	FIELD field_1881 field_1881 Z
+	FIELD field_1882 field_1882 Landroid/graphics/Point;
+	FIELD field_1883 field_1883 Lcom/corrodinggames/rts/game/units/class_423;
+	FIELD field_1884 field_1884 Landroid/graphics/Rect;
+	METHOD method_881 method_881 (FF)Lcom/corrodinggames/rts/game/units/class_422;
+	METHOD method_882 method_882 ()V
+	METHOD method_883 method_883 (II)V

@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_466 com/corrodinggames/rts/game/units/custom/FileWatcher
+	FIELD field_2374 field_2374 J
+	FIELD field_2375 field_2375 Ljava/lang/String;
+	METHOD method_1110 method_1110 (Z)J

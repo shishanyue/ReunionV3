@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/gameFramework/class_777 com/corrodinggames/rts/gameFramework/FormationEngine
+	FIELD field_4238 field_4238 I
+	FIELD field_4239 field_4239 Landroid/graphics/PointF;
+	METHOD method_1789 method_1789 ()Lcom/corrodinggames/rts/gameFramework/class_778;
+	METHOD method_1790 method_1790 (IFF)Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	METHOD method_1791 method_1791 (Lcom/corrodinggames/rts/gameFramework/utility/class_1323;Lcom/corrodinggames/rts/game/units/class_409;)V
+	METHOD method_1792 method_1792 (Lcom/corrodinggames/rts/gameFramework/utility/class_1323;Lcom/corrodinggames/rts/game/units/class_409;Lcom/corrodinggames/rts/gameFramework/utility/class_1323;FI)V

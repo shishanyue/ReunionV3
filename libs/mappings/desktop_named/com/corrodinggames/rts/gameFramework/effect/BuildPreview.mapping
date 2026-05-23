@@ -2,40 +2,40 @@ CLASS com/corrodinggames/rts/gameFramework/d/class_890 com/corrodinggames/rts/ga
 	FIELD field_4889 tempRectF3 Landroid/graphics/RectF;
 	FIELD field_4890 paint Landroid/graphics/Paint;
 	FIELD field_4891 foundationPaint Landroid/graphics/Paint;
+	FIELD field_4897 field_4897 Lcom/corrodinggames/rts/game/units/class_704;
 	FIELD field_4892 foundationPaintInactive Landroid/graphics/Paint;
+	FIELD field_4898 field_4898 Lcom/corrodinggames/rts/game/class_324;
 	FIELD field_4893 tempRectF4 Landroid/graphics/RectF;
 	FIELD field_4899 someCounterF I
 	FIELD field_4900 tempPoint F
 	FIELD field_4901 tempRectF1 F
 	FIELD field_4902 showFoundation Z
+	FIELD field_4903 field_4903 Lcom/corrodinggames/rts/game/class_324;
 	FIELD field_4904 someFlagK Z
 	FIELD field_4905 gridX I
 	FIELD field_4906 gridY I
 	FIELD field_4907 isBuilding Z
+	FIELD field_4908 field_4908 Lcom/corrodinggames/rts/game/units/class_409;
 	FIELD field_4909 wasEverPlaceable Z
 	FIELD field_4910 forceDraw Z
 	FIELD field_4911 buildQueueId I
 	FIELD field_4912 fadeInProgress F
 	FIELD field_4913 fadeInSpeed F
+	FIELD field_4916 field_4916 Lcom/corrodinggames/rts/gameFramework/utility/class_1325;
+	FIELD field_4917 field_4917 Landroid/graphics/Point;
+	FIELD field_4918 field_4918 Landroid/graphics/RectF;
 	FIELD field_4919 tempRectF2 Landroid/graphics/RectF;
 	FIELD field_8354 timer F
 	FIELD field_8355 lifeTimer F
 	FIELD field_8356 isDead Z
 	FIELD field_8357 someFlagU Z
-	FIELD field_4897 field_4897 Lcom/corrodinggames/rts/game/units/class_704;
-	FIELD field_4898 field_4898 Lcom/corrodinggames/rts/game/class_324;
-	FIELD field_4903 field_4903 Lcom/corrodinggames/rts/game/class_324;
-	FIELD field_4908 field_4908 Lcom/corrodinggames/rts/game/units/class_409;
-	FIELD field_4916 field_4916 Lcom/corrodinggames/rts/gameFramework/utility/class_1325;
-	FIELD field_4917 field_4917 Landroid/graphics/Point;
-	FIELD field_4918 field_4918 Landroid/graphics/RectF;
 	METHOD method_2077 clearAll ()V
+	METHOD method_2079 method_2079 (Lcom/corrodinggames/rts/game/class_324;FF)Lcom/corrodinggames/rts/gameFramework/d/class_890;
+	METHOD method_2081 method_2081 (Lcom/corrodinggames/rts/game/class_324;Landroid/graphics/RectF;I)Z
+	METHOD method_2082 method_2082 (Lcom/corrodinggames/rts/game/class_324;Lcom/corrodinggames/rts/game/units/class_409;I)Z
+	METHOD method_2083 method_2083 (Lcom/corrodinggames/rts/game/units/class_409;Lcom/corrodinggames/rts/game/units/class_409;)Z
 	METHOD method_2085 isValid ()Z
 	METHOD method_5080 updateAll (F)V
 	METHOD method_5081 drawAll (F)V
 	METHOD method_5082 update (F)V
 	METHOD method_5083 draw (F)V
-	METHOD method_2079 method_2079 (Lcom/corrodinggames/rts/game/class_324;FF)Lcom/corrodinggames/rts/gameFramework/d/class_890;
-	METHOD method_2081 method_2081 (Lcom/corrodinggames/rts/game/class_324;Landroid/graphics/RectF;I)Z
-	METHOD method_2082 method_2082 (Lcom/corrodinggames/rts/game/class_324;Lcom/corrodinggames/rts/game/units/class_409;I)Z
-	METHOD method_2083 method_2083 (Lcom/corrodinggames/rts/game/units/class_409;Lcom/corrodinggames/rts/game/units/class_409;)Z

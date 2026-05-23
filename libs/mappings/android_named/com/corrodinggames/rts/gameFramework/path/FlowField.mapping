@@ -1,0 +1,12 @@
+CLASS com/corrodinggames/rts/gameFramework/k/class_1067 com/corrodinggames/rts/gameFramework/path/FlowField
+	FIELD field_6515 field_6515 I
+	FIELD field_6516 field_6516 I
+	FIELD field_6517 field_6517 I
+	FIELD field_6518 field_6518 I
+	FIELD field_6519 field_6519 [B
+	FIELD field_6520 field_6520 [B
+	METHOD method_3098 method_3098 (Lcom/corrodinggames/rts/gameFramework/k/class_1076;)B
+	METHOD method_3099 method_3099 (Lcom/corrodinggames/rts/gameFramework/k/class_1076;B)V
+	METHOD method_3100 method_3100 (Lcom/corrodinggames/rts/gameFramework/k/class_1076;Z)V
+	METHOD method_3101 method_3101 (Lcom/corrodinggames/rts/gameFramework/k/class_1076;)Z
+	METHOD method_3102 method_3102 (Lcom/corrodinggames/rts/gameFramework/k/class_1076;)Z

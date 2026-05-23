@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/game/units/class_430 com/corrodinggames/rts/game/units/PathfindingUtils
+	FIELD field_2050 field_2050 Landroid/graphics/Paint;
+	FIELD field_2051 field_2051 Landroid/graphics/Point;
+	FIELD field_2052 field_2052 Landroid/graphics/Rect;
+	METHOD method_1073 method_1073 (Lcom/corrodinggames/rts/game/units/class_409;Lcom/corrodinggames/rts/game/units/class_426;)Z
+	METHOD method_1076 method_1076 (Lcom/corrodinggames/rts/game/units/class_409;Lcom/corrodinggames/rts/game/units/class_426;)Z

@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_584 com/corrodinggames/rts/game/units/custom/CustomUnitAnimationReference
+	FIELD field_3568 animationName Ljava/lang/String;
+	FIELD field_3569 field_3569 Lcom/corrodinggames/rts/game/units/custom/class_569;
+	FIELD field_3570 field_3570 Lcom/corrodinggames/rts/game/units/custom/class_581;
+	METHOD method_1503 method_1503 ()V
+	METHOD method_1504 method_1504 ()Lcom/corrodinggames/rts/game/units/custom/class_569;

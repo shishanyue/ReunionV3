@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/f/class_935 com/corrodinggames/rts/gameFramework/ui/TextRenderer
+	FIELD field_5371 field_5371 Ljava/lang/String;
+	FIELD field_5372 field_5372 Lcom/corrodinggames/rts/gameFramework/f/class_931;
+	METHOD method_2441 method_2441 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/f/class_935;
+	METHOD method_2442 method_2442 (Landroid/graphics/Paint;)Landroid/graphics/Paint;

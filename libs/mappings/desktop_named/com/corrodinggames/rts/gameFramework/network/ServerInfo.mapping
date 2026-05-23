@@ -1,6 +1,6 @@
 CLASS com/corrodinggames/rts/gameFramework/j/class_1040 com/corrodinggames/rts/gameFramework/network/ServerInfo
-	FIELD field_6199 gameVersionNumber I
 	FIELD field_6200 isLanServer Z
+	FIELD field_6199 gameVersionNumber I
 	FIELD field_6201 serverId Ljava/lang/String;
 	FIELD field_6202 publicHost Ljava/lang/String;
 	FIELD field_6203 lanHost Ljava/lang/String;

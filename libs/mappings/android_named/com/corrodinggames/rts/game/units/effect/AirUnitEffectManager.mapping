@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/g/class_724 com/corrodinggames/rts/game/units/effect/AirUnitEffectManager
+	METHOD method_1721 method_1721 (Lcom/corrodinggames/rts/game/units/class_409;Lcom/corrodinggames/rts/game/units/g/class_720;)V

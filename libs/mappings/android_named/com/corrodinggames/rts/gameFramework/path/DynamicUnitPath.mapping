@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/gameFramework/k/class_1066 com/corrodinggames/rts/gameFramework/path/DynamicUnitPath
+	FIELD field_6511 field_6511 Lcom/corrodinggames/rts/gameFramework/k/class_1064;
+	FIELD field_6512 field_6512 Lcom/corrodinggames/rts/gameFramework/k/class_1067;
+	FIELD field_6513 field_6513 Landroid/graphics/Paint;
+	METHOD method_3096 method_3096 (BLandroid/graphics/Point;)V

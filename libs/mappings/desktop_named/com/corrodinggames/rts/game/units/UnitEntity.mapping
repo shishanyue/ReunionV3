@@ -1,52 +1,7 @@
 CLASS com/corrodinggames/rts/game/units/class_409 com/corrodinggames/rts/game/units/UnitEntity
-	FIELD field_1701 waypointCount I
-	FIELD field_1707 turretRotation F
-	FIELD field_1708 targetTurretRotation F
-	FIELD field_1709 turretTurnSpeed F
-	FIELD field_1711 radius F
-	FIELD field_1712 health F
 	FIELD field_1721 blockedRecoveryMisses I
-	FIELD field_1724 nearbyCollisionSize B
-	FIELD field_1726 nearbyUnitDistances [F
-	FIELD field_1727 nextCollisionQueryTick I
-	FIELD field_1739 overlayFilterLightGreen Landroid/graphics/PorterDuffColorFilter;
-	FIELD field_1740 residentTimer F
-	FIELD field_1764 activePathCount I
-	FIELD field_1766 blockedRecoveryTime F
-	FIELD field_1767 overlayFilterGreen Landroid/graphics/PorterDuffColorFilter;
-	FIELD field_1768 overlayFilterRed Landroid/graphics/PorterDuffColorFilter;
-	FIELD field_1769 overlayFilterBlue Landroid/graphics/PorterDuffColorFilter;
-	FIELD field_1770 overlayPaint1 Landroid/graphics/Paint;
-	FIELD field_1771 overlayPaint2 Landroid/graphics/Paint;
-	FIELD field_1772 overlayPaint3 Landroid/graphics/Paint;
-	FIELD field_1773 tempPointF1 Landroid/graphics/PointF;
-	FIELD field_1775 tempPointF2 Landroid/graphics/PointF;
-	FIELD field_1776 tempPointF3 Landroid/graphics/PointF;
-	FIELD field_1778 tempPointF4 Landroid/graphics/PointF;
-	FIELD field_1779 tempPoint1 Landroid/graphics/Point;
-	FIELD field_1780 tempPoint2 Landroid/graphics/Point;
-	FIELD field_1786 moveThrottle F
-	FIELD field_1787 transportRecoveryTime F
-	FIELD field_1788 transportRecoveryDelay F
-	FIELD field_1789 isMoving Z
-	FIELD field_1791 canAttack Z
-	FIELD field_1792 isPathingActive Z
-	FIELD field_1793 pathTargetX F
-	FIELD field_1794 pathTargetY F
-	FIELD field_1795 pathTargetRadius I
-	FIELD field_1796 lastPathTargetX F
-	FIELD field_1797 lastPathTargetY F
-	FIELD field_1798 pathRetryCount B
-	FIELD field_1799 repathDistanceThreshold I
-	FIELD field_1801 isDead Z
-	FIELD field_1802 isVisible Z
-	FIELD field_1806 cachedBasePaintColor I
-	FIELD field_1808 cachedSelectedPaintColor I
-	FIELD field_1809 paralyzedOverlayPaint Landroid/graphics/Paint;
-	FIELD field_8118 attackCooldown I
-	FIELD field_8119 wayPointTimer F
-	FIELD field_8123 lastReclaimSearchTick I
 	FIELD field_1695 field_1695 I
+	FIELD field_1740 residentTimer F
 	FIELD field_1713 field_1713 Z
 	FIELD field_1741 field_1741 Lcom/corrodinggames/rts/game/units/class_426;
 	FIELD field_1714 field_1714 F
@@ -66,10 +21,13 @@ CLASS com/corrodinggames/rts/game/units/class_409 com/corrodinggames/rts/game/un
 	FIELD field_1749 field_1749 S
 	FIELD field_1723 field_1723 Lcom/corrodinggames/rts/game/units/f/class_718;
 	FIELD field_1750 field_1750 F
+	FIELD field_1724 nearbyCollisionSize B
 	FIELD field_1751 field_1751 Z
 	FIELD field_1725 field_1725 [Lcom/corrodinggames/rts/game/units/class_426;
 	FIELD field_1752 field_1752 F
+	FIELD field_1726 nearbyUnitDistances [F
 	FIELD field_1753 field_1753 F
+	FIELD field_1727 nextCollisionQueryTick I
 	FIELD field_1754 field_1754 F
 	FIELD field_1728 field_1728 Lcom/corrodinggames/rts/gameFramework/utility/class_1331;
 	FIELD field_1755 field_1755 I
@@ -88,66 +46,76 @@ CLASS com/corrodinggames/rts/game/units/class_409 com/corrodinggames/rts/game/un
 	FIELD field_1736 field_1736 Lcom/corrodinggames/rts/gameFramework/k/class_1071;
 	FIELD field_1763 field_1763 [Lcom/corrodinggames/rts/game/units/class_417;
 	FIELD field_1737 field_1737 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_1764 activePathCount I
 	FIELD field_1738 field_1738 Lcom/corrodinggames/rts/game/units/class_417;
 	FIELD field_1765 field_1765 Z
+	FIELD field_1739 overlayFilterLightGreen Landroid/graphics/PorterDuffColorFilter;
+	FIELD field_1766 blockedRecoveryTime F
 	FIELD field_1696 field_1696 Lcom/corrodinggames/rts/gameFramework/m/class_1233;
+	FIELD field_1767 overlayFilterGreen Landroid/graphics/PorterDuffColorFilter;
+	FIELD field_1768 overlayFilterRed Landroid/graphics/PorterDuffColorFilter;
+	FIELD field_1769 overlayFilterBlue Landroid/graphics/PorterDuffColorFilter;
+	FIELD field_1770 overlayPaint1 Landroid/graphics/Paint;
+	FIELD field_1771 overlayPaint2 Landroid/graphics/Paint;
+	FIELD field_1772 overlayPaint3 Landroid/graphics/Paint;
+	FIELD field_1773 tempPointF1 Landroid/graphics/PointF;
 	FIELD field_1774 field_1774 Lcom/corrodinggames/rts/gameFramework/utility/class_1305;
+	FIELD field_1775 tempPointF2 Landroid/graphics/PointF;
+	FIELD field_1776 tempPointF3 Landroid/graphics/PointF;
 	FIELD field_1777 field_1777 Lcom/corrodinggames/rts/gameFramework/utility/class_1305;
+	FIELD field_1778 tempPointF4 Landroid/graphics/PointF;
+	FIELD field_1779 tempPoint1 Landroid/graphics/Point;
+	FIELD field_1780 tempPoint2 Landroid/graphics/Point;
 	FIELD field_1781 field_1781 Landroid/graphics/PointF;
 	FIELD field_1782 field_1782 Lcom/corrodinggames/rts/game/units/class_411;
 	FIELD field_1783 field_1783 Lcom/corrodinggames/rts/game/units/class_414;
 	FIELD field_1784 field_1784 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
 	FIELD field_1785 field_1785 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_1786 moveThrottle F
 	FIELD field_1697 field_1697 Lcom/corrodinggames/rts/gameFramework/m/class_1233;
+	FIELD field_1787 transportRecoveryTime F
+	FIELD field_1788 transportRecoveryDelay F
+	FIELD field_1789 isMoving Z
+	FIELD field_1791 canAttack Z
+	FIELD field_1792 isPathingActive Z
+	FIELD field_1793 pathTargetX F
+	FIELD field_1794 pathTargetY F
+	FIELD field_1795 pathTargetRadius I
 	FIELD field_1698 field_1698 Z
+	FIELD field_1796 lastPathTargetX F
 	FIELD field_1699 field_1699 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1797 lastPathTargetY F
 	FIELD field_1700 field_1700 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1798 pathRetryCount B
+	FIELD field_1701 waypointCount I
+	FIELD field_1799 repathDistanceThreshold I
 	FIELD field_1702 field_1702 [Lcom/corrodinggames/rts/game/units/class_706;
 	FIELD field_1800 field_1800 F
 	FIELD field_1703 field_1703 [Lcom/corrodinggames/rts/game/units/class_706;
+	FIELD field_1801 isDead Z
 	FIELD field_1704 field_1704 Lcom/corrodinggames/rts/game/units/class_330;
+	FIELD field_1802 isVisible Z
 	FIELD field_1803 field_1803 I
 	FIELD field_1706 field_1706 Lcom/corrodinggames/rts/game/units/class_426;
 	FIELD field_1804 field_1804 I
+	FIELD field_1707 turretRotation F
 	FIELD field_1805 field_1805 Lcom/corrodinggames/rts/gameFramework/m/class_1233;
+	FIELD field_1708 targetTurretRotation F
+	FIELD field_1806 cachedBasePaintColor I
+	FIELD field_1709 turretTurnSpeed F
 	FIELD field_1807 field_1807 Lcom/corrodinggames/rts/gameFramework/m/class_1233;
-	METHOD method_676 getMoveAccelerationSpeed ()F
-	METHOD method_682 canDrawShadow ()Z
-	METHOD method_684 getShadowOffsetX ()F
-	METHOD method_686 getShadowOffsetY ()F
-	METHOD method_694 getSelectionPaint ()Landroid/graphics/Paint;
+	FIELD field_1808 cachedSelectedPaintColor I
+	FIELD field_1711 radius F
+	FIELD field_1809 paralyzedOverlayPaint Landroid/graphics/Paint;
+	FIELD field_1712 health F
+	FIELD field_8118 attackCooldown I
+	FIELD field_8119 wayPointTimer F
+	FIELD field_8123 lastReclaimSearchTick I
 	METHOD method_703 faceTowardPosition (FF)F
-	METHOD method_707 rotateToward (FFZZ)F
-	METHOD method_742 getRenderPaint ()Landroid/graphics/Paint;
-	METHOD method_744 getShadowOffset ()Landroid/graphics/PointF;
-	METHOD method_745 drawShadow ()Z
-	METHOD method_751 collectMovementLevelStatistics ()Ljava/util/ArrayList;
-	METHOD method_752 getMoveYAxisScaling ()F
-	METHOD method_753 getMoveYAxisScalingInverse ()F
-	METHOD method_759 isSlidingMovement ()Z
-	METHOD method_760 isIgnoreMoveOrders ()Z
-	METHOD method_786 clearTransportState ()V
-	METHOD method_787 detachTransportedUnits ()V
-	METHOD method_788 clearPathData ()V
-	METHOD method_789 getPathChecksum ()J
-	METHOD method_790 getPathStepScale ()F
-	METHOD method_812 navigateToPosition (FFF)V
-	METHOD method_826 clearPathingState ()V
-	METHOD method_828 isRenderAntiAliasEnabled ()Z
-	METHOD method_835 setBuiltPercentage (F)V
-	METHOD method_838 updateAllUnitCollisions (F)V
-	METHOD method_843 addRotation (F)V
-	METHOD method_873 getMoveSpeed ()F
-	METHOD method_875 getMaxTurnSpeed ()F
-	METHOD method_4830 getShadowTexture (I)Landroid/graphics/PointF;
-	METHOD method_4846 advancePathPosition ()V
-	METHOD method_4847 isCurrentTileBlocked ()Z
-	METHOD method_4848 clampMovementLevelRotations ()V
-	METHOD method_4852 isAttackCommandActive ()Z
-	METHOD method_4870 updateMovementLogic (F)V
 	METHOD method_704 method_704 (FFI)F
 	METHOD method_705 method_705 (FFIZZ)V
 	METHOD method_706 method_706 (FFIZZZ)Lcom/corrodinggames/rts/gameFramework/k/class_1071;
+	METHOD method_707 rotateToward (FFZZ)F
 	METHOD method_708 method_708 (FLcom/corrodinggames/rts/game/units/class_415;Lcom/corrodinggames/rts/game/units/class_706;Z)V
 	METHOD method_709 method_709 (FLcom/corrodinggames/rts/game/units/class_417;Lcom/corrodinggames/rts/game/units/class_415;Lcom/corrodinggames/rts/game/units/class_706;)V
 	METHOD method_710 method_710 (FLcom/corrodinggames/rts/game/units/class_426;Lcom/corrodinggames/rts/game/units/class_415;Z)V
@@ -183,9 +151,12 @@ CLASS com/corrodinggames/rts/game/units/class_409 com/corrodinggames/rts/game/un
 	METHOD method_675 method_675 (I)Lcom/corrodinggames/rts/gameFramework/utility/class_1305;
 	METHOD method_766 method_766 (Lcom/corrodinggames/rts/game/units/class_426;)Lcom/corrodinggames/rts/game/units/custom/d/class_552;
 	METHOD method_767 method_767 ()Lcom/corrodinggames/rts/game/units/class_426;
+	METHOD method_742 getRenderPaint ()Landroid/graphics/Paint;
 	METHOD method_768 method_768 ()Z
 	METHOD method_769 method_769 ()Z
+	METHOD method_744 getShadowOffset ()Landroid/graphics/PointF;
 	METHOD method_770 method_770 ()Z
+	METHOD method_745 drawShadow ()Z
 	METHOD method_771 method_771 ()Z
 	METHOD method_746 method_746 ()Z
 	METHOD method_772 method_772 ()Z
@@ -195,8 +166,11 @@ CLASS com/corrodinggames/rts/game/units/class_409 com/corrodinggames/rts/game/un
 	METHOD method_749 method_749 ()F
 	METHOD method_750 method_750 ()Z
 	METHOD method_774 method_774 ()Z
+	METHOD method_751 collectMovementLevelStatistics ()Ljava/util/ArrayList;
 	METHOD method_775 method_775 ()F
+	METHOD method_752 getMoveYAxisScaling ()F
 	METHOD method_776 method_776 ()Z
+	METHOD method_753 getMoveYAxisScalingInverse ()F
 	METHOD method_777 method_777 ()Lcom/corrodinggames/rts/game/units/class_706;
 	METHOD method_754 method_754 ()F
 	METHOD method_778 method_778 ()Lcom/corrodinggames/rts/game/units/class_706;
@@ -208,11 +182,18 @@ CLASS com/corrodinggames/rts/game/units/class_409 com/corrodinggames/rts/game/un
 	METHOD method_782 method_782 ()V
 	METHOD method_758 method_758 ()I
 	METHOD method_783 method_783 ()V
+	METHOD method_759 isSlidingMovement ()Z
 	METHOD method_784 method_784 ()V
+	METHOD method_760 isIgnoreMoveOrders ()Z
+	METHOD method_786 clearTransportState ()V
 	METHOD method_761 method_761 ()Z
+	METHOD method_787 detachTransportedUnits ()V
 	METHOD method_762 method_762 ()Lcom/corrodinggames/rts/gameFramework/utility/class_1305;
+	METHOD method_788 clearPathData ()V
 	METHOD method_763 method_763 ()V
+	METHOD method_789 getPathChecksum ()J
 	METHOD method_764 method_764 ()I
+	METHOD method_790 getPathStepScale ()F
 	METHOD method_765 method_765 ()V
 	METHOD method_792 method_792 (FF)Lcom/corrodinggames/rts/game/units/class_706;
 	METHOD method_793 method_793 (FFF)F
@@ -223,6 +204,7 @@ CLASS com/corrodinggames/rts/game/units/class_409 com/corrodinggames/rts/game/un
 	METHOD method_798 method_798 (Lcom/corrodinggames/rts/game/units/class_426;Z)Z
 	METHOD method_799 method_799 (Lcom/corrodinggames/rts/game/units/class_706;)Lcom/corrodinggames/rts/game/units/class_706;
 	METHOD method_800 method_800 (Lcom/corrodinggames/rts/gameFramework/class_1061;)V
+	METHOD method_676 getMoveAccelerationSpeed ()F
 	METHOD method_677 method_677 (I)Landroid/graphics/PointF;
 	METHOD method_801 method_801 ()I
 	METHOD method_804 method_804 ()V
@@ -233,6 +215,7 @@ CLASS com/corrodinggames/rts/game/units/class_409 com/corrodinggames/rts/game/un
 	METHOD method_809 method_809 ()Lcom/corrodinggames/rts/game/units/custom/d/class_552;
 	METHOD method_810 method_810 ()Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	METHOD method_811 method_811 (FF)Lcom/corrodinggames/rts/game/units/class_706;
+	METHOD method_812 navigateToPosition (FFF)V
 	METHOD method_813 method_813 (I)F
 	METHOD method_814 method_814 (Lcom/corrodinggames/rts/game/class_324;)Z
 	METHOD method_678 method_678 ()F
@@ -248,22 +231,30 @@ CLASS com/corrodinggames/rts/game/units/class_409 com/corrodinggames/rts/game/un
 	METHOD method_823 method_823 ()Lcom/corrodinggames/rts/game/units/class_417;
 	METHOD method_824 method_824 ()Lcom/corrodinggames/rts/game/units/class_417;
 	METHOD method_825 method_825 ()Z
+	METHOD method_826 clearPathingState ()V
+	METHOD method_828 isRenderAntiAliasEnabled ()Z
 	METHOD method_829 method_829 ()Z
 	METHOD method_830 method_830 ()Lcom/corrodinggames/rts/game/units/class_409;
 	METHOD method_831 method_831 ()Lcom/corrodinggames/rts/game/units/custom/d/class_552;
 	METHOD method_832 method_832 (I)F
 	METHOD method_833 method_833 (Lcom/corrodinggames/rts/game/units/class_426;)Z
 	METHOD method_834 method_834 (Z)F
+	METHOD method_682 canDrawShadow ()Z
 	METHOD method_683 method_683 (I)F
+	METHOD method_835 setBuiltPercentage (F)V
 	METHOD method_836 method_836 (I)F
 	METHOD method_837 method_837 (Lcom/corrodinggames/rts/game/units/class_426;)Z
+	METHOD method_684 getShadowOffsetX ()F
+	METHOD method_838 updateAllUnitCollisions (F)V
 	METHOD method_839 method_839 (I)F
 	METHOD method_840 method_840 (Lcom/corrodinggames/rts/game/units/class_426;)Z
+	METHOD method_686 getShadowOffsetY ()F
 	METHOD method_687 method_687 (I)F
 	METHOD method_841 method_841 (I)V
 	METHOD method_842 method_842 (Lcom/corrodinggames/rts/game/units/class_426;)V
 	METHOD method_688 method_688 ()Z
 	METHOD method_689 method_689 (I)V
+	METHOD method_843 addRotation (F)V
 	METHOD method_845 method_845 (Lcom/corrodinggames/rts/game/units/class_426;)Lcom/corrodinggames/rts/game/units/class_706;
 	METHOD method_846 method_846 ()Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	METHOD method_847 method_847 (F)V
@@ -280,6 +271,7 @@ CLASS com/corrodinggames/rts/game/units/class_409 com/corrodinggames/rts/game/un
 	METHOD method_860 method_860 (I)I
 	METHOD method_693 method_693 (I)V
 	METHOD method_861 method_861 (I)F
+	METHOD method_694 getSelectionPaint ()Landroid/graphics/Paint;
 	METHOD method_695 method_695 (I)Lcom/corrodinggames/rts/game/units/class_417;
 	METHOD method_862 method_862 (I)F
 	METHOD method_696 method_696 ()V
@@ -297,6 +289,14 @@ CLASS com/corrodinggames/rts/game/units/class_409 com/corrodinggames/rts/game/un
 	METHOD method_699 method_699 ()Lcom/corrodinggames/rts/game/units/class_426;
 	METHOD method_872 method_872 (I)F
 	METHOD method_700 method_700 ()Z
+	METHOD method_873 getMoveSpeed ()F
 	METHOD method_874 method_874 (I)Lcom/corrodinggames/rts/gameFramework/utility/class_1305;
+	METHOD method_875 getMaxTurnSpeed ()F
 	METHOD method_876 method_876 (I)Landroid/graphics/PointF;
 	METHOD method_702 method_702 ()Z
+	METHOD method_4830 getShadowTexture (I)Landroid/graphics/PointF;
+	METHOD method_4846 advancePathPosition ()V
+	METHOD method_4847 isCurrentTileBlocked ()Z
+	METHOD method_4848 clampMovementLevelRotations ()V
+	METHOD method_4852 isAttackCommandActive ()Z
+	METHOD method_4870 updateMovementLogic (F)V

@@ -1,0 +1,22 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_549 com/corrodinggames/rts/game/units/custom/SpawnConfig
+	FIELD field_2898 field_2898 Lcom/corrodinggames/rts/game/units/custom/class_591;
+	FIELD field_2899 spawnSource Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_2900 copyWaypointsFrom Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
+	FIELD field_2901 spawnCount I
+	FIELD field_2903 aggressiveTeam Z
+	FIELD field_2905 spawnChance F
+	FIELD field_2906 maxSpawnLimit I
+	FIELD field_2907 gridAlign Z
+	FIELD field_2908 skipIfOverlapping Z
+	FIELD field_2909 falling Z
+	FIELD field_2910 techLevel I
+	FIELD field_2911 alwaysStartDirAtZero Z
+	FIELD field_2912 offsetX F
+	FIELD field_2913 offsetY F
+	FIELD field_2914 offsetHeight F
+	FIELD field_2915 offsetDir F
+	FIELD field_2916 offsetRandomX F
+	FIELD field_2917 offsetRandomY F
+	FIELD field_2918 offsetRandomDir F
+	FIELD field_2919 field_2919 Lcom/corrodinggames/rts/game/units/custom/d/class_552;
+	FIELD field_2920 transportedUnitsToTransfer S

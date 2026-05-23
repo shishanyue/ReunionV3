@@ -1,0 +1,5 @@
+CLASS a/a/class_1363 net/rudp/ConnectionListener
+	METHOD method_3807 onConnected ()V
+	METHOD method_3808 onClosed ()V
+	METHOD method_3809 onPacketReceived ()V
+	METHOD method_3810 onPacketSent ()V

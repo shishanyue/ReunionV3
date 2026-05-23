@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/a/class_455 com/corrodinggames/rts/game/units/custom/logic/actions/SpawnUnitAction
+	FIELD field_2212 field_2212 Lcom/corrodinggames/rts/game/units/custom/class_548;
+	FIELD field_2213 field_2213 Lcom/corrodinggames/rts/game/units/custom/class_548;

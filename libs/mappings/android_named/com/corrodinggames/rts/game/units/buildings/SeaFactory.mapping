@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/game/units/d/class_619 com/corrodinggames/rts/game/units/buildings/SeaFactory
+	FIELD field_3671 field_3671 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3672 field_3672 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3673 field_3673 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3674 field_3674 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3675 field_3675 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3676 field_3676 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	METHOD method_1558 loadTextures ()V

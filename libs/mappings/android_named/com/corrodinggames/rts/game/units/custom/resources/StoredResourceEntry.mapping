@@ -1,0 +1,3 @@
+CLASS com/corrodinggames/rts/game/units/custom/e/class_566 com/corrodinggames/rts/game/units/custom/resources/StoredResourceEntry
+	FIELD field_3036 field_3036 Lcom/corrodinggames/rts/game/units/custom/e/class_556;
+	FIELD field_3037 field_3037 D

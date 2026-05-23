@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/game/units/f/class_715 com/corrodinggames/rts/game/units/management/RectUnitCallback
+	FIELD field_4008 field_4008 Landroid/graphics/RectF;
+	FIELD field_4009 field_4009 F
+	FIELD field_4010 field_4010 F
+	FIELD field_4011 field_4011 F
+	FIELD field_4012 field_4012 F
+	METHOD method_1715 method_1715 (FFFF)V

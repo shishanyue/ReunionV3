@@ -1,7 +1,7 @@
 CLASS com/corrodinggames/rts/gameFramework/a/class_761 com/corrodinggames/rts/gameFramework/audio/SoundEngine
 	FIELD field_4164 playingSounds Ljava/util/ArrayList;
-	FIELD field_4165 soundDisabled Z
 	FIELD field_4158 field_4158 Lcom/corrodinggames/rts/gameFramework/a/class_765;
+	FIELD field_4165 soundDisabled Z
 	FIELD field_4159 field_4159 Lcom/corrodinggames/rts/gameFramework/a/class_765;
 	FIELD field_4166 field_4166 Lcom/corrodinggames/rts/gameFramework/a/class_764;
 	FIELD field_4160 field_4160 Lcom/corrodinggames/rts/gameFramework/a/class_765;
@@ -34,11 +34,11 @@ CLASS com/corrodinggames/rts/gameFramework/a/class_761 com/corrodinggames/rts/ga
 	METHOD method_1745 noop ()V
 	METHOD method_1746 isVolumeEnabled (F)Z
 	METHOD method_1747 loadSounds (Landroid/content/Context;)V
-	METHOD method_1754 isSoundEnabled ()Z
-	METHOD method_4877 clearPlayingSounds (F)V
 	METHOD method_1749 method_1749 (Lcom/corrodinggames/rts/gameFramework/a/class_765;F)V
 	METHOD method_1750 method_1750 (Lcom/corrodinggames/rts/gameFramework/a/class_765;FFF)V
 	METHOD method_1751 method_1751 (Lcom/corrodinggames/rts/gameFramework/a/class_765;FFFF)V
 	METHOD method_1752 method_1752 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/a/class_765;
+	METHOD method_1754 isSoundEnabled ()Z
 	METHOD method_1755 method_1755 (Lcom/corrodinggames/rts/gameFramework/a/class_765;F)V
 	METHOD method_1756 method_1756 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/a/class_765;
+	METHOD method_4877 clearPlayingSounds (F)V

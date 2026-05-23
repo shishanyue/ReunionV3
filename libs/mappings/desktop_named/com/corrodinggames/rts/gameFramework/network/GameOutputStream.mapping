@@ -5,10 +5,19 @@ CLASS com/corrodinggames/rts/gameFramework/j/class_1030 com/corrodinggames/rts/g
 	FIELD field_6116 outputBlockStack Ljava/util/LinkedList;
 	FIELD field_8562 maxBufferSize I
 	METHOD method_2853 flushAllBuffers ()V
+	METHOD method_2875 writeBytesWithLength ([B)V
 	METHOD method_2854 writeDouble (D)V
 	METHOD method_2855 writeFloat (F)V
+	METHOD method_2856 method_2856 (I)Lcom/corrodinggames/rts/gameFramework/j/class_1032;
+	METHOD method_2857 method_2857 (II)Lcom/corrodinggames/rts/gameFramework/j/class_1032;
 	METHOD method_2858 writeLong (J)V
 	METHOD method_2859 writePointFNullable (Landroid/graphics/PointF;)V
+	METHOD method_2860 method_2860 (Lcom/corrodinggames/rts/game/class_324;)V
+	METHOD method_2861 method_2861 (Lcom/corrodinggames/rts/game/units/class_409;)V
+	METHOD method_2862 method_2862 (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_2863 method_2863 (Lcom/corrodinggames/rts/game/units/class_704;)V
+	METHOD method_2864 method_2864 (Lcom/corrodinggames/rts/gameFramework/class_773;)V
+	METHOD method_2865 method_2865 (Lcom/corrodinggames/rts/gameFramework/j/class_1037;)V
 	METHOD method_2866 writeByteArrayWithLength (Ljava/io/ByteArrayOutputStream;)V
 	METHOD method_2867 writeStreamWithLength (Ljava/io/File;)V
 	METHOD method_2868 writeInputStreamWithLength (Ljava/io/InputStream;I)V
@@ -18,11 +27,12 @@ CLASS com/corrodinggames/rts/gameFramework/j/class_1030 com/corrodinggames/rts/g
 	METHOD method_2872 beginBlockInternal (Ljava/lang/String;Z)V
 	METHOD method_2873 writeShort (S)V
 	METHOD method_2874 writeBoolean (Z)V
-	METHOD method_2875 writeBytesWithLength ([B)V
 	METHOD method_2876 useMainStream ()V
-	METHOD method_2877 writeByte (I)V
-	METHOD method_2880 writeStringUTF (Ljava/lang/String;)V
 	METHOD method_2881 writeBytesRaw ([B)V
+	METHOD method_2877 writeByte (I)V
+	METHOD method_2878 method_2878 (Lcom/corrodinggames/rts/game/units/class_426;)V
+	METHOD method_2879 method_2879 (Lcom/corrodinggames/rts/gameFramework/class_773;)V
+	METHOD method_2880 writeStringUTF (Ljava/lang/String;)V
 	METHOD method_2882 getBufferAsString ()Ljava/lang/String;
 	METHOD method_2883 writeInt (I)V
 	METHOD method_2884 debugPlaceholder (Ljava/lang/String;)V
@@ -33,13 +43,3 @@ CLASS com/corrodinggames/rts/gameFramework/j/class_1030 com/corrodinggames/rts/g
 	METHOD method_2889 isCompressionEnabled ()Z
 	METHOD method_2890 close ()V
 	METHOD method_5470 getMaxSize ()I
-	METHOD method_2856 method_2856 (I)Lcom/corrodinggames/rts/gameFramework/j/class_1032;
-	METHOD method_2857 method_2857 (II)Lcom/corrodinggames/rts/gameFramework/j/class_1032;
-	METHOD method_2860 method_2860 (Lcom/corrodinggames/rts/game/class_324;)V
-	METHOD method_2861 method_2861 (Lcom/corrodinggames/rts/game/units/class_409;)V
-	METHOD method_2862 method_2862 (Lcom/corrodinggames/rts/game/units/class_426;)V
-	METHOD method_2863 method_2863 (Lcom/corrodinggames/rts/game/units/class_704;)V
-	METHOD method_2864 method_2864 (Lcom/corrodinggames/rts/gameFramework/class_773;)V
-	METHOD method_2865 method_2865 (Lcom/corrodinggames/rts/gameFramework/j/class_1037;)V
-	METHOD method_2878 method_2878 (Lcom/corrodinggames/rts/game/units/class_426;)V
-	METHOD method_2879 method_2879 (Lcom/corrodinggames/rts/gameFramework/class_773;)V

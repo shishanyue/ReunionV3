@@ -1,0 +1,9 @@
+CLASS com/corrodinggames/rts/game/units/b/class_392 com/corrodinggames/rts/game/units/air/Gunship
+	FIELD field_1662 field_1662 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1663 field_1663 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1664 field_1664 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1665 field_1665 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1666 field_1666 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_1667 field_1667 F
+	FIELD field_1668 field_1668 Landroid/graphics/Rect;
+	METHOD method_660 method_660 ()V

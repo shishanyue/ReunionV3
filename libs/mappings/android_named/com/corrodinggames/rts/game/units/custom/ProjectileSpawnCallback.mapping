@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_542 com/corrodinggames/rts/game/units/custom/ProjectileSpawnCallback
+	FIELD field_2782 field_2782 Lcom/corrodinggames/rts/game/class_314;
+	FIELD field_2783 field_2783 Lcom/corrodinggames/rts/game/units/custom/class_543;
+	FIELD field_2784 field_2784 Lcom/corrodinggames/rts/game/units/class_426;
+	FIELD field_2785 field_2785 Lcom/corrodinggames/rts/game/class_314;
+	FIELD field_2786 field_2786 Lcom/corrodinggames/rts/game/units/class_426;

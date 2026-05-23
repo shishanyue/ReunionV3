@@ -1,0 +1,15 @@
+CLASS com/corrodinggames/rts/game/units/e/class_684 com/corrodinggames/rts/game/units/land/HovercraftUnit
+	FIELD field_3876 field_3876 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3877 field_3877 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3878 field_3878 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3879 field_3879 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3880 animationTimer F
+	FIELD field_3881 unloadTimer F
+	FIELD field_3882 isUnloading Z
+	FIELD field_3883 field_3883 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	FIELD field_3884 field_3884 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_3885 field_3885 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_3886 field_3886 Ljava/util/ArrayList;
+	METHOD method_1636 method_1636 (Lcom/corrodinggames/rts/game/units/class_426;Lcom/corrodinggames/rts/game/units/class_426;ZFFFFF)Z
+	METHOD method_1637 method_1637 (Lcom/corrodinggames/rts/gameFramework/utility/class_1323;)I
+	METHOD method_1639 method_1639 ()V

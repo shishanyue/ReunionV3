@@ -1,0 +1,6 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_578 com/corrodinggames/rts/game/units/custom/CustomUnitAnimationTags
+	FIELD field_3076 field_3076 Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
+	METHOD method_1409 method_1409 ()Lcom/corrodinggames/rts/game/units/custom/class_577;
+	METHOD method_1410 method_1410 (Lcom/corrodinggames/rts/game/units/custom/class_576;)Z
+	METHOD method_1411 method_1411 (Lcom/corrodinggames/rts/game/units/custom/class_577;)Z
+	METHOD method_1412 method_1412 (Lcom/corrodinggames/rts/game/units/custom/class_577;)Z

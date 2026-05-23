@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/game/units/d/a/class_603 com/corrodinggames/rts/game/units/buildings/turrets/AntiAirTurret
+	FIELD field_3610 field_3610 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3611 field_3611 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3612 field_3612 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3613 field_3613 [Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_3614 field_3614 Lcom/corrodinggames/rts/game/units/a/class_349;
+	FIELD field_3615 availableActions Ljava/util/ArrayList;
+	METHOD method_1522 loadTextures ()V

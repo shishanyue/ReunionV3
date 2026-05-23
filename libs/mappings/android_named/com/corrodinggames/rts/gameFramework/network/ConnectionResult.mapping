@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/j/class_1058 com/corrodinggames/rts/gameFramework/network/ConnectionResult
+	FIELD field_6280 resolvedAddress Ljava/lang/String;
+	FIELD field_6281 errorMessage Ljava/lang/String;
+	METHOD method_2957 setResolvedAddress (Ljava/lang/String;)V

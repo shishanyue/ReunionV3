@@ -1,9 +1,9 @@
 CLASS com/corrodinggames/rts/game/a/class_287 com/corrodinggames/rts/game/ai/UnitBuildStrategy
 	FIELD field_767 strategyName Ljava/lang/String;
 	FIELD field_768 unitPriorities Ljava/util/ArrayList;
-	FIELD field_7861 shuffledUnits Ljava/util/ArrayList;
 	FIELD field_770 field_770 Lcom/corrodinggames/rts/game/a/class_263;
-	METHOD method_4244 getShuffledUnits ()Ljava/util/ArrayList;
-	METHOD method_4247 rebuildUnitMix ()V
+	FIELD field_7861 shuffledUnits Ljava/util/ArrayList;
 	METHOD method_245 method_245 (Lcom/corrodinggames/rts/game/units/class_704;)Z
 	METHOD method_246 method_246 (Lcom/corrodinggames/rts/game/units/class_704;Lcom/corrodinggames/rts/game/units/class_428;)Z
+	METHOD method_4244 getShuffledUnits ()Ljava/util/ArrayList;
+	METHOD method_4247 rebuildUnitMix ()V

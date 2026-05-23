@@ -1,6 +1,6 @@
 CLASS com/corrodinggames/rts/game/units/g/class_720 com/corrodinggames/rts/game/units/effect/AirUnitEffect
 	FIELD field_8116 effectId I
-	METHOD method_4791 getEffectId ()I
 	METHOD method_1717 method_1717 ()Lcom/corrodinggames/rts/game/units/g/class_721;
 	METHOD method_1718 method_1718 (Lcom/corrodinggames/rts/game/units/class_409;Lcom/corrodinggames/rts/gameFramework/j/class_1030;)V
 	METHOD method_1719 method_1719 (Lcom/corrodinggames/rts/game/units/class_409;Lcom/corrodinggames/rts/gameFramework/j/class_1044;)V
+	METHOD method_4791 getEffectId ()I

@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/gameFramework/f/class_964 com/corrodinggames/rts/gameFramework/ui/PlacementFinder
+	FIELD field_5627 tempPoint Landroid/graphics/Point;

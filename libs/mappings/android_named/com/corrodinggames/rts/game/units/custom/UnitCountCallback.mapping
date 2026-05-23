@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_531 com/corrodinggames/rts/game/units/custom/UnitCountCallback
+	FIELD field_2727 field_2727 F
+	FIELD field_2728 field_2728 F
+	FIELD field_2729 field_2729 Lcom/corrodinggames/rts/game/units/custom/class_532;
+	FIELD field_2730 field_2730 I

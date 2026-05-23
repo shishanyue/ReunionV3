@@ -1,25 +1,6 @@
 CLASS com/corrodinggames/rts/game/b/class_299 com/corrodinggames/rts/game/map/TileMap
-	FIELD field_874 unitObjects Ljava/util/ArrayList;
-	FIELD field_877 tileCountX I
-	FIELD field_878 tileCountY I
-	FIELD field_879 fogEnabled Z
-	FIELD field_880 fogPeriodicMaintenanceEnabled Z
-	FIELD field_881 fogRenderActive Z
-	FIELD field_882 softFogFadingInitialized Z
-	FIELD field_883 softFogFadingEnabled Z
-	FIELD field_884 softFogFadingForced Z
-	FIELD field_887 fogOfWarCurrent [[B
-	FIELD field_888 fogOfWarNext [[B
-	FIELD field_889 tempRect Landroid/graphics/Rect;
-	FIELD field_890 objectLayers Ljava/util/ArrayList;
-	FIELD field_892 editorActive Z
-	FIELD field_893 editorSelectionActive Z
-	FIELD field_894 cursorTileX I
-	FIELD field_895 cursorTileY I
-	FIELD field_897 isCursorActive Z
-	FIELD field_898 isCursorSelectionActive Z
-	FIELD field_899 cursorStartTileX I
 	FIELD field_900 fogProfilingEnabled Z
+	FIELD field_874 unitObjects Ljava/util/ArrayList;
 	FIELD field_901 cursorStartTileY I
 	FIELD field_902 fogBlendAlpha F
 	FIELD field_903 debugRedStrokePaint Landroid/graphics/Paint;
@@ -30,69 +11,99 @@ CLASS com/corrodinggames/rts/game/b/class_299 com/corrodinggames/rts/game/map/Ti
 	FIELD field_908 clearXferPaint Landroid/graphics/Paint;
 	FIELD field_909 gidToMapTileCache Ljava/util/HashMap;
 	FIELD field_912 nextUniqueTileIndex I
+	FIELD field_913 field_913 Lcom/corrodinggames/rts/game/b/class_302;
 	FIELD field_914 fogOverlayPaint Landroid/graphics/Paint;
 	FIELD field_916 tempTileRect Landroid/graphics/Rect;
 	FIELD field_917 fogUpdateTimeAccumulated J
 	FIELD field_919 fogMaintenanceElapsedSeconds F
+	FIELD field_920 field_920 Z
+	FIELD field_921 field_921 Z
+	FIELD field_876 field_876 [Lcom/corrodinggames/rts/game/b/class_306;
 	FIELD field_922 fogDebugGlobalFlag Z
+	FIELD field_877 tileCountX I
 	FIELD field_923 fogAtlasLock Ljava/util/concurrent/locks/ReentrantLock;
+	FIELD field_878 tileCountY I
 	FIELD field_924 fogAtlasLockDisabled Z
+	FIELD field_879 fogEnabled Z
 	FIELD field_925 fogAtlasDebugWhiteStrokePaint Landroid/graphics/Paint;
+	FIELD field_880 fogPeriodicMaintenanceEnabled Z
 	FIELD field_926 fogAtlasDebugRedStrokePaint Landroid/graphics/Paint;
+	FIELD field_881 fogRenderActive Z
 	FIELD field_927 fogAtlasDebugGreenStrokePaint Landroid/graphics/Paint;
+	FIELD field_882 softFogFadingInitialized Z
 	FIELD field_928 fogAtlasDebugRedStrokePaintAlt Landroid/graphics/Paint;
+	FIELD field_883 softFogFadingEnabled Z
 	FIELD field_929 androidKeyStates [Z
+	FIELD field_884 softFogFadingForced Z
+	FIELD field_930 field_930 Lcom/corrodinggames/rts/game/b/class_307;
+	FIELD field_885 field_885 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_931 field_931 Lcom/corrodinggames/rts/game/b/class_307;
+	FIELD field_886 field_886 Lcom/corrodinggames/rts/gameFramework/m/class_1225;
 	FIELD field_932 tileWorldSizeX I
+	FIELD field_887 fogOfWarCurrent [[B
 	FIELD field_933 tileWorldSizeY I
+	FIELD field_888 fogOfWarNext [[B
 	FIELD field_934 halfTileWorldSizeX I
+	FIELD field_889 tempRect Landroid/graphics/Rect;
 	FIELD field_935 halfTileWorldSizeY I
+	FIELD field_890 objectLayers Ljava/util/ArrayList;
 	FIELD field_936 tileScaleX F
+	FIELD field_891 field_891 Lcom/corrodinggames/rts/game/b/class_308;
 	FIELD field_937 tileScaleY F
+	FIELD field_892 editorActive Z
 	FIELD field_938 tilesets Ljava/util/ArrayList;
+	FIELD field_893 editorSelectionActive Z
+	FIELD field_939 field_939 Lcom/corrodinggames/rts/game/b/class_304;
+	FIELD field_894 cursorTileX I
+	FIELD field_940 field_940 Lcom/corrodinggames/rts/game/b/class_304;
+	FIELD field_895 cursorTileY I
+	FIELD field_941 field_941 Lcom/corrodinggames/rts/game/b/class_304;
+	FIELD field_942 field_942 Lcom/corrodinggames/rts/game/b/class_304;
+	FIELD field_897 isCursorActive Z
+	FIELD field_943 field_943 Lcom/corrodinggames/rts/game/b/class_304;
+	FIELD field_898 isCursorSelectionActive Z
 	FIELD field_944 mapLayers Ljava/util/ArrayList;
+	FIELD field_899 cursorStartTileX I
 	FIELD field_7888 tempWorldPoint Landroid/graphics/PointF;
 	FIELD field_7889 fogFadeSpeed F
 	FIELD field_7890 fogScale F
 	FIELD field_7891 fogFadeStep I
 	FIELD field_7892 tempRectTile Landroid/graphics/Rect;
 	FIELD field_7893 fogProfilingSecondsAccumulator F
-	FIELD field_913 field_913 Lcom/corrodinggames/rts/game/b/class_302;
-	FIELD field_920 field_920 Z
-	FIELD field_921 field_921 Z
-	FIELD field_876 field_876 [Lcom/corrodinggames/rts/game/b/class_306;
-	FIELD field_930 field_930 Lcom/corrodinggames/rts/game/b/class_307;
-	FIELD field_885 field_885 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
-	FIELD field_931 field_931 Lcom/corrodinggames/rts/game/b/class_307;
-	FIELD field_886 field_886 Lcom/corrodinggames/rts/gameFramework/m/class_1225;
-	FIELD field_891 field_891 Lcom/corrodinggames/rts/game/b/class_308;
-	FIELD field_939 field_939 Lcom/corrodinggames/rts/game/b/class_304;
-	FIELD field_940 field_940 Lcom/corrodinggames/rts/game/b/class_304;
-	FIELD field_941 field_941 Lcom/corrodinggames/rts/game/b/class_304;
-	FIELD field_942 field_942 Lcom/corrodinggames/rts/game/b/class_304;
-	FIELD field_943 field_943 Lcom/corrodinggames/rts/game/b/class_304;
 	METHOD method_294 buildFogSmoothAtlas ()V
 	METHOD method_295 clampWorldX (F)F
 	METHOD method_296 setCursorTileIndexFromWorldPoint (FF)V
+	METHOD method_297 method_297 (FFILcom/corrodinggames/rts/game/class_324;Z)V
+	METHOD method_298 method_298 (FFLcom/corrodinggames/rts/game/class_324;)Z
+	METHOD method_299 method_299 (I)Lcom/corrodinggames/rts/game/b/class_309;
+	METHOD method_305 enumerateMaskCombinations (I[I)[I
 	METHOD method_300 setCursorTileIndexFromTileIndex (II)V
 	METHOD method_302 clampWorldX (II[[BB)B
+	METHOD method_301 method_301 (IILcom/corrodinggames/rts/game/class_324;)Z
 	METHOD method_303 computeFogAtlasTileRect (ILandroid/graphics/Rect;)V
-	METHOD method_305 enumerateMaskCombinations (I[I)[I
+	METHOD method_304 method_304 (ILcom/corrodinggames/rts/gameFramework/m/class_1189;)V
+	METHOD method_306 method_306 (Lcom/corrodinggames/rts/game/b/class_306;II)Lcom/corrodinggames/rts/game/b/class_306;
+	METHOD method_308 method_308 (Lcom/corrodinggames/rts/gameFramework/j/class_1030;)V
 	METHOD method_310 rewriteTmxWithUnitObjects (Ljava/io/InputStream;Ljava/io/OutputStream;)V
 	METHOD method_311 isWorldPointVisibleForTeam (Ljava/io/InputStream;Z)V
 	METHOD method_312 openMapInputStreamWithMovedFallback (Ljava/lang/String;)Ljava/io/InputStream;
+	METHOD method_314 method_314 (Ljava/lang/String;Lcom/corrodinggames/rts/gameFramework/j/class_1030;)V
 	METHOD method_316 tileToWorldPoint (Ljava/lang/String;Ljava/lang/String;I)Ljava/io/InputStream;
 	METHOD method_317 clampWorldX (Ljava/lang/String;Z)V
 	METHOD method_320 initSoftFogFading ()V
 	METHOD method_321 openOriginalMapStream (F)F
 	METHOD method_322 exportTmxToFile (FF)V
+	METHOD method_323 method_323 (FFILcom/corrodinggames/rts/game/class_324;Z)V
 	METHOD method_324 exportTmxWithUnits (II)V
 	METHOD method_326 openAssetStreamFromPair (Ljava/lang/String;Ljava/lang/String;)Ljava/io/InputStream;
 	METHOD method_328 updateFogRenderPass (F)V
 	METHOD method_329 isInBounds (II)Z
 	METHOD method_330 resolveAbstractPathIfNotNull (Ljava/lang/String;)Ljava/lang/String;
 	METHOD method_332 invalidateAllLayerCells ()V
+	METHOD method_334 method_334 (II)Lcom/corrodinggames/rts/game/b/class_306;
 	METHOD method_336 clearAllMapData ()V
 	METHOD method_338 invalidateLayerCellAt (II)V
+	METHOD method_339 method_339 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/b/class_308;
 	METHOD method_340 getWorldWidth ()F
 	METHOD method_341 invalidateLayerCellsAround (II)V
 	METHOD method_342 getWorldHeight ()F
@@ -114,16 +125,5 @@ CLASS com/corrodinggames/rts/game/b/class_299 com/corrodinggames/rts/game/map/Ti
 	METHOD method_4340 updateLayerBuffers ()V
 	METHOD method_4341 advanceFogVisibility (F)V
 	METHOD method_4342 resetFogToInvisible ()V
-	METHOD method_297 method_297 (FFILcom/corrodinggames/rts/game/class_324;Z)V
-	METHOD method_298 method_298 (FFLcom/corrodinggames/rts/game/class_324;)Z
-	METHOD method_299 method_299 (I)Lcom/corrodinggames/rts/game/b/class_309;
-	METHOD method_301 method_301 (IILcom/corrodinggames/rts/game/class_324;)Z
-	METHOD method_304 method_304 (ILcom/corrodinggames/rts/gameFramework/m/class_1189;)V
-	METHOD method_306 method_306 (Lcom/corrodinggames/rts/game/b/class_306;II)Lcom/corrodinggames/rts/game/b/class_306;
-	METHOD method_308 method_308 (Lcom/corrodinggames/rts/gameFramework/j/class_1030;)V
-	METHOD method_314 method_314 (Ljava/lang/String;Lcom/corrodinggames/rts/gameFramework/j/class_1030;)V
-	METHOD method_323 method_323 (FFILcom/corrodinggames/rts/game/class_324;Z)V
-	METHOD method_334 method_334 (II)Lcom/corrodinggames/rts/game/b/class_306;
-	METHOD method_339 method_339 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/b/class_308;
 	CLASS class_300 1
 	CLASS class_301 2

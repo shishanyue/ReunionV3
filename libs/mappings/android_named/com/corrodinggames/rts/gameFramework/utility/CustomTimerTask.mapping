@@ -1,0 +1,20 @@
+CLASS a/a/a/class_1348 com/corrodinggames/rts/gameFramework/utility/CustomTimerTask
+	FIELD field_7370 started Z
+	FIELD field_7371 name Ljava/lang/String;
+	FIELD field_7372 task Ljava/lang/Runnable;
+	FIELD field_7373 delay J
+	FIELD field_7374 period J
+	FIELD field_7375 cancelled Z
+	FIELD field_7376 scheduled Z
+	FIELD field_7377 paused Z
+	FIELD field_7378 stopped Z
+	FIELD field_7379 lock Ljava/lang/Object;
+	METHOD method_3718 start ()V
+	METHOD method_3719 scheduleAtFixedRate (J)V
+	METHOD method_3720 schedule (JJ)V
+	METHOD method_3721 isScheduled ()Z
+	METHOD method_3722 isNotScheduled ()Z
+	METHOD method_3723 pause ()V
+	METHOD method_3724 cancel ()V
+	METHOD method_3725 stop ()V
+	METHOD run run ()V

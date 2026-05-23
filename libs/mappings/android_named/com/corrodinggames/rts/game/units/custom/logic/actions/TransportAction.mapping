@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/custom/a/a/class_459 com/corrodinggames/rts/game/units/custom/logic/actions/TransportAction
+	FIELD field_2250 forceUnloadTransportNow_onlyOnSlot I

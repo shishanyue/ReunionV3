@@ -1,0 +1,4 @@
+CLASS com/corrodinggames/rts/gameFramework/n/a/class_1257 com/corrodinggames/rts/gameFramework/mission/conditions/TeamTagDetectCondition
+	FIELD field_7043 field_7043 Lcom/corrodinggames/rts/game/class_324;
+	FIELD field_7044 field_7044 Lcom/corrodinggames/rts/game/units/custom/class_576;
+	METHOD method_3432 method_3432 (Lcom/corrodinggames/rts/gameFramework/n/class_1255;)Lcom/corrodinggames/rts/gameFramework/n/a/class_1257;

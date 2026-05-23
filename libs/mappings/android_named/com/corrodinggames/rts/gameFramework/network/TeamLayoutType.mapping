@@ -1,0 +1,8 @@
+CLASS com/corrodinggames/rts/gameFramework/j/class_1024 com/corrodinggames/rts/gameFramework/network/TeamLayoutType
+	FIELD field_6063 field_6063 Lcom/corrodinggames/rts/gameFramework/j/class_1024;
+	FIELD field_6064 field_6064 Lcom/corrodinggames/rts/gameFramework/j/class_1024;
+	FIELD field_6065 field_6065 Lcom/corrodinggames/rts/gameFramework/j/class_1024;
+	FIELD field_6066 field_6066 Lcom/corrodinggames/rts/gameFramework/j/class_1024;
+	FIELD field_6067 field_6067 [Lcom/corrodinggames/rts/gameFramework/j/class_1024;
+	METHOD valueOf valueOf (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/j/class_1024;
+	METHOD values values ()[Lcom/corrodinggames/rts/gameFramework/j/class_1024;

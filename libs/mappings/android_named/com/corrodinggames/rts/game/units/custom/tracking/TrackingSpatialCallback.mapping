@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/custom/c/class_539 com/corrodinggames/rts/game/units/custom/tracking/TrackingSpatialCallback
+	FIELD field_2773 field_2773 Lcom/corrodinggames/rts/game/units/custom/c/class_536;
+	FIELD field_2774 field_2774 Lcom/corrodinggames/rts/game/units/custom/c/class_534;
+	FIELD field_2775 field_2775 Lcom/corrodinggames/rts/game/units/class_426;
+	FIELD field_2776 field_2776 F

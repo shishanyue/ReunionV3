@@ -1,18 +1,18 @@
 CLASS com/corrodinggames/rts/gameFramework/j/class_1026 com/corrodinggames/rts/gameFramework/network/ConnectionAcceptor
+	FIELD field_6076 field_6076 Z
+	FIELD field_6077 field_6077 Z
 	FIELD field_6078 isRunning Z
 	FIELD field_6079 serverSocket Ljava/net/ServerSocket;
 	FIELD field_6080 port I
 	FIELD field_6081 isUdp Z
 	FIELD field_6082 lastAcceptTime J
-	FIELD field_6085 acceptLock Ljava/lang/Object;
-	FIELD field_6086 pendingConnections Ljava/util/ArrayList;
-	FIELD field_6088 acceptedCount I
-	FIELD field_6089 pendingLimit I
-	FIELD field_6076 field_6076 Z
-	FIELD field_6077 field_6077 Z
 	FIELD field_6083 field_6083 Z
 	FIELD field_6084 field_6084 Z
+	FIELD field_6085 acceptLock Ljava/lang/Object;
+	FIELD field_6086 pendingConnections Ljava/util/ArrayList;
 	FIELD field_6087 field_6087 Ljava/lang/Object;
+	FIELD field_6088 acceptedCount I
+	FIELD field_6089 pendingLimit I
 	FIELD field_6090 field_6090 Z
 	FIELD field_6091 field_6091 Z
 	FIELD field_6092 field_6092 Z

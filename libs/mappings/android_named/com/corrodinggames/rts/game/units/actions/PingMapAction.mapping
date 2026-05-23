@@ -1,0 +1,5 @@
+CLASS com/corrodinggames/rts/game/units/a/class_340 com/corrodinggames/rts/game/units/actions/PingMapAction
+	FIELD field_1535 field_1535 Lcom/corrodinggames/rts/game/units/a/class_341;
+	FIELD field_1536 field_1536 Ljava/util/ArrayList;
+	FIELD field_1537 field_1537 Landroid/graphics/Rect;
+	METHOD method_564 method_564 (Lcom/corrodinggames/rts/game/units/a/class_333;)Lcom/corrodinggames/rts/game/units/a/class_340;

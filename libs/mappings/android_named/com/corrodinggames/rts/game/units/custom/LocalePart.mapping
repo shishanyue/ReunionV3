@@ -1,0 +1,2 @@
+CLASS com/corrodinggames/rts/game/units/custom/class_476 com/corrodinggames/rts/game/units/custom/LocalePart
+	METHOD method_1170 method_1170 (Lcom/corrodinggames/rts/game/units/class_409;)Ljava/lang/String;

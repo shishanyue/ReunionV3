@@ -1,54 +1,55 @@
 CLASS com/corrodinggames/rts/gameFramework/j/class_1037 com/corrodinggames/rts/gameFramework/network/NetworkConnection
-	FIELD field_6150 receiveThread Ljava/lang/Thread;
-	FIELD field_6151 sendThread Ljava/lang/Thread;
-	FIELD field_6152 isInputClosed Z
-	FIELD field_6153 isOutputClosed Z
-	FIELD field_6154 connectionLabel Ljava/lang/String;
-	FIELD field_6155 sessionRandomId I
-	FIELD field_6158 bytesReadIterations I
-	FIELD field_6163 bytesReadTotalCurrentPacket I
-	FIELD field_6164 bytesReadSoFar I
+	FIELD field_6165 field_6165 Lcom/corrodinggames/rts/gameFramework/j/class_1001;
+	FIELD field_6142 field_6142 Lcom/corrodinggames/rts/game/class_313;
 	FIELD field_6166 isDisconnecting Z
+	FIELD field_6143 field_6143 I
 	FIELD field_6167 disconnectRequested Z
+	FIELD field_6144 field_6144 J
 	FIELD field_6168 connectionId I
+	FIELD field_6145 field_6145 Z
 	FIELD field_6169 socket Ljava/net/Socket;
+	FIELD field_6146 field_6146 Z
 	FIELD field_6170 inetAddress Ljava/net/InetAddress;
+	FIELD field_6147 field_6147 I
 	FIELD field_6171 outboundQueue Ljava/util/concurrent/ConcurrentLinkedQueue;
+	FIELD field_6148 field_6148 Lcom/corrodinggames/rts/gameFramework/j/class_1038;
 	FIELD field_6172 lastActivityTime J
+	FIELD field_6149 field_6149 Lcom/corrodinggames/rts/gameFramework/j/class_1039;
+	FIELD field_6173 field_6173 Z
+	FIELD field_6150 receiveThread Ljava/lang/Thread;
+	FIELD field_6174 field_6174 Z
+	FIELD field_6151 sendThread Ljava/lang/Thread;
+	FIELD field_6175 field_6175 Lcom/corrodinggames/rts/gameFramework/j/class_1037;
+	FIELD field_6152 isInputClosed Z
 	FIELD field_6176 unknownIntK I
+	FIELD field_6153 isOutputClosed Z
+	FIELD field_6177 field_6177 Lcom/corrodinggames/rts/gameFramework/j/class_1032;
+	FIELD field_6154 connectionLabel Ljava/lang/String;
 	FIELD field_6178 remoteId Ljava/lang/String;
+	FIELD field_6155 sessionRandomId I
 	FIELD field_6179 forwardedIpAddress Ljava/lang/String;
+	FIELD field_6156 field_6156 Z
+	FIELD field_6180 field_6180 Ljava/lang/String;
+	FIELD field_6157 field_6157 Z
 	FIELD field_6181 allowLargeIncomingPackets Z
+	FIELD field_6158 bytesReadIterations I
 	FIELD field_6182 trackLastPacket Z
+	FIELD field_6159 field_6159 Z
 	FIELD field_6183 optimizeSplitContinuation Z
 	FIELD field_6184 isRelayServer Z
 	FIELD field_6185 isRelayLinked Z
 	FIELD field_6186 isDirectClient Z
+	FIELD field_6163 bytesReadTotalCurrentPacket I
 	FIELD field_6187 isDirectServer Z
+	FIELD field_6164 bytesReadSoFar I
 	FIELD field_6188 isForwarded Z
+	FIELD field_6189 field_6189 I
+	FIELD field_6190 field_6190 I
 	FIELD field_8565 commandCounter I
 	FIELD field_8566 commandWindowStartMs J
 	FIELD field_8567 commandLimitReached Z
-	FIELD field_6165 field_6165 Lcom/corrodinggames/rts/gameFramework/j/class_1001;
-	FIELD field_6142 field_6142 Lcom/corrodinggames/rts/game/class_313;
-	FIELD field_6143 field_6143 I
-	FIELD field_6144 field_6144 J
-	FIELD field_6145 field_6145 Z
-	FIELD field_6146 field_6146 Z
-	FIELD field_6147 field_6147 I
-	FIELD field_6148 field_6148 Lcom/corrodinggames/rts/gameFramework/j/class_1038;
-	FIELD field_6149 field_6149 Lcom/corrodinggames/rts/gameFramework/j/class_1039;
-	FIELD field_6173 field_6173 Z
-	FIELD field_6174 field_6174 Z
-	FIELD field_6175 field_6175 Lcom/corrodinggames/rts/gameFramework/j/class_1037;
-	FIELD field_6177 field_6177 Lcom/corrodinggames/rts/gameFramework/j/class_1032;
-	FIELD field_6156 field_6156 Z
-	FIELD field_6180 field_6180 Ljava/lang/String;
-	FIELD field_6157 field_6157 Z
-	FIELD field_6159 field_6159 Z
-	FIELD field_6189 field_6189 I
-	FIELD field_6190 field_6190 I
 	METHOD method_2893 logDebug ()I
+	METHOD method_2894 method_2894 (Lcom/corrodinggames/rts/gameFramework/j/class_1032;)V
 	METHOD method_2895 handleRemoteDisconnect (Ljava/lang/String;)V
 	METHOD method_2897 sendPacket (ZZLjava/lang/String;)V
 	METHOD method_2898 getPlayerTeamId ()I
@@ -59,12 +60,11 @@ CLASS com/corrodinggames/rts/gameFramework/j/class_1037 com/corrodinggames/rts/g
 	METHOD method_2903 formatLogPrefix (Ljava/lang/String;)Ljava/lang/String;
 	METHOD method_2904 getIpAddress ()Ljava/lang/String;
 	METHOD method_2905 getDisplayIpAddress ()Ljava/lang/String;
+	METHOD finalize finalize ()V
 	METHOD method_2906 isConnected ()Z
 	METHOD method_2907 performDisconnectCleanup ()V
 	METHOD method_2908 requestLocalDisconnect ()V
 	METHOD method_5474 disconnectWithMessage ()Z
 	METHOD method_5477 logErrorWithException (Ljava/lang/String;Ljava/lang/Throwable;)V
 	METHOD method_5478 handleTimeoutDisconnect (ZZ)V
-	METHOD method_2894 method_2894 (Lcom/corrodinggames/rts/gameFramework/j/class_1032;)V
-	METHOD finalize finalize ()V
 	CLASS 1 AnonymousClass1

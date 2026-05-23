@@ -1,0 +1,15 @@
+CLASS com/corrodinggames/rts/gameFramework/m/class_1216 com/corrodinggames/rts/gameFramework/graphics/TeamColorTexture
+	FIELD field_6790 field_6790 Z
+	FIELD field_6791 field_6791 Z
+	FIELD field_6792 field_6792 Z
+	FIELD field_6793 field_6793 I
+	FIELD field_6794 field_6794 I
+	FIELD field_6795 field_6795 Lcom/corrodinggames/rts/game/class_325;
+	FIELD field_6796 field_6796 F
+	FIELD field_6797 field_6797 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_6798 field_6798 Lcom/corrodinggames/rts/gameFramework/m/class_1189;
+	FIELD field_6799 field_6799 Lcom/corrodinggames/rts/gameFramework/m/class_1231;
+	FIELD field_6800 field_6800 Lcom/corrodinggames/rts/gameFramework/m/class_1231;
+	FIELD field_6801 field_6801 Lcom/corrodinggames/rts/gameFramework/m/class_1231;
+	METHOD method_3223 method_3223 (Z)V
+	METHOD method_3224 method_3224 ()V

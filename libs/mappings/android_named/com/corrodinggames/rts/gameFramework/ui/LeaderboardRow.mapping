@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/gameFramework/f/class_966 com/corrodinggames/rts/gameFramework/ui/LeaderboardRow
+	FIELD field_5633 labelPaint Landroid/graphics/Paint;
+	FIELD field_5634 label Ljava/lang/String;
+	FIELD field_5636 labelWidth F
+	FIELD field_5637 valuePaint Landroid/graphics/Paint;
+	FIELD field_5638 value Ljava/lang/String;
+	FIELD field_5640 valueWidth F

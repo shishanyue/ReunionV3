@@ -1,0 +1,7 @@
+CLASS com/corrodinggames/rts/gameFramework/f/a/class_919 com/corrodinggames/rts/gameFramework/ui/widgets/TextLabel
+	FIELD field_5273 field_5273 Ljava/lang/String;
+	FIELD field_5274 field_5274 Landroid/graphics/Paint;
+	FIELD field_5275 field_5275 Lcom/corrodinggames/rts/gameFramework/f/a/class_917;
+	FIELD field_5276 field_5276 Ljava/util/ArrayList;
+	METHOD method_2403 method_2403 (I)V
+	METHOD method_2404 method_2404 (Ljava/lang/String;)V
