@@ -129,29 +129,31 @@ public class Patcher {
             firstNamed = desktopNamed;
             secondNamed = androidNamed;
         }
+
         MemoryMappingTree shared = MappingUtils.buildSharedMappings(androidIntermediary, desktopIntermediary, firstNamed, secondNamed);
+        MemoryMappingTree androidMerged = MappingUtils.buildMergedMappings(shared, androidNamed);
+        MemoryMappingTree desktopMerged = MappingUtils.buildMergedMappings(shared, desktopNamed);
+
+        EnigmaDirWriter writer = new EnigmaDirWriter(mappingsDir.resolve("android_named"), true);
+        androidMerged.accept(writer);
+        writer.close();
+        writer = new EnigmaDirWriter(mappingsDir.resolve("desktop_named"), true);
+        desktopMerged.accept(writer);
+        writer.close();
 
         MemoryMappingTree intermediary, named;
-        Path namedPath;
         switch (platform) {
             case ANDROID:
                 intermediary = androidIntermediary;
-                named = androidNamed;
-                namedPath = mappingsDir.resolve("android_named");
+                named = androidMerged;
                 break;
             case DESKTOP:
                 intermediary = desktopIntermediary;
-                named = desktopNamed;
-                namedPath = mappingsDir.resolve("desktop_named");
+                named = desktopMerged;
                 break;
             default:
                 throw new IllegalArgumentException("Unsupported platform: " + platform);
         }
-
-        named = MappingUtils.buildMergedMappings(shared, named);
-        EnigmaDirWriter writer = new EnigmaDirWriter(namedPath, true);
-        named.accept(writer);
-        writer.close();
 
         MemoryMappingTree mappingTree = MappingUtils.buildNamedMappings(intermediary, named);
 
