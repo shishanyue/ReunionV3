@@ -114,6 +114,6 @@ CLASS a/a/class_1355 net/rudp/ReliableSocket
 	METHOD setTcpNoDelay setTcpNoDelay (Z)V
 	METHOD shutdownInput shutdownInput ()V
 	METHOD shutdownOutput shutdownOutput ()V
-	CLASS 1 ReliableSocket
+	CLASS 1 runnable
 		FIELD field_7434 field_7434 La/a/class_1355;
 		METHOD run run ()V

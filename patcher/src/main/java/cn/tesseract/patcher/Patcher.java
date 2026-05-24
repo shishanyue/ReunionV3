@@ -50,11 +50,6 @@ public class Patcher {
             }
         }
 
-        System.out.println("=== Patcher ===");
-        System.out.println("Input:  " + inputJar);
-        System.out.println("Output: " + outputJar);
-        System.out.println("Platform: " + platform.name().toLowerCase(Locale.ROOT));
-
         List<Patch> patches = new ArrayList<>();
         if (platform == Platform.ANDROID) {
             patches.add(new Dex2JarFixPatch());
@@ -65,13 +60,14 @@ public class Patcher {
 
         int total = 0;
         int patched = 0;
-        boolean needsRemap = mappingsDir != null;
-        Path stagedOutputJar = needsRemap
-                ? Files.createTempFile(outputJar.toAbsolutePath().getParent(), outputJar.getFileName().toString(), ".staged.jar")
-                : outputJar;
+        assert mappingsDir != null;
+        Path stagedOutputJar = Files.createTempFile(outputJar.toAbsolutePath().getParent(), outputJar.getFileName().toString(), ".staged.jar");
 
-        try (JarInputStream jis = new JarInputStream(new BufferedInputStream(Files.newInputStream(inputJar)));
-             JarOutputStream jos = new JarOutputStream(new BufferedOutputStream(Files.newOutputStream(stagedOutputJar)))) {
+        System.out.println("Remapping " + platform + " jar with mappings root: " + mappingsDir);
+        remapJar(inputJar, stagedOutputJar, mappingsDir, platform);
+
+        try (JarInputStream jis = new JarInputStream(new BufferedInputStream(Files.newInputStream(stagedOutputJar)));
+             JarOutputStream jos = new JarOutputStream(new BufferedOutputStream(Files.newOutputStream(outputJar)))) {
             JarEntry entry;
             while ((entry = jis.getNextJarEntry()) != null) {
                 if (entry.isDirectory()) {
@@ -101,12 +97,7 @@ public class Patcher {
                 jos.closeEntry();
             }
         }
-
-        if (needsRemap) {
-            System.out.println("Remapping " + platform + " jar with mappings root: " + mappingsDir);
-            remapJar(stagedOutputJar, outputJar, mappingsDir, platform);
-            Files.deleteIfExists(stagedOutputJar);
-        }
+        Files.deleteIfExists(stagedOutputJar);
 
         System.out.println("Done. " + patched + " patched, " + total + " total.");
     }

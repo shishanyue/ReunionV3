@@ -35,3 +35,4 @@ CLASS a/a/class_1349 net/rudp/ReliableServerSocket
 	METHOD isBound isBound ()Z
 	METHOD isClosed isClosed ()Z
 	METHOD setSoTimeout setSoTimeout (I)V
+	CLASS class_1503 AnonymousClass1
