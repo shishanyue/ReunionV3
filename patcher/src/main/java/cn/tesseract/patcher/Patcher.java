@@ -61,7 +61,7 @@ public class Patcher {
         int total = 0;
         int patched = 0;
         assert mappingsDir != null;
-        Path stagedOutputJar = Files.createTempFile(outputJar.toAbsolutePath().getParent(), outputJar.getFileName().toString(), ".staged.jar");
+        Path stagedOutputJar = Paths.get(outputJar.toString().replace(".jar", "-staged.jar"));
 
         System.out.println("Remapping " + platform + " jar with mappings root: " + mappingsDir);
         remapJar(inputJar, stagedOutputJar, mappingsDir, platform);
