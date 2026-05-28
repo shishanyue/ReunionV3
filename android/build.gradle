@@ -47,9 +47,17 @@ dependencies {
     implementation project(':core')
     implementation project(path: ':patcher', configuration: 'androidPatchedElements')
     implementation libs.crosshook.android
+    compileOnly "me.shedaniel:static-mixin:1.0.9999"
 }
 
 tasks.named('preBuild').configure {
     dependsOn ':patcher:patchAndroidJar'
 }
 
+import me.shedaniel.staticmixin.tasks.MixinPatchTask
+
+tasks.register('applyMixins', MixinPatchTask) {
+    from(sourceSets.main.output)
+    classpath.from(sourceSets.main.output + configurations.compileClasspath)
+    mixinConfig "android.mixins.json"
+}

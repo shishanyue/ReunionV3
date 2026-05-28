@@ -1,4 +1,13 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "me.shedaniel:static-mixin:1.0.9999"
+    }
+}
+
 plugins {
     alias(libs.plugins.android.application) apply false
 }
