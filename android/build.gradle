@@ -1,63 +1,14 @@
 plugins {
-    alias(libs.plugins.android.application)
+    alias(libs.plugins.java.library)
 }
 
-def rootDir = rootProject.rootDir.absolutePath
-def patcherResSourceDir = file("$rootDir/build/apk/res")
-def patcherAssetsSourceDir = file("$rootDir/build/apk/assets")
-
-android {
-    namespace 'cn.tesseract.soviet'
-    compileSdk {
-        //noinspection GradleDependency
-        version = release(36) {
-            minorApiLevel = 1
-        }
-    }
-
-    defaultConfig {
-        applicationId "com.corrodinggames.rts"
-        minSdk 21
-        //noinspection OldTargetApi
-        targetSdk 36
-        versionCode 1
-        versionName "1.0"
-    }
-
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
-
-    useLibrary 'org.apache.http.legacy'
-}
-
-tasks.register('importPatcherResourcesToSource', Copy) {
-    from(patcherResSourceDir) {
-        into 'res'
-        exclude 'values/public.xml'
-    }
-    from(patcherAssetsSourceDir) {
-        into 'assets'
-    }
-    into("$projectDir/src/main")
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
 }
 
 dependencies {
     implementation project(':core')
     implementation project(path: ':patcher', configuration: 'androidPatchedElements')
     implementation libs.crosshook.android
-    compileOnly "me.shedaniel:static-mixin:1.0.9999"
-}
-
-tasks.named('preBuild').configure {
-    dependsOn ':patcher:patchAndroidJar'
-}
-
-import me.shedaniel.staticmixin.tasks.MixinPatchTask
-
-tasks.register('applyMixins', MixinPatchTask) {
-    from(sourceSets.main.output)
-    classpath.from(sourceSets.main.output + configurations.compileClasspath)
-    mixinConfig "android.mixins.json"
 }

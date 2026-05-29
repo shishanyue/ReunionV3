@@ -111,7 +111,7 @@
 
         <provider
             android:name="com.corrodinggames.rts.appFramework.GenericFileProvider"
-            android:authorities="com.corrodinggames.rts.fileProvider"
+            android:authorities="cn.tesseract.reunion.fileProvider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
