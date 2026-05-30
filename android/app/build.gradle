@@ -29,6 +29,7 @@ android {
 }
 
 dependencies {
-    implementation project(':android')
+    implementation project(path: ':android', configuration: 'androidMixedElements')
+    implementation coreProject
+    implementation libs.crosshook.android
 }
-

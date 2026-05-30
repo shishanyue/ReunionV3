@@ -2,6 +2,8 @@ plugins {
     id 'com.android.library'
 }
 
+import me.shedaniel.staticmixin.tasks.MixinPatchTask
+
 android {
     namespace 'cn.tesseract.reunion'
     compileSdk {
@@ -19,12 +21,70 @@ android {
     useLibrary 'org.apache.http.legacy'
 }
 
+configurations {
+    androidMixedElements {
+        canBeConsumed = true
+        canBeResolved = false
+    }
+}
+
+def releaseClassesJar = layout.buildDirectory.file('tmp/android/releaseClassesJar/classes.jar')
+
 dependencies {
     compileOnly project(path: ':patcher', configuration: 'androidPatchedElements')
     implementation coreProject
     implementation libs.crosshook.android
 }
 
+tasks.register('extractReleaseClassesJar', Copy) {
+    dependsOn 'bundleReleaseAar'
+
+    from(zipTree(tasks.named('bundleReleaseAar').flatMap { it.archiveFile })) {
+        include 'classes.jar'
+    }
+    into releaseClassesJar.get().asFile.parentFile
+}
+
+tasks.register('applyMixins', MixinPatchTask) {
+    dependsOn ':patcher:patchAndroidJar', 'extractReleaseClassesJar'
+    inputs.files(releaseClassesJar, configurations.releaseRuntimeClasspath)
+
+    archiveClassifier = 'mixed'
+    classpath.from(
+            releaseClassesJar,
+            configurations.releaseRuntimeClasspath
+    )
+    from(
+            zipTree(releaseClassesJar),
+            patcherProject.androidPatchedJar.map { zipTree(it) }
+    )
+    mixinConfig "core.mixins.json"
+    mixinConfig "android.mixins.json"
+}
+
+tasks.register('packageMixedReleaseAar', Zip) {
+    dependsOn 'applyMixins', 'bundleReleaseAar'
+
+    archiveBaseName = 'android'
+    archiveClassifier = 'mixed'
+    archiveExtension = 'aar'
+    destinationDirectory = layout.buildDirectory.dir('outputs/aar')
+
+    from(zipTree(tasks.named('bundleReleaseAar').flatMap { it.archiveFile })) {
+        exclude 'classes.jar'
+    }
+
+    from(tasks.named('applyMixins').flatMap { it.archiveFile }) {
+        rename { 'classes.jar' }
+    }
+}
+
 tasks.named('preBuild').configure {
     dependsOn ':patcher:patchAndroidJar'
+}
+
+artifacts {
+    androidMixedElements(tasks.named('packageMixedReleaseAar').flatMap { it.archiveFile }) {
+        builtBy 'packageMixedReleaseAar'
+    }
 }
