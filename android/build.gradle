@@ -1,48 +1,38 @@
 plugins {
-    alias(libs.plugins.java.library)
+    id 'com.android.library'
 }
 
-java {
-    sourceCompatibility = JavaVersion.VERSION_1_8
-    targetCompatibility = JavaVersion.VERSION_1_8
+android {
+    namespace 'cn.tesseract.reunion'
+    compileSdk {
+        //noinspection GradleDependency
+        version = release(36) {
+            minorApiLevel = 1
+        }
+    }
+
+    defaultConfig {
+        minSdk 21
+        //noinspection OldTargetApi
+        targetSdk 36
+        versionCode 1
+        versionName "1.0"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    useLibrary 'org.apache.http.legacy'
 }
 
 dependencies {
-    compileOnly project(path: ':patcher', configuration: 'androidPatchedElements')
-    api coreProject
-    compileOnly fileTree(dir: "$gameDir/libs", include: ['*.jar'])
+    implementation project(path: ':patcher', configuration: 'androidPatchedElements')
+    implementation coreProject
+    implementation libs.crosshook.android
 }
 
-import me.shedaniel.staticmixin.tasks.MixinPatchTask
-
-configurations {
-    androidMixedElements {
-        canBeConsumed = true
-        canBeResolved = false
-    }
-}
-
-tasks.register('applyMixins', MixinPatchTask) {
+tasks.named('preBuild').configure {
     dependsOn ':patcher:patchAndroidJar'
-    inputs.files(sourceSets.main.output, sourceSets.main.runtimeClasspath)
-
-    archiveClassifier = 'mixed'
-    classpath.from(
-            sourceSets.main.output,
-            sourceSets.main.runtimeClasspath
-    )
-    from(
-            sourceSets.main.output,
-            patcherProject.androidPatchedJar.map { zipTree(it) }
-    )
-    mixinConfig "core.mixins.json"
-    mixinConfig "android.mixins.json"
-}
-
-tasks.named('assemble') {
-    dependsOn 'applyMixins'
-}
-
-artifacts {
-    androidMixedElements(tasks.named('applyMixins').flatMap { it.archiveFile }) { builtBy 'applyMixins' }
 }
