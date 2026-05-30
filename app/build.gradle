@@ -44,12 +44,10 @@ tasks.register('importPatcherResourcesToSource', Copy) {
 }
 
 dependencies {
-    implementation project(':core')
-    implementation project(path: ':patcher', configuration: 'androidPatchedElements')
+    implementation project(path: ':android', configuration: 'androidMixedElements')
     implementation libs.crosshook.android
-    compileOnly "me.shedaniel:static-mixin:1.0.9999"
 }
 
 tasks.named('preBuild').configure {
-    dependsOn ':patcher:patchAndroidJar'
+    dependsOn ':android:applyMixins'
 }

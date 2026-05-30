@@ -8,7 +8,40 @@ java {
 }
 
 dependencies {
-    implementation project(':core')
-    implementation project(path: ':patcher', configuration: 'androidPatchedElements')
-    implementation libs.crosshook.android
+    compileOnly project(path: ':patcher', configuration: 'androidPatchedElements')
+    api coreProject
+}
+
+import me.shedaniel.staticmixin.tasks.MixinPatchTask
+
+configurations {
+    androidMixedElements {
+        canBeConsumed = true
+        canBeResolved = false
+    }
+}
+
+tasks.register('applyMixins', MixinPatchTask) {
+    dependsOn ':patcher:patchAndroidJar'
+    inputs.files(sourceSets.main.output, sourceSets.main.runtimeClasspath)
+
+    archiveClassifier = 'mixed'
+    classpath.from(
+            sourceSets.main.output,
+            sourceSets.main.runtimeClasspath
+    )
+    from(
+            sourceSets.main.output,
+            patcherProject.androidPatchedJar.map { zipTree(it) }
+    )
+    mixinConfig "core.mixins.json"
+    mixinConfig "android.mixins.json"
+}
+
+tasks.named('assemble') {
+    dependsOn 'applyMixins'
+}
+
+artifacts {
+    androidMixedElements(tasks.named('applyMixins').flatMap { it.archiveFile }) { builtBy 'applyMixins' }
 }
