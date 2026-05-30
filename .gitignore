@@ -1,6 +1,4 @@
-# Generated
-build/build-r.txt
-build/apk/
+.architectury-transformer
 desktop/run
 
 .gradle
