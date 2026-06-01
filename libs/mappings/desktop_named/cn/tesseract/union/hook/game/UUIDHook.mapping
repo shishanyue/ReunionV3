@@ -1,0 +1,2 @@
+CLASS cn/tesseract/union/hook/game/UUIDHook cn/tesseract/union/hook/game/UUIDHook
+	METHOD method_2717 getNetworkUUID (Lcom/corrodinggames/rts/gameFramework/j/class_1001;)Ljava/lang/String;

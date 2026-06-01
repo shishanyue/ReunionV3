@@ -1,4 +1,4 @@
-CLASS com/corrodinggames/rts/gameFramework/j/class_1015 com/corrodinggames/rts/gameFramework/network/GameRoomSettings
+CLASS com/corrodinggames/rts/gameFramework/j/class_1015 com/corrodinggames/rts/gameFramework/network/RoomSettings
 	FIELD field_6012 field_6012 Lcom/corrodinggames/rts/gameFramework/j/class_1016;
 	FIELD field_6013 mapPath Ljava/lang/String;
 	FIELD field_6014 startingCredits I
@@ -18,3 +18,4 @@ CLASS com/corrodinggames/rts/gameFramework/j/class_1015 com/corrodinggames/rts/g
 	FIELD field_6028 randomSeed I
 	METHOD method_2837 resetToDefaults ()V
 	METHOD clone clone ()Ljava/lang/Object;
+	METHOD method_5458 getSettingsSummary ()Ljava/lang/String;

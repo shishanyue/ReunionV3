@@ -1,4 +1,4 @@
-CLASS com/corrodinggames/rts/game/units/class_707 com/corrodinggames/rts/game/units/UnitCommandType
+CLASS com/corrodinggames/rts/game/units/class_707 com/corrodinggames/rts/game/units/WaypointType
 	FIELD field_3941 field_3941 Lcom/corrodinggames/rts/game/units/class_707;
 	FIELD field_3942 field_3942 Lcom/corrodinggames/rts/game/units/class_707;
 	FIELD field_3943 field_3943 Lcom/corrodinggames/rts/game/units/class_707;

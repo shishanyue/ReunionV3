@@ -6,11 +6,11 @@ CLASS com/corrodinggames/rts/gameFramework/e/class_899 com/corrodinggames/rts/ga
 	METHOD method_2161 createTempFileInContext (Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;
 	METHOD method_2162 method_2162 (Ljava/io/File;)Lcom/corrodinggames/rts/gameFramework/utility/class_1322;
 	METHOD method_2163 renameFile (Ljava/io/File;Ljava/io/File;)Z
-	METHOD method_2164 openOutputStream (Ljava/io/File;Z)Ljava/io/OutputStream;
+	METHOD method_2164 getOutputStream (Ljava/io/File;Z)Ljava/io/OutputStream;
 	METHOD method_2167 createTempFile (Ljava/lang/String;Ljava/lang/String;Z)Ljava/io/File;
 	METHOD method_2168 listFilesRecursive (Ljava/lang/String;Z)[Ljava/lang/String;
 	METHOD method_2169 initialize ()V
-	METHOD method_2170 deleteDirectory (Ljava/io/File;)Z
+	METHOD method_2170 delete (Ljava/io/File;)Z
 	METHOD method_2171 renameFileInternal (Ljava/io/File;Ljava/io/File;)Z
 	METHOD method_2172 setWritePath (Ljava/lang/String;)V
 	METHOD method_2174 isAbstractPath (Ljava/lang/String;)Z
@@ -25,9 +25,9 @@ CLASS com/corrodinggames/rts/gameFramework/e/class_899 com/corrodinggames/rts/ga
 	METHOD method_2185 getInternalPath ()Ljava/lang/String;
 	METHOD method_2186 fileExists (Ljava/lang/String;)Z
 	METHOD method_2187 method_2187 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1322;
-	METHOD method_2188 method_2188 (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1322;
-	METHOD method_2190 deleteFile (Ljava/lang/String;)Z
-	METHOD method_2191 getFileSize (Ljava/lang/String;)J
+	METHOD method_2188 getInputStream (Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1322;
+	METHOD method_2190 mkdir (Ljava/lang/String;)Z
+	METHOD method_2191 getLastModified (Ljava/lang/String;)J
 	METHOD method_2192 mapPath (Ljava/lang/String;)Ljava/lang/String;
 	METHOD method_2193 getAbsolutePath (Ljava/lang/String;)Ljava/lang/String;
 	METHOD method_2195 getSourcePath (Ljava/lang/String;)Ljava/lang/String;

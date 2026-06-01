@@ -1,9 +1,9 @@
 CLASS com/corrodinggames/rts/gameFramework/m/class_1225 com/corrodinggames/rts/gameFramework/graphics/GraphicsEngine
-	METHOD method_3236 method_3236 (FF)V
+	METHOD method_3236 scale (FF)V
 	METHOD method_3237 method_3237 (FFF)V
 	METHOD method_3238 method_3238 (FFFF)V
-	METHOD method_3239 method_3239 (FFFFLandroid/graphics/Paint;)V
-	METHOD method_3240 method_3240 (FFFLandroid/graphics/Paint;)V
+	METHOD method_3239 drawLine (FFFFLandroid/graphics/Paint;)V
+	METHOD method_3240 drawCircle (FFFLandroid/graphics/Paint;)V
 	METHOD method_3241 method_3241 (I)Lcom/corrodinggames/rts/gameFramework/m/class_1189;
 	METHOD method_3242 method_3242 (II)V
 	METHOD method_3243 method_3243 (IIZ)Lcom/corrodinggames/rts/gameFramework/m/class_1189;
@@ -12,7 +12,7 @@ CLASS com/corrodinggames/rts/gameFramework/m/class_1225 com/corrodinggames/rts/g
 	METHOD method_3248 method_3248 (Landroid/graphics/Rect;)V
 	METHOD method_3249 method_3249 (Landroid/graphics/Rect;Landroid/graphics/Paint;)V
 	METHOD method_3250 method_3250 (Landroid/graphics/RectF;)V
-	METHOD method_3251 method_3251 (Landroid/graphics/RectF;Landroid/graphics/Paint;)V
+	METHOD method_3251 drawRect (Landroid/graphics/RectF;Landroid/graphics/Paint;)V
 	METHOD method_3252 method_3252 (Lcom/corrodinggames/rts/gameFramework/m/class_1081;)V
 	METHOD method_3253 method_3253 (Lcom/corrodinggames/rts/gameFramework/m/class_1189;)Lcom/corrodinggames/rts/gameFramework/m/class_1225;
 	METHOD method_3254 method_3254 (Lcom/corrodinggames/rts/gameFramework/m/class_1189;FFFLandroid/graphics/Paint;)V
@@ -25,7 +25,7 @@ CLASS com/corrodinggames/rts/gameFramework/m/class_1225 com/corrodinggames/rts/g
 	METHOD method_3264 method_3264 (Lcom/corrodinggames/rts/gameFramework/m/class_1239;)V
 	METHOD method_3265 method_3265 (Lcom/corrodinggames/rts/gameFramework/m/class_1240;)V
 	METHOD method_3266 method_3266 (Ljava/io/InputStream;Z)Lcom/corrodinggames/rts/gameFramework/m/class_1189;
-	METHOD method_3267 method_3267 (Ljava/lang/String;FFLandroid/graphics/Paint;)V
+	METHOD method_3267 drawText (Ljava/lang/String;FFLandroid/graphics/Paint;)V
 	METHOD method_3268 method_3268 (Ljava/lang/String;FFLandroid/graphics/Paint;Landroid/graphics/Paint;F)V
 	METHOD method_3269 method_3269 (Ljava/lang/String;Landroid/graphics/Paint;)I
 	METHOD method_3270 method_3270 (Ljava/util/concurrent/locks/Lock;)V

@@ -14,7 +14,7 @@ CLASS com/corrodinggames/rts/gameFramework/class_773 com/corrodinggames/rts/game
 	METHOD method_1764 method_1764 (F)V
 	METHOD method_1765 method_1765 (FZ)V
 	METHOD method_1766 method_1766 (JLjava/lang/Class;Z)Lcom/corrodinggames/rts/gameFramework/class_773;
-	METHOD method_1767 method_1767 (JZ)Lcom/corrodinggames/rts/game/units/class_426;
+	METHOD method_1767 getUnitById (JZ)Lcom/corrodinggames/rts/game/units/class_426;
 	METHOD method_1768 method_1768 (Lcom/corrodinggames/rts/gameFramework/j/class_1044;)V
 	METHOD method_1769 method_1769 (Lcom/corrodinggames/rts/gameFramework/class_1061;)Z
 	METHOD method_1770 method_1770 (F)Z

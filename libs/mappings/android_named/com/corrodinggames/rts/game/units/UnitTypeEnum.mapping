@@ -47,6 +47,8 @@ CLASS com/corrodinggames/rts/game/units/class_431 com/corrodinggames/rts/game/un
 	CLASS class_696 ZoneMarkerUnitType
 	CLASS class_697 EditorOrBuilderUnitType
 	CLASS class_698 DummyNonUnitWithTeamUnitType
+	CLASS class_699 class_699
+		METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I
 	CLASS class_700 TurretUnitType
 	CLASS class_701 AntiAirTurretUnitType
 	CLASS class_702 BuilderUnitType
@@ -113,7 +115,7 @@ CLASS com/corrodinggames/rts/game/units/class_431 com/corrodinggames/rts/game/un
 	FIELD field_2120 field_2120 Lcom/corrodinggames/rts/game/units/class_431;
 	FIELD field_2085 field_2085 Lcom/corrodinggames/rts/game/units/class_431;
 	METHOD method_1078 method_1078 (Lcom/corrodinggames/rts/game/units/class_409;)I
-	METHOD method_1082 method_1082 (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/class_704;
+	METHOD method_1082 getByName (Ljava/lang/String;)Lcom/corrodinggames/rts/game/units/class_704;
 	METHOD method_1084 formatStringWithThreeStrings (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 	METHOD method_1085 method_1085 (Ljava/lang/String;Z)Lcom/corrodinggames/rts/game/units/class_704;
 	METHOD method_1086 addUnitsToList (Ljava/util/ArrayList;I)V

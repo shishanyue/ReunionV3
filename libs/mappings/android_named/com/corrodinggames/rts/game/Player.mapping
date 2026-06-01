@@ -23,24 +23,24 @@ CLASS com/corrodinggames/rts/game/class_324 com/corrodinggames/rts/game/Player
 	FIELD field_1445 colorHue D
 	FIELD field_1447 field_1447 [Lcom/corrodinggames/rts/game/class_324;
 	FIELD field_1399 AIBehaviourOverride Ljava/lang/Integer;
-	FIELD field_1448 NEUTRAL_PLAYER I
+	FIELD field_1448 maxTeamId I
 	FIELD field_1400 AILevelOverride Ljava/lang/Integer;
-	FIELD field_1449 ALL_NEUTRAL_PLAYER I
-	FIELD field_1401 AIControlOverride Ljava/lang/Integer;
-	FIELD field_1450 ALLIES_PLAYER I
-	FIELD field_1402 AIGroupOverride I
-	FIELD field_1451 ENEMIES_PLAYER I
+	FIELD field_1449 extraTeamId I
+	FIELD field_1401 colorOverride Ljava/lang/Integer;
+	FIELD field_1450 limitTeamId I
+	FIELD field_1402 color I
+	FIELD field_1451 totalTeamId I
 	FIELD field_1403 colorBrightness Z
-	FIELD field_1452 field_1452 Lcom/corrodinggames/rts/game/class_324;
+	FIELD field_1452 BLANK_PLAYER Lcom/corrodinggames/rts/game/class_324;
 	FIELD field_1404 colorHex I
-	FIELD field_1453 field_1453 Lcom/corrodinggames/rts/game/class_324;
+	FIELD field_1453 ENEMY_PLAYER Lcom/corrodinggames/rts/game/class_324;
 	FIELD field_1405 isPlayerVictory Z
-	FIELD field_1454 field_1454 Lcom/corrodinggames/rts/game/class_324;
+	FIELD field_1454 NETURAL_PLAYER Lcom/corrodinggames/rts/game/class_324;
 	FIELD field_1406 isPlayerDefeatedTech Z
-	FIELD field_1455 field_1455 [Lcom/corrodinggames/rts/game/class_324;
+	FIELD field_1455 playerList [Lcom/corrodinggames/rts/game/class_324;
 	FIELD field_1407 isPlayerWipedOut Z
 	FIELD field_1456 field_1456 Lcom/corrodinggames/rts/game/class_324;
-	FIELD field_1457 teamId I
+	FIELD field_1457 position I
 	FIELD field_1409 isPConnectionActive Z
 	FIELD field_1458 MODDER_WARNING Ljava/lang/String;
 	FIELD field_1410 isPlayerNetworkActive Z
@@ -54,7 +54,7 @@ CLASS com/corrodinggames/rts/game/class_324 com/corrodinggames/rts/game/Player
 	FIELD field_1414 fogOfWarData [[B
 	FIELD field_1463 teamUnitCount I
 	FIELD field_1415 teamSharedControlType Ljava/lang/String;
-	FIELD field_1464 colorId I
+	FIELD field_1464 team I
 	FIELD field_1416 AIHint Ljava/lang/String;
 	FIELD field_1465 field_1465 Lcom/corrodinggames/rts/game/units/class_409;
 	FIELD field_1417 AILevel I
@@ -91,7 +91,7 @@ CLASS com/corrodinggames/rts/game/class_324 com/corrodinggames/rts/game/Player
 	METHOD method_444 updatePlayerActiveStatus ()V
 	METHOD method_486 method_486 (F)V
 	METHOD method_487 removeCredits (I)I
-	METHOD method_488 getResourceCost (IZ)V
+	METHOD method_488 setMaxTeamId (IZ)V
 	METHOD method_489 method_489 (Lcom/corrodinggames/rts/game/class_324;)Z
 	METHOD method_490 method_490 (Lcom/corrodinggames/rts/game/units/class_409;)V
 	METHOD method_491 method_491 (Lcom/corrodinggames/rts/game/units/class_426;)V
@@ -131,7 +131,7 @@ CLASS com/corrodinggames/rts/game/class_324 com/corrodinggames/rts/game/Player
 	METHOD method_523 isPlayerAlly ()Z
 	METHOD method_524 method_524 (I)Ljava/lang/String;
 	METHOD method_525 updatePlayerAllyStatus ()V
-	METHOD method_526 method_526 (I)Lcom/corrodinggames/rts/game/class_324;
+	METHOD method_526 get (I)Lcom/corrodinggames/rts/game/class_324;
 	METHOD method_452 getPlayerColorIndex ()I
 	METHOD method_527 isPlayerEnemy ()Z
 	METHOD method_528 method_528 (I)V
@@ -147,7 +147,7 @@ CLASS com/corrodinggames/rts/game/class_324 com/corrodinggames/rts/game/Player
 	METHOD method_457 staticUpdatePlayerColors ()V
 	METHOD method_534 isPlayerDefeatedCheck ()Z
 	METHOD method_458 getDisplayedResourcesTotal ()D
-	METHOD method_536 getEnergyScaledByCredits ()I
+	METHOD method_536 getIncome ()I
 	METHOD method_460 staticUpdatePlayerData2 ()V
 	METHOD method_537 getPlayerUnitCountInt ()I
 	METHOD method_461 getEconomyMultiplier ()F

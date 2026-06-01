@@ -57,6 +57,7 @@ CLASS com/corrodinggames/rts/gameFramework/utility/class_1297 com/corrodinggames
 	METHOD method_3581 method_3581 (Ljava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/utility/class_1323;
 	METHOD method_3582 hasKey (Ljava/lang/String;Ljava/lang/String;)Z
 	METHOD method_3586 getStringRawStrict (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+	METHOD method_3526 getValueAsLogicStringOrDefault (Lcom/corrodinggames/rts/game/units/custom/class_581;Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean$ReturnType;)Lcom/corrodinggames/rts/game/units/custom/logicBooleans/LogicBoolean;
 	METHOD method_3550 getValueInternal (Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)Ljava/lang/String;
 	METHOD method_3576 getValueFromTwoKeys (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 	METHOD method_3583 trackReadWithSource (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V

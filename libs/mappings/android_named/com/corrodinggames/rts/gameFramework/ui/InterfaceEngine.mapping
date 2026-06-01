@@ -1,4 +1,4 @@
-CLASS com/corrodinggames/rts/gameFramework/f/class_961 com/corrodinggames/rts/gameFramework/ui/GameUI
+CLASS com/corrodinggames/rts/gameFramework/f/class_961 com/corrodinggames/rts/gameFramework/ui/InterfaceEngine
 	FIELD field_5502 field_5502 Z
 	FIELD field_5451 selectionBoxMinHeight F
 	FIELD field_5504 field_5504 Lcom/corrodinggames/rts/game/units/class_426;

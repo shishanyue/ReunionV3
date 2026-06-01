@@ -1,9 +1,8 @@
-CLASS com/corrodinggames/rts/gameFramework/j/class_1030 com/corrodinggames/rts/gameFramework/network/GameOutputStream
+CLASS com/corrodinggames/rts/gameFramework/j/class_1030 com/corrodinggames/rts/gameFramework/network/OutputNetStream
 	FIELD field_6112 rootByteBuffer Ljava/io/ByteArrayOutputStream;
 	FIELD field_6113 rootDataOutput Ljava/io/DataOutputStream;
 	FIELD field_6114 currentDataOutput Ljava/io/DataOutputStream;
 	FIELD field_6116 outputBlockStack Ljava/util/LinkedList;
-	FIELD field_8562 maxBufferSize I
 	METHOD method_2853 flushAllBuffers ()V
 	METHOD method_2875 writeBytesWithLength ([B)V
 	METHOD method_2854 writeDouble (D)V
@@ -17,7 +16,7 @@ CLASS com/corrodinggames/rts/gameFramework/j/class_1030 com/corrodinggames/rts/g
 	METHOD method_2862 method_2862 (Lcom/corrodinggames/rts/game/units/class_426;)V
 	METHOD method_2863 method_2863 (Lcom/corrodinggames/rts/game/units/class_704;)V
 	METHOD method_2864 method_2864 (Lcom/corrodinggames/rts/gameFramework/class_773;)V
-	METHOD method_2865 method_2865 (Lcom/corrodinggames/rts/gameFramework/j/class_1037;)V
+	METHOD method_2865 writeConnection (Lcom/corrodinggames/rts/gameFramework/j/class_1037;)V
 	METHOD method_2866 writeByteArrayWithLength (Ljava/io/ByteArrayOutputStream;)V
 	METHOD method_2867 writeStreamWithLength (Ljava/io/File;)V
 	METHOD method_2868 writeInputStreamWithLength (Ljava/io/InputStream;I)V
@@ -42,4 +41,3 @@ CLASS com/corrodinggames/rts/gameFramework/j/class_1030 com/corrodinggames/rts/g
 	METHOD method_2888 endBlock (Ljava/lang/String;)V
 	METHOD method_2889 isCompressionEnabled ()Z
 	METHOD method_2890 close ()V
-	METHOD method_5470 getMaxSize ()I

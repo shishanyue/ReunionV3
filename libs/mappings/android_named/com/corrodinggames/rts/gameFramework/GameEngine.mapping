@@ -1,4 +1,20 @@
 CLASS com/corrodinggames/rts/gameFramework/class_1061 com/corrodinggames/rts/gameFramework/GameEngine
+	CLASS class_1077 class_1077
+		FIELD field_6644 field_6644 Lcom/corrodinggames/rts/gameFramework/class_1061;
+		METHOD run run ()V
+	CLASS class_1254
+		CLASS class_1281 class_1281
+			FIELD field_7150 field_7150 Lcom/corrodinggames/rts/gameFramework/class_1061$class_1254;
+			METHOD onClick onClick (Landroid/content/DialogInterface;I)V
+		CLASS class_1283 class_1283
+			FIELD field_7152 field_7152 Lcom/corrodinggames/rts/gameFramework/class_1061$class_1254;
+			METHOD onCancel onCancel (Landroid/content/DialogInterface;)V
+		FIELD field_7013 field_7013 Lcom/corrodinggames/rts/gameFramework/class_1061;
+		METHOD run run ()V
+	CLASS class_1284 class_1284
+		FIELD field_7153 field_7153 Lcom/corrodinggames/rts/gameFramework/class_1061;
+		METHOD run run ()V
+	CLASS class_1285 class_1285
 	FIELD field_6298 showToastRunnable Ljava/lang/Runnable;
 	FIELD field_6286 isNetworkServerStatic Z
 	FIELD field_6287 isUnitImageGenerationMode Z
@@ -12,7 +28,7 @@ CLASS com/corrodinggames/rts/gameFramework/class_1061 com/corrodinggames/rts/gam
 	FIELD field_6294 isGameThreadRunningStatic Z
 	FIELD field_6314 gameLoopLock2 Ljava/lang/Object;
 	FIELD field_6295 isDedicatedServer Z
-	FIELD field_6315 field_6315 Lcom/corrodinggames/rts/gameFramework/class_1061;
+	FIELD field_6315 INSTANCE Lcom/corrodinggames/rts/gameFramework/class_1061;
 	FIELD field_6296 isGameMinimizedStatic2 Z
 	FIELD field_6316 appContext Landroid/content/Context;
 	FIELD field_6297 isCommandLineMode Z
@@ -62,21 +78,21 @@ CLASS com/corrodinggames/rts/gameFramework/class_1061 com/corrodinggames/rts/gam
 	FIELD field_6365 isGamePausedOrMinimized Z
 	FIELD field_6338 field_6338 Lcom/corrodinggames/rts/gameFramework/utility/class_1320;
 	FIELD field_6366 isNetworkGameActive Z
-	FIELD field_6339 field_6339 Lcom/corrodinggames/rts/game/b/class_299;
+	FIELD field_6339 map Lcom/corrodinggames/rts/game/b/class_299;
 	FIELD field_6367 isNetworkConnected Z
 	FIELD field_6340 field_6340 Lcom/corrodinggames/rts/gameFramework/a/class_761;
 	FIELD field_6368 isNetworkServer Z
 	FIELD field_6341 field_6341 Lcom/corrodinggames/rts/gameFramework/class_789;
 	FIELD field_6369 isServer Z
-	FIELD field_6342 field_6342 Lcom/corrodinggames/rts/gameFramework/m/class_1225;
+	FIELD field_6342 graphicsEngine Lcom/corrodinggames/rts/gameFramework/m/class_1225;
 	FIELD field_6370 isShowingDialog Z
 	FIELD field_6344 field_6344 Lcom/corrodinggames/rts/gameFramework/class_756;
 	FIELD field_6371 isLoading Z
 	FIELD field_6345 settingsEngine Lcom/corrodinggames/rts/gameFramework/SettingsEngine;
 	FIELD field_6372 isSaving Z
 	FIELD field_6346 field_6346 Lcom/corrodinggames/rts/gameFramework/d/class_892;
-	FIELD field_6373 field_6373 Lcom/corrodinggames/rts/game/class_324;
-	FIELD field_6347 field_6347 Lcom/corrodinggames/rts/gameFramework/f/class_961;
+	FIELD field_6373 userPlayer Lcom/corrodinggames/rts/game/class_324;
+	FIELD field_6347 interfaceEngine Lcom/corrodinggames/rts/gameFramework/f/class_961;
 	FIELD field_6374 gameSpeed F
 	FIELD field_6348 field_6348 Lcom/corrodinggames/rts/gameFramework/class_779;
 	FIELD field_6375 gameSpeedMultiplier F
@@ -86,7 +102,7 @@ CLASS com/corrodinggames/rts/gameFramework/class_1061 com/corrodinggames/rts/gam
 	FIELD field_6377 isGameThreadRunning Z
 	FIELD field_6351 field_6351 Lcom/corrodinggames/rts/gameFramework/f/class_969;
 	FIELD field_6378 currentTick I
-	FIELD field_6352 field_6352 Lcom/corrodinggames/rts/gameFramework/j/class_1001;
+	FIELD field_6352 networkEngine Lcom/corrodinggames/rts/gameFramework/j/class_1001;
 	FIELD field_6379 lastTick I
 	FIELD field_6380 tickDelta I
 	FIELD field_6354 field_6354 Lcom/corrodinggames/rts/gameFramework/i/class_991;
@@ -98,7 +114,7 @@ CLASS com/corrodinggames/rts/gameFramework/class_1061 com/corrodinggames/rts/gam
 	FIELD field_6357 field_6357 Lcom/corrodinggames/rts/game/units/f/class_711;
 	FIELD field_6410 field_6410 Lcom/corrodinggames/rts/gameFramework/class_882;
 	FIELD field_6384 cameraMovementY F
-	FIELD field_6411 field_6411 Lcom/corrodinggames/rts/gameFramework/n/class_1273;
+	FIELD field_6411 missionEngine Lcom/corrodinggames/rts/gameFramework/n/class_1273;
 	FIELD field_6385 viewpointWidth F
 	FIELD field_6412 field_6412 Lcom/corrodinggames/rts/gameFramework/class_873;
 	FIELD field_6386 currentScreenWidthPixels F
@@ -289,7 +305,7 @@ CLASS com/corrodinggames/rts/gameFramework/class_1061 com/corrodinggames/rts/gam
 	METHOD method_2975 showPendingMessageBox ()V
 	METHOD method_3074 getAllUnitsChecksum ()I
 	METHOD method_3075 isGamePaused ()Z
-	METHOD method_3076 method_3076 ()Lcom/corrodinggames/rts/gameFramework/class_1061;
+	METHOD method_3076 getInstance ()Lcom/corrodinggames/rts/gameFramework/class_1061;
 	METHOD method_3077 printLog ()Z
 	METHOD method_2979 processKeyEvents ()V
 	METHOD method_3078 getPointerIndex ()Z

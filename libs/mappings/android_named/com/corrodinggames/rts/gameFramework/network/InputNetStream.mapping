@@ -1,4 +1,4 @@
-CLASS com/corrodinggames/rts/gameFramework/j/class_1044 com/corrodinggames/rts/gameFramework/network/GameInputStream
+CLASS com/corrodinggames/rts/gameFramework/j/class_1044 com/corrodinggames/rts/gameFramework/network/InputNetStream
 	FIELD field_6237 byteArrayInput Ljava/io/ByteArrayInputStream;
 	FIELD field_6241 bytesRead I
 	FIELD field_6242 rootDataInput Ljava/io/DataInputStream;

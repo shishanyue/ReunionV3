@@ -28,7 +28,7 @@ CLASS com/corrodinggames/rts/gameFramework/j/class_1001 com/corrodinggames/rts/g
 		METHOD run run ()V
 	FIELD field_5899 field_5899 Z
 	FIELD field_5848 hostPlayer Lcom/corrodinggames/rts/game/class_324;
-	FIELD field_5874 field_5874 Lcom/corrodinggames/rts/gameFramework/j/class_1015;
+	FIELD field_5874 roomSettings Lcom/corrodinggames/rts/gameFramework/j/class_1015;
 	FIELD field_5902 field_5902 F
 	FIELD field_5875 field_5875 Ljava/lang/String;
 	FIELD field_5903 field_5903 Z
@@ -71,9 +71,9 @@ CLASS com/corrodinggames/rts/gameFramework/j/class_1001 com/corrodinggames/rts/g
 	FIELD field_5923 field_5923 J
 	FIELD field_5896 publicPortOpen Ljava/lang/Boolean;
 	FIELD field_5924 field_5924 Z
-	FIELD field_5925 field_5925 I
-	FIELD field_5898 gameHasBeenStarted Z
-	FIELD field_5926 field_5926 I
+	FIELD field_5925 unitCapA I
+	FIELD field_5898 gameStarted Z
+	FIELD field_5926 unitCapB I
 	FIELD field_5900 field_5900 Z
 	FIELD field_5936 field_5936 Z
 	FIELD field_5849 field_5849 Z
@@ -95,9 +95,9 @@ CLASS com/corrodinggames/rts/gameFramework/j/class_1001 com/corrodinggames/rts/g
 	FIELD field_5949 field_5949 Lcom/corrodinggames/rts/game/class_313;
 	FIELD field_5950 field_5950 Ljava/lang/Object;
 	FIELD field_5951 field_5951 Z
-	FIELD field_5952 field_5952 F
-	FIELD field_5953 field_5953 F
-	FIELD field_5954 field_5954 I
+	FIELD field_5952 timeSinceLastSync F
+	FIELD field_5953 timeSinceLastSync2 F
+	FIELD field_5954 syncCount I
 	FIELD field_5955 field_5955 I
 	FIELD field_5957 totalBytesSent J
 	FIELD field_5958 totalBytesReceived J
@@ -158,14 +158,14 @@ CLASS com/corrodinggames/rts/gameFramework/j/class_1001 com/corrodinggames/rts/g
 	METHOD method_2730 method_2730 (Landroid/app/NotificationManager;)V
 	METHOD method_2731 method_2731 (Landroid/app/NotificationManager;Ljava/lang/String;Ljava/lang/String;)V
 	METHOD method_2732 method_2732 (Lcom/corrodinggames/rts/game/class_324;)V
-	METHOD method_2733 method_2733 (Lcom/corrodinggames/rts/game/class_324;I)V
-	METHOD method_2734 method_2734 (Lcom/corrodinggames/rts/gameFramework/class_898;)V
+	METHOD method_2733 movePlayer (Lcom/corrodinggames/rts/game/class_324;I)V
+	METHOD method_2734 addAction (Lcom/corrodinggames/rts/gameFramework/class_898;)V
 	METHOD method_2735 method_2735 (Lcom/corrodinggames/rts/gameFramework/j/class_1011;)V
 	METHOD method_2736 method_2736 (Lcom/corrodinggames/rts/gameFramework/j/class_1024;)V
 	METHOD method_2737 method_2737 (Lcom/corrodinggames/rts/gameFramework/j/class_1032;)V
 	METHOD method_2738 method_2738 (Lcom/corrodinggames/rts/gameFramework/j/class_1037;)V
 	METHOD method_2739 method_2739 (Lcom/corrodinggames/rts/gameFramework/j/class_1037;I)Lcom/corrodinggames/rts/gameFramework/j/class_1037;
-	METHOD method_2740 method_2740 (Lcom/corrodinggames/rts/gameFramework/j/class_1037;ILjava/lang/String;Ljava/lang/String;)V
+	METHOD method_2740 sendMessage (Lcom/corrodinggames/rts/gameFramework/j/class_1037;ILjava/lang/String;Ljava/lang/String;)V
 	METHOD method_2741 method_2741 (Lcom/corrodinggames/rts/gameFramework/j/class_1037;Lcom/corrodinggames/rts/game/class_324;Ljava/lang/String;Ljava/lang/String;)V
 	METHOD method_2742 method_2742 (Lcom/corrodinggames/rts/gameFramework/j/class_1037;Lcom/corrodinggames/rts/game/class_324;Ljava/lang/String;Ljava/lang/String;Lcom/corrodinggames/rts/gameFramework/j/class_1037;)V
 	METHOD method_2743 method_2743 (Lcom/corrodinggames/rts/gameFramework/j/class_1037;Lcom/corrodinggames/rts/gameFramework/j/class_1032;)V
@@ -183,7 +183,7 @@ CLASS com/corrodinggames/rts/gameFramework/j/class_1001 com/corrodinggames/rts/g
 	METHOD method_2761 method_2761 (Lcom/corrodinggames/rts/game/class_324;)Z
 	METHOD method_2762 method_2762 (Lcom/corrodinggames/rts/game/class_324;I)V
 	METHOD method_2763 method_2763 (Lcom/corrodinggames/rts/gameFramework/j/class_1024;)V
-	METHOD method_2764 method_2764 (Lcom/corrodinggames/rts/gameFramework/j/class_1032;)V
+	METHOD method_2764 sendPacketToAll (Lcom/corrodinggames/rts/gameFramework/j/class_1032;)V
 	METHOD method_2765 method_2765 (Lcom/corrodinggames/rts/gameFramework/j/class_1037;)V
 	METHOD method_2766 method_2766 (Lcom/corrodinggames/rts/gameFramework/j/class_1037;ILjava/lang/String;Ljava/lang/String;)Lcom/corrodinggames/rts/gameFramework/j/class_1037;
 	METHOD method_2767 method_2767 (Lcom/corrodinggames/rts/gameFramework/j/class_1037;Lcom/corrodinggames/rts/game/class_324;Ljava/lang/String;Ljava/lang/String;)Z

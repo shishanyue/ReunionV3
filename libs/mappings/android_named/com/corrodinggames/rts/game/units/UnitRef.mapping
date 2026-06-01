@@ -1,11 +1,11 @@
-CLASS com/corrodinggames/rts/game/units/class_426 com/corrodinggames/rts/game/units/BaseUnit
+CLASS com/corrodinggames/rts/game/units/class_426 com/corrodinggames/rts/game/units/UnitRef
 	FIELD field_1901 field_1901 Lcom/corrodinggames/rts/gameFramework/utility/class_1325;
 	FIELD field_1902 field_1902 Lcom/corrodinggames/rts/game/units/custom/d/class_552;
 	FIELD field_1903 unitFlags1 I
 	FIELD field_1904 unitFlags2 I
 	FIELD field_1905 unitFlags3 I
 	FIELD field_1906 unitFlags4 I
-	FIELD field_1908 field_1908 Lcom/corrodinggames/rts/gameFramework/utility/class_1331;
+	FIELD field_1908 allUnitRef Lcom/corrodinggames/rts/gameFramework/utility/class_1331;
 	FIELD field_1909 field_1909 Ljava/util/HashMap;
 	FIELD field_1910 field_1910 Ljava/util/HashMap;
 	FIELD field_1911 field_1911 Ljava/util/HashMap;
@@ -122,7 +122,6 @@ CLASS com/corrodinggames/rts/game/units/class_426 com/corrodinggames/rts/game/un
 	FIELD field_2022 field_2022 Landroid/graphics/Rect;
 	FIELD field_2023 field_2023 Landroid/graphics/Rect;
 	FIELD field_2024 field_2024 Ljava/util/ArrayList;
-	FIELD field_7960 visible Z
 	METHOD method_900 checkAttackCooldown (FFF)Z
 	METHOD method_902 method_902 (II)Z
 	METHOD method_903 takeDamage (Landroid/graphics/Paint;Z)V
@@ -291,10 +290,3 @@ CLASS com/corrodinggames/rts/game/units/class_426 com/corrodinggames/rts/game/un
 	METHOD method_899 method_899 ()I
 	METHOD method_1066 method_1066 ()I
 	METHOD method_1067 getUnitAIPathfindHeuristic ()F
-	METHOD method_4478 setUnitSelected (I)V
-	METHOD method_4480 setPosition (Landroid/graphics/Paint;)V
-	METHOD method_4481 heal (Landroid/graphics/RectF;)Z
-	METHOD method_4491 getUnitAIType ()V
-	METHOD method_4492 getUnitAIConditionTime ()V
-	METHOD method_4493 getUnitAIPathfindTarget ()Z
-	METHOD method_4494 getUnitAIPathfindDistance ()I

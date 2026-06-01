@@ -1,7 +1,7 @@
 CLASS com/corrodinggames/rts/gameFramework/j/class_1037 com/corrodinggames/rts/gameFramework/network/NetworkConnection
 	FIELD field_6165 field_6165 Lcom/corrodinggames/rts/gameFramework/j/class_1001;
-	FIELD field_6142 field_6142 Lcom/corrodinggames/rts/game/class_313;
-	FIELD field_6166 isDisconnecting Z
+	FIELD field_6142 player Lcom/corrodinggames/rts/game/class_313;
+	FIELD field_6166 disconnected Z
 	FIELD field_6143 field_6143 I
 	FIELD field_6167 disconnectRequested Z
 	FIELD field_6144 field_6144 J
@@ -49,7 +49,7 @@ CLASS com/corrodinggames/rts/gameFramework/j/class_1037 com/corrodinggames/rts/g
 	FIELD field_8566 commandWindowStartMs J
 	FIELD field_8567 commandLimitReached Z
 	METHOD method_2893 logDebug ()I
-	METHOD method_2894 method_2894 (Lcom/corrodinggames/rts/gameFramework/j/class_1032;)V
+	METHOD method_2894 sendPacket (Lcom/corrodinggames/rts/gameFramework/j/class_1032;)V
 	METHOD method_2895 handleRemoteDisconnect (Ljava/lang/String;)V
 	METHOD method_2897 sendPacket (ZZLjava/lang/String;)V
 	METHOD method_2898 getPlayerTeamId ()I
