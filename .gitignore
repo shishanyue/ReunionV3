@@ -42,6 +42,5 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-
-*.mapping
 .agents/
+/libs/mappings
